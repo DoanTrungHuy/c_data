@@ -29,9 +29,9 @@ export default function CDataLogo({
 
   return (
     <div className={`flex items-center gap-2.5 sm:gap-3 select-none ${className}`}>
-      {/* Biểu tượng Logo Đơn Giản & Tinh Tế (Minimalist C_Data Icon) */}
+      {/* Biểu tượng Logo Đẳng Cấp & Tinh Tế (Cyber Wave C + Emerald Beacon) */}
       <div
-        className={`relative flex ${iconSizes[size]} shrink-0 items-center justify-center bg-slate-950 border border-slate-800 shadow-md transition-transform duration-200 group-hover:scale-105 p-1.5`}
+        className={`relative flex ${iconSizes[size]} shrink-0 items-center justify-center transition-transform duration-200 group-hover:scale-105 drop-shadow-sm`}
       >
         <svg
           viewBox="0 0 64 64"
@@ -40,28 +40,54 @@ export default function CDataLogo({
           className="w-full h-full"
         >
           <defs>
+            <linearGradient id="cdata-bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#0A0F1A" />
+              <stop offset="100%" stopColor="#111827" />
+            </linearGradient>
             <linearGradient id="cdata-arc-grad" x1="0%" y1="0%" x2="100%" y2="100%">
               <stop offset="0%" stopColor="#38BDF8" />
-              <stop offset="50%" stopColor="#3B82F6" />
-              <stop offset="100%" stopColor="#6366F1" />
+              <stop offset="50%" stopColor="#2563EB" />
+              <stop offset="100%" stopColor="#8B5CF6" />
             </linearGradient>
-            <linearGradient id="cdata-dot-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#38BDF8" />
-              <stop offset="100%" stopColor="#06B6D4" />
+            <linearGradient id="cdata-spark-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#34D399" />
+              <stop offset="50%" stopColor="#10B981" />
+              <stop offset="100%" stopColor="#059669" />
+            </linearGradient>
+            <linearGradient id="cdata-border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#38BDF8" stopOpacity="0.45" />
+              <stop offset="100%" stopColor="#8B5CF6" stopOpacity="0.18" />
             </linearGradient>
           </defs>
 
-          {/* Đường cong chữ C tối giản, sắc nét, hiện đại */}
+          {/* Nền Obsidian Squircle & Viền Phản Quang */}
+          <rect width="64" height="64" rx="16" fill="url(#cdata-bg-grad)" />
+          <rect
+            x="0.75"
+            y="0.75"
+            width="62.5"
+            height="62.5"
+            rx="15.25"
+            stroke="url(#cdata-border-grad)"
+            strokeWidth="1.5"
+          />
+
+          {/* Đường cong Chữ C Khí Động Học (Sóng Vịnh Hạ Long & Cyber Wave) */}
           <path
-            d="M44 19 A 17.5 17.5 0 1 0 44 45"
+            d="M43 20 A 17 17 0 1 0 43 44"
             stroke="url(#cdata-arc-grad)"
-            strokeWidth="7"
+            strokeWidth="7.2"
             strokeLinecap="round"
           />
 
-          {/* Điểm hội tụ dữ liệu công nghệ (Data Core Spark) */}
-          <circle cx="37" cy="32" r="4.2" fill="url(#cdata-dot-grad)" />
-          <circle cx="37" cy="32" r="1.5" fill="#FFFFFF" />
+          {/* Ngọn Hải Đăng Di Sản / Ngôi Sao Tri Thức Dữ Liệu (Emerald Beacon Astroid) */}
+          <path
+            d="M39.5 24 Q39.5 32 45.7 32 Q39.5 32 39.5 40 Q39.5 32 33.3 32 Q39.5 32 39.5 24 Z"
+            fill="url(#cdata-spark-grad)"
+          />
+
+          {/* Điểm Sáng Trắng Trung Tâm (Core Spark Node) */}
+          <circle cx="39.5" cy="32" r="1.8" fill="#FFFFFF" />
         </svg>
       </div>
 
