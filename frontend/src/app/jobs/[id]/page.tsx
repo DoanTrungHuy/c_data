@@ -28,6 +28,7 @@ import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
 import SaveJobButton from "@/components/SaveJobButton";
 import ShareJobButton from "@/components/ShareJobButton";
+import CoverLetterButton from "@/components/CoverLetterButton";
 import type { Metadata } from "next";
 
 import fs from "fs";
@@ -383,6 +384,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 )}
 
                 <div className="flex flex-wrap items-center gap-2">
+                  <CoverLetterButton job={job} className="px-5 py-3.5" />
                   <SaveJobButton jobId={job.id} showText className="px-4 py-3.5" />
                   <ShareJobButton title={job.title} showText className="px-4 py-3.5" />
 

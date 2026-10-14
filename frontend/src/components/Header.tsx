@@ -14,11 +14,14 @@ import {
 } from "@heroicons/react/24/outline";
 import CDataLogo from "@/components/CDataLogo";
 import { useSavedJobs } from "@/lib/savedJobs";
+import { useCompareJobs } from "@/lib/compareJobs";
+import SystemHealthBadge from "@/components/SystemHealthBadge";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const { count: savedCount } = useSavedJobs();
+  const { count: compareCount } = useCompareJobs();
 
   const navigation = [
     { name: "Trang chủ", href: "/" },
@@ -70,6 +73,8 @@ export default function Header() {
 
         {/* Action Button & Saved Jobs Bookmark */}
         <div className="hidden md:flex items-center gap-2.5">
+          <SystemHealthBadge />
+
           {/* Saved Jobs Bookmark Pill */}
           <Link
             href="/jobs?saved=true"

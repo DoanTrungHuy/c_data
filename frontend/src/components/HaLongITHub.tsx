@@ -13,7 +13,10 @@ import {
   BanknotesIcon,
   CheckCircleIcon,
   CpuChipIcon,
+  ChartBarIcon,
 } from "@heroicons/react/24/outline";
+import SkillMatcherModal from "@/components/SkillMatcherModal";
+import HaLongSalaryGuideModal from "@/components/HaLongSalaryGuideModal";
 
 interface SectorItem {
   id: string;
@@ -118,6 +121,8 @@ const HALONG_SECTORS: SectorItem[] = [
 export default function HaLongITHub() {
   const router = useRouter();
   const [selectedSector, setSelectedSector] = useState<string | null>(null);
+  const [skillMatcherOpen, setSkillMatcherOpen] = useState(false);
+  const [salaryGuideOpen, setSalaryGuideOpen] = useState(false);
 
   const handleSelectSector = (sector: SectorItem) => {
     setSelectedSector(sector.id);
@@ -148,26 +153,33 @@ export default function HaLongITHub() {
           </p>
         </div>
 
-        {/* Live Harvester Daemon Badge */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
-          <div className="bg-slate-800/80 backdrop-blur-md px-4 py-2.5 rounded-2xl border border-slate-700 flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-emerald-500/20 text-emerald-400">
-              <ShieldCheckIcon className="h-5 w-5" />
-            </div>
-            <div>
-              <div className="text-xs font-semibold text-emerald-400 flex items-center gap-1">
-                <span>Zero-404 Verified</span>
-                <CheckCircleIcon className="h-3.5 w-3.5" />
-              </div>
-              <div className="text-[11px] text-slate-400">25 vị trí IT chính thức</div>
-            </div>
-          </div>
+        {/* Live Harvester Daemon Badge & AI Tools */}
+        <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+          <button
+            type="button"
+            onClick={() => setSkillMatcherOpen(true)}
+            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold text-xs sm:text-sm border border-amber-400/30 transition-all active:scale-95 cursor-pointer shadow-sm"
+            title="So khớp kỹ năng cá nhân với tất cả việc làm Hạ Long"
+          >
+            <SparklesIcon className="h-4 w-4 text-amber-400" />
+            <span>AI So Khớp CV</span>
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setSalaryGuideOpen(true)}
+            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-slate-800/90 hover:bg-slate-700 text-slate-200 font-bold text-xs sm:text-sm border border-slate-700 transition-all active:scale-95 cursor-pointer shadow-sm"
+            title="Xem báo cáo mức lương IT chi tiết tại TP. Hạ Long"
+          >
+            <ChartBarIcon className="h-4 w-4 text-emerald-400" />
+            <span>Bảng Lương IT</span>
+          </button>
 
           <Link
             href="/jobs?province=Quảng Ninh"
             className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-2xl bg-gradient-to-r from-primary-600 to-blue-600 text-white font-bold text-xs sm:text-sm hover:brightness-110 active:scale-95 transition-all shadow-md shadow-primary-900/40"
           >
-            <span>Xem tất cả IT Hạ Long</span>
+            <span>Tất cả việc làm</span>
             <ArrowRightIcon className="h-4 w-4" />
           </Link>
         </div>
@@ -280,6 +292,15 @@ export default function HaLongITHub() {
           </Link>
         ))}
       </div>
+
+      <SkillMatcherModal
+        isOpen={skillMatcherOpen}
+        onClose={() => setSkillMatcherOpen(false)}
+      />
+      <HaLongSalaryGuideModal
+        isOpen={salaryGuideOpen}
+        onClose={() => setSalaryGuideOpen(false)}
+      />
     </div>
   );
 }

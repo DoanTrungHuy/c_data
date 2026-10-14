@@ -24,6 +24,8 @@ import {
 import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
 import SaveJobButton from "@/components/SaveJobButton";
+import { useCompareJobs } from "@/lib/compareJobs";
+import { useUserSkills, evaluateJobMatch } from "@/lib/skillMatcher";
 
 interface JobCardProps {
   job: Job;
@@ -32,6 +34,11 @@ interface JobCardProps {
 
 export default function JobCard({ job, featured = false }: JobCardProps) {
   const [previewOpen, setPreviewOpen] = useState(false);
+  const { isJobCompared, addJobToCompare, removeJobFromCompare } = useCompareJobs();
+  const { skills: userSkills, hasSkills } = useUserSkills();
+  const evaluation = hasSkills ? evaluateJobMatch(job, userSkills) : null;
+  const isCompared = isJobCompared(job.id);
+
   const platform = getSourcePlatformInfo(job.source_platform);
   const salaryDisplay = formatSalary(
     job.salary_min,
@@ -119,8 +126,21 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               <span>{jobTypeDisplay}</span>
             </div>
 
-            {/* Match Score Badge if available */}
-            {job.match_score !== undefined && job.match_score !== null && (
+            {/* Personal Profile AI Match Score if user has skills, otherwise server match score */}
+            {evaluation && evaluation.score > 0 ? (
+              <span
+                className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-black border ${
+                  evaluation.score >= 70
+                    ? "bg-emerald-50 text-emerald-800 border-emerald-300 ring-1 ring-emerald-300/60"
+                    : evaluation.score >= 50
+                    ? "bg-amber-50 text-amber-800 border-amber-300"
+                    : "bg-blue-50 text-blue-800 border-blue-200"
+                }`}
+                title={`Khớp ${evaluation.matchedSkills.length} kỹ năng bạn đã chọn: ${evaluation.matchedSkills.join(", ")}`}
+              >
+                <span>✨ Khớp hồ sơ: {evaluation.score}%</span>
+              </span>
+            ) : job.match_score !== undefined && job.match_score !== null ? (
               <span
                 className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-black border ${
                   job.match_score >= 70
@@ -133,7 +153,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               >
                 <span>🎯 Phù hợp: {job.match_score}%</span>
               </span>
-            )}
+            ) : null}
 
             {/* Multi-source indicator if consolidated */}
             {job.all_sources && job.all_sources.length > 1 && (
@@ -241,6 +261,30 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               title="Xem nhanh toàn văn bài đăng tuyển dụng"
             >
               <span>👁️ Xem nhanh</span>
+            </button>
+
+            {/* Quick Compare Button */}
+            <button
+              type="button"
+              onClick={() => {
+                if (isCompared) {
+                  removeJobFromCompare(job.id);
+                } else {
+                  addJobToCompare(job);
+                }
+              }}
+              className={`inline-flex items-center gap-1 text-[11px] font-semibold px-2 py-1 rounded-md transition-colors cursor-pointer ${
+                isCompared
+                  ? "bg-indigo-600 text-white shadow-xs"
+                  : "bg-slate-100 hover:bg-indigo-50 text-slate-600 hover:text-indigo-700"
+              }`}
+              title={
+                isCompared
+                  ? "Bỏ khỏi danh sách so sánh"
+                  : "Thêm vào danh sách so sánh đối chiếu quyền lợi"
+              }
+            >
+              <span>{isCompared ? "✓ Đang so sánh" : "⚖️ So sánh"}</span>
             </button>
           </div>
 

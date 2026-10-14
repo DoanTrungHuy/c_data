@@ -13,6 +13,7 @@ import {
   ChartBarIcon,
   CheckCircleIcon,
   BookmarkIcon,
+  SparklesIcon,
 } from "@heroicons/react/24/outline";
 import JobCard from "@/components/JobCard";
 import FilterSidebar from "@/components/FilterSidebar";
@@ -20,6 +21,9 @@ import Pagination from "@/components/Pagination";
 import { JobListResponse } from "@/types/job";
 import { crawlLiveJobs } from "@/lib/api";
 import DeepSocialRadarModal from "@/components/DeepSocialRadarModal";
+import SkillMatcherModal from "@/components/SkillMatcherModal";
+import HaLongSalaryGuideModal from "@/components/HaLongSalaryGuideModal";
+import { useUserSkills } from "@/lib/skillMatcher";
 
 interface JobsContentProps {
   initialData: JobListResponse;
@@ -34,6 +38,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const [conclusions, setConclusions] = useState<any>(null);
   const [radarOpen, setRadarOpen] = useState(false);
   const [diagnosticsOpen, setDiagnosticsOpen] = useState(false);
+  const [skillMatcherOpen, setSkillMatcherOpen] = useState(false);
+  const [salaryGuideOpen, setSalaryGuideOpen] = useState(false);
+  const { skills: userSkills, hasSkills } = useUserSkills();
 
   const q = searchParams?.get("q") || "";
   const province = searchParams?.get("province") || "";
@@ -135,6 +142,28 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
           {/* Action buttons: Deep Social Radar, Live Crawl & Mobile Filter */}
           <div className="flex flex-wrap items-center gap-2">
+            {/* AI Skill Matcher Button */}
+            <button
+              type="button"
+              onClick={() => setSkillMatcherOpen(true)}
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 transition-all cursor-pointer shadow-2xs"
+              title="So khớp kỹ năng cá nhân của bạn với mọi việc làm"
+            >
+              <SparklesIcon className="h-4 w-4 text-amber-500" />
+              <span>AI So Khớp CV</span>
+            </button>
+
+            {/* Salary Guide Button */}
+            <button
+              type="button"
+              onClick={() => setSalaryGuideOpen(true)}
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 transition-all cursor-pointer shadow-2xs"
+              title="Báo cáo mức lương IT chi tiết tại TP. Hạ Long"
+            >
+              <ChartBarIcon className="h-4 w-4 text-emerald-600" />
+              <span>Bảng Lương IT</span>
+            </button>
+
             {/* Social Deep Radar Trigger Button */}
             <button
               type="button"
@@ -173,6 +202,27 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             </div>
           </div>
         </div>
+
+        {/* Active Skills Profile Match Banner */}
+        {hasSkills && (
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 p-3.5 bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 border border-amber-200/90 rounded-2xl text-xs text-amber-950 shadow-2xs">
+            <div className="flex items-center gap-2">
+              <span className="flex h-7 w-7 items-center justify-center rounded-xl bg-amber-400 text-amber-950 font-bold text-xs shadow-inner">
+                ✨
+              </span>
+              <span>
+                Đang hiển thị điểm tương thích hồ sơ cho <strong>{userSkills.length} kỹ năng</strong> bạn đã chọn.
+              </span>
+            </div>
+            <button
+              type="button"
+              onClick={() => setSkillMatcherOpen(true)}
+              className="text-primary-700 hover:text-primary-800 font-bold hover:underline shrink-0 text-left sm:text-right"
+            >
+              Chỉnh sửa kỹ năng hồ sơ →
+            </button>
+          </div>
+        )}
 
         {/* Smart Search Engine Intent & Retrieval Diagnostics */}
         {initialData.diagnostics && (() => {
@@ -638,6 +688,18 @@ export default function JobsContent({ initialData }: JobsContentProps) {
         isOpen={radarOpen}
         onClose={() => setRadarOpen(false)}
         defaultKeyword={q}
+      />
+
+      {/* AI Skill Matcher Modal */}
+      <SkillMatcherModal
+        isOpen={skillMatcherOpen}
+        onClose={() => setSkillMatcherOpen(false)}
+      />
+
+      {/* Ha Long IT Salary Guide Modal */}
+      <HaLongSalaryGuideModal
+        isOpen={salaryGuideOpen}
+        onClose={() => setSalaryGuideOpen(false)}
       />
     </div>
   );
