@@ -17,7 +17,7 @@ export function removeVietnameseTones(str: string): string {
 
 // Bảng từ đồng nghĩa vai trò và chuyên môn
 const ROLE_SYNONYMS: Record<string, string[]> = {
-  it: ["it", "cntt", "cong nghe thong tin", "information technology", "phan mem", "software", "lap trinh", "he thong"],
+  it: ["it", "cntt", "cong nghe thong tin", "information technology", "phan mem", "software", "lap trinh", "he thong", "mang", "support", "ky su cntt"],
   "it support": [
     "it support",
     "helpdesk",
@@ -31,9 +31,15 @@ const ROLE_SYNONYMS: Record<string, string[]> = {
   ],
   "it officer": ["it officer", "chuyen vien it", "nhan vien it", "it support", "quan tri he thong"],
   developer: ["developer", "lap trinh vien", "software engineer", "frontend", "backend", "fullstack", "react", "python", "node"],
+  "ky su": ["ky su", "engineer", "ky su cntt", "ky su phan mem", "ky su mang", "ky su tu dong hoa", "ky su van hanh", "ky su he thong", "ky thuat vien"],
+  "mang": ["mang", "network", "quan tri mang", "ha tang mang", "cisco", "ccna", "lan", "wan", "firewall", "router"],
+  "phan mem": ["phan mem", "software", "lap trinh", "developer", "cntt", "react", "python", "backend", "frontend"],
+  "khach san": ["khach san", "hotel", "resort", "wyndham", "flc", "novotel", "muong thanh", "sun world", "du thuyen", "yoko onsen"],
+  "y te": ["y te", "benh vien", "vinmec", "bai chay", "his", "pacs", "duoc si", "dieu duong"],
+  "cong nghiep": ["cong nghiep", "cang", "cict", "cai lan", "kcn", "calofic", "than", "tkv", "vinacomin", "nhiet dien"],
   "ke toan": ["ke toan", "accountant", "kiem toan", "thu quy", "ke toan tong hop", "ke toan kho", "ke toan thanh toan"],
   marketing: ["marketing", "truyen thong", "digital marketing", "seo", "ads", "content"],
-  "sales": ["sales", "kinh doanh", "ban hang", "tu van", "phat trien thi truong"],
+  sales: ["sales", "kinh doanh", "ban hang", "tu van", "phat trien thi truong"],
 };
 
 // Từ đồng nghĩa địa danh
@@ -358,6 +364,17 @@ export function searchJobsRealtime(
       reasons.push(`Tin tuyển dụng thẩm định kim cương (${job.quality_score}/100đ) (+15)`);
     } else if (job.quality_score && job.quality_score >= 70) {
       score += 8;
+    }
+
+    // 9. Điểm cộng Dẫn chứng tuyển dụng xác thực (Verified Evidence Proof Bonus)
+    if (job.evidence_proof && job.evidence_proof.verified) {
+      score += 25;
+      reasons.push("Dẫn chứng tuyển dụng đã qua kiểm định pháp nhân (+25)");
+    }
+
+    // 10. Lọc khắt khe nếu người dùng bật chế độ chỉ xem tin có dẫn chứng (Verified Only)
+    if (params.verified_only && (!job.evidence_proof || !job.evidence_proof.verified)) {
+      return { job, score: -9999 };
     }
 
     return {

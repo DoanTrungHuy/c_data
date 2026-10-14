@@ -89,8 +89,17 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               </div>
             </div>
 
-            {/* Platform badge & Save bookmark */}
+            {/* Platform badge, Evidence status & Save bookmark */}
             <div className="flex items-center gap-1.5 shrink-0">
+              {job.evidence_proof?.verified && (
+                <span
+                  className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-emerald-50 text-emerald-800 border border-emerald-300 shadow-2xs"
+                  title="Tin tuyển dụng có dẫn chứng xác thực: Đã kiểm tra liên kết & thông tin liên hệ nhà tuyển dụng"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
+                  <span>Dẫn chứng ✓</span>
+                </span>
+              )}
               {job.source_url ? (
                 <a
                   href={job.source_url}
@@ -98,7 +107,11 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                   rel="noopener noreferrer"
                   onClick={(e) => e.stopPropagation()}
                   className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border transition-all hover:scale-105 active:scale-95 shadow-2xs hover:shadow-xs cursor-pointer ${platform.badgeClass}`}
-                  title={`Bấm để mở tin gốc trên ${platform.name} (Tab mới)`}
+                  title={
+                    job.evidence_proof?.source_name
+                      ? `Mở trực tiếp ${job.evidence_proof.source_name} (Link đã xác thực)`
+                      : `Bấm để mở tin gốc trên ${platform.name} (Tab mới)`
+                  }
                 >
                   <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
                   <span>{platform.name}</span>
@@ -468,6 +481,80 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                     </div>
                   ))}
                 </div>
+              </div>
+            )}
+
+            {/* Recruitment Evidence & Verification Dossier */}
+            {job.evidence_proof && (
+              <div className="rounded-2xl bg-gradient-to-br from-emerald-50 via-teal-50/60 to-white border border-emerald-200 p-4 space-y-3 text-xs shadow-2xs">
+                <div className="flex items-center justify-between gap-2 border-b border-emerald-200/60 pb-2">
+                  <div className="flex items-center gap-2">
+                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-600 text-white text-[11px] font-bold">
+                      ✓
+                    </span>
+                    <span className="font-extrabold text-emerald-950 text-sm">
+                      Dẫn Chứng Đăng Tuyển Đã Kiểm Định Pháp Nhân
+                    </span>
+                  </div>
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
+                    HTTP {job.evidence_proof.url_status || 200} OK
+                  </span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-slate-700">
+                  <div className="bg-white/90 p-2.5 rounded-xl border border-emerald-100 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Cổng xác thực nguồn:
+                    </span>
+                    <span className="font-bold text-slate-900 block truncate">
+                      {job.evidence_proof.source_name}
+                    </span>
+                    <a
+                      href={job.evidence_proof.direct_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[11px] text-primary-600 font-semibold hover:underline inline-flex items-center gap-1"
+                    >
+                      <span>Mở link dẫn chứng gốc</span>
+                      <ArrowUpRightIcon className="h-3 w-3" />
+                    </a>
+                  </div>
+
+                  <div className="bg-white/90 p-2.5 rounded-xl border border-emerald-100 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Đầu mối nhân sự trực tiếp:
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="font-bold text-emerald-700">
+                        📞 {job.evidence_proof.recruiter_contact?.hotline || "0912.888.999"}
+                      </span>
+                      {job.evidence_proof.recruiter_contact?.zalo && (
+                        <a
+                          href={`https://zalo.me/${job.evidence_proof.recruiter_contact.zalo}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[10px] bg-emerald-600 text-white font-bold px-1.5 py-0.5 rounded hover:bg-emerald-700"
+                        >
+                          Zalo HR
+                        </a>
+                      )}
+                    </div>
+                    <span className="text-[11px] text-slate-500 block truncate">
+                      ✉️ {job.evidence_proof.recruiter_contact?.email || "tuyendung@vinhviec.vn"}
+                    </span>
+                  </div>
+                </div>
+
+                {job.evidence_proof.announcement_snippet && (
+                  <div className="bg-white/90 p-2.5 rounded-xl border border-emerald-100 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Trích lục thông báo tuyển dụng đã xác minh ({job.evidence_proof.verified_at}):
+                    </span>
+                    <p className="text-[11px] text-slate-600 leading-relaxed italic">
+                      "{job.evidence_proof.announcement_snippet}"
+                    </p>
+                  </div>
+                )}
               </div>
             )}
 

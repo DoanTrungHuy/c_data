@@ -245,6 +245,32 @@ class TestRealtimeSearchAndData(unittest.TestCase):
         self.assertEqual(len(missing_data), 0, f"Phát hiện tin thiếu cấu trúc chất lượng: {missing_data}")
         print("  ✓ Test 11 - Lộ Trình Phỏng Vấn 3 Bước & Bảng Thẩm Định Quyền Lợi: 100% ĐẠT")
 
+    def test_12_evidence_proof_integrity(self):
+        """Kiểm tra 100% việc làm có Hồ Sơ Dẫn Chứng Đăng Tuyển (Evidence Proof) xác thực, đầy đủ hotline/portal/trích dẫn"""
+        invalid_proof = []
+        for j in self.jobs:
+            ep = j.get("evidence_proof")
+            if not ep or not isinstance(ep, dict):
+                invalid_proof.append((j["id"], j["title"], "Thiếu object evidence_proof"))
+                continue
+            if not ep.get("verified"):
+                invalid_proof.append((j["id"], j["title"], "verified không phải True"))
+            if not ep.get("source_name"):
+                invalid_proof.append((j["id"], j["title"], "Thiếu source_name"))
+            direct_url = ep.get("direct_url") or ""
+            if not (direct_url.startswith("http://") or direct_url.startswith("https://")):
+                invalid_proof.append((j["id"], j["title"], "direct_url không hợp lệ: " + direct_url))
+            if ep.get("url_status") != 200:
+                invalid_proof.append((j["id"], j["title"], "url_status không phải 200: " + str(ep.get("url_status"))))
+            contact = ep.get("recruiter_contact") or {}
+            if not contact.get("hotline") and not contact.get("email"):
+                invalid_proof.append((j["id"], j["title"], "Thiếu thông tin liên hệ HR (hotline hoặc email)"))
+            snippet = ep.get("announcement_snippet") or ""
+            if len(snippet.strip()) < 15:
+                invalid_proof.append((j["id"], j["title"], "Trích dẫn bằng chứng đăng tuyển quá ngắn"))
+
+        self.assertEqual(len(invalid_proof), 0, f"Phát hiện tin tuyển dụng có hồ sơ dẫn chứng không đạt chuẩn: {invalid_proof}")
+        print("  ✓ Test 12 - Hồ Sơ Dẫn Chứng Đăng Tuyển Xác Thực (Evidence Proof): 100% ĐẠT")
 
 
 if __name__ == "__main__":

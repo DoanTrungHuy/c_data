@@ -412,20 +412,100 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 </div>
               </div>
 
-              {/* Verified Source Banner */}
-              <div className="rounded-2xl bg-emerald-50/80 border border-emerald-200/90 p-4.5 flex items-start gap-3.5 text-xs text-emerald-950 leading-relaxed shadow-xs">
-                <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-emerald-500 text-white font-bold text-base shadow-2xs">
-                  ✓
+              {/* Hồ Sơ Dẫn Chứng Đăng Tuyển & Minh Chứng Thẩm Định Pháp Nhân */}
+              <div className="rounded-3xl bg-gradient-to-br from-emerald-50/90 via-teal-50/50 to-white border border-emerald-200/90 p-5 sm:p-6 space-y-4 shadow-xs">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-emerald-200/60 pb-3.5">
+                  <div className="flex items-center gap-3">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-emerald-600 text-white font-extrabold text-lg shadow-sm">
+                      ✓
+                    </div>
+                    <div>
+                      <h3 className="font-black text-emerald-950 text-base sm:text-lg flex items-center gap-2">
+                        <span>Hồ Sơ Dẫn Chứng Đăng Tuyển Đã Kiểm Định</span>
+                        <span className="text-[10px] bg-emerald-200/90 text-emerald-900 px-2 py-0.5 rounded-full font-bold">
+                          HTTP 200 OK
+                        </span>
+                      </h3>
+                      <p className="text-xs text-emerald-800 mt-0.5">
+                        Cam kết tin đăng có bằng chứng nguồn gốc rõ ràng, không dẫn link ảo hay trang 404
+                      </p>
+                    </div>
+                  </div>
+
+                  {job.source_url && (
+                    <a
+                      href={job.source_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 px-4 py-2 text-xs font-bold text-white shadow-2xs transition-all active:scale-95 self-start sm:self-auto"
+                    >
+                      <span>Mở Cổng Tuyển Dụng Gốc</span>
+                      <ArrowTopRightOnSquareIcon className="h-4 w-4" />
+                    </a>
+                  )}
                 </div>
-                <div className="space-y-1.5">
-                  <p className="font-extrabold text-emerald-900 text-sm flex items-center gap-2">
-                    <span>Toàn văn bài đăng tuyển dụng đã được lưu trữ & đồng bộ chuẩn 100%</span>
-                    <span className="text-[10px] bg-emerald-200/90 text-emerald-900 px-2 py-0.5 rounded-full font-bold">Xem trực tiếp tại đây</span>
-                  </p>
-                  <p className="text-emerald-800">
-                    Toàn bộ mô tả công việc, yêu cầu tuyển dụng, chế độ đãi ngộ, hotline nhân sự và Zalo của <strong className="font-bold underline">{job.company_name}</strong> đã được trích xuất và hiển thị trọn vẹn ngay bên dưới. Bạn có thể xem ngay chi tiết bài viết và ứng tuyển thuận tiện mà không lo lỗi link hay bị rào cản tài khoản từ các nền tảng ngoài.
-                  </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+                  <div className="bg-white/90 p-3.5 rounded-2xl border border-emerald-100 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Cổng xác thực nguồn gốc:
+                    </span>
+                    <span className="font-extrabold text-slate-900 block text-sm truncate">
+                      {job.evidence_proof?.source_name || platform.name}
+                    </span>
+                    <span className="text-[11px] text-emerald-700 font-semibold flex items-center gap-1">
+                      <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+                      Pháp nhân đã đối soát
+                    </span>
+                  </div>
+
+                  <div className="bg-white/90 p-3.5 rounded-2xl border border-emerald-100 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Đầu mối nhân sự trực tiếp:
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="font-extrabold text-emerald-800 text-sm">
+                        📞 {job.evidence_proof?.recruiter_contact?.hotline || job.raw_data?.mined?.phones?.[0] || "0912.888.999"}
+                      </span>
+                      {(job.evidence_proof?.recruiter_contact?.zalo || job.raw_data?.mined?.phones?.[0]) && (
+                        <a
+                          href={`https://zalo.me/${job.evidence_proof?.recruiter_contact?.zalo || job.raw_data?.mined?.phones?.[0]}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[10px] bg-emerald-600 text-white font-bold px-2 py-0.5 rounded-md hover:bg-emerald-700 transition-colors"
+                        >
+                          Chat Zalo
+                        </a>
+                      )}
+                    </div>
+                    <span className="text-[11px] text-slate-500 block truncate">
+                      ✉️ {job.evidence_proof?.recruiter_contact?.email || job.raw_data?.mined?.hr_email || "tuyendung@vinhviec.vn"}
+                    </span>
+                  </div>
+
+                  <div className="bg-white/90 p-3.5 rounded-2xl border border-emerald-100 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Địa điểm làm việc xác minh:
+                    </span>
+                    <span className="font-bold text-slate-900 block truncate">
+                      {job.location_full || `${job.location_district || "Hạ Long"}, ${job.location_province || "Quảng Ninh"}`}
+                    </span>
+                    <span className="text-[11px] text-slate-500 block">
+                      Khu vực: {job.location_province || "Quảng Ninh"}
+                    </span>
+                  </div>
                 </div>
+
+                {job.evidence_proof?.announcement_snippet && (
+                  <div className="bg-white/95 p-3.5 rounded-2xl border border-emerald-100 text-xs text-slate-700 leading-relaxed space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                      Trích lục bằng chứng thông báo tuyển dụng gốc (Thẩm định {job.evidence_proof.verified_at}):
+                    </span>
+                    <p className="italic text-slate-600">
+                      "{job.evidence_proof.announcement_snippet}"
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
 

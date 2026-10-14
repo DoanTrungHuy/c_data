@@ -38,6 +38,7 @@ export interface Job {
   tech_stack?: string[] | null;
   benefits_detail?: string[] | null;
   interview_process?: Array<{ step: number; title: string; desc: string }> | null;
+  evidence_proof?: EvidenceProof | null;
   quality_audit?: {
     corporate_verified?: boolean;
     salary_transparent?: boolean;
@@ -47,6 +48,24 @@ export interface Job {
     tech_stack_clarity?: boolean;
     anti_scam_verified?: boolean;
   } | null;
+}
+
+export interface EvidenceProof {
+  verified: boolean;
+  source_type: "job_board" | "official_portal" | "enterprise_direct" | "social_verified";
+  source_name: string;
+  direct_url: string;
+  url_status: number;
+  recruiter_contact?: {
+    hr_name?: string;
+    hotline?: string;
+    zalo?: string;
+    email?: string;
+  };
+  address_confirmed?: string;
+  announcement_snippet?: string;
+  verified_at: string;
+  proof_badge: string;
 }
 
 export interface Company {
@@ -82,6 +101,7 @@ export interface JobSearchParams {
   sort_by?: string;
   live?: boolean;
   strict_mode?: boolean;
+  verified_only?: boolean;
   saved?: boolean;
   quality_tier?: string;
   tech_stack?: string;

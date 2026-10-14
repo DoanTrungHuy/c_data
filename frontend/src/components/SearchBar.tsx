@@ -22,6 +22,7 @@ interface SearchBarProps {
   initialProvince?: string;
   initialLive?: boolean;
   initialStrictMode?: boolean;
+  initialVerifiedOnly?: boolean;
   compact?: boolean;
   className?: string;
   onRealtimeChange?: (query: string, province: string) => void;
@@ -32,6 +33,7 @@ export default function SearchBar({
   initialProvince = "",
   initialLive = false,
   initialStrictMode = false,
+  initialVerifiedOnly = false,
   compact = false,
   className = "",
   onRealtimeChange,
@@ -41,6 +43,7 @@ export default function SearchBar({
   const [province, setProvince] = useState(initialProvince);
   const [liveCrawl, setLiveCrawl] = useState(initialLive);
   const [strictMode, setStrictMode] = useState(initialStrictMode);
+  const [verifiedOnly, setVerifiedOnly] = useState(initialVerifiedOnly);
 
   // Real-time search states
   const [realtimeJobs, setRealtimeJobs] = useState<Job[]>([]);
@@ -90,6 +93,8 @@ export default function SearchBar({
         const results = searchJobsRealtime(allJobs, {
           q: trimmed,
           province: province || undefined,
+          strict_mode: strictMode,
+          verified_only: verifiedOnly,
           page_size: 6,
         });
 
@@ -108,7 +113,7 @@ export default function SearchBar({
     }, 150); // 150ms debounce cho trải nghiệm siêu mượt
 
     return () => clearTimeout(timer);
-  }, [query, province, onRealtimeChange]);
+  }, [query, province, strictMode, verifiedOnly, onRealtimeChange]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -118,6 +123,7 @@ export default function SearchBar({
     if (province) params.set("province", province);
     if (liveCrawl) params.set("live", "true");
     if (strictMode) params.set("strict_mode", "true");
+    if (verifiedOnly) params.set("verified_only", "true");
 
     router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
   };
@@ -256,6 +262,20 @@ export default function SearchBar({
                 <span>Khớp chuẩn ràng buộc cứng</span>
               </span>
             </label>
+
+            {/* Verified Evidence Filter */}
+            <label className="inline-flex items-center gap-1.5 cursor-pointer select-none text-slate-700 hover:text-slate-900 transition-colors">
+              <input
+                type="checkbox"
+                checked={verifiedOnly}
+                onChange={(e) => setVerifiedOnly(e.target.checked)}
+                className="rounded text-emerald-600 focus:ring-emerald-500 h-3.5 w-3.5 border-slate-300"
+              />
+              <span className="font-semibold flex items-center gap-1 text-emerald-800">
+                <span>🛡️</span>
+                <span>Có Dẫn chứng xác thực</span>
+              </span>
+            </label>
           </div>
 
           {/* Live Crawl Mode */}
@@ -341,6 +361,11 @@ export default function SearchBar({
                       <h4 className="text-sm font-bold text-slate-900 group-hover:text-primary-600 transition-colors line-clamp-1">
                         {job.title}
                       </h4>
+                      {job.evidence_proof?.verified && (
+                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 shrink-0">
+                          ✓ Dẫn chứng
+                        </span>
+                      )}
                       {job.match_score && job.match_score > 30 && (
                         <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-bold bg-amber-50 text-amber-700 border border-amber-200 shrink-0">
                           ⚡ {Math.round(job.match_score)}% phù hợp
