@@ -1,0 +1,482 @@
+"use client";
+
+import React, { useState } from "react";
+import Link from "next/link";
+import {
+  MapPinIcon,
+  CurrencyDollarIcon,
+  BriefcaseIcon,
+  ClockIcon,
+  ArrowUpRightIcon,
+  XMarkIcon,
+  CheckBadgeIcon,
+  PhoneIcon,
+  EnvelopeIcon,
+} from "@heroicons/react/24/outline";
+import { Job } from "@/types/job";
+import {
+  formatSalary,
+  formatDate,
+  formatJobType,
+  getSourcePlatformInfo,
+  truncateText,
+} from "@/lib/utils";
+import CopySourceButton from "@/components/CopySourceButton";
+import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
+
+interface JobCardProps {
+  job: Job;
+  featured?: boolean;
+}
+
+export default function JobCard({ job, featured = false }: JobCardProps) {
+  const [previewOpen, setPreviewOpen] = useState(false);
+  const platform = getSourcePlatformInfo(job.source_platform);
+  const salaryDisplay = formatSalary(
+    job.salary_min,
+    job.salary_max,
+    job.salary_text
+  );
+  const relativeDate = formatDate(job.posted_at || job.created_at);
+  const jobTypeDisplay = formatJobType(job.job_type);
+
+  // Avatar fallback letter
+  const companyInitial = job.company_name
+    ? job.company_name.charAt(0).toUpperCase()
+    : "C";
+
+  const phone = job.raw_data?.mined?.phones?.[0];
+  const email = job.raw_data?.mined?.hr_email;
+
+  return (
+    <>
+      <div
+        className={`group relative flex flex-col justify-between rounded-2xl border bg-white p-5 sm:p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-hover ${
+          featured
+            ? "border-primary-200 ring-1 ring-primary-100/80 bg-gradient-to-b from-blue-50/20 to-white"
+            : "border-slate-200/90 hover:border-primary-300"
+        }`}
+      >
+        <div>
+          {/* Top Header: Company initial + Platform badge + Date */}
+          <div className="flex items-start justify-between gap-3 mb-3">
+            <div className="flex items-center gap-3">
+              <CompanyOrPlatformLogo
+                companyName={job.company_name}
+                logoUrl={job.company?.logo_url}
+                sourcePlatform={job.source_platform}
+                size="md"
+              />
+              <div>
+                <p
+                  className="text-xs font-semibold text-slate-500 line-clamp-1 group-hover:text-slate-700 transition-colors"
+                  title={job.company_name}
+                >
+                  {job.company_name}
+                </p>
+                <div className="flex items-center gap-1.5 text-[11px] text-slate-400 mt-0.5">
+                  <ClockIcon className="h-3.5 w-3.5" />
+                  <span>{relativeDate}</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Platform badge */}
+            <span
+              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${platform.badgeClass}`}
+              title={`Nguồn: ${platform.name}`}
+            >
+              <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
+              {platform.name}
+            </span>
+          </div>
+
+          {/* Job Title */}
+          <h3 className="text-base sm:text-lg font-bold text-slate-900 line-clamp-2 group-hover:text-primary-600 transition-colors duration-150 leading-snug">
+            <Link
+              href={`/jobs/${job.id}`}
+              className="focus:outline-none focus:underline"
+            >
+              {job.title}
+            </Link>
+          </h3>
+
+          {/* Badges row: Salary, Job Type, Match Score & Multi-Source */}
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            {/* Salary pill */}
+            <div className="inline-flex items-center gap-1.5 rounded-lg bg-emerald-50 px-2.5 py-1 text-xs font-bold text-emerald-700 border border-emerald-200/60">
+              <CurrencyDollarIcon className="h-3.5 w-3.5 text-emerald-600 shrink-0" />
+              <span>{salaryDisplay}</span>
+            </div>
+
+            {/* Job Type */}
+            <div className="inline-flex items-center gap-1.5 rounded-lg bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">
+              <BriefcaseIcon className="h-3.5 w-3.5 text-slate-500 shrink-0" />
+              <span>{jobTypeDisplay}</span>
+            </div>
+
+            {/* Match Score Badge if available */}
+            {job.match_score !== undefined && job.match_score !== null && (
+              <span
+                className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-black border ${
+                  job.match_score >= 70
+                    ? "bg-emerald-50 text-emerald-800 border-emerald-300"
+                    : job.match_score >= 50
+                    ? "bg-amber-50 text-amber-800 border-amber-300"
+                    : "bg-blue-50 text-blue-800 border-blue-200"
+                }`}
+                title="Điểm số độ phù hợp dựa trên vai trò, trách nhiệm thực tế, địa bàn và kỹ năng"
+              >
+                <span>🎯 Phù hợp: {job.match_score}%</span>
+              </span>
+            )}
+
+            {/* Multi-source indicator if consolidated */}
+            {job.all_sources && job.all_sources.length > 1 && (
+              <span
+                className="inline-flex items-center gap-1 rounded-lg bg-sky-50 px-2.5 py-1 text-xs font-bold text-sky-800 border border-sky-200"
+                title={`Tin tuyển dụng này được tìm thấy trên ${job.all_sources.length} nền tảng khác nhau`}
+              >
+                <span>🌐 {job.all_sources.length} nguồn</span>
+              </span>
+            )}
+
+            {/* Experience level if available */}
+            {job.experience_level && (
+              <span className="inline-flex items-center rounded-lg bg-purple-50 px-2.5 py-1 text-xs font-medium text-purple-700 border border-purple-200/50">
+                {job.experience_level}
+              </span>
+            )}
+          </div>
+
+          {/* Explainable AI Match Reasons */}
+          {job.match_reasons && job.match_reasons.length > 0 && (
+            <div className="mt-2.5 flex flex-wrap items-center gap-1 text-[11px]">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mr-0.5">
+                Điểm khớp:
+              </span>
+              {job.match_reasons.slice(0, 3).map((reason, idx) => (
+                <span
+                  key={idx}
+                  className="inline-flex items-center px-2 py-0.5 rounded-md bg-slate-50 text-slate-700 border border-slate-200/90 font-medium"
+                >
+                  ✓ {reason}
+                </span>
+              ))}
+              {job.match_reasons.length > 3 && (
+                <span
+                  className="text-[10px] text-primary-600 font-semibold cursor-pointer hover:underline"
+                  onClick={() => setPreviewOpen(true)}
+                >
+                  +{job.match_reasons.length - 3} tiêu chí nữa
+                </span>
+              )}
+            </div>
+          )}
+
+          {/* Mined highlights from post content (Zalo, ca gãy, bao ăn ở...) */}
+          {job.raw_data?.mined && (
+            <div className="mt-2.5 flex flex-wrap items-center gap-1.5">
+              {job.raw_data.mined.shifts?.slice(0, 2).map((s: string) => (
+                <span
+                  key={s}
+                  className="px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200/80 text-[11px] font-semibold"
+                >
+                  🕒 {s}
+                </span>
+              ))}
+              {job.raw_data.mined.benefits?.slice(0, 2).map((b: string) => (
+                <span
+                  key={b}
+                  className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200/80 text-[11px] font-semibold"
+                >
+                  🎁 {b}
+                </span>
+              ))}
+              {phone && (
+                <span className="px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200/80 text-[11px] font-semibold">
+                  📱 Zalo: {phone}
+                </span>
+              )}
+            </div>
+          )}
+
+          {/* Location snippet */}
+          <div className="mt-3 flex items-center gap-1.5 text-xs text-slate-600">
+            <MapPinIcon className="h-4 w-4 text-slate-400 shrink-0" />
+            <span className="line-clamp-1 font-medium">
+              {job.location_province || "Toàn quốc"}
+              {job.location_district ? ` • ${job.location_district}` : ""}
+            </span>
+          </div>
+
+          {/* Description snippet */}
+          {job.description && (
+            <p className="mt-2 text-xs text-slate-500 line-clamp-2 leading-relaxed">
+              {truncateText(job.description.replace(/<[^>]*>?/gm, ""), 120)}
+            </p>
+          )}
+        </div>
+
+        {/* Footer action buttons */}
+        <div className="mt-4 pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <Link
+              href={`/jobs/${job.id}`}
+              className="text-xs font-bold text-primary-600 hover:text-primary-700 hover:underline inline-flex items-center gap-1"
+            >
+              Chi tiết
+              <ArrowUpRightIcon className="h-3.5 w-3.5" />
+            </Link>
+
+            {/* Quick Preview Modal Button */}
+            <button
+              type="button"
+              onClick={() => setPreviewOpen(true)}
+              className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-600 hover:text-slate-900 bg-slate-100 hover:bg-slate-200 px-2 py-1 rounded-md transition-colors"
+              title="Xem nhanh toàn văn bài đăng tuyển dụng"
+            >
+              <span>👁️ Xem nhanh</span>
+            </button>
+          </div>
+
+          {phone ? (
+            <a
+              href={`https://zalo.me/${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-2.5 py-1 rounded-lg transition-colors"
+              title="Nhắn tin Zalo trực tiếp với nhà tuyển dụng"
+            >
+              <span>💬 Zalo: {phone}</span>
+            </a>
+          ) : job.source_url ? (
+            <a
+              href={job.source_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs font-medium text-slate-500 hover:text-slate-800 transition-colors"
+            >
+              Nguồn: {platform.name} →
+            </a>
+          ) : null}
+        </div>
+      </div>
+
+      {/* In-App Social Post Preview Modal */}
+      {previewOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
+          <div
+            className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity"
+            onClick={() => setPreviewOpen(false)}
+          />
+
+          <div className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white shadow-2xl border border-slate-200 p-6 sm:p-7 z-10 space-y-5 animate-fadeIn">
+            {/* Modal Header */}
+            <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-100">
+              <div className="flex items-center gap-3">
+                <CompanyOrPlatformLogo
+                  companyName={job.company_name}
+                  logoUrl={job.company?.logo_url}
+                  sourcePlatform={job.source_platform}
+                  size="lg"
+                />
+                <div>
+                  <div className="flex items-center gap-1.5">
+                    <h4 className="font-extrabold text-slate-900 text-sm sm:text-base line-clamp-1">
+                      {job.company_name}
+                    </h4>
+                    <CheckBadgeIcon className="h-4 w-4 text-blue-500 shrink-0" title="Doanh nghiệp / Fanpage đã xác minh" />
+                  </div>
+                  <div className="flex items-center gap-2 text-xs text-slate-400 mt-0.5">
+                    <span>{relativeDate}</span>
+                    <span>•</span>
+                    <span className={`inline-flex items-center gap-1 font-medium ${platform.badgeClass} px-2 py-0.5 rounded-full text-[11px]`}>
+                      <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
+                      {platform.name}
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setPreviewOpen(false)}
+                className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-colors"
+              >
+                <XMarkIcon className="h-5 w-5" />
+              </button>
+            </div>
+
+            {/* Job Title & Main Badges */}
+            <div className="space-y-3">
+              <h3 className="text-lg sm:text-xl font-extrabold text-slate-900 leading-snug">
+                {job.title}
+              </h3>
+
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200/80">
+                  <CurrencyDollarIcon className="h-4 w-4 text-emerald-600" />
+                  {salaryDisplay}
+                </span>
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">
+                  <BriefcaseIcon className="h-4 w-4 text-slate-500" />
+                  {jobTypeDisplay}
+                </span>
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-blue-50 text-blue-800 text-xs font-medium border border-blue-100">
+                  <MapPinIcon className="h-4 w-4 text-blue-600" />
+                  {job.location_province || "Quảng Ninh"} {job.location_district ? `(${job.location_district})` : ""}
+                </span>
+              </div>
+            </div>
+
+            {/* Match Reasons in Modal */}
+            {job.match_reasons && job.match_reasons.length > 0 && (
+              <div className="rounded-2xl bg-sky-50/70 border border-sky-200/80 p-3.5 space-y-2 text-xs">
+                <div className="font-bold text-sky-900 flex items-center gap-1.5">
+                  <span>🎯 Tiêu chí xếp hạng & độ phù hợp ({job.match_score || 0}%):</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-slate-700">
+                  {job.match_reasons.map((r, idx) => (
+                    <div key={idx} className="flex items-start gap-1.5 bg-white p-2 rounded-lg border border-sky-100">
+                      <span className="text-emerald-600 font-bold shrink-0">✓</span>
+                      <span className="text-[11px] font-medium text-slate-800">{r}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* All Consolidated Sources */}
+            {job.all_sources && job.all_sources.length > 1 && (
+              <div className="rounded-2xl bg-indigo-50/70 border border-indigo-200/80 p-3.5 space-y-2 text-xs">
+                <div className="font-bold text-indigo-900 flex items-center gap-1.5">
+                  <span>🌐 Tin này xuất hiện trên {job.all_sources.length} nền tảng (Đã khử trùng lặp):</span>
+                </div>
+                <div className="flex flex-wrap gap-2 pt-1">
+                  {job.all_sources.map((src, idx) => (
+                    <a
+                      key={idx}
+                      href={src.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 bg-white px-2.5 py-1.5 rounded-lg border border-indigo-200 text-xs font-semibold text-indigo-900 hover:bg-indigo-100 transition-colors"
+                    >
+                      <span>🔗 {src.platform}</span>
+                      <ArrowUpRightIcon className="h-3 w-3 text-slate-400" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Extracted Benefits & Shifts */}
+            {job.raw_data?.mined && (
+              <div className="rounded-2xl bg-amber-50/70 border border-amber-200/80 p-3.5 space-y-2 text-xs">
+                <div className="font-bold text-amber-900 flex items-center gap-1.5">
+                  <span>⚡ Thông tin nhanh bóc tách từ bài đăng:</span>
+                </div>
+                <div className="flex flex-wrap gap-2 text-slate-700">
+                  {job.raw_data.mined.shifts?.map((s: string) => (
+                    <span key={s} className="bg-white px-2.5 py-1 rounded-md border border-amber-200 font-semibold text-amber-800">
+                      🕒 Ca: {s}
+                    </span>
+                  ))}
+                  {job.raw_data.mined.benefits?.map((b: string) => (
+                    <span key={b} className="bg-white px-2.5 py-1 rounded-md border border-emerald-200 font-semibold text-emerald-800">
+                      🎁 {b}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Full Post Content */}
+            <div className="space-y-3 pt-2">
+              <h5 className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                Nội dung tuyển dụng chi tiết:
+              </h5>
+              <div className="rounded-2xl bg-slate-50 p-4 border border-slate-200/80 text-sm text-slate-700 leading-relaxed max-h-60 overflow-y-auto whitespace-pre-line">
+                {job.description ? job.description.replace(/<[^>]*>?/gm, "") : "Mô tả công việc đang được cập nhật."}
+              </div>
+            </div>
+
+            {/* Requirements if any */}
+            {job.requirements && (
+              <div className="space-y-2">
+                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                  Yêu cầu ứng viên:
+                </h5>
+                <p className="text-sm text-slate-700 leading-relaxed bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                  {job.requirements.replace(/<[^>]*>?/gm, "")}
+                </p>
+              </div>
+            )}
+
+            {/* Modal Actions */}
+            <div className="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+              <div className="flex flex-wrap items-center gap-2">
+                {phone && (
+                  <>
+                    <a
+                      href={`https://zalo.me/${phone}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 px-4 py-2.5 text-xs font-extrabold text-white shadow-sm transition-all"
+                    >
+                      <span>💬 Nhắn Zalo: {phone}</span>
+                    </a>
+                    <a
+                      href={`tel:${phone}`}
+                      className="inline-flex items-center gap-1.5 rounded-xl bg-slate-800 hover:bg-slate-900 px-3.5 py-2.5 text-xs font-bold text-white shadow-sm transition-all"
+                    >
+                      <PhoneIcon className="h-3.5 w-3.5" />
+                      <span>Gọi Hotline</span>
+                    </a>
+                  </>
+                )}
+
+                {email && (
+                  <a
+                    href={`mailto:${email}?subject=Ứng tuyển vị trí ${encodeURIComponent(job.title)}`}
+                    className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 px-3.5 py-2.5 text-xs font-bold text-white shadow-sm transition-all"
+                  >
+                    <EnvelopeIcon className="h-3.5 w-3.5" />
+                    <span>Gửi CV</span>
+                  </a>
+                )}
+              </div>
+
+              <div className="flex flex-wrap items-center gap-2">
+                {job.source_url && (
+                  <>
+                    <CopySourceButton
+                      url={job.source_url}
+                      label="Chép link nguồn"
+                      className="text-xs font-semibold text-slate-600 hover:text-slate-900 border border-slate-200 px-3 py-2 rounded-xl hover:bg-slate-50"
+                    />
+                    <a
+                      href={job.source_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-xs font-semibold text-slate-600 hover:text-slate-900 border border-slate-200 px-3 py-2 rounded-xl hover:bg-slate-50 transition-colors"
+                    >
+                      <span>Mở trang nguồn</span>
+                      <ArrowUpRightIcon className="h-3 w-3" />
+                    </a>
+                  </>
+                )}
+                <Link
+                  href={`/jobs/${job.id}`}
+                  className="inline-flex items-center gap-1 text-xs font-bold text-primary-600 hover:text-primary-700 bg-primary-50 px-3 py-2 rounded-xl hover:bg-primary-100 transition-colors"
+                >
+                  <span>Chi tiết đầy đủ →</span>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}

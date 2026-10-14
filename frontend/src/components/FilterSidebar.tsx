@@ -1,0 +1,324 @@
+"use client";
+
+import React, { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
+import {
+  FunnelIcon,
+  XMarkIcon,
+  ArrowPathIcon,
+  MagnifyingGlassIcon,
+} from "@heroicons/react/24/outline";
+import {
+  VIETNAM_PROVINCES,
+  POPULAR_CATEGORIES,
+  JOB_TYPES,
+  SALARY_RANGES,
+  SOURCE_PLATFORMS,
+} from "@/constants/vietnamData";
+
+interface FilterSidebarProps {
+  onCloseMobile?: () => void;
+  className?: string;
+}
+
+export default function FilterSidebar({
+  onCloseMobile,
+  className = "",
+}: FilterSidebarProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
+  // Read current filters from URL
+  const selectedProvince = searchParams?.get("province") || "";
+  const selectedCategory = searchParams?.get("category") || "";
+  const selectedJobType = searchParams?.get("job_type") || "";
+  const selectedPlatform = searchParams?.get("source_platform") || "";
+  const selectedSalaryMin = searchParams?.get("salary_min") || "";
+  const selectedSalaryMax = searchParams?.get("salary_max") || "";
+
+  // Local state for searching provinces
+  const [provinceSearch, setProvinceSearch] = useState("");
+
+  const updateParam = (key: string, value: string | undefined | null) => {
+    const params = new URLSearchParams(searchParams?.toString() || "");
+    if (value && value !== "") {
+      params.set(key, value);
+    } else {
+      params.delete(key);
+    }
+    // Reset to page 1 whenever filter changes
+    params.delete("page");
+
+    router.push(`/jobs?${params.toString()}`);
+  };
+
+  const handleSalaryChange = (min?: number, max?: number) => {
+    const params = new URLSearchParams(searchParams?.toString() || "");
+    if (min !== undefined) {
+      params.set("salary_min", min.toString());
+    } else {
+      params.delete("salary_min");
+    }
+
+    if (max !== undefined) {
+      params.set("salary_max", max.toString());
+    } else {
+      params.delete("salary_max");
+    }
+    params.delete("page");
+    router.push(`/jobs?${params.toString()}`);
+  };
+
+  const handleResetFilters = () => {
+    const params = new URLSearchParams();
+    const currentQ = searchParams?.get("q");
+    if (currentQ) params.set("q", currentQ);
+    router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
+    if (onCloseMobile) onCloseMobile();
+  };
+
+  const hasActiveFilters = Boolean(
+    selectedProvince ||
+      selectedCategory ||
+      selectedJobType ||
+      selectedPlatform ||
+      selectedSalaryMin ||
+      selectedSalaryMax
+  );
+
+  const filteredProvinces = VIETNAM_PROVINCES.filter((p) =>
+    p.name.toLowerCase().includes(provinceSearch.toLowerCase())
+  );
+
+  return (
+    <aside
+      className={`w-full bg-white rounded-2xl border border-slate-200/90 p-5 shadow-sm space-y-6 ${className}`}
+    >
+      {/* Header */}
+      <div className="flex items-center justify-between pb-4 border-b border-slate-100">
+        <div className="flex items-center gap-2 text-slate-900 font-bold text-base">
+          <FunnelIcon className="h-5 w-5 text-primary-600" />
+          <span>Bộ lọc tìm kiếm</span>
+        </div>
+
+        {hasActiveFilters && (
+          <button
+            type="button"
+            onClick={handleResetFilters}
+            className="flex items-center gap-1 text-xs font-semibold text-rose-600 hover:text-rose-700 hover:underline"
+          >
+            <ArrowPathIcon className="h-3.5 w-3.5" />
+            <span>Xóa lọc</span>
+          </button>
+        )}
+
+        {onCloseMobile && (
+          <button
+            type="button"
+            onClick={onCloseMobile}
+            className="md:hidden p-1 text-slate-400 hover:text-slate-600 rounded-lg"
+          >
+            <XMarkIcon className="h-6 w-6" />
+          </button>
+        )}
+      </div>
+
+      {/* 1. Province Filter */}
+      <div className="space-y-2">
+        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+          Địa điểm (Tỉnh / Thành phố)
+        </label>
+        <div className="relative mb-2">
+          <MagnifyingGlassIcon className="absolute left-2.5 top-2.5 h-4 w-4 text-slate-400" />
+          <input
+            type="text"
+            placeholder="Lọc tỉnh thành..."
+            value={provinceSearch}
+            onChange={(e) => setProvinceSearch(e.target.value)}
+            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-primary-500"
+          />
+        </div>
+        <div className="max-h-40 overflow-y-auto pr-1 space-y-1 text-sm">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+            <input
+              type="radio"
+              name="province"
+              value=""
+              checked={selectedProvince === ""}
+              onChange={() => updateParam("province", "")}
+              className="text-primary-600 focus:ring-primary-500 rounded"
+            />
+            <span className="text-xs font-medium">Tất cả địa điểm</span>
+          </label>
+          {filteredProvinces.map((prov) => (
+            <label
+              key={prov.code}
+              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+            >
+              <div className="flex items-center gap-2">
+                <input
+                  type="radio"
+                  name="province"
+                  value={prov.name}
+                  checked={selectedProvince === prov.name}
+                  onChange={() => updateParam("province", prov.name)}
+                  className="text-primary-600 focus:ring-primary-500"
+                />
+                <span className="text-xs">{prov.name}</span>
+              </div>
+              {prov.popular && (
+                <span className="text-[10px] font-semibold text-primary-600 bg-primary-50 px-1.5 py-0.5 rounded">
+                  Hot
+                </span>
+              )}
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* 2. Category Filter */}
+      <div className="space-y-2 pt-4 border-t border-slate-100">
+        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+          Ngành nghề chuyên môn
+        </label>
+        <div className="space-y-1.5 text-sm max-h-48 overflow-y-auto pr-1">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+            <input
+              type="radio"
+              name="category"
+              value=""
+              checked={selectedCategory === ""}
+              onChange={() => updateParam("category", "")}
+              className="text-primary-600 focus:ring-primary-500"
+            />
+            <span className="text-xs font-medium">Tất cả ngành nghề</span>
+          </label>
+          {POPULAR_CATEGORIES.map((cat) => (
+            <label
+              key={cat.slug}
+              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+            >
+              <div className="flex items-center gap-2">
+                <input
+                  type="radio"
+                  name="category"
+                  value={cat.name}
+                  checked={selectedCategory === cat.name}
+                  onChange={() => updateParam("category", cat.name)}
+                  className="text-primary-600 focus:ring-primary-500"
+                />
+                <span className="text-xs line-clamp-1">{cat.name}</span>
+              </div>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* 3. Job Type Filter */}
+      <div className="space-y-2 pt-4 border-t border-slate-100">
+        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+          Hình thức làm việc
+        </label>
+        <div className="space-y-1.5 text-sm">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+            <input
+              type="radio"
+              name="job_type"
+              value=""
+              checked={selectedJobType === ""}
+              onChange={() => updateParam("job_type", "")}
+              className="text-primary-600 focus:ring-primary-500"
+            />
+            <span className="text-xs font-medium">Tất cả hình thức</span>
+          </label>
+          {JOB_TYPES.map((jt) => (
+            <label
+              key={jt.value}
+              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+            >
+              <input
+                type="radio"
+                name="job_type"
+                value={jt.value}
+                checked={selectedJobType === jt.value}
+                onChange={() => updateParam("job_type", jt.value)}
+                className="text-primary-600 focus:ring-primary-500"
+              />
+              <span className="text-xs">{jt.label}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* 4. Salary Range Filter */}
+      <div className="space-y-2 pt-4 border-t border-slate-100">
+        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+          Mức lương
+        </label>
+        <div className="space-y-1.5 text-sm">
+          {SALARY_RANGES.map((range, idx) => {
+            const isChecked =
+              (range.min === undefined &&
+                range.max === undefined &&
+                !selectedSalaryMin &&
+                !selectedSalaryMax) ||
+              (String(range.min) === selectedSalaryMin &&
+                String(range.max) === selectedSalaryMax);
+
+            return (
+              <label
+                key={`sal-${idx}`}
+                className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+              >
+                <input
+                  type="radio"
+                  name="salary_range"
+                  checked={isChecked}
+                  onChange={() => handleSalaryChange(range.min, range.max)}
+                  className="text-primary-600 focus:ring-primary-500"
+                />
+                <span className="text-xs">{range.label}</span>
+              </label>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 5. Source Platform Filter */}
+      <div className="space-y-2 pt-4 border-t border-slate-100">
+        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+          Nguồn tuyển dụng
+        </label>
+        <div className="space-y-1.5 text-sm">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+            <input
+              type="radio"
+              name="source_platform"
+              value=""
+              checked={selectedPlatform === ""}
+              onChange={() => updateParam("source_platform", "")}
+              className="text-primary-600 focus:ring-primary-500"
+            />
+            <span className="text-xs font-medium">Tất cả nguồn</span>
+          </label>
+          {SOURCE_PLATFORMS.map((platform) => (
+            <label
+              key={platform.id}
+              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+            >
+              <input
+                type="radio"
+                name="source_platform"
+                value={platform.id}
+                checked={selectedPlatform === platform.id}
+                onChange={() => updateParam("source_platform", platform.id)}
+                className="text-primary-600 focus:ring-primary-500"
+              />
+              <span className="text-xs">{platform.name}</span>
+            </label>
+          ))}
+        </div>
+      </div>
+    </aside>
+  );
+}

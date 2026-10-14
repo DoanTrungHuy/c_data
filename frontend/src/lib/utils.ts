@@ -1,0 +1,284 @@
+import { clsx, type ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
+import { formatDistanceToNow, isValid, parseISO } from "date-fns";
+import { vi } from "date-fns/locale";
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+/**
+ * Format salary in Vietnamese currency
+ * Example: 8 - 12 triệu, Từ 15 triệu, Lên tới 30 triệu, Thỏa thuận
+ */
+export function formatSalary(
+  min?: number | null,
+  max?: number | null,
+  text?: string | null
+): string {
+  if (text && text.trim() !== "" && text.toLowerCase() !== "null") {
+    // If the text looks like an informative salary string, return it cleaned
+    const cleanText = text.trim();
+    if (
+      cleanText.toLowerCase() === "thỏa thuận" ||
+      cleanText.toLowerCase() === "thoa thuan" ||
+      cleanText.toLowerCase() === "negotiable"
+    ) {
+      return "Thỏa thuận";
+    }
+    return cleanText;
+  }
+
+  const formatNumberToMillion = (val: number): string => {
+    if (val >= 1_000_000) {
+      const millions = val / 1_000_000;
+      return millions % 1 === 0 ? `${millions}` : `${millions.toFixed(1)}`;
+    }
+    if (val >= 1_000) {
+      return `${(val / 1_000).toLocaleString("vi-VN")}k`;
+    }
+    return `${val.toLocaleString("vi-VN")}đ`;
+  };
+
+  if (min && max) {
+    if (min === max) {
+      return `${formatNumberToMillion(min)} triệu`;
+    }
+    const minStr = formatNumberToMillion(min);
+    const maxStr = formatNumberToMillion(max);
+    return `${minStr} - ${maxStr} triệu`;
+  }
+
+  if (min && !max) {
+    return `Từ ${formatNumberToMillion(min)} triệu`;
+  }
+
+  if (!min && max) {
+    return `Tới ${formatNumberToMillion(max)} triệu`;
+  }
+
+  return "Thỏa thuận";
+}
+
+/**
+ * Format date to Vietnamese relative or human-readable format
+ * Example: "2 giờ trước", "Hôm qua", "3 ngày trước"
+ */
+export function formatDate(dateStr?: string | null): string {
+  if (!dateStr) return "Gần đây";
+
+  try {
+    const parsed = typeof dateStr === "string" ? parseISO(dateStr) : new Date(dateStr);
+    if (!isValid(parsed)) {
+      return "Gần đây";
+    }
+
+    const now = new Date();
+    const diffHours = (now.getTime() - parsed.getTime()) / (1000 * 60 * 60);
+
+    if (diffHours < 1 && diffHours >= 0) {
+      return "Vừa xong";
+    }
+
+    if (diffHours < 24 && parsed.getDate() === now.getDate()) {
+      return `Hôm nay lúc ${parsed.toLocaleTimeString("vi-VN", {
+        hour: "2-digit",
+        minute: "2-digit",
+      })}`;
+    }
+
+    const yesterday = new Date(now);
+    yesterday.setDate(now.getDate() - 1);
+    if (
+      parsed.getDate() === yesterday.getDate() &&
+      parsed.getMonth() === yesterday.getMonth() &&
+      parsed.getFullYear() === yesterday.getFullYear()
+    ) {
+      return "Hôm qua";
+    }
+
+    // Relative distance for <= 30 days
+    if (diffHours < 24 * 30 && diffHours >= 0) {
+      return formatDistanceToNow(parsed, {
+        addSuffix: true,
+        locale: vi,
+      });
+    }
+
+    return parsed.toLocaleDateString("vi-VN", {
+      day: "2-digit",
+      month: "2-digit",
+      year: "numeric",
+    });
+  } catch {
+    return "Gần đây";
+  }
+}
+
+/**
+ * Format job type to Vietnamese
+ */
+export function formatJobType(type?: string | null): string {
+  if (!type) return "Toàn thời gian";
+
+  const lower = type.toLowerCase().trim();
+  if (lower.includes("toàn") || lower.includes("full")) {
+    return "Toàn thời gian";
+  }
+  if (lower.includes("bán") || lower.includes("part")) {
+    return "Bán thời gian";
+  }
+  if (lower.includes("remote") || lower.includes("từ xa")) {
+    return "Từ xa (Remote)";
+  }
+  if (lower.includes("thực tập") || lower.includes("intern")) {
+    return "Thực tập sinh";
+  }
+  if (lower.includes("hợp đồng") || lower.includes("contract") || lower.includes("freelance")) {
+    return "Hợp đồng / Dự án";
+  }
+
+  return type;
+}
+
+export interface PlatformInfo {
+  id: string;
+  name: string;
+  badgeClass: string;
+  dotClass: string;
+  iconBg: string;
+}
+
+/**
+ * Get display info and color badges for source platforms
+ */
+export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
+  if (!platform) {
+    return {
+      id: "c_data",
+      name: "C_Data",
+      badgeClass: "bg-blue-50 text-blue-700 border-blue-200",
+      dotClass: "bg-blue-500",
+      iconBg: "bg-blue-500",
+    };
+  }
+
+  const p = platform.toLowerCase();
+
+  if (p.includes("topcv")) {
+    return {
+      id: "topcv",
+      name: "TopCV",
+      badgeClass: "bg-emerald-50 text-emerald-700 border-emerald-200",
+      dotClass: "bg-emerald-500",
+      iconBg: "bg-emerald-600",
+    };
+  }
+
+  if (p.includes("vietnamworks")) {
+    return {
+      id: "vietnamworks",
+      name: "VietnamWorks",
+      badgeClass: "bg-blue-50 text-blue-800 border-blue-200",
+      dotClass: "bg-blue-600",
+      iconBg: "bg-blue-700",
+    };
+  }
+
+  if (p.includes("career") || p.includes("careerviet")) {
+    return {
+      id: "careerviet",
+      name: "CareerViet",
+      badgeClass: "bg-orange-50 text-orange-700 border-orange-200",
+      dotClass: "bg-orange-500",
+      iconBg: "bg-orange-600",
+    };
+  }
+
+  if (p.includes("itviec")) {
+    return {
+      id: "itviec",
+      name: "ITviec",
+      badgeClass: "bg-rose-50 text-rose-700 border-rose-200",
+      dotClass: "bg-rose-500",
+      iconBg: "bg-rose-600",
+    };
+  }
+
+  if (p.includes("vieclam24h") || p.includes("24h")) {
+    return {
+      id: "vieclam24h",
+      name: "Việc Làm 24h",
+      badgeClass: "bg-amber-50 text-amber-800 border-amber-200",
+      dotClass: "bg-amber-500",
+      iconBg: "bg-amber-600",
+    };
+  }
+
+  if (p.includes("facebook") || p.includes("fb")) {
+    return {
+      id: "facebook",
+      name: platform,
+      badgeClass: "bg-indigo-50 text-indigo-700 border-indigo-200",
+      dotClass: "bg-indigo-600 animate-pulse",
+      iconBg: "bg-indigo-600",
+    };
+  }
+
+  if (p.includes("threads")) {
+    return {
+      id: "threads",
+      name: platform,
+      badgeClass: "bg-zinc-900 text-zinc-100 border-zinc-700 font-semibold",
+      dotClass: "bg-emerald-400 animate-ping",
+      iconBg: "bg-zinc-900",
+    };
+  }
+
+  if (p.includes("tiktok")) {
+    return {
+      id: "tiktok",
+      name: platform,
+      badgeClass: "bg-pink-50 text-pink-700 border-pink-300 font-semibold",
+      dotClass: "bg-pink-500 animate-pulse",
+      iconBg: "bg-pink-600",
+    };
+  }
+
+  if (p.includes("doanh nghiệp") || p.includes("công ty") || p.includes("sungroup") || p.includes("vinpearl")) {
+    return {
+      id: "company",
+      name: platform,
+      badgeClass: "bg-violet-50 text-violet-700 border-violet-200",
+      dotClass: "bg-violet-600",
+      iconBg: "bg-violet-600",
+    };
+  }
+
+  if (p.includes("linkedin")) {
+    return {
+      id: "linkedin",
+      name: "LinkedIn",
+      badgeClass: "bg-sky-50 text-sky-700 border-sky-200",
+      dotClass: "bg-sky-600",
+      iconBg: "bg-sky-700",
+    };
+  }
+
+  return {
+    id: "other",
+    name: platform,
+    badgeClass: "bg-slate-50 text-slate-700 border-slate-200",
+    dotClass: "bg-slate-500",
+    iconBg: "bg-slate-600",
+  };
+}
+
+/**
+ * Truncate text with ellipsis
+ */
+export function truncateText(text?: string | null, maxLength = 120): string {
+  if (!text) return "";
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength).trim() + "...";
+}

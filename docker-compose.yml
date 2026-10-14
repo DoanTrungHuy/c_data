@@ -1,0 +1,124 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:16-alpine
+    container_name: cdata_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-cdata}
+      POSTGRES_USER: ${POSTGRES_USER:-cdata_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-cdata_secret_2024}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-cdata_user} -d ${POSTGRES_DB:-cdata}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache & Task Queue
+  redis:
+    image: redis:7-alpine
+    container_name: cdata_redis
+    restart: unless-stopped
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cdata_backend
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-cdata_user}:${POSTGRES_PASSWORD:-cdata_secret_2024}@db:5432/${POSTGRES_DB:-cdata}
+      - DATABASE_URL_SYNC=postgresql://${POSTGRES_USER:-cdata_user}:${POSTGRES_PASSWORD:-cdata_secret_2024}@db:5432/${POSTGRES_DB:-cdata}
+      - REDIS_URL=redis://redis:6379/0
+      - ENVIRONMENT=${ENVIRONMENT:-development}
+      - SECRET_KEY=${SECRET_KEY:-dev-secret-key-change-in-production}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Celery Worker (Crawler Tasks)
+  celery_worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cdata_celery_worker
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-cdata_user}:${POSTGRES_PASSWORD:-cdata_secret_2024}@db:5432/${POSTGRES_DB:-cdata}
+      - DATABASE_URL_SYNC=postgresql://${POSTGRES_USER:-cdata_user}:${POSTGRES_PASSWORD:-cdata_secret_2024}@db:5432/${POSTGRES_DB:-cdata}
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: celery -A app.worker worker --loglevel=info --concurrency=2
+
+  # Celery Beat (Scheduler)
+  celery_beat:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cdata_celery_beat
+    restart: unless-stopped
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${POSTGRES_USER:-cdata_user}:${POSTGRES_PASSWORD:-cdata_secret_2024}@db:5432/${POSTGRES_DB:-cdata}
+      - DATABASE_URL_SYNC=postgresql://${POSTGRES_USER:-cdata_user}:${POSTGRES_PASSWORD:-cdata_secret_2024}@db:5432/${POSTGRES_DB:-cdata}
+      - REDIS_URL=redis://redis:6379/0
+    volumes:
+      - ./backend:/app
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    command: celery -A app.worker beat --loglevel=info
+
+  # Next.js Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cdata_frontend
+    restart: unless-stopped
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:${BACKEND_PORT:-8000}
+      - API_URL=http://backend:8000
+    ports:
+      - "${FRONTEND_PORT:-3000}:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on:
+      - backend
+    command: npm run dev
+
+volumes:
+  postgres_data:
+  redis_data:

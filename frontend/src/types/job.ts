@@ -1,0 +1,152 @@
+export interface JobSourceLink {
+  platform: string;
+  url: string;
+  posted_at?: string | null;
+  verified?: boolean;
+}
+
+export interface Job {
+  id: number | string;
+  title: string;
+  company_name: string;
+  description?: string | null;
+  requirements?: string | null;
+  salary_min?: number | null;
+  salary_max?: number | null;
+  salary_text?: string | null;
+  location_province?: string | null;
+  location_district?: string | null;
+  location_full?: string | null;
+  job_type?: string | null;
+  category?: string | null;
+  experience_level?: string | null;
+  source_platform?: string | null;
+  source_url?: string | null;
+  posted_at?: string | null;
+  expires_at?: string | null;
+  is_active?: boolean;
+  created_at?: string | null;
+  updated_at?: string | null;
+  company_id?: number | string | null;
+  company?: Company | null;
+  raw_data?: any;
+  all_sources?: JobSourceLink[] | null;
+  match_reasons?: string[] | null;
+  match_score?: number | null;
+}
+
+export interface Company {
+  id: number | string;
+  name: string;
+  slug?: string;
+  logo_url?: string | null;
+  website?: string | null;
+  description?: string | null;
+  address?: string | null;
+  province?: string | null;
+  jobs_count?: number;
+  jobs?: Job[];
+}
+
+export interface Province {
+  id?: number | string;
+  name: string;
+  code?: string;
+  jobs_count?: number;
+}
+
+export interface JobSearchParams {
+  page?: number;
+  page_size?: number;
+  province?: string;
+  category?: string;
+  job_type?: string;
+  salary_min?: number;
+  salary_max?: number;
+  source_platform?: string;
+  q?: string;
+  sort_by?: string;
+  live?: boolean;
+  strict_mode?: boolean;
+}
+
+export interface SearchIntentDiagnostics {
+  primary_role?: string | null;
+  role_family?: string[] | string | null;
+  role_synonyms?: string[];
+  target_province?: string | null;
+  target_district?: string | null;
+  province?: string | null;
+  city?: string | null;
+  location_aliases?: string[];
+  seniority?: string | null;
+  work_environment?: string | null;
+  remote_preference?: string | null;
+  travel_preference?: string | null;
+  field_work_preference?: string | null;
+  max_posting_age_days?: number | null;
+  negative_constraints?: string[];
+  required_skills?: string[];
+}
+
+export interface SearchDiagnostics {
+  original_query: string;
+  parsed_intent?: SearchIntentDiagnostics;
+  intent?: SearchIntentDiagnostics;
+  expanded_queries: string[];
+  total_candidates_examined: number;
+  removed_by_filters: {
+    hard_location: number;
+    hard_remote: number;
+    hard_posting_age: number;
+    hard_exclusion: number;
+    expired: number;
+  };
+  duplicates_consolidated: number;
+  ranking_details: Array<{
+    job_id: string;
+    title: string;
+    company: string;
+    score: number;
+    criteria: Record<string, number>;
+    reasons: string[];
+  }>;
+  multi_source_discovery?: Record<string, any>;
+  final_eligible_count?: number;
+}
+
+export interface JobListResponse {
+  items: Job[];
+  total: number;
+  page: number;
+  page_size: number;
+  total_pages: number;
+  related_keywords?: string[];
+  matched_industries?: string[];
+  diagnostics?: SearchDiagnostics | null;
+}
+
+export interface ProvinceJobCount {
+  province: string;
+  count: number;
+}
+
+export interface CategoryJobCount {
+  category: string;
+  count: number;
+}
+
+export interface PlatformJobCount {
+  platform: string;
+  count: number;
+}
+
+export interface DashboardStats {
+  total_jobs: number;
+  total_companies: number;
+  total_provinces_with_jobs: number;
+  new_jobs_today: number;
+  jobs_by_province: ProvinceJobCount[];
+  jobs_by_category: CategoryJobCount[];
+  jobs_by_platform: PlatformJobCount[];
+}
