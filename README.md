@@ -1,8 +1,23 @@
 # 🇻🇳 C_Data — Nền Tảng Tổng Hợp Việc Làm Việt Nam
 
+[![CI/CD Pipeline](https://github.com/DoanTrungHuy/c_data/actions/workflows/ci.yml/badge.svg)](https://github.com/DoanTrungHuy/c_data/actions/workflows/ci.yml)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+
 > **Tìm việc làm phù hợp trên khắp Việt Nam — hoàn toàn miễn phí**
 
 C_Data tự động thu thập tin tuyển dụng từ nhiều nguồn khác nhau (TopCV, VietnamWorks, CareerBuilder, TimViecNhanh...) và tập trung vào một website duy nhất, giúp mọi người ở Việt Nam — đặc biệt ở các tỉnh/thành nhỏ — dễ dàng tìm được việc làm phù hợp.
+
+## ☁️ Triển Khai Lên Cloud (1-Click Deploy)
+
+### Cách 1: Render.com (Tự động triển khai cả Backend FastAPI + Frontend Next.js)
+1. Đăng ký/Đăng nhập tài khoản miễn phí tại [Render.com](https://dashboard.render.com).
+2. Chọn **New +** ➔ **Blueprint**.
+3. Kết nối với repository GitHub: `https://github.com/DoanTrungHuy/c_data`.
+4. Render sẽ tự động đọc file [`render.yaml`](./render.yaml) và khởi tạo cả 2 dịch vụ (FastAPI Backend và Next.js Frontend) kèm HTTPS miễn phí!
+
+### Cách 2: Vercel (Frontend) + Render / Railway (Backend)
+1. **Backend**: Triển khai thư mục `backend/` lên Render hoặc Railway với lệnh khởi chạy `uvicorn app.main:app --host 0.0.0.0 --port $PORT`.
+2. **Frontend**: Vào [Vercel](https://vercel.com/new), import repo `DoanTrungHuy/c_data`, chọn Root Directory là `frontend`, cấu hình biến môi trường `NEXT_PUBLIC_API_URL` trỏ về link backend của bạn và bấm **Deploy**.
 
 ## 🚀 Khởi Chạy Nhanh
 
