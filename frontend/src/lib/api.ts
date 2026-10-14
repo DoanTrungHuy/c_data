@@ -267,28 +267,31 @@ const DEFAULT_STATS: DashboardStats = {
   ],
 };
 
+import { loadAllJobsForClient, searchJobsRealtime } from "./clientSearch";
+
 /**
- * Fetch jobs list with pagination & filters
+ * Fetch jobs list with pagination & filters - hỗ trợ cả Backend API và Client-side Realtime Engine
  */
 export async function getJobs(params: JobSearchParams = {}): Promise<JobListResponse> {
   try {
     const response = await apiClient.get<JobListResponse>("/jobs", { params });
-    if (response.data && Array.isArray(response.data.items)) {
+    if (response.data && Array.isArray(response.data.items) && response.data.items.length > 0) {
       return response.data;
     }
-  } catch (err) {
-    console.warn("API /jobs call failed:", (err as Error).message);
+  } catch {
+    // Backend API offline / GitHub Pages static mode -> chuyển ngay sang Real-time Client Engine
   }
 
-  return {
-    items: [],
-    total: 0,
-    page: params.page || 1,
-    page_size: params.page_size || 20,
-    total_pages: 0,
-    related_keywords: [],
-    matched_industries: [],
-  };
+  try {
+    const allJobs = await loadAllJobsForClient();
+    if (allJobs && allJobs.length > 0) {
+      return searchJobsRealtime(allJobs, params);
+    }
+  } catch (err) {
+    console.warn("Client-side search failed:", err);
+  }
+
+  return filterSampleJobs(params);
 }
 
 /**
@@ -370,11 +373,23 @@ export async function getJob(id: string | number): Promise<Job | null> {
     if (response.data && response.data.id) {
       return response.data;
     }
-  } catch (err) {
-    console.warn(`API /jobs/${id} failed:`, (err as Error).message);
+  } catch {
+    // API failed, tìm trong cơ sở dữ liệu client
   }
 
-  return null;
+  try {
+    const allJobs = await loadAllJobsForClient();
+    const found = allJobs.find(
+      (j) => String(j.id) === String(id)
+    );
+    if (found) return found;
+  } catch {
+    // fallback
+  }
+
+  return (
+    SAMPLE_FALLBACK_JOBS.find((j) => String(j.id) === String(id)) || null
+  );
 }
 
 /**

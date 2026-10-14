@@ -28,6 +28,9 @@ import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
 import type { Metadata } from "next";
 
+import fs from "fs";
+import path from "path";
+
 interface JobDetailPageProps {
   params: {
     id: string;
@@ -36,13 +39,27 @@ interface JobDetailPageProps {
 
 export async function generateStaticParams() {
   try {
-    const res = await getJobs({ page_size: 100 });
+    const jsonPath = path.join(process.cwd(), "public", "data", "jobs.json");
+    if (fs.existsSync(jsonPath)) {
+      const content = fs.readFileSync(jsonPath, "utf-8");
+      const list = JSON.parse(content);
+      if (Array.isArray(list) && list.length > 0) {
+        return list.map((j: any) => ({ id: String(j.id) }));
+      }
+    }
+  } catch (e) {
+    console.warn("Could not read public/data/jobs.json in generateStaticParams:", e);
+  }
+
+  try {
+    const res = await getJobs({ page_size: 200 });
     if (res && res.items && res.items.length > 0) {
       return res.items.map((j) => ({ id: String(j.id) }));
     }
   } catch {
     // fallback
   }
+
   return [
     { id: "1" },
     { id: "2" },
