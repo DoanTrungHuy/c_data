@@ -4,6 +4,11 @@ from pydantic import AnyHttpUrl, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
+# Đường dẫn tuyệt đối tới thư mục backend và file cdata.db
+_BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+_DB_FILE = os.path.join(_BASE_DIR, "cdata.db").replace(os.sep, "/")
+
+
 class Settings(BaseSettings):
     """
     Cấu hình ứng dụng C_Data đọc từ biến môi trường hoặc file .env
@@ -15,10 +20,10 @@ class Settings(BaseSettings):
     SECRET_KEY: str = "dev-secret-key-change-in-production"
 
     # Kết nối cơ sở dữ liệu
-    # URL bất đồng bộ (Async) dành cho FastAPI — mặc định dùng SQLite
-    DATABASE_URL: str = "sqlite+aiosqlite:///./cdata.db"
+    # URL bất đồng bộ (Async) dành cho FastAPI — mặc định dùng SQLite chuẩn
+    DATABASE_URL: str = f"sqlite+aiosqlite:///{_DB_FILE}"
     # URL đồng bộ (Sync) dành cho Alembic migrations và Celery workers
-    DATABASE_URL_SYNC: str = "sqlite:///./cdata.db"
+    DATABASE_URL_SYNC: str = f"sqlite:///{_DB_FILE}"
 
     # Redis Cache & Broker (tùy chọn, không bắt buộc cho dev)
     REDIS_URL: str = "redis://localhost:6379/0"

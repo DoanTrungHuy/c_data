@@ -63,11 +63,11 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Cấu hình CORS Middleware (cho phép truy cập tự do trong môi trường phát triển)
+# Cấu hình CORS Middleware (cho phép truy cập linh hoạt từ frontend local và cloud deployment)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"] if settings.ENVIRONMENT == "development" else settings.BACKEND_CORS_ORIGINS,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )

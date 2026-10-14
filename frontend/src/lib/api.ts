@@ -12,16 +12,21 @@ import {
 // In browser: use relative /api/v1 (which next.config.js proxies) or NEXT_PUBLIC_API_URL
 // On server: use internal Docker container URL API_URL or fallback to localhost
 function getBaseUrl(): string {
+  // Ưu tiên biến môi trường NEXT_PUBLIC_API_URL nếu được cấu hình (ví dụ khi deploy Vercel / Cloud)
+  if (process.env.NEXT_PUBLIC_API_URL) {
+    const clean = process.env.NEXT_PUBLIC_API_URL.replace(/\/+$/, "");
+    return clean.endsWith("/api/v1") ? clean : `${clean}/api/v1`;
+  }
+
+  // Trong trình duyệt (client-side) không có biến môi trường thì dùng relative rewrite
   if (typeof window !== "undefined") {
     return "/api/v1";
   }
 
-  // Running on server
+  // Trên server SSR
   if (process.env.API_URL) {
-    return `${process.env.API_URL}/api/v1`;
-  }
-  if (process.env.NEXT_PUBLIC_API_URL) {
-    return `${process.env.NEXT_PUBLIC_API_URL}/api/v1`;
+    const clean = process.env.API_URL.replace(/\/+$/, "");
+    return clean.endsWith("/api/v1") ? clean : `${clean}/api/v1`;
   }
   return "http://localhost:8000/api/v1";
 }
