@@ -186,6 +186,20 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                 {job.experience_level}
               </span>
             )}
+
+            {/* Quality Score & Audit Tier */}
+            {job.quality_score && job.quality_score >= 70 && (
+              <span
+                className={`inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-black border shadow-2xs ${
+                  job.quality_score >= 85
+                    ? "bg-gradient-to-r from-amber-50 to-yellow-50 text-amber-900 border-amber-300 ring-1 ring-amber-300/60"
+                    : "bg-emerald-50 text-emerald-800 border-emerald-300"
+                }`}
+                title={`Độ uy tín & thẩm định chất lượng tin: ${job.quality_score}/100đ (Pháp nhân xác thực, lương minh bạch, địa chỉ cụ thể, HR trực tiếp)`}
+              >
+                <span>{job.quality_score >= 85 ? "💎" : "⭐"} {job.quality_score}/100 Thẩm định</span>
+              </span>
+            )}
           </div>
 
           {/* Explainable AI Match Reasons */}
@@ -210,6 +224,45 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                   +{job.match_reasons.length - 3} tiêu chí nữa
                 </span>
               )}
+            </div>
+          )}
+
+          {/* Tech Stack Chips */}
+          {job.tech_stack && job.tech_stack.length > 0 && (
+            <div className="mt-2 flex flex-wrap items-center gap-1.5">
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mr-0.5">
+                Kỹ năng / Tech:
+              </span>
+              {job.tech_stack.slice(0, 4).map((tech: string) => (
+                <span
+                  key={tech}
+                  className="px-2 py-0.5 rounded-md bg-indigo-50/90 text-indigo-800 border border-indigo-200/90 text-[11px] font-bold"
+                >
+                  ⚡ {tech}
+                </span>
+              ))}
+              {job.tech_stack.length > 4 && (
+                <span
+                  className="text-[10px] text-indigo-600 font-semibold cursor-pointer hover:underline"
+                  onClick={() => setPreviewOpen(true)}
+                >
+                  +{job.tech_stack.length - 4} nữa
+                </span>
+              )}
+            </div>
+          )}
+
+          {/* Benefits Detail Chips */}
+          {job.benefits_detail && job.benefits_detail.length > 0 && (
+            <div className="mt-2 flex flex-wrap items-center gap-1.5 text-[11px]">
+              {job.benefits_detail.slice(0, 2).map((b: string) => (
+                <span
+                  key={b}
+                  className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200/80 font-semibold"
+                >
+                  🎁 {b}
+                </span>
+              ))}
             </div>
           )}
 

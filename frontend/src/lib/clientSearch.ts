@@ -328,6 +328,38 @@ export function searchJobsRealtime(
       }
     }
 
+    // 6. Lọc theo Phân cấp chất lượng kiểm định (Diamond / Gold)
+    if (params.quality_tier) {
+      const qScore = job.quality_score || 0;
+      if (params.quality_tier === "diamond" && qScore < 85) {
+        return { job, score: -9999 };
+      }
+      if (params.quality_tier === "gold" && qScore < 70) {
+        return { job, score: -9999 };
+      }
+    }
+
+    // 7. Lọc theo Tech Stack / Kỹ năng công nghệ
+    if (params.tech_stack) {
+      const targetTech = removeVietnameseTones(params.tech_stack);
+      const jobTechs = (job.tech_stack || []).map((t) => removeVietnameseTones(t));
+      const hasTech = jobTechs.some((t) => t.includes(targetTech) || targetTech.includes(t));
+      if (hasTech) {
+        score += 35;
+        reasons.push(`Khớp công nghệ yêu cầu: ${params.tech_stack} (+35)`);
+      } else {
+        score -= 25;
+      }
+    }
+
+    // 8. Điểm cộng chất lượng: Ưu tiên các tin có độ uy tín & thông tin đầy đủ
+    if (job.quality_score && job.quality_score >= 85) {
+      score += 15;
+      reasons.push(`Tin tuyển dụng thẩm định kim cương (${job.quality_score}/100đ) (+15)`);
+    } else if (job.quality_score && job.quality_score >= 70) {
+      score += 8;
+    }
+
     return {
       job: {
         ...job,
@@ -340,8 +372,13 @@ export function searchJobsRealtime(
 
   // Lọc chỉ giữ các công việc có điểm phù hợp dương (hoặc hiển thị tất cả nếu không có query)
   let eligible = scoredJobs
-    .filter((item) => (normQ || normProvince ? item.score > 0 : true))
-    .sort((a, b) => b.score - a.score)
+    .filter((item) => (normQ || normProvince || params.category || params.job_type || params.quality_tier || params.tech_stack ? item.score > 0 : true))
+    .sort((a, b) => {
+      if (params.sort_by === "quality") {
+        return (b.job.quality_score || 0) - (a.job.quality_score || 0);
+      }
+      return b.score - a.score;
+    })
     .map((item) => item.job);
 
   // Phân trang

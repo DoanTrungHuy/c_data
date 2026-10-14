@@ -33,6 +33,20 @@ export interface Job {
   all_sources?: JobSourceLink[] | null;
   match_reasons?: string[] | null;
   match_score?: number | null;
+  quality_score?: number | null;
+  quality_tier?: "diamond" | "gold" | "standard" | null;
+  tech_stack?: string[] | null;
+  benefits_detail?: string[] | null;
+  interview_process?: Array<{ step: number; title: string; desc: string }> | null;
+  quality_audit?: {
+    corporate_verified?: boolean;
+    salary_transparent?: boolean;
+    address_specific?: boolean;
+    direct_contact?: boolean;
+    jd_detailed?: boolean;
+    tech_stack_clarity?: boolean;
+    anti_scam_verified?: boolean;
+  } | null;
 }
 
 export interface Company {
@@ -69,6 +83,8 @@ export interface JobSearchParams {
   live?: boolean;
   strict_mode?: boolean;
   saved?: boolean;
+  quality_tier?: string;
+  tech_stack?: string;
 }
 
 export interface SearchIntentDiagnostics {

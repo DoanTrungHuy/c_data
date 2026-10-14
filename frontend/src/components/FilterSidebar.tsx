@@ -35,6 +35,8 @@ export default function FilterSidebar({
   const selectedPlatform = searchParams?.get("source_platform") || "";
   const selectedSalaryMin = searchParams?.get("salary_min") || "";
   const selectedSalaryMax = searchParams?.get("salary_max") || "";
+  const selectedQualityTier = searchParams?.get("quality_tier") || "";
+  const selectedTech = searchParams?.get("tech_stack") || "";
 
   // Local state for searching provinces
   const [provinceSearch, setProvinceSearch] = useState("");
@@ -83,7 +85,9 @@ export default function FilterSidebar({
       selectedJobType ||
       selectedPlatform ||
       selectedSalaryMin ||
-      selectedSalaryMax
+      selectedSalaryMax ||
+      selectedQualityTier ||
+      selectedTech
   );
 
   const filteredProvinces = VIETNAM_PROVINCES.filter((p) =>
@@ -121,6 +125,95 @@ export default function FilterSidebar({
             <XMarkIcon className="h-6 w-6" />
           </button>
         )}
+      </div>
+
+      {/* 0. Quality Tier Filter */}
+      <div className="space-y-2 pb-4 border-b border-slate-100">
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-bold uppercase tracking-wider text-amber-950 flex items-center gap-1">
+            <span>💎 Thẩm Định Chất Lượng</span>
+          </label>
+          {selectedQualityTier && (
+            <button
+              onClick={() => updateParam("quality_tier", "")}
+              className="text-[10px] text-amber-700 hover:underline font-semibold"
+            >
+              Đặt lại
+            </button>
+          )}
+        </div>
+        <div className="space-y-1 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-amber-50/60 text-slate-700">
+            <input
+              type="radio"
+              name="quality_tier"
+              value=""
+              checked={selectedQualityTier === ""}
+              onChange={() => updateParam("quality_tier", "")}
+              className="text-amber-600 focus:ring-amber-500"
+            />
+            <span>Tất cả tin tuyển dụng</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-amber-50 text-amber-900 font-bold">
+            <input
+              type="radio"
+              name="quality_tier"
+              value="diamond"
+              checked={selectedQualityTier === "diamond"}
+              onChange={() => updateParam("quality_tier", "diamond")}
+              className="text-amber-600 focus:ring-amber-500"
+            />
+            <span>💎 Thẩm định Kim Cương (≥ 85đ)</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-emerald-50 text-emerald-900 font-semibold">
+            <input
+              type="radio"
+              name="quality_tier"
+              value="gold"
+              checked={selectedQualityTier === "gold"}
+              onChange={() => updateParam("quality_tier", "gold")}
+              className="text-emerald-600 focus:ring-emerald-500"
+            />
+            <span>⭐ Đạt chuẩn kiểm định (≥ 70đ)</span>
+          </label>
+        </div>
+      </div>
+
+      {/* Tech Stack Cloud Filter */}
+      <div className="space-y-2 pb-4 border-b border-slate-100">
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-bold uppercase tracking-wider text-indigo-950 flex items-center gap-1">
+            <span>⚡ Kỹ Năng / Tech Stack</span>
+          </label>
+          {selectedTech && (
+            <button
+              onClick={() => updateParam("tech_stack", "")}
+              className="text-[10px] text-indigo-700 hover:underline font-semibold"
+            >
+              Bỏ chọn
+            </button>
+          )}
+        </div>
+        <div className="flex flex-wrap gap-1.5 pt-1">
+          {[
+            "Cisco", "Fortinet", "Windows Server", "Linux", "Opera PMS",
+            "Micros POS", "SCADA / DCS", "PLC Siemens", "HIS Quản Lý Bệnh Viện",
+            "Python", "React.js", "SQL Server", "ERP SAP", "Docker & Container"
+          ].map((tech) => (
+            <button
+              key={tech}
+              type="button"
+              onClick={() => updateParam("tech_stack", selectedTech === tech ? "" : tech)}
+              className={`text-[11px] font-bold px-2 py-1 rounded-lg border transition-all ${
+                selectedTech === tech
+                  ? "bg-indigo-600 text-white border-indigo-600 shadow-xs"
+                  : "bg-indigo-50/70 text-indigo-900 border-indigo-200/80 hover:bg-indigo-100"
+              }`}
+            >
+              {tech}
+            </button>
+          ))}
+        </div>
       </div>
 
       {/* 1. Province Filter */}

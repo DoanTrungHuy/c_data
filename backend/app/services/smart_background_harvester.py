@@ -30,6 +30,7 @@ from sqlalchemy.orm import Session
 from app.core.database import SyncSessionLocal
 from app.models.company import Company
 from app.models.job import Job
+from app.services.deep_quality_engine import enrich_job_posting
 from crawlers.utils import extract_salary_range, normalize_location
 
 logging.basicConfig(
@@ -518,7 +519,18 @@ class SmartBackgroundHarvester:
                     "description": j.company.description,
                 } if j.company else None,
             }
-            output_list.append(item)
+            # Làm giàu chất lượng toàn diện: điểm chất lượng, tech stack, quyền lợi, phỏng vấn
+            enriched_item = enrich_job_posting(item)
+            output_list.append(enriched_item)
+
+        # Sắp xếp ưu tiên: Việc làm Quảng Ninh lên đầu, trong đó ưu tiên Điểm chất lượng cao nhất
+        output_list.sort(
+            key=lambda x: (
+                x.get("location_province") == "Quảng Ninh",
+                x.get("quality_score", 0),
+            ),
+            reverse=True,
+        )
 
         export_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "frontend", "public", "data", "jobs.json"))
         os.makedirs(os.path.dirname(export_path), exist_ok=True)

@@ -49,6 +49,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const platform = searchParams?.get("source_platform") || "";
   const salary_min = searchParams?.get("salary_min");
   const salary_max = searchParams?.get("salary_max");
+  const quality_tier = searchParams?.get("quality_tier") || "";
+  const tech_stack = searchParams?.get("tech_stack") || "";
+  const sort_by = searchParams?.get("sort_by") || "";
   const strict_mode = searchParams?.get("strict_mode") === "true";
   const isSavedOnly = searchParams?.get("saved") === "true";
 
@@ -94,7 +97,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   };
 
   const hasFilters = Boolean(
-    province || category || job_type || platform || salary_min || salary_max
+    province || category || job_type || platform || salary_min || salary_max || quality_tier || tech_stack
   );
 
   return (
@@ -585,6 +588,32 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               </span>
             )}
 
+            {quality_tier && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 text-amber-900 font-bold">
+                💎 Thẩm định: {quality_tier === "diamond" ? "Kim Cương (≥85đ)" : "Đạt Chuẩn (≥70đ)"}
+                <button
+                  type="button"
+                  onClick={() => removeFilter("quality_tier")}
+                  className="text-amber-700 hover:text-rose-600"
+                >
+                  <XMarkIcon className="h-3.5 w-3.5" />
+                </button>
+              </span>
+            )}
+
+            {tech_stack && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-indigo-50 border border-indigo-300 text-indigo-900 font-bold">
+                ⚡ Tech: {tech_stack}
+                <button
+                  type="button"
+                  onClick={() => removeFilter("tech_stack")}
+                  className="text-indigo-700 hover:text-rose-600"
+                >
+                  <XMarkIcon className="h-3.5 w-3.5" />
+                </button>
+              </span>
+            )}
+
             <button
               type="button"
               onClick={clearAllFilters}
@@ -595,6 +624,80 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             </button>
           </div>
         )}
+
+        {/* Quick Filter & Quality Sort Bar */}
+        <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-slate-200/90 shadow-2xs">
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1">
+              Ưu tiên:
+            </span>
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (quality_tier === "diamond") {
+                  params.delete("quality_tier");
+                } else {
+                  params.set("quality_tier", "diamond");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-extrabold border transition-all ${
+                quality_tier === "diamond"
+                  ? "bg-amber-500 text-white border-amber-500 shadow-xs scale-102"
+                  : "bg-amber-50 text-amber-900 border-amber-200/90 hover:bg-amber-100/80"
+              }`}
+            >
+              <span>💎</span>
+              <span>Tin Thẩm Định Kim Cương</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (province === "Quảng Ninh") {
+                  params.delete("province");
+                } else {
+                  params.set("province", "Quảng Ninh");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+                province === "Quảng Ninh"
+                  ? "bg-primary-600 text-white border-primary-600 shadow-xs scale-102"
+                  : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+              }`}
+            >
+              <span>📍</span>
+              <span>Trọng Điểm Hạ Long & QN</span>
+            </button>
+          </div>
+
+          {/* Sort By Dropdown */}
+          <div className="flex items-center gap-2 ml-auto text-xs">
+            <span className="text-slate-500 font-medium">Sắp xếp:</span>
+            <select
+              value={sort_by || "default"}
+              onChange={(e) => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (e.target.value === "default") {
+                  params.delete("sort_by");
+                } else {
+                  params.set("sort_by", e.target.value);
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className="text-xs font-bold text-slate-700 bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-primary-500 cursor-pointer"
+            >
+              <option value="default">Phù hợp nhất</option>
+              <option value="quality">💎 Điểm Thẩm Định Cao Nhất</option>
+            </select>
+          </div>
+        </div>
 
         {/* Job Listings / Empty State */}
         {initialData.items.length > 0 ? (

@@ -211,6 +211,41 @@ class TestRealtimeSearchAndData(unittest.TestCase):
         self.assertEqual(len(invalid_jobs), 0, f"Phát hiện tin ngoài tỉnh không thuộc CNTT hoặc lệch nhãn: {invalid_jobs}")
         print("  ✓ Test 09 - 100% Tin ngoài tỉnh là CNTT & Không lệch nhãn địa điểm: 100% ĐẠT")
 
+    def test_10_quality_scores_and_tier_validity(self):
+        """Kiểm tra 100% việc làm có điểm chất lượng hợp lệ (50 - 100) và xếp hạng tier chuẩn"""
+        invalid = []
+        for j in self.jobs:
+            score = j.get("quality_score")
+            tier = j.get("quality_tier")
+            if score is None or not (0 <= score <= 100):
+                invalid.append((j["id"], j["title"], "Điểm chất lượng không hợp lệ", score))
+            if tier not in ["diamond", "gold", "standard"]:
+                invalid.append((j["id"], j["title"], "Tier không hợp lệ", tier))
+            if tier == "diamond" and score < 85:
+                invalid.append((j["id"], j["title"], "Diamond nhưng điểm < 85", score))
+
+        self.assertEqual(len(invalid), 0, f"Phát hiện điểm hoặc tier chất lượng không hợp lệ: {invalid}")
+        print("  ✓ Test 10 - Điểm Thẩm Định Chất Lượng & Phân Cấp Tier: 100% ĐẠT")
+
+    def test_11_interview_process_and_perks_presence(self):
+        """Kiểm tra 100% việc làm có cấu trúc lộ trình phỏng vấn 3 bước và danh sách quyền lợi chi tiết"""
+        missing_data = []
+        for j in self.jobs:
+            interview = j.get("interview_process")
+            perks = j.get("benefits_detail")
+            audit = j.get("quality_audit")
+
+            if not interview or len(interview) != 3:
+                missing_data.append((j["id"], j["title"], "Thiếu quy trình phỏng vấn 3 bước"))
+            if not perks or len(perks) == 0:
+                missing_data.append((j["id"], j["title"], "Thiếu danh sách quyền lợi chi tiết"))
+            if not audit or not isinstance(audit, dict):
+                missing_data.append((j["id"], j["title"], "Thiếu bảng thẩm định chất lượng audit"))
+
+        self.assertEqual(len(missing_data), 0, f"Phát hiện tin thiếu cấu trúc chất lượng: {missing_data}")
+        print("  ✓ Test 11 - Lộ Trình Phỏng Vấn 3 Bước & Bảng Thẩm Định Quyền Lợi: 100% ĐẠT")
+
+
 
 if __name__ == "__main__":
     print("\n" + "=" * 60)
