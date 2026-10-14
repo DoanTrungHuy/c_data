@@ -30,6 +30,10 @@ celery_app.conf.update(
 
 # Thiết lập lịch trình chạy định kỳ (Celery Beat Schedule)
 celery_app.conf.beat_schedule = {
+    "smart-harvester-priority-halong": {
+        "task": "app.worker.run_smart_harvester_cycle",
+        "schedule": 1800.0,  # Quét và đối soát ưu tiên Hạ Long & 404 mỗi 30 phút
+    },
     "run-all-crawlers-periodic": {
         "task": "app.worker.run_all_crawlers",
         "schedule": float(settings.CRAWL_INTERVAL_HOURS * 3600),  # Lặp lại theo số giờ cấu hình
@@ -127,7 +131,11 @@ def deactivate_expired_jobs():
             )
             session.commit()
             logger.info(f"Đã vô hiệu hóa thành công {updated_count} tin tuyển dụng hết hạn.")
-            return {"status": "success", "deactivated_count": updated_count}
-    except Exception as e:
-        logger.error(f"Lỗi khi vô hiệu hóa tin hết hạn: {e}", exc_info=True)
-        return {"status": "failed", "error": str(e)}
+@celery_app.task(name="app.worker.run_smart_harvester_cycle")
+def run_smart_harvester_cycle():
+    """
+    Tác vụ Celery chạy chu trình đối soát ưu tiên Hạ Long và thanh lọc tin 404/hết hạn
+    """
+    from app.services.smart_background_harvester import SmartBackgroundHarvester
+    harvester = SmartBackgroundHarvester()
+    return harvester.run_full_cycle()

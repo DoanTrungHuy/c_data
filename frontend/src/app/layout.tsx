@@ -42,6 +42,13 @@ export const metadata: Metadata = {
     locale: "vi_VN",
     type: "website",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   robots: {
     index: true,
     follow: true,

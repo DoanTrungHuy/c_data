@@ -6,6 +6,7 @@ import {
   MapPinIcon,
   HeartIcon,
 } from "@heroicons/react/24/outline";
+import CDataLogo from "@/components/CDataLogo";
 
 export default function Footer() {
   const popularProvinces = [
@@ -36,12 +37,7 @@ export default function Footer() {
           {/* Brand & Mission */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-primary-500 to-blue-400 text-white shadow-md">
-                <BriefcaseIcon className="h-6 w-6" />
-              </div>
-              <span className="text-2xl font-black tracking-tight text-white">
-                C_Data
-              </span>
+              <CDataLogo size="md" showTagline={false} className="[&_span]:text-white" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Nền tảng tổng hợp tin tuyển dụng thông minh hàng đầu Việt Nam. Kết nối người tìm việc với hàng ngàn cơ hội nghề nghiệp trên khắp 63 tỉnh thành hoàn toàn miễn phí.

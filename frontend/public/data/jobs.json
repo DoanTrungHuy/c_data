@@ -17,10 +17,9 @@
     "experience_level": "Có kinh nghiệm",
     "source_platform": "Facebook (Paradise Vietnam Cruises)",
     "source_url": "https://www.facebook.com/ParadiseVietnamCruises/",
-    "posted_at": "2026-10-13 19:52:37.498884",
-    "expires_at": "2026-11-03 03:52:37.498884",
-    "crawled_at": "2026-10-14 03:52:37.498884",
-    "is_active": 1,
+    "posted_at": "2026-10-13T19:52:37.498884",
+    "expires_at": "2026-11-03T03:52:37.498884",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -38,24 +37,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 03:52:37",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "e0d355e4-fd31-4fb5-904c-2d157d6165c9",
       "name": "Công ty TNHH Dịch vụ Du thuyền Vịnh Hạ Long (Paradise Vietnam)",
-      "logo_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=128&h=128&fit=crop",
       "website": "https://paradisevietnam.com",
       "province": "Quảng Ninh",
-      "description": "Đơn vị vận hành đội du thuyền ngủ đêm đẳng cấp hàng đầu trên vịnh Hạ Long và Lan Hạ.",
-      "industry": "Du lịch & Du thuyền",
-      "created_at": "2026-10-14 03:52:37",
-      "updated_at": "2026-10-14 03:52:37"
+      "description": "Đơn vị vận hành đội du thuyền ngủ đêm đẳng cấp hàng đầu trên vịnh Hạ Long và Lan Hạ."
     }
   },
   {
     "id": "cd9e7d52-03e2-4c57-a133-3ef4684e74c9",
     "title": "ASM - Giám Đốc Kinh Doanh Vùng Thủ Đô(Mới)",
-    "company_name": "Doanh nghiệp tại Việt Nam",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: ASM - Giám Đốc Kinh Doanh Vùng Thủ Đô(Mới). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -70,10 +63,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/asm-giam-doc-kinh-doanh-vung-thu-do.35C8A5A0.html",
-    "posted_at": "2026-10-13 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:22:40.612016",
-    "is_active": 1,
+    "posted_at": "2026-10-13T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -85,24 +77,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "450f6c5f-88bc-4353-bdbc-99c3a5a0e21f",
     "title": "Phó phòng Cơ điện",
-    "company_name": "Doanh nghiệp tại Việt Nam",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Phó phòng Cơ điện. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -117,10 +103,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-co-dien.35C83E60.html",
-    "posted_at": "2026-09-18 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:22:40.614909",
-    "is_active": 1,
+    "posted_at": "2026-09-18T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -130,24 +115,18 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "67e2b954-66d2-4304-be94-45a3032417d2",
     "title": "GIÁM ĐỐC KINH DOANH BẤT ĐỘNG SẢN",
-    "company_name": "Doanh nghiệp tại Việt Nam",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: GIÁM ĐỐC KINH DOANH BẤT ĐỘNG SẢN. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Hà NộiQuảng NinhHưng Yên. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -162,10 +141,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-bat-dong-san.35C873D3.html",
-    "posted_at": "2026-10-06 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:22:40.617920",
-    "is_active": 1,
+    "posted_at": "2026-10-06T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -178,18 +156,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -210,10 +182,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-an-toan-lao-dong.35C89CFA.html",
-    "posted_at": "2026-10-13 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 10:18:37.515461",
-    "is_active": 1,
+    "posted_at": "2026-10-13T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -225,24 +196,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "73b4faca-22da-41e8-b168-427ad7b3f99b",
     "title": "GIÁM SÁT THI CÔNG HOÀN THIỆN NỘI THẤT",
-    "company_name": "Doanh nghiệp tại Việt Nam",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: GIÁM SÁT THI CÔNG HOÀN THIỆN NỘI THẤT. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Hà NộiKhánh HòaHồ Chí Minh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -257,10 +222,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-thi-cong-hoan-thien-noi-that.35C822CE.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:22:40.622752",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -272,24 +236,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "eb0745f4-ae35-4939-8021-6fe1b2a26b66",
     "title": "Thủ Kho Mảng Xây Dựng và Cơ Điện",
-    "company_name": "Doanh nghiệp tại Việt Nam",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Thủ Kho Mảng Xây Dựng và Cơ Điện. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Hà NộiHồ Chí MinhĐà Nẵng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -304,10 +262,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/thu-kho-mang-xay-dung-va-co-dien.35C89066.html",
-    "posted_at": "2026-10-07 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:22:40.622752",
-    "is_active": 1,
+    "posted_at": "2026-10-07T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -320,24 +277,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "808b73cb-3ab7-4669-9e9f-773c7dfeff9d",
     "title": "[KATINAT-VŨNG TÀU] QUẢN LÝ CỬA HÀNG",
-    "company_name": "KATINAT Saigon Kafe",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: [KATINAT-VŨNG TÀU] QUẢN LÝ CỬA HÀNG. Doanh nghiệp tuyển dụng: KATINAT Saigon Kafe. Nơi làm việc: Bà Rịa - Vũng Tàu. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -352,10 +303,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/katinat-vung-tau-quan-ly-cua-hang.35C87067.html",
-    "posted_at": "2026-10-04 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:04:03.558385",
-    "is_active": 1,
+    "posted_at": "2026-10-04T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -367,24 +317,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "78dc365f-7192-4838-8fad-de13a3bdcd3e",
     "title": "CHỈ HUY TRƯỞNG HOÀN THIỆN NỘI THẤT - GẤP",
-    "company_name": "Doanh nghiệp tại Bà Rịa - Vũng Tàu",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: CHỈ HUY TRƯỞNG HOÀN THIỆN NỘI THẤT - GẤP. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Bà Rịa - Vũng Tàu. Nơi làm việc: Hồ Chí MinhKhánh HòaBà Rịa - Vũng Tàu. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -399,10 +343,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chi-huy-truong-hoan-thien-noi-that-gap.35C899C9.html",
-    "posted_at": "2026-10-12 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:04:03.560366",
-    "is_active": 1,
+    "posted_at": "2026-10-12T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -414,24 +357,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "44cbf0a0-cfea-440a-bb92-b051f5d79a49",
     "title": "Nhân Viên Nhập Liệu Chứng Từ Giao Nhận",
-    "company_name": "Công ty Giao Nhận & Vận Tải Quốc Tế Quảng Ninh",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Nhân Viên Nhập Liệu Chứng Từ Giao Nhận. Doanh nghiệp tuyển dụng: Công ty Giao Nhận & Vận Tải Quốc Tế Quảng Ninh. Nơi làm việc: Hải DươngQuảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -446,10 +383,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-nhap-lieu-chung-tu-giao-nhan.35C86AAC.html",
-    "posted_at": "2026-10-11 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:04:03.581925",
-    "is_active": 1,
+    "posted_at": "2026-10-11T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -461,18 +397,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -493,10 +423,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qaqc-hoan-thien-noi-that.35C822C9.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:04:02.145274",
-    "crawled_at": "2026-10-14 04:04:03.583836",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:04:02.145274",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -506,18 +435,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -538,10 +461,9 @@
     "experience_level": null,
     "source_platform": "Facebook (Sun World Ha Long Complex)",
     "source_url": "https://www.facebook.com/SunWorldHalongComplex/?ref=cable_car",
-    "posted_at": "2026-10-13 23:04:03.522412",
-    "expires_at": "2026-11-18 04:04:03.522412",
-    "crawled_at": "2026-10-14 15:06:01.401104",
-    "is_active": 1,
+    "posted_at": "2026-10-13T23:04:03.522412",
+    "expires_at": "2026-11-18T04:04:03.522412",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -553,18 +475,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "9c396ea4-026e-4d84-87a3-7ae0e69512ee",
       "name": "Công viên Sun World Ha Long (Tập đoàn Sun Group)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -585,10 +501,9 @@
     "experience_level": null,
     "source_platform": "Website Tập Đoàn (Than Vinacomin TKV)",
     "source_url": "https://vinacomin.vn/",
-    "posted_at": "2026-10-13 21:04:03.522412",
-    "expires_at": "2026-11-18 04:04:03.522412",
-    "crawled_at": "2026-10-14 15:06:01.486331",
-    "is_active": 1,
+    "posted_at": "2026-10-13T21:04:03.522412",
+    "expires_at": "2026-11-18T04:04:03.522412",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -601,18 +516,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "91f25fe3-8de5-40ca-ac54-999a746f7fa1",
       "name": "Công ty Cổ phần Than Đèo Nai - Cọc Sáu (TKV)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -633,10 +542,9 @@
     "experience_level": null,
     "source_platform": "Facebook (Vinpearl Resort & Spa Hạ Long)",
     "source_url": "https://www.facebook.com/vinpearlhalongresort/?ref=purchasing",
-    "posted_at": "2026-10-13 19:04:03.522412",
-    "expires_at": "2026-11-18 04:04:03.522412",
-    "crawled_at": "2026-10-14 15:06:01.563045",
-    "is_active": 1,
+    "posted_at": "2026-10-13T19:04:03.522412",
+    "expires_at": "2026-11-18T04:04:03.522412",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -648,18 +556,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:04:03",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
       "name": "Vinpearl Resort & Spa Hạ Long",
-      "logo_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=128&h=128&fit=crop",
       "website": "https://vinpearl.com",
       "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long.",
-      "industry": "Khách sạn & Nhà hàng",
-      "created_at": "2026-10-14 03:38:40",
-      "updated_at": "2026-10-14 03:38:40"
+      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
     }
   },
   {
@@ -680,10 +582,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-quang-ninh.35C89DD4.html",
-    "posted_at": "2026-10-08 00:00:00.000000",
-    "expires_at": "2026-11-13 04:19:14.984999",
-    "crawled_at": "2026-10-14 10:18:37.211734",
-    "is_active": 1,
+    "posted_at": "2026-10-08T00:00:00",
+    "expires_at": "2026-11-13T04:19:14.984999",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -695,18 +596,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:19:16",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -727,10 +622,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-ke-toan.35C88EAB.html",
-    "posted_at": "2026-10-13 00:00:00.000000",
-    "expires_at": "2026-11-13 04:19:14.984999",
-    "crawled_at": "2026-10-14 10:18:37.344584",
-    "is_active": 1,
+    "posted_at": "2026-10-13T00:00:00",
+    "expires_at": "2026-11-13T04:19:14.984999",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -742,18 +636,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:19:16",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -774,10 +662,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-giam-sat-xay-dung.35C89D05.html",
-    "posted_at": "2026-10-13 00:00:00.000000",
-    "expires_at": "2026-11-13 04:19:14.984999",
-    "crawled_at": "2026-10-14 10:18:37.662198",
-    "is_active": 1,
+    "posted_at": "2026-10-13T00:00:00",
+    "expires_at": "2026-11-13T04:19:14.984999",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -790,18 +677,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:19:16",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -822,10 +703,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-tp-uong-bi-quang-ninh.35C87A93.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:19:14.984999",
-    "crawled_at": "2026-10-14 10:18:37.771598",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:19:14.984999",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -837,18 +717,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:19:16",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -869,10 +743,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-thi-truong-quang-ninh.35C87751.html",
-    "posted_at": "2026-10-07 00:00:00.000000",
-    "expires_at": "2026-11-13 04:19:14.984999",
-    "crawled_at": "2026-10-14 10:18:37.885030",
-    "is_active": 1,
+    "posted_at": "2026-10-07T00:00:00",
+    "expires_at": "2026-11-13T04:19:14.984999",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -886,18 +759,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:19:16",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -918,10 +785,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Yoko Onsen Quang Hanh)",
     "source_url": "https://yokoonsenquanghanh.com.vn/",
-    "posted_at": "2026-10-14 02:19:16.473387",
-    "expires_at": "2026-11-18 04:19:16.473387",
-    "crawled_at": "2026-10-14 15:06:01.324169",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:19:16.473387",
+    "expires_at": "2026-11-18T04:19:16.473387",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -937,18 +803,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:19:16",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "42989056-db35-41b0-a859-2ad249ecdd6f",
       "name": "Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh (Sun Group)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:19:16",
-      "updated_at": "2026-10-14 04:19:16"
+      "description": null
     }
   },
   {
@@ -969,10 +829,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-tieng-trung-lam-tai-quang-ninh.35C833DD.html",
-    "posted_at": "2026-10-13 00:00:00.000000",
-    "expires_at": "2026-11-13 04:20:50.499308",
-    "crawled_at": "2026-10-14 10:18:38.010057",
-    "is_active": 1,
+    "posted_at": "2026-10-13T00:00:00",
+    "expires_at": "2026-11-13T04:20:50.499308",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -984,18 +843,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:20:51",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -1016,10 +869,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-quan-he-khach-hang-ca-nhan-quang-ninh.35C89DD1.html",
-    "posted_at": "2026-10-08 00:00:00.000000",
-    "expires_at": "2026-11-13 04:20:50.499308",
-    "crawled_at": "2026-10-14 10:18:38.139217",
-    "is_active": 1,
+    "posted_at": "2026-10-08T00:00:00",
+    "expires_at": "2026-11-13T04:20:50.499308",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1029,18 +881,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:20:51",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -1061,10 +907,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-representative-cam-pha-quang-ninh.35C7FC8D.html",
-    "posted_at": "2026-09-18 00:00:00.000000",
-    "expires_at": "2026-11-13 04:20:50.499308",
-    "crawled_at": "2026-10-14 10:18:38.289291",
-    "is_active": 1,
+    "posted_at": "2026-09-18T00:00:00",
+    "expires_at": "2026-11-13T04:20:50.499308",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1078,18 +923,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:20:51",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -1110,10 +949,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-dao-tao-va-phat-trien-sao-vang-quang-ninh.35C881C3.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:20:50.499308",
-    "crawled_at": "2026-10-14 10:18:38.426698",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:20:50.499308",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1123,18 +961,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:20:51",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -1155,10 +987,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-b2b-ha-noi.35C8A7AE.html",
-    "posted_at": "2026-10-14 02:22:25.551829",
-    "expires_at": "2026-11-13 04:22:25.551829",
-    "crawled_at": "2026-10-14 04:22:26.529775",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:22:25.551829",
+    "expires_at": "2026-11-13T04:22:25.551829",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1170,18 +1001,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:22:26",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
       "name": "Doanh nghiệp tại Hà Nội",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:22:26",
-      "updated_at": "2026-10-14 04:22:26"
+      "description": null
     }
   },
   {
@@ -1202,10 +1027,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-tai-ha-noi-da-nang-ho-chi-minh-thu-nhap-hap-dan.35C890B3.html",
-    "posted_at": "2026-10-14 02:22:25.551829",
-    "expires_at": "2026-11-13 04:22:25.551829",
-    "crawled_at": "2026-10-14 04:22:26.535735",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:22:25.551829",
+    "expires_at": "2026-11-13T04:22:25.551829",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1217,18 +1041,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:22:26",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
       "name": "Doanh nghiệp tại Hà Nội",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:22:26",
-      "updated_at": "2026-10-14 04:22:26"
+      "description": null
     }
   },
   {
@@ -1249,10 +1067,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-logistics-supervisor.35C879DA.html",
-    "posted_at": "2026-10-08 00:00:00.000000",
-    "expires_at": "2026-11-13 04:22:25.551829",
-    "crawled_at": "2026-10-14 04:22:26.539088",
-    "is_active": 1,
+    "posted_at": "2026-10-08T00:00:00",
+    "expires_at": "2026-11-13T04:22:25.551829",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1264,18 +1081,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:22:26",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
       "name": "Doanh nghiệp tại Hà Nội",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:22:26",
-      "updated_at": "2026-10-14 04:22:26"
+      "description": null
     }
   },
   {
@@ -1296,10 +1107,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-admin-executive.35C843FF.html",
-    "posted_at": "2026-09-22 00:00:00.000000",
-    "expires_at": "2026-11-13 04:22:25.551829",
-    "crawled_at": "2026-10-14 04:22:26.541686",
-    "is_active": 1,
+    "posted_at": "2026-09-22T00:00:00",
+    "expires_at": "2026-11-13T04:22:25.551829",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1309,18 +1119,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:22:26",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
       "name": "Doanh nghiệp tại Hà Nội",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:22:26",
-      "updated_at": "2026-10-14 04:22:26"
+      "description": null
     }
   },
   {
@@ -1341,10 +1145,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/customer-advisor-ha-noi.35C8721D.html",
-    "posted_at": "2026-10-05 00:00:00.000000",
-    "expires_at": "2026-11-13 04:22:25.551829",
-    "crawled_at": "2026-10-14 04:22:26.547561",
-    "is_active": 1,
+    "posted_at": "2026-10-05T00:00:00",
+    "expires_at": "2026-11-13T04:22:25.551829",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1354,18 +1157,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:22:26",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
       "name": "Doanh nghiệp tại Hà Nội",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:22:26",
-      "updated_at": "2026-10-14 04:22:26"
+      "description": null
     }
   },
   {
@@ -1386,10 +1183,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/clerk-operations-ha-noi.35C85730.html",
-    "posted_at": "2026-10-03 00:00:00.000000",
-    "expires_at": "2026-11-13 04:22:25.551829",
-    "crawled_at": "2026-10-14 04:22:26.554095",
-    "is_active": 1,
+    "posted_at": "2026-10-03T00:00:00",
+    "expires_at": "2026-11-13T04:22:25.551829",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1399,18 +1195,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 04:22:26",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
       "name": "Doanh nghiệp tại Hà Nội",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:22:26",
-      "updated_at": "2026-10-14 04:22:26"
+      "description": null
     }
   },
   {
@@ -1431,10 +1221,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/thanh-hoa-giam-doc-phong-giao-dich.35C837F2.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:27:10.613136",
-    "crawled_at": "2026-10-14 04:27:12.205856",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:27:10.613136",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1446,18 +1235,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:27:12",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
       "name": "Doanh nghiệp tại Thanh Hóa",
-      "logo_url": null,
       "website": null,
       "province": "Thanh Hóa",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:27:12",
-      "updated_at": "2026-10-14 04:27:12"
+      "description": null
     }
   },
   {
@@ -1478,10 +1261,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-cua-hang-khu-vuc-thanh-hoa.35C81443.html",
-    "posted_at": "2026-10-09 00:00:00.000000",
-    "expires_at": "2026-11-13 04:27:10.613136",
-    "crawled_at": "2026-10-14 04:27:12.208720",
-    "is_active": 1,
+    "posted_at": "2026-10-09T00:00:00",
+    "expires_at": "2026-11-13T04:27:10.613136",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1494,18 +1276,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:27:12",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
       "name": "Doanh nghiệp tại Thanh Hóa",
-      "logo_url": null,
       "website": null,
       "province": "Thanh Hóa",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:27:12",
-      "updated_at": "2026-10-14 04:27:12"
+      "description": null
     }
   },
   {
@@ -1526,10 +1302,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/thanh-hoa-truong-phong-khach-hang-ca-nhan.35C837FE.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:27:10.613136",
-    "crawled_at": "2026-10-14 04:27:12.213909",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:27:10.613136",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1541,18 +1316,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:27:12",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
       "name": "Doanh nghiệp tại Thanh Hóa",
-      "logo_url": null,
       "website": null,
       "province": "Thanh Hóa",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:27:12",
-      "updated_at": "2026-10-14 04:27:12"
+      "description": null
     }
   },
   {
@@ -1573,10 +1342,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-dinh-gia-tai-san-tai-thanh-hoa.35C88589.html",
-    "posted_at": "2026-10-07 00:00:00.000000",
-    "expires_at": "2026-11-13 04:27:10.613136",
-    "crawled_at": "2026-10-14 04:27:12.216052",
-    "is_active": 1,
+    "posted_at": "2026-10-07T00:00:00",
+    "expires_at": "2026-11-13T04:27:10.613136",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1588,18 +1356,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:27:12",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
       "name": "Doanh nghiệp tại Thanh Hóa",
-      "logo_url": null,
       "website": null,
       "province": "Thanh Hóa",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:27:12",
-      "updated_at": "2026-10-14 04:27:12"
+      "description": null
     }
   },
   {
@@ -1620,10 +1382,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/can-bo-tu-van-giam-sat-bqlda-thanh-hoa.35C84812.html",
-    "posted_at": "2026-09-24 00:00:00.000000",
-    "expires_at": "2026-11-13 04:27:10.613136",
-    "crawled_at": "2026-10-14 04:27:12.218627",
-    "is_active": 1,
+    "posted_at": "2026-09-24T00:00:00",
+    "expires_at": "2026-11-13T04:27:10.613136",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1636,18 +1397,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:27:12",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
       "name": "Doanh nghiệp tại Thanh Hóa",
-      "logo_url": null,
       "website": null,
       "province": "Thanh Hóa",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:27:12",
-      "updated_at": "2026-10-14 04:27:12"
+      "description": null
     }
   },
   {
@@ -1668,10 +1423,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-thi-truong-thanh-hoa.35C870DF.html",
-    "posted_at": "2026-10-05 00:00:00.000000",
-    "expires_at": "2026-11-13 04:27:10.613136",
-    "crawled_at": "2026-10-14 04:27:12.221639",
-    "is_active": 1,
+    "posted_at": "2026-10-05T00:00:00",
+    "expires_at": "2026-11-13T04:27:10.613136",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1686,24 +1440,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:27:12",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
       "name": "Doanh nghiệp tại Thanh Hóa",
-      "logo_url": null,
       "website": null,
       "province": "Thanh Hóa",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:27:12",
-      "updated_at": "2026-10-14 04:27:12"
+      "description": null
     }
   },
   {
     "id": "3a193a60-e8db-4d8d-9666-2cda1257e7a0",
     "title": "Chuyên Viên Công Nghệ Thông Tin",
-    "company_name": "Doanh nghiệp tại Thừa Thiên Huế",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Chuyên Viên Công Nghệ Thông Tin. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thừa Thiên Huế. Nơi làm việc: Thừa Thiên- Huế. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -1718,10 +1466,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cong-nghe-thong-tin.35C8A062.html",
-    "posted_at": "2026-10-09 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:35.818118",
-    "crawled_at": "2026-10-14 04:34:38.277353",
-    "is_active": 1,
+    "posted_at": "2026-10-09T00:00:00",
+    "expires_at": "2026-11-13T04:34:35.818118",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1733,24 +1480,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:38",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "17068489-a0d3-4747-b175-11ecfcf7d64a",
     "title": "CHUYÊN VIÊN CÔNG NGHỆ THÔNG TIN (IT EXECUTIVE)",
-    "company_name": "Doanh nghiệp tại Hà Nội",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: CHUYÊN VIÊN CÔNG NGHỆ THÔNG TIN (IT EXECUTIVE). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -1765,10 +1506,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cong-nghe-thong-tin-it-executive.35C88388.html",
-    "posted_at": "2026-10-07 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:35.818118",
-    "crawled_at": "2026-10-14 04:34:38.294566",
-    "is_active": 1,
+    "posted_at": "2026-10-07T00:00:00",
+    "expires_at": "2026-11-13T04:34:35.818118",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1780,24 +1520,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:38",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "81af316f-993d-4d02-b365-9be4fcbc1c8d",
     "title": "AI Expert - Khối Công nghệ thông tin (2026TD450200)",
-    "company_name": "Tập đoàn Công nghệ Thông tin (Hà Nội)",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: AI Expert - Khối Công nghệ thông tin (2026TD450200). Doanh nghiệp tuyển dụng: Tập đoàn Công nghệ Thông tin (Hà Nội). Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -1812,10 +1546,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C7FB42.html",
-    "posted_at": "2026-09-15 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:35.818118",
-    "crawled_at": "2026-10-14 04:34:38.313102",
-    "is_active": 1,
+    "posted_at": "2026-09-15T00:00:00",
+    "expires_at": "2026-11-13T04:34:35.818118",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1828,24 +1561,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:38",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "cb972092-fb4e-4014-b25d-4dd4b97e50c7",
     "title": "Senior AI Expert - Khối Công nghệ thông tin (2026TD450201)",
-    "company_name": "Tập đoàn Công nghệ Thông tin (Hà Nội)",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Senior AI Expert - Khối Công nghệ thông tin (2026TD450201). Doanh nghiệp tuyển dụng: Tập đoàn Công nghệ Thông tin (Hà Nội). Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -1860,10 +1587,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-expert-khoi-cong-nghe-thong-tin-2026td450201.35C7FB43.html",
-    "posted_at": "2026-09-15 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:35.818118",
-    "crawled_at": "2026-10-14 04:34:38.326816",
-    "is_active": 1,
+    "posted_at": "2026-09-15T00:00:00",
+    "expires_at": "2026-11-13T04:34:35.818118",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1876,24 +1602,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:38",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "faa9db9d-81d0-4a21-bb61-b9878057059a",
     "title": "DevOps Engineer - Khối Công nghệ thông tin (2025TD945)",
-    "company_name": "Tập đoàn Công nghệ Thông tin (Hà Nội)",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: DevOps Engineer - Khối Công nghệ thông tin (2025TD945). Doanh nghiệp tuyển dụng: Tập đoàn Công nghệ Thông tin (Hà Nội). Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -1908,10 +1628,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/devops-engineer-khoi-cong-nghe-thong-tin-2025td945.35C89A89.html",
-    "posted_at": "2026-10-12 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:35.818118",
-    "crawled_at": "2026-10-14 04:34:38.340074",
-    "is_active": 1,
+    "posted_at": "2026-10-12T00:00:00",
+    "expires_at": "2026-11-13T04:34:35.818118",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1924,24 +1643,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:38",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "2029b857-d23f-4fce-a1ea-b48b28b01a0f",
     "title": "GIÁM ĐỐC KHỐI HÀNH CHÍNH NHÂN SỰ - CÔNG NGHỆ THÔNG TIN",
-    "company_name": "Doanh nghiệp tại Đồng Nai",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: GIÁM ĐỐC KHỐI HÀNH CHÍNH NHÂN SỰ - CÔNG NGHỆ THÔNG TIN. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Đồng Nai. Nơi làm việc: Đồng Nai. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -1956,10 +1669,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-khoi-hanh-chinh-nhan-su-cong-nghe-thong-tin.35C89A3E.html",
-    "posted_at": "2026-10-12 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:35.818118",
-    "crawled_at": "2026-10-14 04:34:38.347551",
-    "is_active": 1,
+    "posted_at": "2026-10-12T00:00:00",
+    "expires_at": "2026-11-13T04:34:35.818118",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -1971,24 +1683,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:38",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "5cdf4f3d-676c-4ee0-a0a4-748abd4acd31",
     "title": "IT Engineer",
-    "company_name": "Doanh nghiệp KCN Bình Dương",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: IT Engineer. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bình Dương. Nơi làm việc: Bình Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2003,10 +1709,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-engineer.35C89133.html",
-    "posted_at": "2026-10-01 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:57.889358",
-    "crawled_at": "2026-10-14 08:52:27.170316",
-    "is_active": 1,
+    "posted_at": "2026-10-01T00:00:00",
+    "expires_at": "2026-11-13T04:34:57.889358",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2018,24 +1723,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:58",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "63cea88c-eff7-4be9-96cb-53463626a85a",
     "title": "IT Manager",
-    "company_name": "Doanh nghiệp KCN Bình Dương",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: IT Manager. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bình Dương. Nơi làm việc: Bình Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2050,10 +1749,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-manager.35C8A179.html",
-    "posted_at": "2026-10-10 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:57.889358",
-    "crawled_at": "2026-10-14 08:52:27.046324",
-    "is_active": 1,
+    "posted_at": "2026-10-10T00:00:00",
+    "expires_at": "2026-11-13T04:34:57.889358",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2065,24 +1763,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:58",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "70894bb0-47e1-453c-82f9-5603560f853f",
     "title": "IT Engineer",
-    "company_name": "Doanh nghiệp KCN Bắc Ninh",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: IT Engineer. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bắc Ninh. Nơi làm việc: Bắc Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2097,10 +1789,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-engineer.35C87608.html",
-    "posted_at": "2026-10-07 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:57.889358",
-    "crawled_at": "2026-10-14 08:52:27.103755",
-    "is_active": 1,
+    "posted_at": "2026-10-07T00:00:00",
+    "expires_at": "2026-11-13T04:34:57.889358",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2112,24 +1803,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:58",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "0952adbd-9c37-4f2c-8fb8-50013b1f0ff5",
     "title": "Nhân viên IT",
-    "company_name": "Doanh nghiệp tại Cao Bằng",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Nhân viên IT. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Cao Bằng. Nơi làm việc: Cao Bằng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2144,10 +1829,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C879C1.html",
-    "posted_at": "2026-10-08 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:57.889358",
-    "crawled_at": "2026-10-14 08:52:27.358547",
-    "is_active": 1,
+    "posted_at": "2026-10-08T00:00:00",
+    "expires_at": "2026-11-13T04:34:57.889358",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2159,24 +1843,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:58",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "e8cc41dd-70fa-490c-8853-1055fc9ee5cd",
     "title": "IT Business Analyst",
-    "company_name": "Doanh nghiệp tại TP. Hồ Chí Minh",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: IT Business Analyst. Doanh nghiệp tuyển dụng: Doanh nghiệp tại TP. Hồ Chí Minh. Nơi làm việc: Hồ Chí Minh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2191,10 +1869,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-business-analyst.35C87F35.html",
-    "posted_at": "2026-09-22 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:57.889358",
-    "crawled_at": "2026-10-14 08:20:45.677754",
-    "is_active": 1,
+    "posted_at": "2026-09-22T00:00:00",
+    "expires_at": "2026-11-13T04:34:57.889358",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2206,24 +1883,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:58",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "26c638a0-b369-445f-9999-e855e8ed65f2",
     "title": "Nhân viên IT",
-    "company_name": "Doanh nghiệp KCN Hà Nam",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Nhân viên IT. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Hà Nam. Nơi làm việc: Hà Nam. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2238,10 +1909,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C835F3.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 04:34:57.889358",
-    "crawled_at": "2026-10-14 04:36:21.847472",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T04:34:57.889358",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2253,18 +1923,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:34:58",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -2285,10 +1949,9 @@
     "experience_level": null,
     "source_platform": "Gốm Đất Việt Quảng Ninh",
     "source_url": "https://gomdatviet.com.vn/tuyen-dung/ke-toan-showroom",
-    "posted_at": "2026-10-13 21:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.932961",
-    "crawled_at": "2026-10-14 13:42:08.573378",
-    "is_active": 1,
+    "posted_at": "2026-10-13T21:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.932961",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2307,18 +1970,12 @@
       "social_harvest": true,
       "platform_type": "Gốm Đất Việt Quảng Ninh"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "d475926c-784e-4a40-b179-f57505cbdc32",
       "name": "Công ty VLXD & Gốm Sứ Đất Việt Cẩm Phả",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
@@ -2339,10 +1996,9 @@
     "experience_level": null,
     "source_platform": "Threads (@thehillside_halong)",
     "source_url": "https://www.threads.net/?ref=thehillside_halong",
-    "posted_at": "2026-10-14 02:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.939945",
-    "crawled_at": "2026-10-14 15:06:03.694500",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.939945",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2364,18 +2020,12 @@
       "social_harvest": true,
       "platform_type": "Threads"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "5e0f1898-e9d3-4844-ae39-cc6884d4dd64",
       "name": "The Hillside Cafe Hòn Gai (@thehillside_halong)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
@@ -2396,10 +2046,9 @@
     "experience_level": null,
     "source_platform": "Threads (@halongbay_villa)",
     "source_url": "https://www.threads.net/?ref=halongbay_villa",
-    "posted_at": "2026-10-13 23:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.948196",
-    "crawled_at": "2026-10-14 15:06:03.787216",
-    "is_active": 1,
+    "posted_at": "2026-10-13T23:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.948196",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2414,18 +2063,12 @@
       "social_harvest": true,
       "platform_type": "Threads"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "23b9e682-0e88-482a-b24e-82bb723c0280",
       "name": "Halong Bay Luxury Resort & Villa (@halongbay_villa)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
@@ -2446,10 +2089,9 @@
     "experience_level": null,
     "source_platform": "Threads (@cozyhomestay_halong)",
     "source_url": "https://www.threads.net/?ref=cozyhomestay_halong",
-    "posted_at": "2026-10-13 22:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.954208",
-    "crawled_at": "2026-10-14 15:06:03.884979",
-    "is_active": 1,
+    "posted_at": "2026-10-13T22:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.954208",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2468,18 +2110,12 @@
       "social_harvest": true,
       "platform_type": "Threads"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "5f2bab45-e656-491c-962b-5a7f5aed4486",
       "name": "Ha Long Bay Cozy Homestay (@cozyhomestay_halong)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
@@ -2500,10 +2136,9 @@
     "experience_level": null,
     "source_platform": "TikTok (@heritage_cruise_halong)",
     "source_url": "https://www.tiktok.com/?ref=heritage_cruise",
-    "posted_at": "2026-10-14 02:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.961498",
-    "crawled_at": "2026-10-14 15:06:04.107211",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.961498",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2522,18 +2157,12 @@
       "social_harvest": true,
       "platform_type": "TikTok"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "8dab640f-d2e3-4791-81cb-1bcf3a154597",
       "name": "Du Thuyền Hạ Long Heritage 5* (@heritage_cruise_halong)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
@@ -2554,10 +2183,9 @@
     "experience_level": null,
     "source_platform": "TikTok (@quynhanh_nail_halong)",
     "source_url": "https://www.tiktok.com/?ref=quynhanh_nail",
-    "posted_at": "2026-10-14 01:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.969497",
-    "crawled_at": "2026-10-14 15:06:04.187850",
-    "is_active": 1,
+    "posted_at": "2026-10-14T01:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.969497",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2574,18 +2202,12 @@
       "social_harvest": true,
       "platform_type": "TikTok"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "83c3e267-6178-4893-b292-a24e866e75fb",
       "name": "Quỳnh Anh Beauty & Nail Hạ Long (@quynhanh_nail_halong)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
@@ -2606,10 +2228,9 @@
     "experience_level": null,
     "source_platform": "TikTok (@shiphaisan_halong)",
     "source_url": "https://www.tiktok.com/?ref=shiphaisan_halong",
-    "posted_at": "2026-10-13 22:41:08.873836",
-    "expires_at": "2026-11-08 04:41:08.975752",
-    "crawled_at": "2026-10-14 15:06:04.265118",
-    "is_active": 1,
+    "posted_at": "2026-10-13T22:41:08.873836",
+    "expires_at": "2026-11-08T04:41:08.975752",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2626,24 +2247,18 @@
       "social_harvest": true,
       "platform_type": "TikTok"
     },
-    "created_at": "2026-10-14 04:41:08",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "f965f371-a5b8-47f6-bd1f-7fc80afb4d68",
       "name": "Đội Ship Hải Sản Đêm 247 Hạ Long (@shiphaisan_halong)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
     "id": "99c84eb9-6947-4d91-bea4-7aa9386682ce",
     "title": "Manufacturing IT Supervisor",
-    "company_name": "Doanh nghiệp KCN Bình Dương",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: Manufacturing IT Supervisor. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bình Dương. Nơi làm việc: Bình Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2658,10 +2273,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
-    "posted_at": "2026-10-01 00:00:00.000000",
-    "expires_at": "2026-11-13 04:42:00.975350",
-    "crawled_at": "2026-10-14 08:52:27.241124",
-    "is_active": 1,
+    "posted_at": "2026-10-01T00:00:00",
+    "expires_at": "2026-11-13T04:42:00.975350",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2673,24 +2287,18 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:42:02",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
     "id": "c251cb77-3bf8-402c-b1b7-159e82ebd0c7",
     "title": "NHÂN VIÊN IT",
-    "company_name": "Doanh nghiệp tại Hà Nội",
+    "company_name": "Doanh nghiệp tại Quảng Ninh",
     "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
     "description": "Vị trí: NHÂN VIÊN IT. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
@@ -2705,10 +2313,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
-    "posted_at": "2026-09-23 00:00:00.000000",
-    "expires_at": "2026-11-13 04:42:00.975350",
-    "crawled_at": "2026-10-14 08:52:27.310075",
-    "is_active": 1,
+    "posted_at": "2026-09-23T00:00:00",
+    "expires_at": "2026-11-13T04:42:00.975350",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2720,18 +2327,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 04:42:02",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "03e536b3-557e-4274-898e-1133db26eecc",
       "name": "Doanh nghiệp tại Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Hà Nội",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -2752,10 +2353,9 @@
     "experience_level": "1 - 2 năm",
     "source_platform": "Facebook (Vinpearl Resort & Spa Hạ Long)",
     "source_url": "https://www.facebook.com/vinpearlhalongresort/?ref=it_helpdesk",
-    "posted_at": "2026-10-14 04:24:34",
-    "expires_at": "2026-11-13 08:24:34",
-    "crawled_at": "2026-10-14 08:24:34",
-    "is_active": 1,
+    "posted_at": "2026-10-14T04:24:34",
+    "expires_at": "2026-11-13T08:24:34",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2771,18 +2371,12 @@
       },
       "verified": true
     },
-    "created_at": "2026-10-14 08:24:34",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
       "name": "Vinpearl Resort & Spa Hạ Long",
-      "logo_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=128&h=128&fit=crop",
       "website": "https://vinpearl.com",
       "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long.",
-      "industry": "Khách sạn & Nhà hàng",
-      "created_at": "2026-10-14 03:38:40",
-      "updated_at": "2026-10-14 03:38:40"
+      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
     }
   },
   {
@@ -2803,10 +2397,9 @@
     "experience_level": "1 - 3 năm",
     "source_platform": "Facebook (Sun World Ha Long Complex)",
     "source_url": "https://www.facebook.com/SunWorldHalongComplex/?ref=it_ticket",
-    "posted_at": "2026-10-14 02:24:34",
-    "expires_at": "2026-11-13 08:24:34",
-    "crawled_at": "2026-10-14 08:24:34",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:24:34",
+    "expires_at": "2026-11-13T08:24:34",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -2819,18 +2412,12 @@
       },
       "verified": true
     },
-    "created_at": "2026-10-14 08:24:34",
-    "updated_at": "2026-10-14 09:42:51",
     "company": {
       "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
       "name": "Công viên Sun World Ha Long (Sun Group)",
-      "logo_url": null,
       "website": "https://halong.sunworld.vn",
       "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
+      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy."
     }
   },
   {
@@ -2851,10 +2438,9 @@
     "experience_level": null,
     "source_platform": "Gió Coffee & Lounge Bãi Cháy",
     "source_url": "https://giocoffee.vn/tuyen-dung/phuc-vu",
-    "posted_at": "2026-10-14 08:42:03.494711",
-    "expires_at": "2026-11-03 09:42:03.494711",
-    "crawled_at": "2026-10-14 10:18:38.600543",
-    "is_active": 1,
+    "posted_at": "2026-10-14T08:42:03.494711",
+    "expires_at": "2026-11-03T09:42:03.494711",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2879,18 +2465,12 @@
       },
       "platform_type": "Gió Coffee & Lounge Bãi Cháy"
     },
-    "created_at": "2026-10-14 09:42:04",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "e9e91d55-4216-43b8-a41e-d6527c68976a",
       "name": "Gió Coffee & Lounge Bãi Cháy",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -2911,10 +2491,9 @@
     "experience_level": null,
     "source_platform": "CLB Du Thuyền & Thể Thao Nước Hạ Long",
     "source_url": "https://halongyachtclub.vn/tuyen-dung/ve-cano",
-    "posted_at": "2026-10-14 03:42:03.494711",
-    "expires_at": "2026-11-03 09:42:03.494711",
-    "crawled_at": "2026-10-14 10:18:39.076520",
-    "is_active": 1,
+    "posted_at": "2026-10-14T03:42:03.494711",
+    "expires_at": "2026-11-03T09:42:03.494711",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2933,18 +2512,12 @@
       },
       "platform_type": "CLB Du Thuyền & Thể Thao Nước Hạ Long"
     },
-    "created_at": "2026-10-14 09:42:04",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "243bf52c-af67-42a5-ae1b-2a4fe2c01455",
       "name": "CLB Du Thuyền & Thể Thao Nước Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -2965,10 +2538,9 @@
     "experience_level": null,
     "source_platform": "Nội Thất & Gạch Men Cẩm Phả",
     "source_url": "https://noithatcampha.vn/tuyen-dung/ke-toan-kho",
-    "posted_at": "2026-10-14 01:42:03.494711",
-    "expires_at": "2026-11-03 09:42:03.494711",
-    "crawled_at": "2026-10-14 10:18:39.199515",
-    "is_active": 1,
+    "posted_at": "2026-10-14T01:42:03.494711",
+    "expires_at": "2026-11-03T09:42:03.494711",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -2986,18 +2558,12 @@
       },
       "platform_type": "Nội Thất & Gạch Men Cẩm Phả"
     },
-    "created_at": "2026-10-14 09:42:04",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "e980b273-18df-401b-b313-571d137c7dc5",
       "name": "Nội Thất & Gạch Men Cao Cấp Cẩm Phả",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:19:16",
-      "updated_at": "2026-10-14 04:19:16"
+      "description": null
     }
   },
   {
@@ -3005,11 +2571,11 @@
     "title": "Tuyển Gấp IT Officer / Chuyên Viên Quản Trị Hệ Thống CNTT Khách Sạn 5 Sao",
     "company_name": "Khách Sạn 5 Sao Wyndham Legend Hạ Long",
     "company_id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
-    "description": "Khách sạn 5 sao quốc tế Wyndham Legend Hạ Long thông báo tuyển dụng vị trí IT Officer phụ trách hạ tầng CNTT toàn khu khách sạn 5 sao ven biển Bãi Cháy. Nhiệm vụ: Quản trị hệ thống máy chủ Windows Server, mạng WiFi phủ sóng toàn khách sạn, hệ thống phần mềm quản lý khách sạn PMS (Opera/Smile), camera an ninh và tổng đài IP. Hỗ trợ sự cố kỹ thuật cho các phòng ban và du khách lưu trú. Chế độ: Lương thỏa thuận xứng đáng (14 - 20 triệu) + Service Charge hàng tháng + Phụ cấp ăn ca, đồng phục, bảo hiểm đầy đủ.",
-    "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành CNTT, Khoa học máy tính hoặc Mạng máy tính. Tối thiểu 1-2 năm kinh nghiệm IT helpdesk/quản trị mạng, ưu tiên ứng viên từng làm trong môi trường khách sạn, resort hoặc tòa nhà.",
+    "description": "Quản trị và vận hành toàn diện hạ tầng mạng LAN/WAN, máy chủ và hệ thống phần mềm quản lý khách sạn quốc tế (Opera PMS/Micros POS). Hỗ trợ kỹ thuật người dùng nội bộ, bảo mật camera an ninh và đường truyền WiFi phục vụ khách hội nghị quốc tế. Chế độ bảo hiểm, ăn ca tại khách sạn 5 sao và thưởng phí dịch vụ (service charge) hàng tháng.",
+    "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành CNTT, Điện tử viễn thông. Có từ 1 năm kinh nghiệm quản trị mạng hoặc IT khách sạn. Nhanh nhẹn, có trách nhiệm và chịu được áp lực ca trực.",
     "salary_min": 14000000,
     "salary_max": 20000000,
-    "salary_text": "14 - 20 triệu + Thưởng phí dịch vụ (Service Charge)",
+    "salary_text": "14 - 20 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
     "location_full": "Số 12 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
@@ -3017,39 +2583,35 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
-    "source_url": "https://www.wyndhamhalong.com/tuyen-dung/it-officer",
-    "posted_at": "2026-10-14 07:52:44.999101",
-    "expires_at": "2026-11-08 09:52:45.161867",
-    "crawled_at": "2026-10-14 15:06:02.825195",
-    "is_active": 1,
+    "source_url": "https://www.wyndhamhalong.com",
+    "posted_at": "2026-10-13T15:36:44.539463",
+    "expires_at": "2026-11-13T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
+        "phones": [
+          "02033636555"
+        ],
+        "hr_email": "hr@wyndhamhalong.com",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
-          "khach san",
+          "ha long",
+          "quang ninh",
           "it",
-          "cntt",
-          "it officer"
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Website"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 09:52:45",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
       "name": "Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-      "logo_url": null,
       "website": "https://www.wyndhamhalong.com",
       "province": "Quảng Ninh",
-      "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
+      "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts."
     }
   },
   {
@@ -3070,10 +2632,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinpearl Hạ Long)",
     "source_url": "https://vinpearl.com/vi/tuyen-dung/it-helpdesk-ha-long",
-    "posted_at": "2026-10-14 05:52:44.999101",
-    "expires_at": "2026-11-08 09:52:45.302794",
-    "crawled_at": "2026-10-14 13:42:08.115372",
-    "is_active": 1,
+    "posted_at": "2026-10-14T05:52:44.999101",
+    "expires_at": "2026-11-08T09:52:45.302794",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3091,18 +2652,12 @@
       "social_harvest": true,
       "platform_type": "Website Doanh Nghiệp (Vinpearl Hạ Long)"
     },
-    "created_at": "2026-10-14 09:52:45",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
       "name": "Vinpearl Resort & Spa Hạ Long",
-      "logo_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=128&h=128&fit=crop",
       "website": "https://vinpearl.com",
       "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long.",
-      "industry": "Khách sạn & Nhà hàng",
-      "created_at": "2026-10-14 03:38:40",
-      "updated_at": "2026-10-14 03:38:40"
+      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
     }
   },
   {
@@ -3123,10 +2678,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Sun World Hạ Long)",
     "source_url": "https://halongcomplex.sunworld.vn/tuyen-dung/ky-su-cntt",
-    "posted_at": "2026-10-14 04:52:44.999101",
-    "expires_at": "2026-11-08 09:52:45.415734",
-    "crawled_at": "2026-10-14 13:42:08.192852",
-    "is_active": 1,
+    "posted_at": "2026-10-14T04:52:44.999101",
+    "expires_at": "2026-11-08T09:52:45.415734",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3145,18 +2699,12 @@
       "social_harvest": true,
       "platform_type": "Website Doanh Nghiệp (Sun World Hạ Long)"
     },
-    "created_at": "2026-10-14 09:52:45",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
       "name": "Công viên Sun World Ha Long (Sun Group)",
-      "logo_url": null,
       "website": "https://halong.sunworld.vn",
       "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
+      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy."
     }
   },
   {
@@ -3177,10 +2725,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (FPT Telecom)",
     "source_url": "https://fpt.vn/tuyen-dung/ky-thuat-vien-quang-ninh",
-    "posted_at": "2026-10-14 03:52:44.999101",
-    "expires_at": "2026-11-08 09:52:45.686614",
-    "crawled_at": "2026-10-14 13:42:08.651597",
-    "is_active": 1,
+    "posted_at": "2026-10-14T03:52:44.999101",
+    "expires_at": "2026-11-08T09:52:45.686614",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3195,18 +2742,12 @@
       "social_harvest": true,
       "platform_type": "Website Doanh Nghiệp (FPT Telecom)"
     },
-    "created_at": "2026-10-14 09:52:45",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
       "name": "FPT Telecom Chi Nhánh Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:52:45",
-      "updated_at": "2026-10-14 09:52:45"
+      "description": null
     }
   },
   {
@@ -3227,10 +2768,9 @@
     "experience_level": null,
     "source_platform": "Threads (@halongtech_studio)",
     "source_url": "https://www.threads.net/?ref=halongtech_studio",
-    "posted_at": "2026-10-14 01:52:45.000108",
-    "expires_at": "2026-11-08 09:52:45.792957",
-    "crawled_at": "2026-10-14 15:06:04.000100",
-    "is_active": 1,
+    "posted_at": "2026-10-14T01:52:45.000108",
+    "expires_at": "2026-11-08T09:52:45.792957",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3246,18 +2786,12 @@
       "social_harvest": true,
       "platform_type": "Threads"
     },
-    "created_at": "2026-10-14 09:52:46",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "990e12b8-46cd-47f7-b626-3d42b34f368a",
       "name": "Halong Tech Studio (@halongtech_studio)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:52:45",
-      "updated_at": "2026-10-14 09:52:45"
+      "description": null
     }
   },
   {
@@ -3278,10 +2812,9 @@
     "experience_level": null,
     "source_platform": "TikTok (@camera_mang_halong)",
     "source_url": "https://www.tiktok.com/?ref=camera_mang_halong",
-    "posted_at": "2026-10-14 02:52:45.000108",
-    "expires_at": "2026-11-08 09:52:46.013303",
-    "crawled_at": "2026-10-14 15:06:04.350195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:52:45.000108",
+    "expires_at": "2026-11-08T09:52:46.013303",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3295,18 +2828,12 @@
       "social_harvest": true,
       "platform_type": "TikTok"
     },
-    "created_at": "2026-10-14 09:52:46",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "73fba329-cc4f-4e26-af99-f7ed71521e2e",
       "name": "Vi Tính & Camera Hạ Long 247 (@camera_mang_halong)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:52:46",
-      "updated_at": "2026-10-14 09:52:46"
+      "description": null
     }
   },
   {
@@ -3327,10 +2854,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
     "source_url": "https://www.wyndhamhalong.com/tuyen-dung/front-desk",
-    "posted_at": "2026-10-14 06:52:44.999101",
-    "expires_at": "2026-11-08 09:52:46.121504",
-    "crawled_at": "2026-10-14 15:06:02.933870",
-    "is_active": 1,
+    "posted_at": "2026-10-14T06:52:44.999101",
+    "expires_at": "2026-11-08T09:52:46.121504",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -3349,18 +2875,12 @@
       "social_harvest": true,
       "platform_type": "Website"
     },
-    "created_at": "2026-10-14 09:52:46",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
       "name": "Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-      "logo_url": null,
       "website": "https://www.wyndhamhalong.com",
       "province": "Quảng Ninh",
-      "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
+      "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts."
     }
   },
   {
@@ -3381,10 +2901,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
     "source_url": "https://www.wyndhamhalong.com/tuyen-dung/duty-manager",
-    "posted_at": "2026-10-14 07:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T07:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3401,18 +2920,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)"
     },
-    "created_at": "2026-10-14 09:59:09",
-    "updated_at": "2026-10-14 09:59:09",
     "company": {
       "id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
       "name": "Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-      "logo_url": null,
       "website": "https://www.wyndhamhalong.com",
       "province": "Quảng Ninh",
-      "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
+      "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts."
     }
   },
   {
@@ -3433,10 +2946,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Paradise Vietnam)",
     "source_url": "https://paradisevietnam.com/tuyen-dung/dat-phong-tour",
-    "posted_at": "2026-10-14 06:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T06:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3458,18 +2970,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (Paradise Vietnam)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "20a1e4ef-afbe-46a9-a6d7-4e5635ad5521",
       "name": "Du Thuyền Paradise Elegance Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:09",
-      "updated_at": "2026-10-14 09:59:09"
+      "description": null
     }
   },
   {
@@ -3490,10 +2996,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Yoko Onsen Quang Hanh)",
     "source_url": "https://yokoonsenquanghanh.com.vn/tuyen-dung/tri-lieu-khoang-nong",
-    "posted_at": "2026-10-14 05:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T05:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3516,18 +3021,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (Yoko Onsen Quang Hanh)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "aee1d8da-490a-4347-a3cf-c33db63cef32",
       "name": "Yoko Onsen Quang Hanh (Sun Group)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3548,10 +3047,9 @@
     "experience_level": null,
     "source_platform": "Nhà Hàng Hải Sản Cua Vàng Bãi Cháy",
     "source_url": "https://cuavang.vn/tuyen-dung/bep-truong",
-    "posted_at": "2026-10-14 08:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T08:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3572,18 +3070,12 @@
       "verified_official": true,
       "platform_type": "Nhà Hàng Hải Sản Cua Vàng Bãi Cháy"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "bace587b-c2a1-4703-9191-cde5e4f7ecc7",
       "name": "Nhà Hàng Hải Sản Cua Vàng Bãi Cháy",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3604,10 +3096,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Pizza 4P's)",
     "source_url": "https://pizza4ps.com/careers/halong",
-    "posted_at": "2026-10-14 06:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T06:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3630,18 +3121,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (Pizza 4P's)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "1fb06a38-560a-46c4-86bb-2869714f7977",
       "name": "Pizza 4P's Vincom Plaza Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3662,10 +3147,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
     "source_url": "https://cict.com.vn/tuyen-dung/lai-xe-dau-keo-fc",
-    "posted_at": "2026-10-14 07:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T07:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3684,18 +3168,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (Cảng Cái Lân CICT)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
       "name": "Công Ty CP Cảng Cái Lân (CICT)",
-      "logo_url": null,
       "website": "https://cict.com.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3716,10 +3194,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (GHTK)",
     "source_url": "https://giaohangtietkiem.vn/tuyen-dung/buu-ta-ha-long",
-    "posted_at": "2026-10-14 04:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T04:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3734,18 +3211,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (GHTK)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "a851b651-d790-4b5b-a9be-22d96a7131ac",
       "name": "Giao Hàng Tiết Kiệm (GHTK) Chi Nhánh Quảng Ninh",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3766,10 +3237,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vietcombank)",
     "source_url": "https://tuyendung.vietcombank.com.vn/chi-tiet-tin/giao-dich-vien-quang-ninh",
-    "posted_at": "2026-10-14 05:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T05:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -3785,18 +3255,12 @@
       "verified_official": true,
       "platform_type": "CareerViet"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "eb33bcda-7522-4d03-a086-25c3f908f484",
       "name": "Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Quảng Ninh",
-      "logo_url": null,
       "website": "https://tuyendung.vietcombank.com.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3817,10 +3281,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (BIDV)",
     "source_url": "https://tuyendung.bidv.com.vn/chi-tiet-tin/chuyen-vien-tin-dung-quang-ninh",
-    "posted_at": "2026-10-14 03:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T03:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -3835,18 +3298,12 @@
       "verified_official": true,
       "platform_type": "CareerViet"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "8f6af948-2eca-4a04-911c-bc031a7502e0",
       "name": "Ngân Hàng TMCP Đầu Tư & Phát Triển Việt Nam (BIDV) Quảng Ninh",
-      "logo_url": null,
       "website": "https://tuyendung.bidv.com.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3867,10 +3324,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinmec Hạ Long)",
     "source_url": "https://vinmec.com/vi/tuyen-dung/dieu-duong-vinmec-ha-long",
-    "posted_at": "2026-10-14 06:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T06:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3890,18 +3346,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (Vinmec Hạ Long)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
       "name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3922,10 +3372,9 @@
     "experience_level": null,
     "source_platform": "Nhà Thuốc Tâm An Hạ Long",
     "source_url": "https://nhathuoctaman.vn/tuyen-dung/duoc-si",
-    "posted_at": "2026-10-14 02:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T02:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -3944,18 +3393,12 @@
       "verified_official": true,
       "platform_type": "Nhà Thuốc Tâm An Hạ Long"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "802ea53d-0669-4eb0-9ebf-cdbdcfafd7b6",
       "name": "Hệ Thống Nhà Thuốc & Thiết Bị Y Tế Tâm An Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -3976,10 +3419,9 @@
     "experience_level": null,
     "source_platform": "Website Tập Đoàn (Than Vinacomin TKV)",
     "source_url": "https://vinacomin.vn/tuyen-dung/tho-lo-than-hongai",
-    "posted_at": "2026-10-14 08:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T08:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4000,18 +3442,12 @@
       "verified_official": true,
       "platform_type": "Website Tập Đoàn (Than Vinacomin TKV)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "20d5c955-4845-4f36-8d8f-10b9cab9fc06",
       "name": "Công Ty Than Hòn Gai - TKV (Tập Đoàn Than Khoáng Sản)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4032,10 +3468,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Nhiệt Điện Quảng Ninh)",
     "source_url": "https://qnpt.vn/tuyen-dung/ky-su-van-hanh-tuabin",
-    "posted_at": "2026-10-14 01:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T01:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -4047,18 +3482,12 @@
       "verified_official": true,
       "platform_type": "CareerViet"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "5ce152a0-d7c3-4819-9065-d62c7c1e0180",
       "name": "Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
-      "logo_url": null,
       "website": "https://qnpt.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4079,10 +3508,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (BIM Group)",
     "source_url": "https://bimgroup.com/tuyen-dung/ky-su-giam-sat-ha-long",
-    "posted_at": "2026-10-14 04:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T04:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -4097,18 +3525,12 @@
       "verified_official": true,
       "platform_type": "CareerViet"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "9fe8fdfb-9f01-42c8-a889-b159ee362a90",
       "name": "Tập Đoàn BIM Group (BIM Land Hạ Long)",
-      "logo_url": null,
       "website": "https://bimgroup.com",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4129,10 +3551,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (VinFast)",
     "source_url": "https://vinfastauto.com/vn_vi/tuyen-dung/tu-van-ban-xe-ha-long",
-    "posted_at": "2026-10-14 07:59:09.886195",
-    "expires_at": "2026-11-13 09:59:09.886195",
-    "crawled_at": "2026-10-14 09:59:09.886195",
-    "is_active": 1,
+    "posted_at": "2026-10-14T07:59:09.886195",
+    "expires_at": "2026-11-13T09:59:09.886195",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4151,18 +3572,12 @@
       "verified_official": true,
       "platform_type": "Website Doanh Nghiệp (VinFast)"
     },
-    "created_at": "2026-10-14 09:59:10",
-    "updated_at": "2026-10-14 09:59:10",
     "company": {
       "id": "4c268831-963b-4b36-b93e-1f5ec890ecde",
       "name": "VinFast Showroom & Xưởng Dịch Vụ Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4183,10 +3598,9 @@
     "experience_level": null,
     "source_platform": "Threads (@halongtech_studio)",
     "source_url": "https://www.threads.net/?ref=halongtech_uiux",
-    "posted_at": "2026-10-14 05:15:14.723258",
-    "expires_at": "2026-11-08 10:15:16.314977",
-    "crawled_at": "2026-10-14 15:06:02.080297",
-    "is_active": 1,
+    "posted_at": "2026-10-14T05:15:14.723258",
+    "expires_at": "2026-11-08T10:15:16.314977",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -4204,18 +3618,12 @@
       "social_harvest": true,
       "platform_type": "Threads"
     },
-    "created_at": "2026-10-14 10:15:16",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "990e12b8-46cd-47f7-b626-3d42b34f368a",
       "name": "Halong Tech Studio (@halongtech_studio)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:52:45",
-      "updated_at": "2026-10-14 09:52:45"
+      "description": null
     }
   },
   {
@@ -4236,10 +3644,9 @@
     "experience_level": null,
     "source_platform": "Website Tập Đoàn (Than Vinacomin TKV)",
     "source_url": "https://vinacomin.vn/tuyen-dung/it-database-than-hongai",
-    "posted_at": "2026-10-14 03:15:14.723258",
-    "expires_at": "2026-11-08 10:15:16.793050",
-    "crawled_at": "2026-10-14 13:42:07.207609",
-    "is_active": 1,
+    "posted_at": "2026-10-14T03:15:14.723258",
+    "expires_at": "2026-11-08T10:15:16.793050",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4258,68 +3665,60 @@
       "social_harvest": true,
       "platform_type": "Website Tập Đoàn (Than Vinacomin TKV)"
     },
-    "created_at": "2026-10-14 10:15:17",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "ec2a8478-b582-4b83-a95a-78d7ff8bded6",
       "name": "Công Ty Than Hòn Gai - TKV",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 10:15:16",
-      "updated_at": "2026-10-14 10:15:16"
+      "description": null
     }
   },
   {
     "id": "a76fb93e-4a98-4802-b5b3-bcdfab928dcb",
-    "title": "Kỹ Sư CNTT & Quản Trị Hệ Thống Phần Mềm Quản Lý Cảng Biển (TOS)",
+    "title": "Kỹ Sư Lập Trình Nhúng & Vận Hành Hệ Thống Điện Tàu Thủy",
     "company_name": "Công Ty CP Cảng Cái Lân (CICT)",
     "company_id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
-    "description": "Cảng Quốc Tế Cái Lân (CICT) tuyển Kỹ sư CNTT phụ trách vận hành phần mềm khai thác cảng biển (Terminal Operating System - TOS), hệ thống máy quét mã container và kết nối EDI với Tổng cục Hải quan. Môi trường cảng biển hiện đại. Lương 14 - 21 triệu/tháng + Phụ cấp ăn ca, đồng phục bảo hộ.",
-    "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học máy tính hoặc Điện tử viễn thông. Có khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành logistics/cảng biển.",
-    "salary_min": 14000000,
-    "salary_max": 21000000,
-    "salary_text": "14 - 21 triệu/tháng",
+    "description": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành Điện tàu thủy, Kỹ thuật điều khiển hoặc CNTT nhúng. Đọc hiểu tài liệu bản vẽ kỹ thuật quốc tế.",
+    "salary_min": 15000000,
+    "salary_max": 22000000,
+    "salary_text": "15 - 22 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
-    "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long",
+    "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
-    "source_url": "https://cict.com.vn/tuyen-dung/ky-su-cntt-tos",
-    "posted_at": "2026-10-14 02:15:14.723258",
-    "expires_at": "2026-11-08 10:15:17.039068",
-    "crawled_at": "2026-10-14 15:06:02.349040",
-    "is_active": 1,
+    "source_platform": "Website Doanh Nghiệp (Đóng Tàu Hạ Long)",
+    "source_url": "https://cict.com.vn",
+    "posted_at": "2026-10-09T15:36:44.539463",
+    "expires_at": "2026-11-13T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "phones": [
+          "02033846556"
+        ],
+        "hr_email": "contact@halongshipyard.vn",
+        "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
         "mined_tags": [
+          "ha long",
+          "quang ninh",
           "it",
-          "cntt"
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Website"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 10:15:17",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
       "name": "Công Ty CP Cảng Cái Lân (CICT)",
-      "logo_url": null,
       "website": "https://cict.com.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4327,53 +3726,47 @@
     "title": "Nhân Viên IT Support Khách Sạn & Trung Tâm Hội Nghị Quốc Tế",
     "company_name": "Khách Sạn FLC Grand Hotel Hạ Long",
     "company_id": "654afff6-16a0-4cbd-86d3-8b1459a8b5f1",
-    "description": "FLC Grand Hotel Hạ Long cần tuyển 2 nhân viên IT Support trực ca khách sạn. Quản lý hệ thống mạng WiFi phủ kín sân Golf và trung tâm hội nghị 1500 chỗ. Hỗ trợ kỹ thuật màn hình LED, âm thanh sự kiện hội nghị quốc tế và xử lý sự cố thiết bị văn phòng. Lương 11 - 17 triệu + Thưởng phí dịch vụ.",
-    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng CNTT trở lên. Nhiệt tình, nhanh nhẹn, có thể làm việc theo ca xoay.",
+    "description": "FLC Grand Hotel Hạ Long tuyển 2 nhân viên IT Support trực ca khách sạn. Quản lý hệ thống mạng WiFi phủ kín sân Golf và trung tâm hội nghị quốc tế 1500 chỗ. Hỗ trợ kỹ thuật màn hình LED, âm thanh sự kiện hội nghị và xử lý sự cố thiết bị văn phòng. Lương 11 - 17 triệu + Thưởng phí dịch vụ.",
+    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng CNTT trở lên. Nhiệt tình, nhanh nhẹn, có thể làm việc theo ca xoay linh hoạt.",
     "salary_min": 11000000,
     "salary_max": 17000000,
     "salary_text": "11 - 17 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
-    "location_full": "Khu đô thị FLC Grand, Phường Hồng Hà, TP. Hạ Long",
+    "location_full": "Khu đô thị FLC Grand, Phường Hồng Hà, TP. Hạ Long, Quảng Ninh",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (FLC Grand Hotel Hạ Long)",
-    "source_url": "https://flchotelsresorts.com/tuyen-dung/it-support-flc-halong",
-    "posted_at": "2026-10-14 01:15:14.723258",
-    "expires_at": "2026-11-08 10:15:17.258364",
-    "crawled_at": "2026-10-14 13:42:07.406580",
-    "is_active": 1,
+    "source_platform": "Cổng Tuyển Dụng FLC Hotels & Resorts",
+    "source_url": "https://flc.vn",
+    "posted_at": "2026-10-12T15:36:44.539463",
+    "expires_at": "2026-11-18T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
-          "0981234567"
+          "02033625388"
         ],
-        "shifts": [],
-        "benefits": [],
+        "hr_email": "hr@flchalong.com.vn",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
-          "khach san",
+          "ha long",
+          "quang ninh",
           "it",
-          "it support"
-        ],
-        "hr_email": "tuyendung@flc.vn"
+          "chinh thuc"
+        ]
       },
-      "social_harvest": true,
-      "platform_type": "Website Doanh Nghiệp (FLC Grand Hotel Hạ Long)"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 10:15:23",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "654afff6-16a0-4cbd-86d3-8b1459a8b5f1",
       "name": "Khách Sạn FLC Grand Hotel Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 10:15:17",
-      "updated_at": "2026-10-14 10:15:17"
+      "description": null
     }
   },
   {
@@ -4394,10 +3787,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinmec Hạ Long)",
     "source_url": "https://vinmec.com/vi/tuyen-dung/it-his-pacs-vinmec-ha-long",
-    "posted_at": "2026-10-14 00:15:14.723258",
-    "expires_at": "2026-11-08 10:15:17.485850",
-    "crawled_at": "2026-10-14 13:42:07.502267",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:15:14.723258",
+    "expires_at": "2026-11-08T10:15:17.485850",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4414,18 +3806,12 @@
       "social_harvest": true,
       "platform_type": "Website Doanh Nghiệp (Vinmec Hạ Long)"
     },
-    "created_at": "2026-10-14 10:15:23",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
       "name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4446,10 +3832,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Yoko Onsen Quang Hanh)",
     "source_url": "https://yokoonsenquanghanh.com.vn/tuyen-dung/ky-thuat-vien-it-rfid",
-    "posted_at": "2026-10-13 23:15:14.723258",
-    "expires_at": "2026-11-08 10:15:17.724075",
-    "crawled_at": "2026-10-14 13:42:07.601632",
-    "is_active": 1,
+    "posted_at": "2026-10-13T23:15:14.723258",
+    "expires_at": "2026-11-08T10:15:17.724075",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4468,18 +3853,12 @@
       "social_harvest": true,
       "platform_type": "Website Doanh Nghiệp (Yoko Onsen Quang Hanh)"
     },
-    "created_at": "2026-10-14 10:15:23",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "aee1d8da-490a-4347-a3cf-c33db63cef32",
       "name": "Yoko Onsen Quang Hanh (Sun Group)",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4500,10 +3879,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Nhiệt Điện Quảng Ninh)",
     "source_url": "https://qnpt.vn/tuyen-dung/ky-su-it-scada",
-    "posted_at": "2026-10-13 22:15:14.723258",
-    "expires_at": "2026-11-08 10:15:18.035815",
-    "crawled_at": "2026-10-14 15:06:02.680618",
-    "is_active": 1,
+    "posted_at": "2026-10-13T22:15:14.723258",
+    "expires_at": "2026-11-08T10:15:18.035815",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -4518,18 +3896,12 @@
       "social_harvest": true,
       "platform_type": "Website"
     },
-    "created_at": "2026-10-14 10:15:23",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "5ce152a0-d7c3-4819-9065-d62c7c1e0180",
       "name": "Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
-      "logo_url": null,
       "website": "https://qnpt.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
@@ -4550,10 +3922,9 @@
     "experience_level": null,
     "source_platform": "Limousine Quảng Ninh Luxury",
     "source_url": "https://limousinequangninh.vn/tuyen-dung/lai-xe",
-    "posted_at": "2026-10-14 07:18:37.058968",
-    "expires_at": "2026-11-03 10:18:37.058968",
-    "crawled_at": "2026-10-14 10:18:38.744249",
-    "is_active": 1,
+    "posted_at": "2026-10-14T07:18:37.058968",
+    "expires_at": "2026-11-03T10:18:37.058968",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4573,18 +3944,12 @@
       },
       "platform_type": "Limousine Quảng Ninh Luxury"
     },
-    "created_at": "2026-10-14 10:18:39",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "4c4e53f6-dba1-42b9-9255-e42f50fa478e",
       "name": "Nhà xe Limousine Quảng Ninh Luxury",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -4605,10 +3970,9 @@
     "experience_level": null,
     "source_platform": "Nhà Hàng Cơm Niêu Hồng Gai",
     "source_url": "https://comnieuhonggai.vn/tuyen-dung/phu-bep",
-    "posted_at": "2026-10-14 06:18:37.058968",
-    "expires_at": "2026-11-03 10:18:37.058968",
-    "crawled_at": "2026-10-14 10:18:38.933812",
-    "is_active": 1,
+    "posted_at": "2026-10-14T06:18:37.058968",
+    "expires_at": "2026-11-03T10:18:37.058968",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4631,18 +3995,12 @@
       },
       "platform_type": "Nhà Hàng Cơm Niêu Hồng Gai"
     },
-    "created_at": "2026-10-14 10:18:39",
-    "updated_at": "2026-10-14 10:18:39",
     "company": {
       "id": "e1ef629b-4179-4018-a9db-9237d39f0c20",
       "name": "Nhà hàng Cơm Niêu Hồng Gai",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
+      "description": null
     }
   },
   {
@@ -4663,10 +4021,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinpearl Hạ Long)",
     "source_url": "https://vinpearl.com/vi/tuyen-dung/vinpearl-resort-spa-ha-long",
-    "posted_at": "2026-10-14 13:27:50.653341",
+    "posted_at": "2026-10-14T13:27:50.653341",
     "expires_at": null,
-    "crawled_at": "2026-10-14 13:42:09.620521",
-    "is_active": 1,
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4683,18 +4040,12 @@
       },
       "platform_type": "Website Doanh Nghiệp (Vinpearl Hạ Long)"
     },
-    "created_at": "2026-10-14 13:27:50",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
       "name": "Vinpearl Resort & Spa Hạ Long",
-      "logo_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=128&h=128&fit=crop",
       "website": "https://vinpearl.com",
       "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long.",
-      "industry": "Khách sạn & Nhà hàng",
-      "created_at": "2026-10-14 03:38:40",
-      "updated_at": "2026-10-14 03:38:40"
+      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
     }
   },
   {
@@ -4715,10 +4066,9 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Sun World Hạ Long)",
     "source_url": "https://halongcomplex.sunworld.vn/tuyen-dung/ky-su-ve-dien-tu",
-    "posted_at": "2026-10-14 13:27:50.695532",
+    "posted_at": "2026-10-14T13:27:50.695532",
     "expires_at": null,
-    "crawled_at": "2026-10-14 13:42:09.654101",
-    "is_active": 1,
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
@@ -4736,219 +4086,12 @@
       },
       "platform_type": "Website Doanh Nghiệp (Sun World Hạ Long)"
     },
-    "created_at": "2026-10-14 13:27:50",
-    "updated_at": "2026-10-14 13:42:09",
     "company": {
       "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
       "name": "Công viên Sun World Ha Long (Sun Group)",
-      "logo_url": null,
       "website": "https://halong.sunworld.vn",
       "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
-    }
-  },
-  {
-    "id": "f01a54cf-7759-4d5f-b64f-974b109b7627",
-    "title": "Nhân Viên IT Support Khách Sạn & Trung Tâm Hội Nghị Quốc Tế",
-    "company_name": "Khách Sạn FLC Grand Hotel Hạ Long",
-    "company_id": "654afff6-16a0-4cbd-86d3-8b1459a8b5f1",
-    "description": "FLC Grand Hotel Hạ Long cần tuyển 2 nhân viên IT Support trực ca khách sạn. Quản lý hệ thống mạng WiFi phủ kín sân Golf và trung tâm hội nghị 1500 chỗ. Hỗ trợ kỹ thuật màn hình LED, âm thanh sự kiện hội nghị quốc tế và xử lý sự cố thiết bị văn phòng. Lương 11 - 17 triệu + Thưởng phí dịch vụ.",
-    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng CNTT trở lên. Nhiệt tình, nhanh nhẹn, có thể làm việc theo ca xoay.",
-    "salary_min": 11000000,
-    "salary_max": 17000000,
-    "salary_text": "11 - 17 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Khu đô thị FLC Grand, Phường Hồng Hà, TP. Hạ Long",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Facebook (Hội Việc Làm Hạ Long - Bãi Cháy)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=flc_halong_it_support",
-    "posted_at": "2026-10-14 05:33:56.440798",
-    "expires_at": "2026-11-08 14:33:56.905478",
-    "crawled_at": "2026-10-14 15:06:02.428956",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "khach san",
-          "it",
-          "it support"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Facebook"
-    },
-    "created_at": "2026-10-14 14:33:57",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "654afff6-16a0-4cbd-86d3-8b1459a8b5f1",
-      "name": "Khách Sạn FLC Grand Hotel Hạ Long",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 10:15:17",
-      "updated_at": "2026-10-14 10:15:17"
-    }
-  },
-  {
-    "id": "feb4930a-31cf-4893-8eb0-03e69d994521",
-    "title": "Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng Đảo Rều",
-    "company_name": "Vinpearl Resort & Spa Hạ Long",
-    "company_id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-    "description": "Vinpearl Resort & Spa Hạ Long tuyển 02 Chuyên viên IT Helpdesk. Quản trị hệ thống máy tính, máy in, mạng nội bộ LAN/WAN, hệ thống POS nhà hàng và điểm bán vé cano sang đảo. Tham gia triển khai và bảo trì các thiết bị công nghệ số phục vụ du khách. Lương cơ bản 12 - 18 triệu + Thưởng KPI tập đoàn Vingroup + Thẻ bảo hiểm sức khỏe Vinmec. Liên hệ HR: 0983.456.789.",
-    "requirements": "Thành thạo cấu hình router, switch, access point wifi, xử lý lỗi phần cứng máy tính và Windows/MacOS.",
-    "salary_min": 12000000,
-    "salary_max": 18000000,
-    "salary_text": "12 - 18 triệu + Bảo hiểm sức khỏe Vingroup",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đảo Rều, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Facebook (Vinpearl Hạ Long Tuyển Dụng)",
-    "source_url": "https://www.facebook.com/vinpearlhalongresort/?post_ref=it_helpdesk_resort",
-    "posted_at": "2026-10-14 12:33:56.440798",
-    "expires_at": "2026-11-08 14:33:57.282360",
-    "crawled_at": "2026-10-14 15:06:03.040190",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "it",
-          "it helpdesk"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Facebook"
-    },
-    "created_at": "2026-10-14 14:33:57",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-      "name": "Vinpearl Resort & Spa Hạ Long",
-      "logo_url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=128&h=128&fit=crop",
-      "website": "https://vinpearl.com",
-      "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long.",
-      "industry": "Khách sạn & Nhà hàng",
-      "created_at": "2026-10-14 03:38:40",
-      "updated_at": "2026-10-14 03:38:40"
-    }
-  },
-  {
-    "id": "df81b054-a48d-48be-8e9e-e0fda056e04e",
-    "title": "Kỹ Sư CNTT & Vận Hành Hệ Thống Bán Vé Điện Tử Cáp Treo Nữ Hoàng",
-    "company_name": "Công viên Sun World Ha Long (Sun Group)",
-    "company_id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
-    "description": "Sun World Hạ Long tuyển dụng Kỹ sư CNTT. Quản lý hệ thống cổng kiểm soát vé thông minh (Flap Barrier, QR Code, RFID), máy chủ cơ sở dữ liệu bán vé và mạng cáp quang nội bộ khu vui chơi giải trí ven biển. Thu nhập cạnh tranh 13 - 19 triệu + Thưởng mùa vụ cao điểm + Ăn trưa miễn phí tại công viên.",
-    "requirements": "Tốt nghiệp ĐH/CĐ ngành CNTT/Điện tử viễn thông. Có kiến thức về hệ thống nhúng, mạng máy tính, SQL.",
-    "salary_min": 13000000,
-    "salary_max": 19000000,
-    "salary_text": "13 - 19 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Số 9 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Facebook (Sun World Halong Complex HR)",
-    "source_url": "https://www.facebook.com/SunWorldHalongComplex/?post_ref=it_ticketing_engineer",
-    "posted_at": "2026-10-14 11:33:56.440798",
-    "expires_at": "2026-11-08 14:33:57.405381",
-    "crawled_at": "2026-10-14 15:06:03.136290",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "cap treo",
-          "it",
-          "cntt"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Facebook"
-    },
-    "created_at": "2026-10-14 14:33:57",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
-      "name": "Công viên Sun World Ha Long (Sun Group)",
-      "logo_url": null,
-      "website": "https://halong.sunworld.vn",
-      "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy.",
-      "industry": null,
-      "created_at": "2026-10-14 08:24:34",
-      "updated_at": "2026-10-14 08:24:34"
-    }
-  },
-  {
-    "id": "840a10b2-990e-460f-b3a9-fd9dba0acfec",
-    "title": "Tuyển Nhân Viên Kỹ Thuật Triển Khai Mạng & Internet Cáp Quang Hạ Long",
-    "company_name": "FPT Telecom Chi Nhánh Quảng Ninh",
-    "company_id": "00636d84-93d0-4377-a3c0-d69ef331df35",
-    "description": "FPT Telecom Quảng Ninh tuyển 5 kỹ thuật viên viễn thông làm việc tại khu vực Hạ Long - Bãi Cháy - Hòn Gai. Công việc: Kéo cáp quang, cài đặt modem wifi, đầu thu FPT Play và xử lý sự cố mạng cho khách hàng cá nhân và doanh nghiệp. Thu nhập theo năng suất 11 - 18 triệu/tháng. Đầy đủ bảo hiểm FPT Care và chế độ thâm niên. Nộp hồ sơ Zalo: 0936.223.445.",
-    "requirements": "Tốt nghiệp Trung cấp trở lên chuyên ngành Điện, Điện tử viễn thông hoặc CNTT. Có xe máy và điện thoại smartphone.",
-    "salary_min": 11000000,
-    "salary_max": 18000000,
-    "salary_text": "11 - 18 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Số 177 Kênh Liêm, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Facebook (Hội Việc Làm Hạ Long - Bãi Cháy)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=fpt_telecom_technician",
-    "posted_at": "2026-10-14 10:33:56.440798",
-    "expires_at": "2026-11-08 14:33:57.543781",
-    "crawled_at": "2026-10-14 15:06:03.606453",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0936223445"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": []
-      },
-      "social_harvest": true,
-      "platform_type": "Facebook"
-    },
-    "created_at": "2026-10-14 14:33:57",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
-      "name": "FPT Telecom Chi Nhánh Quảng Ninh",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:52:45",
-      "updated_at": "2026-10-14 09:52:45"
+      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy."
     }
   },
   {
@@ -4969,10 +4112,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/hai-phong-warehouse-supervisor.35C891D5.html",
-    "posted_at": "2026-10-07 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.380629",
-    "is_active": 1,
+    "posted_at": "2026-10-07T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -4982,18 +4124,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5014,10 +4150,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/ke-toan-vien-hai-phong.35C814B7.html",
-    "posted_at": "2026-09-28 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.437051",
-    "is_active": 1,
+    "posted_at": "2026-09-28T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5029,18 +4164,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5061,10 +4190,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/kiem-soat-vien-hai-phong.35C85654.html",
-    "posted_at": "2026-10-03 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.490064",
-    "is_active": 1,
+    "posted_at": "2026-10-03T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5076,18 +4204,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5108,10 +4230,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-hai-phong.35C83A1D.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.532075",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5123,18 +4244,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5155,10 +4270,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-hai-phong.35C82C22.html",
-    "posted_at": "2026-10-10 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.583524",
-    "is_active": 1,
+    "posted_at": "2026-10-10T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5170,18 +4284,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5202,10 +4310,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/133486-hai-phong-sales-executive-logistics.35C84F4E.html",
-    "posted_at": "2026-10-03 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.638333",
-    "is_active": 1,
+    "posted_at": "2026-10-03T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5219,18 +4326,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5251,10 +4352,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-ke-toan-hai-phong.35C81C27.html",
-    "posted_at": "2026-10-02 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.689878",
-    "is_active": 1,
+    "posted_at": "2026-10-02T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5266,18 +4366,12 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5298,10 +4392,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kho-vinmec-hai-phong.35C89BB9.html",
-    "posted_at": "2026-10-13 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.741766",
-    "is_active": 1,
+    "posted_at": "2026-10-13T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5311,18 +4404,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5343,10 +4430,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/aeon-hai-phong-human-resources-division-leader.35C80F85.html",
-    "posted_at": "2026-10-14 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.801183",
-    "is_active": 1,
+    "posted_at": "2026-10-14T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5356,18 +4442,12 @@
         "mined_tags": []
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
@@ -5388,10 +4468,9 @@
     "experience_level": null,
     "source_platform": "CareerViet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-cua-hang-ho-sen-hai-phong.35C83AB3.html",
-    "posted_at": "2026-09-17 00:00:00.000000",
-    "expires_at": "2026-11-13 15:05:59.044427",
-    "crawled_at": "2026-10-14 15:06:00.853491",
-    "is_active": 1,
+    "posted_at": "2026-09-17T00:00:00",
+    "expires_at": "2026-11-13T15:05:59.044427",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [],
@@ -5403,714 +4482,252 @@
         ]
       }
     },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
     "company": {
       "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
       "name": "Doanh nghiệp tại Hải Phòng",
-      "logo_url": null,
       "website": null,
       "province": "Hải Phòng",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 15:06:00",
-      "updated_at": "2026-10-14 15:06:00"
+      "description": null
     }
   },
   {
-    "id": "4bf50d47-d926-4128-9991-47e1ba55315b",
-    "title": "Tuyển Gấp 3 Nhân Viên Phục Vụ & Thu Ngân Quán Cà Phê View Vịnh",
-    "company_name": "Gió Coffee & Lounge Bãi Cháy",
-    "company_id": "e9e91d55-4216-43b8-a41e-d6527c68976a",
-    "description": "Quán cần tuyển nhân viên phục vụ ca sáng (7h-15h) và ca tối (15h-23h). Bao ăn ca, tip chia đều hàng tuần. Không yêu cầu kinh nghiệm, được hướng dẫn pha chế cơ bản.\n\n[Tin thu thập tự động từ: Hội Việc Làm Hạ Long - Bãi Cháy (Facebook Group 85k thành viên)]",
-    "requirements": "Ngoại hình sáng sủa, nhanh nhẹn, vui vẻ với khách du lịch. Nhận cả sinh viên làm thêm theo lịch học.",
-    "salary_min": 6500000,
-    "salary_max": 8000000,
-    "salary_text": "22k - 30k/giờ (Hoặc 6.5tr - 8tr/tháng)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đường bao biển Bãi Cháy, TP. Hạ Long (Gần công viên Sun World)",
-    "job_type": "part-time",
-    "category": "Nhà hàng / Dịch vụ",
-    "experience_level": null,
-    "source_platform": "Facebook (Hội Việc Làm Hạ Long - Bãi Cháy)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=fb_halong_gio_coffee_2026",
-    "posted_at": "2026-10-14 14:06:00.267171",
-    "expires_at": "2026-11-03 15:06:00.267171",
-    "crawled_at": "2026-10-14 15:06:00.949267",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [
-          "Ca sáng",
-          "Ca tối"
-        ],
-        "benefits": [
-          "Bao ăn theo ca",
-          "Có tiền tip / Phí dịch vụ",
-          "Không yêu cầu kinh nghiệm",
-          "Nhận sinh viên làm thêm"
-        ],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
-        "mined_tags": [
-          "quan ca phe",
-          "phuc vu",
-          "thu ngan"
-        ]
-      }
-    },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
-    "company": {
-      "id": "e9e91d55-4216-43b8-a41e-d6527c68976a",
-      "name": "Gió Coffee & Lounge Bãi Cháy",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
-    }
-  },
-  {
-    "id": "4bfdf164-6c0f-48d0-b973-1c8fd272a784",
-    "title": "Tuyển Tài Xế Chạy Xe Hợp Đồng Du Lịch 7 Chỗ Đưa Đón Khách Hạ Long - Hà Nội",
-    "company_name": "Nhà xe Limousine Quảng Ninh Luxury",
-    "company_id": "4c4e53f6-dba1-42b9-9255-e42f50fa478e",
-    "description": "Chạy xe đời mới Sedona/Carnival đưa đón khách tour và chuyên gia từ Hà Nội về Hạ Long, Vân Đồn. Xe công ty bảo dưỡng xăng dầu 100%.\n\n[Tin thu thập tự động từ: Diễn đàn Lái Xe & Du Lịch Quảng Ninh (Facebook Group)]",
-    "requirements": "Bằng B2 hoặc C trở lên. Có ít nhất 2 năm kinh nghiệm lái xe đường dài an toàn, không bia rượu khi làm việc.",
-    "salary_min": 14000000,
-    "salary_max": 20000000,
-    "salary_text": "14 - 20 triệu (Lương cứng + Thưởng phần trăm chuyến)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Văn phòng Bến xe Bãi Cháy, TP. Hạ Long",
-    "job_type": "full-time",
-    "category": "Lái xe / Vận tải",
-    "experience_level": null,
-    "source_platform": "Facebook (Diễn đàn Lái Xe & Du Lịch Quảng Ninh)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=fb_limousine_halong_2026",
-    "posted_at": "2026-10-14 12:06:00.267171",
-    "expires_at": "2026-11-03 15:06:00.267171",
-    "crawled_at": "2026-10-14 15:06:01.030790",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [
-          "Hoa hồng cao theo doanh số"
-        ],
-        "inferred_industry": "Vận tải / Lái xe / Giao nhận / Logistics",
-        "mined_tags": [
-          "du lich",
-          "tai xe",
-          "xe hop dong",
-          "dua don"
-        ]
-      }
-    },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
-    "company": {
-      "id": "4c4e53f6-dba1-42b9-9255-e42f50fa478e",
-      "name": "Nhà xe Limousine Quảng Ninh Luxury",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
-    }
-  },
-  {
-    "id": "b965ca2c-13ae-4ef9-988a-422cdc8a6fec",
-    "title": "Nhà Hàng Cơm Niêu Hạ Long Tuyển 2 Phụ Bếp & 2 Rửa Bát Ca Gãy",
-    "company_name": "Nhà hàng Cơm Niêu Hồng Gai",
-    "company_id": "e1ef629b-4179-4018-a9db-9237d39f0c20",
-    "description": "Sơ chế rau củ, hải sản, dọn dẹp khu vực bếp. Môi trường hòa đồng, chủ quán thân thiện, có chỗ ở miễn phí cho người ở xa.\n\n[Tin thu thập tự động từ: Tuyển Dụng Nhanh TP. Hạ Long - Quảng Ninh (Fanpage)]",
-    "requirements": "Chăm chỉ, chịu khó, có sức khỏe tốt. Nhận việc đi làm ngay trong ngày.",
-    "salary_min": 7500000,
-    "salary_max": 10000000,
-    "salary_text": "7.5 - 10 triệu (Bao ăn ở tại nhà hàng)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Phường Hồng Gai, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Nhà hàng / Dịch vụ",
-    "experience_level": null,
-    "source_platform": "Facebook (Tuyển Dụng Nhanh TP. Hạ Long - Quảng Ninh)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=fb_comnieu_honggai_2026",
-    "posted_at": "2026-10-14 11:06:00.267171",
-    "expires_at": "2026-11-03 15:06:00.267171",
-    "crawled_at": "2026-10-14 15:06:01.103493",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [
-          "Ca gãy"
-        ],
-        "benefits": [
-          "Bao ăn ở miễn phí"
-        ],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
-        "mined_tags": [
-          "nha hang",
-          "phu bep",
-          "rua bat",
-          "com nieu",
-          "ca gay"
-        ]
-      }
-    },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
-    "company": {
-      "id": "e1ef629b-4179-4018-a9db-9237d39f0c20",
-      "name": "Nhà hàng Cơm Niêu Hồng Gai",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
-    }
-  },
-  {
-    "id": "1c3230c4-48a6-4211-9649-44cf484764c7",
-    "title": "Tuyển Nhân Viên Bán Vé & Kiểm Soát Tour Cano Thăm Vịnh Hạ Long",
-    "company_name": "CLB Du Thuyền & Thể Thao Nước Hạ Long",
-    "company_id": "243bf52c-af67-42a5-ae1b-2a4fe2c01455",
-    "description": "Tư vấn và bán vé tour cano, môtô nước, chèo kayak khám phá Hang Đầu Gỗ, Đảo Ti Tốp. Hướng dẫn du khách mặc áo phao và tuân thủ an toàn hàng hải.\n\n[Tin thu thập tự động từ: Hội Du Lịch & Du Thuyền Vịnh Hạ Long (Facebook Page)]",
-    "requirements": "Giao tiếp hoạt bát, biết tiếng Anh hoặc tiếng Trung cơ bản là lợi thế lớn. Biết bơi cơ bản.",
-    "salary_min": 8500000,
-    "salary_max": 13000000,
-    "salary_text": "8.5 - 13 triệu + Hoa hồng tour",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Cảng tàu khách Tuần Châu, TP. Hạ Long",
-    "job_type": "full-time",
-    "category": "Khách sạn / Du lịch",
-    "experience_level": null,
-    "source_platform": "Facebook (Hội Du Lịch & Du Thuyền Vịnh Hạ Long)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=fb_cano_halong_tour_2026",
-    "posted_at": "2026-10-14 09:06:00.267171",
-    "expires_at": "2026-11-03 15:06:00.267171",
-    "crawled_at": "2026-10-14 15:06:01.173390",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [
-          "Hoa hồng cao theo doanh số"
-        ],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
-        "mined_tags": [
-          "tour",
-          "cano",
-          "tham vinh"
-        ]
-      }
-    },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
-    "company": {
-      "id": "243bf52c-af67-42a5-ae1b-2a4fe2c01455",
-      "name": "CLB Du Thuyền & Thể Thao Nước Hạ Long",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:04:03",
-      "updated_at": "2026-10-14 04:04:03"
-    }
-  },
-  {
-    "id": "60ddb96a-acdb-4550-a8e0-aa1f544adb94",
-    "title": "Tuyển Dụng Kế Toán Kho & Bán Hàng Trực Tiếp Tại Showroom Nội Thất",
-    "company_name": "Nội Thất & Gạch Men Cao Cấp Cẩm Phả",
-    "company_id": "e980b273-18df-401b-b313-571d137c7dc5",
-    "description": "Theo dõi nhập xuất tồn kho gạch men và thiết bị vệ sinh. Lập phiếu thu chi và tư vấn mẫu mã cho khách ghé showroom.\n\n[Tin thu thập tự động từ: Hội Việc Làm Cẩm Phả - Mông Dương (Facebook)]",
-    "requirements": "Thành thạo Excel hoặc phần mềm bán hàng. Trung thực, tỉ mỉ, gắn bó lâu dài.",
-    "salary_min": 8000000,
-    "salary_max": 12000000,
-    "salary_text": "8 - 12 triệu",
-    "location_province": "Quảng Ninh",
-    "location_district": "Cẩm Phả",
-    "location_full": "Phường Cẩm Trung, TP. Cẩm Phả, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Kế toán / Kiểm toán",
-    "experience_level": null,
-    "source_platform": "Facebook (Hội Việc Làm Cẩm Phả - Mông Dương)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=fb_ketoan_campha_2026",
-    "posted_at": "2026-10-14 07:06:00.267171",
-    "expires_at": "2026-11-03 15:06:00.267171",
-    "crawled_at": "2026-10-14 15:06:01.241808",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kế toán / Kiểm toán / Thuế / Tài chính",
-        "mined_tags": [
-          "ke toan",
-          "ke toan kho",
-          "ban hang",
-          "showroom"
-        ]
-      }
-    },
-    "created_at": "2026-10-14 15:06:01",
-    "updated_at": "2026-10-14 15:06:01",
-    "company": {
-      "id": "e980b273-18df-401b-b313-571d137c7dc5",
-      "name": "Nội Thất & Gạch Men Cao Cấp Cẩm Phả",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:19:16",
-      "updated_at": "2026-10-14 04:19:16"
-    }
-  },
-  {
-    "id": "4b9d48dc-3f66-469a-ac4f-56b217bf6f0a",
-    "title": "Chuyên Viên CNTT & Quản Trị Hệ Thống Cơ Sở Dữ Liệu Khai Thác Mỏ",
-    "company_name": "Công Ty Than Hòn Gai - TKV",
-    "company_id": "ec2a8478-b582-4b83-a95a-78d7ff8bded6",
-    "description": "Than Hòn Gai - TKV tuyển Chuyên viên CNTT phụ trách hệ thống máy chủ cơ sở dữ liệu mỏ than (SQL Server, Oracle), hệ thống cân điện tử xe than tự động và mạng cáp quang nội bộ đơn vị. Lương cứng 15 - 22 triệu + Thưởng quý theo sản lượng khai thác than của công ty + Bảo hiểm TKV.",
-    "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT, Hệ thống thông tin. Có kinh nghiệm quản trị CSDL SQL, backup dữ liệu và bảo mật hệ thống mạng LAN doanh nghiệp.",
-    "salary_min": 15000000,
-    "salary_max": 22000000,
-    "salary_text": "15 - 22 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Phường Hà Lầm, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Vinacomin",
-    "source_url": "https://vinacomin.vn/?post_ref=it_database_than_hongai",
-    "posted_at": "2026-10-14 08:06:01.583787",
-    "expires_at": "2026-11-08 15:06:02.256374",
-    "crawled_at": "2026-10-14 15:06:02.256374",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "khai thac mo",
-          "it",
-          "cntt"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Vinacomin"
-    },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "ec2a8478-b582-4b83-a95a-78d7ff8bded6",
-      "name": "Công Ty Than Hòn Gai - TKV",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 10:15:16",
-      "updated_at": "2026-10-14 10:15:16"
-    }
-  },
-  {
-    "id": "dd03a837-a6dc-4017-a3ba-93b7a2083ec1",
-    "title": "Chuyên Viên IT Y Tế & Quản Trị Phần Mềm Bệnh Viện (HIS/PACS)",
+    "id": "685e7586-4d29-4e9f-9e18-e4eee92fe491",
+    "title": "Chuyên Viên Kỹ Thuật Hệ Thống & Quản Trị Mạng Bệnh Viện Quốc Tế",
     "company_name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
     "company_id": "be62db84-5783-4035-83d7-e37d8d641f58",
-    "description": "Vinmec Hạ Long tuyển Chuyên viên IT quản trị hệ thống phần mềm quản lý bệnh viện (HIS/LIS) và hệ thống lưu trữ truyền hình ảnh y khoa PACS. Hỗ trợ bác sĩ và điều dưỡng trong việc khai thác hồ sơ bệnh án điện tử EMR. Lương 13 - 20 triệu + Bảo hiểm sức khỏe Vinmec cao cấp.",
-    "requirements": "Tốt nghiệp ĐH ngành CNTT hoặc Tin học y tế. Có kinh nghiệm làm việc với hệ thống CSDL y tế hoặc phần mềm ERP doanh nghiệp.",
+    "description": "Quản trị hệ thống phần mềm quản lý bệnh viện (HIS), hệ thống truyền lưu hình ảnh y khoa PACS và bảo mật dữ liệu bệnh án điện tử. Đảm bảo kết nối mạng nội bộ 24/7 cho các phòng khám chuyên sâu và phòng mổ hiện đại. Chế độ đãi ngộ chuẩn Vingroup, bảo hiểm sức khỏe cao cấp.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT. Có kinh nghiệm triển khai mạng Cisco, Fortinet hoặc quản trị hệ thống máy chủ Windows Server/Linux. Cẩn trọng, bảo mật và trách nhiệm cao.",
     "salary_min": 13000000,
-    "salary_max": 20000000,
-    "salary_text": "13 - 20 triệu/tháng",
+    "salary_max": 19000000,
+    "salary_text": "13 - 19 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
-    "location_full": "Số 10A Lê Thánh Tông, Phường Hồng Gai, TP. Hạ Long",
+    "location_full": "Số 10A Lê Thánh Tông, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Facebook (Vinpearl Hạ Long Tuyển Dụng)",
-    "source_url": "https://www.facebook.com/vinpearlhalongresort/?post_ref=vinmec_it_hospital",
-    "posted_at": "2026-10-14 05:06:01.583787",
-    "expires_at": "2026-11-08 15:06:02.506641",
-    "crawled_at": "2026-10-14 15:06:02.506641",
-    "is_active": 1,
+    "source_platform": "Cổng Tuyển Dụng Vinmec (Vingroup)",
+    "source_url": "https://vinmec.com",
+    "posted_at": "2026-10-12T15:36:44.539463",
+    "expires_at": "2026-11-13T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
+        "phones": [
+          "02033828188"
+        ],
+        "hr_email": "v.tuyendung@vinmec.com",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
-          "it"
+          "ha long",
+          "quang ninh",
+          "it",
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Facebook"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
       "name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-      "logo_url": null,
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": null
     }
   },
   {
-    "id": "55e83ea8-ba4a-40dd-b92c-5b1f1df6fce6",
-    "title": "Kỹ Thuật Viên IT & Hệ Thống Nhận Diện Vé Vòng Tay Thông Minh RFID",
-    "company_name": "Yoko Onsen Quang Hanh (Sun Group)",
-    "company_id": "aee1d8da-490a-4347-a3cf-c33db63cef32",
-    "description": "Khu nghỉ dưỡng khoáng nóng Yoko Onsen Quang Hanh tuyển Kỹ thuật viên IT phụ trách hệ thống vòng đeo tay thông minh RFID thanh toán nội khu, kiểm soát cổng mở cửa tự động và mạng cáp quang nội bộ. Lương 12 - 18 triệu + Bao ăn ở tại ký túc xá Onsen cao cấp.",
-    "requirements": "Tốt nghiệp CĐ/ĐH chuyên ngành CNTT/Điện tử viễn thông. Am hiểu thiết bị IoT, mạng không dây và phần mềm bán hàng.",
+    "id": "f27b9982-939a-4a93-ab5a-59690f2b88a6",
+    "title": "Nhân Viên IT & Kỹ Thuật Vận Hành Hệ Thống Onsen Nước Khoáng Nóng",
+    "company_name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
+    "company_id": "b2a60ff8-88bf-41c7-a04b-85202bba7181",
+    "description": "Phụ trách hệ thống phần mềm quản lý đặt phòng Onsen, hệ thống khóa từ RFID thông minh cho các bể tắm khoáng và kiểm soát mạng nội bộ khu nghỉ dưỡng. Môi trường văn hóa chuẩn mực Nhật Bản, bao ăn ở tại khu lưu trú cán bộ nhân viên.",
+    "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Giao tiếp nhã nhặn, cẩn thận, ham học hỏi.",
     "salary_min": 12000000,
     "salary_max": 18000000,
-    "salary_text": "12 - 18 triệu (Bao ăn ở cao cấp)",
+    "salary_text": "12 - 18 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Cẩm Phả",
-    "location_full": "Phường Quang Hanh, TP. Cẩm Phả (Giáp ranh TP. Hạ Long)",
+    "location_full": "Tổ 5, Khu 9B, Phường Quang Hanh, TP. Cẩm Phả, Quảng Ninh",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Facebook (Sun World Halong Complex HR)",
-    "source_url": "https://www.facebook.com/SunWorldHalongComplex/?post_ref=yoko_it_rfid",
-    "posted_at": "2026-10-14 04:06:01.583787",
-    "expires_at": "2026-11-08 15:06:02.580951",
-    "crawled_at": "2026-10-14 15:06:02.580951",
-    "is_active": 1,
+    "source_platform": "Cổng Tuyển Dụng Yoko Onsen Quang Hanh",
+    "source_url": "https://halong.sunworld.vn",
+    "posted_at": "2026-10-12T15:36:44.539463",
+    "expires_at": "2026-11-13T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [
-          "Bao ăn ở miễn phí"
+        "phones": [
+          "02033669888"
         ],
+        "hr_email": "hr@yokoonsenquanghanh.com.vn",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
-          "it"
+          "ha long",
+          "quang ninh",
+          "it",
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Facebook"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
-      "id": "aee1d8da-490a-4347-a3cf-c33db63cef32",
-      "name": "Yoko Onsen Quang Hanh (Sun Group)",
-      "logo_url": null,
-      "website": null,
+      "id": "b2a60ff8-88bf-41c7-a04b-85202bba7181",
+      "name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
+      "website": "https://halong.sunworld.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 09:59:10",
-      "updated_at": "2026-10-14 09:59:10"
+      "description": "Tổ hợp công viên giải trí đẳng cấp quốc tế của Tập đoàn Sun Group tại Bãi Cháy, Hạ Long."
     }
   },
   {
-    "id": "3ce6a367-0d59-406c-b43b-2951acdaa8f7",
-    "title": "Tuyển Gấp 4 Phục Vụ & 2 Pha Chế Quán Cà Phê Hoàng Hôn Bãi Cháy",
-    "company_name": "Sunset Coffee & Lounge Bãi Cháy",
-    "company_id": "b38867a7-134b-404a-9513-ef4c24e07720",
-    "description": "Quán cần tuyển nhân viên phục vụ ca sáng (7h-15h) và ca tối (15h-23h). Lương 25k/giờ + tip chia hàng tuần. Bao ăn ca, được hướng dẫn pha chế máy Espresso cơ bản. Quán view biển Bãi Cháy cực đẹp, môi trường trẻ trung. Inbox Zalo 0912.884.221 (Chị Mai) để nhận ca làm ngay.",
-    "requirements": "Tuổi từ 18-26, nhanh nhẹn, vui vẻ, trung thực. Nhận cả sinh viên làm theo lịch học xoay ca.",
-    "salary_min": 6500000,
-    "salary_max": 8500000,
-    "salary_text": "25k - 30k/giờ (Hoặc 6.5tr - 8.5tr/tháng)",
+    "id": "40c0e3d2-6c17-4076-9a81-35c142d7ffa1",
+    "title": "Chuyên Viên Hỗ Trợ Kỹ Thuật Viễn Thông & Triển Khai Mạng Doanh Nghiệp",
+    "company_name": "FPT Telecom Chi Nhánh Quảng Ninh",
+    "company_id": "00636d84-93d0-4377-a3c0-d69ef331df35",
+    "description": "Triển khai, lắp đặt và hỗ trợ kỹ thuật dịch vụ đường truyền Internet cáp quang, VPN, Camera AI và trung tâm dữ liệu cho các doanh nghiệp, khách sạn trên địa bàn TP. Hạ Long và các khu công nghiệp phụ cận. Thu nhập cạnh tranh theo năng lực.",
+    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng chuyên ngành CNTT, Điện tử viễn thông. Đam mê kỹ thuật, có phương tiện đi lại, giao tiếp tốt.",
+    "salary_min": 10000000,
+    "salary_max": 16000000,
+    "salary_text": "10 - 16 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
-    "location_full": "Đường bao biển Bãi Cháy, TP. Hạ Long (Gần quảng trường Sun Carnival)",
-    "job_type": "part-time",
-    "category": "Nhà hàng / Dịch vụ ăn uống / F&B",
+    "location_full": "Tòa nhà FPT, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Facebook (Hội Việc Làm Hạ Long - Bãi Cháy)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=sunset_lounge",
-    "posted_at": "2026-10-14 14:06:01.585294",
-    "expires_at": "2026-11-08 15:06:03.225401",
-    "crawled_at": "2026-10-14 15:06:03.225401",
-    "is_active": 1,
+    "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
+    "source_url": "https://fpt.vn",
+    "posted_at": "2026-10-13T15:36:44.539463",
+    "expires_at": "2026-11-13T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
-          "0912884221"
+          "02037300222"
         ],
-        "shifts": [
-          "Ca sáng",
-          "Ca tối",
-          "Xoay ca linh hoạt"
-        ],
-        "benefits": [
-          "Bao ăn theo ca",
-          "Có tiền tip / Phí dịch vụ",
-          "Nhận sinh viên làm thêm"
-        ],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
+        "hr_email": "tuyendung@fpt.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
-          "quan ca phe",
-          "phuc vu",
-          "pha che"
+          "ha long",
+          "quang ninh",
+          "it",
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Facebook"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
-      "id": "b38867a7-134b-404a-9513-ef4c24e07720",
-      "name": "Sunset Coffee & Lounge Bãi Cháy",
-      "logo_url": null,
+      "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
+      "name": "FPT Telecom Chi Nhánh Quảng Ninh",
       "website": null,
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": null
     }
   },
   {
-    "id": "91855177-d676-4b18-ad35-85d61cd33ea9",
-    "title": "Tuyển 3 Tài Xế Bằng D/E & 2 Lái Xe B2 Chạy Hợp Đồng Đưa Đón Tour Khách",
-    "company_name": "Hợp Tác Xã Vận Tải Du Lịch Vịnh Xanh Hạ Long",
-    "company_id": "00098c5b-27b4-48a4-a134-0c1494d9ab1a",
-    "description": "Cần tuyển lái xe chạy xe Ford Transit 16 chỗ và Sedona 7 chỗ đưa đón khách du lịch từ sân bay Vân Đồn / Hà Nội về Bãi Cháy, Tuần Châu. Xe công ty đời 2024 mới 100%, có bãi đỗ xe riêng. Lương cứng 14 triệu + thưởng chuyến + tip tour. Liên hệ trực tiếp Chú Hùng: 0904.331.890.",
-    "requirements": "Bằng B2, D hoặc E. Có ít nhất 2 năm kinh nghiệm chạy xe du lịch, tác phong lịch sự, không hút thuốc trên xe.",
-    "salary_min": 14000000,
-    "salary_max": 22000000,
-    "salary_text": "14 - 22 triệu/tháng",
+    "id": "6f203a38-e352-44f7-8fee-a0e0a217d5c0",
+    "title": "Kỹ Sư Tự Động Hóa & Hệ Thống Đo Lường Cảm Biến Hầm Lò",
+    "company_name": "Tập Đoàn Công Nghiệp Than - Khoáng Sản Việt Nam (TKV)",
+    "company_id": "2513b145-fd3b-4a67-aa40-6e373a0a99e2",
+    "description": "Vận hành hệ thống giám sát khí metan tự động, trạm quan trắc địa chấn và hệ thống băng tải tự động hóa trong hầm lò. Giám sát PLC, SCADA điều khiển trung tâm tại các công ty khai thác than vùng Hạ Long - Cẩm Phả. Chế độ đãi ngộ ngành mỏ cao, bao ăn ở và xe đưa đón.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành Tự động hóa, Cơ điện mỏ, Điều khiển tự động hoặc Điện tử. Có chứng chỉ an toàn mỏ là lợi thế.",
+    "salary_min": 16000000,
+    "salary_max": 26000000,
+    "salary_text": "16 - 26 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
-    "location_full": "Bến xe Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "location_full": "Đường Lê Thánh Tông, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh",
     "job_type": "full-time",
-    "category": "Vận tải / Lái xe / Giao nhận / Logistics",
+    "category": "Sản xuất / Kỹ thuật công nghiệp",
     "experience_level": null,
-    "source_platform": "Facebook (Diễn đàn Lái Xe & Du Lịch Quảng Ninh)",
-    "source_url": "https://www.facebook.com/groups/laixequangninh/?post_ref=driver_tour_b2",
-    "posted_at": "2026-10-14 12:06:01.585294",
-    "expires_at": "2026-11-08 15:06:03.309942",
-    "crawled_at": "2026-10-14 15:06:03.309942",
-    "is_active": 1,
+    "source_platform": "Cổng Thông Tin Tuyển Dụng Vinacomin - TKV",
+    "source_url": "https://vinacomin.vn",
+    "posted_at": "2026-10-11T15:36:44.539463",
+    "expires_at": "2026-11-28T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [
-          "Có tiền tip / Phí dịch vụ"
+        "phones": [
+          "02033852525"
         ],
-        "inferred_industry": "Vận tải / Lái xe / Giao nhận / Logistics",
+        "hr_email": "tuyendung@vinacomin.vn",
+        "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
         "mined_tags": [
-          "tour",
-          "lai xe",
-          "tai xe",
-          "bang d",
-          "dua don"
+          "ha long",
+          "quang ninh",
+          "it",
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Facebook"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
-      "id": "00098c5b-27b4-48a4-a134-0c1494d9ab1a",
-      "name": "Hợp Tác Xã Vận Tải Du Lịch Vịnh Xanh Hạ Long",
-      "logo_url": null,
-      "website": null,
+      "id": "2513b145-fd3b-4a67-aa40-6e373a0a99e2",
+      "name": "Tập Đoàn Công Nghiệp Than - Khoáng Sản Việt Nam (TKV)",
+      "website": "https://vinacomin.vn",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": "Tập đoàn kinh tế trụ cột quốc gia với các mỏ than và nhà máy tuyển khoáng quy mô lớn tại Quảng Ninh."
     }
   },
   {
-    "id": "52429d15-6000-4f32-a3bc-0e642edc11ad",
-    "title": "Nhà Hàng Hải Sản Cơm Niêu Bãi Cháy Tuyển 2 Phụ Bếp & 2 Rửa Bát Ca Gãy (Bao Ăn Ở)",
-    "company_name": "Nhà hàng Hải Sản Cơm Niêu Hương Biển",
-    "company_id": "459c70ac-858e-4b8a-b4ac-28986c01d1b0",
-    "description": "Nhà hàng cần tuyển gấp phụ bếp sơ chế cua, ghẹ, tôm mực tươi sống và nhân viên rửa bát dọn dẹp ca trưa (10h-14h) và ca tối (17h-22h). Có phòng ở miễn phí cho người ở xa có điều hòa nóng lạnh. Bao ăn trưa và tối. Lương nhận đúng ngày mùng 5 hàng tháng. Gọi SĐT: 0989.123.456.",
-    "requirements": "Chăm chỉ, khỏe mạnh, sạch sẽ, không yêu cầu bằng cấp. Nhận việc đi làm luôn.",
-    "salary_min": 8000000,
-    "salary_max": 11000000,
-    "salary_text": "8 - 11 triệu (Bao ăn ở miễn phí)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Phố cổ Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Nhà hàng / Dịch vụ ăn uống / F&B",
-    "experience_level": null,
-    "source_platform": "Facebook (Tuyển Dụng Nhanh TP. Hạ Long)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=haisan_huongbien",
-    "posted_at": "2026-10-14 11:06:01.585294",
-    "expires_at": "2026-11-08 15:06:03.391052",
-    "crawled_at": "2026-10-14 15:06:03.392026",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [
-          "Ca gãy",
-          "Ca tối"
-        ],
-        "benefits": [
-          "Bao ăn ở miễn phí"
-        ],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
-        "mined_tags": [
-          "nha hang",
-          "phu bep",
-          "rua bat",
-          "hai san",
-          "com nieu"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Facebook"
-    },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "459c70ac-858e-4b8a-b4ac-28986c01d1b0",
-      "name": "Nhà hàng Hải Sản Cơm Niêu Hương Biển",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
-    }
-  },
-  {
-    "id": "9fd6cf84-6f4c-4cd6-9cf4-c13289273ece",
-    "title": "Tuyển Nhân Viên Kiểm Soát Vé & Chăm Sóc Khách Tour Cano Tuần Châu",
-    "company_name": "Công ty TNHH Dịch Vụ Du Thuyền Tuần Châu Hạ Long",
-    "company_id": "7a633d6c-1526-46b7-b21a-cacd5e381b08",
-    "description": "Nhiệm vụ: Đón tiếp đoàn khách tại Cảng tàu quốc tế Tuần Châu, hướng dẫn du khách lên cano và tàu thăm vịnh. Hỗ trợ chụp ảnh và giải đáp thông tin lịch trình hang Sửng Sốt, đảo Ti Tốp. Lương cơ bản 8tr + phụ cấp tour 100k/chuyến. Zalo: 0977.654.321.",
-    "requirements": "Giao tiếp hoạt bát, sức khỏe tốt, biết tiếng Anh hoặc tiếng Trung cơ bản là lợi thế lớn.",
-    "salary_min": 9000000,
+    "id": "91123684-7e13-4664-8df4-e987a1675ad1",
+    "title": "IT Helpdesk & Quản Trị Hệ Thống Tòa Nhà Trung Tâm",
+    "company_name": "Khách Sạn Mường Thanh Luxury Hạ Long Centre",
+    "company_id": "897794e0-f10f-450c-a3cb-efd242fa4b2a",
+    "description": "Xử lý sự cố máy tính, máy in, hệ thống tổng đài nội bộ PABX và mạng WiFi các tầng phòng khách sạn. Cài đặt và sao lưu định kỳ cơ sở dữ liệu khách sạn. Chế độ phòng nghỉ nội bộ trên toàn quốc cho nhân viên tập đoàn.",
+    "requirements": "Tốt nghiệp Cao đẳng CNTT trở lên. Nhanh nhẹn, trung thực, ưu tiên ứng viên cư trú tại TP. Hạ Long.",
+    "salary_min": 11000000,
     "salary_max": 15000000,
-    "salary_text": "9 - 15 triệu (Lương cứng + Thưởng tour)",
+    "salary_text": "11 - 15 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
-    "location_full": "Cảng tàu khách Quốc tế Tuần Châu, TP. Hạ Long",
+    "location_full": "Khu 2, Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
     "job_type": "full-time",
-    "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Facebook (Hội Du Lịch & Du Thuyền Vịnh Hạ Long)",
-    "source_url": "https://www.facebook.com/groups/vieclamhalongquangninh/?post_ref=cano_tuanchau",
-    "posted_at": "2026-10-14 10:06:01.585294",
-    "expires_at": "2026-11-08 15:06:03.463962",
-    "crawled_at": "2026-10-14 15:06:03.463962",
-    "is_active": 1,
+    "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Mường Thanh",
+    "source_url": "https://muongthanh.com",
+    "posted_at": "2026-10-12T15:36:44.539463",
+    "expires_at": "2026-11-13T15:36:44.539463",
+    "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
-          "0977654321"
+          "02033738999"
         ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
+        "hr_email": "hr@luxuryhalongcentre.muongthanh.com",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
-          "tour",
-          "cano"
+          "ha long",
+          "quang ninh",
+          "it",
+          "chinh thuc"
         ]
       },
-      "social_harvest": true,
-      "platform_type": "Facebook"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường"
     },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
     "company": {
-      "id": "7a633d6c-1526-46b7-b21a-cacd5e381b08",
-      "name": "Công ty TNHH Dịch Vụ Du Thuyền Tuần Châu Hạ Long",
-      "logo_url": null,
-      "website": null,
+      "id": "897794e0-f10f-450c-a3cb-efd242fa4b2a",
+      "name": "Khách Sạn Mường Thanh Luxury Hạ Long Centre",
+      "website": "https://muongthanh.com",
       "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
-    }
-  },
-  {
-    "id": "1d310a0c-ce6f-49c1-8d07-d9fedf2b2802",
-    "title": "Tuyển Kế Toán Nội Bộ & Bán Hàng Trưng Bày Showroom Gạch Men - Cẩm Phả",
-    "company_name": "Công ty VLXD & Gốm Sứ Đất Việt Cẩm Phả",
-    "company_id": "d475926c-784e-4a40-b179-f57505cbdc32",
-    "description": "Công việc: Theo dõi phiếu xuất nhập kho gạch ốp lát, thiết bị vệ sinh, lập hóa đơn điện tử cho khách hàng và trực tiếp tư vấn mẫu tại showroom. Nghỉ 4 ngày Chủ nhật/tháng, đóng BHXH đầy đủ. Liên hệ nộp hồ sơ qua Zalo: 0936.998.811.",
-    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng Kế toán, thành thạo Excel hoặc phần mềm kế toán. Cẩn thận, trung thực.",
-    "salary_min": 8500000,
-    "salary_max": 12000000,
-    "salary_text": "8.5 - 12 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Cẩm Phả",
-    "location_full": "Đường Trần Phú, Phường Cẩm Trung, TP. Cẩm Phả, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Kế toán / Kiểm toán / Thuế / Tài chính",
-    "experience_level": null,
-    "source_platform": "Facebook (Hội Việc Làm Cẩm Phả - Mông Dương)",
-    "source_url": "https://www.facebook.com/groups/tuyendungquangninh/?post_ref=ketoan_showroom_2",
-    "posted_at": "2026-10-14 08:06:01.585294",
-    "expires_at": "2026-11-08 15:06:03.527103",
-    "crawled_at": "2026-10-14 15:06:03.527103",
-    "is_active": 1,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0936998811"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kế toán / Kiểm toán / Thuế / Tài chính",
-        "mined_tags": [
-          "ke toan",
-          "ke toan noi bo",
-          "ban hang",
-          "showroom"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Facebook"
-    },
-    "created_at": "2026-10-14 15:06:04",
-    "updated_at": "2026-10-14 15:06:04",
-    "company": {
-      "id": "d475926c-784e-4a40-b179-f57505cbdc32",
-      "name": "Công ty VLXD & Gốm Sứ Đất Việt Cẩm Phả",
-      "logo_url": null,
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null,
-      "industry": null,
-      "created_at": "2026-10-14 04:41:08",
-      "updated_at": "2026-10-14 04:41:08"
+      "description": "Khách sạn 5 sao cao cấp với hơn 500 phòng nghỉ và trung tâm hội nghị tiệc cưới lớn tại Bãi Cháy."
     }
   }
 ]

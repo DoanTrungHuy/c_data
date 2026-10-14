@@ -10,6 +10,7 @@ import {
   MagnifyingGlassIcon,
   SparklesIcon,
 } from "@heroicons/react/24/outline";
+import CDataLogo from "@/components/CDataLogo";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -32,21 +33,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-slate-200/80 bg-white/95 backdrop-blur-md transition-all shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8 h-16 md:h-20">
         {/* Brand Logo */}
-        <Link href="/" className="flex items-center gap-3 group">
-          <div className="flex h-10 w-10 md:h-11 md:w-11 items-center justify-center rounded-xl bg-gradient-to-tr from-primary-600 to-blue-400 text-white shadow-md shadow-primary-500/20 group-hover:scale-105 transition-transform duration-200">
-            <BriefcaseIcon className="h-6 w-6" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-xl md:text-2xl font-black tracking-tight text-slate-900 flex items-center gap-1.5">
-              C_Data
-              <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-semibold bg-accent-100 text-accent-700 tracking-normal">
-                Việt Nam
-              </span>
-            </span>
-            <span className="text-[11px] font-medium text-slate-500 -mt-0.5 hidden sm:block">
-              Tổng hợp việc làm 63 tỉnh thành
-            </span>
-          </div>
+        <Link href="/" className="group">
+          <CDataLogo size="md" />
         </Link>
 
         {/* Desktop Navigation */}
