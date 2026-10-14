@@ -288,26 +288,34 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
             </button>
           </div>
 
-          {phone ? (
-            <a
-              href={`https://zalo.me/${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-2.5 py-1 rounded-lg transition-colors"
-              title="Nhắn tin Zalo trực tiếp với nhà tuyển dụng"
-            >
-              <span>💬 Zalo: {phone}</span>
-            </a>
-          ) : job.source_url ? (
-            <a
-              href={job.source_url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-xs font-medium text-slate-500 hover:text-slate-800 transition-colors"
-            >
-              Nguồn: {platform.name} →
-            </a>
-          ) : null}
+          <div className="flex flex-wrap items-center gap-1.5 ml-auto">
+            {phone && (
+              <a
+                href={`https://zalo.me/${phone}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-flex items-center gap-1 text-[11px] font-bold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-2.5 py-1 rounded-lg transition-colors shadow-2xs hover:shadow-xs"
+                title="Nhắn tin Zalo trực tiếp với nhà tuyển dụng"
+              >
+                <span>💬 Zalo: {phone}</span>
+              </a>
+            )}
+
+            {job.source_url && (
+              <a
+                href={job.source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-flex items-center gap-1 text-[11px] font-bold text-primary-700 bg-primary-50 hover:bg-primary-100 border border-primary-200 px-2.5 py-1 rounded-lg transition-all shadow-2xs hover:shadow-xs hover:border-primary-300 group/link"
+                title={`Mở nguồn tuyển dụng gốc: ${platform.name}`}
+              >
+                <span>🌐 {platform.name}</span>
+                <ArrowUpRightIcon className="h-3 w-3 shrink-0 text-primary-500 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
+              </a>
+            )}
+          </div>
         </div>
       </div>
 
@@ -507,10 +515,10 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                       href={job.source_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs font-semibold text-slate-600 hover:text-slate-900 border border-slate-200 px-3 py-2 rounded-xl hover:bg-slate-50 transition-colors"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-primary-600 hover:bg-primary-700 px-4 py-2.5 rounded-xl transition-all shadow-sm hover:shadow"
                     >
-                      <span>Mở trang nguồn</span>
-                      <ArrowUpRightIcon className="h-3 w-3" />
+                      <span>🌐 Xem nguồn gốc ({platform.name})</span>
+                      <ArrowUpRightIcon className="h-3.5 w-3.5" />
                     </a>
                   </>
                 )}

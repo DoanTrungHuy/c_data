@@ -46,50 +46,10 @@
     }
   },
   {
-    "id": "cd9e7d52-03e2-4c57-a133-3ef4684e74c9",
-    "title": "ASM - Giám Đốc Kinh Doanh Vùng Thủ Đô(Mới)",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: ASM - Giám Đốc Kinh Doanh Vùng Thủ Đô(Mới). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 40000000,
-    "salary_max": 60000000,
-    "salary_text": "Lương: 40 - 60 Triệu VND",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/asm-giam-doc-kinh-doanh-vung-thu-do.35C8A5A0.html",
-    "posted_at": "2026-10-13T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "kinh doanh"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
     "id": "450f6c5f-88bc-4353-bdbc-99c3a5a0e21f",
     "title": "Phó phòng Cơ điện",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "CÔNG TY CP BIA & NGK HẠ LONG",
+    "company_id": "a9c522e7-2bc1-4172-81bd-1b28c2e91b34",
     "description": "Vị trí: Phó phòng Cơ điện. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 18000000,
@@ -101,7 +61,7 @@
     "job_type": "full-time",
     "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-co-dien.35C83E60.html",
     "posted_at": "2026-09-18T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
@@ -116,30 +76,30 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "a9c522e7-2bc1-4172-81bd-1b28c2e91b34",
+      "name": "CÔNG TY CP BIA & NGK HẠ LONG",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-co-dien.35C83E60.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY CP BIA & NGK HẠ LONG"
     }
   },
   {
     "id": "67e2b954-66d2-4304-be94-45a3032417d2",
     "title": "GIÁM ĐỐC KINH DOANH BẤT ĐỘNG SẢN",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "CÔNG TY CỔ PHẦN TM & DV FUTURE HOMES",
+    "company_id": "04c5a43f-a433-48ed-8747-b6f5896a5fab",
     "description": "Vị trí: GIÁM ĐỐC KINH DOANH BẤT ĐỘNG SẢN. Doanh nghiệp tuyển dụng: Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long. Nơi làm việc: Khu đô thị Bãi Cháy, TP. Hạ Long (Quảng Ninh) & Hà Nội, Hưng Yên. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 50000000,
     "salary_max": 200000000,
     "salary_text": "Lương: 50 - 200 Triệu VND",
-    "location_province": "Quảng Ninh",
+    "location_province": "Hà Nội",
     "location_district": "Hạ Long",
     "location_full": "Khu đô thị Bãi Cháy, TP. Hạ Long (Quảng Ninh) & Hà Nội, Hưng Yên",
     "job_type": "full-time",
     "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-bat-dong-san.35C873D3.html",
     "posted_at": "2026-10-06T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
@@ -157,18 +117,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "04c5a43f-a433-48ed-8747-b6f5896a5fab",
+      "name": "CÔNG TY CỔ PHẦN TM & DV FUTURE HOMES",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-bat-dong-san.35C873D3.html",
+      "province": "Hà Nội",
+      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY CỔ PHẦN TM & DV FUTURE HOMES"
     }
   },
   {
     "id": "a7851138-f293-4a99-8ece-83e0f0ac7201",
     "title": "Quảng Ninh - Chuyên viên an toàn lao động",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "BIM Group",
+    "company_id": "44b4f1a5-bd18-42b4-8b62-da153d7dd0fb",
     "description": "Vị trí: Quảng Ninh - Chuyên viên an toàn lao động. Doanh nghiệp tuyển dụng: Công ty Xây dựng & An toàn Lao động Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -180,7 +140,7 @@
     "job_type": "full-time",
     "category": "Xây dựng / Kỹ thuật / An toàn lao động",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-an-toan-lao-dong.35C89CFA.html",
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
@@ -197,179 +157,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "44b4f1a5-bd18-42b4-8b62-da153d7dd0fb",
+      "name": "BIM Group",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-an-toan-lao-dong.35C89CFA.html",
       "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "73b4faca-22da-41e8-b168-427ad7b3f99b",
-    "title": "GIÁM SÁT THI CÔNG HOÀN THIỆN NỘI THẤT",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: GIÁM SÁT THI CÔNG HOÀN THIỆN NỘI THẤT. Doanh nghiệp tuyển dụng: Công Ty CP Thi Công & Giám Sát Nội Thất. Nơi làm việc: Hà Nội, Khánh Hòa, TP. Hồ Chí Minh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hà Nội",
-    "location_district": "Cầu Giấy",
-    "location_full": "Hà Nội, Khánh Hòa, TP. Hồ Chí Minh",
-    "job_type": "full-time",
-    "category": "Xây dựng / Kỹ thuật / An toàn lao động",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-sat-thi-cong-hoan-thien-noi-that.35C822CE.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Xây dựng / Kỹ thuật / An toàn lao động",
-        "mined_tags": [
-          "thi cong"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "eb0745f4-ae35-4939-8021-6fe1b2a26b66",
-    "title": "Thủ Kho Mảng Xây Dựng và Cơ Điện",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: Thủ Kho Mảng Xây Dựng và Cơ Điện. Doanh nghiệp tuyển dụng: Công Ty CP Cơ Điện & Quản Lý Kho Xây Dựng. Nơi làm việc: Hà Nội, TP. Hồ Chí Minh, Đà Nẵng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 15000000,
-    "salary_max": 20000000,
-    "salary_text": "Lương: 15 - 20 Triệu VND",
-    "location_province": "Hà Nội",
-    "location_district": "Nam Từ Liêm",
-    "location_full": "Hà Nội, TP. Hồ Chí Minh, Đà Nẵng",
-    "job_type": "full-time",
-    "category": "Kế toán / Kiểm toán / Thuế / Tài chính",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/thu-kho-mang-xay-dung-va-co-dien.35C89066.html",
-    "posted_at": "2026-10-07T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kế toán / Kiểm toán / Thuế / Tài chính",
-        "mined_tags": [
-          "thu kho",
-          "xay dung"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "808b73cb-3ab7-4669-9e9f-773c7dfeff9d",
-    "title": "[KATINAT-VŨNG TÀU] QUẢN LÝ CỬA HÀNG",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: [KATINAT-VŨNG TÀU] QUẢN LÝ CỬA HÀNG. Doanh nghiệp tuyển dụng: KATINAT Saigon Kafe. Nơi làm việc: Bà Rịa - Vũng Tàu. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 12000000,
-    "salary_max": 15000000,
-    "salary_text": "Lương: 12 - 15 Triệu VND",
-    "location_province": "Bà Rịa - Vũng Tàu",
-    "location_district": null,
-    "location_full": "Bà Rịa - Vũng Tàu",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/katinat-vung-tau-quan-ly-cua-hang.35C87067.html",
-    "posted_at": "2026-10-04T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "cua hang"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "78dc365f-7192-4838-8fad-de13a3bdcd3e",
-    "title": "CHỈ HUY TRƯỞNG HOÀN THIỆN NỘI THẤT - GẤP",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: CHỈ HUY TRƯỞNG HOÀN THIỆN NỘI THẤT - GẤP. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Bà Rịa - Vũng Tàu. Nơi làm việc: TP. Hồ Chí Minh, Khánh Hòa, Bà Rịa - Vũng Tàu. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Bà Rịa - Vũng Tàu",
-    "location_district": null,
-    "location_full": "TP. Hồ Chí Minh, Khánh Hòa, Bà Rịa - Vũng Tàu",
-    "job_type": "full-time",
-    "category": "Xây dựng / Kỹ thuật / An toàn lao động",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chi-huy-truong-hoan-thien-noi-that-gap.35C899C9.html",
-    "posted_at": "2026-10-12T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Xây dựng / Kỹ thuật / An toàn lao động",
-        "mined_tags": [
-          "chi huy truong"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: BIM Group"
     }
   },
   {
     "id": "44cbf0a0-cfea-440a-bb92-b051f5d79a49",
     "title": "Nhân Viên Nhập Liệu Chứng Từ Giao Nhận",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "CÔNG TY TNHH VẬN TẢI THƯƠNG MẠI HÀ ANH",
+    "company_id": "2f9e4488-e571-4563-9d1e-ef336f0fe6e2",
     "description": "Vị trí: Nhân Viên Nhập Liệu Chứng Từ Giao Nhận. Doanh nghiệp tuyển dụng: Công ty Giao Nhận & Vận Tải Quốc Tế Quảng Ninh. Nơi làm việc: Hải Dương, Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -381,7 +180,7 @@
     "job_type": "full-time",
     "category": "Kế toán / Kiểm toán / Thuế / Tài chính",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-nhap-lieu-chung-tu-giao-nhan.35C86AAC.html",
     "posted_at": "2026-10-11T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
@@ -398,49 +197,11 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "2f9e4488-e571-4563-9d1e-ef336f0fe6e2",
+      "name": "CÔNG TY TNHH VẬN TẢI THƯƠNG MẠI HÀ ANH",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-nhap-lieu-chung-tu-giao-nhan.35C86AAC.html",
       "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "f26b9a3f-7814-4fa2-bb3d-88cf44c83a53",
-    "title": "NHÂN VIÊN QAQC HOÀN THIỆN NỘI THẤT",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: NHÂN VIÊN QAQC HOÀN THIỆN NỘI THẤT. Doanh nghiệp tuyển dụng: Công Ty Kiểm Định & QAQC Nội Thất. Nơi làm việc: Hà Nội, Khánh Hòa, TP. Hồ Chí Minh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hà Nội",
-    "location_district": "Thanh Xuân",
-    "location_full": "Hà Nội, Khánh Hòa, TP. Hồ Chí Minh",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qaqc-hoan-thien-noi-that.35C822C9.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY TNHH VẬN TẢI THƯƠNG MẠI HÀ ANH"
     }
   },
   {
@@ -487,8 +248,8 @@
   {
     "id": "72eeba26-8c02-43a5-a909-c404fccfb507",
     "title": "Giao dịch viên - Quảng Ninh",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Ngân Hàng Thương Mại Cổ Phần Bảo Việt",
+    "company_id": "c5dc82ff-7904-410d-8db0-3e7968c7c1b5",
     "description": "Vị trí: Giao dịch viên - Quảng Ninh. Doanh nghiệp tuyển dụng: Ngân hàng TMCP tại Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 7000000,
@@ -500,7 +261,7 @@
     "job_type": "full-time",
     "category": "Ngân hàng / Tài chính / Giao dịch viên",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-quang-ninh.35C89DD4.html",
     "posted_at": "2026-10-08T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
@@ -517,18 +278,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "c5dc82ff-7904-410d-8db0-3e7968c7c1b5",
+      "name": "Ngân Hàng Thương Mại Cổ Phần Bảo Việt",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-quang-ninh.35C89DD4.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: Ngân Hàng Thương Mại Cổ Phần Bảo Việt"
     }
   },
   {
     "id": "aa3a7517-2624-4cd2-af86-db0186066d6b",
     "title": "Quảng Ninh - Chuyên viên kế toán",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "BIM Group",
+    "company_id": "44b4f1a5-bd18-42b4-8b62-da153d7dd0fb",
     "description": "Vị trí: Quảng Ninh - Chuyên viên kế toán. Doanh nghiệp tuyển dụng: Công ty Cổ phần Thương mại Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -540,7 +301,7 @@
     "job_type": "full-time",
     "category": "Kế toán / Kiểm toán / Thuế / Tài chính",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-ke-toan.35C88EAB.html",
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
@@ -557,18 +318,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "44b4f1a5-bd18-42b4-8b62-da153d7dd0fb",
+      "name": "BIM Group",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-an-toan-lao-dong.35C89CFA.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: BIM Group"
     }
   },
   {
     "id": "9e0e11f8-1eaa-4eaf-8ef8-a17849f9e347",
     "title": "Quảng Ninh - Chuyên viên Giám sát xây dựng",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "BIM Group",
+    "company_id": "44b4f1a5-bd18-42b4-8b62-da153d7dd0fb",
     "description": "Vị trí: Quảng Ninh - Chuyên viên Giám sát xây dựng. Doanh nghiệp tuyển dụng: Công ty Tư vấn & Giám sát Công trình Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -580,7 +341,7 @@
     "job_type": "full-time",
     "category": "Xây dựng / Kỹ thuật / An toàn lao động",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-giam-sat-xay-dung.35C89D05.html",
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
@@ -598,18 +359,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "44b4f1a5-bd18-42b4-8b62-da153d7dd0fb",
+      "name": "BIM Group",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/quang-ninh-chuyen-vien-an-toan-lao-dong.35C89CFA.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: BIM Group"
     }
   },
   {
     "id": "07b82b4c-778d-4809-afd3-7bcc515ae627",
     "title": "Giao dịch viên - Tp.Uông Bí, Quảng Ninh",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Ngân hàng TMCP Phát triển TP.HCM (HDBank)",
+    "company_id": "89de8c8f-49a5-4a2f-b2eb-4334291621b7",
     "description": "Vị trí: Giao dịch viên - Tp.Uông Bí, Quảng Ninh. Doanh nghiệp tuyển dụng: Ngân hàng TMCP tại Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -621,7 +382,7 @@
     "job_type": "full-time",
     "category": "Ngân hàng / Tài chính / Giao dịch viên",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-tp-uong-bi-quang-ninh.35C87A93.html",
     "posted_at": "2026-10-14T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
@@ -638,18 +399,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "89de8c8f-49a5-4a2f-b2eb-4334291621b7",
+      "name": "Ngân hàng TMCP Phát triển TP.HCM (HDBank)",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-tp-uong-bi-quang-ninh.35C87A93.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: Ngân hàng TMCP Phát triển TP.HCM (HDBank)"
     }
   },
   {
     "id": "ab46fba7-5b0f-4ea2-995e-03f30f38e2df",
     "title": "Nhân Viên Kinh Doanh / Sales Thị Trường Quảng Ninh",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "NANOCO GROUP",
+    "company_id": "6e1610c7-2e9e-4c57-a791-d8d12d800f6e",
     "description": "Vị trí: Nhân Viên Kinh Doanh / Sales Thị Trường Quảng Ninh. Doanh nghiệp tuyển dụng: Công ty Thương Mại & Dịch Vụ Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -661,7 +422,7 @@
     "job_type": "full-time",
     "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-thi-truong-quang-ninh.35C87751.html",
     "posted_at": "2026-10-07T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
@@ -680,11 +441,11 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "6e1610c7-2e9e-4c57-a791-d8d12d800f6e",
+      "name": "NANOCO GROUP",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-thi-truong-quang-ninh.35C87751.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: NANOCO GROUP"
     }
   },
   {
@@ -734,20 +495,20 @@
   {
     "id": "822760ec-d795-4ea3-bee6-3fe66a00b753",
     "title": "Nhân Viên IT (Tiếng Trung, làm tại Quảng Ninh)",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Headhunter HRchannels Group",
+    "company_id": "07b2f865-ca45-4bdf-a58b-56a165faf29b",
     "description": "Vị trí: Nhân Viên IT (Tiếng Trung, làm tại Quảng Ninh). Doanh nghiệp tuyển dụng: Doanh nghiệp Công nghệ tại Quảng Ninh. Nơi làm việc: Quảng Ninh (KCN Đông Mai), Hải Phòng, Hải Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 13000000,
     "salary_max": 35000000,
     "salary_text": "Lương: 13 - 35 Triệu VND",
-    "location_province": "Quảng Ninh",
+    "location_province": "Hải Phòng",
     "location_district": null,
     "location_full": "Quảng Ninh (KCN Đông Mai), Hải Phòng, Hải Dương",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-tieng-trung-lam-tai-quang-ninh.35C833DD.html",
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
@@ -764,18 +525,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "07b2f865-ca45-4bdf-a58b-56a165faf29b",
+      "name": "Headhunter HRchannels Group",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-tieng-trung-lam-tai-quang-ninh.35C833DD.html",
+      "province": "Hải Phòng",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Headhunter HRchannels Group"
     }
   },
   {
     "id": "3644ab75-fbc1-42df-acf6-f90e9d9a39e6",
     "title": "Chuyên viên Quan hệ Khách hàng Cá nhân - Quảng Ninh",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Ngân Hàng Thương Mại Cổ Phần Bảo Việt",
+    "company_id": "c5dc82ff-7904-410d-8db0-3e7968c7c1b5",
     "description": "Vị trí: Chuyên viên Quan hệ Khách hàng Cá nhân - Quảng Ninh. Doanh nghiệp tuyển dụng: Ngân hàng Thương mại tại Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 10000000,
@@ -787,7 +548,7 @@
     "job_type": "full-time",
     "category": "Sàn tuyển dụng",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-quan-he-khach-hang-ca-nhan-quang-ninh.35C89DD1.html",
     "posted_at": "2026-10-08T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
@@ -802,18 +563,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "c5dc82ff-7904-410d-8db0-3e7968c7c1b5",
+      "name": "Ngân Hàng Thương Mại Cổ Phần Bảo Việt",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-quang-ninh.35C89DD4.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: Ngân Hàng Thương Mại Cổ Phần Bảo Việt"
     }
   },
   {
     "id": "145f7371-31b5-47bf-aa9c-00ccdae25387",
     "title": "Nhân Viên Kinh Doanh (Sales Representative)- Cẩm Phả, Quảng Ninh",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "HEINEKEN Vietnam",
+    "company_id": "ab1388f8-8255-464e-bcda-890d2c9d0594",
     "description": "Vị trí: Nhân Viên Kinh Doanh (Sales Representative)- Cẩm Phả, Quảng Ninh. Doanh nghiệp tuyển dụng: Công ty Phân Phối & Thương Mại Cẩm Phả. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -825,7 +586,7 @@
     "job_type": "full-time",
     "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-representative-cam-pha-quang-ninh.35C7FC8D.html",
     "posted_at": "2026-09-18T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
@@ -844,18 +605,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "ab1388f8-8255-464e-bcda-890d2c9d0594",
+      "name": "HEINEKEN Vietnam",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-representative-cam-pha-quang-ninh.35C7FC8D.html",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: HEINEKEN Vietnam"
     }
   },
   {
     "id": "7162c1c3-0c9f-45b8-94a1-ac3b65780d2b",
     "title": "Chuyên viên đào tạo và phát triển Sao Vàng Quảng Ninh",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Công ty TNHH Sao Vàng",
+    "company_id": "6cfa50ac-d5da-4245-9da2-64b8f69069c6",
     "description": "Vị trí: Chuyên viên đào tạo và phát triển Sao Vàng Quảng Ninh. Doanh nghiệp tuyển dụng: Tập đoàn Sao Vàng Quảng Ninh. Nơi làm việc: Quảng Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 10000000,
@@ -867,7 +628,7 @@
     "job_type": "full-time",
     "category": "Sàn tuyển dụng",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-dao-tao-va-phat-trien-sao-vang-quang-ninh.35C881C3.html",
     "posted_at": "2026-10-14T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
@@ -882,497 +643,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
+      "id": "6cfa50ac-d5da-4245-9da2-64b8f69069c6",
+      "name": "Công ty TNHH Sao Vàng",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-dao-tao-va-phat-trien-sao-vang-quang-ninh.35C881C3.html",
       "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "402f21d7-1e3f-4b36-a2d7-8837758266cd",
-    "title": "Nhân Viên Kinh Doanh B2B (Hà Nội)CareerVietHà NộiCạnh tranh",
-    "company_name": "Doanh nghiệp tại Hà Nội",
-    "company_id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-    "description": "Vị trí: Nhân Viên Kinh Doanh B2B (Hà Nội)CareerVietHà NộiCạnh tranh. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Thỏa thuận",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-b2b-ha-noi.35C8A7AE.html",
-    "posted_at": "2026-10-14T02:22:25.551829",
-    "expires_at": "2026-11-13T04:22:25.551829",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "kinh doanh"
-        ]
-      }
-    },
-    "company": {
-      "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-      "name": "Doanh nghiệp tại Hà Nội",
-      "website": null,
-      "province": "Hà Nội",
-      "description": null
-    }
-  },
-  {
-    "id": "0bf17869-093e-46ae-b60e-d9f8ed2d86f0",
-    "title": "Nhân viên kinh doanh tại Hà Nội - Đà Nẵng - Hồ Chí Minh (Thu nhập hấp dẫn)Tổng Công Ty Chuyển Phát Nhanh Bưu ĐiệnHà Nội,  Hồ Chí Minh,  Đà NẵngCạnh tranh",
-    "company_name": "Doanh nghiệp tại Hà Nội",
-    "company_id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-    "description": "Vị trí: Nhân viên kinh doanh tại Hà Nội - Đà Nẵng - Hồ Chí Minh (Thu nhập hấp dẫn)Tổng Công Ty Chuyển Phát Nhanh Bưu ĐiệnHà Nội,  Hồ Chí Minh,  Đà NẵngCạnh tranh. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Thỏa thuận",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-tai-ha-noi-da-nang-ho-chi-minh-thu-nhap-hap-dan.35C890B3.html",
-    "posted_at": "2026-10-14T02:22:25.551829",
-    "expires_at": "2026-11-13T04:22:25.551829",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "kinh doanh"
-        ]
-      }
-    },
-    "company": {
-      "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-      "name": "Doanh nghiệp tại Hà Nội",
-      "website": null,
-      "province": "Hà Nội",
-      "description": null
-    }
-  },
-  {
-    "id": "ede9e00d-f679-496c-b3be-d17453275e78",
-    "title": "[Ha Noi] Logistics Supervisor",
-    "company_name": "Doanh nghiệp tại Hà Nội",
-    "company_id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-    "description": "Vị trí: [Ha Noi] Logistics Supervisor. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Vận tải / Lái xe / Giao nhận / Logistics",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-logistics-supervisor.35C879DA.html",
-    "posted_at": "2026-10-08T00:00:00",
-    "expires_at": "2026-11-13T04:22:25.551829",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Vận tải / Lái xe / Giao nhận / Logistics",
-        "mined_tags": [
-          "logistics"
-        ]
-      }
-    },
-    "company": {
-      "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-      "name": "Doanh nghiệp tại Hà Nội",
-      "website": null,
-      "province": "Hà Nội",
-      "description": null
-    }
-  },
-  {
-    "id": "9cb73339-d330-4fae-a919-ef4b490c4990",
-    "title": "[Ha Noi] Admin Executive",
-    "company_name": "Doanh nghiệp tại Hà Nội",
-    "company_id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-    "description": "Vị trí: [Ha Noi] Admin Executive. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-admin-executive.35C843FF.html",
-    "posted_at": "2026-09-22T00:00:00",
-    "expires_at": "2026-11-13T04:22:25.551829",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-      "name": "Doanh nghiệp tại Hà Nội",
-      "website": null,
-      "province": "Hà Nội",
-      "description": null
-    }
-  },
-  {
-    "id": "9cfe9307-4cc7-4e03-ac45-c4547a010c01",
-    "title": "Customer Advisor - Hà Nội",
-    "company_name": "Doanh nghiệp tại Hà Nội",
-    "company_id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-    "description": "Vị trí: Customer Advisor - Hà Nội. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 8000000,
-    "salary_max": 15000000,
-    "salary_text": "Lương: 8 - 15 Triệu VND",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/customer-advisor-ha-noi.35C8721D.html",
-    "posted_at": "2026-10-05T00:00:00",
-    "expires_at": "2026-11-13T04:22:25.551829",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-      "name": "Doanh nghiệp tại Hà Nội",
-      "website": null,
-      "province": "Hà Nội",
-      "description": null
-    }
-  },
-  {
-    "id": "eed927db-3b3e-4d58-860d-b9f9ce292bfa",
-    "title": "Clerk, Operations (Ha Noi)",
-    "company_name": "Doanh nghiệp tại Hà Nội",
-    "company_id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-    "description": "Vị trí: Clerk, Operations (Ha Noi). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hà Nội",
-    "location_district": null,
-    "location_full": "Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/clerk-operations-ha-noi.35C85730.html",
-    "posted_at": "2026-10-03T00:00:00",
-    "expires_at": "2026-11-13T04:22:25.551829",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "7f76bca5-8111-4842-ac15-ecba008b4e5b",
-      "name": "Doanh nghiệp tại Hà Nội",
-      "website": null,
-      "province": "Hà Nội",
-      "description": null
-    }
-  },
-  {
-    "id": "da66ac5e-5a4f-41a5-af7c-9635cbc22931",
-    "title": "[Thanh Hóa] Giám Đốc Phòng Giao Dịch",
-    "company_name": "Doanh nghiệp tại Thanh Hóa",
-    "company_id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-    "description": "Vị trí: [Thanh Hóa] Giám Đốc Phòng Giao Dịch. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thanh Hóa. Nơi làm việc: Thanh Hóa. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Thanh Hóa",
-    "location_district": null,
-    "location_full": "Thanh Hóa",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/thanh-hoa-giam-doc-phong-giao-dich.35C837F2.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T04:27:10.613136",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-        "mined_tags": [
-          "than"
-        ]
-      }
-    },
-    "company": {
-      "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-      "name": "Doanh nghiệp tại Thanh Hóa",
-      "website": null,
-      "province": "Thanh Hóa",
-      "description": null
-    }
-  },
-  {
-    "id": "416de0c8-182c-4c71-b51c-d71e645eb1c5",
-    "title": "Quản lý Cửa hàng (Khu vực Thanh Hóa)",
-    "company_name": "Doanh nghiệp tại Thanh Hóa",
-    "company_id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-    "description": "Vị trí: Quản lý Cửa hàng (Khu vực Thanh Hóa). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thanh Hóa. Nơi làm việc: Thanh Hóa. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 12000000,
-    "salary_max": 17000000,
-    "salary_text": "Lương: 12 - 17 Triệu VND",
-    "location_province": "Thanh Hóa",
-    "location_district": null,
-    "location_full": "Thanh Hóa",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-cua-hang-khu-vuc-thanh-hoa.35C81443.html",
-    "posted_at": "2026-10-09T00:00:00",
-    "expires_at": "2026-11-13T04:27:10.613136",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "cua hang",
-          "than"
-        ]
-      }
-    },
-    "company": {
-      "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-      "name": "Doanh nghiệp tại Thanh Hóa",
-      "website": null,
-      "province": "Thanh Hóa",
-      "description": null
-    }
-  },
-  {
-    "id": "c248342a-8b85-4699-87f1-1b90aafc7946",
-    "title": "[Thanh Hóa] Trưởng Phòng Khách Hàng Cá Nhân",
-    "company_name": "Doanh nghiệp tại Thanh Hóa",
-    "company_id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-    "description": "Vị trí: [Thanh Hóa] Trưởng Phòng Khách Hàng Cá Nhân. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thanh Hóa. Nơi làm việc: Thanh Hóa. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Thanh Hóa",
-    "location_district": null,
-    "location_full": "Thanh Hóa",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/thanh-hoa-truong-phong-khach-hang-ca-nhan.35C837FE.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T04:27:10.613136",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-        "mined_tags": [
-          "than"
-        ]
-      }
-    },
-    "company": {
-      "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-      "name": "Doanh nghiệp tại Thanh Hóa",
-      "website": null,
-      "province": "Thanh Hóa",
-      "description": null
-    }
-  },
-  {
-    "id": "99f919fa-661b-42b9-a019-2a2db06856b4",
-    "title": "Chuyên viên Định giá tài sản tại Thanh Hóa",
-    "company_name": "Doanh nghiệp tại Thanh Hóa",
-    "company_id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-    "description": "Vị trí: Chuyên viên Định giá tài sản tại Thanh Hóa. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thanh Hóa. Nơi làm việc: Thanh Hóa. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Thanh Hóa",
-    "location_district": null,
-    "location_full": "Thanh Hóa",
-    "job_type": "full-time",
-    "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-dinh-gia-tai-san-tai-thanh-hoa.35C88589.html",
-    "posted_at": "2026-10-07T00:00:00",
-    "expires_at": "2026-11-13T04:27:10.613136",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghiệp / Than - Khoáng sản / Cơ điện",
-        "mined_tags": [
-          "than"
-        ]
-      }
-    },
-    "company": {
-      "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-      "name": "Doanh nghiệp tại Thanh Hóa",
-      "website": null,
-      "province": "Thanh Hóa",
-      "description": null
-    }
-  },
-  {
-    "id": "b0467d1d-babf-47a1-af70-abf869d79a8e",
-    "title": "CÁN BỘ TƯ VẤN GIÁM SÁT - BQLDA Thanh Hóa",
-    "company_name": "Doanh nghiệp tại Thanh Hóa",
-    "company_id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-    "description": "Vị trí: CÁN BỘ TƯ VẤN GIÁM SÁT - BQLDA Thanh Hóa. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thanh Hóa. Nơi làm việc: Thanh Hóa. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Thanh Hóa",
-    "location_district": null,
-    "location_full": "Thanh Hóa",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/can-bo-tu-van-giam-sat-bqlda-thanh-hoa.35C84812.html",
-    "posted_at": "2026-09-24T00:00:00",
-    "expires_at": "2026-11-13T04:27:10.613136",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "tu van",
-          "than"
-        ]
-      }
-    },
-    "company": {
-      "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-      "name": "Doanh nghiệp tại Thanh Hóa",
-      "website": null,
-      "province": "Thanh Hóa",
-      "description": null
-    }
-  },
-  {
-    "id": "09033ad6-6fa2-42bc-85a1-18738593fac3",
-    "title": "Nhân Viên Kinh Doanh / Sales Thị Trường Thanh Hóa",
-    "company_name": "Doanh nghiệp tại Thanh Hóa",
-    "company_id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-    "description": "Vị trí: Nhân Viên Kinh Doanh / Sales Thị Trường Thanh Hóa. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thanh Hóa. Nơi làm việc: Thanh Hóa. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Thanh Hóa",
-    "location_district": null,
-    "location_full": "Thanh Hóa",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kinh-doanh-sales-thi-truong-thanh-hoa.35C870DF.html",
-    "posted_at": "2026-10-05T00:00:00",
-    "expires_at": "2026-11-13T04:27:10.613136",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "kinh doanh",
-          "sale",
-          "sales",
-          "than"
-        ]
-      }
-    },
-    "company": {
-      "id": "d8ce8a57-2c6b-4886-8722-50ae441156ff",
-      "name": "Doanh nghiệp tại Thanh Hóa",
-      "website": null,
-      "province": "Thanh Hóa",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công ty TNHH Sao Vàng"
     }
   },
   {
     "id": "3a193a60-e8db-4d8d-9666-2cda1257e7a0",
     "title": "Chuyên Viên Công Nghệ Thông Tin",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Công ty Cổ phần Kim Long Motor Huế",
+    "company_id": "244deb06-2ffa-4fb3-bef3-42f7e0f2d91a",
     "description": "Vị trí: Chuyên Viên Công Nghệ Thông Tin. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Thừa Thiên Huế. Nơi làm việc: Thừa Thiên- Huế. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1384,7 +666,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cong-nghe-thong-tin.35C8A062.html",
     "posted_at": "2026-10-09T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
@@ -1401,30 +683,30 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "244deb06-2ffa-4fb3-bef3-42f7e0f2d91a",
+      "name": "Công ty Cổ phần Kim Long Motor Huế",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cong-nghe-thong-tin.35C8A062.html",
+      "province": "Thừa Thiên Huế",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công ty Cổ phần Kim Long Motor Huế"
     }
   },
   {
     "id": "17068489-a0d3-4747-b175-11ecfcf7d64a",
     "title": "CHUYÊN VIÊN CÔNG NGHỆ THÔNG TIN (IT EXECUTIVE)",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Công ty cổ phần SIMPACE Việt Nam",
+    "company_id": "3f09be16-5c2e-4f7d-a27c-59255faae9e3",
     "description": "Vị trí: CHUYÊN VIÊN CÔNG NGHỆ THÔNG TIN (IT EXECUTIVE). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 15000000,
     "salary_max": null,
     "salary_text": "Lương: Trên 15 Triệu VND",
-    "location_province": "Hà Nội",
+    "location_province": "Toàn quốc",
     "location_district": null,
     "location_full": "Hà Nội",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cong-nghe-thong-tin-it-executive.35C88388.html",
     "posted_at": "2026-10-07T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
@@ -1441,18 +723,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "3f09be16-5c2e-4f7d-a27c-59255faae9e3",
+      "name": "Công ty cổ phần SIMPACE Việt Nam",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cong-nghe-thong-tin-it-executive.35C88388.html",
+      "province": "Toàn quốc",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công ty cổ phần SIMPACE Việt Nam"
     }
   },
   {
     "id": "81af316f-993d-4d02-b365-9be4fcbc1c8d",
     "title": "AI Expert - Khối Công nghệ thông tin (2026TD450200)",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "company_id": "814220e4-17dd-4f6f-83af-7c82fd2fc1bb",
     "description": "Vị trí: AI Expert - Khối Công nghệ thông tin (2026TD450200). Doanh nghiệp tuyển dụng: Tập đoàn Công nghệ Thông tin (Hà Nội). Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1464,7 +746,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C7FB42.html",
     "posted_at": "2026-09-15T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
@@ -1482,18 +764,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "814220e4-17dd-4f6f-83af-7c82fd2fc1bb",
+      "name": "Ngân Hàng TMCP Quân Đội",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C7FB42.html",
+      "province": "Hà Nội",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Ngân Hàng TMCP Quân Đội"
     }
   },
   {
     "id": "cb972092-fb4e-4014-b25d-4dd4b97e50c7",
     "title": "Senior AI Expert - Khối Công nghệ thông tin (2026TD450201)",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "company_id": "814220e4-17dd-4f6f-83af-7c82fd2fc1bb",
     "description": "Vị trí: Senior AI Expert - Khối Công nghệ thông tin (2026TD450201). Doanh nghiệp tuyển dụng: Tập đoàn Công nghệ Thông tin (Hà Nội). Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1505,7 +787,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-expert-khoi-cong-nghe-thong-tin-2026td450201.35C7FB43.html",
     "posted_at": "2026-09-15T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
@@ -1523,18 +805,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "814220e4-17dd-4f6f-83af-7c82fd2fc1bb",
+      "name": "Ngân Hàng TMCP Quân Đội",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C7FB42.html",
+      "province": "Hà Nội",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Ngân Hàng TMCP Quân Đội"
     }
   },
   {
     "id": "faa9db9d-81d0-4a21-bb61-b9878057059a",
     "title": "DevOps Engineer - Khối Công nghệ thông tin (2025TD945)",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "company_id": "814220e4-17dd-4f6f-83af-7c82fd2fc1bb",
     "description": "Vị trí: DevOps Engineer - Khối Công nghệ thông tin (2025TD945). Doanh nghiệp tuyển dụng: Tập đoàn Công nghệ Thông tin (Hà Nội). Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1546,7 +828,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/devops-engineer-khoi-cong-nghe-thong-tin-2025td945.35C89A89.html",
     "posted_at": "2026-10-12T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
@@ -1564,18 +846,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "814220e4-17dd-4f6f-83af-7c82fd2fc1bb",
+      "name": "Ngân Hàng TMCP Quân Đội",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C7FB42.html",
+      "province": "Hà Nội",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Ngân Hàng TMCP Quân Đội"
     }
   },
   {
     "id": "2029b857-d23f-4fce-a1ea-b48b28b01a0f",
     "title": "GIÁM ĐỐC KHỐI HÀNH CHÍNH NHÂN SỰ - CÔNG NGHỆ THÔNG TIN",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "CÔNG TY CỔ PHẦN THÀNH PHỐ DU LỊCH SINH THÁI SƠN TIÊN",
+    "company_id": "7d53dc60-3946-4715-b146-f9bdd056ca98",
     "description": "Vị trí: GIÁM ĐỐC KHỐI HÀNH CHÍNH NHÂN SỰ - CÔNG NGHỆ THÔNG TIN. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Đồng Nai. Nơi làm việc: Đồng Nai. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1587,7 +869,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-khoi-hanh-chinh-nhan-su-cong-nghe-thong-tin.35C89A3E.html",
     "posted_at": "2026-10-12T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
@@ -1604,18 +886,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "7d53dc60-3946-4715-b146-f9bdd056ca98",
+      "name": "CÔNG TY CỔ PHẦN THÀNH PHỐ DU LỊCH SINH THÁI SƠN TIÊN",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-khoi-hanh-chinh-nhan-su-cong-nghe-thong-tin.35C89A3E.html",
+      "province": "Đồng Nai",
+      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY CỔ PHẦN THÀNH PHỐ DU LỊCH SINH THÁI SƠN TIÊN"
     }
   },
   {
     "id": "5cdf4f3d-676c-4ee0-a0a4-748abd4acd31",
     "title": "IT Engineer",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "VIET – THAI PLASTCHEM CO., LTD.",
+    "company_id": "60bd511c-2c50-4f7b-939a-0960adecd23b",
     "description": "Vị trí: IT Engineer. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bình Dương. Nơi làm việc: Bình Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1627,7 +909,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-engineer.35C89133.html",
     "posted_at": "2026-10-01T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
@@ -1644,30 +926,30 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "60bd511c-2c50-4f7b-939a-0960adecd23b",
+      "name": "VIET – THAI PLASTCHEM CO., LTD.",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/it-engineer.35C89133.html",
+      "province": "Bình Dương",
+      "description": "Doanh nghiệp tuyển dụng uy tín: VIET – THAI PLASTCHEM CO., LTD."
     }
   },
   {
     "id": "63cea88c-eff7-4be9-96cb-53463626a85a",
     "title": "IT Manager",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Công ty TNHH Spartronics Việt Nam",
+    "company_id": "a67dada8-c12b-4043-adfe-959451e31f53",
     "description": "Vị trí: IT Manager. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bình Dương. Nơi làm việc: Bình Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
     "salary_max": null,
     "salary_text": "Cạnh tranh",
-    "location_province": "Bình Dương",
+    "location_province": "Toàn quốc",
     "location_district": null,
     "location_full": "Bình Dương",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-manager.35C8A179.html",
     "posted_at": "2026-10-10T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
@@ -1684,70 +966,30 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "70894bb0-47e1-453c-82f9-5603560f853f",
-    "title": "IT Engineer",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: IT Engineer. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bắc Ninh. Nơi làm việc: Bắc Ninh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Bắc Ninh",
-    "location_district": null,
-    "location_full": "Bắc Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-engineer.35C87608.html",
-    "posted_at": "2026-10-07T00:00:00",
-    "expires_at": "2026-11-13T04:34:57.889358",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "it"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "a67dada8-c12b-4043-adfe-959451e31f53",
+      "name": "Công ty TNHH Spartronics Việt Nam",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/it-manager.35C8A179.html",
+      "province": "Toàn quốc",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công ty TNHH Spartronics Việt Nam"
     }
   },
   {
     "id": "0952adbd-9c37-4f2c-8fb8-50013b1f0ff5",
     "title": "Nhân viên IT",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "CÔNG TY CỔ PHẦN TÀ LÙNG QUANG MINH",
+    "company_id": "6dadb71e-f964-409a-8334-77ce99d93d0c",
     "description": "Vị trí: Nhân viên IT. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Cao Bằng. Nơi làm việc: Cao Bằng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 10000000,
     "salary_max": 12000000,
     "salary_text": "Lương: 10 - 12 Triệu VND",
-    "location_province": "Cao Bằng",
+    "location_province": "Toàn quốc",
     "location_district": null,
     "location_full": "Cao Bằng",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C879C1.html",
     "posted_at": "2026-10-08T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
@@ -1764,18 +1006,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "6dadb71e-f964-409a-8334-77ce99d93d0c",
+      "name": "CÔNG TY CỔ PHẦN TÀ LÙNG QUANG MINH",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C879C1.html",
+      "province": "Toàn quốc",
+      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY CỔ PHẦN TÀ LÙNG QUANG MINH"
     }
   },
   {
     "id": "e8cc41dd-70fa-490c-8853-1055fc9ee5cd",
     "title": "IT Business Analyst",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FPT LONG CHÂU",
+    "company_id": "ee83f005-a4d4-4878-bf9d-f69865c716a1",
     "description": "Vị trí: IT Business Analyst. Doanh nghiệp tuyển dụng: Doanh nghiệp tại TP. Hồ Chí Minh. Nơi làm việc: Hồ Chí Minh. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1787,7 +1029,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-business-analyst.35C87F35.html",
     "posted_at": "2026-09-22T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
@@ -1804,51 +1046,11 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "26c638a0-b369-445f-9999-e855e8ed65f2",
-    "title": "Nhân viên IT",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
-    "description": "Vị trí: Nhân viên IT. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Hà Nam. Nơi làm việc: Hà Nam. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 8000000,
-    "salary_max": 11000000,
-    "salary_text": "Lương: 8 - 11 Triệu VND",
-    "location_province": "Hà Nam",
-    "location_district": null,
-    "location_full": "Hà Nam",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C835F3.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T04:34:57.889358",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "it"
-        ]
-      }
-    },
-    "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "ee83f005-a4d4-4878-bf9d-f69865c716a1",
+      "name": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FPT LONG CHÂU",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/it-business-analyst.35C87F35.html",
+      "province": "TP. Hồ Chí Minh",
+      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY CỔ PHẦN DƯỢC PHẨM FPT LONG CHÂU"
     }
   },
   {
@@ -1901,8 +1103,8 @@
   {
     "id": "99c84eb9-6947-4d91-bea4-7aa9386682ce",
     "title": "Manufacturing IT Supervisor",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Công Ty TNHH Yokohama Tyre Việt Nam",
+    "company_id": "d2214af0-165c-4adc-a6c6-7b41f6df52a4",
     "description": "Vị trí: Manufacturing IT Supervisor. Doanh nghiệp tuyển dụng: Doanh nghiệp KCN Bình Dương. Nơi làm việc: Bình Dương. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -1914,7 +1116,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
     "posted_at": "2026-10-01T00:00:00",
     "expires_at": "2026-11-13T04:42:00.975350",
@@ -1931,18 +1133,18 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "d2214af0-165c-4adc-a6c6-7b41f6df52a4",
+      "name": "Công Ty TNHH Yokohama Tyre Việt Nam",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
+      "province": "Bình Dương",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công Ty TNHH Yokohama Tyre Việt Nam"
     }
   },
   {
     "id": "c251cb77-3bf8-402c-b1b7-159e82ebd0c7",
     "title": "NHÂN VIÊN IT",
-    "company_name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-    "company_id": "03e536b3-557e-4274-898e-1133db26eecc",
+    "company_name": "Công ty Cổ phần Tập Đoàn Picenza Viet Nam",
+    "company_id": "931671fa-9544-431e-86f6-c2dce82d30e5",
     "description": "Vị trí: NHÂN VIÊN IT. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hà Nội. Nơi làm việc: Hà Nội. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 15000000,
@@ -1954,7 +1156,7 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
     "posted_at": "2026-09-23T00:00:00",
     "expires_at": "2026-11-13T04:42:00.975350",
@@ -1971,11 +1173,11 @@
       }
     },
     "company": {
-      "id": "03e536b3-557e-4274-898e-1133db26eecc",
-      "name": "Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
+      "id": "931671fa-9544-431e-86f6-c2dce82d30e5",
+      "name": "Công ty Cổ phần Tập Đoàn Picenza Viet Nam",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
+      "province": "Hà Nội",
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công ty Cổ phần Tập Đoàn Picenza Viet Nam"
     }
   },
   {
@@ -2142,8 +1344,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
     "source_url": "https://www.wyndhamhalong.com/#it-officer-wyndham-halong",
-    "posted_at": "2026-10-14T04:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "posted_at": "2026-10-14T05:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -2160,7 +1362,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -2171,55 +1373,6 @@
       "website": "https://www.wyndhamhalong.com",
       "province": "Quảng Ninh",
       "description": "Khách sạn 5 sao quốc tế cao cấp tọa lạc tại Bãi Cháy, TP. Hạ Long, tiêu chuẩn tập đoàn khách sạn quốc tế Wyndham Hotels & Resorts."
-    }
-  },
-  {
-    "id": "aa3a3c42-dd1e-429d-8170-d840f1d4281d",
-    "title": "Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng Đảo Rều",
-    "company_name": "Vinpearl Resort & Spa Hạ Long",
-    "company_id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-    "description": "Bảo đảm hoạt động thông suốt của mạng nội bộ và hệ thống kết nối cáp ngầm biển Đảo Rều về đất liền. Hỗ trợ phần mềm quản lý lễ tân, nhà hàng và hệ thống kiểm soát ra vào bến tàu cao tốc. Quyền lợi nghỉ dưỡng trong toàn hệ sinh thái Vingroup.",
-    "requirements": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Có kỹ năng xử lý sự cố phần cứng, hệ điều hành và mạng căn bản.",
-    "salary_min": 12000000,
-    "salary_max": 18000000,
-    "salary_text": "12 - 18 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đảo Rều, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Vinpearl Hạ Long)",
-    "source_url": "https://vinpearl.com/#it-helpdesk-vinpearl-dao-reu",
-    "posted_at": "2026-10-13T23:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "02033556868"
-        ],
-        "hr_email": "v.tuyendung@vinpearl.com",
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "it",
-          "ha long",
-          "quang ninh",
-          "hotel_it"
-        ]
-      },
-      "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
-      "recruitment_status": "active",
-      "check_reason": "HTTP 403 - Hợp lệ",
-      "role_family": "hotel_it"
-    },
-    "company": {
-      "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-      "name": "Vinpearl Resort & Spa Hạ Long",
-      "website": "https://vinpearl.com",
-      "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
     }
   },
   {
@@ -2307,7 +1460,7 @@
     "company": {
       "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
       "name": "FPT Telecom Chi Nhánh Quảng Ninh",
-      "website": null,
+      "website": "https://fptjobs.com",
       "province": "Quảng Ninh",
       "description": null
     }
@@ -2825,7 +1978,7 @@
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
       "name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-      "website": null,
+      "website": "https://www.vinmec.com",
       "province": "Quảng Ninh",
       "description": null
     }
@@ -3106,8 +2259,8 @@
   {
     "id": "a76fb93e-4a98-4802-b5b3-bcdfab928dcb",
     "title": "Kỹ Sư Lập Trình Nhúng & Vận Hành Hệ Thống Điện Tàu Thủy",
-    "company_name": "Công Ty CP Cảng Cái Lân (CICT)",
-    "company_id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
+    "company_name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
+    "company_id": "ebf11501-6a40-4658-8186-71555a7ebe19",
     "description": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
     "requirements": "Tốt nghiệp Đại học chuyên ngành Điện tàu thủy, Kỹ thuật điều khiển hoặc CNTT nhúng. Đọc hiểu tài liệu bản vẽ kỹ thuật quốc tế.",
     "salary_min": 15000000,
@@ -3120,9 +2273,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Đóng Tàu Hạ Long)",
-    "source_url": "https://cict.com.vn",
-    "posted_at": "2026-10-09T15:36:44.539463",
-    "expires_at": "2026-11-13T15:36:44.539463",
+    "source_url": "https://sbic.com.vn/#it-dong-tau-ha-long",
+    "posted_at": "2026-10-13T10:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3132,23 +2285,24 @@
         "hr_email": "contact@halongshipyard.vn",
         "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
         "mined_tags": [
+          "it",
           "ha long",
           "quang ninh",
-          "it",
-          "chinh thuc"
+          "port_logistics_it"
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "port_logistics_it"
     },
     "company": {
-      "id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
-      "name": "Công Ty CP Cảng Cái Lân (CICT)",
-      "website": "https://cict.com.vn",
+      "id": "ebf11501-6a40-4658-8186-71555a7ebe19",
+      "name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
+      "website": "https://sbic.com.vn",
       "province": "Quảng Ninh",
-      "description": null
+      "description": "Doanh nghiệp đóng mới và sửa chữa các loại tàu chở hàng quốc tế, tàu du lịch cao cấp tại Khu công nghiệp Cái Lân."
     }
   },
   {
@@ -3169,8 +2323,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FLC Hotels & Resorts",
     "source_url": "https://flc.vn/#it-support-flc-grand-halong",
-    "posted_at": "2026-10-14T15:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "posted_at": "2026-10-14T16:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3187,7 +2341,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -3195,7 +2349,7 @@
     "company": {
       "id": "654afff6-16a0-4cbd-86d3-8b1459a8b5f1",
       "name": "Khách Sạn FLC Grand Hotel Hạ Long",
-      "website": null,
+      "website": "https://flc.vn",
       "province": "Quảng Ninh",
       "description": null
     }
@@ -3240,7 +2394,7 @@
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
       "name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-      "website": null,
+      "website": "https://www.vinmec.com",
       "province": "Quảng Ninh",
       "description": null
     }
@@ -3439,37 +2593,41 @@
     "title": "Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng Đảo Rều",
     "company_name": "Vinpearl Resort & Spa Hạ Long",
     "company_id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-    "description": null,
-    "requirements": null,
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": null,
-    "location_province": null,
+    "description": "Bảo đảm hoạt động thông suốt của mạng nội bộ và hệ thống kết nối cáp ngầm biển Đảo Rều về đất liền. Hỗ trợ phần mềm quản lý lễ tân, nhà hàng và hệ thống kiểm soát ra vào bến tàu cao tốc. Quyền lợi nghỉ dưỡng trong toàn hệ sinh thái Vingroup.",
+    "requirements": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Có kỹ năng xử lý sự cố phần cứng, hệ điều hành và mạng căn bản.",
+    "salary_min": 12000000,
+    "salary_max": 18000000,
+    "salary_text": "12 - 18 triệu/tháng",
+    "location_province": "Quảng Ninh",
     "location_district": null,
     "location_full": "",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinpearl Hạ Long)",
-    "source_url": "https://vinpearl.com/vi/tuyen-dung/vinpearl-resort-spa-ha-long",
-    "posted_at": "2026-10-14T13:27:50.653341",
-    "expires_at": null,
+    "source_url": "https://vinpearl.com/#it-helpdesk-vinpearl-dao-reu",
+    "posted_at": "2026-10-14T00:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
-          "0983456789"
+          "02033556868"
         ],
-        "shifts": [],
-        "benefits": [],
+        "hr_email": "v.tuyendung@vinpearl.com",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
           "it",
-          "it helpdesk"
-        ],
-        "hr_email": "tuyendung@vinpearl.com"
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
       },
-      "platform_type": "Website Doanh Nghiệp (Vinpearl Hạ Long)"
+      "verified_live": true,
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 403 - Hợp lệ",
+      "role_family": "hotel_it"
     },
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
@@ -3480,254 +2638,10 @@
     }
   },
   {
-    "id": "c3117bcb-6af6-469c-b6b7-9cb355599052",
-    "title": "Kỹ Sư CNTT & Vận Hành Hệ Thống Bán Vé Điện Tử Cáp Treo Nữ Hoàng",
-    "company_name": "Công viên Sun World Ha Long (Sun Group)",
-    "company_id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
-    "description": null,
-    "requirements": null,
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": null,
-    "location_province": null,
-    "location_district": null,
-    "location_full": "",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Sun World Hạ Long)",
-    "source_url": "https://halongcomplex.sunworld.vn/tuyen-dung/ky-su-ve-dien-tu",
-    "posted_at": "2026-10-14T13:27:50.695532",
-    "expires_at": null,
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0989234567"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "cap treo",
-          "it",
-          "cntt"
-        ],
-        "hr_email": "hr@halongcomplex.sunworld.vn"
-      },
-      "platform_type": "Website Doanh Nghiệp (Sun World Hạ Long)"
-    },
-    "company": {
-      "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
-      "name": "Công viên Sun World Ha Long (Sun Group)",
-      "website": "https://halong.sunworld.vn",
-      "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy."
-    }
-  },
-  {
-    "id": "ef333661-33fb-43c4-bd0e-85a684e29621",
-    "title": "[Hải Phòng] Warehouse Supervisor",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: [Hải Phòng] Warehouse Supervisor. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Sàn tuyển dụng",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/hai-phong-warehouse-supervisor.35C891D5.html",
-    "posted_at": "2026-10-07T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "91019651-b9f7-465d-a4be-983afe2106ab",
-    "title": "Kế toán viên [Hải Phòng]",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Kế toán viên [Hải Phòng]. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng, Hà Nội, Thái Bình. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 15000000,
-    "salary_max": 18000000,
-    "salary_text": "Lương: 15 - 18 Triệu VND",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng, Hà Nội, Thái Bình",
-    "job_type": "full-time",
-    "category": "Kế toán / Kiểm toán / Thuế / Tài chính",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ke-toan-vien-hai-phong.35C814B7.html",
-    "posted_at": "2026-09-28T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kế toán / Kiểm toán / Thuế / Tài chính",
-        "mined_tags": [
-          "ke toan"
-        ]
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "6247ceab-353f-4005-99e4-013982a62a3b",
-    "title": "Kiểm soát viên - Hải Phòng",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Kiểm soát viên - Hải Phòng. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Ngân hàng / Tài chính / Giao dịch viên",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/kiem-soat-vien-hai-phong.35C85654.html",
-    "posted_at": "2026-10-03T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Ngân hàng / Tài chính / Giao dịch viên",
-        "mined_tags": [
-          "kiem soat vien"
-        ]
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "ff160871-9aca-4c5e-95bb-95d12e2d6a92",
-    "title": "Giao dịch viên - Hải Phòng",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Giao dịch viên - Hải Phòng. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Ngân hàng / Tài chính / Giao dịch viên",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-hai-phong.35C83A1D.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Ngân hàng / Tài chính / Giao dịch viên",
-        "mined_tags": [
-          "giao dich vien"
-        ]
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "ea87fd78-d5f7-431b-832f-79df423a5ef8",
-    "title": "Giao dịch viên - Hải Phòng",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Giao dịch viên - Hải Phòng. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 7000000,
-    "salary_max": 13000000,
-    "salary_text": "Lương: 7 - 13 Triệu VND",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Ngân hàng / Tài chính / Giao dịch viên",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/giao-dich-vien-hai-phong.35C82C22.html",
-    "posted_at": "2026-10-10T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Ngân hàng / Tài chính / Giao dịch viên",
-        "mined_tags": [
-          "giao dich vien"
-        ]
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
     "id": "6f1b17b8-380c-4e9e-979f-a2c926847a6f",
     "title": "133486 - [Hai Phong] Sales Executive - Logistics",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
+    "company_name": "RGF HR Agent Vietnam Co., LTD",
+    "company_id": "d74c93a8-0f1e-4d66-ac42-d3763b3ff5fb",
     "description": "Vị trí: 133486 - [Hai Phong] Sales Executive - Logistics. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": 17000000,
@@ -3739,7 +2653,7 @@
     "job_type": "full-time",
     "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/133486-hai-phong-sales-executive-logistics.35C84F4E.html",
     "posted_at": "2026-10-03T00:00:00",
     "expires_at": "2026-11-13T15:05:59.044427",
@@ -3758,96 +2672,18 @@
       }
     },
     "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
+      "id": "d74c93a8-0f1e-4d66-ac42-d3763b3ff5fb",
+      "name": "RGF HR Agent Vietnam Co., LTD",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/133486-hai-phong-sales-executive-logistics.35C84F4E.html",
       "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "69e27d6d-c8a8-40b6-9c9b-d6b8fc34c31f",
-    "title": "Chuyên Viên Kế Toán (Hải Phòng)",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Chuyên Viên Kế Toán (Hải Phòng). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Kế toán / Kiểm toán / Thuế / Tài chính",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-ke-toan-hai-phong.35C81C27.html",
-    "posted_at": "2026-10-02T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kế toán / Kiểm toán / Thuế / Tài chính",
-        "mined_tags": [
-          "ke toan"
-        ]
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "526a33bc-a35b-44fc-839d-69b5ffc01cb4",
-    "title": "Nhân viên Kho - Vinmec Hải Phòng",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Nhân viên Kho - Vinmec Hải Phòng. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Sàn tuyển dụng",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kho-vinmec-hai-phong.35C89BB9.html",
-    "posted_at": "2026-10-13T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: RGF HR Agent Vietnam Co., LTD"
     }
   },
   {
     "id": "c08a6489-5994-46f9-8fc0-7f468856de6b",
     "title": "[AEON Hai Phong] - Human Resources Division Leader",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
+    "company_name": "Công Ty TNHH Aeon Việt Nam",
+    "company_id": "6dad36d5-e231-4777-8844-489f537d411a",
     "description": "Vị trí: [AEON Hai Phong] - Human Resources Division Leader. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
     "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
     "salary_min": null,
@@ -3859,7 +2695,7 @@
     "job_type": "full-time",
     "category": "Sàn tuyển dụng",
     "experience_level": null,
-    "source_platform": "CareerViet",
+    "source_platform": "careerviet",
     "source_url": "https://careerviet.vn/vi/tim-viec-lam/aeon-hai-phong-human-resources-division-leader.35C80F85.html",
     "posted_at": "2026-10-14T00:00:00",
     "expires_at": "2026-11-13T15:05:59.044427",
@@ -3874,51 +2710,11 @@
       }
     },
     "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
+      "id": "6dad36d5-e231-4777-8844-489f537d411a",
+      "name": "Công Ty TNHH Aeon Việt Nam",
+      "website": "https://careerviet.vn/vi/tim-viec-lam/aeon-hai-phong-human-resources-division-leader.35C80F85.html",
       "province": "Hải Phòng",
-      "description": null
-    }
-  },
-  {
-    "id": "24e2994c-da39-4dd6-bcab-3b5797f8b997",
-    "title": "Quản Lý Cửa Hàng (Hồ Sen, Hải Phòng)",
-    "company_name": "Doanh nghiệp tại Hải Phòng",
-    "company_id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-    "description": "Vị trí: Quản Lý Cửa Hàng (Hồ Sen, Hải Phòng). Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 12000000,
-    "salary_max": 16000000,
-    "salary_text": "Lương: 12 - 16 Triệu VND",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "CareerViet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/quan-ly-cua-hang-ho-sen-hai-phong.35C83AB3.html",
-    "posted_at": "2026-09-17T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "cua hang"
-        ]
-      }
-    },
-    "company": {
-      "id": "48becaad-bc96-4b6b-bcf8-a2c3ae8f9998",
-      "name": "Doanh nghiệp tại Hải Phòng",
-      "website": null,
-      "province": "Hải Phòng",
-      "description": null
+      "description": "Doanh nghiệp tuyển dụng uy tín: Công Ty TNHH Aeon Việt Nam"
     }
   },
   {
@@ -3939,8 +2735,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinmec (Vingroup)",
     "source_url": "https://vinmec.com/#it-vinmec-halong-network-jci",
-    "posted_at": "2026-10-13T14:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "posted_at": "2026-10-13T15:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3957,7 +2753,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it"
@@ -3965,57 +2761,9 @@
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
       "name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-      "website": null,
+      "website": "https://www.vinmec.com",
       "province": "Quảng Ninh",
       "description": null
-    }
-  },
-  {
-    "id": "f27b9982-939a-4a93-ab5a-59690f2b88a6",
-    "title": "Nhân Viên IT & Kỹ Thuật Vận Hành Hệ Thống Onsen Nước Khoáng Nóng",
-    "company_name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
-    "company_id": "b2a60ff8-88bf-41c7-a04b-85202bba7181",
-    "description": "Phụ trách hệ thống phần mềm quản lý đặt phòng Onsen, hệ thống khóa từ RFID thông minh cho các bể tắm khoáng và kiểm soát mạng nội bộ khu nghỉ dưỡng. Môi trường văn hóa chuẩn mực Nhật Bản, bao ăn ở tại khu lưu trú cán bộ nhân viên.",
-    "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Giao tiếp nhã nhặn, cẩn thận, ham học hỏi.",
-    "salary_min": 12000000,
-    "salary_max": 18000000,
-    "salary_text": "12 - 18 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Cẩm Phả",
-    "location_full": "Tổ 5, Khu 9B, Phường Quang Hanh, TP. Cẩm Phả, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Cổng Tuyển Dụng Yoko Onsen Quang Hanh",
-    "source_url": "https://halong.sunworld.vn",
-    "posted_at": "2026-10-12T15:36:44.539463",
-    "expires_at": "2026-11-13T15:36:44.539463",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "02033669888"
-        ],
-        "hr_email": "hr@yokoonsenquanghanh.com.vn",
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "ha long",
-          "quang ninh",
-          "it",
-          "chinh thuc"
-        ]
-      },
-      "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
-      "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
-    },
-    "company": {
-      "id": "b2a60ff8-88bf-41c7-a04b-85202bba7181",
-      "name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
-      "website": "https://halong.sunworld.vn",
-      "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí đẳng cấp quốc tế của Tập đoàn Sun Group tại Bãi Cháy, Hạ Long."
     }
   },
   {
@@ -4035,9 +2783,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-    "source_url": "https://fpt.vn/#it-network-fpt-telecom-quang-ninh",
-    "posted_at": "2026-10-14T03:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://fptjobs.com/#it-network-fpt-telecom-quang-ninh",
+    "posted_at": "2026-10-14T04:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4054,7 +2802,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it"
@@ -4062,7 +2810,7 @@
     "company": {
       "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
       "name": "FPT Telecom Chi Nhánh Quảng Ninh",
-      "website": null,
+      "website": "https://fptjobs.com",
       "province": "Quảng Ninh",
       "description": null
     }
@@ -4084,9 +2832,9 @@
     "category": "Sản xuất / Kỹ thuật công nghiệp",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tuyển Dụng Vinacomin - TKV",
-    "source_url": "https://vinacomin.vn/#it-scada-tu-dong-hoa-tkv",
-    "posted_at": "2026-10-13T10:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://vinacomin.vn/#it-scada-tkv",
+    "posted_at": "2026-10-13T11:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4103,7 +2851,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "mining_it"
@@ -4182,8 +2930,8 @@
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Sun Group (Sun World)",
     "source_url": "https://halong.sunworld.vn/#it-network-smart-ticketing-sunworld",
-    "posted_at": "2026-10-14T12:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "posted_at": "2026-10-14T13:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4200,7 +2948,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4231,8 +2979,8 @@
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Mường Thanh",
     "source_url": "https://muongthanh.com/#it-helpdesk-muong-thanh-bai-chay",
-    "posted_at": "2026-10-14T10:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "posted_at": "2026-10-14T11:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4249,7 +2997,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4279,9 +3027,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Paradise Cruises)",
-    "source_url": "https://www.wyndhamhalong.com/#it-paradise-cruises-tuan-chau",
-    "posted_at": "2026-10-13T23:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://paradisevietnam.com/#it-tuan-chau",
+    "posted_at": "2026-10-14T00:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4298,7 +3046,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4306,7 +3054,7 @@
     "company": {
       "id": "32a3a6ee-331e-4621-b40f-ee5ce8424f0c",
       "name": "Tập Đoàn Du Thuyền Quốc Tế Paradise Vietnam",
-      "website": "https://www.wyndhamhalong.com",
+      "website": "https://paradisevietnam.com",
       "province": "Quảng Ninh",
       "description": "Hãng du thuyền nghỉ dưỡng 5 sao cao cấp bậc nhất trên Vịnh Hạ Long và Vịnh Lan Hạ."
     }
@@ -4328,9 +3076,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Yoko Onsen Quang Hanh",
-    "source_url": "https://halong.sunworld.vn/#it-yoko-onsen-quang-hanh-rfid",
-    "posted_at": "2026-10-14T04:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://yokoonsenquanghanh.com.vn/#it-quang-hanh",
+    "posted_at": "2026-10-14T05:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4347,7 +3095,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4377,9 +3125,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng AccorHotels Hạ Long",
-    "source_url": "https://www.wyndhamhalong.com/#it-support-novotel-halong",
-    "posted_at": "2026-10-13T17:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://careers.accor.com/#it-novotel-halong",
+    "posted_at": "2026-10-13T18:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4396,7 +3144,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4404,7 +3152,7 @@
     "company": {
       "id": "d60ecde8-5cb5-4fc7-a080-9f5acaa4d3ec",
       "name": "Khách Sạn Novotel Ha Long Bay",
-      "website": "https://www.wyndhamhalong.com",
+      "website": "https://careers.accor.com",
       "province": "Quảng Ninh",
       "description": "Khách sạn 4 sao quốc tế thuộc Tập đoàn AccorHotels tọa lạc ngay mặt biển Bãi Cháy, TP. Hạ Long."
     }
@@ -4426,9 +3174,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Bệnh Viện Tuyến Tỉnh",
-    "source_url": "https://vinmec.com/#it-emr-benh-vien-bai-chay-his",
-    "posted_at": "2026-10-13T04:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://benhvienbaichay.vn/#it-emr-his",
+    "posted_at": "2026-10-13T05:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4445,7 +3193,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it"
@@ -4453,7 +3201,7 @@
     "company": {
       "id": "60eab6f5-bfc1-45f5-8421-f0b3890e4fad",
       "name": "Bệnh Viện Bãi Cháy Quảng Ninh",
-      "website": "https://vinmec.com",
+      "website": "https://benhvienbaichay.vn",
       "province": "Quảng Ninh",
       "description": "Bệnh viện đa khoa hạng 1 tuyến tỉnh với trung tâm ung bướu hiện đại tại TP. Hạ Long."
     }
@@ -4475,9 +3223,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Y Tế Tỉnh Quảng Ninh",
-    "source_url": "https://vinmec.com/#it-benh-vien-da-khoa-tinh-quang-ninh",
-    "posted_at": "2026-10-14T14:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://soytequangninh.gov.vn/#it-bv-dakhoa-quangninh",
+    "posted_at": "2026-10-14T15:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4494,7 +3242,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it"
@@ -4502,7 +3250,7 @@
     "company": {
       "id": "0c5e1e2c-b68e-4fa9-bfdd-72049d0a90b0",
       "name": "Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
-      "website": "https://vinmec.com",
+      "website": "https://soytequangninh.gov.vn",
       "province": "Quảng Ninh",
       "description": "Bệnh viện tuyến đầu của tỉnh Quảng Ninh với lịch sử lâu đời và quy mô trang thiết bị hiện đại bậc nhất khu vực."
     }
@@ -4524,9 +3272,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
-    "source_url": "https://cict.com.vn/#it-tos-cang-cai-lan-system",
-    "posted_at": "2026-10-14T03:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://cict.com.vn/#it-tos-cang-cai-lan",
+    "posted_at": "2026-10-14T04:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4543,7 +3291,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4573,9 +3321,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (KCN Cái Lân)",
-    "source_url": "https://cict.com.vn/#it-sap-erp-calofic-cai-lan",
-    "posted_at": "2026-10-13T12:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://www.wilmar-international.com/#it-sap-erp-calofic",
+    "posted_at": "2026-10-13T13:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4592,7 +3340,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4600,58 +3348,9 @@
     "company": {
       "id": "727bf2d9-8f8e-4ac7-ab22-c2076eb9558c",
       "name": "Công Ty TNHH Dầu Thực Vật Cái Lân (CALOFIC)",
-      "website": "https://cict.com.vn",
+      "website": "https://www.wilmar-international.com",
       "province": "Quảng Ninh",
       "description": "Tập đoàn liên doanh thực phẩm hàng đầu Việt Nam (Neptune, Simply) đặt nhà máy chính tại KCN Cái Lân."
-    }
-  },
-  {
-    "id": "a8ed6842-a723-4802-9c3e-53ae3537009d",
-    "title": "Kỹ Sư Lập Trình Nhúng & Vận Hành Hệ Thống Điện Tàu Thủy",
-    "company_name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
-    "company_id": "ebf11501-6a40-4658-8186-71555a7ebe19",
-    "description": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
-    "requirements": "Tốt nghiệp Đại học chuyên ngành Điện tàu thủy, Kỹ thuật điều khiển hoặc CNTT nhúng. Đọc hiểu tài liệu bản vẽ kỹ thuật quốc tế.",
-    "salary_min": 15000000,
-    "salary_max": 22000000,
-    "salary_text": "15 - 22 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Sản xuất / Kỹ thuật công nghiệp",
-    "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Đóng Tàu Hạ Long)",
-    "source_url": "https://cict.com.vn/#it-embedded-dong-tau-ha-long",
-    "posted_at": "2026-10-13T09:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "02033846556"
-        ],
-        "hr_email": "contact@halongshipyard.vn",
-        "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
-        "mined_tags": [
-          "it",
-          "ha long",
-          "quang ninh",
-          "port_logistics_it"
-        ]
-      },
-      "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
-      "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường",
-      "role_family": "port_logistics_it"
-    },
-    "company": {
-      "id": "ebf11501-6a40-4658-8186-71555a7ebe19",
-      "name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
-      "website": "https://cict.com.vn",
-      "province": "Quảng Ninh",
-      "description": "Doanh nghiệp đóng mới và sửa chữa các loại tàu chở hàng quốc tế, tàu du lịch cao cấp tại Khu công nghiệp Cái Lân."
     }
   },
   {
@@ -4671,9 +3370,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Foxconn Vietnam",
-    "source_url": "https://cict.com.vn/#it-foxconn-quang-ninh-network",
-    "posted_at": "2026-10-13T15:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://www.foxconn.com.vn/#it-foxconn-quang-ninh",
+    "posted_at": "2026-10-13T16:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4690,7 +3389,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4698,7 +3397,7 @@
     "company": {
       "id": "302e03c8-6d53-48e2-b9ff-dd266d7d277f",
       "name": "Tập Đoàn Khoa Học Kỹ Thuật Hồng Hải Foxconn Quảng Ninh",
-      "website": "https://cict.com.vn",
+      "website": "https://www.foxconn.com.vn",
       "province": "Quảng Ninh",
       "description": "Tập đoàn công nghệ sản xuất linh kiện điện tử hàng đầu thế giới với các dự án lớn tại KCN Đông Mai & Sông Khoai, Quảng Ninh."
     }
@@ -4721,8 +3420,8 @@
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tuyển Dụng Nhiệt Điện",
     "source_url": "https://vinacomin.vn/#it-dcs-nhiet-dien-quang-ninh",
-    "posted_at": "2026-10-14T02:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "posted_at": "2026-10-14T03:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4739,7 +3438,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "mining_it"
@@ -4769,9 +3468,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng VNPT Toàn Quốc",
-    "source_url": "https://fpt.vn/#it-cloud-datacenter-vnpt-quang-ninh",
-    "posted_at": "2026-10-14T02:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://tuyendung.vnpt.vn/#it-datacenter-quang-ninh",
+    "posted_at": "2026-10-14T03:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4788,7 +3487,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it"
@@ -4818,9 +3517,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Viettel Toàn Cầu",
-    "source_url": "https://fpt.vn/#it-viettel-quang-ninh-solutions",
-    "posted_at": "2026-10-14T09:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://tuyendung.viettel.vn/#it-viettel-quang-ninh",
+    "posted_at": "2026-10-14T10:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4837,7 +3536,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it"
@@ -4867,9 +3566,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Hạ Long Tech)",
-    "source_url": "https://cict.com.vn/#it-frontend-halong-tech-monbay",
-    "posted_at": "2026-10-14T12:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://fptjobs.com/#it-frontend-halong-tech",
+    "posted_at": "2026-10-14T13:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4886,7 +3585,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "software_it"
@@ -4894,7 +3593,7 @@
     "company": {
       "id": "0ddec4f0-fe0e-42d7-b5a6-88b29d79ada3",
       "name": "Công Ty Giải Pháp Công Nghệ Số Hạ Long Tech",
-      "website": "https://cict.com.vn",
+      "website": "https://fptjobs.com",
       "province": "Quảng Ninh",
       "description": "Công ty phát triển phần mềm ứng dụng du lịch thông minh, đặt vé tàu cano và quản lý tour tham quan vịnh tại Hạ Long."
     }
@@ -4916,9 +3615,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp FPT Software",
-    "source_url": "https://fpt.vn/#it-backend-python-fpt-software",
-    "posted_at": "2026-10-14T10:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://fptsoftware.com/#it-python-fpt-software-quang-ninh",
+    "posted_at": "2026-10-14T11:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4935,7 +3634,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "software_it"
@@ -4965,9 +3664,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vietcombank Toàn Quốc",
-    "source_url": "https://flc.vn/#it-banking-vietcombank-quang-ninh",
-    "posted_at": "2026-10-13T06:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://tuyendung.vietcombank.com.vn/#it-vietcombank-quang-ninh",
+    "posted_at": "2026-10-13T07:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4984,7 +3683,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it"
@@ -4992,7 +3691,7 @@
     "company": {
       "id": "ea2b31c9-0405-443f-a60d-0ac6862549e4",
       "name": "Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Chi Nhánh Quảng Ninh",
-      "website": "https://flc.vn",
+      "website": "https://tuyendung.vietcombank.com.vn",
       "province": "Quảng Ninh",
       "description": "Ngân hàng thương mại hàng đầu Việt Nam cung cấp dịch vụ tài chính cho các tập đoàn cảng biển, than và du lịch Quảng Ninh."
     }
@@ -5014,9 +3713,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Central Retail Vietnam",
-    "source_url": "https://flc.vn/#it-pos-central-retail-go-halong",
-    "posted_at": "2026-10-14T11:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://go-vietnam.vn/#it-pos-central-retail-go-halong",
+    "posted_at": "2026-10-14T12:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -5033,7 +3732,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it"
@@ -5041,7 +3740,7 @@
     "company": {
       "id": "20ee912e-769e-43e0-8442-0c2dda9830ce",
       "name": "Đại Siêu Thị Go! Hạ Long (Central Retail)",
-      "website": "https://flc.vn",
+      "website": "https://go-vietnam.vn",
       "province": "Quảng Ninh",
       "description": "Trung tâm thương mại và đại siêu thị lớn nhất tại TP. Hạ Long thuộc tập đoàn bán lẻ quốc tế Central Retail."
     }
@@ -5063,9 +3762,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Cảng Hàng Không Vân Đồn",
-    "source_url": "https://halong.sunworld.vn/#it-van-don-airport-systems",
-    "posted_at": "2026-10-13T22:21:20.229080",
-    "expires_at": "2026-11-18T17:21:20.229080",
+    "source_url": "https://vandonairport.vn/#it-van-don-airport",
+    "posted_at": "2026-10-13T23:02:10.849178",
+    "expires_at": "2026-11-18T18:02:10.849178",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -5082,7 +3781,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:21:20.229080+00:00",
+      "verified_at": "2026-10-14T18:02:10.849178+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it"

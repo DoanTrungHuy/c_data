@@ -384,6 +384,13 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 )}
 
                 <div className="flex flex-wrap items-center gap-2">
+                  {job.source_url && (
+                    <CopySourceButton
+                      url={job.source_url}
+                      label="Sao chép link tuyển dụng"
+                      className="px-4 py-3.5 text-xs font-bold text-slate-700 bg-white border border-slate-200 rounded-xl hover:bg-slate-50 transition-colors shadow-2xs cursor-pointer"
+                    />
+                  )}
                   <CoverLetterButton job={job} className="px-5 py-3.5" />
                   <SaveJobButton jobId={job.id} showText className="px-4 py-3.5" />
                   <ShareJobButton title={job.title} showText className="px-4 py-3.5" />

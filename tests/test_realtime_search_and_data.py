@@ -158,6 +158,37 @@ class TestRealtimeSearchAndData(unittest.TestCase):
         self.assertLess(avg_latency, 5.0, f"Độ trễ tìm kiếm phải < 5ms (thực tế: {avg_latency:.2f}ms)")
         print(f"  ✓ Test 06 - Hiệu năng tìm kiếm Realtime: {avg_latency:.3f}ms/lượt (< 5ms): 100% ĐẠT")
 
+    def test_07_zero_mismatched_company_domains(self):
+        """Kiểm tra không bao giờ có chuyện tên công ty A nhưng URL lại trỏ sang domain của công ty B"""
+        mismatched = []
+        for j in self.jobs:
+            cname = (j.get("company_name") or "").lower()
+            url = (j.get("source_url") or "").lower()
+            
+            if "cict.com.vn" in url and "cict" not in cname and "cảng" not in cname:
+                mismatched.append((j["id"], j["company_name"], url))
+            elif "flc.vn" in url and "flc" not in cname:
+                mismatched.append((j["id"], j["company_name"], url))
+            elif "wyndhamhalong.com" in url and "wyndham" not in cname:
+                mismatched.append((j["id"], j["company_name"], url))
+            elif "vinmec.com" in url and "vinmec" not in cname:
+                mismatched.append((j["id"], j["company_name"], url))
+
+        self.assertEqual(len(mismatched), 0, f"Phát hiện domain bị gán sai công ty: {mismatched}")
+        print("  ✓ Test 07 - Tương thích 100% giữa Tên Doanh Nghiệp & Domain Nguồn: 100% ĐẠT")
+
+    def test_08_zero_fallback_company_abuse(self):
+        """Kiểm tra không bị lỗi gán hàng loạt sang 'Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long'"""
+        abused = []
+        for j in self.jobs:
+            cname = j.get("company_name") or ""
+            title = j.get("title") or ""
+            if "Bất Động Sản Hạ Long" in cname and "Bất Động Sản Hạ Long" not in title and "bất động sản" not in title.lower():
+                abused.append((j["id"], title, cname))
+
+        self.assertEqual(len(abused), 0, f"Phát hiện tin bị gán sai sang fallback company: {abused}")
+        print("  ✓ Test 08 - Zero Fallback Company Abuse: 100% ĐẠT")
+
 
 if __name__ == "__main__":
     print("\n" + "=" * 60)

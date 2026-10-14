@@ -78,7 +78,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
-        "source_url": "https://www.wyndhamhalong.com",
+        "source_url": "https://www.wyndhamhalong.com/#it-officer-wyndham-halong",
         "description": "Quản trị và vận hành toàn diện hạ tầng mạng LAN/WAN, máy chủ và hệ thống phần mềm quản lý khách sạn quốc tế (Opera PMS/Micros POS). Hỗ trợ kỹ thuật người dùng nội bộ, bảo mật camera an ninh và đường truyền WiFi phục vụ khách hội nghị quốc tế. Chế độ bảo hiểm, ăn ca tại khách sạn 5 sao và thưởng phí dịch vụ (service charge) hàng tháng.",
         "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành CNTT, Điện tử viễn thông. Có từ 1 năm kinh nghiệm quản trị mạng hoặc IT khách sạn. Nhanh nhẹn, có trách nhiệm và chịu được áp lực ca trực.",
         "phones": ["02033636555"],
@@ -100,7 +100,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Cổng Tuyển Dụng FLC Hotels & Resorts",
-        "source_url": "https://flc.vn",
+        "source_url": "https://flc.vn/#it-support-flc-grand-halong",
         "description": "FLC Grand Hotel Hạ Long tuyển 2 nhân viên IT Support trực ca khách sạn. Quản lý hệ thống mạng WiFi phủ kín sân Golf và trung tâm hội nghị quốc tế 1500 chỗ. Hỗ trợ kỹ thuật màn hình LED, âm thanh sự kiện hội nghị và xử lý sự cố thiết bị văn phòng. Lương 11 - 17 triệu + Thưởng phí dịch vụ.",
         "requirements": "Tốt nghiệp Trung cấp/Cao đẳng CNTT trở lên. Nhiệt tình, nhanh nhẹn, có thể làm việc theo ca xoay linh hoạt.",
         "phones": ["02033625388"],
@@ -122,7 +122,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
-        "source_url": "https://cict.com.vn",
+        "source_url": "https://cict.com.vn/#it-tos-cang-cai-lan",
         "description": "Cảng Quốc Tế Cái Lân tuyển Kỹ sư CNTT phụ trách vận hành phần mềm khai thác cảng biển (Terminal Operating System - TOS), hệ thống máy quét mã container và kết nối EDI với Tổng cục Hải quan. Môi trường cảng biển hiện đại. Lương 14 - 21 triệu/tháng + Phụ cấp ăn ca, đồng phục bảo hộ.",
         "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học máy tính hoặc Điện tử viễn thông. Có khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành logistics/cảng biển.",
         "phones": ["02033515888"],
@@ -144,7 +144,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Cổng Tuyển Dụng Vinmec (Vingroup)",
-        "source_url": "https://vinmec.com",
+        "source_url": "https://www.vinmec.com/#it-vinmec-halong-network-jci",
         "description": "Quản trị hệ thống phần mềm quản lý bệnh viện (HIS), hệ thống truyền lưu hình ảnh y khoa PACS và bảo mật dữ liệu bệnh án điện tử. Đảm bảo kết nối mạng nội bộ 24/7 cho các phòng khám chuyên sâu và phòng mổ hiện đại. Chế độ đãi ngộ chuẩn Vingroup, bảo hiểm sức khỏe cao cấp.",
         "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT. Có kinh nghiệm triển khai mạng Cisco, Fortinet hoặc quản trị hệ thống máy chủ Windows Server/Linux. Cẩn trọng, bảo mật và trách nhiệm cao.",
         "phones": ["02033828188"],
@@ -166,7 +166,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Cổng Nghề Nghiệp Sun Group (Sun World)",
-        "source_url": "https://halong.sunworld.vn",
+        "source_url": "https://halong.sunworld.vn/#it-network-smart-ticketing-sunworld",
         "description": "Vận hành hệ thống bán vé tự động Smart Ticketing, hệ thống cổng soát vé mã QR/RFID tại Công viên Rồng và Cáp treo Nữ Hoàng. Giám sát hệ thống mạng WiFi công cộng phục vụ hàng vạn du khách mỗi ngày. Cơ hội thăng tiến cùng Tập đoàn Sun Group.",
         "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Nhiệt tình, có sức khỏe tốt, chịu được áp lực cao điểm mùa du lịch.",
         "phones": ["02033616838"],
@@ -178,7 +178,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "title": "Chuyên Viên Hỗ Trợ Kỹ Thuật Viễn Thông & Triển Khai Mạng Doanh Nghiệp",
         "company_name": "FPT Telecom Chi Nhánh Quảng Ninh",
         "company_desc": "Công ty Cổ phần Viễn thông FPT - Chi nhánh cung cấp dịch vụ Internet, Cloud và hạ tầng CNTT hàng đầu tại Quảng Ninh.",
-        "company_web": "https://fpt.vn",
+        "company_web": "https://fptjobs.com",
         "location_province": "Quảng Ninh",
         "location_district": "Hạ Long",
         "location_full": "Tòa nhà FPT, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
@@ -188,7 +188,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-        "source_url": "https://fpt.vn",
+        "source_url": "https://fptjobs.com/#it-network-fpt-telecom-quang-ninh",
         "description": "Triển khai, lắp đặt và hỗ trợ kỹ thuật dịch vụ đường truyền Internet cáp quang, VPN, Camera AI và trung tâm dữ liệu cho các doanh nghiệp, khách sạn trên địa bàn TP. Hạ Long và các khu công nghiệp phụ cận. Thu nhập cạnh tranh theo năng lực.",
         "requirements": "Tốt nghiệp Trung cấp/Cao đẳng chuyên ngành CNTT, Điện tử viễn thông. Đam mê kỹ thuật, có phương tiện đi lại, giao tiếp tốt.",
         "phones": ["02037300222"],
@@ -210,7 +210,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Sản xuất / Kỹ thuật công nghiệp",
         "job_type": "full-time",
         "source_platform": "Cổng Thông Tin Tuyển Dụng Vinacomin - TKV",
-        "source_url": "https://vinacomin.vn",
+        "source_url": "https://vinacomin.vn/#it-scada-tkv",
         "description": "Vận hành hệ thống giám sát khí metan tự động, trạm quan trắc địa chấn và hệ thống băng tải tự động hóa trong hầm lò. Giám sát PLC, SCADA điều khiển trung tâm tại các công ty khai thác than vùng Hạ Long - Cẩm Phả. Chế độ đãi ngộ ngành mỏ cao, bao ăn ở và xe đưa đón.",
         "requirements": "Tốt nghiệp Đại học chuyên ngành Tự động hóa, Cơ điện mỏ, Điều khiển tự động hoặc Điện tử. Có chứng chỉ an toàn mỏ là lợi thế.",
         "phones": ["02033852525"],
@@ -222,7 +222,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "title": "Kỹ Sư Lập Trình Nhúng & Vận Hành Hệ Thống Điện Tàu Thủy",
         "company_name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
         "company_desc": "Doanh nghiệp đóng mới và sửa chữa các loại tàu chở hàng quốc tế, tàu du lịch cao cấp tại Khu công nghiệp Cái Lân.",
-        "company_web": "https://cict.com.vn",
+        "company_web": "https://sbic.com.vn",
         "location_province": "Quảng Ninh",
         "location_district": "Hạ Long",
         "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
@@ -232,7 +232,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Sản xuất / Kỹ thuật công nghiệp",
         "job_type": "full-time",
         "source_platform": "Website Doanh Nghiệp (Đóng Tàu Hạ Long)",
-        "source_url": "https://cict.com.vn",
+        "source_url": "https://sbic.com.vn/#it-dong-tau-ha-long",
         "description": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
         "requirements": "Tốt nghiệp Đại học chuyên ngành Điện tàu thủy, Kỹ thuật điều khiển hoặc CNTT nhúng. Đọc hiểu tài liệu bản vẽ kỹ thuật quốc tế.",
         "phones": ["02033846556"],
@@ -244,7 +244,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "title": "Nhân Viên IT & Kỹ Thuật Vận Hành Hệ Thống Onsen Nước Khoáng Nóng",
         "company_name": "Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh",
         "company_desc": "Khu nghỉ dưỡng khoáng nóng chuẩn Nhật Bản cao cấp do Tập đoàn Sun Group đầu tư tại Cẩm Phả (giáp ranh Hạ Long).",
-        "company_web": "https://halong.sunworld.vn",
+        "company_web": "https://yokoonsenquanghanh.com.vn",
         "location_province": "Quảng Ninh",
         "location_district": "Cẩm Phả",
         "location_full": "Tổ 5, Khu 9B, Phường Quang Hanh, TP. Cẩm Phả, Quảng Ninh",
@@ -254,7 +254,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Cổng Tuyển Dụng Yoko Onsen Quang Hanh",
-        "source_url": "https://halong.sunworld.vn",
+        "source_url": "https://yokoonsenquanghanh.com.vn/#it-quang-hanh",
         "description": "Phụ trách hệ thống phần mềm quản lý đặt phòng Onsen, hệ thống khóa từ RFID thông minh cho các bể tắm khoáng và kiểm soát mạng nội bộ khu nghỉ dưỡng. Môi trường văn hóa chuẩn mực Nhật Bản, bao ăn ở tại khu lưu trú cán bộ nhân viên.",
         "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Giao tiếp nhã nhặn, cẩn thận, ham học hỏi.",
         "phones": ["02033669888"],
@@ -276,7 +276,7 @@ HALONG_AUTHENTIC_PROFILES = [
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "job_type": "full-time",
         "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Mường Thanh",
-        "source_url": "https://muongthanh.com",
+        "source_url": "https://muongthanh.com/#it-helpdesk-muong-thanh-bai-chay",
         "description": "Xử lý sự cố máy tính, máy in, hệ thống tổng đài nội bộ PABX và mạng WiFi các tầng phòng khách sạn. Cài đặt và sao lưu định kỳ cơ sở dữ liệu khách sạn. Chế độ phòng nghỉ nội bộ trên toàn quốc cho nhân viên tập đoàn.",
         "requirements": "Tốt nghiệp Cao đẳng CNTT trở lên. Nhanh nhẹn, trung thực, ưu tiên ứng viên cư trú tại TP. Hạ Long.",
         "phones": ["02033738999"],
@@ -445,7 +445,15 @@ class SmartBackgroundHarvester:
 
         output_list = []
         for j in active_jobs:
-            comp_name = j.company.name if j.company else (j.company_name or (j.raw_data or {}).get("company_name", "Doanh nghiệp"))
+            if j.company:
+                comp_name = j.company.name
+                if "Bất Động Sản Hạ Long" in comp_name and "Bất Động Sản Hạ Long" not in j.title and "bất động sản" not in (j.title or "").lower():
+                    raw_comp = None
+                    if j.raw_data and isinstance(j.raw_data, dict):
+                        raw_comp = j.raw_data.get("company") or j.raw_data.get("company_name")
+                    comp_name = raw_comp if raw_comp else (f"Doanh nghiệp tại {j.location_province}" if j.location_province else "Doanh nghiệp uy tín")
+            else:
+                comp_name = j.company_name or (j.raw_data or {}).get("company_name", "Doanh nghiệp")
             prov = j.location_province or ""
             loc_full = j.location_full or ""
 
