@@ -16,6 +16,9 @@ export const viewport = {
   initialScale: 1,
 };
 
+const isGh = process.env.GITHUB_PAGES === "true";
+const basePath = isGh ? "/c_data" : "";
+
 export const metadata: Metadata = {
   title: "C_Data - Việc Làm IT Hạ Long & Nền Tảng Tuyển Dụng Việt Nam",
   description:
@@ -33,7 +36,7 @@ export const metadata: Metadata = {
     "c_data",
   ],
   authors: [{ name: "C_Data Team" }],
-  manifest: "/manifest.json",
+  manifest: `${basePath}/manifest.json`,
   openGraph: {
     title: "C_Data - Việc Làm IT TP. Hạ Long & Toàn Quốc",
     description:
@@ -45,10 +48,12 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: `${basePath}/favicon.ico`, sizes: "any" },
+      { url: `${basePath}/icon.png`, type: "image/png", sizes: "32x32" },
+      { url: `${basePath}/favicon.svg`, type: "image/svg+xml" },
     ],
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
+    shortcut: `${basePath}/favicon.ico`,
+    apple: `${basePath}/apple-touch-icon.png`,
   },
   robots: {
     index: true,
@@ -63,6 +68,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="vi" className={inter.variable}>
+      <head>
+        <link rel="icon" href={`${basePath}/favicon.ico`} sizes="any" />
+        <link rel="icon" href={`${basePath}/icon.png`} type="image/png" sizes="32x32" />
+        <link rel="icon" href={`${basePath}/favicon.svg`} type="image/svg+xml" />
+        <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
+        <meta name="theme-color" content="#0B0F19" />
+      </head>
       <body className="min-h-screen flex flex-col font-sans bg-slate-50 text-slate-900 selection:bg-primary-500 selection:text-white">
         <Header />
         <main className="flex-1">{children}</main>

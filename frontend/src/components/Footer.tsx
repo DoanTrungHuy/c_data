@@ -37,7 +37,7 @@ export default function Footer() {
           {/* Brand & Mission */}
           <div className="space-y-4">
             <div className="flex items-center gap-3">
-              <CDataLogo size="md" showTagline={false} className="[&_span]:text-white" />
+              <CDataLogo size="md" showTagline={false} theme="dark" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Nền tảng tổng hợp tin tuyển dụng thông minh hàng đầu Việt Nam. Kết nối người tìm việc với hàng ngàn cơ hội nghề nghiệp trên khắp 63 tỉnh thành hoàn toàn miễn phí.
