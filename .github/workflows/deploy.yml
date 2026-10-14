@@ -42,7 +42,7 @@ jobs:
 
       - name: Run Rigorous Realtime Search & Data Quality Tests
         run: |
-          python tests/test_realtime_search_and_data.py
+          python -u tests/test_realtime_search_and_data.py
 
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
