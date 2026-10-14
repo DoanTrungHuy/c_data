@@ -445,19 +445,32 @@ class SmartBackgroundHarvester:
 
         output_list = []
         for j in active_jobs:
+            comp_name = j.company.name if j.company else (j.company_name or (j.raw_data or {}).get("company_name", "Doanh nghiệp"))
+            prov = j.location_province or ""
+            loc_full = j.location_full or ""
+
+            # BẢO VỆ CHỐNG LỆCH ĐỊA ĐIỂM: Nếu ghi Quảng Ninh nhưng thực tế tuyển ở Hà Nội
+            if prov == "Quảng Ninh" and loc_full:
+                loc_lower = loc_full.lower()
+                if "hà nội" in loc_lower and "quảng ninh" not in loc_lower and "hạ long" not in loc_lower and "cái lân" not in loc_lower and "bãi cháy" not in loc_lower:
+                    prov = "Hà Nội"
+
+            if "Doanh nghiệp tại Quảng Ninh" in comp_name and prov != "Quảng Ninh":
+                comp_name = f"Doanh nghiệp tại {prov}"
+
             item = {
                 "id": j.id,
                 "title": j.title,
-                "company_name": j.company.name if j.company else (j.raw_data or {}).get("company_name", "Doanh nghiệp"),
+                "company_name": comp_name,
                 "company_id": j.company_id,
                 "description": j.description,
                 "requirements": j.requirements,
                 "salary_min": j.salary_min,
                 "salary_max": j.salary_max,
                 "salary_text": j.salary_text,
-                "location_province": j.location_province,
+                "location_province": prov,
                 "location_district": j.location_district,
-                "location_full": j.location_full,
+                "location_full": loc_full,
                 "job_type": j.job_type,
                 "category": j.category,
                 "experience_level": j.experience_level,

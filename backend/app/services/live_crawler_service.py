@@ -111,8 +111,8 @@ class LiveCrawlerService:
 
                 # Địa điểm
                 loc_tag = parent.find("div", class_=re.compile(r"location"))
-                if loc_tag and loc_tag.get_text(strip=True):
-                    location_str = loc_tag.get_text(strip=True)
+                if loc_tag:
+                    location_str = loc_tag.get_text(separator=", ", strip=True)
 
                 # Ngày cập nhật
                 parent_text = parent.get_text(separator=" ", strip=True)
@@ -126,6 +126,23 @@ class LiveCrawlerService:
 
             sal_min, sal_max = extract_salary_range(salary_text)
             loc_info = normalize_location(location_str)
+            detected_province = loc_info.get("province")
+
+            if not detected_province:
+                loc_lower = location_str.lower()
+                if "quảng ninh" in loc_lower or "hạ long" in loc_lower or "cẩm phả" in loc_lower or "uông bí" in loc_lower or "vân đồn" in loc_lower:
+                    detected_province = "Quảng Ninh"
+                elif "hà nội" in loc_lower:
+                    detected_province = "Hà Nội"
+                elif "hồ chí minh" in loc_lower:
+                    detected_province = "TP. Hồ Chí Minh"
+                elif "đà nẵng" in loc_lower:
+                    detected_province = "Đà Nẵng"
+                else:
+                    detected_province = province or "Toàn quốc"
+
+            if company_name.startswith("Doanh nghiệp tại"):
+                company_name = f"Doanh nghiệp tại {detected_province}"
 
             raw_items.append({
                 "title": title,
@@ -133,7 +150,7 @@ class LiveCrawlerService:
                 "salary_text": salary_text,
                 "salary_min": sal_min,
                 "salary_max": sal_max,
-                "location_province": loc_info.get("province") or (province or "Quảng Ninh"),
+                "location_province": detected_province,
                 "location_district": loc_info.get("district"),
                 "location_full": location_str,
                 "job_type": "full-time",
