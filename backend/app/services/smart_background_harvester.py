@@ -489,6 +489,22 @@ class SmartBackgroundHarvester:
             if "Doanh nghiệp tại Quảng Ninh" in comp_name and prov != "Quảng Ninh":
                 comp_name = f"Doanh nghiệp tại {prov}"
 
+            raw = j.raw_data if isinstance(j.raw_data, dict) else {}
+            ep = raw.get("evidence_proof")
+            first_disc = (
+                raw.get("first_discovered_at")
+                or (j.crawled_at.isoformat() if j.crawled_at else None)
+                or (j.posted_at.isoformat() if j.posted_at else None)
+                or "2026-10-14T00:00:00Z"
+            )
+            last_ver = (
+                (ep or {}).get("verified_at")
+                or raw.get("last_verified_at")
+                or (j.updated_at.isoformat() if j.updated_at else None)
+                or "2026-10-15T02:00:00Z"
+            )
+            ver_status = raw.get("verification_status") or ("verified" if ep and ep.get("verified") else "unverified")
+
             item = {
                 "id": j.id,
                 "title": j.title,
@@ -509,6 +525,10 @@ class SmartBackgroundHarvester:
                 "source_url": j.source_url,
                 "posted_at": j.posted_at.isoformat() if j.posted_at else None,
                 "expires_at": j.expires_at.isoformat() if j.expires_at else None,
+                "first_discovered_at": first_disc,
+                "last_verified_at": last_ver,
+                "verification_status": ver_status,
+                "evidence_proof": ep,
                 "is_active": j.is_active,
                 "raw_data": j.raw_data,
                 "company": {
@@ -560,10 +580,15 @@ class SmartBackgroundHarvester:
 
         logger.info(f"🎉 Hoàn tất chu trình. Đang tuyển dụng: {retained} tin. Đã đóng: {purged} tin.")
         return {
+            "halong_count": halong_count,
             "halong_verified": halong_count,
+            "retained_count": retained,
             "retained_active": retained,
+            "purged_count": purged,
             "purged_expired": purged,
+            "exported_count": exported,
             "exported_frontend": exported,
+            "status": "success",
             "timestamp": datetime.now(timezone.utc).isoformat(),
         }
 

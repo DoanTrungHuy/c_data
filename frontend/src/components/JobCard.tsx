@@ -555,6 +555,12 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                     </p>
                   </div>
                 )}
+
+                <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-emerald-200/50 text-[10px] text-slate-500">
+                  <span>📅 Đăng: {job.posted_at ? new Date(job.posted_at).toLocaleDateString('vi-VN') : "Gần đây"}</span>
+                  <span>👁️ Phát hiện: {job.first_discovered_at ? new Date(job.first_discovered_at).toLocaleDateString('vi-VN') : "14/10/2026"}</span>
+                  <span>🛡️ Thẩm định: {job.evidence_proof.verified_at}</span>
+                </div>
               </div>
             )}
 

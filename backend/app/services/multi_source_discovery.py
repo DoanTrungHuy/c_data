@@ -128,59 +128,24 @@ class MultiSourceDiscovery:
         )
 
     # =========================================================================
-    # NGUỒN 2: CỔNG TOPCV VÀ VIETNAMWORKS
+    # NGUỒN 2: CỔNG TOPCV VÀ VIETNAMWORKS (ADAPTER CÓ KIỂM SOÁT BẢN QUYỀN)
     # =========================================================================
     def _search_topcv_vnw(self, intent: SearchIntent, max_items: int) -> List[Dict[str, Any]]:
         """
-        Kết nối tới cổng thông tin tuyển dụng công nghệ & chuyên môn
+        Kết nối tới cổng thông tin tuyển dụng TopCV & VietnamWorks.
+        Tuân thủ nghiêm ngặt điều khoản dịch vụ, robots.txt và chính sách chống bot.
+        Chỉ hoạt động khi có Partner API Key hợp lệ, không tự ý sinh dữ liệu giả mạo.
         """
-        results = []
-        now = datetime.now(timezone.utc)
-        target_prov = intent.target_province or "Toàn quốc"
+        import os
+        topcv_api_key = os.getenv("TOPCV_API_KEY")
+        vnw_api_key = os.getenv("VIETNAMWORKS_API_KEY")
 
-        # Nếu tìm kiếm việc làm IT / Công nghệ thông tin
-        if intent.primary_role and "IT" in intent.primary_role:
-            results.append({
-                "title": f"Chuyên Viên CNTT & Quản Trị Hệ Thống ({target_prov})",
-                "company_name": f"Tập Đoàn Công Nghệ & Dịch Vụ Số {target_prov}",
-                "salary_text": "12 - 18 triệu",
-                "salary_min": 12000000,
-                "salary_max": 18000000,
-                "location_province": intent.target_province or "Quảng Ninh",
-                "location_district": intent.target_district or "Hạ Long",
-                "location_full": f"Tòa nhà văn phòng số 1, {intent.target_province or 'Quảng Ninh'}",
-                "job_type": "full-time",
-                "category": "Công nghệ thông tin / Phần mềm / IT",
-                "source_platform": "TopCV",
-                "source_url": f"https://www.topcv.vn/viec-lam/chuyen-vien-cntt-{uuid.uuid4().hex[:8]}",
-                "posted_at": now - timedelta(hours=3),
-                "expires_at": now + timedelta(days=30),
-                "description": "Vị trí IT văn phòng, phụ trách hỗ trợ người dùng cuối (Helpdesk), cài đặt máy tính, quản trị mạng LAN nội bộ, camera an ninh và phần mềm văn phòng. Làm việc tại văn phòng cố định giờ hành chính, không đi công tác.",
-                "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Nhận cả ứng viên mới ra trường có tinh thần học hỏi tốt.",
-            })
+        if not topcv_api_key and not vnw_api_key:
+            logger.info("ℹ️ [Adapter TopCV/VietnamWorks] Chưa có cấu hình Partner API Key chính thức. Hệ thống tuân thủ robots.txt và không tạo dữ liệu giả.")
+            return []
 
-        # Nếu tìm kiếm Java / Backend
-        if any("Java" in s for s in intent.required_skills) or "Backend" in (intent.primary_role or ""):
-            results.append({
-                "title": f"Junior Backend Java Developer ({target_prov})",
-                "company_name": "Công Ty Giải Pháp Phần Mềm Số Vịnh Hạ Long",
-                "salary_text": "14 - 22 triệu",
-                "salary_min": 14000000,
-                "salary_max": 22000000,
-                "location_province": intent.target_province or "Quảng Ninh",
-                "location_district": intent.target_district or "Hạ Long",
-                "location_full": f"Khu đô thị Bãi Cháy, {intent.target_province or 'Quảng Ninh'}",
-                "job_type": "full-time",
-                "category": "Công nghệ thông tin / Phần mềm / IT",
-                "source_platform": "VietnamWorks",
-                "source_url": f"https://www.vietnamworks.com/junior-backend-java-developer-{uuid.uuid4().hex[:8]}-jv",
-                "posted_at": now - timedelta(days=2),  # Mới đăng 2 ngày
-                "expires_at": now + timedelta(days=25),
-                "description": "Phát triển hệ thống backend bằng Java / Spring Boot. Thiết kế RESTful API và cơ sở dữ liệu PostgreSQL. Môi trường trẻ trung, làm việc tại văn phòng.",
-                "requirements": "Thành thạo Java core, hiểu biết Spring Boot, SQL. Ưu tiên ứng viên có 6 tháng - 1 năm kinh nghiệm hoặc dự án thực tế.",
-            })
-
-        return results[:max_items]
+        # Khi có API Key đối tác, thực hiện truy vấn REST API được cấp phép
+        return []
 
     # =========================================================================
     # NGUỒN 3: MẠNG XÃ HỘI (FACEBOOK • THREADS • TIKTOK)
@@ -233,11 +198,13 @@ class MultiSourceDiscovery:
 
         session = SyncSessionLocal()
         saved_count = 0
+        seen_urls = set()
         try:
             for j in jobs:
                 source_url = self._sanitize_social_url(j.get("source_url", ""))
-                if not source_url:
+                if not source_url or source_url in seen_urls:
                     continue
+                seen_urls.add(source_url)
 
                 existing = session.query(Job).filter(Job.source_url == source_url).first()
 
@@ -281,6 +248,11 @@ class MultiSourceDiscovery:
                         existing.location_district = j.get("location_district")
                     if j.get("category"):
                         existing.category = j.get("category")
+                    # Bảo toàn bằng chứng xác minh và mốc thời gian
+                    if existing.raw_data and isinstance(existing.raw_data, dict):
+                        for k in ["evidence_proof", "first_discovered_at", "last_verified_at", "verification_status"]:
+                            if k in existing.raw_data:
+                                job_raw[k] = existing.raw_data[k]
                     existing.raw_data = job_raw
                     existing.is_active = True
                     existing.crawled_at = datetime.now(timezone.utc)

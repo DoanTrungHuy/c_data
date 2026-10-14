@@ -24,6 +24,9 @@ export interface Job {
   source_url?: string | null;
   posted_at?: string | null;
   expires_at?: string | null;
+  first_discovered_at?: string | null;
+  last_verified_at?: string | null;
+  verification_status?: "verified" | "unverified" | "unknown" | null;
   is_active?: boolean;
   created_at?: string | null;
   updated_at?: string | null;

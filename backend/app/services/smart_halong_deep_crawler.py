@@ -728,16 +728,24 @@ class SmartHaLongDeepCrawler:
                 existing_signatures.add(sig)
                 logger.info(f"✨ [Mới Thêm] {title} ({company.name})")
             else:
-                # Làm mới hạn tuyển dụng và trạng thái
+                # Bảo toàn source_url và bằng chứng xác thực đã kiểm định
+                if not (job.source_url and not ("#" in job.source_url and "jid=" not in job.source_url)):
+                    job.source_url = source_url
+
+                # Bảo toàn evidence_proof và metadata xác minh trong raw_data
+                if job.raw_data and isinstance(job.raw_data, dict):
+                    for k in ["evidence_proof", "first_discovered_at", "last_verified_at", "verification_status"]:
+                        if k in job.raw_data:
+                            raw_data[k] = job.raw_data[k]
+
                 job.description = profile["description"]
                 job.requirements = profile["requirements"]
                 job.salary_min = profile.get("salary_min")
                 job.salary_max = profile.get("salary_max")
                 job.salary_text = profile["salary_text"]
-                job.source_url = source_url
                 job.is_active = True
-                job.posted_at = posted_at
-                job.expires_at = expires_at
+                if not job.posted_at:
+                    job.posted_at = posted_at
                 job.raw_data = raw_data
                 updated_count += 1
                 logger.info(f"🔄 [Làm Mới] {title} ({company.name})")
@@ -762,65 +770,11 @@ class SmartHaLongDeepCrawler:
     def sync_to_frontend_data(self) -> int:
         """
         Đồng bộ dữ liệu sạch trực tiếp vào frontend/public/data/jobs.json
+        Ủy quyền cho bộ xuất bản chuẩn hóa tập trung SmartBackgroundHarvester
         """
-        active_jobs = self.session.query(Job).filter(Job.is_active == True).all()
-
-        output_list = []
-        for j in active_jobs:
-            comp_name = j.company.name if j.company else (j.raw_data or {}).get("company_name", "Doanh nghiệp")
-            prov = j.location_province or ""
-            loc_full = j.location_full or ""
-
-            # BẢO VỆ CHỐNG LỆCH ĐỊA ĐIỂM: Nếu ghi Quảng Ninh nhưng thực tế tuyển ở Hà Nội
-            if prov == "Quảng Ninh" and loc_full:
-                loc_lower = loc_full.lower()
-                if "hà nội" in loc_lower and "quảng ninh" not in loc_lower and "hạ long" not in loc_lower and "cái lân" not in loc_lower and "bãi cháy" not in loc_lower:
-                    prov = "Hà Nội"
-
-            if "Doanh nghiệp tại Quảng Ninh" in comp_name and prov != "Quảng Ninh":
-                comp_name = f"Doanh nghiệp tại {prov}"
-
-            item = {
-                "id": j.id,
-                "title": j.title,
-                "company_name": comp_name,
-                "company_id": j.company_id,
-                "description": j.description,
-                "requirements": j.requirements,
-                "salary_min": j.salary_min,
-                "salary_max": j.salary_max,
-                "salary_text": j.salary_text,
-                "location_province": prov,
-                "location_district": j.location_district,
-                "location_full": loc_full,
-                "job_type": j.job_type,
-                "category": j.category,
-                "experience_level": j.experience_level,
-                "source_platform": j.source_platform,
-                "source_url": j.source_url,
-                "posted_at": j.posted_at.isoformat() if j.posted_at else None,
-                "expires_at": j.expires_at.isoformat() if j.expires_at else None,
-                "is_active": j.is_active,
-                "raw_data": j.raw_data,
-                "company": {
-                    "id": j.company.id,
-                    "name": j.company.name,
-                    "website": j.company.website,
-                    "province": j.company.province,
-                    "description": j.company.description,
-                } if j.company else None,
-            }
-            output_list.append(item)
-
-        export_path = os.path.abspath(
-            os.path.join(os.path.dirname(__file__), "..", "..", "..", "frontend", "public", "data", "jobs.json")
-        )
-        os.makedirs(os.path.dirname(export_path), exist_ok=True)
-
-        with open(export_path, "w", encoding="utf-8") as f:
-            json.dump(output_list, f, ensure_ascii=False, indent=2)
-
-        return len(output_list)
+        from app.services.smart_background_harvester import SmartBackgroundHarvester
+        harvester = SmartBackgroundHarvester(self.session)
+        return harvester.export_verified_dataset_to_frontend()
 
 
 if __name__ == "__main__":

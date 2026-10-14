@@ -755,9 +755,14 @@ class SocialDeepHarvester:
 
         session = SyncSessionLocal()
         saved = []
+        seen_urls = set()
         try:
             for j in jobs:
-                source_url = j["source_url"]
+                source_url = j.get("source_url", "").strip()
+                if not source_url or source_url in seen_urls:
+                    continue
+                seen_urls.add(source_url)
+
                 existing = session.query(Job).filter(Job.source_url == source_url).first()
 
                 # Bóc tách thông tin sâu
@@ -802,6 +807,11 @@ class SocialDeepHarvester:
                     existing.location_district = j.get("location_district")
                     existing.location_full = j.get("location_full")
                     existing.category = j.get("category")
+                    # Bảo toàn bằng chứng xác minh và mốc thời gian
+                    if existing.raw_data and isinstance(existing.raw_data, dict):
+                        for k in ["evidence_proof", "first_discovered_at", "last_verified_at", "verification_status"]:
+                            if k in existing.raw_data:
+                                raw_data[k] = existing.raw_data[k]
                     existing.raw_data = raw_data
                     existing.is_active = True
                     existing.crawled_at = datetime.now(timezone.utc)

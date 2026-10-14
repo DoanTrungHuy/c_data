@@ -272,6 +272,23 @@ class TestRealtimeSearchAndData(unittest.TestCase):
         self.assertEqual(len(invalid_proof), 0, f"Phát hiện tin tuyển dụng có hồ sơ dẫn chứng không đạt chuẩn: {invalid_proof}")
         print("  ✓ Test 12 - Hồ Sơ Dẫn Chứng Đăng Tuyển Xác Thực (Evidence Proof): 100% ĐẠT")
 
+    def test_13_temporal_and_verification_integrity(self):
+        """Kiểm tra phân định rõ các mốc thời gian (posted, discovered, verified) và trạng thái thẩm định"""
+        temporal_issues = []
+        for j in self.jobs:
+            if not j.get("posted_at"):
+                temporal_issues.append((j["id"], j["title"], "Thiếu posted_at"))
+            if not j.get("first_discovered_at"):
+                temporal_issues.append((j["id"], j["title"], "Thiếu first_discovered_at"))
+            if not j.get("last_verified_at"):
+                temporal_issues.append((j["id"], j["title"], "Thiếu last_verified_at"))
+            status = j.get("verification_status")
+            if status not in ["verified", "unverified", "unknown"]:
+                temporal_issues.append((j["id"], j["title"], f"Trạng thái verification_status không hợp lệ: {status}"))
+
+        self.assertEqual(len(temporal_issues), 0, f"Phát hiện tin thiếu mốc thời gian hoặc trạng thái thẩm định: {temporal_issues}")
+        print("  ✓ Test 13 - Phân Định Mốc Thời Gian & Trạng Thái Thẩm Định: 100% ĐẠT")
+
 
 if __name__ == "__main__":
     print("\n" + "=" * 60)
