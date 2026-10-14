@@ -148,7 +148,7 @@ export default async function HomePage() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-blue-200 shadow-sm text-xs md:text-sm font-semibold text-primary-700 mb-6 animate-pulse">
             <SparklesIcon className="h-4 w-4 text-accent-500" />
-            <span>Nền tảng tổng hợp việc làm đa nguồn #1 Việt Nam</span>
+            <span>VịnhViệc — Cơ Hội Vàng Bên Vịnh Di Sản Hạ Long</span>
           </div>
 
           {/* Eye-catching Vietnamese Headline */}

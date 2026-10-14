@@ -20,10 +20,13 @@ const isGh = process.env.GITHUB_PAGES === "true";
 const basePath = isGh ? "/c_data" : "";
 
 export const metadata: Metadata = {
-  title: "C_Data - Việc Làm IT Hạ Long & Nền Tảng Tuyển Dụng Việt Nam",
+  title: "VịnhViệc - Việc Làm IT Hạ Long & Cơ Hội Nghề Nghiệp Vùng Vịnh",
   description:
-    "C_Data - Nền tảng tuyển dụng thông minh, quét sâu và đối soát thời gian thực việc làm CNTT tại TP. Hạ Long, Quảng Ninh và 63 tỉnh thành Việt Nam. Cam kết Zero-404, 100% tin đang tuyển dụng thực tế.",
+    "VịnhViệc — Cổng việc làm và tuyển dụng thông minh hàng đầu TP. Hạ Long, Quảng Ninh. Cơ hội vàng bên Vịnh Di sản. Quét sâu thời gian thực, cam kết Zero-404, 100% tin đang tuyển dụng thực tế.",
   keywords: [
+    "vịnhviệc",
+    "vịnh việc",
+    "vinhjob",
     "việc làm it hạ long",
     "việc làm cntt quảng ninh",
     "it support bãi cháy",
@@ -31,18 +34,16 @@ export const metadata: Metadata = {
     "lập trình viên hạ long",
     "việc làm hạ long",
     "việc làm quảng ninh",
-    "tìm việc làm",
-    "tuyển dụng",
-    "c_data",
+    "tuyển dụng hạ long",
   ],
-  authors: [{ name: "C_Data Team" }],
+  authors: [{ name: "VịnhViệc Team" }],
   manifest: `${basePath}/manifest.json`,
   openGraph: {
-    title: "C_Data - Việc Làm IT TP. Hạ Long & Toàn Quốc",
+    title: "VịnhViệc - Cơ Hội Vàng Bên Vịnh Di Sản Hạ Long",
     description:
       "Quét sâu thời gian thực, đối soát Zero-404, cập nhật liên tục mọi cơ hội việc làm CNTT tại TP. Hạ Long, Quảng Ninh.",
     url: "https://doantrunghuy.github.io/c_data/",
-    siteName: "C_Data",
+    siteName: "VịnhViệc",
     locale: "vi_VN",
     type: "website",
   },

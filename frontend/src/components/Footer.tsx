@@ -40,7 +40,7 @@ export default function Footer() {
               <CDataLogo size="md" showTagline={false} theme="dark" />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              Nền tảng tổng hợp tin tuyển dụng thông minh hàng đầu Việt Nam. Kết nối người tìm việc với hàng ngàn cơ hội nghề nghiệp trên khắp 63 tỉnh thành hoàn toàn miễn phí.
+              VịnhViệc — Cổng thông tin việc làm và tuyển dụng thông minh hàng đầu TP. Hạ Long, Quảng Ninh. Khởi nghiệp vững vàng bên Vịnh Di sản.
             </p>
             <div className="pt-2 text-xs text-slate-400 space-y-1.5">
               <div className="flex items-center gap-2">
@@ -49,7 +49,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <EnvelopeIcon className="h-4 w-4 text-primary-400 shrink-0" />
-                <span>contact@cdata.vn</span>
+                <span>contact@vinhviec.vn</span>
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} C_Data. Bản quyền thuộc về nền tảng C_Data.</p>
+          <p>© {new Date().getFullYear()} VịnhViệc. Nền tảng việc làm &amp; cơ hội nghề nghiệp Hạ Long.</p>
           <p className="flex items-center gap-1.5 text-slate-400">
             Phát triển với <HeartIcon className="h-4 w-4 text-red-500 inline fill-red-500" /> vì cộng đồng người tìm việc Việt Nam
           </p>

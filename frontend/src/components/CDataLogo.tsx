@@ -91,7 +91,7 @@ export default function CDataLogo({
         </svg>
       </div>
 
-      {/* Typography thương hiệu C_Data */}
+      {/* Typography thương hiệu VịnhViệc */}
       <div className="flex flex-col">
         <div className="flex items-center gap-1.5">
           <span
@@ -99,9 +99,10 @@ export default function CDataLogo({
               isDark ? "text-white" : "text-slate-900"
             } flex items-center leading-none`}
           >
-            <span>C</span>
-            <span className="text-sky-500 font-extrabold mx-0.5">_</span>
-            <span>Data</span>
+            <span>Vịnh</span>
+            <span className="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent font-black ml-0.5">
+              Việc
+            </span>
           </span>
 
           <span
@@ -122,7 +123,7 @@ export default function CDataLogo({
               isDark ? "text-slate-400" : "text-slate-500"
             }`}
           >
-            Việc làm IT &amp; Công nghệ thông tin
+            Cơ hội vàng bên Vịnh Di sản
           </span>
         )}
       </div>
