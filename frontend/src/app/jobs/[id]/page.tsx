@@ -34,6 +34,25 @@ interface JobDetailPageProps {
   };
 }
 
+export async function generateStaticParams() {
+  try {
+    const res = await getJobs({ page_size: 100 });
+    if (res && res.items && res.items.length > 0) {
+      return res.items.map((j) => ({ id: String(j.id) }));
+    }
+  } catch {
+    // fallback
+  }
+  return [
+    { id: "1" },
+    { id: "2" },
+    { id: "3" },
+    { id: "4" },
+    { id: "5" },
+    { id: "6" },
+  ];
+}
+
 export async function generateMetadata({
   params,
 }: JobDetailPageProps): Promise<Metadata> {

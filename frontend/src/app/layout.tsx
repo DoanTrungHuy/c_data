@@ -10,6 +10,11 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "C_Data - Nền tảng Tìm Việc Làm & Tổng Hợp Tin Tuyển Dụng Việt Nam",
   description:
@@ -28,7 +33,6 @@ export const metadata: Metadata = {
     "c_data",
   ],
   authors: [{ name: "C_Data Team" }],
-  viewport: "width=device-width, initial-scale=1",
   openGraph: {
     title: "C_Data - Nền tảng Tìm Việc Làm & Tổng Hợp Tuyển Dụng Việt Nam",
     description:

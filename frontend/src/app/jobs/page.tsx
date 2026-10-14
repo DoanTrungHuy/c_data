@@ -1,47 +1,81 @@
-import React from "react";
+"use client";
+
+import React, { Suspense, useEffect, useState } from "react";
 import Link from "next/link";
 import { ChevronRightIcon, HomeIcon } from "@heroicons/react/24/outline";
 import SearchBar from "@/components/SearchBar";
 import JobsContent from "@/components/JobsContent";
 import { getJobs } from "@/lib/api";
+import { useSearchParams } from "next/navigation";
+import { JobListResponse } from "@/types/job";
 
-interface JobsPageProps {
-  searchParams: {
-    q?: string;
-    province?: string;
-    category?: string;
-    job_type?: string;
-    salary_min?: string;
-    salary_max?: string;
-    source_platform?: string;
-    page?: string;
-    page_size?: string;
-    live?: string;
-    strict_mode?: string;
-  };
-}
+function JobsView() {
+  const searchParams = useSearchParams();
+  const q = searchParams?.get("q") || "";
+  const province = searchParams?.get("province") || "";
+  const category = searchParams?.get("category") || "";
+  const job_type = searchParams?.get("job_type") || "";
+  const platform = searchParams?.get("source_platform") || "";
+  const salary_min = searchParams?.get("salary_min");
+  const salary_max = searchParams?.get("salary_max");
+  const page = Number(searchParams?.get("page")) || 1;
+  const pageSize = Number(searchParams?.get("page_size")) || 20;
+  const isLive = searchParams?.get("live") === "true";
+  const isStrictMode = searchParams?.get("strict_mode") === "true";
 
-export const dynamic = "force-dynamic";
-
-export default async function JobsPage({ searchParams }: JobsPageProps) {
-  const page = Number(searchParams.page) || 1;
-  const pageSize = Number(searchParams.page_size) || 20;
-  const isLive = searchParams.live === "true" || searchParams.live === "1";
-  const isStrictMode = searchParams.strict_mode === "true" || searchParams.strict_mode === "1";
-
-  const data = await getJobs({
-    q: searchParams.q,
-    province: searchParams.province,
-    category: searchParams.category,
-    job_type: searchParams.job_type,
-    salary_min: searchParams.salary_min ? Number(searchParams.salary_min) : undefined,
-    salary_max: searchParams.salary_max ? Number(searchParams.salary_max) : undefined,
-    source_platform: searchParams.source_platform,
-    live: isLive,
-    strict_mode: isStrictMode,
-    page,
+  const [data, setData] = useState<JobListResponse>({
+    items: [],
+    total: 0,
+    page: 1,
     page_size: pageSize,
+    total_pages: 1,
+    related_keywords: [],
+    matched_industries: [],
   });
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let isMounted = true;
+    setLoading(true);
+    getJobs({
+      q: q || undefined,
+      province: province || undefined,
+      category: category || undefined,
+      job_type: job_type || undefined,
+      salary_min: salary_min ? Number(salary_min) : undefined,
+      salary_max: salary_max ? Number(salary_max) : undefined,
+      source_platform: platform || undefined,
+      live: isLive,
+      strict_mode: isStrictMode,
+      page,
+      page_size: pageSize,
+    })
+      .then((res) => {
+        if (isMounted) {
+          setData(res);
+          setLoading(false);
+        }
+      })
+      .catch(() => {
+        if (isMounted) setLoading(false);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [
+    q,
+    province,
+    category,
+    job_type,
+    platform,
+    salary_min,
+    salary_max,
+    isLive,
+    isStrictMode,
+    page,
+    pageSize,
+  ]);
 
   return (
     <div className="min-h-screen bg-slate-50/60 pb-16">
@@ -59,12 +93,10 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
             </Link>
             <ChevronRightIcon className="h-3 w-3 text-slate-400" />
             <span className="text-slate-800 font-semibold">Tìm việc làm</span>
-            {searchParams.province && (
+            {province && (
               <>
                 <ChevronRightIcon className="h-3 w-3 text-slate-400" />
-                <span className="text-primary-600 font-semibold">
-                  {searchParams.province}
-                </span>
+                <span className="text-primary-600 font-semibold">{province}</span>
               </>
             )}
           </nav>
@@ -72,8 +104,8 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
           {/* SearchBar Input */}
           <div className="max-w-4xl">
             <SearchBar
-              initialQuery={searchParams.q || ""}
-              initialProvince={searchParams.province || ""}
+              initialQuery={q}
+              initialProvince={province}
               initialLive={isLive}
               initialStrictMode={isStrictMode}
               compact
@@ -84,8 +116,34 @@ export default async function JobsPage({ searchParams }: JobsPageProps) {
 
       {/* Main Content & Sidebar */}
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8">
-        <JobsContent initialData={data} />
+        {loading ? (
+          <div className="py-24 text-center space-y-4">
+            <div className="inline-block h-9 w-9 animate-spin rounded-full border-4 border-solid border-primary-600 border-r-transparent"></div>
+            <p className="text-sm text-slate-500 font-medium">
+              Đang đối soát dữ liệu và phân tích việc làm...
+            </p>
+          </div>
+        ) : (
+          <JobsContent initialData={data} />
+        )}
       </div>
     </div>
+  );
+}
+
+export default function JobsPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-slate-50 flex items-center justify-center">
+          <div className="text-center space-y-3">
+            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-primary-600 border-r-transparent"></div>
+            <p className="text-sm text-slate-500 font-medium">Đang tải việc làm...</p>
+          </div>
+        </div>
+      }
+    >
+      <JobsView />
+    </Suspense>
   );
 }
