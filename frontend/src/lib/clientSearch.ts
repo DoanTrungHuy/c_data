@@ -39,10 +39,21 @@ const ROLE_SYNONYMS: Record<string, string[]> = {
 // Từ đồng nghĩa địa danh
 const LOCATION_SYNONYMS: Record<string, string[]> = {
   "ha long": ["ha long", "bai chay", "hong gai", "hong ha", "hong hai", "cai lan", "tuan chau", "quang ninh"],
-  "quang ninh": ["quang ninh", "ha long", "cam pha", "uong bi", "dong trieu", "mong cai"],
+  "quang ninh": ["quang ninh", "ha long", "cam pha", "uong bi", "dong trieu", "mong cai", "van don", "quang yen"],
   "ha noi": ["ha noi", "cau giay", "thanh xuan", "dong da", "ba dinh", "hai ba trung", "nam tu liem", "bac tu liem"],
   "ho chi minh": ["ho chi minh", "hcm", "sai gon", "quan 1", "quan 7", "tan binh", "thu duc", "binh thanh"],
   "da nang": ["da nang", "hai chau", "thanh khe", "son tra", "ngu hanh son"],
+};
+
+// Phân khu trọng điểm tại TP. Hạ Long & Quảng Ninh
+const HALONG_LOCAL_ZONES: Record<string, string[]> = {
+  "bai chay": ["bai chay", "wyndham", "sun world", "flc", "novotel", "khach san", "resort"],
+  "cai lan": ["cai lan", "cict", "cang", "kcn", "calofic", "dong tau", "container"],
+  "hon gai": ["hon gai", "hong gai", "cot 5", "benh vien", "vinmec", "le thanh tong", "bach dang"],
+  "tuan chau": ["tuan chau", "du thuyen", "dao tuan chau", "cang tuan chau"],
+  "cam pha": ["cam pha", "deo nai", "coc sau", "mong duong", "nhiet dien", "mo than"],
+  "uong bi": ["uong bi", "yen tu", "dong mai"],
+  "van don": ["van don", "san bay", "cai rong"],
 };
 
 let cachedJobs: Job[] | null = null;
@@ -174,7 +185,7 @@ export function searchJobsRealtime(
       `${job.location_province || ""} ${job.location_district || ""} ${job.location_full || ""}`
     );
 
-    // 1. Kiểm tra vị trí địa lý (Hard filter nếu có chỉ định)
+    // 1. Kiểm tra vị trí địa lý (Hard filter nếu có chỉ định tỉnh thành)
     const locArray = Array.from(locationTokens);
     if (locArray.length > 0) {
       let locMatched = false;
@@ -182,14 +193,48 @@ export function searchJobsRealtime(
         const loc = locArray[i];
         if (normLoc.includes(loc)) {
           locMatched = true;
-          score += 25;
-          reasons.push(`Thuộc khu vực phù hợp (${job.location_province || rawProvince}) (+25)`);
+          score += 35;
+          reasons.push(`Thuộc khu vực phù hợp (${job.location_province || rawProvince}) (+35)`);
           break;
         }
       }
       if (!locMatched) {
-        // Nếu tỉnh thành yêu cầu hoàn toàn không khớp thì trừ điểm nặng
-        score -= 50;
+        // Tỉnh thành yêu cầu hoàn toàn không khớp -> LOẠI BỎ NGAY LẬP TỨC (Hard Exclusion)
+        return {
+          job: {
+            ...job,
+            match_score: 0,
+            match_reasons: [],
+          },
+          score: -9999,
+        };
+      }
+    }
+
+    // 1.1 Khớp địa bàn trọng điểm nếu người dùng gõ trong ô tìm kiếm (ví dụ "IT Bãi Cháy", "Cảng Cái Lân")
+    for (const [zoneKey, zoneKeywords] of Object.entries(HALONG_LOCAL_ZONES)) {
+      if (normQ.includes(zoneKey) || zoneKeywords.some((z) => normQ.includes(z))) {
+        const zoneMatched =
+          normLoc.includes(zoneKey) ||
+          normCompany.includes(zoneKey) ||
+          zoneKeywords.some((z) => normLoc.includes(z) || normCompany.includes(z));
+        if (zoneMatched) {
+          score += 45;
+          reasons.push(`Khớp chính xác khu vực trọng điểm (${zoneKey.toUpperCase()}) (+45)`);
+        }
+      }
+    }
+
+    // 1.2 Nếu từ khóa q chứa tên tỉnh thành (ví dụ người dùng gõ "Hà Nội" trong ô tìm kiếm)
+    for (const [locKey, locSynonyms] of Object.entries(LOCATION_SYNONYMS)) {
+      if (normQ.includes(locKey) || locSynonyms.some((s) => normQ.includes(s))) {
+        const locInJob = normLoc.includes(locKey) || locSynonyms.some((s) => normLoc.includes(s));
+        if (locInJob) {
+          score += 30;
+          reasons.push(`Khớp địa bàn trong từ khóa (${locKey.toUpperCase()}) (+30)`);
+        } else {
+          score -= 50; // Trừ điểm nặng nếu người dùng gõ đích danh địa bàn mà việc làm ở nơi khác
+        }
       }
     }
 
@@ -232,6 +277,22 @@ export function searchJobsRealtime(
 
       if (normCategory.includes(normQ)) {
         score += 15;
+      }
+
+      // Ràng buộc khắt khe (Strict mode)
+      if (params.strict_mode) {
+        const fullJobHaystack = `${normTitle} ${normCompany} ${normDesc} ${normReq} ${normLoc} ${normCategory}`;
+        const hasAll = searchTokens.every((t) => fullJobHaystack.includes(t));
+        if (!hasAll) {
+          return {
+            job: {
+              ...job,
+              match_score: 0,
+              match_reasons: [],
+            },
+            score: -9999,
+          };
+        }
       }
     } else {
       // Khi không có từ khóa tìm kiếm thì điểm cơ sở

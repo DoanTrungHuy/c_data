@@ -272,6 +272,33 @@ export default function SearchBar({
             </span>
           </label>
         </div>
+
+        {/* Quick Suggestion Chips */}
+        <div className="mt-2.5 px-1 flex flex-wrap items-center gap-1.5 text-xs">
+          <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mr-1">
+            Gợi ý nhanh:
+          </span>
+          {[
+            { label: "🛰️ IT Hạ Long", q: "IT", prov: "Quảng Ninh" },
+            { label: "🏨 IT Khách Sạn Bãi Cháy", q: "Khách Sạn", prov: "Quảng Ninh" },
+            { label: "🚢 Cảng CICT Cái Lân", q: "Cái Lân", prov: "Quảng Ninh" },
+            { label: "⚡ SCADA Ngành Than", q: "Tự Động Hóa", prov: "Quảng Ninh" },
+            { label: "🏥 CNTT Vinmec Hạ Long", q: "Vinmec", prov: "Quảng Ninh" },
+            { label: "💻 FPT Telecom", q: "FPT", prov: "Quảng Ninh" },
+          ].map((chip) => (
+            <button
+              key={chip.label}
+              type="button"
+              onClick={() => {
+                setQuery(chip.q);
+                setProvince(chip.prov);
+              }}
+              className="inline-flex items-center px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-primary-50 text-slate-700 hover:text-primary-700 font-semibold text-[11px] border border-slate-200/80 transition-colors cursor-pointer"
+            >
+              <span>{chip.label}</span>
+            </button>
+          ))}
+        </div>
       </form>
 
       {/* POPUP DROPDOWN TÌM KIẾM THỜI GIAN THỰC (REAL-TIME INSTANT RESULTS) */}
