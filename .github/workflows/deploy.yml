@@ -41,6 +41,8 @@ jobs:
           python scripts/run_background_harvester_daemon.py --once
 
       - name: Run Rigorous Realtime Search & Data Quality Tests
+        env:
+          PYTHONIOENCODING: "utf-8"
         run: |
           python -u tests/test_realtime_search_and_data.py
 

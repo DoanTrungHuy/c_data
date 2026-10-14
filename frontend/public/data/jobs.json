@@ -2142,8 +2142,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
     "source_url": "https://www.wyndhamhalong.com/#it-officer-wyndham-halong",
-    "posted_at": "2026-10-14T04:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T04:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -2160,7 +2160,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -2191,8 +2191,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinpearl Hạ Long)",
     "source_url": "https://vinpearl.com/#it-helpdesk-vinpearl-dao-reu",
-    "posted_at": "2026-10-13T23:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T23:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -2209,7 +2209,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 403 - Hợp lệ",
       "role_family": "hotel_it"
@@ -3169,8 +3169,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FLC Hotels & Resorts",
     "source_url": "https://flc.vn/#it-support-flc-grand-halong",
-    "posted_at": "2026-10-14T15:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T15:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3187,7 +3187,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -3444,7 +3444,7 @@
     "salary_min": null,
     "salary_max": null,
     "salary_text": null,
-    "location_province": "",
+    "location_province": null,
     "location_district": null,
     "location_full": "",
     "job_type": "full-time",
@@ -3489,7 +3489,7 @@
     "salary_min": null,
     "salary_max": null,
     "salary_text": null,
-    "location_province": "",
+    "location_province": null,
     "location_district": null,
     "location_full": "",
     "job_type": "full-time",
@@ -3939,8 +3939,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinmec (Vingroup)",
     "source_url": "https://vinmec.com/#it-vinmec-halong-network-jci",
-    "posted_at": "2026-10-13T14:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T14:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3957,7 +3957,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it"
@@ -4036,8 +4036,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
     "source_url": "https://fpt.vn/#it-network-fpt-telecom-quang-ninh",
-    "posted_at": "2026-10-14T03:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T03:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4054,7 +4054,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it"
@@ -4085,8 +4085,8 @@
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tuyển Dụng Vinacomin - TKV",
     "source_url": "https://vinacomin.vn/#it-scada-tu-dong-hoa-tkv",
-    "posted_at": "2026-10-13T10:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T10:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4103,7 +4103,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "mining_it"
@@ -4182,8 +4182,8 @@
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Sun Group (Sun World)",
     "source_url": "https://halong.sunworld.vn/#it-network-smart-ticketing-sunworld",
-    "posted_at": "2026-10-14T12:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T12:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4200,7 +4200,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4231,8 +4231,8 @@
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Mường Thanh",
     "source_url": "https://muongthanh.com/#it-helpdesk-muong-thanh-bai-chay",
-    "posted_at": "2026-10-14T10:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T10:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4249,7 +4249,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4280,8 +4280,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Paradise Cruises)",
     "source_url": "https://www.wyndhamhalong.com/#it-paradise-cruises-tuan-chau",
-    "posted_at": "2026-10-13T23:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T23:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4298,7 +4298,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4329,8 +4329,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Yoko Onsen Quang Hanh",
     "source_url": "https://halong.sunworld.vn/#it-yoko-onsen-quang-hanh-rfid",
-    "posted_at": "2026-10-14T04:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T04:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4347,7 +4347,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4378,8 +4378,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng AccorHotels Hạ Long",
     "source_url": "https://www.wyndhamhalong.com/#it-support-novotel-halong",
-    "posted_at": "2026-10-13T17:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T17:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4396,7 +4396,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it"
@@ -4427,8 +4427,8 @@
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Bệnh Viện Tuyến Tỉnh",
     "source_url": "https://vinmec.com/#it-emr-benh-vien-bai-chay-his",
-    "posted_at": "2026-10-13T04:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T04:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4445,7 +4445,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it"
@@ -4476,8 +4476,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Y Tế Tỉnh Quảng Ninh",
     "source_url": "https://vinmec.com/#it-benh-vien-da-khoa-tinh-quang-ninh",
-    "posted_at": "2026-10-14T14:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T14:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4494,7 +4494,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it"
@@ -4525,8 +4525,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
     "source_url": "https://cict.com.vn/#it-tos-cang-cai-lan-system",
-    "posted_at": "2026-10-14T03:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T03:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4543,7 +4543,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4574,8 +4574,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (KCN Cái Lân)",
     "source_url": "https://cict.com.vn/#it-sap-erp-calofic-cai-lan",
-    "posted_at": "2026-10-13T12:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T12:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4592,7 +4592,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4623,8 +4623,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Đóng Tàu Hạ Long)",
     "source_url": "https://cict.com.vn/#it-embedded-dong-tau-ha-long",
-    "posted_at": "2026-10-13T09:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T09:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4641,7 +4641,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4672,8 +4672,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Foxconn Vietnam",
     "source_url": "https://cict.com.vn/#it-foxconn-quang-ninh-network",
-    "posted_at": "2026-10-13T15:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T15:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4690,7 +4690,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it"
@@ -4721,8 +4721,8 @@
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tuyển Dụng Nhiệt Điện",
     "source_url": "https://vinacomin.vn/#it-dcs-nhiet-dien-quang-ninh",
-    "posted_at": "2026-10-14T02:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T02:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4739,7 +4739,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "mining_it"
@@ -4770,8 +4770,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng VNPT Toàn Quốc",
     "source_url": "https://fpt.vn/#it-cloud-datacenter-vnpt-quang-ninh",
-    "posted_at": "2026-10-14T02:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T02:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4788,7 +4788,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it"
@@ -4819,8 +4819,8 @@
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Viettel Toàn Cầu",
     "source_url": "https://fpt.vn/#it-viettel-quang-ninh-solutions",
-    "posted_at": "2026-10-14T09:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T09:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4837,7 +4837,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it"
@@ -4868,8 +4868,8 @@
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Hạ Long Tech)",
     "source_url": "https://cict.com.vn/#it-frontend-halong-tech-monbay",
-    "posted_at": "2026-10-14T12:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T12:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4886,7 +4886,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "software_it"
@@ -4917,8 +4917,8 @@
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp FPT Software",
     "source_url": "https://fpt.vn/#it-backend-python-fpt-software",
-    "posted_at": "2026-10-14T10:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T10:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4935,7 +4935,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "software_it"
@@ -4966,8 +4966,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vietcombank Toàn Quốc",
     "source_url": "https://flc.vn/#it-banking-vietcombank-quang-ninh",
-    "posted_at": "2026-10-13T06:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T06:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4984,7 +4984,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it"
@@ -5015,8 +5015,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Central Retail Vietnam",
     "source_url": "https://flc.vn/#it-pos-central-retail-go-halong",
-    "posted_at": "2026-10-14T11:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-14T11:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -5033,7 +5033,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it"
@@ -5064,8 +5064,8 @@
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Cảng Hàng Không Vân Đồn",
     "source_url": "https://halong.sunworld.vn/#it-van-don-airport-systems",
-    "posted_at": "2026-10-13T22:13:49.530803",
-    "expires_at": "2026-11-18T17:13:49.530803",
+    "posted_at": "2026-10-13T22:21:20.229080",
+    "expires_at": "2026-11-18T17:21:20.229080",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -5082,7 +5082,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T17:13:49.530803+00:00",
+      "verified_at": "2026-10-14T17:21:20.229080+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it"

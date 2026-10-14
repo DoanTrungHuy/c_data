@@ -18,7 +18,13 @@ import time
 import unicodedata
 import unittest
 
-sys.stdout.reconfigure(encoding="utf-8")
+try:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+    if hasattr(sys.stderr, "reconfigure"):
+        sys.stderr.reconfigure(encoding="utf-8")
+except Exception:
+    pass
 
 JSON_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "public", "data", "jobs.json"))
 
@@ -158,11 +164,17 @@ if __name__ == "__main__":
     print("CHẠY BỘ KIỂM THỬ TỰ ĐỘNG CHUẨN XÁC DỮ LIỆU & TÌM KIẾM REALTIME")
     print("=" * 60)
     suite = unittest.TestLoader().loadTestsFromTestCase(TestRealtimeSearchAndData)
-    runner = unittest.TextTestRunner(verbosity=2)
+    runner = unittest.TextTestRunner(verbosity=2, stream=sys.stdout)
     result = runner.run(suite)
     if result.wasSuccessful():
         print("\n🎉 TẤT CẢ CÁC BÀI TEST ĐỀU ĐẠT CHUẨN XÁC 100%!")
         sys.exit(0)
     else:
         print("\n❌ CÓ BÀI TEST THẤT BẠI!")
+        for failure in result.failures:
+            print("FAILURE:", failure[0])
+            print(failure[1])
+        for error in result.errors:
+            print("ERROR:", error[0])
+            print(error[1])
         sys.exit(1)
