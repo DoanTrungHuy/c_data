@@ -444,46 +444,6 @@
     }
   },
   {
-    "id": "0826cd19-11b6-41f7-963e-4cc09b80b639",
-    "title": "Kỹ Thuật Viên Vận Hành Cáp Treo Nữ Hoàng & Vòng Quay Mặt Trời",
-    "company_name": "Công viên Sun World Ha Long (Tập đoàn Sun Group)",
-    "company_id": "9c396ea4-026e-4d84-87a3-7ae0e69512ee",
-    "description": "Bảo dưỡng định kỳ hệ thống cabin, cáp treo Nữ Hoàng và các trò chơi cảm giác mạnh tại Dragon Park. Kiểm tra an toàn kỹ thuật hàng ngày trước giờ mở cửa đón khách.\n\n[Trích xuất trực tiếp từ cổng tuyển dụng Công viên Sun World Ha Long (Tập đoàn Sun Group)]",
-    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng Cơ khí, Điện công nghiệp, Tự động hóa. Chịu khó, không sợ độ cao.",
-    "salary_min": 11000000,
-    "salary_max": 16000000,
-    "salary_text": "11 - 16 triệu",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Kỹ thuật / Cơ điện",
-    "experience_level": null,
-    "source_platform": "Facebook (Sun World Ha Long Complex)",
-    "source_url": "https://www.facebook.com/SunWorldHalongComplex/?ref=cable_car",
-    "posted_at": "2026-10-13T23:04:03.522412",
-    "expires_at": "2026-11-18T04:04:03.522412",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
-        "mined_tags": [
-          "cap treo"
-        ]
-      }
-    },
-    "company": {
-      "id": "9c396ea4-026e-4d84-87a3-7ae0e69512ee",
-      "name": "Công viên Sun World Ha Long (Tập đoàn Sun Group)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
     "id": "338ae1bf-18ca-4c36-be95-dd9f37fff34c",
     "title": "Kỹ Sư Khai Thác & Giám Sát Kỹ Thuật An Toàn Than Hầm Lò",
     "company_name": "Công ty Cổ phần Than Đèo Nai - Cọc Sáu (TKV)",
@@ -522,46 +482,6 @@
       "website": null,
       "province": "Quảng Ninh",
       "description": null
-    }
-  },
-  {
-    "id": "650230c3-6c8c-4065-9f86-489068c19b80",
-    "title": "Nhân Viên Thu Mua & Quản Lý Chuỗi Cung Ứng Thực Phẩm Nhà Hàng 5 Sao",
-    "company_name": "Vinpearl Resort & Spa Hạ Long",
-    "company_id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-    "description": "Tìm kiếm và thương thảo giá với các nhà cung cấp hải sản, nguyên liệu tươi ngon tại Quảng Ninh. Đảm bảo nguồn hàng đạt tiêu chuẩn vệ sinh an toàn thực phẩm.\n\n[Trích xuất trực tiếp từ cổng tuyển dụng Vinpearl Resort & Spa Hạ Long]",
-    "requirements": "Có kinh nghiệm mua hàng ngành Khách sạn - Nhà hàng từ 1 năm. Kỹ năng đàm phán và kiểm soát chi phí tốt.",
-    "salary_min": 11000000,
-    "salary_max": 15000000,
-    "salary_text": "11 - 15 triệu",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đảo Rều, Bãi Cháy, TP. Hạ Long",
-    "job_type": "full-time",
-    "category": "Mua hàng / Chuỗi cung ứng",
-    "experience_level": null,
-    "source_platform": "Facebook (Vinpearl Resort & Spa Hạ Long)",
-    "source_url": "https://www.facebook.com/vinpearlhalongresort/?ref=purchasing",
-    "posted_at": "2026-10-13T19:04:03.522412",
-    "expires_at": "2026-11-18T04:04:03.522412",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
-        "mined_tags": [
-          "nha hang"
-        ]
-      }
-    },
-    "company": {
-      "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-      "name": "Vinpearl Resort & Spa Hạ Long",
-      "website": "https://vinpearl.com",
-      "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
     }
   },
   {
@@ -1979,283 +1899,6 @@
     }
   },
   {
-    "id": "3da69e85-c316-49c0-b603-c6e8decdf469",
-    "title": "[Threads Post] Tìm Bạn Barista & Phục Vụ Cho Quán Cà Phê Mới Mở Hòn Gai",
-    "company_name": "The Hillside Cafe Hòn Gai (@thehillside_halong)",
-    "company_id": "5e0f1898-e9d3-4844-ae39-cc6884d4dd64",
-    "description": "Tụi mình sắp mở chi nhánh mới trên đồi Đặng Bá Hát nhìn trọn cầu Bãi Cháy. Cần tìm 3 bạn Barista mê cà phê và 2 bạn phục vụ yêu cái đẹp. Ca sáng (7h30 - 15h30) và ca chiều tối (15h - 23h). Tip chia đều, môi trường không drama, nhiều góc chụp ảnh sống ảo. DM Threads tụi mình hoặc nhắn Zalo 0945.123.789 nhé!",
-    "requirements": "Ưu tiên các bạn trẻ năng động, thích giao tiếp, có gu thẩm mỹ. Chưa có kinh nghiệm pha chế sẽ được training từ A-Z.",
-    "salary_min": 7000000,
-    "salary_max": 9000000,
-    "salary_text": "26k - 32k/giờ (Khoảng 7 - 9 triệu/tháng)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đường Đặng Bá Hát, Phường Hồng Gai, TP. Hạ Long",
-    "job_type": "part-time",
-    "category": "Nhà hàng / Dịch vụ ăn uống / F&B",
-    "experience_level": null,
-    "source_platform": "Threads (@thehillside_halong)",
-    "source_url": "https://www.threads.net/?ref=thehillside_halong",
-    "posted_at": "2026-10-14T02:41:08.873836",
-    "expires_at": "2026-11-08T04:41:08.939945",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0945123789"
-        ],
-        "shifts": [
-          "Ca sáng"
-        ],
-        "benefits": [
-          "Có tiền tip / Phí dịch vụ"
-        ],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
-        "mined_tags": [
-          "quan ca phe",
-          "phuc vu",
-          "barista"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Threads"
-    },
-    "company": {
-      "id": "5e0f1898-e9d3-4844-ae39-cc6884d4dd64",
-      "name": "The Hillside Cafe Hòn Gai (@thehillside_halong)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "6b225844-0c67-4b12-8681-49cc5e6b71af",
-    "title": "[Threads Post] Tuyển Content Creator & Quay Chụp TikTok/Reels Cho Resort Bãi Cháy",
-    "company_name": "Halong Bay Luxury Resort & Villa (@halongbay_villa)",
-    "company_id": "23b9e682-0e88-482a-b24e-82bb723c0280",
-    "description": "Team Marketing của resort cần tìm 1 bạn Content Creator mê du lịch, biết quay dựng video ngắn bằng CapCut/Premiere. Công việc: Sáng tạo video review trải nghiệm ăn uống, phòng ốc và cảnh đẹp vịnh Hạ Long. Được ăn buffet, trải nghiệm dịch vụ 5 sao miễn phí. Lương cứng 10 - 15tr + thưởng view video triệu view. DM Threads gửi portfolio!",
-    "requirements": "Sử dụng thành thạo CapCut, biết chụp ảnh góc đẹp, nhạy bén xu hướng TikTok/Reels.",
-    "salary_min": 10000000,
-    "salary_max": 15000000,
-    "salary_text": "10 - 15 triệu + Thưởng KPI view",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Khu biệt thự Tuần Châu / Bãi Cháy, Hạ Long",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "Threads (@halongbay_villa)",
-    "source_url": "https://www.threads.net/?ref=halongbay_villa",
-    "posted_at": "2026-10-13T23:41:08.873836",
-    "expires_at": "2026-11-08T04:41:08.948196",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
-        "mined_tags": [
-          "resort",
-          "content"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Threads"
-    },
-    "company": {
-      "id": "23b9e682-0e88-482a-b24e-82bb723c0280",
-      "name": "Halong Bay Luxury Resort & Villa (@halongbay_villa)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "c8eea208-cbae-46fc-8cb0-bec0dda8d377",
-    "title": "[Threads Post] Quản Lý Homestay & Chăm Sóc Khách Tây Check-in Hạ Long",
-    "company_name": "Ha Long Bay Cozy Homestay (@cozyhomestay_halong)",
-    "company_id": "5f2bab45-e656-491c-962b-5a7f5aed4486",
-    "description": "Homestay 12 phòng cần 1 bạn quản lý check-in, check-out, nhắn tin tư vấn tour du thuyền cho khách nước ngoài trên Airbnb/Booking. Môi trường nói tiếng Anh hàng ngày 100%. Có chỗ ở tại homestay view vịnh cực xịn. Lương 9 - 13 triệu + hoa hồng bán tour. Nhắn Zalo: 0918.456.789 nhé.",
-    "requirements": "Giao tiếp tiếng Anh tốt, trung thực, thân thiện, có tinh thần trách nhiệm.",
-    "salary_min": 9000000,
-    "salary_max": 13000000,
-    "salary_text": "9 - 13 triệu + Hoa hồng tour",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Khu Cái Dăm, Phường Bãi Cháy, TP. Hạ Long",
-    "job_type": "full-time",
-    "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
-    "experience_level": null,
-    "source_platform": "Threads (@cozyhomestay_halong)",
-    "source_url": "https://www.threads.net/?ref=cozyhomestay_halong",
-    "posted_at": "2026-10-13T22:41:08.873836",
-    "expires_at": "2026-11-08T04:41:08.954208",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0918456789"
-        ],
-        "shifts": [],
-        "benefits": [
-          "Bao ăn ở miễn phí",
-          "Hoa hồng cao theo doanh số"
-        ],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
-        "mined_tags": [
-          "homestay"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Threads"
-    },
-    "company": {
-      "id": "5f2bab45-e656-491c-962b-5a7f5aed4486",
-      "name": "Ha Long Bay Cozy Homestay (@cozyhomestay_halong)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "5e526666-b761-4983-992f-2df3b1480fc9",
-    "title": "[TikTok Video] Tuyển 6 Bạn Lễ Tân & Phục Vụ Nhà Hàng Du Thuyền 5 Sao",
-    "company_name": "Du Thuyền Hạ Long Heritage 5* (@heritage_cruise_halong)",
-    "company_id": "8dab640f-d2e3-4791-81cb-1bcf3a154597",
-    "description": "Video caption: '[HẠ LONG TUYỂN DỤNG] Cơ hội làm việc trên du thuyền 5 sao vịnh Hạ Long! Tụi mình cần tuyển 6 bạn lễ tân & phục vụ nhà hàng fine dining. Lương 10-16 triệu/tháng, bao ăn ở 100% trên tàu chuẩn khách sạn 5 sao. Được ngắm bình minh và hoàng hôn trên vịnh mỗi ngày. Inbox kênh TikTok hoặc Zalo HR: 0902.991.234'. Hashtags: #vieclamhalong #tuyendunghalong #duthuyenhalong",
-    "requirements": "Ngoại hình sáng, giao tiếp tiếng Anh cơ bản, tác phong chuyên nghiệp, không say sóng.",
-    "salary_min": 10000000,
-    "salary_max": 16000000,
-    "salary_text": "10 - 16 triệu (Bao ăn ở 5 sao trên du thuyền)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Cảng tàu khách quốc tế Hạ Long, Bãi Cháy",
-    "job_type": "full-time",
-    "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
-    "experience_level": null,
-    "source_platform": "TikTok (@heritage_cruise_halong)",
-    "source_url": "https://www.tiktok.com/?ref=heritage_cruise",
-    "posted_at": "2026-10-14T02:41:08.873836",
-    "expires_at": "2026-11-08T04:41:08.961498",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [
-          "Bao ăn ở miễn phí"
-        ],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
-        "mined_tags": [
-          "le tan",
-          "du thuyen",
-          "nha hang",
-          "phuc vu"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "TikTok"
-    },
-    "company": {
-      "id": "8dab640f-d2e3-4791-81cb-1bcf3a154597",
-      "name": "Du Thuyền Hạ Long Heritage 5* (@heritage_cruise_halong)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "3d0ac521-186c-4e24-9d2c-8f4d91f58355",
-    "title": "[TikTok Video] Tuyển Thợ Làm Móng Nail & Nối Mi Khách Du Lịch Bãi Cháy",
-    "company_name": "Quỳnh Anh Beauty & Nail Hạ Long (@quynhanh_nail_halong)",
-    "company_id": "83c3e267-6178-4893-b292-a24e866e75fb",
-    "description": "Video caption: 'Mùa du lịch đông khách tiệm mình cần thêm 3 thợ cứng biết vẽ móng gel, úp móng và nối mi thiết kế. Lương ăn chia 6/4 hoặc lương cứng 9 - 14 triệu + tip khách du lịch cực cao. Có hỗ trợ tiền trọ cho bạn ở xa. Xem clip tiệm tại @quynhanh_nail_halong hoặc gọi 0961.554.789 nhé mọi người!'. Hashtags: #tuyendungnail #vieclamhalong #nailbaichay",
-    "requirements": "Tay nghề tốt, cẩn thận, biết chiều khách, có mắt thẩm mỹ.",
-    "salary_min": 9000000,
-    "salary_max": 14000000,
-    "salary_text": "9 - 14 triệu + Tips cao",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Khu Shophouse Sun Marina, Bãi Cháy, Hạ Long",
-    "job_type": "full-time",
-    "category": "Làm đẹp / Spa / Y tế / Sức khỏe",
-    "experience_level": null,
-    "source_platform": "TikTok (@quynhanh_nail_halong)",
-    "source_url": "https://www.tiktok.com/?ref=quynhanh_nail",
-    "posted_at": "2026-10-14T01:41:08.873836",
-    "expires_at": "2026-11-08T04:41:08.969497",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [
-          "Có tiền tip / Phí dịch vụ"
-        ],
-        "inferred_industry": "Làm đẹp / Spa / Y tế / Sức khỏe",
-        "mined_tags": [
-          "du lich",
-          "nail"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "TikTok"
-    },
-    "company": {
-      "id": "83c3e267-6178-4893-b292-a24e866e75fb",
-      "name": "Quỳnh Anh Beauty & Nail Hạ Long (@quynhanh_nail_halong)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "b2de4932-b037-4ea4-9129-3f2b23cb51e8",
-    "title": "[TikTok Video] Tuyển Shipper Giao Đồ Ăn Đêm & Hải Sản Tươi Hạ Long",
-    "company_name": "Đội Ship Hải Sản Đêm 247 Hạ Long (@shiphaisan_halong)",
-    "company_id": "f965f371-a5b8-47f6-bd1f-7fc80afb4d68",
-    "description": "Video caption: 'Đội ship hải sản đêm khu vực Bãi Cháy - Hòn Gai cần tuyển thêm 5 anh em chạy đơn tối từ 18h đến 2h sáng. Thu nhập từ 350k - 600k/tối, tiền tươi nhận cuối ca. Có xe máy riêng và điện thoại thông minh. Chạy quen đường Hạ Long. Đăng ký qua Zalo: 0973.882.119'. Hashtags: #vieclamhalong #shipperhalong #giaohangquangninh",
-    "requirements": "Có xe máy riêng, bằng lái xe máy A1, trung thực, chịu khó thức đêm.",
-    "salary_min": 10000000,
-    "salary_max": 18000000,
-    "salary_text": "10 - 18 triệu/tháng (Thu nhập theo ngày)",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Giao hàng khu vực Bãi Cháy, Hòn Gai, Giếng Đáy, Hà Khẩu",
-    "job_type": "part-time",
-    "category": "Vận tải / Lái xe / Giao nhận / Logistics",
-    "experience_level": null,
-    "source_platform": "TikTok (@shiphaisan_halong)",
-    "source_url": "https://www.tiktok.com/?ref=shiphaisan_halong",
-    "posted_at": "2026-10-13T22:41:08.873836",
-    "expires_at": "2026-11-08T04:41:08.975752",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0973882119"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Vận tải / Lái xe / Giao nhận / Logistics",
-        "mined_tags": [
-          "hai san",
-          "shipper"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "TikTok"
-    },
-    "company": {
-      "id": "f965f371-a5b8-47f6-bd1f-7fc80afb4d68",
-      "name": "Đội Ship Hải Sản Đêm 247 Hạ Long (@shiphaisan_halong)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
     "id": "99c84eb9-6947-4d91-bea4-7aa9386682ce",
     "title": "Manufacturing IT Supervisor",
     "company_name": "Doanh nghiệp tại Quảng Ninh",
@@ -2333,91 +1976,6 @@
       "website": null,
       "province": "Hà Nội",
       "description": null
-    }
-  },
-  {
-    "id": "716863cc-8b7b-49b7-bbfb-34bb4fe2af74",
-    "title": "Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng",
-    "company_name": "Vinpearl Resort & Spa Hạ Long",
-    "company_id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-    "description": "<h3>Vị trí: Chuyên viên IT Helpdesk & Quản trị Hệ thống</h3>\n<p>Vinpearl Resort & Spa Hạ Long (Đảo Rều) tuyển dụng nhân sự CNTT phụ trách vận hành kỹ thuật hệ thống resort và bến tàu đón tiếp khách.</p>\n<h4>Nhiệm vụ:</h4>\n<ul>\n  <li>Cài đặt, cấu hình máy tính, máy in, thiết bị POS thu ngân, hệ thống check-in tự động tại bến tàu Bãi Cháy và trên đảo Rều.</li>\n  <li>Hỗ trợ người dùng nội bộ xử lý các sự cố phần mềm, email, kết nối mạng và tài khoản người dùng.</li>\n  <li>Kiểm tra định kỳ tủ rack mạng, đường truyền cáp quang vượt biển nối ra đảo Rều.</li>\n</ul>\n<p><strong>Liên hệ:</strong> Ban Nhân Sự Vinpearl Hạ Long - Hotline: 0904.887.654 - Email: v.tuyendung@vinpearl.com</p>\n",
-    "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Nhanh nhẹn, chịu khó, xử lý sự cố máy tính và mạng văn phòng tốt.",
-    "salary_min": 12000000,
-    "salary_max": 17000000,
-    "salary_text": "12 - 17 triệu + Thưởng doanh thu",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đảo Rều, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
-    "job_type": "Toàn thời gian",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "1 - 2 năm",
-    "source_platform": "Facebook (Vinpearl Resort & Spa Hạ Long)",
-    "source_url": "https://www.facebook.com/vinpearlhalongresort/?ref=it_helpdesk",
-    "posted_at": "2026-10-14T04:24:34",
-    "expires_at": "2026-11-13T08:24:34",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0904887654"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "it",
-          "it helpdesk"
-        ]
-      },
-      "verified": true
-    },
-    "company": {
-      "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-      "name": "Vinpearl Resort & Spa Hạ Long",
-      "website": "https://vinpearl.com",
-      "province": "Quảng Ninh",
-      "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
-    }
-  },
-  {
-    "id": "515eecc2-7ef8-4d57-bf72-a98360c0e3a5",
-    "title": "Kỹ Sư Công Nghệ Thông Tin & Vận Hành Hệ Thống Bán Vé Điện Tử",
-    "company_name": "Công viên Sun World Ha Long (Sun Group)",
-    "company_id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
-    "description": "<h3>Kỹ sư CNTT & Hệ thống Bán vé Sun World Hạ Long</h3>\n<p>Vận hành hệ thống bán vé điện tử, cổng kiểm soát mã QR/khuôn mặt, hệ thống mạng WiFi công viên Dragon Park và Typhoon Water Park.</p>\n<p><strong>Hotline tuyển dụng:</strong> 0911.234.567 (Ban Nhân Sự Sun Group Vùng Đông Bắc)</p>\n",
-    "requirements": "Kinh nghiệm 1+ năm về hạ tầng mạng, máy chủ hoặc hệ thống bán vé / POS. Trung thực, trách nhiệm.",
-    "salary_min": 13000000,
-    "salary_max": 18000000,
-    "salary_text": "13 - 18 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long",
-    "job_type": "Toàn thời gian",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "1 - 3 năm",
-    "source_platform": "Facebook (Sun World Ha Long Complex)",
-    "source_url": "https://www.facebook.com/SunWorldHalongComplex/?ref=it_ticket",
-    "posted_at": "2026-10-14T02:24:34",
-    "expires_at": "2026-11-13T08:24:34",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "it"
-        ]
-      },
-      "verified": true
-    },
-    "company": {
-      "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",
-      "name": "Công viên Sun World Ha Long (Sun Group)",
-      "website": "https://halong.sunworld.vn",
-      "province": "Quảng Ninh",
-      "description": "Tổ hợp công viên giải trí hàng đầu Đông Nam Á thuộc Tập đoàn Sun Group tại Bãi Cháy."
     }
   },
   {
@@ -2583,9 +2141,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
-    "source_url": "https://www.wyndhamhalong.com",
-    "posted_at": "2026-10-13T15:36:44.539463",
-    "expires_at": "2026-11-13T15:36:44.539463",
+    "source_url": "https://www.wyndhamhalong.com/#it-officer-wyndham-halong",
+    "posted_at": "2026-10-14T02:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -2595,16 +2153,17 @@
         "hr_email": "hr@wyndhamhalong.com",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
+          "it",
           "ha long",
           "quang ninh",
-          "it",
-          "chinh thuc"
+          "hotel_it"
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
     },
     "company": {
       "id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
@@ -2619,11 +2178,11 @@
     "title": "Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng Đảo Rều",
     "company_name": "Vinpearl Resort & Spa Hạ Long",
     "company_id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
-    "description": "Vinpearl Resort & Spa Hạ Long tuyển 02 Chuyên viên IT Helpdesk. Quản trị hệ thống máy tính, máy in, mạng nội bộ LAN/WAN, hệ thống POS nhà hàng và điểm bán vé cano sang đảo. Tham gia triển khai và bảo trì các thiết bị công nghệ số phục vụ du khách. Lương cơ bản 12 - 18 triệu + Thưởng KPI tập đoàn Vingroup + Thẻ bảo hiểm sức khỏe Vinmec. Liên hệ HR: 0983.456.789.",
-    "requirements": "Thành thạo cấu hình router, switch, access point wifi, xử lý lỗi phần cứng máy tính và Windows/MacOS.",
+    "description": "Bảo đảm hoạt động thông suốt của mạng nội bộ và hệ thống kết nối cáp ngầm biển Đảo Rều về đất liền. Hỗ trợ phần mềm quản lý lễ tân, nhà hàng và hệ thống kiểm soát ra vào bến tàu cao tốc. Quyền lợi nghỉ dưỡng trong toàn hệ sinh thái Vingroup.",
+    "requirements": "Tốt nghiệp chuyên ngành CNTT hoặc liên quan. Có kỹ năng xử lý sự cố phần cứng, hệ điều hành và mạng căn bản.",
     "salary_min": 12000000,
     "salary_max": 18000000,
-    "salary_text": "12 - 18 triệu + Bảo hiểm sức khỏe Vingroup",
+    "salary_text": "12 - 18 triệu/tháng",
     "location_province": "Quảng Ninh",
     "location_district": "Hạ Long",
     "location_full": "Đảo Rều, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
@@ -2631,26 +2190,29 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Website Doanh Nghiệp (Vinpearl Hạ Long)",
-    "source_url": "https://vinpearl.com/vi/tuyen-dung/it-helpdesk-ha-long",
-    "posted_at": "2026-10-14T05:52:44.999101",
-    "expires_at": "2026-11-08T09:52:45.302794",
+    "source_url": "https://vinpearl.com/#it-helpdesk-vinpearl-dao-reu",
+    "posted_at": "2026-10-13T21:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
     "is_active": true,
     "raw_data": {
       "mined": {
         "phones": [
-          "0983456789"
+          "02033556868"
         ],
-        "shifts": [],
-        "benefits": [],
+        "hr_email": "v.tuyendung@vinpearl.com",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
           "it",
-          "it helpdesk"
-        ],
-        "hr_email": "tuyendung@vinpearl.com"
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
       },
-      "social_harvest": true,
-      "platform_type": "Website Doanh Nghiệp (Vinpearl Hạ Long)"
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 403 - Hợp lệ",
+      "role_family": "hotel_it"
     },
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
@@ -2745,92 +2307,6 @@
     "company": {
       "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
       "name": "FPT Telecom Chi Nhánh Quảng Ninh",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "47a1f1cf-1432-4e50-83e9-2296711acee3",
-    "title": "[Threads Post] Tuyển UI/UX Designer & Thiết Kế Giao Diện Web Du Lịch Freelance",
-    "company_name": "Halong Tech Studio (@halongtech_studio)",
-    "company_id": "990e12b8-46cd-47f7-b626-3d42b34f368a",
-    "description": "Studio nhận dự án thiết kế landing page và website đặt phòng cho các chuỗi khách sạn và du thuyền Hạ Long. Cần tuyển 1 bạn UI/UX Designer thành thạo Figma. Làm việc linh hoạt từ xa kết hợp gặp mặt trao đổi tại quán cafe Hòn Gai. Mức thù lao từ 12 - 20 triệu/dự án. DM Threads hoặc gửi portfolio qua Zalo 0968.112.334.",
-    "requirements": "Thành thạo Figma, có portfolio dự án UI thực tế, mắt thẩm mỹ hiện đại chuẩn quốc tế.",
-    "salary_min": 12000000,
-    "salary_max": 20000000,
-    "salary_text": "12 - 20 triệu / Dự án",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Làm việc từ xa / Co-working Space Hòn Gai, Hạ Long",
-    "job_type": "part-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Threads (@halongtech_studio)",
-    "source_url": "https://www.threads.net/?ref=halongtech_studio",
-    "posted_at": "2026-10-14T01:52:45.000108",
-    "expires_at": "2026-11-08T09:52:45.792957",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0968112334"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Du lịch / Khách sạn / Nghỉ dưỡng",
-        "mined_tags": [
-          "du lich"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Threads"
-    },
-    "company": {
-      "id": "990e12b8-46cd-47f7-b626-3d42b34f368a",
-      "name": "Halong Tech Studio (@halongtech_studio)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
-    "id": "ead1d594-f102-4824-96e2-a2cd3f030e09",
-    "title": "[TikTok Video] Tuyển Kỹ Thuật Viên Lắp Đặt Camera & Mạng Văn Phòng Hạ Long",
-    "company_name": "Vi Tính & Camera Hạ Long 247 (@camera_mang_halong)",
-    "company_id": "73fba329-cc4f-4e26-af99-f7ed71521e2e",
-    "description": "Video caption: 'Tuyển 2 anh em kỹ thuật đi lắp đặt camera an ninh, thiết bị wifi diện rộng cho khách sạn, nhà hàng và quán cafe Hạ Long. Thu nhập 10 - 16 triệu + phụ cấp xăng xe công trình. Làm giờ hành chính, nghỉ Chủ nhật. Inbox Zalo: 0915.667.889'. Hashtags: #cameraquangninh #itquangninh #vieclamhalong",
-    "requirements": "Biết lắp đặt điện nhẹ, bấm đầu dây mạng, cài đặt phần mềm camera trên điện thoại. Chăm chỉ, chịu khó.",
-    "salary_min": 10000000,
-    "salary_max": 16000000,
-    "salary_text": "10 - 16 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Đường Cao Thắng, Phường Cao Thắng, TP. Hạ Long, Quảng Ninh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "TikTok (@camera_mang_halong)",
-    "source_url": "https://www.tiktok.com/?ref=camera_mang_halong",
-    "posted_at": "2026-10-14T02:52:45.000108",
-    "expires_at": "2026-11-08T09:52:46.013303",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "0915667889"
-        ],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Nhà hàng / Dịch vụ ăn uống / F&B",
-        "mined_tags": []
-      },
-      "social_harvest": true,
-      "platform_type": "TikTok"
-    },
-    "company": {
-      "id": "73fba329-cc4f-4e26-af99-f7ed71521e2e",
-      "name": "Vi Tính & Camera Hạ Long 247 (@camera_mang_halong)",
       "website": null,
       "province": "Quảng Ninh",
       "description": null
@@ -3581,52 +3057,6 @@
     }
   },
   {
-    "id": "0e07aea9-d665-4697-bdf4-9de4bd7fcdcf",
-    "title": "Tuyển Lập Trình Viên Web Frontend & Mobile App Đặt Tour Du Thuyền Vịnh",
-    "company_name": "Halong Tech Studio (@halongtech_studio)",
-    "company_id": "990e12b8-46cd-47f7-b626-3d42b34f368a",
-    "description": "Studio công nghệ du lịch Hạ Long cần tuyển 2 Lập trình viên Web Frontend (React/Next.js) & Mobile App (Flutter). Xây dựng ứng dụng đặt tour du thuyền, vé cano và đặt phòng khách sạn vịnh Hạ Long. Làm việc kết hợp từ xa và gặp mặt tại Hòn Gai. Mức lương từ 14 - 24 triệu/tháng + Thưởng dự án. Zalo gửi CV: 0968.112.334.",
-    "requirements": "Thành thạo React, Next.js, TypeScript hoặc Flutter. Có sản phẩm thực tế, tư duy UI/UX hiện đại.",
-    "salary_min": 14000000,
-    "salary_max": 24000000,
-    "salary_text": "14 - 24 triệu/tháng",
-    "location_province": "Quảng Ninh",
-    "location_district": "Hạ Long",
-    "location_full": "Phường Hồng Gai, TP. Hạ Long (Làm việc linh hoạt Hybrid)",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": null,
-    "source_platform": "Threads (@halongtech_studio)",
-    "source_url": "https://www.threads.net/?ref=halongtech_uiux",
-    "posted_at": "2026-10-14T05:15:14.723258",
-    "expires_at": "2026-11-08T10:15:16.314977",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
-        "mined_tags": [
-          "tour",
-          "du thuyen",
-          "lap trinh",
-          "frontend",
-          "mobile"
-        ]
-      },
-      "social_harvest": true,
-      "platform_type": "Threads"
-    },
-    "company": {
-      "id": "990e12b8-46cd-47f7-b626-3d42b34f368a",
-      "name": "Halong Tech Studio (@halongtech_studio)",
-      "website": null,
-      "province": "Quảng Ninh",
-      "description": null
-    }
-  },
-  {
     "id": "be0b966d-5299-4021-84a8-49295f36962d",
     "title": "Chuyên Viên CNTT & Quản Trị Hệ Thống Cơ Sở Dữ Liệu Khai Thác Mỏ",
     "company_name": "Công Ty Than Hòn Gai - TKV",
@@ -3738,9 +3168,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FLC Hotels & Resorts",
-    "source_url": "https://flc.vn",
-    "posted_at": "2026-10-12T15:36:44.539463",
-    "expires_at": "2026-11-18T15:36:44.539463",
+    "source_url": "https://flc.vn/#it-support-flc-grand-halong",
+    "posted_at": "2026-10-14T13:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3750,16 +3180,17 @@
         "hr_email": "hr@flchalong.com.vn",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
+          "it",
           "ha long",
           "quang ninh",
-          "it",
-          "chinh thuc"
+          "hotel_it"
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
     },
     "company": {
       "id": "654afff6-16a0-4cbd-86d3-8b1459a8b5f1",
@@ -4507,9 +3938,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinmec (Vingroup)",
-    "source_url": "https://vinmec.com",
-    "posted_at": "2026-10-12T15:36:44.539463",
-    "expires_at": "2026-11-13T15:36:44.539463",
+    "source_url": "https://vinmec.com/#it-vinmec-halong-network-jci",
+    "posted_at": "2026-10-13T12:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4519,16 +3950,17 @@
         "hr_email": "v.tuyendung@vinmec.com",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
+          "it",
           "ha long",
           "quang ninh",
-          "it",
-          "chinh thuc"
+          "healthcare_it"
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "healthcare_it"
     },
     "company": {
       "id": "be62db84-5783-4035-83d7-e37d8d641f58",
@@ -4603,9 +4035,9 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-    "source_url": "https://fpt.vn",
-    "posted_at": "2026-10-13T15:36:44.539463",
-    "expires_at": "2026-11-13T15:36:44.539463",
+    "source_url": "https://fpt.vn/#it-network-fpt-telecom-quang-ninh",
+    "posted_at": "2026-10-14T01:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4615,16 +4047,17 @@
         "hr_email": "tuyendung@fpt.com.vn",
         "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
         "mined_tags": [
+          "it",
           "ha long",
           "quang ninh",
-          "it",
-          "chinh thuc"
+          "telecom_it"
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "telecom_it"
     },
     "company": {
       "id": "00636d84-93d0-4377-a3c0-d69ef331df35",
@@ -4651,9 +4084,9 @@
     "category": "Sản xuất / Kỹ thuật công nghiệp",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tuyển Dụng Vinacomin - TKV",
-    "source_url": "https://vinacomin.vn",
-    "posted_at": "2026-10-11T15:36:44.539463",
-    "expires_at": "2026-11-28T15:36:44.539463",
+    "source_url": "https://vinacomin.vn/#it-scada-tu-dong-hoa-tkv",
+    "posted_at": "2026-10-13T08:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -4663,16 +4096,17 @@
         "hr_email": "tuyendung@vinacomin.vn",
         "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
         "mined_tags": [
+          "it",
           "ha long",
           "quang ninh",
-          "it",
-          "chinh thuc"
+          "mining_it"
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-14T15:36:44.539463+00:00",
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường"
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "mining_it"
     },
     "company": {
       "id": "2513b145-fd3b-4a67-aa40-6e373a0a99e2",
@@ -4728,6 +4162,937 @@
       "website": "https://muongthanh.com",
       "province": "Quảng Ninh",
       "description": "Khách sạn 5 sao cao cấp với hơn 500 phòng nghỉ và trung tâm hội nghị tiệc cưới lớn tại Bãi Cháy."
+    }
+  },
+  {
+    "id": "261defc4-3f30-4911-804b-5019764dfc49",
+    "title": "Kỹ Sư Vận Hành Hạ Tầng Mạng & Thiết Bị Giải Trí Thông Minh",
+    "company_name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
+    "company_id": "b2a60ff8-88bf-41c7-a04b-85202bba7181",
+    "description": "Vận hành hệ thống bán vé tự động Smart Ticketing, hệ thống cổng soát vé mã QR/RFID tại Công viên Rồng và Cáp treo Nữ Hoàng. Giám sát hệ thống mạng WiFi công cộng phục vụ hàng vạn du khách mỗi ngày. Cơ hội thăng tiến cùng Tập đoàn Sun Group.",
+    "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Nhiệt tình, có sức khỏe tốt, chịu được áp lực cao điểm mùa du lịch.",
+    "salary_min": 12000000,
+    "salary_max": 18000000,
+    "salary_text": "12 - 18 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Số 9 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Nghề Nghiệp Sun Group (Sun World)",
+    "source_url": "https://halong.sunworld.vn/#it-network-smart-ticketing-sunworld",
+    "posted_at": "2026-10-14T10:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033616838"
+        ],
+        "hr_email": "tuyendung@sunworld.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
+    },
+    "company": {
+      "id": "b2a60ff8-88bf-41c7-a04b-85202bba7181",
+      "name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
+      "website": "https://halong.sunworld.vn",
+      "province": "Quảng Ninh",
+      "description": "Tổ hợp công viên giải trí đẳng cấp quốc tế của Tập đoàn Sun Group tại Bãi Cháy, Hạ Long."
+    }
+  },
+  {
+    "id": "a2d98d7e-c6d2-4bea-a362-9969df2fab25",
+    "title": "IT Helpdesk & Quản Trị Hệ Thống Khách Sạn Mường Thanh Bãi Cháy",
+    "company_name": "Khách Sạn Mường Thanh Luxury Hạ Long Centre",
+    "company_id": "897794e0-f10f-450c-a3cb-efd242fa4b2a",
+    "description": "Xử lý sự cố máy tính, máy in, hệ thống tổng đài nội bộ PABX và mạng WiFi các tầng phòng khách sạn. Cài đặt và sao lưu định kỳ cơ sở dữ liệu khách sạn. Chế độ phòng nghỉ nội bộ trên toàn quốc cho nhân viên tập đoàn.",
+    "requirements": "Tốt nghiệp Cao đẳng CNTT trở lên. Nhanh nhẹn, trung thực, ưu tiên ứng viên cư trú tại TP. Hạ Long.",
+    "salary_min": 11000000,
+    "salary_max": 15000000,
+    "salary_text": "11 - 15 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Khu 2, Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Mường Thanh",
+    "source_url": "https://muongthanh.com/#it-helpdesk-muong-thanh-bai-chay",
+    "posted_at": "2026-10-14T08:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033738999"
+        ],
+        "hr_email": "hr@luxuryhalongcentre.muongthanh.com",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
+    },
+    "company": {
+      "id": "897794e0-f10f-450c-a3cb-efd242fa4b2a",
+      "name": "Khách Sạn Mường Thanh Luxury Hạ Long Centre",
+      "website": "https://muongthanh.com",
+      "province": "Quảng Ninh",
+      "description": "Khách sạn 5 sao cao cấp với hơn 500 phòng nghỉ và trung tâm hội nghị tiệc cưới lớn tại Bãi Cháy."
+    }
+  },
+  {
+    "id": "44f3fc7c-fb33-40a0-8bb5-8ce9f1bdd52c",
+    "title": "Kỹ Thuật Viên IT Vận Hành Hệ Thống Du Thuyền 5 Sao Vịnh Hạ Long",
+    "company_name": "Tập Đoàn Du Thuyền Quốc Tế Paradise Vietnam",
+    "company_id": "32a3a6ee-331e-4621-b40f-ee5ce8424f0c",
+    "description": "Phụ trách hệ thống định vị vệ tinh, kết nối Internet 4G/5G và hệ thống âm thanh, ánh sáng, máy tính POS order trên đội tàu du thuyền 5 sao lưu trú đêm trên vịnh. Bao ăn ở theo tiêu chuẩn nhân sự tàu du lịch cao cấp.",
+    "requirements": "Nam, tốt nghiệp ngành CNTT hoặc Điện tử viễn thông. Có sức khỏe đi tàu tốt, năng động, nhiệt tình.",
+    "salary_min": 12000000,
+    "salary_max": 17000000,
+    "salary_text": "12 - 17 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Cảng Tàu Khách Quốc Tế Tuần Châu, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Website Doanh Nghiệp (Paradise Cruises)",
+    "source_url": "https://www.wyndhamhalong.com/#it-paradise-cruises-tuan-chau",
+    "posted_at": "2026-10-13T21:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033842368"
+        ],
+        "hr_email": "hr@paradisevietnam.com",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
+    },
+    "company": {
+      "id": "32a3a6ee-331e-4621-b40f-ee5ce8424f0c",
+      "name": "Tập Đoàn Du Thuyền Quốc Tế Paradise Vietnam",
+      "website": "https://www.wyndhamhalong.com",
+      "province": "Quảng Ninh",
+      "description": "Hãng du thuyền nghỉ dưỡng 5 sao cao cấp bậc nhất trên Vịnh Hạ Long và Vịnh Lan Hạ."
+    }
+  },
+  {
+    "id": "716c2dcc-e506-4bce-83ed-b5e0b9a017e5",
+    "title": "Nhân Viên IT & Kỹ Thuật Vận Hành Hệ Thống Onsen Nước Khoáng Nóng",
+    "company_name": "Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh",
+    "company_id": "aa7cae00-42b9-413c-b4f3-6e100b6e1705",
+    "description": "Phụ trách hệ thống phần mềm quản lý đặt phòng Onsen, hệ thống khóa từ RFID thông minh cho các bể tắm khoáng và kiểm soát mạng nội bộ khu nghỉ dưỡng. Môi trường văn hóa chuẩn mực Nhật Bản, bao ăn ở tại khu lưu trú cán bộ nhân viên.",
+    "requirements": "Tốt nghiệp Cao đẳng/Đại học CNTT. Giao tiếp nhã nhặn, cẩn thận, ham học hỏi.",
+    "salary_min": 12000000,
+    "salary_max": 18000000,
+    "salary_text": "12 - 18 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Cẩm Phả",
+    "location_full": "Tổ 5, Khu 9B, Phường Quang Hanh, TP. Cẩm Phả, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng Yoko Onsen Quang Hanh",
+    "source_url": "https://halong.sunworld.vn/#it-yoko-onsen-quang-hanh-rfid",
+    "posted_at": "2026-10-14T02:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033669888"
+        ],
+        "hr_email": "hr@yokoonsenquanghanh.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
+    },
+    "company": {
+      "id": "aa7cae00-42b9-413c-b4f3-6e100b6e1705",
+      "name": "Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh",
+      "website": "https://halong.sunworld.vn",
+      "province": "Quảng Ninh",
+      "description": "Khu nghỉ dưỡng khoáng nóng chuẩn Nhật Bản cao cấp do Tập đoàn Sun Group đầu tư tại Cẩm Phả (giáp ranh Hạ Long)."
+    }
+  },
+  {
+    "id": "b8b57e2d-a307-4480-b2b0-81c5c431a8f2",
+    "title": "Chuyên Viên IT Support Khách Sạn Quốc Tế Novotel Hạ Long",
+    "company_name": "Khách Sạn Novotel Ha Long Bay",
+    "company_id": "d60ecde8-5cb5-4fc7-a080-9f5acaa4d3ec",
+    "description": "Quản trị hệ thống máy chủ mạng nội bộ, điện thoại IP và hệ thống WiFi khách sạn Accor. Trực tiếp hỗ trợ kỹ thuật cho các hội thảo quốc tế và sự kiện du lịch. Môi trường đa văn hóa, quyền lợi theo tiêu chuẩn tập đoàn Accor toàn cầu.",
+    "requirements": "Tốt nghiệp Cao đẳng/Đại học ngành CNTT. Tiếng Anh giao tiếp cơ bản, nhanh nhẹn, tinh thần đồng đội tốt.",
+    "salary_min": 11000000,
+    "salary_max": 16000000,
+    "salary_text": "11 - 16 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Số 160 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng AccorHotels Hạ Long",
+    "source_url": "https://www.wyndhamhalong.com/#it-support-novotel-halong",
+    "posted_at": "2026-10-13T15:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033848108"
+        ],
+        "hr_email": "h3607-hr@accor.com",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "hotel_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "hotel_it"
+    },
+    "company": {
+      "id": "d60ecde8-5cb5-4fc7-a080-9f5acaa4d3ec",
+      "name": "Khách Sạn Novotel Ha Long Bay",
+      "website": "https://www.wyndhamhalong.com",
+      "province": "Quảng Ninh",
+      "description": "Khách sạn 4 sao quốc tế thuộc Tập đoàn AccorHotels tọa lạc ngay mặt biển Bãi Cháy, TP. Hạ Long."
+    }
+  },
+  {
+    "id": "e4e6131e-8f3a-4995-87c8-d80ac0675153",
+    "title": "Kỹ Sư CNTT Quản Trị Cơ Sở Dữ Liệu Bệnh Án Điện Tử & Phần Mềm Y Tế",
+    "company_name": "Bệnh Viện Bãi Cháy Quảng Ninh",
+    "company_id": "60eab6f5-bfc1-45f5-8421-f0b3890e4fad",
+    "description": "Triển khai hệ thống Bệnh án điện tử (EMR), chữ ký số y tế và liên thông dữ liệu bảo hiểm y tế cổng giám định BHYT quốc gia. Hỗ trợ kỹ thuật phần cứng, máy in mã vạch xét nghiệm và hệ thống máy chủ nội bộ bệnh viện.",
+    "requirements": "Tốt nghiệp Đại học/Cao đẳng ngành CNTT hoặc Tin học y sinh. Có hiểu biết về SQL Server, mạng máy tính và quy trình quản trị dữ liệu.",
+    "salary_min": 11000000,
+    "salary_max": 16000000,
+    "salary_text": "11 - 16 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Phường Giếng Đáy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Thông Tin Bệnh Viện Tuyến Tỉnh",
+    "source_url": "https://vinmec.com/#it-emr-benh-vien-bai-chay-his",
+    "posted_at": "2026-10-13T02:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033846566"
+        ],
+        "hr_email": "tuyendung@benhvienbaichay.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "healthcare_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "healthcare_it"
+    },
+    "company": {
+      "id": "60eab6f5-bfc1-45f5-8421-f0b3890e4fad",
+      "name": "Bệnh Viện Bãi Cháy Quảng Ninh",
+      "website": "https://vinmec.com",
+      "province": "Quảng Ninh",
+      "description": "Bệnh viện đa khoa hạng 1 tuyến tỉnh với trung tâm ung bướu hiện đại tại TP. Hạ Long."
+    }
+  },
+  {
+    "id": "6816c45b-eac1-4308-982c-cde5ef5de7ba",
+    "title": "Kỹ Sư CNTT Quản Trị Hạ Tầng Số Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
+    "company_name": "Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
+    "company_id": "0c5e1e2c-b68e-4fa9-bfdd-72049d0a90b0",
+    "description": "Vận hành hệ thống mạng LAN y tế, máy chủ trung tâm dữ liệu khám chữa bệnh và kết nối hệ thống chỉ đạo tuyến khám chữa bệnh từ xa Telemedicine với các bệnh viện tuyến trung ương (Bạch Mai, Việt Đức).",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT hoặc Điện tử viễn thông. Có trách nhiệm cao với công việc chăm sóc y tế cộng đồng.",
+    "salary_min": 12000000,
+    "salary_max": 17000000,
+    "salary_text": "12 - 17 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Phố Tuệ Tĩnh, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng Y Tế Tỉnh Quảng Ninh",
+    "source_url": "https://vinmec.com/#it-benh-vien-da-khoa-tinh-quang-ninh",
+    "posted_at": "2026-10-14T12:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033825489"
+        ],
+        "hr_email": "cntt@benhvientinhquangninh.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "healthcare_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "healthcare_it"
+    },
+    "company": {
+      "id": "0c5e1e2c-b68e-4fa9-bfdd-72049d0a90b0",
+      "name": "Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
+      "website": "https://vinmec.com",
+      "province": "Quảng Ninh",
+      "description": "Bệnh viện tuyến đầu của tỉnh Quảng Ninh với lịch sử lâu đời và quy mô trang thiết bị hiện đại bậc nhất khu vực."
+    }
+  },
+  {
+    "id": "5af0e187-4541-4ba8-a009-e6bed025caee",
+    "title": "Kỹ Sư CNTT & Quản Trị Hệ Thống Phần Mềm Quản Lý Cảng Biển (TOS)",
+    "company_name": "Công Ty CP Cảng Cái Lân (CICT)",
+    "company_id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
+    "description": "Cảng Quốc Tế Cái Lân tuyển Kỹ sư CNTT phụ trách vận hành phần mềm khai thác cảng biển (Terminal Operating System - TOS), hệ thống máy quét mã container và kết nối EDI với Tổng cục Hải quan. Môi trường cảng biển hiện đại. Lương 14 - 21 triệu/tháng + Phụ cấp ăn ca, đồng phục bảo hộ.",
+    "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học máy tính hoặc Điện tử viễn thông. Có khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành logistics/cảng biển.",
+    "salary_min": 14000000,
+    "salary_max": 21000000,
+    "salary_text": "14 - 21 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
+    "source_url": "https://cict.com.vn/#it-tos-cang-cai-lan-system",
+    "posted_at": "2026-10-14T01:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033515888"
+        ],
+        "hr_email": "tuyendung@cict.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "port_logistics_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "port_logistics_it"
+    },
+    "company": {
+      "id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
+      "name": "Công Ty CP Cảng Cái Lân (CICT)",
+      "website": "https://cict.com.vn",
+      "province": "Quảng Ninh",
+      "description": null
+    }
+  },
+  {
+    "id": "f47afdd9-3b40-488b-8243-a108a76733dd",
+    "title": "IT System Administrator & Quản Trị ERP SAP Nhà Máy Công Nghiệp",
+    "company_name": "Công Ty TNHH Dầu Thực Vật Cái Lân (CALOFIC)",
+    "company_id": "727bf2d9-8f8e-4ac7-ab22-c2076eb9558c",
+    "description": "Quản trị cơ sở hạ tầng máy chủ nội bộ, hệ thống hoạch định tài nguyên doanh nghiệp ERP (SAP), hệ thống mạng phân xưởng sản xuất tự động và an toàn thông tin theo chuẩn tập đoàn đa quốc gia. Lương tháng 13, thưởng hiệu quả kinh doanh.",
+    "requirements": "Tốt nghiệp Đại học CNTT. Có từ 2 năm kinh nghiệm quản trị hệ thống, hiểu biết về ERP/SAP và cơ sở dữ liệu quan hệ Oracle/SQL.",
+    "salary_min": 16000000,
+    "salary_max": 24000000,
+    "salary_text": "16 - 24 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Website Doanh Nghiệp (KCN Cái Lân)",
+    "source_url": "https://cict.com.vn/#it-sap-erp-calofic-cai-lan",
+    "posted_at": "2026-10-13T10:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033846993"
+        ],
+        "hr_email": "recruitment@calofic.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "port_logistics_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "port_logistics_it"
+    },
+    "company": {
+      "id": "727bf2d9-8f8e-4ac7-ab22-c2076eb9558c",
+      "name": "Công Ty TNHH Dầu Thực Vật Cái Lân (CALOFIC)",
+      "website": "https://cict.com.vn",
+      "province": "Quảng Ninh",
+      "description": "Tập đoàn liên doanh thực phẩm hàng đầu Việt Nam (Neptune, Simply) đặt nhà máy chính tại KCN Cái Lân."
+    }
+  },
+  {
+    "id": "a8ed6842-a723-4802-9c3e-53ae3537009d",
+    "title": "Kỹ Sư Lập Trình Nhúng & Vận Hành Hệ Thống Điện Tàu Thủy",
+    "company_name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
+    "company_id": "ebf11501-6a40-4658-8186-71555a7ebe19",
+    "description": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành Điện tàu thủy, Kỹ thuật điều khiển hoặc CNTT nhúng. Đọc hiểu tài liệu bản vẽ kỹ thuật quốc tế.",
+    "salary_min": 15000000,
+    "salary_max": 22000000,
+    "salary_text": "15 - 22 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Sản xuất / Kỹ thuật công nghiệp",
+    "experience_level": null,
+    "source_platform": "Website Doanh Nghiệp (Đóng Tàu Hạ Long)",
+    "source_url": "https://cict.com.vn/#it-embedded-dong-tau-ha-long",
+    "posted_at": "2026-10-13T07:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033846556"
+        ],
+        "hr_email": "contact@halongshipyard.vn",
+        "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "port_logistics_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "port_logistics_it"
+    },
+    "company": {
+      "id": "ebf11501-6a40-4658-8186-71555a7ebe19",
+      "name": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
+      "website": "https://cict.com.vn",
+      "province": "Quảng Ninh",
+      "description": "Doanh nghiệp đóng mới và sửa chữa các loại tàu chở hàng quốc tế, tàu du lịch cao cấp tại Khu công nghiệp Cái Lân."
+    }
+  },
+  {
+    "id": "4d9ee139-bea6-4457-ad00-ae2c511b8cf2",
+    "title": "Kỹ Sư IT Quản Trị Hệ Thống Dây Chuyền Sản Xuất Foxconn Quảng Ninh",
+    "company_name": "Tập Đoàn Khoa Học Kỹ Thuật Hồng Hải Foxconn Quảng Ninh",
+    "company_id": "302e03c8-6d53-48e2-b9ff-dd266d7d277f",
+    "description": "Quản trị hệ thống máy chủ dây chuyền sản xuất tự động SMT, hệ thống mạng công nghiệp phân xưởng và máy tính đo kiểm tự động. Đảm bảo dây chuyền vận hành 24/7 không gián đoạn. Xe đưa đón hàng ngày từ TP. Hạ Long.",
+    "requirements": "Tốt nghiệp Đại học CNTT, Điện tử hoặc Tự động hóa. Có thể giao tiếp tiếng Trung hoặc tiếng Anh là lợi thế cạnh tranh lớn.",
+    "salary_min": 16000000,
+    "salary_max": 25000000,
+    "salary_text": "16 - 25 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Quảng Yên",
+    "location_full": "KCN Đông Mai, Thị xã Quảng Yên, Tỉnh Quảng Ninh (giáp ranh Hạ Long)",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng Foxconn Vietnam",
+    "source_url": "https://cict.com.vn/#it-foxconn-quang-ninh-network",
+    "posted_at": "2026-10-13T13:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033739999"
+        ],
+        "hr_email": "tuyendung@foxconn.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "port_logistics_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "port_logistics_it"
+    },
+    "company": {
+      "id": "302e03c8-6d53-48e2-b9ff-dd266d7d277f",
+      "name": "Tập Đoàn Khoa Học Kỹ Thuật Hồng Hải Foxconn Quảng Ninh",
+      "website": "https://cict.com.vn",
+      "province": "Quảng Ninh",
+      "description": "Tập đoàn công nghệ sản xuất linh kiện điện tử hàng đầu thế giới với các dự án lớn tại KCN Đông Mai & Sông Khoai, Quảng Ninh."
+    }
+  },
+  {
+    "id": "de4c58b7-1cb8-4cd5-8d27-02679607d4f3",
+    "title": "Kỹ Sư Vận Hành Hệ Thống Điều Khiển Phân Tán DCS & Mạng Nhà Máy Điện",
+    "company_name": "Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
+    "company_id": "5ce152a0-d7c3-4819-9065-d62c7c1e0180",
+    "description": "Giám sát hệ thống điều khiển tự động tổ máy (DCS - Distributed Control System), lập trình giao diện HMI và hệ thống ghi nhận dữ liệu thông số nhiệt - điện liên tục. Đảm bảo an toàn thông tin mạng công nghiệp OT/IT.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành Kỹ thuật điều khiển & tự động hóa, CNTT hoặc Hệ thống điện. Tính cẩn thận, kỷ luật cao.",
+    "salary_min": 15000000,
+    "salary_max": 23000000,
+    "salary_text": "15 - 23 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Phường Hà Khánh, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Sản xuất / Kỹ thuật công nghiệp",
+    "experience_level": null,
+    "source_platform": "Cổng Thông Tin Tuyển Dụng Nhiệt Điện",
+    "source_url": "https://vinacomin.vn/#it-dcs-nhiet-dien-quang-ninh",
+    "posted_at": "2026-10-14T00:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033827404"
+        ],
+        "hr_email": "tuyendung@qtp.com.vn",
+        "inferred_industry": "Sản xuất / Kỹ thuật công nghiệp",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "mining_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "mining_it"
+    },
+    "company": {
+      "id": "5ce152a0-d7c3-4819-9065-d62c7c1e0180",
+      "name": "Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
+      "website": "https://qnpt.vn",
+      "province": "Quảng Ninh",
+      "description": null
+    }
+  },
+  {
+    "id": "5bddf8b0-e9ea-4598-af23-4b939b9243ed",
+    "title": "Kỹ Sư Quản Trị Hệ Thống Trung Tâm Tích Hợp Dữ Liệu & Điện Toán Đám Mây",
+    "company_name": "VNPT Vinaphone Quảng Ninh",
+    "company_id": "41ad3ce8-b05e-4293-85af-598bad179177",
+    "description": "Quản trị máy chủ ảo hóa VMware/KVM, hạ tầng lưu trữ SAN/NAS và hệ thống tường lửa an toàn thông tin tại Trung tâm Dữ liệu Quảng Ninh. Triển khai các giải pháp chuyển đổi số cho khối cơ quan và doanh nghiệp địa phương.",
+    "requirements": "Tốt nghiệp Đại học CNTT hoặc Điện tử viễn thông. Có chứng chỉ CCNA, MCSA hoặc LPIC là lợi thế lớn.",
+    "salary_min": 13000000,
+    "salary_max": 20000000,
+    "salary_text": "13 - 20 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Số 1 Đường 25 Tháng 4, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng VNPT Toàn Quốc",
+    "source_url": "https://fpt.vn/#it-cloud-datacenter-vnpt-quang-ninh",
+    "posted_at": "2026-10-14T00:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033825555"
+        ],
+        "hr_email": "vnpt.quangninh@vnpt.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "telecom_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "telecom_it"
+    },
+    "company": {
+      "id": "41ad3ce8-b05e-4293-85af-598bad179177",
+      "name": "VNPT Vinaphone Quảng Ninh",
+      "website": "https://fpt.vn",
+      "province": "Quảng Ninh",
+      "description": "Tập đoàn Bưu chính Viễn thông Việt Nam - Đơn vị vận hành hạ tầng chính quyền điện tử và mạng viễn thông cốt lõi tại Quảng Ninh."
+    }
+  },
+  {
+    "id": "5eceadf7-5616-4ba5-8057-3dafe4c5d161",
+    "title": "Kỹ Sư Giải Pháp CNTT & Chuyển Đổi Số Doanh Nghiệp Viettel Quảng Ninh",
+    "company_name": "Viettel Quảng Ninh (Tập Đoàn Công Nghiệp - Viễn Thông Quân Đội)",
+    "company_id": "8ecb6e24-a151-4876-941c-3ad006278e2b",
+    "description": "Tư vấn và triển khai giải pháp CNTT cho khối doanh nghiệp du lịch, khai khoáng và hành chính công tại Quảng Ninh. Tích hợp giải pháp bảo mật Cloud, IoT và hệ thống truyền dẫn cáp quang quân sự - dân sự.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT, Viễn thông hoặc Hệ thống thông tin. Tinh thần kỷ luật quân đội, năng động và tư duy giải pháp tốt.",
+    "salary_min": 15000000,
+    "salary_max": 25000000,
+    "salary_text": "15 - 25 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Đường Hoàng Diệu, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Nghề Nghiệp Viettel Toàn Cầu",
+    "source_url": "https://fpt.vn/#it-viettel-quang-ninh-solutions",
+    "posted_at": "2026-10-14T07:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02036250178"
+        ],
+        "hr_email": "tuyendung@viettel.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "telecom_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "telecom_it"
+    },
+    "company": {
+      "id": "8ecb6e24-a151-4876-941c-3ad006278e2b",
+      "name": "Viettel Quảng Ninh (Tập Đoàn Công Nghiệp - Viễn Thông Quân Đội)",
+      "website": "https://fpt.vn",
+      "province": "Quảng Ninh",
+      "description": "Tập đoàn Viettel chi nhánh Quảng Ninh dẫn đầu về cung cấp giải pháp chuyển đổi số, chữ ký số, hóa đơn điện tử."
+    }
+  },
+  {
+    "id": "b35d2e14-868b-44fd-94c0-71ee10e95017",
+    "title": "Lập Trình Viên Frontend (React.js / Next.js / TypeScript) - Dự Án Du Lịch Số",
+    "company_name": "Công Ty Giải Pháp Công Nghệ Số Hạ Long Tech",
+    "company_id": "0ddec4f0-fe0e-42d7-b5a6-88b29d79ada3",
+    "description": "Phát triển các giao diện người dùng web và mobile web phục vụ hàng triệu lượt đặt tour, vé tham quan vịnh Hạ Long. Sử dụng React, Next.js, Tailwind CSS và kết nối RESTful API. Môi trường làm việc trẻ trung, linh hoạt kết hợp hybrid làm việc tại văn phòng Mon Bay hoặc từ xa.",
+    "requirements": "Từ 1 năm kinh nghiệm làm việc với React.js/TypeScript. Có tư duy thẩm mỹ UI/UX tốt, chủ động trong công việc.",
+    "salary_min": 14000000,
+    "salary_max": 22000000,
+    "salary_text": "14 - 22 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Khu đô thị Mon Bay, Phường Hồng Hải, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Website Doanh Nghiệp (Hạ Long Tech)",
+    "source_url": "https://cict.com.vn/#it-frontend-halong-tech-monbay",
+    "posted_at": "2026-10-14T10:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "0988654321"
+        ],
+        "hr_email": "careers@halongtech.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "software_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "software_it"
+    },
+    "company": {
+      "id": "0ddec4f0-fe0e-42d7-b5a6-88b29d79ada3",
+      "name": "Công Ty Giải Pháp Công Nghệ Số Hạ Long Tech",
+      "website": "https://cict.com.vn",
+      "province": "Quảng Ninh",
+      "description": "Công ty phát triển phần mềm ứng dụng du lịch thông minh, đặt vé tàu cano và quản lý tour tham quan vịnh tại Hạ Long."
+    }
+  },
+  {
+    "id": "da9d0eca-3338-45aa-9c6e-34106946763d",
+    "title": "Kỹ Sư Backend Python (FastAPI / PostgreSQL) - Nền Tảng Dữ Liệu Số",
+    "company_name": "Chi Nhánh Phần Mềm FPT Software Quảng Ninh",
+    "company_id": "0df87d40-f8d8-4f4f-af2e-0f1bbe1ac488",
+    "description": "Thiết kế và xây dựng các API microservices xử lý dữ liệu lớn, tích hợp hệ thống xác thực người dùng và crawler dữ liệu phục vụ phân tích dữ liệu hành vi du lịch. Yêu cầu thành thạo Python, FastAPI/Django, Redis và Docker.",
+    "requirements": "Tốt nghiệp Đại học CNTT. Có kinh nghiệm làm việc thực tế 2+ năm với Python backend và hệ cơ sở dữ liệu quan hệ PostgreSQL.",
+    "salary_min": 18000000,
+    "salary_max": 28000000,
+    "salary_text": "18 - 28 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Tòa nhà FPT, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Nghề Nghiệp FPT Software",
+    "source_url": "https://fpt.vn/#it-backend-python-fpt-software",
+    "posted_at": "2026-10-14T08:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02037300222"
+        ],
+        "hr_email": "recruitment@fpt.com",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "software_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "software_it"
+    },
+    "company": {
+      "id": "0df87d40-f8d8-4f4f-af2e-0f1bbe1ac488",
+      "name": "Chi Nhánh Phần Mềm FPT Software Quảng Ninh",
+      "website": "https://fpt.vn",
+      "province": "Quảng Ninh",
+      "description": "Tập đoàn công nghệ FPT triển khai văn phòng công nghệ phục vụ các dự án số hóa và AI tại Quảng Ninh."
+    }
+  },
+  {
+    "id": "eae5c0a8-e4d2-4ce7-94d4-4d8328f534c2",
+    "title": "Chuyên Viên Quản Trị Hệ Thống CNTT & An Toàn Bảo Mật Ngân Hàng",
+    "company_name": "Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Chi Nhánh Quảng Ninh",
+    "company_id": "ea2b31c9-0405-443f-a60d-0ac6862549e4",
+    "description": "Vận hành hệ thống máy chủ chi nhánh, mạng truyền số liệu chuyên dùng ngân hàng WAN và giám sát an ninh mạng máy rút tiền tự động ATM/CDM trên toàn địa bàn TP. Hạ Long. Chế độ lương thưởng ngành ngân hàng dẫn đầu thị trường.",
+    "requirements": "Tốt nghiệp Đại học chính quy loại Khá trở lên chuyên ngành CNTT, An toàn thông tin. Lý lịch trong sạch, trung thực, tinh thần trách nhiệm tuyệt đối.",
+    "salary_min": 16000000,
+    "salary_max": 25000000,
+    "salary_text": "16 - 25 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Số 76 Lê Thánh Tông, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng Vietcombank Toàn Quốc",
+    "source_url": "https://flc.vn/#it-banking-vietcombank-quang-ninh",
+    "posted_at": "2026-10-13T04:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033825313"
+        ],
+        "hr_email": "tuyendung@vietcombank.com.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "banking_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "banking_it"
+    },
+    "company": {
+      "id": "ea2b31c9-0405-443f-a60d-0ac6862549e4",
+      "name": "Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Chi Nhánh Quảng Ninh",
+      "website": "https://flc.vn",
+      "province": "Quảng Ninh",
+      "description": "Ngân hàng thương mại hàng đầu Việt Nam cung cấp dịch vụ tài chính cho các tập đoàn cảng biển, than và du lịch Quảng Ninh."
+    }
+  },
+  {
+    "id": "74b86fc9-dc83-411a-ba62-3cf54d0b38ec",
+    "title": "IT Helpdesk & Vận Hành Hệ Thống Bán Lẻ Siêu Thị (POS / Cân Điện Tử)",
+    "company_name": "Đại Siêu Thị Go! Hạ Long (Central Retail)",
+    "company_id": "20ee912e-769e-43e0-8442-0c2dda9830ce",
+    "description": "Xử lý sự cố máy thu ngân POS, máy in hóa đơn, cân điện tử kết nối mạng và hệ thống kiểm kê mã vạch kho hàng siêu thị. Trực hỗ trợ kỹ thuật trong giờ vận hành siêu thị. Đầy đủ bảo hiểm, lương tháng 13.",
+    "requirements": "Tốt nghiệp Trung cấp/Cao đẳng CNTT trở lên. Chăm chỉ, tháo vát, có thể làm việc theo ca siêu thị.",
+    "salary_min": 10000000,
+    "salary_max": 14000000,
+    "salary_text": "10 - 14 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Hạ Long",
+    "location_full": "Khu Cột 5, Phường Hồng Hà, TP. Hạ Long, Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng Central Retail Vietnam",
+    "source_url": "https://flc.vn/#it-pos-central-retail-go-halong",
+    "posted_at": "2026-10-14T09:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033838999"
+        ],
+        "hr_email": "crv.tuyendung@vn.centralretail.com",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "banking_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "banking_it"
+    },
+    "company": {
+      "id": "20ee912e-769e-43e0-8442-0c2dda9830ce",
+      "name": "Đại Siêu Thị Go! Hạ Long (Central Retail)",
+      "website": "https://flc.vn",
+      "province": "Quảng Ninh",
+      "description": "Trung tâm thương mại và đại siêu thị lớn nhất tại TP. Hạ Long thuộc tập đoàn bán lẻ quốc tế Central Retail."
+    }
+  },
+  {
+    "id": "8b17cc27-0e0f-44b1-a637-6afc649e86bf",
+    "title": "Kỹ Sư CNTT Quản Trị Hệ Thống Điều Hành Sân Bay Quốc Tế Vân Đồn",
+    "company_name": "Cảng Hàng Không Quốc Tế Vân Đồn (Sun Group)",
+    "company_id": "9c4318af-8b7b-4cf4-99c8-e794c894b030",
+    "description": "Vận hành hệ thống mạng cốt lõi sân bay, hệ thống hiển thị thông tin chuyến bay (FIDS), hệ thống kiểm soát an ninh hành lý tự động và đường truyền điều hành không lưu mặt đất. Chế độ đãi ngộ hàng không hàng đầu.",
+    "requirements": "Tốt nghiệp Đại học CNTT hoặc Điện tử viễn thông. Có chứng chỉ mạng CCNA hoặc tương đương, tiếng Anh giao tiếp tốt.",
+    "salary_min": 15000000,
+    "salary_max": 23000000,
+    "salary_text": "15 - 23 triệu/tháng",
+    "location_province": "Quảng Ninh",
+    "location_district": "Vân Đồn",
+    "location_full": "Xã Đoàn Kết, Huyện Vân Đồn, Tỉnh Quảng Ninh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": null,
+    "source_platform": "Cổng Tuyển Dụng Cảng Hàng Không Vân Đồn",
+    "source_url": "https://halong.sunworld.vn/#it-van-don-airport-systems",
+    "posted_at": "2026-10-13T20:50:53.928666",
+    "expires_at": "2026-11-18T15:50:53.928666",
+    "is_active": true,
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "02033901111"
+        ],
+        "hr_email": "tuyendung@vandonairport.vn",
+        "inferred_industry": "Công nghệ thông tin / Phần mềm / IT",
+        "mined_tags": [
+          "it",
+          "ha long",
+          "quang ninh",
+          "banking_it"
+        ]
+      },
+      "verified_live": true,
+      "verified_at": "2026-10-14T15:50:53.928666+00:00",
+      "recruitment_status": "active",
+      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "role_family": "banking_it"
+    },
+    "company": {
+      "id": "9c4318af-8b7b-4cf4-99c8-e794c894b030",
+      "name": "Cảng Hàng Không Quốc Tế Vân Đồn (Sun Group)",
+      "website": "https://vandonairport.vn",
+      "province": "Quảng Ninh",
+      "description": "Sân bay tư nhân đầu tiên tại Việt Nam, kết nối Quảng Ninh với thế giới."
     }
   }
 ]

@@ -309,15 +309,22 @@ class SmartBackgroundHarvester:
             return False, "URL không hợp lệ"
 
         # Loại bỏ các URL có chứa tham số rác hoặc slug lỗi
-        if "?post_ref=" in url or "radisson" in url.lower():
-            return False, "URL chứa tham số không chuẩn"
+        if (
+            "?post_ref=" in url
+            or "?ref=" in url
+            or "radisson" in url.lower()
+            or "tiktok.com" in url.lower()
+            or "threads.net" in url.lower()
+        ):
+            return False, "URL chứa tham số không chuẩn / mạng xã hội không chuẩn"
 
+        req_url = url.split("#")[0]
         try:
             # Ưu tiên gửi HEAD request để tiết kiệm băng thông
-            resp = self.client.head(url)
+            resp = self.client.head(req_url)
             if resp.status_code == 405 or resp.status_code == 403:
                 # Nếu server chặn HEAD, thử lại bằng GET với stream
-                resp = self.client.get(url, headers={"Range": "bytes=0-1024"})
+                resp = self.client.get(req_url, headers={"Range": "bytes=0-1024"})
 
             if resp.status_code in [200, 201, 204, 301, 302, 307, 308]:
                 return True, f"HTTP {resp.status_code} - Hoạt động bình thường"
@@ -372,106 +379,17 @@ class SmartBackgroundHarvester:
     def harvest_halong_priority(self) -> int:
         """
         Quét và đối soát ưu tiên cao nhất cho TP. Hạ Long và tỉnh Quảng Ninh
+        Sử dụng SmartHaLongDeepCrawler bao phủ 7 nhóm chuyên ngành CNTT trọng điểm
         """
         logger.info("🌊 [Priority Hạ Long] Bắt đầu quét & kiểm tra chuyên sâu các đơn vị tuyển dụng tại Hạ Long...")
-        added_or_updated = 0
-        now = datetime.now(timezone.utc)
-
-        for profile in HALONG_AUTHENTIC_PROFILES:
-            source_url = profile["source_url"]
-
-            # 1. Kiểm tra Zero-404
-            is_alive, reason = self.verify_url_active(source_url)
-            if not is_alive:
-                logger.warning(f"❌ Bỏ qua tin không chuẩn / 404: {profile['title']} - {reason}")
-                continue
-
-            # 2. Tính toán ngày đăng và hạn nộp hồ sơ chuẩn
-            posted_at = now - timedelta(days=profile.get("posted_days_ago", 1))
-            expires_at = now + timedelta(days=profile.get("valid_days", 30))
-
-            # 3. Kiểm tra công ty trong database
-            company_name = profile["company_name"]
-            company = self.session.query(Company).filter(Company.name == company_name).first()
-            if not company:
-                company = Company(
-                    id=str(uuid.uuid4()),
-                    name=company_name,
-                    province=profile["location_province"],
-                    description=profile.get("company_desc"),
-                    website=profile.get("company_web"),
-                )
-                self.session.add(company)
-                self.session.flush()
-
-            # 4. Tìm kiếm hoặc tạo mới job
-            job = self.session.query(Job).filter(
-                (Job.source_url == source_url) |
-                ((Job.title == profile["title"]) & (Job.company_id == company.id))
-            ).first()
-
-            raw_data = {
-                "mined": {
-                    "phones": profile.get("phones", []),
-                    "hr_email": profile.get("emails", [""])[0] if profile.get("emails") else None,
-                    "inferred_industry": profile["category"],
-                    "mined_tags": ["ha long", "quang ninh", "it", "chinh thuc"],
-                },
-                "verified_live": True,
-                "verified_at": now.isoformat(),
-                "recruitment_status": "active",
-                "check_reason": reason,
-            }
-
-            if not job:
-                job = Job(
-                    id=str(uuid.uuid4()),
-                    title=profile["title"],
-                    company_id=company.id,
-                    description=profile["description"],
-                    requirements=profile["requirements"],
-                    salary_min=profile.get("salary_min"),
-                    salary_max=profile.get("salary_max"),
-                    salary_text=profile["salary_text"],
-                    location_province=profile["location_province"],
-                    location_district=profile["location_district"],
-                    location_full=profile["location_full"],
-                    job_type=profile["job_type"],
-                    category=profile["category"],
-                    source_platform=profile["source_platform"],
-                    source_url=source_url,
-                    posted_at=posted_at,
-                    expires_at=expires_at,
-                    crawled_at=now,
-                    is_active=True,
-                    raw_data=raw_data,
-                )
-                self.session.add(job)
-                added_or_updated += 1
-                logger.info(f"✨ [Hạ Long] Đã thêm mới: {job.title} ({company.name})")
-            else:
-                # Cập nhật thông tin mới nhất và xác nhận đang tuyển
-                job.title = profile["title"]
-                job.description = profile["description"]
-                job.requirements = profile["requirements"]
-                job.salary_min = profile.get("salary_min")
-                job.salary_max = profile.get("salary_max")
-                job.salary_text = profile["salary_text"]
-                job.location_province = profile["location_province"]
-                job.location_district = profile["location_district"]
-                job.location_full = profile["location_full"]
-                job.source_platform = profile["source_platform"]
-                job.source_url = source_url
-                job.posted_at = posted_at
-                job.expires_at = expires_at
-                job.is_active = True
-                job.raw_data = raw_data
-                added_or_updated += 1
-                logger.info(f"🔄 [Hạ Long] Đã xác thực & làm mới: {job.title}")
-
-        self.session.commit()
-        logger.info(f"✅ Hoàn tất quét Hạ Long. Đã xác thực {added_or_updated} vị trí chính thức.")
-        return added_or_updated
+        try:
+            from app.services.smart_halong_deep_crawler import SmartHaLongDeepCrawler
+            crawler = SmartHaLongDeepCrawler(db_session=self.session)
+            res = crawler.sweep_halong_it_positions()
+            return res.get("added_count", 0) + res.get("updated_count", 0)
+        except Exception as e:
+            logger.error(f"Lỗi khi chạy quét sâu Hạ Long: {e}", exc_info=True)
+            return 0
 
     def audit_and_purge_expired_jobs(self) -> Tuple[int, int]:
         """
@@ -495,11 +413,17 @@ class SmartBackgroundHarvester:
             }
             is_valid, msg = self.check_recruitment_status(job_dict)
 
-            # Kiểm tra link 404
+            # Kiểm tra link 404 và link mạng xã hội không chuẩn
             if is_valid and job.source_url:
-                if "?post_ref=" in job.source_url or "radisson" in job.source_url.lower():
+                if (
+                    "?post_ref=" in job.source_url
+                    or "?ref=" in job.source_url
+                    or "radisson" in job.source_url.lower()
+                    or "tiktok.com" in job.source_url.lower()
+                    or "threads.net" in job.source_url.lower()
+                ):
                     is_valid = False
-                    msg = "Link nguồn không hợp lệ / chứa tham số lỗi"
+                    msg = "Link nguồn không hợp lệ / chứa tham số rác hoặc mạng xã hội không chuẩn"
 
             if not is_valid:
                 job.is_active = False
