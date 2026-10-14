@@ -567,9 +567,22 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   <h3 className="font-bold text-slate-900 text-sm line-clamp-1">
                     {job.company_name}
                   </h3>
-                  <p className="text-xs text-slate-500 mt-0.5">
-                    {job.location_province || "Việt Nam"}
-                  </p>
+                  {job.company?.website ? (
+                    <a
+                      href={job.company.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs font-semibold text-primary-600 hover:text-primary-700 hover:underline inline-flex items-center gap-1 mt-0.5 cursor-pointer"
+                      title="Mở website chính thức của doanh nghiệp"
+                    >
+                      <span>{job.location_province || "Việt Nam"} • Website</span>
+                      <ArrowTopRightOnSquareIcon className="h-3 w-3 shrink-0" />
+                    </a>
+                  ) : (
+                    <p className="text-xs text-slate-500 mt-0.5">
+                      {job.location_province || "Việt Nam"}
+                    </p>
+                  )}
                 </div>
               </div>
 

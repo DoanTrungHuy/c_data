@@ -189,6 +189,28 @@ class TestRealtimeSearchAndData(unittest.TestCase):
         self.assertEqual(len(abused), 0, f"Phát hiện tin bị gán sai sang fallback company: {abused}")
         print("  ✓ Test 08 - Zero Fallback Company Abuse: 100% ĐẠT")
 
+    def test_09_zero_out_of_province_non_it_jobs(self):
+        """Kiểm tra 100% các tin ngoài tỉnh Quảng Ninh đều là chuyên môn CNTT / Phần mềm theo đúng yêu cầu"""
+        invalid_jobs = []
+        for j in self.jobs:
+            prov = j.get("location_province") or ""
+            title = j.get("title") or ""
+            cat = j.get("category") or ""
+            full = j.get("location_full") or ""
+
+            # Nếu tiêu đề ghi làm tại Quảng Ninh thì province BẮT BUỘC phải là Quảng Ninh
+            if "làm tại quảng ninh" in title.lower() and prov != "Quảng Ninh":
+                invalid_jobs.append((j["id"], title, "Ghi làm tại QN nhưng prov là: " + prov))
+
+            # Nếu ngoài Quảng Ninh thì bắt buộc là tin CNTT
+            if prov != "Quảng Ninh":
+                is_it = "công nghệ thông tin" in cat.lower() or "it" in title.lower() or "software" in title.lower()
+                if not is_it:
+                    invalid_jobs.append((j["id"], title, prov, cat))
+
+        self.assertEqual(len(invalid_jobs), 0, f"Phát hiện tin ngoài tỉnh không thuộc CNTT hoặc lệch nhãn: {invalid_jobs}")
+        print("  ✓ Test 09 - 100% Tin ngoài tỉnh là CNTT & Không lệch nhãn địa điểm: 100% ĐẠT")
+
 
 if __name__ == "__main__":
     print("\n" + "=" * 60)

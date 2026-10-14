@@ -84,47 +84,6 @@
     }
   },
   {
-    "id": "67e2b954-66d2-4304-be94-45a3032417d2",
-    "title": "GIÁM ĐỐC KINH DOANH BẤT ĐỘNG SẢN",
-    "company_name": "CÔNG TY CỔ PHẦN TM & DV FUTURE HOMES",
-    "company_id": "04c5a43f-a433-48ed-8747-b6f5896a5fab",
-    "description": "Vị trí: GIÁM ĐỐC KINH DOANH BẤT ĐỘNG SẢN. Doanh nghiệp tuyển dụng: Tập Đoàn Đầu Tư & Kinh Doanh Bất Động Sản Hạ Long. Nơi làm việc: Khu đô thị Bãi Cháy, TP. Hạ Long (Quảng Ninh) & Hà Nội, Hưng Yên. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 50000000,
-    "salary_max": 200000000,
-    "salary_text": "Lương: 50 - 200 Triệu VND",
-    "location_province": "Hà Nội",
-    "location_district": "Hạ Long",
-    "location_full": "Khu đô thị Bãi Cháy, TP. Hạ Long (Quảng Ninh) & Hà Nội, Hưng Yên",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "careerviet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-bat-dong-san.35C873D3.html",
-    "posted_at": "2026-10-06T00:00:00",
-    "expires_at": "2026-11-13T04:04:02.145274",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "kinh doanh",
-          "bat dong san"
-        ]
-      }
-    },
-    "company": {
-      "id": "04c5a43f-a433-48ed-8747-b6f5896a5fab",
-      "name": "CÔNG TY CỔ PHẦN TM & DV FUTURE HOMES",
-      "website": "https://careerviet.vn/vi/tim-viec-lam/giam-doc-kinh-doanh-bat-dong-san.35C873D3.html",
-      "province": "Hà Nội",
-      "description": "Doanh nghiệp tuyển dụng uy tín: CÔNG TY CỔ PHẦN TM & DV FUTURE HOMES"
-    }
-  },
-  {
     "id": "a7851138-f293-4a99-8ece-83e0f0ac7201",
     "title": "Quảng Ninh - Chuyên viên an toàn lao động",
     "company_name": "BIM Group",
@@ -502,8 +461,8 @@
     "salary_min": 13000000,
     "salary_max": 35000000,
     "salary_text": "Lương: 13 - 35 Triệu VND",
-    "location_province": "Hải Phòng",
-    "location_district": null,
+    "location_province": "Quảng Ninh",
+    "location_district": "Quảng Yên",
     "location_full": "Quảng Ninh (KCN Đông Mai), Hải Phòng, Hải Dương",
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
@@ -700,7 +659,7 @@
     "salary_min": 15000000,
     "salary_max": null,
     "salary_text": "Lương: Trên 15 Triệu VND",
-    "location_province": "Toàn quốc",
+    "location_province": "Hà Nội",
     "location_district": null,
     "location_full": "Hà Nội",
     "job_type": "full-time",
@@ -943,7 +902,7 @@
     "salary_min": null,
     "salary_max": null,
     "salary_text": "Cạnh tranh",
-    "location_province": "Toàn quốc",
+    "location_province": "Bình Dương",
     "location_district": null,
     "location_full": "Bình Dương",
     "job_type": "full-time",
@@ -983,7 +942,7 @@
     "salary_min": 10000000,
     "salary_max": 12000000,
     "salary_text": "Lương: 10 - 12 Triệu VND",
-    "location_province": "Toàn quốc",
+    "location_province": "Cao Bằng",
     "location_district": null,
     "location_full": "Cao Bằng",
     "job_type": "full-time",
@@ -2635,86 +2594,6 @@
       "website": "https://vinpearl.com",
       "province": "Quảng Ninh",
       "description": "Khu nghỉ dưỡng 5 sao nằm trọn trên đảo Rều, Bãi Cháy, TP. Hạ Long."
-    }
-  },
-  {
-    "id": "6f1b17b8-380c-4e9e-979f-a2c926847a6f",
-    "title": "133486 - [Hai Phong] Sales Executive - Logistics",
-    "company_name": "RGF HR Agent Vietnam Co., LTD",
-    "company_id": "d74c93a8-0f1e-4d66-ac42-d3763b3ff5fb",
-    "description": "Vị trí: 133486 - [Hai Phong] Sales Executive - Logistics. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": 17000000,
-    "salary_max": 30000000,
-    "salary_text": "Lương: 17 - 30 Triệu VND",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
-    "experience_level": null,
-    "source_platform": "careerviet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/133486-hai-phong-sales-executive-logistics.35C84F4E.html",
-    "posted_at": "2026-10-03T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": "Kinh doanh / Bán hàng / Marketing / CSKH",
-        "mined_tags": [
-          "logistics",
-          "sale",
-          "sales"
-        ]
-      }
-    },
-    "company": {
-      "id": "d74c93a8-0f1e-4d66-ac42-d3763b3ff5fb",
-      "name": "RGF HR Agent Vietnam Co., LTD",
-      "website": "https://careerviet.vn/vi/tim-viec-lam/133486-hai-phong-sales-executive-logistics.35C84F4E.html",
-      "province": "Hải Phòng",
-      "description": "Doanh nghiệp tuyển dụng uy tín: RGF HR Agent Vietnam Co., LTD"
-    }
-  },
-  {
-    "id": "c08a6489-5994-46f9-8fc0-7f468856de6b",
-    "title": "[AEON Hai Phong] - Human Resources Division Leader",
-    "company_name": "Công Ty TNHH Aeon Việt Nam",
-    "company_id": "6dad36d5-e231-4777-8844-489f537d411a",
-    "description": "Vị trí: [AEON Hai Phong] - Human Resources Division Leader. Doanh nghiệp tuyển dụng: Doanh nghiệp tại Hải Phòng. Nơi làm việc: Hải Phòng. Chi tiết và hồ sơ vui lòng xem tại liên kết gốc.",
-    "requirements": "Yêu cầu ứng viên được mô tả chi tiết tại bài đăng chính thức của nhà tuyển dụng.",
-    "salary_min": null,
-    "salary_max": null,
-    "salary_text": "Cạnh tranh",
-    "location_province": "Hải Phòng",
-    "location_district": null,
-    "location_full": "Hải Phòng",
-    "job_type": "full-time",
-    "category": "Sàn tuyển dụng",
-    "experience_level": null,
-    "source_platform": "careerviet",
-    "source_url": "https://careerviet.vn/vi/tim-viec-lam/aeon-hai-phong-human-resources-division-leader.35C80F85.html",
-    "posted_at": "2026-10-14T00:00:00",
-    "expires_at": "2026-11-13T15:05:59.044427",
-    "is_active": true,
-    "raw_data": {
-      "mined": {
-        "phones": [],
-        "shifts": [],
-        "benefits": [],
-        "inferred_industry": null,
-        "mined_tags": []
-      }
-    },
-    "company": {
-      "id": "6dad36d5-e231-4777-8844-489f537d411a",
-      "name": "Công Ty TNHH Aeon Việt Nam",
-      "website": "https://careerviet.vn/vi/tim-viec-lam/aeon-hai-phong-human-resources-division-leader.35C80F85.html",
-      "province": "Hải Phòng",
-      "description": "Doanh nghiệp tuyển dụng uy tín: Công Ty TNHH Aeon Việt Nam"
     }
   },
   {

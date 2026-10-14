@@ -91,13 +91,28 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* Platform badge & Save bookmark */}
             <div className="flex items-center gap-1.5 shrink-0">
-              <span
-                className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${platform.badgeClass}`}
-                title={`Nguồn: ${platform.name}`}
-              >
-                <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
-                {platform.name}
-              </span>
+              {job.source_url ? (
+                <a
+                  href={job.source_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => e.stopPropagation()}
+                  className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border transition-all hover:scale-105 active:scale-95 shadow-2xs hover:shadow-xs cursor-pointer ${platform.badgeClass}`}
+                  title={`Bấm để mở tin gốc trên ${platform.name} (Tab mới)`}
+                >
+                  <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
+                  <span>{platform.name}</span>
+                  <ArrowUpRightIcon className="h-3 w-3 opacity-70 shrink-0" />
+                </a>
+              ) : (
+                <span
+                  className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${platform.badgeClass}`}
+                  title={`Nguồn: ${platform.name}`}
+                >
+                  <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
+                  {platform.name}
+                </span>
+              )}
               <SaveJobButton jobId={job.id} />
             </div>
           </div>
@@ -308,11 +323,11 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className="inline-flex items-center gap-1 text-[11px] font-bold text-primary-700 bg-primary-50 hover:bg-primary-100 border border-primary-200 px-2.5 py-1 rounded-lg transition-all shadow-2xs hover:shadow-xs hover:border-primary-300 group/link"
-                title={`Mở nguồn tuyển dụng gốc: ${platform.name}`}
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-primary-600 hover:bg-primary-700 px-3 py-1.5 rounded-xl transition-all shadow-xs hover:shadow hover:scale-102 active:scale-95 group/link cursor-pointer"
+                title={`Mở nguồn tuyển dụng gốc: ${platform.name} (Tab mới)`}
               >
                 <span>🌐 {platform.name}</span>
-                <ArrowUpRightIcon className="h-3 w-3 shrink-0 text-primary-500 group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
+                <ArrowUpRightIcon className="h-3.5 w-3.5 shrink-0 text-white group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
               </a>
             )}
           </div>

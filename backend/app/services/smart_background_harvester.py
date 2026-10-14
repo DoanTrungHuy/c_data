@@ -457,11 +457,33 @@ class SmartBackgroundHarvester:
             prov = j.location_province or ""
             loc_full = j.location_full or ""
 
-            # BẢO VỆ CHỐNG LỆCH ĐỊA ĐIỂM: Nếu ghi Quảng Ninh nhưng thực tế tuyển ở Hà Nội
-            if prov == "Quảng Ninh" and loc_full:
+            # BẢO VỆ CHỐNG LỆCH ĐỊA ĐIỂM:
+            # 1. Nếu tiêu đề hoặc địa điểm ghi rõ làm tại Quảng Ninh thì chuẩn hóa ngay thành Quảng Ninh
+            if "làm tại quảng ninh" in (j.title or "").lower() or "kcn đông mai" in loc_full.lower():
+                prov = "Quảng Ninh"
+            # 2. Nếu ghi Quảng Ninh nhưng thực tế tuyển ở Hà Nội và không có địa danh Quảng Ninh nào
+            elif prov == "Quảng Ninh" and loc_full:
                 loc_lower = loc_full.lower()
                 if "hà nội" in loc_lower and "quảng ninh" not in loc_lower and "hạ long" not in loc_lower and "cái lân" not in loc_lower and "bãi cháy" not in loc_lower:
                     prov = "Hà Nội"
+            # 3. Chuẩn hóa 'Toàn quốc' thành tỉnh thực tế nếu địa chỉ cụ thể
+            elif prov in ["", "Toàn quốc"] and loc_full:
+                loc_l = loc_full.lower()
+                if "hà nội" in loc_l:
+                    prov = "Hà Nội"
+                elif "hồ chí minh" in loc_l or "tp.hcm" in loc_l:
+                    prov = "TP. Hồ Chí Minh"
+                elif "bình dương" in loc_l:
+                    prov = "Bình Dương"
+                elif "cao bằng" in loc_l:
+                    prov = "Cao Bằng"
+                elif "thừa thiên" in loc_l or "huế" in loc_l:
+                    prov = "Thừa Thiên Huế"
+
+            # Tuyệt đối loại bỏ các tin ngoại tỉnh không liên quan đến CNTT
+            is_it_job = "công nghệ thông tin" in (j.category or "").lower() or "it" in (j.title or "").lower() or "software" in (j.title or "").lower()
+            if prov != "Quảng Ninh" and not is_it_job:
+                continue
 
             if "Doanh nghiệp tại Quảng Ninh" in comp_name and prov != "Quảng Ninh":
                 comp_name = f"Doanh nghiệp tại {prov}"
