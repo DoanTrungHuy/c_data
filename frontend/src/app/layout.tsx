@@ -16,28 +16,28 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "C_Data - Nền tảng Tìm Việc Làm & Tổng Hợp Tin Tuyển Dụng Việt Nam",
+  title: "C_Data - Việc Làm IT Hạ Long & Nền Tảng Tuyển Dụng Việt Nam",
   description:
-    "C_Data - Nền tảng việc làm thông minh, tổng hợp hàng nghìn cơ hội việc làm mới mỗi ngày từ TopCV, VietnamWorks, ITviec, CareerViet trên khắp 63 tỉnh thành Việt Nam hoàn toàn miễn phí.",
+    "C_Data - Nền tảng tuyển dụng thông minh, quét sâu và đối soát thời gian thực việc làm CNTT tại TP. Hạ Long, Quảng Ninh và 63 tỉnh thành Việt Nam. Cam kết Zero-404, 100% tin đang tuyển dụng thực tế.",
   keywords: [
-    "việc làm",
-    "tìm việc làm",
-    "tuyển dụng",
-    "việc làm việt nam",
+    "việc làm it hạ long",
+    "việc làm cntt quảng ninh",
+    "it support bãi cháy",
+    "kỹ sư cntt cái lân",
+    "lập trình viên hạ long",
     "việc làm hạ long",
     "việc làm quảng ninh",
-    "việc làm hà nội",
-    "việc làm tphcm",
-    "topcv",
-    "vietnamworks",
+    "tìm việc làm",
+    "tuyển dụng",
     "c_data",
   ],
   authors: [{ name: "C_Data Team" }],
+  manifest: "/manifest.json",
   openGraph: {
-    title: "C_Data - Nền tảng Tìm Việc Làm & Tổng Hợp Tuyển Dụng Việt Nam",
+    title: "C_Data - Việc Làm IT TP. Hạ Long & Toàn Quốc",
     description:
-      "Tổng hợp việc làm từ mọi nguồn uy tín trên khắp 63 tỉnh thành Việt Nam. Tra cứu mức lương, ứng tuyển trực tiếp.",
-    url: "https://cdata.vn",
+      "Quét sâu thời gian thực, đối soát Zero-404, cập nhật liên tục mọi cơ hội việc làm CNTT tại TP. Hạ Long, Quảng Ninh.",
+    url: "https://doantrunghuy.github.io/c_data/",
     siteName: "C_Data",
     locale: "vi_VN",
     type: "website",

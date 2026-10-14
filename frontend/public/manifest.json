@@ -1,0 +1,19 @@
+{
+  "name": "C_Data - Việc Làm IT Hạ Long & Việt Nam",
+  "short_name": "C_Data IT",
+  "description": "Nền tảng tìm kiếm việc làm CNTT thời gian thực TP. Hạ Long và toàn quốc. Quét liên tục, đối soát Zero-404, 100% tin đang tuyển dụng.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0284c7",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

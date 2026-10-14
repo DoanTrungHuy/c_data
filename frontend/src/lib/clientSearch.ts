@@ -1,4 +1,5 @@
 import { Job, JobListResponse, JobSearchParams } from "@/types/job";
+import { getSavedJobIds } from "@/lib/savedJobs";
 
 /**
  * Chuẩn hóa chuỗi tiếng Việt không dấu để tìm kiếm thời gian thực
@@ -152,8 +153,15 @@ export function searchJobsRealtime(
     }
   }
 
+  // Lọc danh sách nếu người dùng đang xem việc làm đã lưu
+  let pool = allJobs;
+  if (params.saved) {
+    const savedIds = getSavedJobIds();
+    pool = allJobs.filter((j) => savedIds.includes(String(j.id)));
+  }
+
   // Chấm điểm và lọc ứng viên
-  const scoredJobs = allJobs.map((job) => {
+  const scoredJobs = pool.map((job) => {
     let score = 0;
     const reasons: string[] = [];
 

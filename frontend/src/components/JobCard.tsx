@@ -23,6 +23,7 @@ import {
 } from "@/lib/utils";
 import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
+import SaveJobButton from "@/components/SaveJobButton";
 
 interface JobCardProps {
   job: Job;
@@ -81,14 +82,17 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               </div>
             </div>
 
-            {/* Platform badge */}
-            <span
-              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${platform.badgeClass}`}
-              title={`Nguồn: ${platform.name}`}
-            >
-              <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
-              {platform.name}
-            </span>
+            {/* Platform badge & Save bookmark */}
+            <div className="flex items-center gap-1.5 shrink-0">
+              <span
+                className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border ${platform.badgeClass}`}
+                title={`Nguồn: ${platform.name}`}
+              >
+                <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
+                {platform.name}
+              </span>
+              <SaveJobButton jobId={job.id} />
+            </div>
           </div>
 
           {/* Job Title */}

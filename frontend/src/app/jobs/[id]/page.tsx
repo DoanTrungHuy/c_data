@@ -26,6 +26,8 @@ import {
 import JobCard from "@/components/JobCard";
 import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
+import SaveJobButton from "@/components/SaveJobButton";
+import ShareJobButton from "@/components/ShareJobButton";
 import type { Metadata } from "next";
 
 import fs from "fs";
@@ -256,8 +258,8 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   </div>
                 </div>
 
-                {/* Source Platform Badge */}
-                <div className="sm:self-start">
+                {/* Source Platform Badge & Quick Save/Share */}
+                <div className="flex flex-wrap items-center gap-2 sm:self-start">
                   <span
                     className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border ${platform.badgeClass}`}
                   >
@@ -266,6 +268,8 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     />
                     Nguồn: {platform.name}
                   </span>
+                  <SaveJobButton jobId={job.id} showText />
+                  <ShareJobButton title={job.title} showText />
                 </div>
               </div>
 
@@ -378,22 +382,24 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   </a>
                 )}
 
-                <div className="flex items-center gap-2">
-                  <button
-                    type="button"
-                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors"
-                  >
-                    <BookmarkIcon className="h-4 w-4" />
-                    <span>Lưu tin</span>
-                  </button>
+                <div className="flex flex-wrap items-center gap-2">
+                  <SaveJobButton jobId={job.id} showText className="px-4 py-3.5" />
+                  <ShareJobButton title={job.title} showText className="px-4 py-3.5" />
 
-                  <button
-                    type="button"
-                    className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 rounded-2xl border border-slate-200 bg-white px-4 py-3.5 text-sm font-semibold text-slate-700 hover:bg-slate-50 transition-colors"
-                  >
-                    <ShareIcon className="h-4 w-4" />
-                    <span>Chia sẻ</span>
-                  </button>
+                  {job.location_full && (
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+                        job.location_full + (job.location_province ? `, ${job.location_province}` : "")
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-1.5 rounded-xl border border-slate-200 bg-white px-4 py-3.5 text-xs font-bold text-slate-700 hover:bg-slate-50 transition-colors shadow-2xs"
+                      title="Mở chỉ đường trên Google Maps"
+                    >
+                      <MapPinIcon className="h-4 w-4 text-red-500" />
+                      <span>Xem bản đồ Google</span>
+                    </a>
+                  )}
                 </div>
               </div>
 

@@ -68,6 +68,7 @@ export interface JobSearchParams {
   sort_by?: string;
   live?: boolean;
   strict_mode?: boolean;
+  saved?: boolean;
 }
 
 export interface SearchIntentDiagnostics {

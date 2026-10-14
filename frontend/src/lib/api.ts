@@ -273,6 +273,18 @@ import { loadAllJobsForClient, searchJobsRealtime } from "./clientSearch";
  * Fetch jobs list with pagination & filters - hỗ trợ cả Backend API và Client-side Realtime Engine
  */
 export async function getJobs(params: JobSearchParams = {}): Promise<JobListResponse> {
+  // Nếu là tìm việc đã lưu (lưu trong client LocalStorage), dùng ngay Client-side Engine
+  if (params.saved) {
+    try {
+      const allJobs = await loadAllJobsForClient();
+      if (allJobs && allJobs.length > 0) {
+        return searchJobsRealtime(allJobs, params);
+      }
+    } catch (err) {
+      console.warn("Client-side saved search failed:", err);
+    }
+  }
+
   try {
     const response = await apiClient.get<JobListResponse>("/jobs", { params });
     if (response.data && Array.isArray(response.data.items) && response.data.items.length > 0) {

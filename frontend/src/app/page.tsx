@@ -19,6 +19,7 @@ import {
 import SearchBar from "@/components/SearchBar";
 import JobCard from "@/components/JobCard";
 import StatsCard from "@/components/StatsCard";
+import HaLongITHub from "@/components/HaLongITHub";
 import { getDashboardStats, getJobs } from "@/lib/api";
 
 export const revalidate = 60; // Revalidate every minute (ISR/SSR)
@@ -226,6 +227,11 @@ export default async function HomePage() {
             iconBgClass="bg-purple-50 text-purple-600"
           />
         </div>
+      </section>
+
+      {/* 2.5. HA LONG IT RADAR HUB */}
+      <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <HaLongITHub />
       </section>
 
       {/* 3. FEATURED JOB CATEGORIES */}

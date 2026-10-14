@@ -22,6 +22,7 @@ function JobsView() {
   const pageSize = Number(searchParams?.get("page_size")) || 20;
   const isLive = searchParams?.get("live") === "true";
   const isStrictMode = searchParams?.get("strict_mode") === "true";
+  const isSavedOnly = searchParams?.get("saved") === "true";
 
   // State hỗ trợ tìm kiếm Real-time động ngay trên trang
   const [activeQuery, setActiveQuery] = useState(urlQ);
@@ -61,6 +62,7 @@ function JobsView() {
         source_platform: platform || undefined,
         live: isLive,
         strict_mode: isStrictMode,
+        saved: isSavedOnly,
         page,
         page_size: pageSize,
       })
@@ -78,7 +80,7 @@ function JobsView() {
         isMounted = false;
       };
     },
-    [category, job_type, platform, salary_min, salary_max, isLive, isStrictMode, page, pageSize]
+    [category, job_type, platform, salary_min, salary_max, isLive, isStrictMode, isSavedOnly, page, pageSize]
   );
 
   useEffect(() => {
@@ -106,8 +108,16 @@ function JobsView() {
                 <span>Trang chủ</span>
               </Link>
               <ChevronRightIcon className="h-3 w-3 text-slate-400" />
-              <span className="text-slate-800 font-semibold">Tìm việc làm</span>
-              {activeProvince && (
+              <Link href="/jobs" className="text-slate-700 hover:text-primary-600 font-semibold">
+                Tìm việc làm
+              </Link>
+              {isSavedOnly && (
+                <>
+                  <ChevronRightIcon className="h-3 w-3 text-slate-400" />
+                  <span className="text-rose-600 font-bold">❤️ Danh sách việc đã lưu</span>
+                </>
+              )}
+              {activeProvince && !isSavedOnly && (
                 <>
                   <ChevronRightIcon className="h-3 w-3 text-slate-400" />
                   <span className="text-primary-600 font-semibold">
@@ -118,10 +128,16 @@ function JobsView() {
             </nav>
 
             {/* Real-time Indicator Badge */}
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold shadow-2xs">
-              <BoltIcon className="h-3.5 w-3.5 text-emerald-600 animate-pulse" />
-              <span>Real-time Active (Kết quả cập nhật tức thì)</span>
-            </div>
+            {isSavedOnly ? (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-bold shadow-2xs">
+                <span>📌 Chế độ xem việc làm đã lưu offline</span>
+              </div>
+            ) : (
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold shadow-2xs">
+                <BoltIcon className="h-3.5 w-3.5 text-emerald-600 animate-pulse" />
+                <span>Real-time Active (Kết quả cập nhật tức thì)</span>
+              </div>
+            )}
           </div>
 
           {/* SearchBar Input */}

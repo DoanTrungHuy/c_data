@@ -12,6 +12,7 @@ import {
   ChevronUpIcon,
   ChartBarIcon,
   CheckCircleIcon,
+  BookmarkIcon,
 } from "@heroicons/react/24/outline";
 import JobCard from "@/components/JobCard";
 import FilterSidebar from "@/components/FilterSidebar";
@@ -42,6 +43,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const salary_min = searchParams?.get("salary_min");
   const salary_max = searchParams?.get("salary_max");
   const strict_mode = searchParams?.get("strict_mode") === "true";
+  const isSavedOnly = searchParams?.get("saved") === "true";
 
   const removeFilter = (key: string) => {
     const params = new URLSearchParams(searchParams?.toString() || "");
@@ -559,6 +561,28 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                 currentPage={initialData.page}
                 totalPages={initialData.total_pages}
               />
+            </div>
+          </div>
+        ) : isSavedOnly ? (
+          /* Empty State for Saved Jobs */
+          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-rose-100 shadow-sm space-y-4">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-rose-50 text-rose-500 border border-rose-200">
+              <BookmarkIcon className="h-8 w-8" />
+            </div>
+            <h3 className="text-lg font-bold text-slate-900">
+              Bạn chưa lưu việc làm nào
+            </h3>
+            <p className="text-sm text-slate-500 max-w-md mx-auto leading-relaxed">
+              Hãy bấm biểu tượng Bookmark trên bất kỳ việc làm nào để lưu lại danh sách quan tâm và theo dõi khi cần.
+            </p>
+            <div className="pt-2">
+              <button
+                type="button"
+                onClick={() => router.push("/jobs?province=Quảng+Ninh")}
+                className="inline-flex items-center gap-2 rounded-xl bg-primary-600 px-6 py-3 text-xs font-bold text-white hover:bg-primary-700 shadow-md shadow-primary-600/20 transition-all active:scale-95"
+              >
+                <span>Khám phá việc làm IT Hạ Long</span>
+              </button>
             </div>
           </div>
         ) : (
