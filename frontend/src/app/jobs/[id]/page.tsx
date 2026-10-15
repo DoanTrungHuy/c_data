@@ -83,12 +83,41 @@ export async function generateMetadata({
     };
   }
 
+  const siteUrl = "https://doantrunghuy.github.io/c_data";
+  const salaryText = job.salary_text || "Thỏa thuận";
+  const locationText = job.location_province || "Quảng Ninh";
+  const imageUrl =
+    job.company?.logo_url && job.company.logo_url.startsWith("http")
+      ? job.company.logo_url
+      : `${siteUrl}/og-image.png`;
+
+  const title = `${job.title} - ${job.company_name} | VịnhViệc`;
+  const description = `Tuyển dụng ${job.title} tại ${job.company_name}. Mức lương: ${salaryText} • Địa điểm: ${locationText}. Cam kết tin thật 100%, đối soát Zero-404 trên VịnhViệc.`;
+
   return {
-    title: `${job.title} - ${job.company_name} | VịnhViệc Tuyển Dụng`,
-    description: `Tuyển dụng ${job.title} tại ${job.company_name} (${job.location_province || "Việt Nam"}). Mức lương: ${job.salary_text || "Thỏa thuận"}. Xem chi tiết và ứng tuyển ngay trên VịnhViệc.`,
+    title,
+    description,
     openGraph: {
-      title: `${job.title} - ${job.company_name}`,
-      description: `Mức lương: ${job.salary_text || "Thỏa thuận"} | Địa điểm: ${job.location_province || "Việt Nam"}`,
+      title,
+      description,
+      url: `${siteUrl}/jobs/${job.id}`,
+      siteName: "VịnhViệc",
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: `${job.title} - ${job.company_name}`,
+        },
+      ],
+      locale: "vi_VN",
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [imageUrl],
     },
   };
 }
