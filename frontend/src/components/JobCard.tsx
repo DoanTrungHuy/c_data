@@ -524,7 +524,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                       )}
                     </div>
                     <span className="text-[11px] text-neutral-500 block truncate">
-                      ✉️ {job.evidence_proof.recruiter_contact?.email || "tuyendung@vinhviec.vn"}
+                      ✉️ {job.evidence_proof.recruiter_contact?.email || "contact.vinhviec@gmail.com"}
                     </span>
                   </div>
                 </div>

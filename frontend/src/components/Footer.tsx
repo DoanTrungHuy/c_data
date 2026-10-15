@@ -49,7 +49,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center gap-2">
                 <EnvelopeIcon className="h-4 w-4 text-black shrink-0" />
-                <span>contact@vinhviec.vn</span>
+                <span>contact.vinhviec@gmail.com</span>
               </div>
             </div>
           </div>

@@ -192,7 +192,7 @@ export default function AboutPage() {
                   Email hỗ trợ
                 </span>
                 <span className="font-bold text-neutral-900">
-                  contact@vinhviec.vn / tuyendung@vinhviec.vn
+                  contact.vinhviec@gmail.com
                 </span>
               </div>
             </div>

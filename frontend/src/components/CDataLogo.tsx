@@ -79,25 +79,13 @@ export default function CDataLogo({
 
       {/* Typography Tên Web VịnhViệc Đen-Trắng Rõ Ràng & Đơn Giản */}
       <div className="flex flex-col justify-center">
-        <div className="flex items-center gap-1.5 leading-none">
-          <span
-            className={`${textSizes[size]} font-black tracking-tight ${
-              isDark ? "text-white" : "text-black"
-            }`}
-          >
-            VịnhViệc
-          </span>
-
-          <span
-            className={`text-[10px] font-bold px-1.5 py-0.5 rounded-md border tracking-tight ${
-              isDark
-                ? "bg-neutral-800 text-neutral-200 border-neutral-700"
-                : "bg-neutral-100 text-neutral-900 border-neutral-300"
-            }`}
-          >
-            .vn
-          </span>
-        </div>
+        <span
+          className={`${textSizes[size]} font-black tracking-tight leading-none ${
+            isDark ? "text-white" : "text-black"
+          }`}
+        >
+          VịnhViệc
+        </span>
 
         {showTagline && (
           <span

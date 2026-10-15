@@ -482,7 +482,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                       )}
                     </div>
                     <span className="text-[11px] text-neutral-500 block truncate">
-                      ✉️ {job.evidence_proof?.recruiter_contact?.email || job.raw_data?.mined?.hr_email || "tuyendung@vinhviec.vn"}
+                      ✉️ {job.evidence_proof?.recruiter_contact?.email || job.raw_data?.mined?.hr_email || "contact.vinhviec@gmail.com"}
                     </span>
                   </div>
 
