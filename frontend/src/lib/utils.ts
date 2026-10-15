@@ -154,8 +154,8 @@ export interface PlatformInfo {
  */
 export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
   const defaultInfo: PlatformInfo = {
-    id: "c_data",
-    name: "C_Data",
+    id: "vinhviec",
+    name: "VịnhViệc",
     badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
     dotClass: "bg-black",
     iconBg: "bg-neutral-900",

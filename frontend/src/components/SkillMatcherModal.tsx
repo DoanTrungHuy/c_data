@@ -107,7 +107,7 @@ export default function SkillMatcherModal({
                 </span>
               </h3>
               <p className="text-xs text-neutral-500 mt-0.5">
-                Chọn các kỹ năng của bạn để C_Data tự động chấm điểm độ phù hợp (%) trên mọi việc làm Hạ Long.
+                Chọn các kỹ năng của bạn để VịnhViệc tự động chấm điểm độ phù hợp (%) trên mọi việc làm Hạ Long.
               </p>
             </div>
           </div>

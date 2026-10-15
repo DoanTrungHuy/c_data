@@ -25,8 +25,8 @@ export default function ShareJobButton({
     if (navigator.share) {
       try {
         await navigator.share({
-          title: `${title} | C_Data Tuyển Dụng`,
-          text: `Xem tin tuyển dụng "${title}" trên C_Data:`,
+          title: `${title} | VịnhViệc Tuyển Dụng`,
+          text: `Xem tin tuyển dụng "${title}" trên VịnhViệc:`,
           url: currentUrl,
         });
         return;

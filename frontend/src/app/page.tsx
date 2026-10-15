@@ -332,17 +332,17 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 6. WHY CHOOSE C_DATA BANNER */}
+      {/* 6. WHY CHOOSE VINHVIEC BANNER */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-3xl bg-neutral-50 border border-neutral-200 p-8 sm:p-12 text-black shadow-xs relative overflow-hidden">
+        <div className="rounded-2xl sm:rounded-3xl bg-neutral-50 border border-neutral-200 p-6 sm:p-12 text-black shadow-xs relative overflow-hidden">
           <div className="relative z-10 max-w-3xl">
             <span className="inline-block text-xs font-bold tracking-widest text-neutral-500 uppercase mb-3">
               Minh bạch • Toàn diện • Tự động hóa
             </span>
-            <h2 className="text-2xl sm:text-4xl font-black tracking-tight leading-snug text-black">
-              Vì sao hàng vạn ứng viên tin dùng C_Data mỗi ngày?
+            <h2 className="text-xl sm:text-4xl font-black tracking-tight leading-snug text-black">
+              Vì sao hàng vạn ứng viên tin dùng VịnhViệc mỗi ngày?
             </h2>
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="mt-6 sm:mt-8 grid grid-cols-1 sm:grid-cols-3 gap-5 sm:gap-6">
               <div className="space-y-2">
                 <div className="flex items-center gap-2 text-black font-bold text-base">
                   <CheckBadgeIcon className="h-5 w-5 text-black" />
@@ -374,12 +374,12 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-6 sm:mt-8">
               <Link
                 href="/about"
                 className="inline-flex items-center gap-2 rounded-xl bg-black text-white px-5 py-3 text-sm font-bold shadow-xs hover:bg-neutral-800 transition-colors"
               >
-                <span>Tìm hiểu câu chuyện C_Data</span>
+                <span>Tìm hiểu câu chuyện VịnhViệc</span>
                 <ArrowRightIcon className="h-4 w-4" />
               </Link>
             </div>

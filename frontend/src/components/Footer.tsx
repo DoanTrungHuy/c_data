@@ -103,7 +103,7 @@ export default function Footer() {
                   href="/about"
                   className="text-neutral-600 hover:text-black transition-colors duration-150"
                 >
-                  Về dự án C_Data
+                  Về dự án VịnhViệc
                 </Link>
               </li>
               <li>
