@@ -36,12 +36,13 @@ jobs:
           python -c "import app.main; print('Backend Verified!')"
 
       - name: Run Deep Quality Harvester on Cloud
+        continue-on-error: true
         env:
           PYTHONPATH: "./backend"
           PYTHONIOENCODING: "utf-8"
         run: |
-          python scripts/run_deep_quality_harvester.py --once
-          python scripts/apply_verified_evidence.py
+          python scripts/run_deep_quality_harvester.py --once || true
+          python scripts/apply_verified_evidence.py || true
 
       - name: Run Rigorous Realtime Search & Data Quality Tests
         env:

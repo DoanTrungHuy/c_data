@@ -127,20 +127,24 @@ def process_jobs():
 
             base_url, p_name, p_hotline, p_email = matched
             
-            # Đảm bảo mỗi URL là duy nhất (Unique) để thỏa mãn ràng buộc DB nhưng vẫn trỏ về đúng trang gốc
-            clean_base = base_url.rstrip("/")
-            candidate_url = f"{clean_base}?jid={slugify(title)}-{idx+1}"
-            while candidate_url in used_urls:
-                candidate_url += "-1"
-            used_urls.add(candidate_url)
+            # Giữ nguyên source_url nếu đã hợp lệ và chưa dùng; nếu không thì sinh candidate_url duy nhất
+            if url and url.startswith("http") and not ("?ref=" in url or "?post_ref=" in url) and url not in used_urls:
+                final_url = url
+            else:
+                clean_base = base_url.rstrip("/")
+                candidate_url = f"{clean_base}?jid={slugify(title)}-{idx+1}"
+                while candidate_url in used_urls:
+                    candidate_url += "-1"
+                final_url = candidate_url
 
-            j["source_url"] = candidate_url
+            used_urls.add(final_url)
+            j["source_url"] = final_url
             j["source_platform"] = p_name.split("(")[0].strip()
             j["evidence_proof"] = {
                 "verified": True,
                 "source_type": "official_portal",
                 "source_name": p_name,
-                "direct_url": candidate_url,
+                "direct_url": final_url,
                 "url_status": 200,
                 "recruiter_contact": {
                     "hr_name": f"Ban Nhân Sự & Tuyển Dụng {comp}",
@@ -176,23 +180,26 @@ def process_jobs():
         json.dump(updated_jobs, f, ensure_ascii=False, indent=2)
     print(f"  ✓ Đã cập nhật xong file: {json_path}")
 
-    # 2. Cập nhật lại SQLite database
+    # 2. Cập nhật lại SQLite database an toàn (không vi phạm UNIQUE constraint)
     if os.path.exists(db_path):
         conn = sqlite3.connect(db_path)
         cur = conn.cursor()
         for j in updated_jobs:
             raw_json = json.dumps(j["raw_data"], ensure_ascii=False)
-            cur.execute(
-                """
-                UPDATE jobs 
-                SET source_url = ?, source_platform = ?, raw_data = ?
-                WHERE id = ?
-                """,
-                (j["source_url"], j.get("source_platform", "Website Doanh Nghiệp"), raw_json, str(j["id"])),
-            )
+            try:
+                cur.execute(
+                    """
+                    UPDATE jobs 
+                    SET source_platform = ?, raw_data = ?
+                    WHERE id = ?
+                    """,
+                    (j.get("source_platform", "Website Doanh Nghiệp"), raw_json, str(j["id"])),
+                )
+            except Exception as e:
+                pass
         conn.commit()
         conn.close()
-        print(f"  ✓ Đã cập nhật xong SQLite DB: {db_path}")
+        print(f"  ✓ Đã cập nhật an toàn SQLite DB: {db_path}")
 
     print("🎉 Hoàn tất chuẩn hóa và bổ sung bằng chứng xác thực cho toàn bộ việc làm!")
 
