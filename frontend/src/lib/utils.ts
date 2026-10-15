@@ -153,14 +153,16 @@ export interface PlatformInfo {
  * Get display info and color badges for source platforms
  */
 export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
+  const defaultInfo: PlatformInfo = {
+    id: "c_data",
+    name: "C_Data",
+    badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+    dotClass: "bg-black",
+    iconBg: "bg-neutral-900",
+  };
+
   if (!platform) {
-    return {
-      id: "c_data",
-      name: "C_Data",
-      badgeClass: "bg-blue-50 text-blue-700 border-blue-200",
-      dotClass: "bg-blue-500",
-      iconBg: "bg-blue-500",
-    };
+    return defaultInfo;
   }
 
   const p = platform.toLowerCase();
@@ -169,9 +171,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "topcv",
       name: "TopCV",
-      badgeClass: "bg-emerald-50 text-emerald-700 border-emerald-200",
-      dotClass: "bg-emerald-500",
-      iconBg: "bg-emerald-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -179,9 +181,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "vietnamworks",
       name: "VietnamWorks",
-      badgeClass: "bg-blue-50 text-blue-800 border-blue-200",
-      dotClass: "bg-blue-600",
-      iconBg: "bg-blue-700",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -189,9 +191,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "careerviet",
       name: "CareerViet",
-      badgeClass: "bg-orange-50 text-orange-700 border-orange-200",
-      dotClass: "bg-orange-500",
-      iconBg: "bg-orange-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -199,9 +201,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "itviec",
       name: "ITviec",
-      badgeClass: "bg-rose-50 text-rose-700 border-rose-200",
-      dotClass: "bg-rose-500",
-      iconBg: "bg-rose-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -209,9 +211,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "vieclam24h",
       name: "Việc Làm 24h",
-      badgeClass: "bg-amber-50 text-amber-800 border-amber-200",
-      dotClass: "bg-amber-500",
-      iconBg: "bg-amber-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -219,9 +221,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "facebook",
       name: platform,
-      badgeClass: "bg-indigo-50 text-indigo-700 border-indigo-200",
-      dotClass: "bg-indigo-600 animate-pulse",
-      iconBg: "bg-indigo-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -229,9 +231,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "threads",
       name: platform,
-      badgeClass: "bg-zinc-900 text-zinc-100 border-zinc-700 font-semibold",
-      dotClass: "bg-emerald-400 animate-ping",
-      iconBg: "bg-zinc-900",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -239,9 +241,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "tiktok",
       name: platform,
-      badgeClass: "bg-pink-50 text-pink-700 border-pink-300 font-semibold",
-      dotClass: "bg-pink-500 animate-pulse",
-      iconBg: "bg-pink-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -249,9 +251,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "company",
       name: platform,
-      badgeClass: "bg-violet-50 text-violet-700 border-violet-200",
-      dotClass: "bg-violet-600",
-      iconBg: "bg-violet-600",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
@@ -259,18 +261,18 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     return {
       id: "linkedin",
       name: "LinkedIn",
-      badgeClass: "bg-sky-50 text-sky-700 border-sky-200",
-      dotClass: "bg-sky-600",
-      iconBg: "bg-sky-700",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
     };
   }
 
   return {
     id: "other",
     name: platform,
-    badgeClass: "bg-slate-50 text-slate-700 border-slate-200",
-    dotClass: "bg-slate-500",
-    iconBg: "bg-slate-600",
+    badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+    dotClass: "bg-black",
+    iconBg: "bg-neutral-900",
   };
 }
 

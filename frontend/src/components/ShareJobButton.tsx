@@ -49,12 +49,12 @@ export default function ShareJobButton({
       <button
         type="button"
         onClick={handleShare}
-        className={`inline-flex items-center gap-1.5 p-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 transition-all active:scale-95 cursor-pointer ${className}`}
+        className={`inline-flex items-center gap-1.5 p-2 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-neutral-700 hover:text-black border border-neutral-200 transition-all active:scale-95 cursor-pointer ${className}`}
         title="Chia sẻ tin tuyển dụng này"
         aria-label="Chia sẻ"
       >
         {copied ? (
-          <CheckIcon className="h-5 w-5 text-emerald-600" />
+          <CheckIcon className="h-5 w-5 text-black" />
         ) : (
           <ShareIcon className="h-5 w-5" />
         )}
@@ -66,7 +66,7 @@ export default function ShareJobButton({
       </button>
 
       {copied && (
-        <div className="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-2.5 py-1 rounded-lg bg-emerald-700 text-white text-[11px] font-bold shadow-lg z-30 animate-fadeIn">
+        <div className="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-2.5 py-1 rounded-lg bg-black text-white text-[11px] font-bold shadow-lg z-30 animate-fadeIn">
           Đã sao chép liên kết!
         </div>
       )}

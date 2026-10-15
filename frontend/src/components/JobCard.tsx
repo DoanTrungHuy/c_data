@@ -202,20 +202,20 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
           {/* Explainable AI Match Reasons */}
           {job.match_reasons && job.match_reasons.length > 0 && (
             <div className="mt-2.5 flex flex-wrap items-center gap-1 text-[11px]">
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mr-0.5">
+              <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider mr-0.5">
                 Điểm khớp:
               </span>
               {job.match_reasons.slice(0, 3).map((reason, idx) => (
                 <span
                   key={idx}
-                  className="inline-flex items-center px-2 py-0.5 rounded-md bg-slate-50 text-slate-700 border border-slate-200/90 font-medium"
+                  className="inline-flex items-center px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-800 border border-neutral-200 font-medium"
                 >
                   ✓ {reason}
                 </span>
               ))}
               {job.match_reasons.length > 3 && (
                 <span
-                  className="text-[10px] text-primary-600 font-semibold cursor-pointer hover:underline"
+                  className="text-[10px] text-black font-semibold cursor-pointer hover:underline"
                   onClick={() => setPreviewOpen(true)}
                 >
                   +{job.match_reasons.length - 3} tiêu chí nữa
@@ -227,20 +227,20 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
           {/* Tech Stack Chips */}
           {job.tech_stack && job.tech_stack.length > 0 && (
             <div className="mt-2 flex flex-wrap items-center gap-1.5">
-              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mr-0.5">
+              <span className="text-[10px] font-bold text-neutral-400 uppercase tracking-wider mr-0.5">
                 Kỹ năng / Tech:
               </span>
               {job.tech_stack.slice(0, 4).map((tech: string) => (
                 <span
                   key={tech}
-                  className="px-2 py-0.5 rounded-md bg-indigo-50/90 text-indigo-800 border border-indigo-200/90 text-[11px] font-bold"
+                  className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-900 border border-neutral-300 text-[11px] font-bold"
                 >
                   ⚡ {tech}
                 </span>
               ))}
               {job.tech_stack.length > 4 && (
                 <span
-                  className="text-[10px] text-indigo-600 font-semibold cursor-pointer hover:underline"
+                  className="text-[10px] text-neutral-600 font-semibold cursor-pointer hover:text-black hover:underline"
                   onClick={() => setPreviewOpen(true)}
                 >
                   +{job.tech_stack.length - 4} nữa
@@ -255,7 +255,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               {job.benefits_detail.slice(0, 2).map((b: string) => (
                 <span
                   key={b}
-                  className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200/80 font-semibold"
+                  className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-800 border border-neutral-200 font-semibold"
                 >
                   🎁 {b}
                 </span>
@@ -269,7 +269,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               {job.raw_data.mined.shifts?.slice(0, 2).map((s: string) => (
                 <span
                   key={s}
-                  className="px-2 py-0.5 rounded-md bg-amber-50 text-amber-800 border border-amber-200/80 text-[11px] font-semibold"
+                  className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-800 border border-neutral-200 text-[11px] font-semibold"
                 >
                   🕒 {s}
                 </span>
@@ -277,13 +277,13 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               {job.raw_data.mined.benefits?.slice(0, 2).map((b: string) => (
                 <span
                   key={b}
-                  className="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200/80 text-[11px] font-semibold"
+                  className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-800 border border-neutral-200 text-[11px] font-semibold"
                 >
                   🎁 {b}
                 </span>
               ))}
               {phone && (
-                <span className="px-2 py-0.5 rounded-md bg-indigo-50 text-indigo-700 border border-indigo-200/80 text-[11px] font-semibold">
+                <span className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-900 border border-neutral-300 text-[11px] font-bold">
                   📱 Zalo: {phone}
                 </span>
               )}
@@ -291,8 +291,8 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
           )}
 
           {/* Location snippet */}
-          <div className="mt-3 flex items-center gap-1.5 text-xs text-slate-600">
-            <MapPinIcon className="h-4 w-4 text-slate-400 shrink-0" />
+          <div className="mt-3 flex items-center gap-1.5 text-xs text-neutral-600">
+            <MapPinIcon className="h-4 w-4 text-neutral-400 shrink-0" />
             <span className="line-clamp-1 font-medium">
               {job.location_province || "Toàn quốc"}
               {job.location_district ? ` • ${job.location_district}` : ""}
@@ -301,7 +301,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
           {/* Description snippet */}
           {job.description && (
-            <p className="mt-2 text-xs text-slate-500 line-clamp-2 leading-relaxed">
+            <p className="mt-2 text-xs text-neutral-500 line-clamp-2 leading-relaxed">
               {truncateText(job.description.replace(/<[^>]*>?/gm, ""), 120)}
             </p>
           )}
@@ -388,13 +388,13 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
       {previewOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
           <div
-            className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity"
+            className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
             onClick={() => setPreviewOpen(false)}
           />
 
-          <div className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white shadow-2xl border border-slate-200 p-6 sm:p-7 z-10 space-y-5 animate-fadeIn">
+          <div className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white shadow-2xl border border-neutral-200 p-6 sm:p-7 z-10 space-y-5 animate-fadeIn">
             {/* Modal Header */}
-            <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-100">
+            <div className="flex items-start justify-between gap-4 pb-4 border-b border-neutral-200">
               <div className="flex items-center gap-3">
                 <CompanyOrPlatformLogo
                   companyName={job.company_name}
@@ -404,16 +404,16 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                 />
                 <div>
                   <div className="flex items-center gap-1.5">
-                    <h4 className="font-extrabold text-slate-900 text-sm sm:text-base line-clamp-1">
+                    <h4 className="font-extrabold text-black text-sm sm:text-base line-clamp-1">
                       {job.company_name}
                     </h4>
-                    <CheckBadgeIcon className="h-4 w-4 text-blue-500 shrink-0" title="Doanh nghiệp / Fanpage đã xác minh" />
+                    <CheckBadgeIcon className="h-4 w-4 text-black shrink-0" title="Doanh nghiệp / Fanpage đã xác minh" />
                   </div>
-                  <div className="flex items-center gap-2 text-xs text-slate-400 mt-0.5">
+                  <div className="flex items-center gap-2 text-xs text-neutral-500 mt-0.5">
                     <span>{relativeDate}</span>
                     <span>•</span>
-                    <span className={`inline-flex items-center gap-1 font-medium ${platform.badgeClass} px-2 py-0.5 rounded-full text-[11px]`}>
-                      <span className={`w-1.5 h-1.5 rounded-full ${platform.dotClass}`} />
+                    <span className="inline-flex items-center gap-1 font-medium bg-neutral-100 text-neutral-800 border border-neutral-200 px-2 py-0.5 rounded-full text-[11px]">
+                      <span className="w-1.5 h-1.5 rounded-full bg-black" />
                       {platform.name}
                     </span>
                   </div>
@@ -423,7 +423,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               <button
                 type="button"
                 onClick={() => setPreviewOpen(false)}
-                className="rounded-xl p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-700 transition-colors"
+                className="rounded-xl p-1.5 text-neutral-400 hover:bg-neutral-100 hover:text-black transition-colors cursor-pointer"
               >
                 <XMarkIcon className="h-5 w-5" />
               </button>
@@ -431,21 +431,21 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* Job Title & Main Badges */}
             <div className="space-y-3">
-              <h3 className="text-lg sm:text-xl font-extrabold text-slate-900 leading-snug">
+              <h3 className="text-lg sm:text-xl font-extrabold text-black leading-snug">
                 {job.title}
               </h3>
 
               <div className="flex flex-wrap items-center gap-2">
-                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-emerald-50 text-emerald-800 text-xs font-bold border border-emerald-200/80">
-                  <CurrencyDollarIcon className="h-4 w-4 text-emerald-600" />
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-neutral-100 text-black text-xs font-bold border border-neutral-300">
+                  <CurrencyDollarIcon className="h-4 w-4 text-black" />
                   {salaryDisplay}
                 </span>
-                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-slate-100 text-slate-700 text-xs font-medium">
-                  <BriefcaseIcon className="h-4 w-4 text-slate-500" />
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-neutral-100 text-neutral-800 text-xs font-medium border border-neutral-200">
+                  <BriefcaseIcon className="h-4 w-4 text-neutral-600" />
                   {jobTypeDisplay}
                 </span>
-                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-blue-50 text-blue-800 text-xs font-medium border border-blue-100">
-                  <MapPinIcon className="h-4 w-4 text-blue-600" />
+                <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-neutral-100 text-neutral-800 text-xs font-medium border border-neutral-200">
+                  <MapPinIcon className="h-4 w-4 text-neutral-600" />
                   {job.location_province || "Quảng Ninh"} {job.location_district ? `(${job.location_district})` : ""}
                 </span>
               </div>
@@ -453,15 +453,15 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* Match Reasons in Modal */}
             {job.match_reasons && job.match_reasons.length > 0 && (
-              <div className="rounded-2xl bg-sky-50/70 border border-sky-200/80 p-3.5 space-y-2 text-xs">
-                <div className="font-bold text-sky-900 flex items-center gap-1.5">
+              <div className="rounded-2xl bg-neutral-50 border border-neutral-200 p-3.5 space-y-2 text-xs">
+                <div className="font-bold text-black flex items-center gap-1.5">
                   <span>🎯 Tiêu chí xếp hạng & độ phù hợp ({job.match_score || 0}%):</span>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-slate-700">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-neutral-800">
                   {job.match_reasons.map((r, idx) => (
-                    <div key={idx} className="flex items-start gap-1.5 bg-white p-2 rounded-lg border border-sky-100">
-                      <span className="text-emerald-600 font-bold shrink-0">✓</span>
-                      <span className="text-[11px] font-medium text-slate-800">{r}</span>
+                    <div key={idx} className="flex items-start gap-1.5 bg-white p-2 rounded-lg border border-neutral-200">
+                      <span className="text-black font-bold shrink-0">✓</span>
+                      <span className="text-[11px] font-medium text-neutral-900">{r}</span>
                     </div>
                   ))}
                 </div>
@@ -470,46 +470,46 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* Recruitment Evidence & Verification Dossier */}
             {job.evidence_proof && (
-              <div className="rounded-2xl bg-gradient-to-br from-emerald-50 via-teal-50/60 to-white border border-emerald-200 p-4 space-y-3 text-xs shadow-2xs">
-                <div className="flex items-center justify-between gap-2 border-b border-emerald-200/60 pb-2">
+              <div className="rounded-2xl bg-neutral-50 border border-neutral-200 p-4 space-y-3 text-xs shadow-2xs">
+                <div className="flex items-center justify-between gap-2 border-b border-neutral-200 pb-2">
                   <div className="flex items-center gap-2">
-                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-600 text-white text-[11px] font-bold">
+                    <span className="flex h-5 w-5 items-center justify-center rounded-full bg-black text-white text-[11px] font-bold">
                       ✓
                     </span>
-                    <span className="font-extrabold text-emerald-950 text-sm">
+                    <span className="font-extrabold text-black text-sm">
                       Dẫn Chứng Đăng Tuyển Đã Kiểm Định Pháp Nhân
                     </span>
                   </div>
-                  <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-200">
+                  <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-neutral-200 text-black border border-neutral-300">
                     HTTP {job.evidence_proof.url_status || 200} OK
                   </span>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-slate-700">
-                  <div className="bg-white/90 p-2.5 rounded-xl border border-emerald-100 space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-neutral-800">
+                  <div className="bg-white p-2.5 rounded-xl border border-neutral-200 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Cổng xác thực nguồn:
                     </span>
-                    <span className="font-bold text-slate-900 block truncate">
+                    <span className="font-bold text-black block truncate">
                       {job.evidence_proof.source_name}
                     </span>
                     <a
                       href={job.evidence_proof.direct_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-[11px] text-primary-600 font-semibold hover:underline inline-flex items-center gap-1"
+                      className="text-[11px] text-black font-bold hover:underline inline-flex items-center gap-1"
                     >
                       <span>Mở link dẫn chứng gốc</span>
                       <ArrowUpRightIcon className="h-3 w-3" />
                     </a>
                   </div>
 
-                  <div className="bg-white/90 p-2.5 rounded-xl border border-emerald-100 space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                  <div className="bg-white p-2.5 rounded-xl border border-neutral-200 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Đầu mối nhân sự trực tiếp:
                     </span>
                     <div className="flex items-center gap-2">
-                      <span className="font-bold text-emerald-700">
+                      <span className="font-bold text-black">
                         📞 {job.evidence_proof.recruiter_contact?.hotline || "0912.888.999"}
                       </span>
                       {job.evidence_proof.recruiter_contact?.zalo && (
@@ -517,30 +517,30 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                           href={`https://zalo.me/${job.evidence_proof.recruiter_contact.zalo}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[10px] bg-emerald-600 text-white font-bold px-1.5 py-0.5 rounded hover:bg-emerald-700"
+                          className="text-[10px] bg-black text-white font-bold px-1.5 py-0.5 rounded hover:bg-neutral-800"
                         >
                           Zalo HR
                         </a>
                       )}
                     </div>
-                    <span className="text-[11px] text-slate-500 block truncate">
+                    <span className="text-[11px] text-neutral-500 block truncate">
                       ✉️ {job.evidence_proof.recruiter_contact?.email || "tuyendung@vinhviec.vn"}
                     </span>
                   </div>
                 </div>
 
                 {job.evidence_proof.announcement_snippet && (
-                  <div className="bg-white/90 p-2.5 rounded-xl border border-emerald-100 space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                  <div className="bg-white p-2.5 rounded-xl border border-neutral-200 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Trích lục thông báo tuyển dụng đã xác minh ({job.evidence_proof.verified_at}):
                     </span>
-                    <p className="text-[11px] text-slate-600 leading-relaxed italic">
+                    <p className="text-[11px] text-neutral-600 leading-relaxed italic">
                       "{job.evidence_proof.announcement_snippet}"
                     </p>
                   </div>
                 )}
 
-                <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-emerald-200/50 text-[10px] text-slate-500">
+                <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-neutral-200 text-[10px] text-neutral-500">
                   <span>📅 Đăng: {job.posted_at ? new Date(job.posted_at).toLocaleDateString('vi-VN') : "Gần đây"}</span>
                   <span>👁️ Phát hiện: {job.first_discovered_at ? new Date(job.first_discovered_at).toLocaleDateString('vi-VN') : "14/10/2026"}</span>
                   <span>🛡️ Thẩm định: {job.evidence_proof.verified_at}</span>
@@ -550,8 +550,8 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* All Consolidated Sources */}
             {job.all_sources && job.all_sources.length > 1 && (
-              <div className="rounded-2xl bg-indigo-50/70 border border-indigo-200/80 p-3.5 space-y-2 text-xs">
-                <div className="font-bold text-indigo-900 flex items-center gap-1.5">
+              <div className="rounded-2xl bg-neutral-50 border border-neutral-200 p-3.5 space-y-2 text-xs">
+                <div className="font-bold text-black flex items-center gap-1.5">
                   <span>🌐 Tin này xuất hiện trên {job.all_sources.length} nền tảng (Đã khử trùng lặp):</span>
                 </div>
                 <div className="flex flex-wrap gap-2 pt-1">
@@ -561,10 +561,10 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                       href={src.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 bg-white px-2.5 py-1.5 rounded-lg border border-indigo-200 text-xs font-semibold text-indigo-900 hover:bg-indigo-100 transition-colors"
+                      className="inline-flex items-center gap-1.5 bg-white px-2.5 py-1.5 rounded-lg border border-neutral-300 text-xs font-semibold text-black hover:bg-neutral-100 transition-colors"
                     >
                       <span>🔗 {src.platform}</span>
-                      <ArrowUpRightIcon className="h-3 w-3 text-slate-400" />
+                      <ArrowUpRightIcon className="h-3 w-3 text-neutral-400" />
                     </a>
                   ))}
                 </div>
@@ -573,18 +573,18 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* Extracted Benefits & Shifts */}
             {job.raw_data?.mined && (
-              <div className="rounded-2xl bg-amber-50/70 border border-amber-200/80 p-3.5 space-y-2 text-xs">
-                <div className="font-bold text-amber-900 flex items-center gap-1.5">
+              <div className="rounded-2xl bg-neutral-50 border border-neutral-200 p-3.5 space-y-2 text-xs">
+                <div className="font-bold text-black flex items-center gap-1.5">
                   <span>⚡ Thông tin nhanh bóc tách từ bài đăng:</span>
                 </div>
-                <div className="flex flex-wrap gap-2 text-slate-700">
+                <div className="flex flex-wrap gap-2 text-neutral-800">
                   {job.raw_data.mined.shifts?.map((s: string) => (
-                    <span key={s} className="bg-white px-2.5 py-1 rounded-md border border-amber-200 font-semibold text-amber-800">
+                    <span key={s} className="bg-white px-2.5 py-1 rounded-md border border-neutral-300 font-semibold text-neutral-900">
                       🕒 Ca: {s}
                     </span>
                   ))}
                   {job.raw_data.mined.benefits?.map((b: string) => (
-                    <span key={b} className="bg-white px-2.5 py-1 rounded-md border border-emerald-200 font-semibold text-emerald-800">
+                    <span key={b} className="bg-white px-2.5 py-1 rounded-md border border-neutral-300 font-semibold text-neutral-900">
                       🎁 {b}
                     </span>
                   ))}
@@ -594,10 +594,10 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
 
             {/* Full Post Content */}
             <div className="space-y-3 pt-2">
-              <h5 className="text-xs font-bold uppercase tracking-wider text-slate-400">
+              <h5 className="text-xs font-bold uppercase tracking-wider text-neutral-400">
                 Nội dung tuyển dụng chi tiết:
               </h5>
-              <div className="rounded-2xl bg-slate-50 p-4 border border-slate-200/80 text-sm text-slate-700 leading-relaxed max-h-60 overflow-y-auto whitespace-pre-line">
+              <div className="rounded-2xl bg-neutral-50 p-4 border border-neutral-200 text-sm text-neutral-800 leading-relaxed max-h-60 overflow-y-auto whitespace-pre-line">
                 {job.description ? job.description.replace(/<[^>]*>?/gm, "") : "Mô tả công việc đang được cập nhật."}
               </div>
             </div>
@@ -605,17 +605,17 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
             {/* Requirements if any */}
             {job.requirements && (
               <div className="space-y-2">
-                <h5 className="text-xs font-bold uppercase tracking-wider text-slate-400">
+                <h5 className="text-xs font-bold uppercase tracking-wider text-neutral-400">
                   Yêu cầu ứng viên:
                 </h5>
-                <p className="text-sm text-slate-700 leading-relaxed bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                <p className="text-sm text-neutral-800 leading-relaxed bg-neutral-50 p-3.5 rounded-xl border border-neutral-200">
                   {job.requirements.replace(/<[^>]*>?/gm, "")}
                 </p>
               </div>
             )}
 
             {/* Modal Actions */}
-            <div className="pt-4 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+            <div className="pt-4 border-t border-neutral-200 flex flex-wrap items-center justify-between gap-3">
               <div className="flex flex-wrap items-center gap-2">
                 {phone && (
                   <>
@@ -623,13 +623,13 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                       href={`https://zalo.me/${phone}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 px-4 py-2.5 text-xs font-extrabold text-white shadow-sm transition-all"
+                      className="inline-flex items-center gap-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-2.5 text-xs font-bold text-black transition-all cursor-pointer"
                     >
                       <span>💬 Nhắn Zalo: {phone}</span>
                     </a>
                     <a
                       href={`tel:${phone}`}
-                      className="inline-flex items-center gap-1.5 rounded-xl bg-slate-800 hover:bg-slate-900 px-3.5 py-2.5 text-xs font-bold text-white shadow-sm transition-all"
+                      className="inline-flex items-center gap-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-3.5 py-2.5 text-xs font-bold text-black transition-all cursor-pointer"
                     >
                       <PhoneIcon className="h-3.5 w-3.5" />
                       <span>Gọi Hotline</span>
@@ -640,7 +640,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                 {email && (
                   <a
                     href={`mailto:${email}?subject=Ứng tuyển vị trí ${encodeURIComponent(job.title)}`}
-                    className="inline-flex items-center gap-1.5 rounded-xl bg-blue-600 hover:bg-blue-700 px-3.5 py-2.5 text-xs font-bold text-white shadow-sm transition-all"
+                    className="inline-flex items-center gap-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-3.5 py-2.5 text-xs font-bold text-black transition-all cursor-pointer"
                   >
                     <EnvelopeIcon className="h-3.5 w-3.5" />
                     <span>Gửi CV</span>
@@ -654,13 +654,13 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                     <CopySourceButton
                       url={job.source_url}
                       label="Chép link nguồn"
-                      className="text-xs font-semibold text-slate-600 hover:text-slate-900 border border-slate-200 px-3 py-2 rounded-xl hover:bg-slate-50"
+                      className="text-xs font-semibold text-neutral-700 hover:text-black border border-neutral-300 px-3 py-2 rounded-xl hover:bg-neutral-100"
                     />
                     <a
                       href={job.source_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-primary-600 hover:bg-primary-700 px-4 py-2.5 rounded-xl transition-all shadow-sm hover:shadow"
+                      className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-black hover:bg-neutral-800 px-4 py-2.5 rounded-xl transition-all shadow-xs"
                     >
                       <span>🌐 Xem nguồn gốc ({platform.name})</span>
                       <ArrowUpRightIcon className="h-3.5 w-3.5" />
@@ -669,7 +669,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                 )}
                 <Link
                   href={`/jobs/${job.id}`}
-                  className="inline-flex items-center gap-1 text-xs font-bold text-primary-600 hover:text-primary-700 bg-primary-50 px-3 py-2 rounded-xl hover:bg-primary-100 transition-colors"
+                  className="inline-flex items-center gap-1 text-xs font-bold text-black hover:underline bg-neutral-100 border border-neutral-300 px-3 py-2 rounded-xl hover:bg-neutral-200 transition-colors"
                 >
                   <span>Chi tiết đầy đủ →</span>
                 </Link>

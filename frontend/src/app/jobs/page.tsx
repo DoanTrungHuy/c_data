@@ -93,34 +93,34 @@ function JobsView() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-50/60 pb-16">
+    <div className="min-h-screen bg-white pb-16">
       {/* Search Header Banner */}
-      <div className="bg-gradient-to-b from-blue-50/70 to-slate-50 border-b border-slate-200/80 py-8">
+      <div className="bg-neutral-50 border-b border-neutral-200 py-6 sm:py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-4">
           {/* Breadcrumb & Real-time Indicator */}
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <nav className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+            <nav className="flex items-center gap-2 text-xs text-neutral-500 font-medium">
               <Link
                 href="/"
-                className="flex items-center gap-1 hover:text-primary-600 transition-colors"
+                className="flex items-center gap-1 hover:text-black transition-colors"
               >
                 <HomeIcon className="h-3.5 w-3.5" />
                 <span>Trang chủ</span>
               </Link>
-              <ChevronRightIcon className="h-3 w-3 text-slate-400" />
-              <Link href="/jobs" className="text-slate-700 hover:text-primary-600 font-semibold">
+              <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
+              <Link href="/jobs" className="text-neutral-700 hover:text-black font-semibold">
                 Tìm việc làm
               </Link>
               {isSavedOnly && (
                 <>
-                  <ChevronRightIcon className="h-3 w-3 text-slate-400" />
-                  <span className="text-rose-600 font-bold">❤️ Danh sách việc đã lưu</span>
+                  <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
+                  <span className="text-black font-bold">❤️ Việc làm đã lưu</span>
                 </>
               )}
               {activeProvince && !isSavedOnly && (
                 <>
-                  <ChevronRightIcon className="h-3 w-3 text-slate-400" />
-                  <span className="text-primary-600 font-semibold">
+                  <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
+                  <span className="text-black font-semibold">
                     {activeProvince}
                   </span>
                 </>
@@ -129,13 +129,16 @@ function JobsView() {
 
             {/* Real-time Indicator Badge */}
             {isSavedOnly ? (
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-rose-100 text-rose-800 text-xs font-bold shadow-2xs">
-                <span>📌 Chế độ xem việc làm đã lưu offline</span>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 text-black border border-neutral-300 text-xs font-bold shadow-2xs">
+                <span>📌 Chế độ xem việc làm đã lưu</span>
               </div>
             ) : (
-              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold shadow-2xs">
-                <BoltIcon className="h-3.5 w-3.5 text-emerald-600 animate-pulse" />
-                <span>Real-time Active (Kết quả cập nhật tức thì)</span>
+              <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 text-black border border-neutral-300 text-xs font-bold shadow-2xs">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-40"></span>
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-black"></span>
+                </span>
+                <span>Real-time Active (Cập nhật tức thì)</span>
               </div>
             )}
           </div>
@@ -158,8 +161,8 @@ function JobsView() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-8">
         {loading ? (
           <div className="py-24 text-center space-y-4">
-            <div className="inline-block h-9 w-9 animate-spin rounded-full border-4 border-solid border-primary-600 border-r-transparent"></div>
-            <p className="text-sm text-slate-500 font-medium">
+            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-black border-r-transparent"></div>
+            <p className="text-sm text-neutral-500 font-medium">
               Đang tìm kiếm và lọc việc làm thời gian thực...
             </p>
           </div>
@@ -175,10 +178,10 @@ export default function JobsPage() {
   return (
     <Suspense
       fallback={
-        <div className="min-h-screen bg-slate-50 flex items-center justify-center">
+        <div className="min-h-screen bg-white flex items-center justify-center">
           <div className="text-center space-y-3">
-            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-primary-600 border-r-transparent"></div>
-            <p className="text-sm text-slate-500 font-medium">Đang tải việc làm...</p>
+            <div className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-black border-r-transparent"></div>
+            <p className="text-sm text-neutral-500 font-medium">Đang tải việc làm...</p>
           </div>
         </div>
       }

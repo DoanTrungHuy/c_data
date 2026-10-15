@@ -26,7 +26,6 @@ export default function CoverLetterModal({
   const [candidateName, setCandidateName] = useState("Đoàn Trung Huy");
   const [candidatePhone, setCandidatePhone] = useState("0988xxxxxx");
   const [experienceLevel, setExperienceLevel] = useState("1_2_years");
-  const [tone, setTone] = useState("professional");
   const [copied, setCopied] = useState(false);
 
   if (!isOpen) return null;
@@ -110,26 +109,26 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity"
+        className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
         onClick={onClose}
       />
 
       {/* Modal Dialog */}
-      <div className="relative w-full max-w-3xl rounded-3xl bg-white shadow-2xl border border-slate-200 p-6 sm:p-8 z-10 space-y-6 max-h-[92vh] overflow-y-auto animate-fadeIn">
+      <div className="relative w-full max-w-3xl rounded-3xl bg-white shadow-2xl border border-neutral-200 p-6 sm:p-8 z-10 space-y-6 max-h-[92vh] overflow-y-auto animate-fadeIn">
         {/* Header */}
-        <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-100">
+        <div className="flex items-start justify-between gap-4 pb-4 border-b border-neutral-200">
           <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-tr from-emerald-600 to-teal-500 text-white shadow-md shadow-emerald-600/20">
-              <SparklesIcon className="h-6 w-6 text-amber-300" />
+            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
+              <SparklesIcon className="h-6 w-6 text-black" />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-black text-slate-900 flex items-center gap-2">
-                <span>Trợ Lý Soạn Thư Ứng Tuyển & Email Gửi HR</span>
-                <span className="text-[10px] bg-emerald-100 text-emerald-800 font-bold px-2 py-0.5 rounded-full uppercase">
+              <h3 className="text-lg sm:text-xl font-black text-black flex items-center gap-2">
+                <span>Trợ Lý Soạn Thư Ứng Tuyển &amp; Email Gửi HR</span>
+                <span className="text-[10px] bg-neutral-100 text-neutral-800 border border-neutral-300 font-bold px-2 py-0.5 rounded-full uppercase">
                   Tự Động 1 Chạm
                 </span>
               </h3>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <p className="text-xs text-neutral-500 mt-0.5">
                 Ứng tuyển vị trí <strong>{job.title}</strong> tại <strong>{job.company_name}</strong>
               </p>
             </div>
@@ -137,38 +136,38 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors"
+            className="p-1.5 rounded-xl text-neutral-400 hover:text-black hover:bg-neutral-100 transition-colors"
           >
             <XMarkIcon className="h-5 w-5" />
           </button>
         </div>
 
         {/* Input Parameters */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-50 p-4 rounded-2xl border border-slate-200/90 text-xs">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-neutral-50 p-4 rounded-2xl border border-neutral-200 text-xs">
           <div>
-            <label className="font-bold text-slate-700 block mb-1">Tên bạn:</label>
+            <label className="font-bold text-neutral-700 block mb-1">Tên bạn:</label>
             <input
               type="text"
               value={candidateName}
               onChange={(e) => setCandidateName(e.target.value)}
-              className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs focus:ring-2 focus:ring-primary-500 font-semibold"
+              className="w-full rounded-xl border border-neutral-300 bg-white px-3 py-2 text-xs focus:ring-1 focus:ring-black focus:border-black font-semibold"
             />
           </div>
           <div>
-            <label className="font-bold text-slate-700 block mb-1">Số điện thoại:</label>
+            <label className="font-bold text-neutral-700 block mb-1">Số điện thoại:</label>
             <input
               type="text"
               value={candidatePhone}
               onChange={(e) => setCandidatePhone(e.target.value)}
-              className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs focus:ring-2 focus:ring-primary-500 font-semibold"
+              className="w-full rounded-xl border border-neutral-300 bg-white px-3 py-2 text-xs focus:ring-1 focus:ring-black focus:border-black font-semibold"
             />
           </div>
           <div>
-            <label className="font-bold text-slate-700 block mb-1">Kinh nghiệm của bạn:</label>
+            <label className="font-bold text-neutral-700 block mb-1">Kinh nghiệm của bạn:</label>
             <select
               value={experienceLevel}
               onChange={(e) => setExperienceLevel(e.target.value)}
-              className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs focus:ring-2 focus:ring-primary-500 font-semibold"
+              className="w-full rounded-xl border border-neutral-300 bg-white px-3 py-2 text-xs focus:ring-1 focus:ring-black focus:border-black font-semibold"
             >
               <option value="fresher">Mới tốt nghiệp / Dưới 1 năm</option>
               <option value="1_2_years">1 - 2 năm kinh nghiệm</option>
@@ -180,36 +179,36 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
         {/* Email Preview Area */}
         <div className="space-y-2">
           <div className="flex items-center justify-between text-xs">
-            <span className="font-bold text-slate-700 flex items-center gap-1.5">
+            <span className="font-bold text-neutral-700 flex items-center gap-1.5">
               <span>Tiêu đề Email đề xuất:</span>
             </span>
-            <span className="text-slate-400">Chuẩn mực nhân sự</span>
+            <span className="text-neutral-400">Chuẩn mực nhân sự</span>
           </div>
-          <div className="p-3 bg-slate-100 rounded-xl text-xs font-mono text-slate-800 select-all border border-slate-200">
+          <div className="p-3 bg-neutral-100 rounded-xl text-xs font-mono text-neutral-900 select-all border border-neutral-200">
             {emailSubject}
           </div>
 
           <div className="pt-2 flex items-center justify-between text-xs">
-            <span className="font-bold text-slate-700">Nội dung thư ứng tuyển:</span>
+            <span className="font-bold text-neutral-700">Nội dung thư ứng tuyển:</span>
             {copied && (
-              <span className="text-emerald-600 font-bold flex items-center gap-1 animate-pulse">
+              <span className="text-black font-bold flex items-center gap-1 animate-pulse">
                 <CheckBadgeIcon className="h-4 w-4" /> Đã sao chép vào bộ nhớ tạm!
               </span>
             )}
           </div>
-          <div className="p-4 bg-slate-50 rounded-2xl text-xs text-slate-800 leading-relaxed font-sans whitespace-pre-line border border-slate-200 max-h-60 overflow-y-auto select-all shadow-inner">
+          <div className="p-4 bg-neutral-50 rounded-2xl text-xs text-neutral-900 leading-relaxed font-sans whitespace-pre-line border border-neutral-200 max-h-60 overflow-y-auto select-all shadow-inner">
             {letterBody}
           </div>
         </div>
 
         {/* Footer Buttons */}
-        <div className="pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-3">
+        <div className="pt-3 border-t border-neutral-200 flex flex-wrap items-center justify-between gap-3">
           <div className="flex items-center gap-2">
             {hrEmail ? (
               <button
                 type="button"
                 onClick={handleOpenMailto}
-                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-md shadow-blue-600/20 transition-all active:scale-95"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs shadow-xs transition-all active:scale-95"
               >
                 <EnvelopeIcon className="h-4 w-4" />
                 <span>Mở Email gửi ngay cho HR ({hrEmail})</span>
@@ -221,7 +220,7 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
                 href={`https://zalo.me/${hrPhone}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs shadow-md shadow-emerald-600/20 transition-all active:scale-95"
+                className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-neutral-900 font-bold text-xs border border-neutral-300 transition-all active:scale-95"
               >
                 <ChatBubbleLeftRightIcon className="h-4 w-4" />
                 <span>Nhắn Zalo HR ({hrPhone})</span>
@@ -233,11 +232,11 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
             <button
               type="button"
               onClick={handleCopy}
-              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs shadow-sm transition-all active:scale-95 cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs shadow-xs transition-all active:scale-95 cursor-pointer"
             >
               {copied ? (
                 <>
-                  <ClipboardDocumentCheckIcon className="h-4 w-4 text-emerald-400" />
+                  <ClipboardDocumentCheckIcon className="h-4 w-4 text-white" />
                   <span>Đã sao chép!</span>
                 </>
               ) : (

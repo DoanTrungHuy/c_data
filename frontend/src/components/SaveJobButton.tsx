@@ -36,14 +36,14 @@ export default function SaveJobButton({
         onClick={handleToggle}
         className={`inline-flex items-center gap-1.5 p-2 rounded-xl transition-all duration-200 active:scale-90 cursor-pointer ${
           saved
-            ? "bg-rose-50 text-rose-600 border border-rose-200 hover:bg-rose-100"
-            : "bg-slate-100 text-slate-500 hover:text-slate-800 hover:bg-slate-200"
+            ? "bg-black text-white border border-black hover:bg-neutral-800"
+            : "bg-neutral-100 text-neutral-600 hover:text-black hover:bg-neutral-200 border border-neutral-200"
         } ${className}`}
         title={saved ? "Bỏ lưu việc làm này" : "Lưu vào danh sách quan tâm"}
         aria-label={saved ? "Bỏ lưu" : "Lưu việc làm"}
       >
         {saved ? (
-          <BookmarkSolid className="h-5 w-5 text-rose-600 animate-scaleIn" />
+          <BookmarkSolid className="h-5 w-5 text-white animate-scaleIn" />
         ) : (
           <BookmarkOutline className="h-5 w-5" />
         )}
@@ -56,7 +56,7 @@ export default function SaveJobButton({
 
       {/* Floating Toast Notification */}
       {toastMessage && (
-        <div className="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-2.5 py-1 rounded-lg bg-slate-900 text-white text-[11px] font-bold shadow-lg z-30 animate-fadeIn">
+        <div className="absolute -top-9 left-1/2 -translate-x-1/2 whitespace-nowrap px-2.5 py-1 rounded-lg bg-black text-white text-[11px] font-bold shadow-lg z-30 animate-fadeIn">
           {toastMessage}
         </div>
       )}

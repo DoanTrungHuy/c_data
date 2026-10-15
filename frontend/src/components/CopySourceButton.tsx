@@ -27,16 +27,16 @@ export default function CopySourceButton({
       type="button"
       onClick={handleCopy}
       className={`inline-flex items-center gap-1.5 transition-colors cursor-pointer ${className}`}
-      title="Sao chép liên kết nguồn để dán vào trình duyệt hoặc app Facebook"
+      title="Sao chép liên kết nguồn để dán vào trình duyệt hoặc app"
     >
       {copied ? (
         <>
-          <ClipboardDocumentCheckIcon className="h-4 w-4 text-emerald-600" />
-          <span className="text-emerald-700 font-bold">Đã chép link!</span>
+          <ClipboardDocumentCheckIcon className="h-4 w-4 text-black" />
+          <span className="text-black font-bold">Đã chép link!</span>
         </>
       ) : (
         <>
-          <DocumentDuplicateIcon className="h-4 w-4 text-slate-500" />
+          <DocumentDuplicateIcon className="h-4 w-4 text-neutral-500" />
           <span>{label}</span>
         </>
       )}

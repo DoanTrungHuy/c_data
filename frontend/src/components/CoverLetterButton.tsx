@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { SparklesIcon, DocumentTextIcon } from "@heroicons/react/24/outline";
+import { SparklesIcon } from "@heroicons/react/24/outline";
 import { Job } from "@/types/job";
 import CoverLetterModal from "@/components/CoverLetterModal";
 
@@ -21,11 +21,11 @@ export default function CoverLetterButton({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className={`inline-flex items-center justify-center gap-1.5 rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white text-xs font-bold shadow-md shadow-emerald-600/20 active:scale-95 transition-all cursor-pointer ${className}`}
+        className={`inline-flex items-center justify-center gap-1.5 rounded-xl bg-black hover:bg-neutral-800 text-white text-xs font-bold shadow-xs active:scale-95 transition-all cursor-pointer ${className}`}
         title="Tự động soạn thư ứng tuyển & email gửi thẳng đến HR công ty"
       >
-        <SparklesIcon className="h-4 w-4 text-amber-300" />
-        <span>Tạo thư ứng tuyển & Email HR</span>
+        <SparklesIcon className="h-4 w-4 text-white" />
+        <span>Tạo thư ứng tuyển &amp; Email HR</span>
       </button>
 
       <CoverLetterModal

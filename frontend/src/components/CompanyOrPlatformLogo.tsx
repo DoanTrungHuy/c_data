@@ -323,11 +323,11 @@ export default function CompanyOrPlatformLogo({
     );
   }
 
-  // --- Generic Fallback: Initial letter with attractive corporate gradient ---
+  // --- Generic Fallback: Initial letter with attractive corporate badge ---
   const initial = companyName ? companyName.trim().charAt(0).toUpperCase() : "C";
   return (
     <div
-      className={`relative flex shrink-0 items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200 text-slate-700 font-extrabold border border-slate-300/80 shadow-2xs ${sizeClasses} ${className}`}
+      className={`relative flex shrink-0 items-center justify-center bg-neutral-100 text-black font-extrabold border border-neutral-300 shadow-2xs ${sizeClasses} ${className}`}
       title={companyName || "Doanh nghiệp"}
     >
       <span>{initial}</span>

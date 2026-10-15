@@ -180,15 +180,15 @@ export default function FilterSidebar({
       </div>
 
       {/* Tech Stack Cloud Filter */}
-      <div className="space-y-2 pb-4 border-b border-slate-100">
+      <div className="space-y-2 pb-4 border-b border-neutral-200">
         <div className="flex items-center justify-between">
-          <label className="text-xs font-bold uppercase tracking-wider text-indigo-950 flex items-center gap-1">
+          <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
             <span>⚡ Kỹ Năng / Tech Stack</span>
           </label>
           {selectedTech && (
             <button
               onClick={() => updateParam("tech_stack", "")}
-              className="text-[10px] text-indigo-700 hover:underline font-semibold"
+              className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
             >
               Bỏ chọn
             </button>
@@ -204,10 +204,10 @@ export default function FilterSidebar({
               key={tech}
               type="button"
               onClick={() => updateParam("tech_stack", selectedTech === tech ? "" : tech)}
-              className={`text-[11px] font-bold px-2 py-1 rounded-lg border transition-all ${
+              className={`text-[11px] font-bold px-2 py-1 rounded-lg border transition-all cursor-pointer ${
                 selectedTech === tech
-                  ? "bg-indigo-600 text-white border-indigo-600 shadow-xs"
-                  : "bg-indigo-50/70 text-indigo-900 border-indigo-200/80 hover:bg-indigo-100"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-neutral-800 border-neutral-200 hover:bg-neutral-200"
               }`}
             >
               {tech}
@@ -218,35 +218,35 @@ export default function FilterSidebar({
 
       {/* 1. Province Filter */}
       <div className="space-y-2">
-        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
           Địa điểm (Tỉnh / Thành phố)
         </label>
         <div className="relative mb-2">
-          <MagnifyingGlassIcon className="absolute left-2.5 top-2.5 h-4 w-4 text-slate-400" />
+          <MagnifyingGlassIcon className="absolute left-2.5 top-2.5 h-4 w-4 text-neutral-400" />
           <input
             type="text"
             placeholder="Lọc tỉnh thành..."
             value={provinceSearch}
             onChange={(e) => setProvinceSearch(e.target.value)}
-            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-lg border border-slate-200 focus:outline-none focus:ring-1 focus:ring-primary-500"
+            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:ring-1 focus:ring-black"
           />
         </div>
         <div className="max-h-40 overflow-y-auto pr-1 space-y-1 text-sm">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
             <input
               type="radio"
               name="province"
               value=""
               checked={selectedProvince === ""}
               onChange={() => updateParam("province", "")}
-              className="text-primary-600 focus:ring-primary-500 rounded"
+              className="text-black focus:ring-black accent-black rounded"
             />
             <span className="text-xs font-medium">Tất cả địa điểm</span>
           </label>
           {filteredProvinces.map((prov) => (
             <label
               key={prov.code}
-              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
             >
               <div className="flex items-center gap-2">
                 <input
@@ -255,12 +255,12 @@ export default function FilterSidebar({
                   value={prov.name}
                   checked={selectedProvince === prov.name}
                   onChange={() => updateParam("province", prov.name)}
-                  className="text-primary-600 focus:ring-primary-500"
+                  className="text-black focus:ring-black accent-black"
                 />
                 <span className="text-xs">{prov.name}</span>
               </div>
               {prov.popular && (
-                <span className="text-[10px] font-semibold text-primary-600 bg-primary-50 px-1.5 py-0.5 rounded">
+                <span className="text-[10px] font-bold text-black bg-neutral-200 px-1.5 py-0.5 rounded">
                   Hot
                 </span>
               )}
@@ -270,26 +270,26 @@ export default function FilterSidebar({
       </div>
 
       {/* 2. Category Filter */}
-      <div className="space-y-2 pt-4 border-t border-slate-100">
-        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+      <div className="space-y-2 pt-4 border-t border-neutral-200">
+        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
           Ngành nghề chuyên môn
         </label>
         <div className="space-y-1.5 text-sm max-h-48 overflow-y-auto pr-1">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
             <input
               type="radio"
               name="category"
               value=""
               checked={selectedCategory === ""}
               onChange={() => updateParam("category", "")}
-              className="text-primary-600 focus:ring-primary-500"
+              className="text-black focus:ring-black accent-black"
             />
             <span className="text-xs font-medium">Tất cả ngành nghề</span>
           </label>
           {POPULAR_CATEGORIES.map((cat) => (
             <label
               key={cat.slug}
-              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
             >
               <div className="flex items-center gap-2">
                 <input
@@ -298,7 +298,7 @@ export default function FilterSidebar({
                   value={cat.name}
                   checked={selectedCategory === cat.name}
                   onChange={() => updateParam("category", cat.name)}
-                  className="text-primary-600 focus:ring-primary-500"
+                  className="text-black focus:ring-black accent-black"
                 />
                 <span className="text-xs line-clamp-1">{cat.name}</span>
               </div>
@@ -308,26 +308,26 @@ export default function FilterSidebar({
       </div>
 
       {/* 3. Job Type Filter */}
-      <div className="space-y-2 pt-4 border-t border-slate-100">
-        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+      <div className="space-y-2 pt-4 border-t border-neutral-200">
+        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
           Hình thức làm việc
         </label>
         <div className="space-y-1.5 text-sm">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
             <input
               type="radio"
               name="job_type"
               value=""
               checked={selectedJobType === ""}
               onChange={() => updateParam("job_type", "")}
-              className="text-primary-600 focus:ring-primary-500"
+              className="text-black focus:ring-black accent-black"
             />
             <span className="text-xs font-medium">Tất cả hình thức</span>
           </label>
           {JOB_TYPES.map((jt) => (
             <label
               key={jt.value}
-              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
             >
               <input
                 type="radio"
@@ -335,7 +335,7 @@ export default function FilterSidebar({
                 value={jt.value}
                 checked={selectedJobType === jt.value}
                 onChange={() => updateParam("job_type", jt.value)}
-                className="text-primary-600 focus:ring-primary-500"
+                className="text-black focus:ring-black accent-black"
               />
               <span className="text-xs">{jt.label}</span>
             </label>
@@ -344,8 +344,8 @@ export default function FilterSidebar({
       </div>
 
       {/* 4. Salary Range Filter */}
-      <div className="space-y-2 pt-4 border-t border-slate-100">
-        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+      <div className="space-y-2 pt-4 border-t border-neutral-200">
+        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
           Mức lương
         </label>
         <div className="space-y-1.5 text-sm">
@@ -361,14 +361,14 @@ export default function FilterSidebar({
             return (
               <label
                 key={`sal-${idx}`}
-                className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+                className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
               >
                 <input
                   type="radio"
                   name="salary_range"
                   checked={isChecked}
                   onChange={() => handleSalaryChange(range.min, range.max)}
-                  className="text-primary-600 focus:ring-primary-500"
+                  className="text-black focus:ring-black accent-black"
                 />
                 <span className="text-xs">{range.label}</span>
               </label>
@@ -378,26 +378,26 @@ export default function FilterSidebar({
       </div>
 
       {/* 5. Source Platform Filter */}
-      <div className="space-y-2 pt-4 border-t border-slate-100">
-        <label className="text-xs font-bold uppercase tracking-wider text-slate-700">
+      <div className="space-y-2 pt-4 border-t border-neutral-200">
+        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
           Nguồn tuyển dụng
         </label>
         <div className="space-y-1.5 text-sm">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
             <input
               type="radio"
               name="source_platform"
               value=""
               checked={selectedPlatform === ""}
               onChange={() => updateParam("source_platform", "")}
-              className="text-primary-600 focus:ring-primary-500"
+              className="text-black focus:ring-black accent-black"
             />
             <span className="text-xs font-medium">Tất cả nguồn</span>
           </label>
           {SOURCE_PLATFORMS.map((platform) => (
             <label
               key={platform.id}
-              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-slate-50 text-slate-700"
+              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
             >
               <input
                 type="radio"
@@ -405,7 +405,7 @@ export default function FilterSidebar({
                 value={platform.id}
                 checked={selectedPlatform === platform.id}
                 onChange={() => updateParam("source_platform", platform.id)}
-                className="text-primary-600 focus:ring-primary-500"
+                className="text-black focus:ring-black accent-black"
               />
               <span className="text-xs">{platform.name}</span>
             </label>

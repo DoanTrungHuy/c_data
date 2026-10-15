@@ -334,41 +334,41 @@ export default async function HomePage() {
 
       {/* 6. WHY CHOOSE C_DATA BANNER */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-3xl bg-neutral-950 border border-neutral-800 p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
+        <div className="rounded-3xl bg-neutral-50 border border-neutral-200 p-8 sm:p-12 text-black shadow-xs relative overflow-hidden">
           <div className="relative z-10 max-w-3xl">
-            <span className="inline-block text-xs font-bold tracking-widest text-neutral-400 uppercase mb-3">
+            <span className="inline-block text-xs font-bold tracking-widest text-neutral-500 uppercase mb-3">
               Minh bạch • Toàn diện • Tự động hóa
             </span>
-            <h2 className="text-2xl sm:text-4xl font-black tracking-tight leading-snug">
+            <h2 className="text-2xl sm:text-4xl font-black tracking-tight leading-snug text-black">
               Vì sao hàng vạn ứng viên tin dùng C_Data mỗi ngày?
             </h2>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-white font-bold text-base">
-                  <CheckBadgeIcon className="h-5 w-5 text-white" />
+                <div className="flex items-center gap-2 text-black font-bold text-base">
+                  <CheckBadgeIcon className="h-5 w-5 text-black" />
                   <span>Dữ liệu tập trung</span>
                 </div>
-                <p className="text-xs text-neutral-400 leading-relaxed">
+                <p className="text-xs text-neutral-600 leading-relaxed">
                   Tổng hợp thông tin từ TopCV, VietnamWorks, CareerViet, ITviec, không bỏ sót bất kỳ cơ hội nào.
                 </p>
               </div>
 
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-white font-bold text-base">
-                  <CheckBadgeIcon className="h-5 w-5 text-white" />
+                <div className="flex items-center gap-2 text-black font-bold text-base">
+                  <CheckBadgeIcon className="h-5 w-5 text-black" />
                   <span>Cập nhật liên tục</span>
                 </div>
-                <p className="text-xs text-neutral-400 leading-relaxed">
+                <p className="text-xs text-neutral-600 leading-relaxed">
                   Robot thu thập dữ liệu tự động theo chu kỳ mỗi giờ, loại bỏ tin hết hạn và tin trùng lặp.
                 </p>
               </div>
 
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-white font-bold text-base">
-                  <CheckBadgeIcon className="h-5 w-5 text-white" />
+                <div className="flex items-center gap-2 text-black font-bold text-base">
+                  <CheckBadgeIcon className="h-5 w-5 text-black" />
                   <span>Phi lợi nhuận 100%</span>
                 </div>
-                <p className="text-xs text-neutral-400 leading-relaxed">
+                <p className="text-xs text-neutral-600 leading-relaxed">
                   Miễn phí hoàn toàn cho người lao động, chuyển hướng ứng tuyển trực tiếp đến nhà tuyển dụng.
                 </p>
               </div>
@@ -377,7 +377,7 @@ export default async function HomePage() {
             <div className="mt-8">
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 rounded-xl bg-white text-black px-5 py-3 text-sm font-bold shadow-md hover:bg-neutral-100 transition-colors"
+                className="inline-flex items-center gap-2 rounded-xl bg-black text-white px-5 py-3 text-sm font-bold shadow-xs hover:bg-neutral-800 transition-colors"
               >
                 <span>Tìm hiểu câu chuyện C_Data</span>
                 <ArrowRightIcon className="h-4 w-4" />

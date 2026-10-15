@@ -74,9 +74,9 @@ export default function RootLayout({
         <link rel="icon" href={`${basePath}/icon.png`} type="image/png" sizes="32x32" />
         <link rel="icon" href={`${basePath}/favicon.svg`} type="image/svg+xml" />
         <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
-        <meta name="theme-color" content="#0B0F19" />
+        <meta name="theme-color" content="#000000" />
       </head>
-      <body className="min-h-screen flex flex-col font-sans bg-slate-50 text-slate-900 selection:bg-primary-500 selection:text-white">
+      <body className="min-h-screen flex flex-col font-sans bg-white text-black selection:bg-black selection:text-white">
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

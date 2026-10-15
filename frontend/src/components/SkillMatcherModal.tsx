@@ -5,8 +5,6 @@ import {
   XMarkIcon,
   SparklesIcon,
   CheckIcon,
-  CommandLineIcon,
-  ArrowPathIcon,
   BriefcaseIcon,
 } from "@heroicons/react/24/outline";
 import {
@@ -89,26 +87,26 @@ export default function SkillMatcherModal({
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
       {/* Backdrop */}
       <div
-        className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs transition-opacity"
+        className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
         onClick={onClose}
       />
 
       {/* Modal Dialog */}
-      <div className="relative w-full max-w-3xl rounded-3xl bg-white shadow-2xl border border-slate-200 p-6 sm:p-8 z-10 space-y-6 max-h-[90vh] overflow-y-auto animate-fadeIn">
+      <div className="relative w-full max-w-3xl rounded-3xl bg-white shadow-2xl border border-neutral-200 p-6 sm:p-8 z-10 space-y-6 max-h-[90vh] overflow-y-auto animate-fadeIn">
         {/* Header */}
-        <div className="flex items-start justify-between gap-4 pb-4 border-b border-slate-100">
+        <div className="flex items-start justify-between gap-4 pb-4 border-b border-neutral-200">
           <div className="flex items-center gap-3">
-            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-tr from-primary-600 to-blue-500 text-white shadow-md shadow-primary-500/20">
-              <SparklesIcon className="h-6 w-6 text-amber-300" />
+            <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
+              <SparklesIcon className="h-6 w-6 text-black" />
             </div>
             <div>
-              <h3 className="text-lg sm:text-xl font-black text-slate-900 flex items-center gap-2">
-                <span>AI So Khớp Hồ Sơ & Kỹ Năng IT</span>
-                <span className="text-[10px] bg-blue-100 text-blue-800 font-bold px-2 py-0.5 rounded-full uppercase">
+              <h3 className="text-lg sm:text-xl font-black text-black flex items-center gap-2">
+                <span>AI So Khớp Hồ Sơ &amp; Kỹ Năng IT</span>
+                <span className="text-[10px] bg-neutral-100 text-neutral-800 border border-neutral-300 font-bold px-2 py-0.5 rounded-full uppercase">
                   Thông minh
                 </span>
               </h3>
-              <p className="text-xs text-slate-500 mt-0.5">
+              <p className="text-xs text-neutral-500 mt-0.5">
                 Chọn các kỹ năng của bạn để C_Data tự động chấm điểm độ phù hợp (%) trên mọi việc làm Hạ Long.
               </p>
             </div>
@@ -116,7 +114,7 @@ export default function SkillMatcherModal({
           <button
             type="button"
             onClick={onClose}
-            className="p-1.5 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-colors"
+            className="p-1.5 rounded-xl text-neutral-400 hover:text-black hover:bg-neutral-100 transition-colors"
           >
             <XMarkIcon className="h-5 w-5" />
           </button>
@@ -124,8 +122,8 @@ export default function SkillMatcherModal({
 
         {/* Quick Presets for Ha Long */}
         <div className="space-y-2.5">
-          <label className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
-            <BriefcaseIcon className="h-4 w-4 text-primary-600" />
+          <label className="text-xs font-bold text-neutral-700 uppercase tracking-wider flex items-center gap-1.5">
+            <BriefcaseIcon className="h-4 w-4 text-black" />
             <span>Chọn nhanh theo định hướng vị trí tại Hạ Long:</span>
           </label>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
@@ -140,15 +138,15 @@ export default function SkillMatcherModal({
                   onClick={() => applyPreset(p.skills)}
                   className={`text-left p-3 rounded-xl border text-xs transition-all ${
                     isActive
-                      ? "border-primary-500 bg-primary-50/70 text-primary-900 font-bold ring-1 ring-primary-400"
-                      : "border-slate-200/90 bg-slate-50 hover:bg-white hover:border-slate-300 text-slate-700"
+                      ? "border-black bg-neutral-100 text-black font-bold ring-1 ring-black"
+                      : "border-neutral-200 bg-neutral-50 hover:bg-white hover:border-neutral-300 text-neutral-700"
                   }`}
                 >
                   <p className="font-bold flex items-center justify-between">
                     <span>{p.name}</span>
-                    {isActive && <CheckIcon className="h-3.5 w-3.5 text-primary-600" />}
+                    {isActive && <CheckIcon className="h-3.5 w-3.5 text-black" />}
                   </p>
-                  <p className="text-[11px] text-slate-500 mt-0.5 line-clamp-1">{p.desc}</p>
+                  <p className="text-[11px] text-neutral-500 mt-0.5 line-clamp-1">{p.desc}</p>
                 </button>
               );
             })}
@@ -159,7 +157,7 @@ export default function SkillMatcherModal({
         <div className="space-y-5 pt-2">
           {POPULAR_IT_SKILLS.map((group) => (
             <div key={group.category} className="space-y-2">
-              <h4 className="text-xs font-extrabold text-slate-600 uppercase tracking-wider">
+              <h4 className="text-xs font-extrabold text-neutral-600 uppercase tracking-wider">
                 {group.category}
               </h4>
               <div className="flex flex-wrap gap-2">
@@ -172,11 +170,11 @@ export default function SkillMatcherModal({
                       onClick={() => toggleSkill(skill.id)}
                       className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs transition-all font-semibold cursor-pointer ${
                         isChecked
-                          ? "bg-primary-600 text-white shadow-sm shadow-primary-600/30 ring-2 ring-primary-300"
-                          : "bg-slate-100 text-slate-700 hover:bg-slate-200 border border-slate-200/80"
+                          ? "bg-black text-white border border-black shadow-xs"
+                          : "bg-neutral-100 text-neutral-800 hover:bg-neutral-200 border border-neutral-200"
                       }`}
                     >
-                      {isChecked && <CheckIcon className="h-3.5 w-3.5" />}
+                      {isChecked && <CheckIcon className="h-3.5 w-3.5 text-white" />}
                       <span>{skill.name}</span>
                     </button>
                   );
@@ -187,16 +185,16 @@ export default function SkillMatcherModal({
         </div>
 
         {/* Footer Actions */}
-        <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div className="text-xs text-slate-500">
-            Đã chọn <strong className="text-primary-600 font-bold">{selected.length}</strong> kỹ năng hồ sơ
+        <div className="pt-4 border-t border-neutral-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div className="text-xs text-neutral-600">
+            Đã chọn <strong className="text-black font-bold">{selected.length}</strong> kỹ năng hồ sơ
           </div>
           <div className="flex items-center gap-2 w-full sm:w-auto">
             {selected.length > 0 && (
               <button
                 type="button"
                 onClick={handleClear}
-                className="px-4 py-2.5 rounded-xl text-xs font-semibold text-slate-600 hover:bg-slate-100 transition-colors"
+                className="px-4 py-2.5 rounded-xl text-xs font-semibold text-neutral-700 hover:bg-neutral-100 transition-colors"
               >
                 Đặt lại
               </button>
@@ -204,10 +202,10 @@ export default function SkillMatcherModal({
             <button
               type="button"
               onClick={handleSave}
-              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-6 py-2.5 rounded-xl bg-gradient-to-r from-primary-600 to-blue-600 text-white font-bold text-xs shadow-md shadow-primary-500/20 hover:from-primary-700 hover:to-blue-700 transition-all active:scale-95"
+              className="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-6 py-2.5 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs shadow-xs transition-all active:scale-95 cursor-pointer"
             >
-              <SparklesIcon className="h-4 w-4 text-amber-300" />
-              <span>Lưu & So khớp việc làm ngay</span>
+              <SparklesIcon className="h-4 w-4 text-white" />
+              <span>Lưu &amp; So khớp việc làm ngay</span>
             </button>
           </div>
         </div>

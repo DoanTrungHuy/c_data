@@ -233,32 +233,32 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           const diagIntent = diag?.parsed_intent || diag?.intent;
 
           return (
-            <div className="bg-slate-900 text-white rounded-2xl border border-slate-700/80 shadow-md overflow-hidden animate-fadeIn">
+            <div className="bg-neutral-50 text-neutral-900 rounded-2xl border border-neutral-200 shadow-xs overflow-hidden animate-fadeIn">
               <button
                 type="button"
                 onClick={() => setDiagnosticsOpen(!diagnosticsOpen)}
-                className="w-full px-4 py-3 bg-slate-800/80 hover:bg-slate-800 flex items-center justify-between text-left transition-colors cursor-pointer"
+                className="w-full px-4 py-3 bg-neutral-100 hover:bg-neutral-200/70 flex items-center justify-between text-left transition-colors cursor-pointer"
               >
                 <div className="flex flex-wrap items-center gap-2">
                   <span className="text-sm">🔍</span>
-                  <span className="text-xs font-bold text-sky-300">
+                  <span className="text-xs font-bold text-black">
                     Chẩn đoán Truy vấn & Xếp hạng Thông minh (Intent & Diagnostics)
                   </span>
                   {diagIntent?.primary_role && (
-                    <span className="px-2 py-0.5 rounded-full bg-sky-950 text-sky-300 border border-sky-800 text-[10px] font-semibold">
+                    <span className="px-2 py-0.5 rounded-full bg-neutral-200 text-black border border-neutral-300 text-[10px] font-bold">
                       Vị trí: {diagIntent.primary_role}
                     </span>
                   )}
                   {(diagIntent?.target_district || diagIntent?.city || diagIntent?.target_province || diagIntent?.province) && (
-                    <span className="px-2 py-0.5 rounded-full bg-emerald-950 text-emerald-300 border border-emerald-800 text-[10px] font-semibold">
+                    <span className="px-2 py-0.5 rounded-full bg-neutral-200 text-black border border-neutral-300 text-[10px] font-bold">
                       Địa phương: {diagIntent?.target_district || diagIntent?.city || diagIntent?.target_province || diagIntent?.province}
                     </span>
                   )}
-                  <span className="text-[10px] text-slate-400">
+                  <span className="text-[10px] text-neutral-500">
                     ({diag?.total_candidates_examined || 0} ứng viên • {diag?.duplicates_consolidated || 0} trùng lặp gộp)
                   </span>
                 </div>
-                <div className="flex items-center gap-1 text-slate-400 text-xs font-semibold shrink-0">
+                <div className="flex items-center gap-1 text-neutral-500 text-xs font-semibold shrink-0">
                   <span>{diagnosticsOpen ? "Thu gọn" : "Xem chi tiết"}</span>
                   {diagnosticsOpen ? (
                     <ChevronUpIcon className="h-4 w-4" />
@@ -269,134 +269,134 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               </button>
 
               {diagnosticsOpen && (
-                <div className="p-4 space-y-4 text-xs border-t border-slate-700/60 bg-slate-950/40">
+                <div className="p-4 space-y-4 text-xs border-t border-neutral-200 bg-white">
                   {/* Grid 3 boxes: Search Intent, Query Expansion, Filtering Funnel */}
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
                     {/* Card 1: Parsed Intent */}
-                    <div className="bg-slate-800/60 rounded-xl p-3 border border-slate-700/50 space-y-2">
-                      <span className="text-sky-300 font-bold block text-xs flex items-center gap-1.5">
+                    <div className="bg-neutral-50 rounded-xl p-3 border border-neutral-200 space-y-2">
+                      <span className="text-black font-bold block text-xs flex items-center gap-1.5">
                         <span>🎯</span>
                         <span>Ý định tìm kiếm (Search Intent):</span>
                       </span>
-                      <div className="space-y-1 text-slate-300">
+                      <div className="space-y-1 text-neutral-700">
                         <div>
-                          <strong className="text-white">Vai trò / Ngành:</strong>{" "}
+                          <strong className="text-black">Vai trò / Ngành:</strong>{" "}
                           {diagIntent?.primary_role || "Không xác định"}
                           {diagIntent?.role_family && (
-                            <span className="text-slate-400">
+                            <span className="text-neutral-500">
                               {" "}
                               ({Array.isArray(diagIntent.role_family) ? diagIntent.role_family.join(", ") : diagIntent.role_family})
                             </span>
                           )}
                         </div>
                         <div>
-                          <strong className="text-white">Khu vực:</strong>{" "}
+                          <strong className="text-black">Khu vực:</strong>{" "}
                           {diagIntent?.target_province || diagIntent?.province || "Toàn quốc"}
                           {(diagIntent?.target_district || diagIntent?.city) && (
-                            <span className="text-emerald-300"> - {diagIntent?.target_district || diagIntent?.city}</span>
+                            <span className="text-neutral-900 font-bold"> - {diagIntent?.target_district || diagIntent?.city}</span>
                           )}
                         </div>
                         {diagIntent?.location_aliases && diagIntent.location_aliases.length > 0 && (
                           <div>
-                            <strong className="text-white">Bí danh địa bàn:</strong>{" "}
-                            <span className="text-slate-400">{diagIntent.location_aliases.slice(0, 5).join(", ")}</span>
+                            <strong className="text-black">Bí danh địa bàn:</strong>{" "}
+                            <span className="text-neutral-500">{diagIntent.location_aliases.slice(0, 5).join(", ")}</span>
                           </div>
                         )}
                         <div>
-                          <strong className="text-white">Cấp bậc:</strong>{" "}
+                          <strong className="text-black">Cấp bậc:</strong>{" "}
                           {diagIntent?.seniority || "Tất cả cấp bậc"}
                         </div>
                         {diagIntent?.negative_constraints && diagIntent.negative_constraints.length > 0 && (
-                          <div className="text-rose-300">
+                          <div className="text-neutral-900">
                             <strong>Ràng buộc loại trừ:</strong>{" "}
                             {diagIntent.negative_constraints.join(", ")}
                           </div>
                         )}
                         {diagIntent?.max_posting_age_days && (
-                          <div className="text-amber-300">
+                          <div className="text-neutral-900">
                             <strong>Độ tươi tin:</strong> Trong {diagIntent.max_posting_age_days} ngày gần nhất
                           </div>
                         )}
                       </div>
                     </div>
 
-                  {/* Card 2: Query Expansion */}
-                  <div className="bg-slate-800/60 rounded-xl p-3 border border-slate-700/50 space-y-2">
-                    <span className="text-emerald-300 font-bold block text-xs flex items-center gap-1.5">
-                      <span>🔀</span>
-                      <span>Truy vấn mở rộng đa luồng:</span>
-                    </span>
-                    <p className="text-slate-400 text-[11px] leading-relaxed">
-                      Hệ thống tự động sinh các biến thể từ khóa tương đương thay vì tìm kiếm nguyên văn câu hỏi:
-                    </p>
-                    <div className="flex flex-wrap gap-1.5 pt-1">
-                      {diag?.expanded_queries?.slice(0, 8).map((qVariant, idx) => (
-                        <span
-                          key={idx}
-                          className="px-2 py-0.5 rounded-md bg-emerald-950/80 text-emerald-300 border border-emerald-800/80 text-[10px] font-mono"
-                        >
-                          {qVariant}
-                        </span>
-                      ))}
+                    {/* Card 2: Query Expansion */}
+                    <div className="bg-neutral-50 rounded-xl p-3 border border-neutral-200 space-y-2">
+                      <span className="text-black font-bold block text-xs flex items-center gap-1.5">
+                        <span>🔀</span>
+                        <span>Truy vấn mở rộng đa luồng:</span>
+                      </span>
+                      <p className="text-neutral-600 text-[11px] leading-relaxed">
+                        Hệ thống tự động sinh các biến thể từ khóa tương đương thay vì tìm kiếm nguyên văn câu hỏi:
+                      </p>
+                      <div className="flex flex-wrap gap-1.5 pt-1">
+                        {diag?.expanded_queries?.slice(0, 8).map((qVariant: string, idx: number) => (
+                          <span
+                            key={idx}
+                            className="px-2 py-0.5 rounded-md bg-white text-black border border-neutral-300 text-[10px] font-mono font-medium shadow-2xs"
+                          >
+                            {qVariant}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Card 3: Filter & Ranking Funnel */}
+                    <div className="bg-neutral-50 rounded-xl p-3 border border-neutral-200 space-y-2">
+                      <span className="text-black font-bold block text-xs flex items-center gap-1.5">
+                        <span>⚙️</span>
+                        <span>Phễu Sàng Lọc & Khử Trùng:</span>
+                      </span>
+                      <div className="space-y-1.5 text-neutral-700">
+                        <div className="flex justify-between">
+                          <span>Số tin ứng viên khảo sát:</span>
+                          <strong className="text-black">{diag?.total_candidates_examined || 0}</strong>
+                        </div>
+                        <div className="flex justify-between text-neutral-900">
+                          <span>Trùng lặp đa nguồn gộp lại:</span>
+                          <strong>{diag?.duplicates_consolidated || 0}</strong>
+                        </div>
+                        <div className="flex justify-between text-neutral-600">
+                          <span>Loại bỏ do sai địa bàn:</span>
+                          <strong>{diag?.removed_by_filters?.hard_location || 0}</strong>
+                        </div>
+                        <div className="flex justify-between text-neutral-600">
+                          <span>Loại bỏ do vi phạm từ cấm:</span>
+                          <strong>{diag?.removed_by_filters?.hard_exclusion || 0}</strong>
+                        </div>
+                        <div className="flex justify-between text-neutral-600">
+                          <span>Loại bỏ do quá hạn đăng:</span>
+                          <strong>{diag?.removed_by_filters?.hard_posting_age || 0}</strong>
+                        </div>
+                        <div className="flex justify-between text-neutral-500">
+                          <span>Đã hết hạn nộp hồ sơ:</span>
+                          <strong>{diag?.removed_by_filters?.expired || 0}</strong>
+                        </div>
+                        <div className="flex justify-between pt-1 border-t border-neutral-200 text-black font-bold">
+                          <span>Kết quả hợp lệ cuối cùng:</span>
+                          <span>{initialData.total}</span>
+                        </div>
+                      </div>
                     </div>
                   </div>
 
-                  {/* Card 3: Filter & Ranking Funnel */}
-                  <div className="bg-slate-800/60 rounded-xl p-3 border border-slate-700/50 space-y-2">
-                    <span className="text-amber-300 font-bold block text-xs flex items-center gap-1.5">
-                      <span>⚙️</span>
-                      <span>Phễu Sàng Lọc & Khử Trùng:</span>
-                    </span>
-                    <div className="space-y-1.5 text-slate-300">
-                      <div className="flex justify-between">
-                        <span>Số tin ứng viên khảo sát:</span>
-                        <strong className="text-white">{diag?.total_candidates_examined || 0}</strong>
-                      </div>
-                      <div className="flex justify-between text-indigo-300">
-                        <span>Trùng lặp đa nguồn gộp lại:</span>
-                        <strong>{diag?.duplicates_consolidated || 0}</strong>
-                      </div>
-                      <div className="flex justify-between text-rose-300">
-                        <span>Loại bỏ do sai địa bàn:</span>
-                        <strong>{diag?.removed_by_filters?.hard_location || 0}</strong>
-                      </div>
-                      <div className="flex justify-between text-rose-300">
-                        <span>Loại bỏ do vi phạm từ cấm:</span>
-                        <strong>{diag?.removed_by_filters?.hard_exclusion || 0}</strong>
-                      </div>
-                      <div className="flex justify-between text-rose-300">
-                        <span>Loại bỏ do quá hạn đăng:</span>
-                        <strong>{diag?.removed_by_filters?.hard_posting_age || 0}</strong>
-                      </div>
-                      <div className="flex justify-between text-slate-400">
-                        <span>Đã hết hạn nộp hồ sơ:</span>
-                        <strong>{diag?.removed_by_filters?.expired || 0}</strong>
-                      </div>
-                      <div className="flex justify-between pt-1 border-t border-slate-700 text-sky-300 font-bold">
-                        <span>Kết quả hợp lệ cuối cùng:</span>
-                        <span>{initialData.total}</span>
+                  {/* Multi-source discovery status if available */}
+                  {diag?.multi_source_discovery && (
+                    <div className="bg-neutral-50 rounded-xl p-3 border border-neutral-200 flex flex-wrap items-center justify-between gap-2 text-[11px]">
+                      <span className="text-neutral-600 font-semibold">🌐 Trạng thái các nguồn tìm kiếm song song:</span>
+                      <div className="flex flex-wrap items-center gap-3">
+                        {Object.entries(diag.multi_source_discovery.sources || {}).map(([src, status]: [string, any]) => (
+                          <span key={src} className="flex items-center gap-1 text-neutral-800">
+                            <span className={`w-2 h-2 rounded-full ${status.status === 'success' ? 'bg-black' : 'bg-neutral-400'}`} />
+                            <strong className="capitalize">{src}:</strong> {status.items_found || 0} tin ({status.duration_ms || 0}ms)
+                          </span>
+                        ))}
                       </div>
                     </div>
-                  </div>
+                  )}
                 </div>
-
-                {/* Multi-source discovery status if available */}
-                {diag?.multi_source_discovery && (
-                  <div className="bg-slate-800/40 rounded-xl p-3 border border-slate-700/40 flex flex-wrap items-center justify-between gap-2 text-[11px]">
-                    <span className="text-slate-400 font-semibold">🌐 Trạng thái các nguồn tìm kiếm song song:</span>
-                    <div className="flex flex-wrap items-center gap-3">
-                      {Object.entries(diag.multi_source_discovery.sources || {}).map(([src, status]: [string, any]) => (
-                        <span key={src} className="flex items-center gap-1 text-slate-300">
-                          <span className={`w-2 h-2 rounded-full ${status.status === 'success' ? 'bg-emerald-400' : 'bg-slate-400'}`} />
-                          <strong className="capitalize">{src}:</strong> {status.items_found || 0} tin ({status.duration_ms || 0}ms)
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
+              )}
+            </div>
           );
         })()}
 
@@ -452,7 +452,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
         {/* Real-time Crawling Notification Banner */}
         {crawlMessage && (
-          <div className="flex items-center justify-between p-3.5 rounded-xl bg-amber-50/90 border border-amber-200 text-amber-900 text-xs font-medium animate-fadeIn">
+          <div className="flex items-center justify-between p-3.5 rounded-xl bg-neutral-100 border border-neutral-300 text-neutral-900 text-xs font-medium animate-fadeIn">
             <div className="flex items-center gap-2">
               <span className="text-base">⚡</span>
               <span>{crawlMessage}</span>
@@ -460,7 +460,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setCrawlMessage(null)}
-              className="text-amber-600 hover:text-amber-800 text-xs font-bold ml-2"
+              className="text-neutral-500 hover:text-black text-xs font-bold ml-2"
             >
               ✕
             </button>
@@ -469,44 +469,44 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
         {/* Deep Social Harvester Market Intelligence & Conclusion Box */}
         {conclusions && (
-          <div className="p-4 rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white shadow-xl space-y-3 animate-fadeIn border border-indigo-700/60">
-            <div className="flex items-center justify-between pb-2 border-b border-indigo-800/60">
+          <div className="p-4 rounded-2xl bg-neutral-50 border border-neutral-200 text-neutral-900 shadow-xs space-y-3 animate-fadeIn">
+            <div className="flex items-center justify-between pb-2 border-b border-neutral-200">
               <div className="flex items-center gap-2">
                 <span className="text-xl">📊</span>
-                <h3 className="text-sm font-bold text-amber-300">
+                <h3 className="text-sm font-bold text-black">
                   Báo cáo & Kết luận phân tích thị trường việc làm MXH (Facebook • Threads • TikTok)
                 </h3>
               </div>
               <button
                 type="button"
                 onClick={() => setConclusions(null)}
-                className="text-slate-400 hover:text-white text-xs font-bold px-2 py-1 rounded bg-white/10"
+                className="text-neutral-500 hover:text-black text-xs font-bold px-2 py-1 rounded bg-neutral-200 cursor-pointer"
               >
                 ✕ Đóng
               </button>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs pt-1">
-              <div className="bg-white/10 p-3 rounded-xl space-y-1.5 border border-white/5">
-                <span className="font-bold text-amber-300 block text-xs">📍 Khu vực tuyển dụng sôi động:</span>
+              <div className="bg-white p-3.5 rounded-xl border border-neutral-200 space-y-1.5 shadow-2xs">
+                <span className="font-bold text-black block text-xs">📍 Khu vực tuyển dụng sôi động:</span>
                 {conclusions.hottest_areas?.map((item: any, idx: number) => (
-                  <div key={idx} className="text-slate-200 leading-relaxed">
-                    <strong className="text-white">{item.area} ({item.share}):</strong> {item.reason}
+                  <div key={idx} className="text-neutral-700 leading-relaxed">
+                    <strong className="text-black">{item.area} ({item.share}):</strong> {item.reason}
                   </div>
                 ))}
               </div>
 
-              <div className="bg-white/10 p-3 rounded-xl space-y-1.5 border border-white/5">
-                <span className="font-bold text-emerald-300 block text-xs">📱 Xu hướng từng nền tảng:</span>
-                <p className="text-slate-200 leading-relaxed"><strong className="text-white">Facebook:</strong> {conclusions.platform_characteristics?.facebook}</p>
-                <p className="text-slate-200 leading-relaxed"><strong className="text-white">Threads:</strong> {conclusions.platform_characteristics?.threads}</p>
-                <p className="text-slate-200 leading-relaxed"><strong className="text-white">TikTok:</strong> {conclusions.platform_characteristics?.tiktok}</p>
+              <div className="bg-white p-3.5 rounded-xl border border-neutral-200 space-y-1.5 shadow-2xs">
+                <span className="font-bold text-black block text-xs">📱 Xu hướng từng nền tảng:</span>
+                <p className="text-neutral-700 leading-relaxed"><strong className="text-black">Facebook:</strong> {conclusions.platform_characteristics?.facebook}</p>
+                <p className="text-neutral-700 leading-relaxed"><strong className="text-black">Threads:</strong> {conclusions.platform_characteristics?.threads}</p>
+                <p className="text-neutral-700 leading-relaxed"><strong className="text-black">TikTok:</strong> {conclusions.platform_characteristics?.tiktok}</p>
               </div>
 
-              <div className="bg-white/10 p-3 rounded-xl space-y-1.5 border border-white/5">
-                <span className="font-bold text-sky-300 block text-xs">🛡️ An toàn tuyển dụng (Anti-Scam):</span>
-                <p className="text-slate-200 leading-relaxed">{conclusions.anti_scam_warning}</p>
-                <div className="mt-2 pt-2 border-t border-white/10 text-amber-300 font-semibold">
+              <div className="bg-white p-3.5 rounded-xl border border-neutral-200 space-y-1.5 shadow-2xs">
+                <span className="font-bold text-black block text-xs">🛡️ An toàn tuyển dụng (Anti-Scam):</span>
+                <p className="text-neutral-700 leading-relaxed">{conclusions.anti_scam_warning}</p>
+                <div className="mt-2 pt-2 border-t border-neutral-200 text-neutral-800 font-semibold">
                   Mặt bằng lương: F&B 25-32k/h, Lái xe 14-22tr, Du thuyền 10-16tr
                 </div>
               </div>
@@ -516,19 +516,19 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
         {/* Active Filter Chips */}
         {hasFilters && (
-          <div className="flex flex-wrap items-center gap-2 bg-slate-100/80 p-3 rounded-xl text-xs">
-            <span className="font-semibold text-slate-600 flex items-center gap-1 mr-1">
-              <FunnelIcon className="h-3.5 w-3.5" />
+          <div className="flex flex-wrap items-center gap-2 bg-neutral-100 p-3 rounded-xl border border-neutral-200 text-xs">
+            <span className="font-semibold text-neutral-700 flex items-center gap-1 mr-1">
+              <FunnelIcon className="h-3.5 w-3.5 text-black" />
               Bộ lọc:
             </span>
 
             {province && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 font-medium">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-200 text-neutral-900 font-medium shadow-2xs">
                 Tỉnh: {province}
                 <button
                   type="button"
                   onClick={() => removeFilter("province")}
-                  className="text-slate-400 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -536,12 +536,12 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             )}
 
             {category && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 font-medium">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-200 text-neutral-900 font-medium shadow-2xs">
                 Ngành: {category}
                 <button
                   type="button"
                   onClick={() => removeFilter("category")}
-                  className="text-slate-400 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -549,12 +549,12 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             )}
 
             {job_type && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 font-medium">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-200 text-neutral-900 font-medium shadow-2xs">
                 Hình thức: {job_type}
                 <button
                   type="button"
                   onClick={() => removeFilter("job_type")}
-                  className="text-slate-400 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -562,12 +562,12 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             )}
 
             {platform && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 font-medium">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-200 text-neutral-900 font-medium shadow-2xs">
                 Nguồn: {platform}
                 <button
                   type="button"
                   onClick={() => removeFilter("source_platform")}
-                  className="text-slate-400 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -575,13 +575,13 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             )}
 
             {(salary_min || salary_max) && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-slate-200 text-slate-800 font-medium">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-200 text-neutral-900 font-medium shadow-2xs">
                 Lương: {salary_min ? `Từ ${Number(salary_min) / 1000000}tr` : ""}{" "}
                 {salary_max ? `đến ${Number(salary_max) / 1000000}tr` : ""}
                 <button
                   type="button"
                   onClick={() => removeFilter("salary")}
-                  className="text-slate-400 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -589,12 +589,12 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             )}
 
             {quality_tier && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-amber-50 border border-amber-300 text-amber-900 font-bold">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-300 text-black font-bold shadow-2xs">
                 💎 Thẩm định: {quality_tier === "diamond" ? "Kim Cương (≥85đ)" : "Đạt Chuẩn (≥70đ)"}
                 <button
                   type="button"
                   onClick={() => removeFilter("quality_tier")}
-                  className="text-amber-700 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -602,12 +602,12 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             )}
 
             {tech_stack && (
-              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-indigo-50 border border-indigo-300 text-indigo-900 font-bold">
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-300 text-black font-bold shadow-2xs">
                 ⚡ Tech: {tech_stack}
                 <button
                   type="button"
                   onClick={() => removeFilter("tech_stack")}
-                  className="text-indigo-700 hover:text-rose-600"
+                  className="text-neutral-400 hover:text-black cursor-pointer"
                 >
                   <XMarkIcon className="h-3.5 w-3.5" />
                 </button>
@@ -617,7 +617,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={clearAllFilters}
-              className="ml-auto text-xs font-semibold text-rose-600 hover:underline flex items-center gap-1"
+              className="ml-auto text-xs font-bold text-black hover:underline flex items-center gap-1 cursor-pointer"
             >
               <ArrowPathIcon className="h-3 w-3" />
               Xóa tất cả
@@ -626,9 +626,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
         )}
 
         {/* Quick Filter & Quality Sort Bar */}
-        <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-slate-200/90 shadow-2xs">
+        <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider mr-1">
+            <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider mr-1">
               Ưu tiên:
             </span>
             <button
@@ -643,10 +643,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                 params.delete("page");
                 router.push(`/jobs?${params.toString()}`);
               }}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-extrabold border transition-all ${
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
                 quality_tier === "diamond"
-                  ? "bg-amber-500 text-white border-amber-500 shadow-xs scale-102"
-                  : "bg-amber-50 text-amber-900 border-amber-200/90 hover:bg-amber-100/80"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
               }`}
             >
               <span>💎</span>
@@ -665,10 +665,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                 params.delete("page");
                 router.push(`/jobs?${params.toString()}`);
               }}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all ${
+              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
                 province === "Quảng Ninh"
-                  ? "bg-primary-600 text-white border-primary-600 shadow-xs scale-102"
-                  : "bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
               }`}
             >
               <span>📍</span>
@@ -678,7 +678,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
           {/* Sort By Dropdown */}
           <div className="flex items-center gap-2 ml-auto text-xs">
-            <span className="text-slate-500 font-medium">Sắp xếp:</span>
+            <span className="text-neutral-500 font-medium">Sắp xếp:</span>
             <select
               value={sort_by || "default"}
               onChange={(e) => {
@@ -691,7 +691,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                 params.delete("page");
                 router.push(`/jobs?${params.toString()}`);
               }}
-              className="text-xs font-bold text-slate-700 bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-primary-500 cursor-pointer"
+              className="text-xs font-bold text-black bg-neutral-100 border border-neutral-300 rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-black cursor-pointer"
             >
               <option value="default">Phù hợp nhất</option>
               <option value="quality">💎 Điểm Thẩm Định Cao Nhất</option>
@@ -718,21 +718,21 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
         ) : isSavedOnly ? (
           /* Empty State for Saved Jobs */
-          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-rose-100 shadow-sm space-y-4">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-rose-50 text-rose-500 border border-rose-200">
+          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-neutral-200 shadow-xs space-y-4">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
               <BookmarkIcon className="h-8 w-8" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900">
+            <h3 className="text-lg font-bold text-black">
               Bạn chưa lưu việc làm nào
             </h3>
-            <p className="text-sm text-slate-500 max-w-md mx-auto leading-relaxed">
+            <p className="text-sm text-neutral-500 max-w-md mx-auto leading-relaxed">
               Hãy bấm biểu tượng Bookmark trên bất kỳ việc làm nào để lưu lại danh sách quan tâm và theo dõi khi cần.
             </p>
             <div className="pt-2">
               <button
                 type="button"
                 onClick={() => router.push("/jobs?province=Quảng+Ninh")}
-                className="inline-flex items-center gap-2 rounded-xl bg-primary-600 px-6 py-3 text-xs font-bold text-white hover:bg-primary-700 shadow-md shadow-primary-600/20 transition-all active:scale-95"
+                className="inline-flex items-center gap-2 rounded-xl bg-black px-6 py-3 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
               >
                 <span>Khám phá việc làm IT Hạ Long</span>
               </button>
@@ -740,14 +740,14 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
         ) : (
           /* Empty State */
-          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-slate-200/90 shadow-sm space-y-4">
-            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-amber-50 text-amber-600 border border-amber-200">
+          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-neutral-200 shadow-xs space-y-4">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
               <MagnifyingGlassIcon className="h-8 w-8" />
             </div>
-            <h3 className="text-lg font-bold text-slate-900">
+            <h3 className="text-lg font-bold text-black">
               Không tìm thấy việc làm phù hợp
             </h3>
-            <p className="text-sm text-slate-500 max-w-md mx-auto leading-relaxed">
+            <p className="text-sm text-neutral-500 max-w-md mx-auto leading-relaxed">
               Hãy thử tìm kiếm với từ khóa ngắn hơn, bỏ bớt các bộ lọc địa điểm hoặc ngành nghề để có nhiều kết quả hơn.
             </p>
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -760,23 +760,23 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                     params.delete("page");
                     router.push(`/jobs?${params.toString()}`);
                   }}
-                  className="inline-flex items-center gap-2 rounded-xl bg-primary-600 px-5 py-2.5 text-xs font-bold text-white hover:bg-primary-700 shadow-md shadow-primary-600/20 transition-all active:scale-95"
+                  className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-2.5 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
                 >
-                  <span>🔎 Mở rộng kết quả tìm kiếm (Bỏ ràng buộc khắt khe)</span>
+                  <span>🔎 Mở rộng kết quả tìm kiếm</span>
                 </button>
               )}
               <button
                 type="button"
                 onClick={handleLiveCrawl}
                 disabled={isCrawling}
-                className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-5 py-2.5 text-xs font-bold text-white hover:from-amber-600 hover:to-orange-600 shadow-md shadow-amber-500/20 transition-all active:scale-95"
+                className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-2.5 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
               >
-                <span>{isCrawling ? "⏳ Đang cào realtime..." : "⚡ Quét Realtime Đa Nguồn Ngay (Sàn + FB + Công ty)"}</span>
+                <span>{isCrawling ? "⏳ Đang cào realtime..." : "⚡ Quét Realtime Đa Nguồn Ngay"}</span>
               </button>
               <button
                 type="button"
                 onClick={clearAllFilters}
-                className="inline-flex items-center gap-2 rounded-xl bg-slate-100 px-5 py-2.5 text-xs font-bold text-slate-700 hover:bg-slate-200 transition-colors"
+                className="inline-flex items-center gap-2 rounded-xl bg-neutral-100 px-5 py-2.5 text-xs font-bold text-black hover:bg-neutral-200 border border-neutral-300 transition-colors cursor-pointer"
               >
                 <ArrowPathIcon className="h-4 w-4" />
                 <span>Đặt lại toàn bộ bộ lọc</span>
