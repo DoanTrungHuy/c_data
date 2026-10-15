@@ -37,7 +37,7 @@ export default async function HomePage() {
       desc: "Lập trình viên, QA, DevOps, Helpdesk, AI",
       icon: <CommandLineIcon className="h-6 w-6 text-primary-600" />,
       href: "/jobs?category=Công nghệ thông tin",
-      count: "48 việc làm",
+      count: "53 việc làm",
       bgClass: "bg-blue-50 text-blue-600",
     },
     {

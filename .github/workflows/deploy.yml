@@ -41,9 +41,11 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           python scripts/run_deep_quality_harvester.py --once
+          python scripts/apply_verified_evidence.py
 
       - name: Run Rigorous Realtime Search & Data Quality Tests
         env:
+          PYTHONPATH: "./backend"
           PYTHONIOENCODING: "utf-8"
         run: |
           python -u tests/test_realtime_search_and_data.py > test_results.log 2>&1 || (cat test_results.log; cat test_results.log >> $GITHUB_STEP_SUMMARY; exit 1)
