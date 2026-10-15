@@ -4,7 +4,7 @@ from typing import AsyncGenerator
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.routes import companies, jobs, provinces, stats
+from app.api.routes import companies, jobs, provinces, sources, stats
 from app.core.config import settings
 from app.core.database import AsyncSessionLocal, Base, engine
 from app.data.provinces import seed_provinces
@@ -72,10 +72,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
+@app.middleware("http")
+async def correlation_id_middleware(request, call_next):
+    """
+    Middleware gắn Correlation ID (Trace ID) xuyên suốt pipeline HTTP
+    để hỗ trợ tracing và truy vết lỗi mà không làm lộ thông tin nhạy cảm.
+    """
+    import uuid
+    corr_id = request.headers.get("X-Correlation-ID") or request.headers.get("X-Trace-ID") or f"trace-{uuid.uuid4().hex[:12]}"
+    response = await call_next(request)
+    response.headers["X-Correlation-ID"] = corr_id
+    return response
+
 # Đăng ký các Router API V1
 app.include_router(jobs.router, prefix=settings.API_V1_PREFIX)
 app.include_router(companies.router, prefix=settings.API_V1_PREFIX)
 app.include_router(provinces.router, prefix=settings.API_V1_PREFIX)
+app.include_router(sources.router, prefix=settings.API_V1_PREFIX)
 app.include_router(stats.router, prefix=settings.API_V1_PREFIX)
 
 
@@ -95,6 +109,7 @@ async def root():
             "search": f"{settings.API_V1_PREFIX}/jobs/search",
             "companies": f"{settings.API_V1_PREFIX}/companies",
             "provinces": f"{settings.API_V1_PREFIX}/provinces",
+            "sources": f"{settings.API_V1_PREFIX}/sources",
             "stats": f"{settings.API_V1_PREFIX}/stats/dashboard",
         },
     }

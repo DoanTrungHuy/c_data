@@ -77,7 +77,9 @@ def process_jobs():
         addr_confirmed = j.get("location_full") or (f"{dist}, {prov}" if dist else prov)
 
         desc_raw = j.get("description", "") or ""
-        clean_desc = desc_raw.replace("<p>", "").replace("</p>", "").replace("<h3>", "").replace("</h3>", "")
+        clean_desc = desc_raw.replace("<p>", "").replace("</p>", "").replace("<h3>", "").replace("</h3>", "").strip()
+        if len(clean_desc) < 20:
+            clean_desc = f"Thông báo tuyển dụng chính thức vị trí {title} tại {comp}. Chi tiết liên hệ phòng nhân sự hoặc xem trực tiếp tại cổng thông tin."
         snippet = (clean_desc[:200] + "...") if len(clean_desc) > 200 else clean_desc
 
         is_cv_direct = (

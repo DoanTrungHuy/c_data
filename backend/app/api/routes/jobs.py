@@ -4,6 +4,7 @@ from typing import Optional
 from fastapi import APIRouter, HTTPException, Query, status
 
 from app.api.deps import SessionDep
+from app.models.job import Job
 from app.schemas.job import (
     JobCreate,
     JobListResponse,
@@ -11,6 +12,9 @@ from app.schemas.job import (
     JobSearchParams,
 )
 from app.services.job_service import job_service
+from app.services.ranking_engine import multi_signal_ranking_engine
+from app.services.search_intent_parser import search_intent_parser
+from sqlalchemy import select
 
 logger = logging.getLogger(__name__)
 
@@ -24,13 +28,17 @@ async def list_jobs(
     query: Optional[str] = Query(None, description="Từ khóa tìm kiếm trong tiêu đề hoặc mô tả"),
     province: Optional[str] = Query(None, description="Tỉnh / Thành phố làm việc"),
     category: Optional[str] = Query(None, description="Danh mục / Ngành nghề"),
+    workplace_type: Optional[str] = Query(None, description="Nơi làm việc: onsite, hybrid, remote"),
+    experience_level: Optional[str] = Query(None, description="Cấp độ kinh nghiệm: intern, fresher, junior, middle, senior, lead"),
+    company_name: Optional[str] = Query(None, description="Tên công ty tuyển dụng"),
     job_type: Optional[str] = Query(None, description="Hình thức: full-time, part-time, remote, intern"),
     salary_min: Optional[int] = Query(None, ge=0, description="Mức lương tối thiểu (VNĐ)"),
     salary_max: Optional[int] = Query(None, ge=0, description="Mức lương tối đa (VNĐ)"),
     source_platform: Optional[str] = Query(None, description="Nền tảng cào dữ liệu: TopCV, VietnamWorks, ITviec..."),
-    sort_by: Optional[str] = Query("newest", description="Sắp xếp: newest, salary_desc, salary_asc"),
+    sort_by: Optional[str] = Query("newest", description="Sắp xếp: newest, relevance, salary_desc, salary_asc"),
     live: bool = Query(False, description="Tự động cào thêm tin mới từ các trang tuyển dụng và mạng xã hội trước khi trả về kết quả"),
     strict_mode: bool = Query(False, description="Chế độ khớp khắt khe các ràng buộc cứng"),
+    verified_only: bool = Query(False, description="Chỉ lấy tin tuyển dụng đã xác minh (active_confirmed, active_likely)"),
     page: int = Query(1, ge=1, description="Trang cần lấy"),
     page_size: int = Query(20, ge=1, le=100, description="Số lượng kết quả trên mỗi trang"),
 ) -> JobListResponse:
@@ -44,6 +52,9 @@ async def list_jobs(
         q=effective_q,
         province=province,
         category=category,
+        workplace_type=workplace_type,
+        experience_level=experience_level,
+        company_name=company_name,
         job_type=job_type,
         salary_min=salary_min,
         salary_max=salary_max,
@@ -51,6 +62,7 @@ async def list_jobs(
         sort_by=sort_by,
         live=live,
         strict_mode=strict_mode,
+        verified_only=verified_only,
         page=page,
         page_size=page_size,
     )
@@ -63,6 +75,7 @@ async def list_jobs(
         total_pages=total_pages,
         related_keywords=related_keywords,
         matched_industries=matched_industries,
+        suggested_relaxations=diagnostics.get("suggested_relaxations", []) if diagnostics else [],
         diagnostics=diagnostics,
     )
 
@@ -74,13 +87,17 @@ async def search_jobs(
     query: Optional[str] = Query(None, description="Từ khóa tìm kiếm chính"),
     province: Optional[str] = Query(None, description="Tỉnh / Thành phố"),
     category: Optional[str] = Query(None, description="Ngành nghề"),
+    workplace_type: Optional[str] = Query(None, description="Nơi làm việc: onsite, hybrid, remote"),
+    experience_level: Optional[str] = Query(None, description="Cấp độ kinh nghiệm: intern, fresher, junior, middle, senior, lead"),
+    company_name: Optional[str] = Query(None, description="Tên công ty tuyển dụng"),
     job_type: Optional[str] = Query(None, description="Hình thức làm việc"),
     salary_min: Optional[int] = Query(None, ge=0, description="Mức lương tối thiểu"),
     salary_max: Optional[int] = Query(None, ge=0, description="Mức lương tối đa"),
     source_platform: Optional[str] = Query(None, description="Nguồn tuyển dụng"),
-    sort_by: Optional[str] = Query("newest", description="Thứ tự: newest, salary_desc, salary_asc"),
+    sort_by: Optional[str] = Query("newest", description="Thứ tự: newest, relevance, salary_desc, salary_asc"),
     live: bool = Query(False, description="Tự động cào thêm tin mới từ các trang tuyển dụng và mạng xã hội"),
     strict_mode: bool = Query(False, description="Chế độ khớp khắt khe các ràng buộc cứng"),
+    verified_only: bool = Query(False, description="Chỉ lấy tin tuyển dụng đã xác minh"),
     page: int = Query(1, ge=1, description="Trang hiện tại"),
     page_size: int = Query(20, ge=1, le=100, description="Kích thước trang"),
 ) -> JobListResponse:
@@ -93,6 +110,9 @@ async def search_jobs(
         q=effective_q,
         province=province,
         category=category,
+        workplace_type=workplace_type,
+        experience_level=experience_level,
+        company_name=company_name,
         job_type=job_type,
         salary_min=salary_min,
         salary_max=salary_max,
@@ -100,6 +120,7 @@ async def search_jobs(
         sort_by=sort_by,
         live=live,
         strict_mode=strict_mode,
+        verified_only=verified_only,
         page=page,
         page_size=page_size,
     )
@@ -112,8 +133,10 @@ async def search_jobs(
         total_pages=total_pages,
         related_keywords=related_keywords,
         matched_industries=matched_industries,
+        suggested_relaxations=diagnostics.get("suggested_relaxations", []) if diagnostics else [],
         diagnostics=diagnostics,
     )
+
 
 
 @router.post("/crawl-live")
@@ -173,6 +196,86 @@ async def social_deep_harvest(
 
     result = social_deep_harvester.execute_social_deep_harvest(keyword=q)
     return result
+
+
+@router.get("/ranking-debug/compare")
+async def compare_ranking_debug(
+    db: SessionDep,
+    job_a_id: str = Query(..., description="Mã ID tin tuyển dụng A"),
+    job_b_id: str = Query(..., description="Mã ID tin tuyển dụng B"),
+    q: Optional[str] = Query(None, description="Từ khóa hoặc truy vấn tìm kiếm"),
+    province: Optional[str] = Query(None, description="Tỉnh/Thành phố mục tiêu"),
+    strict_mode: bool = Query(False, description="Chế độ khớp ràng buộc cứng"),
+):
+    """
+    So sánh chi tiết Pairwise Ranking Debug giữa 2 việc làm.
+    Giải thích minh bạch tại sao một việc làm có thứ hạng cao hơn việc làm kia dựa trên 7 tín hiệu.
+    """
+    stmt_a = select(Job).where(Job.id == str(job_a_id))
+    res_a = await db.execute(stmt_a)
+    job_a = res_a.scalar_one_or_none()
+    if not job_a:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Không tìm thấy việc làm A với ID: {job_a_id}",
+        )
+
+    stmt_b = select(Job).where(Job.id == str(job_b_id))
+    res_b = await db.execute(stmt_b)
+    job_b = res_b.scalar_one_or_none()
+    if not job_b:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Không tìm thấy việc làm B với ID: {job_b_id}",
+        )
+
+    intent = search_intent_parser.parse_query(
+        query=q,
+        province=province,
+        strict_mode=strict_mode,
+    )
+    result = multi_signal_ranking_engine.compare_ranking(job_a, job_b, intent)
+    return result
+
+
+@router.get("/ranking-debug/explain/{job_id}")
+async def explain_job_ranking(
+    job_id: str,
+    db: SessionDep,
+    q: Optional[str] = Query(None, description="Từ khóa tìm kiếm"),
+    province: Optional[str] = Query(None, description="Tỉnh / Thành phố"),
+    strict_mode: bool = Query(False, description="Chế độ khớp ràng buộc cứng"),
+):
+    """
+    Giải thích chi tiết bảng điểm 7 tín hiệu xếp hạng cho một tin tuyển dụng cụ thể.
+    """
+    stmt = select(Job).where(Job.id == str(job_id))
+    res = await db.execute(stmt)
+    job = res.scalar_one_or_none()
+    if not job:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Không tìm thấy việc làm với ID: {job_id}",
+        )
+
+    intent = search_intent_parser.parse_query(
+        query=q,
+        province=province,
+        strict_mode=strict_mode,
+    )
+    from datetime import datetime, timezone
+    now = datetime.now(timezone.utc)
+    breakdown = multi_signal_ranking_engine.score_job(job, intent, now)
+    return {
+        "job_id": str(job.id),
+        "title": job.title,
+        "company": job.company_name,
+        "source_platform": job.source_platform,
+        "status": job.status,
+        "posted_at": job.posted_at.isoformat() if job.posted_at else None,
+        "crawled_at": job.crawled_at.isoformat() if job.crawled_at else None,
+        "ranking_breakdown": breakdown.to_dict(),
+    }
 
 
 @router.get("/{job_id}", response_model=JobResponse)

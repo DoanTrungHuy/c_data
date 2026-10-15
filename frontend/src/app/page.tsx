@@ -34,106 +34,111 @@ export default async function HomePage() {
   const featuredCategories = [
     {
       name: "Công nghệ thông tin / IT",
-      desc: "Lập trình viên, QA, DevOps, AI",
+      desc: "Lập trình viên, QA, DevOps, Helpdesk, AI",
       icon: <CommandLineIcon className="h-6 w-6 text-primary-600" />,
       href: "/jobs?category=Công nghệ thông tin",
-      count: "3,200+ việc làm",
+      count: "48 việc làm",
       bgClass: "bg-blue-50 text-blue-600",
+    },
+    {
+      name: "Du lịch & Khách sạn",
+      desc: "Điều hành tour, Lễ tân, F&B, Resort 5*",
+      icon: <GlobeAmericasIcon className="h-6 w-6 text-teal-600" />,
+      href: "/jobs?category=Du lịch",
+      count: "8 việc làm",
+      bgClass: "bg-teal-50 text-teal-600",
     },
     {
       name: "Kinh doanh / Bán hàng",
       desc: "Sale B2B, B2C, Quản lý thị trường",
       icon: <BriefcaseIcon className="h-6 w-6 text-emerald-600" />,
       href: "/jobs?category=Kinh doanh",
-      count: "2,800+ việc làm",
+      count: "6 việc làm",
       bgClass: "bg-emerald-50 text-emerald-600",
     },
     {
-      name: "Marketing & Truyền thông",
-      desc: "SEO, Performance, Content, PR",
-      icon: <MegaphoneIcon className="h-6 w-6 text-accent-600" />,
-      href: "/jobs?category=Marketing",
-      count: "1,750+ việc làm",
-      bgClass: "bg-orange-50 text-orange-600",
-    },
-    {
       name: "Tài chính / Kế toán",
-      desc: "Kế toán tổng hợp, Thuế, Kiểm toán",
+      desc: "Kế toán tổng hợp, Thuế, Ngân hàng",
       icon: <CalculatorIcon className="h-6 w-6 text-indigo-600" />,
       href: "/jobs?category=Kế toán",
-      count: "1,420+ việc làm",
+      count: "5 việc làm",
       bgClass: "bg-indigo-50 text-indigo-600",
+    },
+    {
+      name: "Kỹ thuật / Than - Cơ điện",
+      desc: "Cơ khí, Tự động hóa SCADA, Khai mỏ",
+      icon: <WrenchScrewdriverIcon className="h-6 w-6 text-amber-600" />,
+      href: "/jobs?category=Kỹ thuật",
+      count: "5 việc làm",
+      bgClass: "bg-amber-50 text-amber-600",
     },
     {
       name: "Hành chính & Nhân sự",
       desc: "Tuyển dụng, C&B, Hành chính tổng hợp",
       icon: <UserGroupIcon className="h-6 w-6 text-rose-600" />,
       href: "/jobs?category=Nhân sự",
-      count: "1,100+ việc làm",
+      count: "4 việc làm",
       bgClass: "bg-rose-50 text-rose-600",
     },
     {
-      name: "Kỹ thuật / Sản xuất",
-      desc: "Cơ khí, Điện tử, Tự động hóa, Quản lý xưởng",
-      icon: <WrenchScrewdriverIcon className="h-6 w-6 text-amber-600" />,
-      href: "/jobs?category=Kỹ thuật",
-      count: "960+ việc làm",
-      bgClass: "bg-amber-50 text-amber-600",
-    },
-    {
-      name: "Du lịch & Khách sạn",
-      desc: "Điều hành tour, Lễ tân, F&B, Resort",
-      icon: <GlobeAmericasIcon className="h-6 w-6 text-teal-600" />,
-      href: "/jobs?category=Du lịch",
-      count: "810+ việc làm",
-      bgClass: "bg-teal-50 text-teal-600",
+      name: "Nhà hàng & F&B",
+      desc: "Bếp, Phụ bếp, Quản lý nhà hàng",
+      icon: <MegaphoneIcon className="h-6 w-6 text-orange-600" />,
+      href: "/jobs?category=Nhà hàng",
+      count: "4 việc làm",
+      bgClass: "bg-orange-50 text-orange-600",
     },
     {
       name: "CSKH & Tư vấn",
-      desc: "Chăm sóc khách hàng, Telesales",
+      desc: "Chăm sóc khách hàng, Lễ tân tour",
       icon: <PhoneArrowUpRightIcon className="h-6 w-6 text-cyan-600" />,
       href: "/jobs?category=Chăm sóc khách hàng",
-      count: "740+ việc làm",
+      count: "3 việc làm",
       bgClass: "bg-cyan-50 text-cyan-600",
     },
   ];
 
-  const popularProvinces = [
-    {
-      name: "Hà Nội",
-      count: stats.jobs_by_province.find((p) => p.province === "Hà Nội")?.count || "4,800+",
-      desc: "Trung tâm văn hóa, chính trị & công nghệ miền Bắc",
-      tag: "Sôi động",
-    },
-    {
-      name: "Hồ Chí Minh",
-      count: stats.jobs_by_province.find((p) => p.province === "Hồ Chí Minh")?.count || "5,300+",
-      desc: "Đầu tàu kinh tế, thương mại dịch vụ số 1 cả nước",
-      tag: "Lương cao",
-    },
-    {
-      name: "Đà Nẵng",
-      count: stats.jobs_by_province.find((p) => p.province === "Đà Nẵng")?.count || "850+",
-      desc: "Thành phố đáng sống với ngành IT & du lịch bùng nổ",
-      tag: "Đáng sống",
-    },
+  const popularProvinces: Array<{
+    name: string;
+    count: number | string;
+    desc: string;
+    tag: string;
+  }> = [
     {
       name: "Quảng Ninh",
-      count: stats.jobs_by_province.find((p) => p.province === "Quảng Ninh")?.count || "490+",
-      desc: "Hạ Long - Kỳ quan thế giới, du lịch, cảng biển & dịch vụ",
-      tag: "Tiềm năng",
+      count: stats.jobs_by_province.find((p) => p.province === "Quảng Ninh")?.count ?? 75,
+      desc: "Hạ Long, Cẩm Phả - Du lịch, CNTT, Cảng biển & Khai thác Than",
+      tag: "Trọng điểm",
     },
     {
-      name: "Hải Phòng",
-      count: stats.jobs_by_province.find((p) => p.province === "Hải Phòng")?.count || "340+",
-      desc: "Trung tâm công nghiệp, logistics & cảng biển quốc tế",
-      tag: "Công nghiệp",
+      name: "Hà Nội",
+      count: stats.jobs_by_province.find((p) => p.province === "Hà Nội")?.count ?? 5,
+      desc: "Trung tâm văn hóa, chính trị & công nghệ miền Bắc",
+      tag: "Công nghệ",
     },
     {
       name: "Bình Dương",
-      count: stats.jobs_by_province.find((p) => p.province === "Bình Dương")?.count || "420+",
+      count: stats.jobs_by_province.find((p) => p.province === "Bình Dương")?.count ?? 3,
       desc: "Thủ phủ khu công nghiệp thông minh và chuỗi cung ứng",
       tag: "Khu CN",
+    },
+    {
+      name: "Hồ Chí Minh",
+      count: stats.jobs_by_province.find((p) => p.province === "Hồ Chí Minh")?.count ?? 2,
+      desc: "Đầu tàu kinh tế, thương mại dịch vụ lớn",
+      tag: "Sôi động",
+    },
+    {
+      name: "Đà Nẵng",
+      count: stats.jobs_by_province.find((p) => p.province === "Đà Nẵng")?.count ?? 2,
+      desc: "Thành phố đáng sống với ngành IT & du lịch",
+      tag: "Đáng sống",
+    },
+    {
+      name: "Hải Phòng",
+      count: stats.jobs_by_province.find((p) => p.province === "Hải Phòng")?.count ?? 2,
+      desc: "Trung tâm công nghiệp, logistics & cảng biển quốc tế",
+      tag: "Logistics",
     },
   ];
 
@@ -145,52 +150,28 @@ export default async function HomePage() {
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-gradient-to-tr from-blue-300/30 to-amber-200/20 blur-3xl rounded-full pointer-events-none" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-blue-200 shadow-sm text-xs md:text-sm font-semibold text-primary-700 mb-6 animate-pulse">
-            <SparklesIcon className="h-4 w-4 text-accent-500" />
-            <span>VịnhViệc — Cơ Hội Vàng Bên Vịnh Di Sản Hạ Long</span>
+          {/* Subtle Category Badge */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/80 border border-blue-200/60 text-xs sm:text-sm font-semibold text-blue-700 mb-6">
+            <SparklesIcon className="h-4 w-4 text-blue-600" />
+            <span>Nền tảng việc làm thông minh VịnhViệc</span>
           </div>
 
-          {/* Eye-catching Vietnamese Headline */}
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-tight max-w-4xl mx-auto">
-            Tìm việc làm phù hợp trên khắp{" "}
-            <span className="bg-gradient-to-r from-primary-600 via-blue-600 to-accent-500 bg-clip-text text-transparent">
-              Việt Nam
+          {/* Clean, Impactful Headline */}
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-tight max-w-3xl mx-auto">
+            Tìm việc làm chất lượng tại{" "}
+            <span className="text-blue-600">
+              Hạ Long & Toàn quốc
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-4 sm:mt-6 text-base sm:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
-            Tổng hợp hàng nghìn tin tuyển dụng từ mọi nguồn — hoàn toàn miễn phí & tra cứu mức lương minh bạch 63 tỉnh thành.
+          <p className="mt-4 sm:mt-5 text-sm sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+            Tổng hợp và xác minh tin tuyển dụng đa nguồn thời gian thực. Cam kết 100% dữ liệu chuẩn xác, không tin ảo.
           </p>
 
-          {/* Big Search Bar */}
-          <div className="mt-8 sm:mt-12 max-w-4xl mx-auto">
+          {/* Sleek Search Bar */}
+          <div className="mt-8 sm:mt-10 max-w-3xl mx-auto">
             <SearchBar />
-          </div>
-
-          {/* Quick Trending Searches */}
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-2 text-xs sm:text-sm text-slate-500">
-            <span className="font-semibold text-slate-700 flex items-center gap-1">
-              <FireIcon className="h-4 w-4 text-accent-500" />
-              Tìm kiếm phổ biến:
-            </span>
-            {[
-              { label: "Frontend React", href: "/jobs?q=Frontend" },
-              { label: "Quảng Ninh (Hạ Long)", href: "/jobs?province=Quảng Ninh" },
-              { label: "Kế toán tổng hợp", href: "/jobs?q=Kế toán" },
-              { label: "Nhân viên kinh doanh", href: "/jobs?q=Kinh doanh" },
-              { label: "Làm việc từ xa", href: "/jobs?job_type=Làm việc từ xa" },
-              { label: "Việc làm Hà Nội", href: "/jobs?province=Hà Nội" },
-            ].map((trend) => (
-              <Link
-                key={trend.label}
-                href={trend.href}
-                className="px-3 py-1 rounded-full bg-white hover:bg-primary-50 hover:text-primary-600 border border-slate-200 text-slate-600 transition-colors shadow-2xs"
-              >
-                {trend.label}
-              </Link>
-            ))}
           </div>
         </div>
       </section>

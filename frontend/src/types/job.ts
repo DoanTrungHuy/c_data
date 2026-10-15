@@ -5,31 +5,79 @@ export interface JobSourceLink {
   verified?: boolean;
 }
 
+export interface StructuredLocation {
+  province?: string | null;
+  district?: string | null;
+  address?: string | null;
+  is_primary?: boolean;
+  country?: string;
+}
+
+export type WorkplaceType = "onsite" | "hybrid" | "remote" | "unknown";
+export type JobStatus = "active_confirmed" | "active_likely" | "expired" | "closed" | "unknown";
+export type SalaryPeriod = "month" | "year" | "hour" | "day" | "project" | "unknown";
+
 export interface Job {
   id: number | string;
   title: string;
   company_name: string;
   description?: string | null;
   requirements?: string | null;
-  salary_min?: number | null;
-  salary_max?: number | null;
-  salary_text?: string | null;
+
+  // Locations
+  locations?: StructuredLocation[] | null;
   location_province?: string | null;
   location_district?: string | null;
   location_full?: string | null;
+
+  // Workplace & Employment
+  workplace_type?: WorkplaceType;
+  employment_type?: string;
   job_type?: string | null;
   category?: string | null;
   experience_level?: string | null;
+  required_skills?: string[] | null;
+
+  // Salary
+  salary_min?: number | null;
+  salary_max?: number | null;
+  salary_currency?: string;
+  salary_period?: SalaryPeriod;
+  salary_text?: string | null;
+
+  // Source & Origin
+  source_name?: string;
   source_platform?: string | null;
   source_url?: string | null;
+  apply_url?: string | null;
+  source_job_id?: string | null;
+
+  // Temporal Tracking
   posted_at?: string | null;
+  updated_at?: string | null;
+  deadline_at?: string | null;
   expires_at?: string | null;
+  first_seen_at?: string | null;
+  last_seen_at?: string | null;
   first_discovered_at?: string | null;
   last_verified_at?: string | null;
+  crawled_at?: string | null;
+
+  // Status & Verification
+  status?: JobStatus;
+  status_reason?: string | null;
+  status_evidence?: any;
   verification_status?: "verified" | "unverified" | "unknown" | null;
   is_active?: boolean;
+
+  // Confidence & Deduplication
+  extraction_confidence?: number;
+  location_confidence?: number;
+  raw_data_reference?: string | null;
+  content_hash?: string | null;
+
+  // Relations & Enriched Metadata
   created_at?: string | null;
-  updated_at?: string | null;
   company_id?: number | string | null;
   company?: Company | null;
   raw_data?: any;

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>[FIXTURE_TEST_ONLY] Cổng Thông Tin Việc Làm Quốc Gia RSS Feed</title>
+        <link>https://vieclamvietnam.gov.vn/rss/viec-lam</link>
+        <description>Kênh phân phối tin tuyển dụng lao động công khai toàn quốc</description>
+        <language>vi-VN</language>
+        <lastBuildDate>Wed, 14 Oct 2026 08:00:00 +0700</lastBuildDate>
+        
+        <item>
+            <title>[FIXTURE_TEST_ONLY] Tuyển Dụng Kỹ Sư Công Nghệ Thông Tin Quản Trị Hệ Thống Cảng Biển</title>
+            <link>https://vieclamvietnam.gov.vn/tin-tuyen-dung/fixture-cict-cailan-it-01</link>
+            <guid isPermaLink="true">https://vieclamvietnam.gov.vn/tin-tuyen-dung/fixture-cict-cailan-it-01</guid>
+            <pubDate>Tue, 13 Oct 2026 09:30:00 +0700</pubDate>
+            <author>CICT Cảng Cái Lân</author>
+            <description><![CDATA[[FIXTURE_TEST_ONLY] Quản trị hạ tầng mạng LAN/WAN, máy chủ TOS quản lý container tại cảng nước sâu Cái Lân, TP. Hạ Long, Quảng Ninh. Lương: 16 - 24 triệu. Yêu cầu: ĐH CNTT hoặc Điện tử viễn thông.]]></description>
+        </item>
+
+        <item>
+            <title>[FIXTURE_TEST_ONLY] Tuyển Dụng 20 Kỹ Thuật Viên Vận Hành Thiết Bị Khai Thác Than Hầm Lò</title>
+            <link>https://vieclamvietnam.gov.vn/tin-tuyen-dung/fixture-tkv-mining-02</link>
+            <guid isPermaLink="true">https://vieclamvietnam.gov.vn/tin-tuyen-dung/fixture-tkv-mining-02</guid>
+            <pubDate>Mon, 12 Oct 2026 14:00:00 +0700</pubDate>
+            <author>Công ty Than Hạ Long - TKV</author>
+            <description><![CDATA[[FIXTURE_TEST_ONLY] Vận hành máy khấu than liên hợp, máng cào, vì chống thủy lực tại các phân xưởng khai thác than Cẩm Phả, Quảng Ninh. Lương: 20 - 35 triệu + Ăn định lượng + Nhà ở công nhân.]]></description>
+        </item>
+    </channel>
+</rss>

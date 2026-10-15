@@ -150,14 +150,14 @@ export default function SearchBar({
             : "bg-white/95 backdrop-blur-md p-2.5 sm:p-3 rounded-2xl md:rounded-3xl border border-slate-200/90 shadow-xl shadow-slate-200/60"
         } ${className}`}
       >
-        <div className="flex flex-col md:flex-row items-stretch md:items-center gap-2 md:gap-3">
+        <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3">
           {/* Keyword Search Input with Real-time indicator */}
           <div className="relative flex-1 flex items-center">
             <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
               {isSearching ? (
-                <div className="h-5 w-5 border-2 border-primary-600 border-t-transparent rounded-full animate-spin" />
+                <div className="h-5 w-5 border-2 border-blue-600 border-t-transparent rounded-full animate-spin" />
               ) : (
-                <MagnifyingGlassIcon className="h-5 w-5 text-primary-600" />
+                <MagnifyingGlassIcon className="h-5 w-5 text-slate-400" />
               )}
             </div>
             <input
@@ -167,8 +167,8 @@ export default function SearchBar({
               onFocus={() => {
                 if (query.trim() || province) setIsOpen(true);
               }}
-              placeholder="Gõ từ khóa tìm realtime: IT Hạ Long, Support, Kế toán..."
-              className="w-full pl-10 pr-9 py-3 text-sm md:text-base text-slate-800 placeholder-slate-400 bg-transparent rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 font-medium"
+              placeholder="Chức danh, vị trí, kỹ năng (IT, Kế toán, Khách sạn...)"
+              className="w-full pl-10 pr-9 py-3 text-sm sm:text-base text-slate-800 placeholder-slate-400 bg-transparent rounded-xl focus:outline-none font-medium"
             />
             {query && (
               <button
@@ -182,19 +182,19 @@ export default function SearchBar({
           </div>
 
           {/* Divider in desktop */}
-          <div className="hidden md:block w-px h-8 bg-slate-200 shrink-0" />
+          <div className="hidden sm:block w-px h-8 bg-slate-200 shrink-0" />
 
           {/* Province Select Dropdown */}
-          <div className="relative w-full md:w-64 flex items-center">
+          <div className="relative w-full sm:w-60 flex items-center">
             <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
-              <MapPinIcon className="h-5 w-5 text-accent-500" />
+              <MapPinIcon className="h-5 w-5 text-slate-400" />
             </div>
             <select
               value={province}
               onChange={(e) => setProvince(e.target.value)}
-              className="w-full pl-10 pr-8 py-3 text-sm md:text-base text-slate-800 bg-slate-50 md:bg-transparent rounded-xl focus:outline-none focus:ring-2 focus:ring-primary-500/20 font-medium cursor-pointer appearance-none"
+              className="w-full pl-10 pr-8 py-3 text-sm sm:text-base text-slate-800 bg-slate-50 sm:bg-transparent rounded-xl focus:outline-none font-medium cursor-pointer appearance-none"
             >
-              <option value="">Tất cả tỉnh thành (63 tỉnh)</option>
+              <option value="">Toàn quốc (63 tỉnh)</option>
               <optgroup label="Tỉnh / Thành phố trọng điểm">
                 {VIETNAM_PROVINCES.filter((p) => p.popular).map((p) => (
                   <option key={`pop-${p.code}`} value={p.name}>
@@ -230,94 +230,82 @@ export default function SearchBar({
           {/* Submit Button */}
           <button
             type="submit"
-            className="inline-flex items-center justify-center gap-2 px-6 py-3 md:py-3.5 bg-gradient-to-r from-accent-500 to-amber-500 hover:from-accent-600 hover:to-amber-600 text-white font-bold rounded-xl text-sm md:text-base shadow-md shadow-accent-500/25 transition-all duration-200 active:scale-95 shrink-0"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl text-sm sm:text-base shadow-xs transition-colors shrink-0"
           >
-            <SparklesIcon className="h-5 w-5 text-white/90" />
             <span>Tìm việc</span>
           </button>
         </div>
 
-        {/* Real-time Status Badge & Options */}
-        <div className="mt-2.5 px-2 flex flex-wrap items-center justify-between gap-3 text-xs border-t border-slate-100 pt-2">
-          <div className="flex flex-wrap items-center gap-3">
-            {/* Realtime Live Indicator */}
-            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 font-bold border border-emerald-200/80 shadow-2xs">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-              </span>
-              <span>Real-time Active</span>
-            </span>
+        {/* Streamlined Filter Toggles & Popular Chips */}
+        <div className="mt-3 pt-2.5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+          {/* Quick Filters */}
+          <div className="flex flex-wrap items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setStrictMode(!strictMode)}
+              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors cursor-pointer ${
+                strictMode
+                  ? "bg-blue-50 text-blue-700 border-blue-200 font-semibold"
+                  : "bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100"
+              }`}
+              title="Lọc chuẩn điều kiện cứng: không lẫn địa bàn khác"
+            >
+              <span>🎯 Khớp chuẩn</span>
+            </button>
 
-            {/* Strict Constraint Matching */}
-            <label className="inline-flex items-center gap-1.5 cursor-pointer select-none text-slate-700 hover:text-slate-900 transition-colors">
-              <input
-                type="checkbox"
-                checked={strictMode}
-                onChange={(e) => setStrictMode(e.target.checked)}
-                className="rounded text-primary-600 focus:ring-primary-500 h-3.5 w-3.5 border-slate-300"
-              />
-              <span className="font-semibold flex items-center gap-1">
-                <span>🎯</span>
-                <span>Khớp chuẩn ràng buộc cứng</span>
-              </span>
-            </label>
+            <button
+              type="button"
+              onClick={() => setVerifiedOnly(!verifiedOnly)}
+              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors cursor-pointer ${
+                verifiedOnly
+                  ? "bg-emerald-50 text-emerald-700 border-emerald-200 font-semibold"
+                  : "bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100"
+              }`}
+              title="Chỉ hiển thị tin đã có bằng chứng xác thực"
+            >
+              <span>🛡️ Đã xác thực</span>
+            </button>
 
-            {/* Verified Evidence Filter */}
-            <label className="inline-flex items-center gap-1.5 cursor-pointer select-none text-slate-700 hover:text-slate-900 transition-colors">
-              <input
-                type="checkbox"
-                checked={verifiedOnly}
-                onChange={(e) => setVerifiedOnly(e.target.checked)}
-                className="rounded text-emerald-600 focus:ring-emerald-500 h-3.5 w-3.5 border-slate-300"
-              />
-              <span className="font-semibold flex items-center gap-1 text-emerald-800">
-                <span>🛡️</span>
-                <span>Có Dẫn chứng xác thực</span>
-              </span>
-            </label>
+            <button
+              type="button"
+              onClick={() => setLiveCrawl(!liveCrawl)}
+              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-medium border transition-colors cursor-pointer ${
+                liveCrawl
+                  ? "bg-amber-50 text-amber-800 border-amber-200 font-semibold"
+                  : "bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100"
+              }`}
+              title="Kích hoạt quét sâu mạng xã hội Facebook, Threads"
+            >
+              <span>⚡ Quét MXH</span>
+            </button>
           </div>
 
-          {/* Live Crawl Mode */}
-          <label className="inline-flex items-center gap-1.5 cursor-pointer select-none text-slate-700 hover:text-slate-900 transition-colors">
-            <input
-              type="checkbox"
-              checked={liveCrawl}
-              onChange={(e) => setLiveCrawl(e.target.checked)}
-              className="rounded text-accent-500 focus:ring-accent-500 h-3.5 w-3.5 border-slate-300"
-            />
-            <span className="font-semibold flex items-center gap-1 text-accent-700">
-              <BoltIcon className="h-3.5 w-3.5 text-accent-600 animate-pulse" />
-              <span>Quét sâu MXH (Facebook, Threads) realtime</span>
+          {/* Clean Horizontal Popular Searches */}
+          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 max-w-full">
+            <span className="text-[11px] font-medium text-slate-400 shrink-0">
+              Gợi ý:
             </span>
-          </label>
-        </div>
-
-        {/* Quick Suggestion Chips */}
-        <div className="mt-2.5 px-1 flex flex-wrap items-center gap-1.5 text-xs">
-          <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mr-1">
-            Gợi ý nhanh:
-          </span>
-          {[
-            { label: "🛰️ IT Hạ Long", q: "IT", prov: "Quảng Ninh" },
-            { label: "🏨 IT Khách Sạn Bãi Cháy", q: "Khách Sạn", prov: "Quảng Ninh" },
-            { label: "🚢 Cảng CICT Cái Lân", q: "Cái Lân", prov: "Quảng Ninh" },
-            { label: "⚡ SCADA Ngành Than", q: "Tự Động Hóa", prov: "Quảng Ninh" },
-            { label: "🏥 CNTT Vinmec Hạ Long", q: "Vinmec", prov: "Quảng Ninh" },
-            { label: "💻 FPT Telecom", q: "FPT", prov: "Quảng Ninh" },
-          ].map((chip) => (
-            <button
-              key={chip.label}
-              type="button"
-              onClick={() => {
-                setQuery(chip.q);
-                setProvince(chip.prov);
-              }}
-              className="inline-flex items-center px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-primary-50 text-slate-700 hover:text-primary-700 font-semibold text-[11px] border border-slate-200/80 transition-colors cursor-pointer"
-            >
-              <span>{chip.label}</span>
-            </button>
-          ))}
+            {[
+              { label: "IT Hạ Long", q: "IT", prov: "Quảng Ninh" },
+              { label: "Khách Sạn Bãi Cháy", q: "Khách Sạn", prov: "Quảng Ninh" },
+              { label: "Ngành Than", q: "Khai Thác", prov: "Quảng Ninh" },
+              { label: "Cảng Cái Lân", q: "Cái Lân", prov: "Quảng Ninh" },
+              { label: "FPT Telecom", q: "FPT", prov: "Quảng Ninh" },
+              { label: "Làm từ xa", q: "Remote", prov: "" },
+            ].map((chip) => (
+              <button
+                key={chip.label}
+                type="button"
+                onClick={() => {
+                  setQuery(chip.q);
+                  if (chip.prov) setProvince(chip.prov);
+                }}
+                className="shrink-0 px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-blue-50 text-slate-600 hover:text-blue-700 text-[11px] font-medium transition-colors cursor-pointer"
+              >
+                {chip.label}
+              </button>
+            ))}
+          </div>
         </div>
       </form>
 

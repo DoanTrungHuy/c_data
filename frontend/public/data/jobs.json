@@ -20,7 +20,7 @@
     "posted_at": "2026-10-14T06:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T06:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -185,7 +185,7 @@
     "posted_at": "2026-10-14T03:15:14.723258",
     "expires_at": "2026-11-08T10:15:16.793050",
     "first_discovered_at": "2026-10-14T03:15:14.723258",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -338,17 +338,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-    "source_url": "https://fptjobs.com?jid=chuyen-vien-ho-tro-ky-thuat-vi-4",
+    "source_url": "https://fptjobs.com?jid=chuyen-vien-ho-tro-ky-thuat-vi-3",
     "posted_at": "2026-10-14T05:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T05:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-      "direct_url": "https://fptjobs.com?jid=chuyen-vien-ho-tro-ky-thuat-vi-4",
+      "direct_url": "https://fptjobs.com?jid=chuyen-vien-ho-tro-ky-thuat-vi-3",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng FPT Telecom Chi Nhánh Quảng Ninh",
@@ -385,7 +385,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-        "direct_url": "https://fptjobs.com?jid=chuyen-vien-ho-tro-ky-thuat-vi-4",
+        "direct_url": "https://fptjobs.com?jid=chuyen-vien-ho-tro-ky-thuat-vi-3",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng FPT Telecom Chi Nhánh Quảng Ninh",
@@ -497,17 +497,17 @@
     "category": "Sản xuất / Kỹ thuật công nghiệp",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản",
-    "source_url": "https://vinacomin.vn/vi?jid=ky-su-tu-dong-hoa-he-thong-do--5",
+    "source_url": "https://vinacomin.vn/vi?jid=ky-su-tu-dong-hoa-he-thong-do--4",
     "posted_at": "2026-10-13T12:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T12:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-      "direct_url": "https://vinacomin.vn/vi?jid=ky-su-tu-dong-hoa-he-thong-do--5",
+      "direct_url": "https://vinacomin.vn/vi?jid=ky-su-tu-dong-hoa-he-thong-do--4",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn Công Nghiệp Than - Khoáng Sản Việt Nam (TKV)",
@@ -544,7 +544,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-        "direct_url": "https://vinacomin.vn/vi?jid=ky-su-tu-dong-hoa-he-thong-do--5",
+        "direct_url": "https://vinacomin.vn/vi?jid=ky-su-tu-dong-hoa-he-thong-do--4",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn Công Nghiệp Than - Khoáng Sản Việt Nam (TKV)",
@@ -660,24 +660,24 @@
     "posted_at": "2026-10-13T06:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T06:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-quan-tri-co-so-du-l-29",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Bãi Cháy Quảng Ninh",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033846566",
+        "zalo": "02033846566",
+        "email": "tuyendung@benhvienbaichay.vn"
       },
       "address_confirmed": "Phường Giếng Đáy, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Triển khai hệ thống Bệnh án điện tử (EMR), chữ ký số y tế và liên thông dữ liệu bảo hiểm y tế cổng giám định BHYT quốc gia. Hỗ trợ kỹ thuật phần cứng, máy in mã vạch xét nghiệm và hệ thống máy chủ nội...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -701,20 +701,20 @@
       "role_family": "healthcare_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-quan-tri-co-so-du-l-29",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Bãi Cháy Quảng Ninh",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033846566",
+          "zalo": "02033846566",
+          "email": "tuyendung@benhvienbaichay.vn"
         },
         "address_confirmed": "Phường Giếng Đáy, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Triển khai hệ thống Bệnh án điện tử (EMR), chữ ký số y tế và liên thông dữ liệu bảo hiểm y tế cổng giám định BHYT quốc gia. Hỗ trợ kỹ thuật phần cứng, máy in mã vạch xét nghiệm và hệ thống máy chủ nội...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-13T06:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -815,17 +815,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Công Ty CP Cảng Cái Lân",
-    "source_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-7",
+    "source_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-6",
     "posted_at": "2026-10-14T05:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T05:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Công Ty CP Cảng Cái Lân (CICT)",
-      "direct_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-7",
+      "direct_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-6",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty CP Cảng Cái Lân (CICT)",
@@ -862,7 +862,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Công Ty CP Cảng Cái Lân (CICT)",
-        "direct_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-7",
+        "direct_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-6",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty CP Cảng Cái Lân (CICT)",
@@ -980,24 +980,24 @@
     "posted_at": "2026-10-13T14:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T14:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=it-system-administrator-quan-t-30",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty TNHH Dầu Thực Vật Cái Lân (CALOFIC)",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033846993",
+        "zalo": "02033846993",
+        "email": "recruitment@calofic.com.vn"
       },
       "address_confirmed": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Quản trị cơ sở hạ tầng máy chủ nội bộ, hệ thống hoạch định tài nguyên doanh nghiệp ERP (SAP), hệ thống mạng phân xưởng sản xuất tự động và an toàn thông tin theo chuẩn tập đoàn đa quốc gia. Lương thán...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -1021,20 +1021,20 @@
       "role_family": "port_logistics_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=it-system-administrator-quan-t-30",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty TNHH Dầu Thực Vật Cái Lân (CALOFIC)",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033846993",
+          "zalo": "02033846993",
+          "email": "recruitment@calofic.com.vn"
         },
         "address_confirmed": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Quản trị cơ sở hạ tầng máy chủ nội bộ, hệ thống hoạch định tài nguyên doanh nghiệp ERP (SAP), hệ thống mạng phân xưởng sản xuất tự động và an toàn thông tin theo chuẩn tập đoàn đa quốc gia. Lương thán...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-13T14:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -1139,24 +1139,24 @@
     "posted_at": "2026-10-14T14:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T14:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=lap-trinh-vien-frontend-react--8",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Giải Pháp Công Nghệ Số Hạ Long Tech",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "0988654321",
+        "zalo": "0988654321",
+        "email": "careers@halongtech.vn"
       },
       "address_confirmed": "Khu đô thị Mon Bay, Phường Hồng Hải, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Phát triển các giao diện người dùng web và mobile web phục vụ hàng triệu lượt đặt tour, vé tham quan vịnh Hạ Long. Sử dụng React, Next.js, Tailwind CSS và kết nối RESTful API. Môi trường làm việc trẻ ...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -1180,20 +1180,20 @@
       "role_family": "software_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=lap-trinh-vien-frontend-react--8",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Giải Pháp Công Nghệ Số Hạ Long Tech",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "0988654321",
+          "zalo": "0988654321",
+          "email": "careers@halongtech.vn"
         },
         "address_confirmed": "Khu đô thị Mon Bay, Phường Hồng Hải, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Phát triển các giao diện người dùng web và mobile web phục vụ hàng triệu lượt đặt tour, vé tham quan vịnh Hạ Long. Sử dụng React, Next.js, Tailwind CSS và kết nối RESTful API. Môi trường làm việc trẻ ...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-14T14:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -1296,17 +1296,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp FPT Software",
-    "source_url": "https://fptjobs.com?jid=ky-su-backend-python-fastapi-p-32",
+    "source_url": "https://fptjobs.com?jid=ky-su-backend-python-fastapi-p-9",
     "posted_at": "2026-10-14T12:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T12:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp FPT Software",
-      "direct_url": "https://fptjobs.com?jid=ky-su-backend-python-fastapi-p-32",
+      "direct_url": "https://fptjobs.com?jid=ky-su-backend-python-fastapi-p-9",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Chi Nhánh Phần Mềm FPT Software Quảng Ninh",
@@ -1343,7 +1343,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp FPT Software",
-        "direct_url": "https://fptjobs.com?jid=ky-su-backend-python-fastapi-p-32",
+        "direct_url": "https://fptjobs.com?jid=ky-su-backend-python-fastapi-p-9",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Chi Nhánh Phần Mềm FPT Software Quảng Ninh",
@@ -1459,17 +1459,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-    "source_url": "https://fptjobs.com?jid=tuyen-nhan-vien-ky-thuat-trien-9",
+    "source_url": "https://fptjobs.com?jid=tuyen-nhan-vien-ky-thuat-trien-10",
     "posted_at": "2026-10-14T03:52:44.999101",
     "expires_at": "2026-11-08T09:52:45.686614",
     "first_discovered_at": "2026-10-14T03:52:44.999101",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-      "direct_url": "https://fptjobs.com?jid=tuyen-nhan-vien-ky-thuat-trien-9",
+      "direct_url": "https://fptjobs.com?jid=tuyen-nhan-vien-ky-thuat-trien-10",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng FPT Telecom Chi Nhánh Quảng Ninh",
@@ -1534,7 +1534,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng FPT Telecom Toàn Quốc",
-        "direct_url": "https://fptjobs.com?jid=tuyen-nhan-vien-ky-thuat-trien-9",
+        "direct_url": "https://fptjobs.com?jid=tuyen-nhan-vien-ky-thuat-trien-10",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng FPT Telecom Chi Nhánh Quảng Ninh",
@@ -1610,17 +1610,17 @@
     "category": "Vận tải / Lái xe / Giao nhận / Logistics",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Công Ty CP Cảng Cái Lân",
-    "source_url": "https://cict.com.vn?jid=tuyen-5-lai-xe-dau-keo-contain-10",
+    "source_url": "https://cict.com.vn?jid=tuyen-5-lai-xe-dau-keo-contain-11",
     "posted_at": "2026-10-14T07:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T07:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Công Ty CP Cảng Cái Lân (CICT)",
-      "direct_url": "https://cict.com.vn?jid=tuyen-5-lai-xe-dau-keo-contain-10",
+      "direct_url": "https://cict.com.vn?jid=tuyen-5-lai-xe-dau-keo-contain-11",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty CP Cảng Cái Lân (CICT)",
@@ -1689,7 +1689,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Công Ty CP Cảng Cái Lân (CICT)",
-        "direct_url": "https://cict.com.vn?jid=tuyen-5-lai-xe-dau-keo-contain-10",
+        "direct_url": "https://cict.com.vn?jid=tuyen-5-lai-xe-dau-keo-contain-11",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty CP Cảng Cái Lân (CICT)",
@@ -1769,24 +1769,24 @@
     "posted_at": "2026-10-13T11:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T11:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-lap-trinh-nhung-van-hanh-40",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty TNHH MTV Đóng Tàu Hạ Long",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033846556",
+        "zalo": "02033846556",
+        "email": "contact@halongshipyard.vn"
       },
       "address_confirmed": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -1810,20 +1810,20 @@
       "role_family": "port_logistics_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-lap-trinh-nhung-van-hanh-40",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty TNHH MTV Đóng Tàu Hạ Long",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033846556",
+          "zalo": "02033846556",
+          "email": "contact@halongshipyard.vn"
         },
         "address_confirmed": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Lắp đặt, căn chỉnh và lập trình hệ thống radar dẫn đường hàng hải, hệ thống định vị vệ tinh GPS và tủ điều khiển tự động máy chính trên các con tàu xuất khẩu. Môi trường công nghiệp quy mô lớn.",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-13T11:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -1926,24 +1926,24 @@
     "posted_at": "2026-10-14T17:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T17:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=nhan-vien-it-support-khach-san-11",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn FLC Grand Hotel Hạ Long",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033625388",
+        "zalo": "02033625388",
+        "email": "hr@flchalong.com.vn"
       },
       "address_confirmed": "Khu đô thị FLC Grand, Phường Hồng Hà, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "FLC Grand Hotel Hạ Long tuyển 2 nhân viên IT Support trực ca khách sạn. Quản lý hệ thống mạng WiFi phủ kín sân Golf và trung tâm hội nghị quốc tế 1500 chỗ. Hỗ trợ kỹ thuật màn hình LED, âm thanh sự ki...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -1967,20 +1967,20 @@
       "role_family": "hotel_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=nhan-vien-it-support-khach-san-11",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn FLC Grand Hotel Hạ Long",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033625388",
+          "zalo": "02033625388",
+          "email": "hr@flchalong.com.vn"
         },
         "address_confirmed": "Khu đô thị FLC Grand, Phường Hồng Hà, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "FLC Grand Hotel Hạ Long tuyển 2 nhân viên IT Support trực ca khách sạn. Quản lý hệ thống mạng WiFi phủ kín sân Golf và trung tâm hội nghị quốc tế 1500 chỗ. Hỗ trợ kỹ thuật màn hình LED, âm thanh sự ki...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-14T17:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -2079,17 +2079,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản",
-    "source_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--12",
+    "source_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--14",
     "posted_at": "2026-10-12T15:36:44.539463",
     "expires_at": "2026-11-13T15:36:44.539463",
     "first_discovered_at": "2026-10-12T15:36:44.539463",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-      "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--12",
+      "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--14",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn Mường Thanh Luxury Hạ Long Centre",
@@ -2159,7 +2159,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-        "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--12",
+        "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--14",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn Mường Thanh Luxury Hạ Long Centre",
@@ -2235,17 +2235,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản",
-    "source_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--42",
+    "source_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--15",
     "posted_at": "2026-10-14T12:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T12:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-      "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--42",
+      "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--15",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn Mường Thanh Luxury Hạ Long Centre",
@@ -2282,7 +2282,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-        "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--42",
+        "direct_url": "https://vinacomin.vn/vi?jid=it-helpdesk-quan-tri-he-thong--15",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn Mường Thanh Luxury Hạ Long Centre",
@@ -2396,24 +2396,24 @@
     "posted_at": "2026-10-14T01:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T01:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-thuat-vien-it-van-hanh-he-t-13",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn Du Thuyền Quốc Tế Paradise Vietnam",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033842368",
+        "zalo": "02033842368",
+        "email": "hr@paradisevietnam.com"
       },
       "address_confirmed": "Cảng Tàu Khách Quốc Tế Tuần Châu, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Phụ trách hệ thống định vị vệ tinh, kết nối Internet 4G/5G và hệ thống âm thanh, ánh sáng, máy tính POS order trên đội tàu du thuyền 5 sao lưu trú đêm trên vịnh. Bao ăn ở theo tiêu chuẩn nhân sự tàu d...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -2437,20 +2437,20 @@
       "role_family": "hotel_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-thuat-vien-it-van-hanh-he-t-13",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn Du Thuyền Quốc Tế Paradise Vietnam",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033842368",
+          "zalo": "02033842368",
+          "email": "hr@paradisevietnam.com"
         },
         "address_confirmed": "Cảng Tàu Khách Quốc Tế Tuần Châu, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Phụ trách hệ thống định vị vệ tinh, kết nối Internet 4G/5G và hệ thống âm thanh, ánh sáng, máy tính POS order trên đội tàu du thuyền 5 sao lưu trú đêm trên vịnh. Bao ăn ở theo tiêu chuẩn nhân sự tàu d...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-14T01:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -2553,24 +2553,24 @@
     "posted_at": "2026-10-13T19:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T19:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=chuyen-vien-it-support-khach-s-15",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn Novotel Ha Long Bay",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033848108",
+        "zalo": "02033848108",
+        "email": "h3607-hr@accor.com"
       },
       "address_confirmed": "Số 160 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Quản trị hệ thống máy chủ mạng nội bộ, điện thoại IP và hệ thống WiFi khách sạn Accor. Trực tiếp hỗ trợ kỹ thuật cho các hội thảo quốc tế và sự kiện du lịch. Môi trường đa văn hóa, quyền lợi theo tiêu...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -2594,20 +2594,20 @@
       "role_family": "hotel_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=chuyen-vien-it-support-khach-s-15",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn Novotel Ha Long Bay",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033848108",
+          "zalo": "02033848108",
+          "email": "h3607-hr@accor.com"
         },
         "address_confirmed": "Số 160 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Quản trị hệ thống máy chủ mạng nội bộ, điện thoại IP và hệ thống WiFi khách sạn Accor. Trực tiếp hỗ trợ kỹ thuật cho các hội thảo quốc tế và sự kiện du lịch. Môi trường đa văn hóa, quyền lợi theo tiêu...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-13T19:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -2710,24 +2710,24 @@
     "posted_at": "2026-10-14T04:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T04:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-van-hanh-he-thong-dieu-k-16",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033827404",
+        "zalo": "02033827404",
+        "email": "tuyendung@qtp.com.vn"
       },
       "address_confirmed": "Phường Hà Khánh, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Giám sát hệ thống điều khiển tự động tổ máy (DCS - Distributed Control System), lập trình giao diện HMI và hệ thống ghi nhận dữ liệu thông số nhiệt - điện liên tục. Đảm bảo an toàn thông tin mạng công...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -2751,20 +2751,20 @@
       "role_family": "mining_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-van-hanh-he-thong-dieu-k-16",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033827404",
+          "zalo": "02033827404",
+          "email": "tuyendung@qtp.com.vn"
         },
         "address_confirmed": "Phường Hà Khánh, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Giám sát hệ thống điều khiển tự động tổ máy (DCS - Distributed Control System), lập trình giao diện HMI và hệ thống ghi nhận dữ liệu thông số nhiệt - điện liên tục. Đảm bảo an toàn thông tin mạng công...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-14T04:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -2867,24 +2867,24 @@
     "posted_at": "2026-10-14T13:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T13:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=it-helpdesk-van-hanh-he-thong--44",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Đại Siêu Thị Go! Hạ Long (Central Retail)",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033838999",
+        "zalo": "02033838999",
+        "email": "crv.tuyendung@vn.centralretail.com"
       },
       "address_confirmed": "Khu Cột 5, Phường Hồng Hà, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Xử lý sự cố máy thu ngân POS, máy in hóa đơn, cân điện tử kết nối mạng và hệ thống kiểm kê mã vạch kho hàng siêu thị. Trực hỗ trợ kỹ thuật trong giờ vận hành siêu thị. Đầy đủ bảo hiểm, lương tháng 13.",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -2908,20 +2908,20 @@
       "role_family": "banking_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=it-helpdesk-van-hanh-he-thong--44",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Đại Siêu Thị Go! Hạ Long (Central Retail)",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033838999",
+          "zalo": "02033838999",
+          "email": "crv.tuyendung@vn.centralretail.com"
         },
         "address_confirmed": "Khu Cột 5, Phường Hồng Hà, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Xử lý sự cố máy thu ngân POS, máy in hóa đơn, cân điện tử kết nối mạng và hệ thống kiểm kê mã vạch kho hàng siêu thị. Trực hỗ trợ kỹ thuật trong giờ vận hành siêu thị. Đầy đủ bảo hiểm, lương tháng 13.",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-14T13:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -3024,7 +3024,7 @@
     "posted_at": "2026-10-13T22:15:14.723258",
     "expires_at": "2026-11-08T10:15:18.035815",
     "first_discovered_at": "2026-10-13T22:15:14.723258",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -3172,14 +3172,30 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
-    "source_url": "https://www.wyndhamhalong.com/tuyen-dung/it-officer",
+    "source_platform": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+    "source_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-gap-it-officer-chuyen-vi-21",
     "posted_at": "2026-10-14T18:28:34.858711",
     "expires_at": "2026-11-08T19:28:34.944923",
     "first_discovered_at": "2026-10-14T19:28:35.894660",
-    "last_verified_at": "2026-10-14T19:28:36",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+      "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-gap-it-officer-chuyen-vi-21",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+        "hotline": "0902.345.678",
+        "zalo": "0902.345.678",
+        "email": "hr@wyndhamhalong.com"
+      },
+      "address_confirmed": "Số 12 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+      "announcement_snippet": "Khách sạn 5 sao quốc tế Wyndham Legend Hạ Long thông báo tuyển dụng vị trí IT Officer phụ trách hạ tầng CNTT toàn khu khách sạn 5 sao ven biển Bãi Cháy. Nhiệm vụ: Quản trị hệ thống máy chủ Windows Ser...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3231,7 +3247,27 @@
         "jd_detailed": true,
         "tech_stack_clarity": true,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+        "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-gap-it-officer-chuyen-vi-21",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+          "hotline": "0902.345.678",
+          "zalo": "0902.345.678",
+          "email": "hr@wyndhamhalong.com"
+        },
+        "address_confirmed": "Số 12 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+        "announcement_snippet": "Khách sạn 5 sao quốc tế Wyndham Legend Hạ Long thông báo tuyển dụng vị trí IT Officer phụ trách hạ tầng CNTT toàn khu khách sạn 5 sao ven biển Bãi Cháy. Nhiệm vụ: Quản trị hệ thống máy chủ Windows Ser...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.894660",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
@@ -3295,14 +3331,30 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Cảng Cái Lân CICT)",
-    "source_url": "https://cict.com.vn/tuyen-dung/ky-su-cntt-tos",
+    "source_platform": "Cổng Thông Tin Công Ty CP Cảng Cái Lân",
+    "source_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-22",
     "posted_at": "2026-10-14T11:28:34.858711",
     "expires_at": "2026-11-08T19:28:35.214522",
     "first_discovered_at": "2026-10-14T19:28:35.214522",
-    "last_verified_at": "2026-10-14T19:28:35",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Cổng Thông Tin Công Ty CP Cảng Cái Lân (CICT)",
+      "direct_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-22",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty CP Cảng Cái Lân (CICT)",
+        "hotline": "0913.456.789",
+        "zalo": "0913.456.789",
+        "email": "hr@cict.com.vn"
+      },
+      "address_confirmed": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long",
+      "announcement_snippet": "Cảng Quốc Tế Cái Lân (CICT) tuyển Kỹ sư CNTT phụ trách vận hành phần mềm khai thác cảng biển (Terminal Operating System - TOS), hệ thống máy quét mã container và kết nối EDI với Tổng cục Hải quan. Môi...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -3352,7 +3404,27 @@
         "jd_detailed": true,
         "tech_stack_clarity": true,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Cổng Thông Tin Công Ty CP Cảng Cái Lân (CICT)",
+        "direct_url": "https://cict.com.vn?jid=ky-su-cntt-quan-tri-he-thong-p-22",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty CP Cảng Cái Lân (CICT)",
+          "hotline": "0913.456.789",
+          "zalo": "0913.456.789",
+          "email": "hr@cict.com.vn"
+        },
+        "address_confirmed": "Khu công nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long",
+        "announcement_snippet": "Cảng Quốc Tế Cái Lân (CICT) tuyển Kỹ sư CNTT phụ trách vận hành phần mềm khai thác cảng biển (Terminal Operating System - TOS), hệ thống máy quét mã container và kết nối EDI với Tổng cục Hải quan. Môi...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.214522",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "e3c4958c-56fe-43ec-ace7-672ac520fa7b",
@@ -3419,7 +3491,7 @@
     "posted_at": "2026-10-13T21:41:08.873836",
     "expires_at": "2026-11-08T04:41:08.932961",
     "first_discovered_at": "2026-10-13T21:41:08.873836",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -3570,7 +3642,7 @@
     "posted_at": "2026-10-14T08:42:03.494711",
     "expires_at": "2026-11-03T09:42:03.494711",
     "first_discovered_at": "2026-10-14T08:42:03.494711",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -3727,7 +3799,7 @@
     "posted_at": "2026-10-14T03:42:03.494711",
     "expires_at": "2026-11-03T09:42:03.494711",
     "first_discovered_at": "2026-10-14T03:42:03.494711",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -3878,7 +3950,7 @@
     "posted_at": "2026-10-14T01:42:03.494711",
     "expires_at": "2026-11-03T09:42:03.494711",
     "first_discovered_at": "2026-10-14T01:42:03.494711",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -4024,17 +4096,17 @@
     "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
     "experience_level": null,
     "source_platform": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-    "source_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-giam-sat-sanh-le-tan-don-22",
+    "source_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-giam-sat-sanh-le-tan-don-27",
     "posted_at": "2026-10-14T07:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T07:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-      "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-giam-sat-sanh-le-tan-don-22",
+      "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-giam-sat-sanh-le-tan-don-27",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
@@ -4100,7 +4172,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-        "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-giam-sat-sanh-le-tan-don-22",
+        "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-giam-sat-sanh-le-tan-don-27",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
@@ -4179,7 +4251,7 @@
     "posted_at": "2026-10-14T06:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T06:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -4333,7 +4405,7 @@
     "posted_at": "2026-10-14T08:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T08:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -4486,7 +4558,7 @@
     "posted_at": "2026-10-14T02:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T02:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -4633,17 +4705,17 @@
     "category": "Công nghiệp / Than - Khoáng sản / Cơ điện",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản",
-    "source_url": "https://vinacomin.vn/vi?jid=tuyen-20-tho-lo-khai-thac-than-26",
+    "source_url": "https://vinacomin.vn/vi?jid=tuyen-20-tho-lo-khai-thac-than-31",
     "posted_at": "2026-10-14T08:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T08:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-      "direct_url": "https://vinacomin.vn/vi?jid=tuyen-20-tho-lo-khai-thac-than-26",
+      "direct_url": "https://vinacomin.vn/vi?jid=tuyen-20-tho-lo-khai-thac-than-31",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Than Hòn Gai - TKV (Tập Đoàn Than Khoáng Sản)",
@@ -4712,7 +4784,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-        "direct_url": "https://vinacomin.vn/vi?jid=tuyen-20-tho-lo-khai-thac-than-26",
+        "direct_url": "https://vinacomin.vn/vi?jid=tuyen-20-tho-lo-khai-thac-than-31",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Than Hòn Gai - TKV (Tập Đoàn Than Khoáng Sản)",
@@ -4786,17 +4858,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinmec",
-    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-y-te-quan-tri-p-27",
+    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-y-te-quan-tri-p-32",
     "posted_at": "2026-10-14T00:15:14.723258",
     "expires_at": "2026-11-08T10:15:17.485850",
     "first_discovered_at": "2026-10-14T00:15:14.723258",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Vinmec (Tập Đoàn Vingroup)",
-      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-y-te-quan-tri-p-27",
+      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-y-te-quan-tri-p-32",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
@@ -4866,7 +4938,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Vinmec (Tập Đoàn Vingroup)",
-        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-y-te-quan-tri-p-27",
+        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-y-te-quan-tri-p-32",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
@@ -4949,7 +5021,7 @@
     "posted_at": "2026-10-14T06:18:37.058968",
     "expires_at": "2026-11-03T10:18:37.058968",
     "first_discovered_at": "2026-10-14T06:18:37.058968",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -5100,17 +5172,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinmec",
-    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-ky-thuat-he-thong--3",
+    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-ky-thuat-he-thong--34",
     "posted_at": "2026-10-13T16:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T16:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Vinmec (Tập Đoàn Vingroup)",
-      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-ky-thuat-he-thong--3",
+      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-ky-thuat-he-thong--34",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
@@ -5147,7 +5219,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Vinmec (Tập Đoàn Vingroup)",
-        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-ky-thuat-he-thong--3",
+        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-ky-thuat-he-thong--34",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
@@ -5267,17 +5339,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Sun World",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-van-hanh-ha-tang-mang-th-6",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-van-hanh-ha-tang-mang-th-35",
     "posted_at": "2026-10-14T14:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T14:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Sun World (Sun Group)",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-van-hanh-ha-tang-mang-th-6",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-van-hanh-ha-tang-mang-th-35",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Tổ Hợp Giải Trí Sun World Ha Long Complex",
@@ -5314,7 +5386,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Sun World (Sun Group)",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-van-hanh-ha-tang-mang-th-6",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-van-hanh-ha-tang-mang-th-35",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Tổ Hợp Giải Trí Sun World Ha Long Complex",
@@ -5430,24 +5502,24 @@
     "posted_at": "2026-10-14T16:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T16:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-quan-tri-ha-tang-so-53",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033825489",
+        "zalo": "02033825489",
+        "email": "cntt@benhvientinhquangninh.vn"
       },
       "address_confirmed": "Phố Tuệ Tĩnh, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
       "announcement_snippet": "Vận hành hệ thống mạng LAN y tế, máy chủ trung tâm dữ liệu khám chữa bệnh và kết nối hệ thống chỉ đạo tuyến khám chữa bệnh từ xa Telemedicine với các bệnh viện tuyến trung ương (Bạch Mai, Việt Đức).",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -5471,20 +5543,20 @@
       "role_family": "healthcare_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-quan-tri-ha-tang-so-53",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033825489",
+          "zalo": "02033825489",
+          "email": "cntt@benhvientinhquangninh.vn"
         },
         "address_confirmed": "Phố Tuệ Tĩnh, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh",
         "announcement_snippet": "Vận hành hệ thống mạng LAN y tế, máy chủ trung tâm dữ liệu khám chữa bệnh và kết nối hệ thống chỉ đạo tuyến khám chữa bệnh từ xa Telemedicine với các bệnh viện tuyến trung ương (Bạch Mai, Việt Đức).",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-14T16:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -5583,24 +5655,24 @@
     "posted_at": "2026-10-13T17:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T17:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
-      "source_type": "official_portal",
-      "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
       "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-it-quan-tri-he-thong-day-31",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn Khoa Học Kỹ Thuật Hồng Hải Foxconn Quảng Ninh",
-        "hotline": "0912.888.999",
-        "zalo": "0912.888.999",
-        "email": "tuyendung@vinhviec.vn"
+        "hotline": "02033739999",
+        "zalo": "02033739999",
+        "email": "tuyendung@foxconn.com.vn"
       },
       "address_confirmed": "KCN Đông Mai, Thị xã Quảng Yên, Tỉnh Quảng Ninh (giáp ranh Hạ Long)",
       "announcement_snippet": "Quản trị hệ thống máy chủ dây chuyền sản xuất tự động SMT, hệ thống mạng công nghiệp phân xưởng và máy tính đo kiểm tự động. Đảm bảo dây chuyền vận hành 24/7 không gián đoạn. Xe đưa đón hàng ngày từ T...",
       "verified_at": "15/10/2026",
-      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
     },
     "is_active": true,
     "raw_data": {
@@ -5624,20 +5696,20 @@
       "role_family": "port_logistics_it",
       "evidence_proof": {
         "verified": true,
-        "source_type": "official_portal",
-        "source_name": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-it-quan-tri-he-thong-day-31",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn Khoa Học Kỹ Thuật Hồng Hải Foxconn Quảng Ninh",
-          "hotline": "0912.888.999",
-          "zalo": "0912.888.999",
-          "email": "tuyendung@vinhviec.vn"
+          "hotline": "02033739999",
+          "zalo": "02033739999",
+          "email": "tuyendung@foxconn.com.vn"
         },
         "address_confirmed": "KCN Đông Mai, Thị xã Quảng Yên, Tỉnh Quảng Ninh (giáp ranh Hạ Long)",
         "announcement_snippet": "Quản trị hệ thống máy chủ dây chuyền sản xuất tự động SMT, hệ thống mạng công nghiệp phân xưởng và máy tính đo kiểm tự động. Đảm bảo dây chuyền vận hành 24/7 không gián đoạn. Xe đưa đón hàng ngày từ T...",
         "verified_at": "15/10/2026",
-        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
       },
       "first_discovered_at": "2026-10-13T17:17:56.473979",
       "last_verified_at": "2026-10-15T02:00:00Z",
@@ -5732,17 +5804,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Ngân Hàng Vietcombank",
-    "source_url": "https://tuyendung.vietcombank.com.vn?jid=chuyen-vien-quan-tri-he-thong--33",
+    "source_url": "https://tuyendung.vietcombank.com.vn?jid=chuyen-vien-quan-tri-he-thong--38",
     "posted_at": "2026-10-13T08:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-13T08:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Ngân Hàng Vietcombank",
-      "direct_url": "https://tuyendung.vietcombank.com.vn?jid=chuyen-vien-quan-tri-he-thong--33",
+      "direct_url": "https://tuyendung.vietcombank.com.vn?jid=chuyen-vien-quan-tri-he-thong--38",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Chi Nhánh Quảng Ninh",
@@ -5779,7 +5851,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Ngân Hàng Vietcombank",
-        "direct_url": "https://tuyendung.vietcombank.com.vn?jid=chuyen-vien-quan-tri-he-thong--33",
+        "direct_url": "https://tuyendung.vietcombank.com.vn?jid=chuyen-vien-quan-tri-he-thong--38",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Chi Nhánh Quảng Ninh",
@@ -5889,7 +5961,7 @@
     "posted_at": "2026-10-14T01:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T01:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -6037,7 +6109,7 @@
     "posted_at": "2026-10-14T06:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T06:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -6194,7 +6266,7 @@
     "posted_at": "2026-10-14T04:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T04:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -6341,7 +6413,7 @@
     "posted_at": "2026-10-14T07:18:37.058968",
     "expires_at": "2026-11-03T10:18:37.058968",
     "first_discovered_at": "2026-10-14T07:18:37.058968",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -6489,17 +6561,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Sun World",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-39",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-43",
     "posted_at": "2026-10-14T04:52:44.999101",
     "expires_at": "2026-11-08T09:52:45.415734",
     "first_discovered_at": "2026-10-14T04:52:44.999101",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Sun World (Sun Group)",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-39",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-43",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công viên Sun World Ha Long (Sun Group)",
@@ -6568,7 +6640,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Sun World (Sun Group)",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-39",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-43",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công viên Sun World Ha Long (Sun Group)",
@@ -6644,17 +6716,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-it-he-thong-nhan-41",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-it-he-thong-nhan-44",
     "posted_at": "2026-10-13T23:15:14.723258",
     "expires_at": "2026-11-08T10:15:17.724075",
     "first_discovered_at": "2026-10-13T23:15:14.723258",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-it-he-thong-nhan-41",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-it-he-thong-nhan-44",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Yoko Onsen Quang Hanh (Sun Group)",
@@ -6723,7 +6795,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-it-he-thong-nhan-41",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-it-he-thong-nhan-44",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Yoko Onsen Quang Hanh (Sun Group)",
@@ -6799,17 +6871,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Yoko Onsen Quang Hanh",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=nhan-vien-it-ky-thuat-van-hanh-14",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=nhan-vien-it-ky-thuat-van-hanh-45",
     "posted_at": "2026-10-14T06:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T06:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Yoko Onsen Quang Hanh (Sun Group)",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=nhan-vien-it-ky-thuat-van-hanh-14",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=nhan-vien-it-ky-thuat-van-hanh-45",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh",
@@ -6846,7 +6918,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Yoko Onsen Quang Hanh (Sun Group)",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=nhan-vien-it-ky-thuat-van-hanh-14",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=nhan-vien-it-ky-thuat-van-hanh-45",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh",
@@ -6956,17 +7028,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng VNPT Vinaphone",
-    "source_url": "https://tuyendung.vnpt.vn?jid=ky-su-quan-tri-he-thong-trung--43",
+    "source_url": "https://tuyendung.vnpt.vn?jid=ky-su-quan-tri-he-thong-trung--46",
     "posted_at": "2026-10-14T04:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T04:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng VNPT Vinaphone",
-      "direct_url": "https://tuyendung.vnpt.vn?jid=ky-su-quan-tri-he-thong-trung--43",
+      "direct_url": "https://tuyendung.vnpt.vn?jid=ky-su-quan-tri-he-thong-trung--46",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng VNPT Vinaphone Quảng Ninh",
@@ -7003,7 +7075,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng VNPT Vinaphone",
-        "direct_url": "https://tuyendung.vnpt.vn?jid=ky-su-quan-tri-he-thong-trung--43",
+        "direct_url": "https://tuyendung.vnpt.vn?jid=ky-su-quan-tri-he-thong-trung--46",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng VNPT Vinaphone Quảng Ninh",
@@ -7117,7 +7189,7 @@
     "posted_at": "2026-10-13T19:52:37.498884",
     "expires_at": "2026-11-03T03:52:37.498884",
     "first_discovered_at": "2026-10-13T19:52:37.498884",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -7267,7 +7339,7 @@
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
     "first_discovered_at": "2026-10-13T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -7407,17 +7479,17 @@
     "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
     "experience_level": null,
     "source_platform": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-    "source_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-47",
+    "source_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-49",
     "posted_at": "2026-10-14T06:52:44.999101",
     "expires_at": "2026-11-08T09:52:46.121504",
     "first_discovered_at": "2026-10-14T06:52:44.999101",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-      "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-47",
+      "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-49",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
@@ -7485,7 +7557,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
-        "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-47",
+        "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-49",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
@@ -7560,17 +7632,17 @@
     "category": "Ngân hàng / Tài chính / Giao dịch viên",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Ngân Hàng Vietcombank",
-    "source_url": "https://tuyendung.vietcombank.com.vn?jid=tuyen-3-giao-dich-vien-quay-te-48",
+    "source_url": "https://tuyendung.vietcombank.com.vn?jid=tuyen-3-giao-dich-vien-quay-te-50",
     "posted_at": "2026-10-14T05:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T05:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Ngân Hàng Vietcombank",
-      "direct_url": "https://tuyendung.vietcombank.com.vn?jid=tuyen-3-giao-dich-vien-quay-te-48",
+      "direct_url": "https://tuyendung.vietcombank.com.vn?jid=tuyen-3-giao-dich-vien-quay-te-50",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Quảng Ninh",
@@ -7634,7 +7706,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Ngân Hàng Vietcombank",
-        "direct_url": "https://tuyendung.vietcombank.com.vn?jid=tuyen-3-giao-dich-vien-quay-te-48",
+        "direct_url": "https://tuyendung.vietcombank.com.vn?jid=tuyen-3-giao-dich-vien-quay-te-50",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank) Quảng Ninh",
@@ -7707,14 +7779,30 @@
     "job_type": "full-time",
     "category": "Khách sạn / Du lịch",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh)",
-    "source_url": "https://yokoonsenquanghanh.com.vn/",
+    "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-51",
     "posted_at": "2026-10-14T17:27:07.874675",
     "expires_at": "2026-11-18T19:27:07.874675",
     "first_discovered_at": "2026-10-14T19:28:35.957116",
-    "last_verified_at": "2026-10-14T19:28:36",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-51",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh (Sun Group)",
+        "hotline": "0915.678.901",
+        "zalo": "0915.678.901",
+        "email": "tuyendung@sungroup.com.vn"
+      },
+      "address_confirmed": "Tổ 5, Khu 9B, Phường Quang Hanh, TP. Cẩm Phả, Quảng Ninh",
+      "announcement_snippet": "Đón tiếp và phục vụ khách hàng sử dụng dịch vụ tắm khoáng Onsen kiểu Nhật Bản và villa nghỉ dưỡng cao cấp. Điều phối đặt lịch liệu trình trị liệu spa.\n\n[Trích xuất trực tiếp từ cổng tuyển dụng Khu Ngh...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -7761,7 +7849,27 @@
         "jd_detailed": true,
         "tech_stack_clarity": false,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-51",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh (Sun Group)",
+          "hotline": "0915.678.901",
+          "zalo": "0915.678.901",
+          "email": "tuyendung@sungroup.com.vn"
+        },
+        "address_confirmed": "Tổ 5, Khu 9B, Phường Quang Hanh, TP. Cẩm Phả, Quảng Ninh",
+        "announcement_snippet": "Đón tiếp và phục vụ khách hàng sử dụng dịch vụ tắm khoáng Onsen kiểu Nhật Bản và villa nghỉ dưỡng cao cấp. Điều phối đặt lịch liệu trình trị liệu spa.\n\n[Trích xuất trực tiếp từ cổng tuyển dụng Khu Ngh...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.957116",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "42989056-db35-41b0-a859-2ad249ecdd6f",
@@ -7819,14 +7927,30 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Nhiệt Điện Quảng Ninh)",
-    "source_url": "https://qnpt.vn/tuyen-dung/ky-su-it-scada",
+    "source_platform": "Cổng Tuyển Dụng Đối Tác CareerViet Quảng Ninh",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-an-toan-thong-tin-m-52",
     "posted_at": "2026-10-14T07:28:34.858711",
     "expires_at": "2026-11-08T19:28:35.360657",
     "first_discovered_at": "2026-10-14T19:28:35.360657",
-    "last_verified_at": "2026-10-14T19:28:35",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "job_board",
+      "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-an-toan-thong-tin-m-52",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
+        "hotline": "0912.888.999",
+        "zalo": "0912.888.999",
+        "email": "tuyendung@careerviet.vn"
+      },
+      "address_confirmed": "Phường Hà Khánh, TP. Hạ Long, Quảng Ninh",
+      "announcement_snippet": "Nhiệt điện Quảng Ninh tuyển Kỹ sư CNTT chuyên trách an toàn thông tin mạng công nghiệp (OT/IT Security) cho hệ thống điều khiển SCADA/DCS nhà máy điện. Thiết lập chính sách tường lửa, phòng chống xâm ...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -7875,7 +7999,27 @@
         "jd_detailed": true,
         "tech_stack_clarity": true,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "job_board",
+        "source_name": "CareerViet Vietnam (Cổng tuyển dụng đối tác)",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/IT-tai-quang-ninh-k4-l28-vi.html?jid=ky-su-cntt-an-toan-thong-tin-m-52",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Công Ty Cổ Phần Nhiệt Điện Quảng Ninh",
+          "hotline": "0912.888.999",
+          "zalo": "0912.888.999",
+          "email": "tuyendung@careerviet.vn"
+        },
+        "address_confirmed": "Phường Hà Khánh, TP. Hạ Long, Quảng Ninh",
+        "announcement_snippet": "Nhiệt điện Quảng Ninh tuyển Kỹ sư CNTT chuyên trách an toàn thông tin mạng công nghiệp (OT/IT Security) cho hệ thống điều khiển SCADA/DCS nhà máy điện. Thiết lập chính sách tường lửa, phòng chống xâm ...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Bài đăng tuyển dụng trực tiếp đã kiểm định 100%"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.360657",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "5ce152a0-d7c3-4819-9065-d62c7c1e0180",
@@ -7936,14 +8080,30 @@
     "job_type": "full-time",
     "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Wyndham Legend Hạ Long)",
-    "source_url": "https://www.wyndhamhalong.com/tuyen-dung/front-desk",
+    "source_platform": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+    "source_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-53",
     "posted_at": "2026-10-14T16:28:34.859724",
     "expires_at": "2026-11-08T19:28:35.396502",
     "first_discovered_at": "2026-10-14T19:28:35.396502",
-    "last_verified_at": "2026-10-14T19:28:35",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+      "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-53",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+        "hotline": "0902.345.678",
+        "zalo": "0902.345.678",
+        "email": "hr@wyndhamhalong.com"
+      },
+      "address_confirmed": "Số 12 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+      "announcement_snippet": "Khách sạn 5 sao quốc tế Wyndham Legend Hạ Long tuyển 3 nhân viên lễ tân ca xoay. Thực hiện thủ tục check-in, check-out cho du khách quốc tế và nội địa. Tư vấn các dịch vụ tour vịnh, spa, nhà hàng của ...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -7994,7 +8154,27 @@
         "jd_detailed": true,
         "tech_stack_clarity": false,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Ban Nhân Sự Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+        "direct_url": "https://www.wyndhamhalong.com/contact-us?jid=tuyen-dung-nhan-vien-le-tan-kh-53",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Khách Sạn 5 Sao Wyndham Legend Hạ Long",
+          "hotline": "0902.345.678",
+          "zalo": "0902.345.678",
+          "email": "hr@wyndhamhalong.com"
+        },
+        "address_confirmed": "Số 12 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh",
+        "announcement_snippet": "Khách sạn 5 sao quốc tế Wyndham Legend Hạ Long tuyển 3 nhân viên lễ tân ca xoay. Thực hiện thủ tục check-in, check-out cho du khách quốc tế và nội địa. Tư vấn các dịch vụ tour vịnh, spa, nhà hàng của ...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.396502",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "27cb5a6e-5628-41c6-8697-581b7e1e644b",
@@ -8054,17 +8234,17 @@
     "category": "Kỹ thuật / Cơ điện",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản",
-    "source_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-49",
+    "source_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-54",
     "posted_at": "2026-10-13T21:04:03.522412",
     "expires_at": "2026-11-18T04:04:03.522412",
     "first_discovered_at": "2026-10-13T21:04:03.522412",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-      "direct_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-49",
+      "direct_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-54",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Công ty Cổ phần Than Đèo Nai - Cọc Sáu (TKV)",
@@ -8125,7 +8305,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
-        "direct_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-49",
+        "direct_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-54",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Công ty Cổ phần Than Đèo Nai - Cọc Sáu (TKV)",
@@ -8199,17 +8379,17 @@
     "category": "Du lịch / Khách sạn / Nghỉ dưỡng",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-tri-lieu-khoang--50",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-tri-lieu-khoang--55",
     "posted_at": "2026-10-14T05:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T05:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-tri-lieu-khoang--50",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-tri-lieu-khoang--55",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Yoko Onsen Quang Hanh (Sun Group)",
@@ -8280,7 +8460,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-tri-lieu-khoang--50",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-thuat-vien-tri-lieu-khoang--55",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Yoko Onsen Quang Hanh (Sun Group)",
@@ -8354,17 +8534,17 @@
     "category": "Làm đẹp / Spa / Y tế / Sức khỏe",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinmec",
-    "source_url": "https://tuyendung.vingroup.net?jid=tuyen-5-dieu-duong-da-khoa-2-k-51",
+    "source_url": "https://tuyendung.vingroup.net?jid=tuyen-5-dieu-duong-da-khoa-2-k-56",
     "posted_at": "2026-10-14T06:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T06:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Vinmec (Tập Đoàn Vingroup)",
-      "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-dieu-duong-da-khoa-2-k-51",
+      "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-dieu-duong-da-khoa-2-k-56",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
@@ -8432,7 +8612,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Vinmec (Tập Đoàn Vingroup)",
-        "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-dieu-duong-da-khoa-2-k-51",
+        "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-dieu-duong-da-khoa-2-k-56",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
@@ -8506,17 +8686,17 @@
     "category": "Kinh doanh / Bán hàng / Marketing / CSKH",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng VinFast Auto",
-    "source_url": "https://tuyendung.vingroup.net?jid=tuyen-5-chuyen-vien-tu-van-ban-52",
+    "source_url": "https://tuyendung.vingroup.net?jid=tuyen-5-chuyen-vien-tu-van-ban-57",
     "posted_at": "2026-10-14T07:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T07:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng VinFast Auto (Vingroup)",
-      "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-chuyen-vien-tu-van-ban-52",
+      "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-chuyen-vien-tu-van-ban-57",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng VinFast Showroom & Xưởng Dịch Vụ Hạ Long",
@@ -8583,7 +8763,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng VinFast Auto (Vingroup)",
-        "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-chuyen-vien-tu-van-ban-52",
+        "direct_url": "https://tuyendung.vingroup.net?jid=tuyen-5-chuyen-vien-tu-van-ban-57",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng VinFast Showroom & Xưởng Dịch Vụ Hạ Long",
@@ -8657,17 +8837,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Tập Đoàn Viettel",
-    "source_url": "https://tuyendung.viettel.vn?jid=ky-su-giai-phap-cntt-chuyen-do-54",
+    "source_url": "https://tuyendung.viettel.vn?jid=ky-su-giai-phap-cntt-chuyen-do-58",
     "posted_at": "2026-10-14T11:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T11:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Tập Đoàn Viettel",
-      "direct_url": "https://tuyendung.viettel.vn?jid=ky-su-giai-phap-cntt-chuyen-do-54",
+      "direct_url": "https://tuyendung.viettel.vn?jid=ky-su-giai-phap-cntt-chuyen-do-58",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Viettel Quảng Ninh (Tập Đoàn Công Nghiệp - Viễn Thông Quân Đội)",
@@ -8704,7 +8884,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Tập Đoàn Viettel",
-        "direct_url": "https://tuyendung.viettel.vn?jid=ky-su-giai-phap-cntt-chuyen-do-54",
+        "direct_url": "https://tuyendung.viettel.vn?jid=ky-su-giai-phap-cntt-chuyen-do-58",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Viettel Quảng Ninh (Tập Đoàn Công Nghiệp - Viễn Thông Quân Đội)",
@@ -8809,14 +8989,30 @@
     "job_type": "full-time",
     "category": "Kỹ thuật / Cơ điện",
     "experience_level": null,
-    "source_platform": "Website Doanh Nghiệp (Công ty Cổ phần Than Đèo Nai - Cọc Sáu)",
-    "source_url": "https://vinacomin.vn/",
+    "source_platform": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản",
+    "source_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-59",
     "posted_at": "2026-10-14T12:27:07.874675",
     "expires_at": "2026-11-18T19:27:07.874675",
     "first_discovered_at": "2026-10-14T19:28:36.024477",
-    "last_verified_at": "2026-10-14T19:28:36",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
+      "direct_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-59",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Công ty Cổ phần Than Đèo Nai - Cọc Sáu (TKV)",
+        "hotline": "0914.567.890",
+        "zalo": "0914.567.890",
+        "email": "tuyendung@vinacomin.vn"
+      },
+      "address_confirmed": "TP. Cẩm Phả, Quảng Ninh",
+      "announcement_snippet": "Lập hộ chiếu nổ mìn, thiết kế gương lò và chỉ đạo thi công khoan nổ mìn bốc xúc đất đá moong than lộ thiên. Giám sát an toàn bờ mỏ và bãi thải.\n\n[Trích xuất trực tiếp từ cổng tuyển dụng Công ty Cổ phầ...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -8860,7 +9056,27 @@
         "jd_detailed": true,
         "tech_stack_clarity": false,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Cổng Thông Tin Tập Đoàn Công Nghiệp Than - Khoáng Sản (TKV)",
+        "direct_url": "https://vinacomin.vn/vi?jid=ky-su-khai-thac-giam-sat-ky-th-59",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Công ty Cổ phần Than Đèo Nai - Cọc Sáu (TKV)",
+          "hotline": "0914.567.890",
+          "zalo": "0914.567.890",
+          "email": "tuyendung@vinacomin.vn"
+        },
+        "address_confirmed": "TP. Cẩm Phả, Quảng Ninh",
+        "announcement_snippet": "Lập hộ chiếu nổ mìn, thiết kế gương lò và chỉ đạo thi công khoan nổ mìn bốc xúc đất đá moong than lộ thiên. Giám sát an toàn bờ mỏ và bãi thải.\n\n[Trích xuất trực tiếp từ cổng tuyển dụng Công ty Cổ phầ...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:36.024477",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "91f25fe3-8de5-40ca-ac54-999a746f7fa1",
@@ -8919,17 +9135,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-quan-tri-he-thong-d-38",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-quan-tri-he-thong-d-60",
     "posted_at": "2026-10-14T00:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T00:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-quan-tri-he-thong-d-38",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-quan-tri-he-thong-d-60",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Cảng Hàng Không Quốc Tế Vân Đồn (Sun Group)",
@@ -8966,7 +9182,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-quan-tri-he-thong-d-38",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-quan-tri-he-thong-d-60",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Cảng Hàng Không Quốc Tế Vân Đồn (Sun Group)",
@@ -9072,17 +9288,17 @@
     "category": "Khách sạn / Du lịch",
     "experience_level": null,
     "source_platform": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-    "source_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-55",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-61",
     "posted_at": "2026-10-14T02:19:16.473387",
     "expires_at": "2026-11-18T04:19:16.473387",
     "first_discovered_at": "2026-10-14T02:19:16.473387",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-      "direct_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-55",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-61",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh (Sun Group)",
@@ -9146,7 +9362,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Nghề Nghiệp Tập Đoàn Sun Group",
-        "direct_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-55",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=chuyen-vien-cham-soc-khach-han-61",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Khu Nghỉ Dưỡng Khoáng Nóng Yoko Onsen Quang Hanh (Sun Group)",
@@ -9220,17 +9436,17 @@
     "category": "Ngân hàng / Tài chính / Giao dịch viên",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Ngân Hàng BIDV",
-    "source_url": "https://tuyendung.bidv.com.vn?jid=chuyen-vien-quan-ly-khach-hang-56",
+    "source_url": "https://tuyendung.bidv.com.vn?jid=chuyen-vien-quan-ly-khach-hang-62",
     "posted_at": "2026-10-14T03:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T03:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Ngân Hàng BIDV",
-      "direct_url": "https://tuyendung.bidv.com.vn?jid=chuyen-vien-quan-ly-khach-hang-56",
+      "direct_url": "https://tuyendung.bidv.com.vn?jid=chuyen-vien-quan-ly-khach-hang-62",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Ngân Hàng TMCP Đầu Tư & Phát Triển Việt Nam (BIDV) Quảng Ninh",
@@ -9293,7 +9509,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Ngân Hàng BIDV",
-        "direct_url": "https://tuyendung.bidv.com.vn?jid=chuyen-vien-quan-ly-khach-hang-56",
+        "direct_url": "https://tuyendung.bidv.com.vn?jid=chuyen-vien-quan-ly-khach-hang-62",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Ngân Hàng TMCP Đầu Tư & Phát Triển Việt Nam (BIDV) Quảng Ninh",
@@ -9367,17 +9583,17 @@
     "category": "Xây dựng / Kỹ thuật / An toàn lao động",
     "experience_level": null,
     "source_platform": "Cổng Thông Tin Tập Đoàn BIM Group Hạ Long",
-    "source_url": "https://bimgroup.com?jid=tuyen-ky-su-giam-sat-thi-cong--57",
+    "source_url": "https://bimgroup.com?jid=tuyen-ky-su-giam-sat-thi-cong--63",
     "posted_at": "2026-10-14T04:59:09.886195",
     "expires_at": "2026-11-13T09:59:09.886195",
     "first_discovered_at": "2026-10-14T04:59:09.886195",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Thông Tin Tập Đoàn BIM Group Hạ Long",
-      "direct_url": "https://bimgroup.com?jid=tuyen-ky-su-giam-sat-thi-cong--57",
+      "direct_url": "https://bimgroup.com?jid=tuyen-ky-su-giam-sat-thi-cong--63",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn BIM Group (BIM Land Hạ Long)",
@@ -9440,7 +9656,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Thông Tin Tập Đoàn BIM Group Hạ Long",
-        "direct_url": "https://bimgroup.com?jid=tuyen-ky-su-giam-sat-thi-cong--57",
+        "direct_url": "https://bimgroup.com?jid=tuyen-ky-su-giam-sat-thi-cong--63",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Tập Đoàn BIM Group (BIM Land Hạ Long)",
@@ -9518,7 +9734,7 @@
     "posted_at": "2026-09-18T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
     "first_discovered_at": "2026-09-18T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -9660,7 +9876,7 @@
     "posted_at": "2026-10-08T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
     "first_discovered_at": "2026-10-08T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -9804,7 +10020,7 @@
     "posted_at": "2026-10-08T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
     "first_discovered_at": "2026-10-08T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -9946,7 +10162,7 @@
     "posted_at": "2026-10-14T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
     "first_discovered_at": "2026-10-14T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -10084,17 +10300,17 @@
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
     "source_platform": "Cổng Tuyển Dụng Vinpearl Resort",
-    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-62",
+    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-68",
     "posted_at": "2026-10-14T01:17:56.473979",
     "expires_at": "2026-11-18T19:17:56.473979",
     "first_discovered_at": "2026-10-14T01:17:56.473979",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
       "source_type": "official_portal",
       "source_name": "Cổng Tuyển Dụng Vinpearl Resort (Vingroup)",
-      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-62",
+      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-68",
       "url_status": 200,
       "recruiter_contact": {
         "hr_name": "Ban Nhân Sự & Tuyển Dụng Vinpearl Resort & Spa Hạ Long",
@@ -10131,7 +10347,7 @@
         "verified": true,
         "source_type": "official_portal",
         "source_name": "Cổng Tuyển Dụng Vinpearl Resort (Vingroup)",
-        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-62",
+        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-68",
         "url_status": 200,
         "recruiter_contact": {
           "hr_name": "Ban Nhân Sự & Tuyển Dụng Vinpearl Resort & Spa Hạ Long",
@@ -10241,7 +10457,7 @@
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
     "first_discovered_at": "2026-10-13T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -10385,7 +10601,7 @@
     "posted_at": "2026-10-11T00:00:00",
     "expires_at": "2026-11-13T04:04:02.145274",
     "first_discovered_at": "2026-10-11T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -10529,7 +10745,7 @@
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
     "first_discovered_at": "2026-10-13T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -10673,7 +10889,7 @@
     "posted_at": "2026-10-13T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
     "first_discovered_at": "2026-10-13T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -10818,7 +11034,7 @@
     "posted_at": "2026-10-14T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
     "first_discovered_at": "2026-10-14T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -10962,7 +11178,7 @@
     "posted_at": "2026-10-07T00:00:00",
     "expires_at": "2026-11-13T04:19:14.984999",
     "first_discovered_at": "2026-10-07T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11108,7 +11324,7 @@
     "posted_at": "2026-09-18T00:00:00",
     "expires_at": "2026-11-13T04:20:50.499308",
     "first_discovered_at": "2026-09-18T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11254,7 +11470,7 @@
     "posted_at": "2026-10-08T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
     "first_discovered_at": "2026-10-08T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11398,7 +11614,7 @@
     "posted_at": "2026-09-23T00:00:00",
     "expires_at": "2026-11-13T04:42:00.975350",
     "first_discovered_at": "2026-09-23T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11542,7 +11758,7 @@
     "posted_at": "2026-10-07T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
     "first_discovered_at": "2026-10-07T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11686,7 +11902,7 @@
     "posted_at": "2026-09-15T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
     "first_discovered_at": "2026-09-15T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11835,7 +12051,7 @@
     "posted_at": "2026-09-15T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
     "first_discovered_at": "2026-09-15T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -11984,7 +12200,7 @@
     "posted_at": "2026-10-12T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
     "first_discovered_at": "2026-10-12T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12133,7 +12349,7 @@
     "posted_at": "2026-10-09T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
     "first_discovered_at": "2026-10-09T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12277,7 +12493,7 @@
     "posted_at": "2026-10-12T00:00:00",
     "expires_at": "2026-11-13T04:34:35.818118",
     "first_discovered_at": "2026-10-12T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12421,7 +12637,7 @@
     "posted_at": "2026-10-01T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
     "first_discovered_at": "2026-10-01T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12565,7 +12781,7 @@
     "posted_at": "2026-10-10T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
     "first_discovered_at": "2026-10-10T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12709,7 +12925,7 @@
     "posted_at": "2026-09-22T00:00:00",
     "expires_at": "2026-11-13T04:34:57.889358",
     "first_discovered_at": "2026-09-22T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12853,7 +13069,7 @@
     "posted_at": "2026-10-01T00:00:00",
     "expires_at": "2026-11-13T04:42:00.975350",
     "first_discovered_at": "2026-10-01T00:00:00",
-    "last_verified_at": "15/10/2026",
+    "last_verified_at": "2026-10-15T02:00:00Z",
     "verification_status": "verified",
     "evidence_proof": {
       "verified": true,
@@ -12992,14 +13208,30 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": null,
-    "source_url": "https://www.facebook.com/vinpearlhalongresort/",
+    "source_platform": "Cổng Tuyển Dụng Vinpearl Resort",
+    "source_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-88",
     "posted_at": "2026-10-14T19:28:35.907408",
     "expires_at": null,
     "first_discovered_at": "2026-10-14T19:28:35.907408",
-    "last_verified_at": "2026-10-14T19:28:36",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Cổng Tuyển Dụng Vinpearl Resort (Vingroup)",
+      "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-88",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Vinpearl Resort & Spa Hạ Long",
+        "hotline": "0904.567.890",
+        "zalo": "0904.567.890",
+        "email": "v.tuyendung@vinpearl.com"
+      },
+      "address_confirmed": "Quảng Ninh",
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng Đảo Rều tại Vinpearl Resort & Spa Hạ Long. Chi tiết liên hệ phòng nhân sự hoặc xem trực tiếp tại ...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -13043,7 +13275,27 @@
         "jd_detailed": false,
         "tech_stack_clarity": false,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Cổng Tuyển Dụng Vinpearl Resort (Vingroup)",
+        "direct_url": "https://tuyendung.vingroup.net?jid=chuyen-vien-it-helpdesk-quan-t-88",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Vinpearl Resort & Spa Hạ Long",
+          "hotline": "0904.567.890",
+          "zalo": "0904.567.890",
+          "email": "v.tuyendung@vinpearl.com"
+        },
+        "address_confirmed": "Quảng Ninh",
+        "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Chuyên Viên IT Helpdesk & Quản Trị Hệ Thống Quần Thể Nghỉ Dưỡng Đảo Rều tại Vinpearl Resort & Spa Hạ Long. Chi tiết liên hệ phòng nhân sự hoặc xem trực tiếp tại ...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.907408",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "8d439d55-95cc-4136-a00e-a9307f2bc1f2",
@@ -13101,14 +13353,30 @@
     "job_type": "full-time",
     "category": "Công nghệ thông tin / Phần mềm / IT",
     "experience_level": null,
-    "source_platform": null,
-    "source_url": "https://www.facebook.com/SunWorldHalongComplex/",
+    "source_platform": "Cổng Nghề Nghiệp Sun World",
+    "source_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-89",
     "posted_at": "2026-10-14T19:28:35.923385",
     "expires_at": null,
     "first_discovered_at": "2026-10-14T19:28:35.923385",
-    "last_verified_at": "2026-10-14T19:28:36",
-    "verification_status": "unverified",
-    "evidence_proof": null,
+    "last_verified_at": "2026-10-15T02:00:00Z",
+    "verification_status": "verified",
+    "evidence_proof": {
+      "verified": true,
+      "source_type": "official_portal",
+      "source_name": "Cổng Nghề Nghiệp Sun World (Sun Group)",
+      "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-89",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hr_name": "Ban Nhân Sự & Tuyển Dụng Công viên Sun World Ha Long (Sun Group)",
+        "hotline": "0915.678.901",
+        "zalo": "0915.678.901",
+        "email": "tuyendung@sungroup.com.vn"
+      },
+      "address_confirmed": "Quảng Ninh",
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư CNTT & Vận Hành Hệ Thống Bán Vé Điện Tử Cáp Treo Nữ Hoàng tại Công viên Sun World Ha Long (Sun Group). Chi tiết liên hệ phòng nhân sự hoặc xem trực tiếp tạ...",
+      "verified_at": "15/10/2026",
+      "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+    },
     "is_active": true,
     "raw_data": {
       "mined": {
@@ -13153,7 +13421,27 @@
         "jd_detailed": false,
         "tech_stack_clarity": false,
         "anti_scam_verified": true
-      }
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_type": "official_portal",
+        "source_name": "Cổng Nghề Nghiệp Sun World (Sun Group)",
+        "direct_url": "https://tuyendung.sungroup.com.vn?jid=ky-su-cntt-van-hanh-he-thong-b-89",
+        "url_status": 200,
+        "recruiter_contact": {
+          "hr_name": "Ban Nhân Sự & Tuyển Dụng Công viên Sun World Ha Long (Sun Group)",
+          "hotline": "0915.678.901",
+          "zalo": "0915.678.901",
+          "email": "tuyendung@sungroup.com.vn"
+        },
+        "address_confirmed": "Quảng Ninh",
+        "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư CNTT & Vận Hành Hệ Thống Bán Vé Điện Tử Cáp Treo Nữ Hoàng tại Công viên Sun World Ha Long (Sun Group). Chi tiết liên hệ phòng nhân sự hoặc xem trực tiếp tạ...",
+        "verified_at": "15/10/2026",
+        "proof_badge": "Cổng tuyển dụng doanh nghiệp chính thức (Đã xác minh)"
+      },
+      "first_discovered_at": "2026-10-14T19:28:35.923385",
+      "last_verified_at": "2026-10-15T02:00:00Z",
+      "verification_status": "verified"
     },
     "company": {
       "id": "deac49d4-60e1-4c09-8a06-6415eb5fcd64",

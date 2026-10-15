@@ -235,35 +235,35 @@ const SAMPLE_FALLBACK_JOBS: Job[] = [
 ];
 
 const DEFAULT_STATS: DashboardStats = {
-  total_jobs: 12480,
-  total_companies: 3250,
-  total_provinces_with_jobs: 63,
-  new_jobs_today: 184,
+  total_jobs: 89,
+  total_companies: 64,
+  total_provinces_with_jobs: 8,
+  new_jobs_today: 12,
   jobs_by_province: [
-    { province: "Hà Nội", count: 4820 },
-    { province: "Hồ Chí Minh", count: 5310 },
-    { province: "Đà Nẵng", count: 850 },
-    { province: "Quảng Ninh", count: 490 },
-    { province: "Bình Dương", count: 420 },
-    { province: "Hải Phòng", count: 340 },
-    { province: "Đồng Nai", count: 260 },
+    { province: "Quảng Ninh", count: 75 },
+    { province: "Hà Nội", count: 5 },
+    { province: "Bình Dương", count: 3 },
+    { province: "Hồ Chí Minh", count: 2 },
+    { province: "Đà Nẵng", count: 2 },
+    { province: "Hải Phòng", count: 2 },
   ],
   jobs_by_category: [
-    { category: "Công nghệ thông tin / Phần mềm", count: 3200 },
-    { category: "Kinh doanh / Bán hàng", count: 2800 },
-    { category: "Marketing / Truyền thông / PR", count: 1750 },
-    { category: "Kế toán / Kiểm toán / Thuế", count: 1420 },
-    { category: "Hành chính / Nhân sự", count: 1100 },
-    { category: "Sản xuất / Kỹ thuật công nghiệp", count: 960 },
-    { category: "Du lịch / Khách sạn / Nhà hàng", count: 810 },
-    { category: "Chăm sóc khách hàng / Telesales", count: 440 },
+    { category: "Công nghệ thông tin / Phần mềm / IT", count: 48 },
+    { category: "Du lịch / Khách sạn / Nghỉ dưỡng", count: 8 },
+    { category: "Ngân hàng / Tài chính / Giao dịch", count: 6 },
+    { category: "Kế toán / Kiểm toán / Thuế", count: 5 },
+    { category: "Công nghiệp / Than - Khoáng sản / Cơ điện", count: 5 },
+    { category: "Kinh doanh / Bán hàng / Marketing", count: 5 },
+    { category: "Nhà hàng / Dịch vụ ăn uống / F&B", count: 4 },
+    { category: "Chăm sóc khách hàng / Tư vấn", count: 3 },
   ],
   jobs_by_platform: [
-    { platform: "TopCV", count: 4800 },
-    { platform: "VietnamWorks", count: 3950 },
-    { platform: "CareerViet", count: 2100 },
-    { platform: "ITviec", count: 980 },
-    { platform: "Việc Làm 24h", count: 650 },
+    { platform: "CareerViet", count: 35 },
+    { platform: "Sun Group Career", count: 18 },
+    { platform: "Vinpearl Resort", count: 12 },
+    { platform: "TKV Than Quảng Ninh", count: 10 },
+    { platform: "Wyndham Legend", count: 8 },
+    { platform: "FPT Telecom", count: 6 },
   ],
 };
 
@@ -435,6 +435,7 @@ export async function crawlLiveJobs(
 
 export interface SocialHarvestResponse {
   success: boolean;
+  scanned_at?: string;
   total_harvested: number;
   by_platform: {
     facebook: number;
@@ -444,6 +445,29 @@ export interface SocialHarvestResponse {
   saved_count: number;
   scanned_sources_count?: number;
   scanned_sources?: Array<{ type: string; name: string; members: string }>;
+  queried_sources?: Array<{
+    source_id: string;
+    name: string;
+    status: string;
+    access_method: string;
+    items_count: number;
+    latency_ms: number;
+  }>;
+  failed_or_blocked_sources?: Array<{
+    source_id: string;
+    name: string;
+    status: string;
+    error_code: string;
+    reason: string;
+    fallback_applied: boolean;
+  }>;
+  post_types_summary?: {
+    original_hiring: number;
+    shared_posts: number;
+    discussions_filtered: number;
+    spam_rejected: number;
+    expired_closed: number;
+  };
   anti_scam_rejected?: number;
   verified_rate?: string;
   radar_logs?: Array<{

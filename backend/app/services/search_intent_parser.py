@@ -37,6 +37,7 @@ class SearchIntent:
     
     # Môi trường làm việc & Tính chất công việc
     work_environment: str = "any"  # 'office', 'remote', 'hybrid', 'field', 'any'
+    workplace_type: Optional[str] = None  # 'remote', 'hybrid', 'onsite'
     is_remote_required: bool = False
     is_office_preferred: bool = False
     travel_preference: str = "any"  # 'avoid_travel', 'allow_travel', 'any'
@@ -46,6 +47,11 @@ class SearchIntent:
     min_salary: Optional[int] = None
     max_salary: Optional[int] = None
     max_posting_age_days: Optional[int] = None  # Ví dụ: 7 ngày nếu yêu cầu 'mới đăng trong 7 ngày'
+
+    # Doanh nghiệp & Xác thực
+    target_company: Optional[str] = None
+    verified_only: bool = False
+    exact_phrases: List[str] = field(default_factory=list)
     
     # Ngôn ngữ & Yêu cầu khác
     language_requirements: List[str] = field(default_factory=list)
@@ -59,6 +65,7 @@ class SearchIntent:
     
     # Các biến thể truy vấn mở rộng có trọng tâm (Focused Search Queries)
     expanded_queries: List[str] = field(default_factory=list)
+
 
 
 def normalize_text(text: Optional[str]) -> str:
@@ -256,37 +263,114 @@ class SearchIntentParser:
         if not query_str:
             return intent
 
-        # 1. Phát hiện các phủ định & loại trừ rõ ràng (Explicit Exclusions)
+        # 1. Phát hiện các cụm từ trong ngoặc kép và cú pháp đặc biệt (Quoted phrases & negation -term)
+        self._extract_syntax_and_quotes(query_str, norm_q, intent)
+
+        # 2. Phát hiện các phủ định & loại trừ rõ ràng (Explicit Exclusions)
         self._extract_exclusions(query_str, norm_q, intent)
 
-        # 2. Phát hiện địa điểm & các alias địa phương
+        # 3. Phát hiện doanh nghiệp / công ty mục tiêu
+        self._extract_company(query_str, norm_q, intent)
+
+        # 4. Phát hiện yêu cầu tin đã xác minh (Verified only)
+        self._extract_verified_intent(query_str, norm_q, intent)
+
+        # 5. Phát hiện địa điểm & các alias địa phương
         self._extract_location(query_str, norm_q, intent)
 
-        # 3. Phát hiện cấp bậc & kinh nghiệm (Seniority)
+        # 6. Phát hiện cấp bậc & kinh nghiệm (Seniority)
         self._extract_seniority(query_str, norm_q, intent)
 
-        # 4. Phát hiện môi trường làm việc & sở thích di chuyển (Office / Remote / Travel / Field)
+        # 7. Phát hiện môi trường làm việc & sở thích di chuyển (Office / Remote / Travel / Field / Hybrid)
         self._extract_work_environment(query_str, norm_q, intent)
 
-        # 5. Phát hiện độ tươi mới bài đăng (Recency / Max age days)
+        # 8. Phát hiện độ tươi mới bài đăng (Recency / Max age days)
         self._extract_recency(query_str, norm_q, intent)
 
-        # 6. Phát hiện vai trò nghề nghiệp chính và gia đình ngành (Role Family & Taxonomy)
+        # 9. Phát hiện vai trò nghề nghiệp chính và gia đình ngành (Role Family & Taxonomy)
         self._extract_role_and_skills(query_str, norm_q, intent)
 
-        # 7. Phát hiện yêu cầu ngôn ngữ
+        # 10. Phát hiện yêu cầu ngôn ngữ
         self._extract_languages(query_str, norm_q, intent)
 
-        # 8. Phát hiện khoảng lương nếu có
+        # 11. Phát hiện khoảng lương nếu có
         self._extract_salary(query_str, norm_q, intent)
 
-        # 9. Thiết lập Ràng buộc cứng (Hard Constraints) và Sở thích mềm (Soft Preferences)
+        # 12. Thiết lập Ràng buộc cứng (Hard Constraints) và Sở thích mềm (Soft Preferences)
         self._compile_constraints(intent)
 
-        # 10. Tạo các truy vấn mở rộng có trọng tâm (Focused Search Queries)
+        # 13. Tạo các truy vấn mở rộng có trọng tâm (Focused Search Queries)
         self._generate_focused_queries(intent)
 
         return intent
+
+    def parse_query(
+        self,
+        query: Optional[str] = None,
+        province: Optional[str] = None,
+        strict_mode: bool = False,
+    ) -> SearchIntent:
+        """
+        Tiện ích phân tích ý định kèm tham số ngữ cảnh từ bộ lọc UI.
+        """
+        intent = self.parse(query or "")
+        if province:
+            p_clean = province.strip()
+            intent.target_province = p_clean
+            if p_clean not in intent.location_aliases:
+                intent.location_aliases.insert(0, p_clean)
+        if strict_mode:
+            intent.hard_constraints["strict_mode"] = True
+        return intent
+
+    def _extract_syntax_and_quotes(self, raw: str, norm: str, intent: SearchIntent):
+        """Trích xuất các cụm từ đặt trong dấu ngoặc kép '"..."' và các từ khóa loại trừ '-keyword'"""
+        # Cụm từ trong ngoặc kép
+        quoted = re.findall(r'["\']([^"\']+)["\']', raw)
+        for q in quoted:
+            clean_q = q.strip()
+            if clean_q:
+                intent.exact_phrases.append(clean_q)
+
+        # Cú pháp loại trừ bắt đầu bằng dấu trừ: -senior, -hybrid, -kinhdoanh
+        neg_matches = re.findall(r'(?:^|\s)-([a-zA-Z0-9_\u00C0-\u1EF9]+)', raw)
+        for neg in neg_matches:
+            clean_neg = normalize_text(neg)
+            if clean_neg and clean_neg not in intent.negative_constraints:
+                intent.negative_constraints.append(clean_neg)
+
+    def _extract_verified_intent(self, raw: str, norm: str, intent: SearchIntent):
+        """Phát hiện yêu cầu chỉ tìm các tin tuyển dụng đã xác minh"""
+        verified_terms = [
+            "da xac minh", "xac minh", "tin xac thuc", "da kiem chung", "verified",
+            "active confirmed", "con tuyen", "dang tuyen thuc te", "khong lay tin het han",
+        ]
+        if any(term in norm for term in verified_terms):
+            intent.verified_only = True
+
+    def _extract_company(self, raw: str, norm: str, intent: SearchIntent):
+        """Phát hiện tên công ty / doanh nghiệp tuyển dụng từ câu truy vấn"""
+        company_patterns = [
+            r"(?:tai|o|cho|cong ty|tap doan|doanh nghiep)\s+([a-zA-Z0-9\s]+?)(?:tai|o|can|tuyen|moi|luong|$)",
+        ]
+        known_companies = [
+            ("vinpearl", "Vinpearl"),
+            ("sun group", "Sun Group"),
+            ("sun world", "Sun World"),
+            ("fpt", "FPT"),
+            ("viettel", "Viettel"),
+            ("vnpt", "VNPT"),
+            ("vingroup", "Vingroup"),
+            ("vinfast", "VinFast"),
+            ("techcombank", "Techcombank"),
+            ("vietcombank", "Vietcombank"),
+            ("muong thanh", "Mường Thanh"),
+            ("bim group", "BIM Group"),
+        ]
+        for key, canonical in known_companies:
+            if re.search(rf"\b{re.escape(key)}\b", norm):
+                intent.target_company = canonical
+                return
 
     def _extract_exclusions(self, raw: str, norm: str, intent: SearchIntent):
         """
@@ -299,7 +383,7 @@ class SearchIntentParser:
             r"không\s+([a-z0-9\s]+?)(?:,|;|\.|$)",
         ]
 
-        exclusions = []
+        exclusions = list(intent.negative_constraints)
         for pat in negation_patterns:
             matches = re.findall(pat, norm)
             for m in matches:
@@ -316,7 +400,7 @@ class SearchIntentParser:
                 if any(k in clause for k in ["kinh nghiem", "nhieu kinh nghiem", "experience"]):
                     intent.seniority = "junior"
 
-        intent.negative_constraints = list(set(exclusions))
+        intent.negative_constraints = list(dict.fromkeys(exclusions))
 
     def _extract_location(self, raw: str, norm: str, intent: SearchIntent):
         """
@@ -342,6 +426,11 @@ class SearchIntentParser:
     def _extract_seniority(self, raw: str, norm: str, intent: SearchIntent):
         """Nhận diện cấp bậc tuyển dụng: intern, fresher, junior, middle, senior, lead"""
         if any(w in norm for w in [
+            "thuc tap", "thuc tap sinh", "intern", "internship", "hoc viec", "tap su"
+        ]):
+            intent.seniority = "intern"
+            intent.max_experience_years = 0
+        elif any(w in norm for w in [
             "moi ra truong", "nguoi moi ra truong", "fresher", "sinh vien", "chua co kinh nghiem",
             "khong yeu cau kinh nghiem", "khong can kinh nghiem", "entry level", "entry-level"
         ]):
@@ -351,18 +440,28 @@ class SearchIntentParser:
             if intent.seniority == "any":
                 intent.seniority = "junior"
                 intent.max_experience_years = 2
-        elif any(w in norm for w in ["senior", "lau nam", "chuyen gia", "lead", "truong nhom", "quan ly"]):
+        elif any(w in norm for w in ["middle", "mid level", "mid-level", "2 nam kinh nghiem", "3 nam kinh nghiem"]):
+            if intent.seniority == "any":
+                intent.seniority = "middle"
+                intent.max_experience_years = 3
+        elif any(w in norm for w in [
+            "senior", "lau nam", "chuyen gia", "lead", "truong nhom", "quan ly", "truong phong", "giam doc", "architect"
+        ]):
             intent.seniority = "senior"
 
     def _extract_work_environment(self, raw: str, norm: str, intent: SearchIntent):
         """Nhận diện mong muốn môi trường làm việc: văn phòng, remote, hybrid, onsite"""
-        if any(w in norm for w in ["remote", "tu xa", "lam tai nha", "work from home", "wfh"]):
+        if any(w in norm for w in ["remote 100%", "remote", "tu xa", "lam tai nha", "work from home", "wfh", "100% remote"]):
             intent.work_environment = "remote"
+            intent.workplace_type = "remote"
             intent.is_remote_required = True
-        elif any(w in norm for w in ["hybrid", "linh hoat"]):
+        elif any(w in norm for w in ["hybrid", "ban thoi gian van phong", "linh hoat", "ket hop"]):
             intent.work_environment = "hybrid"
-        elif any(w in norm for w in ["van phong", "office", "office-based", "toa nha", "ngoi phong"]):
+            intent.workplace_type = "hybrid"
+        elif any(w in norm for w in ["onsite", "tai cho", "truc tiep", "van phong", "office", "office-based", "toa nha", "ngoi phong"]):
             intent.work_environment = "office"
+            if any(w in norm for w in ["onsite", "tai cho", "truc tiep"]):
+                intent.workplace_type = "onsite"
             intent.is_office_preferred = True
 
         if any(w in norm for w in ["han che di cong tac", "khong di cong tac", "without frequent travel", "no travel"]):
@@ -372,6 +471,7 @@ class SearchIntentParser:
             intent.field_work_preference = "avoid_heights"
         elif any(w in norm for w in ["khong lap dat", "khong treo", "khong cong trinh"]):
             intent.field_work_preference = "avoid_field_work"
+
 
     def _extract_recency(self, raw: str, norm: str, intent: SearchIntent):
         """Bóc tách điều kiện thời gian đăng bài: 'mới đăng trong 7 ngày', '24h', 'recent'"""
@@ -488,11 +588,30 @@ class SearchIntentParser:
         if intent.is_remote_required:
             intent.hard_constraints["work_type"] = "remote"
 
+        if intent.workplace_type:
+            intent.hard_constraints["workplace_type"] = intent.workplace_type
+
         if intent.target_province and not intent.is_remote_required:
             intent.hard_constraints["location_province"] = intent.target_province
 
+        if intent.target_district and not intent.is_remote_required:
+            intent.hard_constraints["location_district"] = intent.target_district
+
+        if intent.seniority and intent.seniority != "any":
+            intent.hard_constraints["seniority"] = intent.seniority
+
+        if intent.verified_only:
+            intent.hard_constraints["verified_only"] = True
+
+        if intent.target_company:
+            intent.hard_constraints["company_name"] = intent.target_company
+
+        if intent.exact_phrases:
+            intent.hard_constraints["exact_phrases"] = intent.exact_phrases
+
         if intent.max_posting_age_days:
             intent.hard_constraints["max_posting_age_days"] = intent.max_posting_age_days
+
 
         # 2. Sở thích mềm:
         # - Môi trường làm việc văn phòng (ưu tiên nhưng không loại bỏ nếu thiếu thông tin)

@@ -378,6 +378,98 @@ export default function DeepSocialRadarModal({
               </div>
             </div>
 
+            {/* Scanned Timestamp Banner */}
+            {result.scanned_at && (
+              <div className="flex items-center justify-between text-xs px-3 py-2 rounded-xl bg-slate-100 border border-slate-200 text-slate-600">
+                <span className="flex items-center gap-1.5 font-medium">
+                  <span>⏱️</span>
+                  <span>Lần quét gần nhất:</span>
+                  <strong className="text-slate-800 font-mono">
+                    {new Date(result.scanned_at).toLocaleString("vi-VN", {
+                      timeZone: "Asia/Bangkok",
+                      year: "numeric",
+                      month: "2-digit",
+                      day: "2-digit",
+                      hour: "2-digit",
+                      minute: "2-digit",
+                      second: "2-digit",
+                    })}
+                  </strong>
+                </span>
+                <span className="text-[11px] font-semibold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200">
+                  Dữ liệu Realtime
+                </span>
+              </div>
+            )}
+
+            {/* Source Status & Telemetry Audit (Minh bạch nguồn thực tế) */}
+            <div className="rounded-2xl border border-slate-200 bg-slate-50/50 p-4 space-y-3">
+              <h5 className="text-xs font-bold text-slate-800 uppercase tracking-wider flex items-center gap-1.5">
+                <span>📡</span>
+                <span>Báo cáo Trạng thái Nguồn Truy vấn Thực tế:</span>
+              </h5>
+
+              {/* Queried Sources List */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                {result.queried_sources?.map((src) => (
+                  <div
+                    key={src.source_id}
+                    className="p-2.5 rounded-xl border border-emerald-200 bg-white flex items-center justify-between gap-2 shadow-2xs"
+                  >
+                    <div className="min-w-0">
+                      <p className="font-bold text-slate-800 truncate">{src.name}</p>
+                      <p className="text-[11px] text-slate-500">
+                        Phương thức: <span className="font-mono text-slate-700">{src.access_method}</span> ({src.latency_ms}ms)
+                      </p>
+                    </div>
+                    <span className="shrink-0 px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-300">
+                      {src.items_count} tin • Hoạt động
+                    </span>
+                  </div>
+                ))}
+              </div>
+
+              {/* Blocked / Missing Credentials Notice */}
+              {result.failed_or_blocked_sources && result.failed_or_blocked_sources.length > 0 && (
+                <div className="space-y-1.5 pt-1 border-t border-slate-200/80">
+                  <p className="text-[11px] font-semibold text-amber-800 flex items-center gap-1">
+                    <span>⚠️</span>
+                    <span>Nguồn cần cấp quyền hoặc bị chặn (Đã kích hoạt Fallback công khai an toàn):</span>
+                  </p>
+                  {result.failed_or_blocked_sources.map((err, idx) => (
+                    <div
+                      key={idx}
+                      className="p-2 rounded-lg bg-amber-50 border border-amber-200 text-[11px] text-amber-900 flex items-start gap-2"
+                    >
+                      <span className="shrink-0 font-mono font-bold text-amber-700">[{err.status}]</span>
+                      <div>
+                        <strong>{err.name}:</strong> {err.reason}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Post Classification Breakdown */}
+              {result.post_types_summary && (
+                <div className="flex flex-wrap items-center gap-2 pt-2 border-t border-slate-200/80 text-[11px]">
+                  <span className="font-semibold text-slate-600">Phân loại nội dung:</span>
+                  <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-medium">
+                    ✓ Tuyển dụng gốc: {result.post_types_summary.original_hiring}
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-medium">
+                    ↻ Bài chia sẻ: {result.post_types_summary.shared_posts}
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full bg-slate-200 text-slate-700 font-medium">
+                    ✕ Lọc bài hỏi đáp: {result.post_types_summary.discussions_filtered}
+                  </span>
+                  <span className="px-2 py-0.5 rounded-full bg-red-100 text-red-800 font-medium">
+                    🛡️ Chặn lừa đảo: {result.post_types_summary.spam_rejected}
+                  </span>
+                </div>
+              )}
+            </div>
+
             {/* Anti-Scam & Zero 404 Guarantee Badge */}
             <div className="rounded-2xl bg-gradient-to-r from-emerald-50 via-teal-50 to-emerald-50 border border-emerald-200 p-4 flex items-center justify-between gap-3 text-xs text-emerald-900">
               <div className="flex items-center gap-2.5">

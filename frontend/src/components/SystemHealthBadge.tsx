@@ -16,12 +16,12 @@ export default function SystemHealthBadge() {
 
   return (
     <>
-      <div className="inline-flex items-center gap-2">
+      <div className="inline-flex items-center">
         <button
           type="button"
           onClick={() => setModalOpen(true)}
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 hover:bg-emerald-100 border border-emerald-200/90 text-xs font-bold text-emerald-800 transition-all shadow-2xs group cursor-pointer"
-          title="Xem trạng thái bảo chứng Zero-404 và lịch quét tự động"
+          className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-emerald-50/80 hover:bg-emerald-100/80 border border-emerald-200/70 text-xs font-semibold text-emerald-800 transition-colors cursor-pointer"
+          title="Hệ thống xác thực Zero-404: 100% việc làm đang tuyển dụng thực tế"
         >
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
@@ -29,10 +29,7 @@ export default function SystemHealthBadge() {
           </span>
           <span className="flex items-center gap-1">
             <ShieldCheckIcon className="h-3.5 w-3.5 text-emerald-600" />
-            <span>Zero-404 Verified</span>
-          </span>
-          <span className="hidden sm:inline text-[11px] text-emerald-700 font-normal">
-            • Quét 30 phút/lần
+            <span>Zero-404</span>
           </span>
         </button>
       </div>

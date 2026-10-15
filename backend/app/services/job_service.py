@@ -61,6 +61,8 @@ class JobService:
         # 3. Thu hồi ứng viên từ Cơ sở dữ liệu (Candidate Retrieval)
         base_filters = [
             Job.is_active.is_(True),
+            Job.status.notin_(["expired", "closed"]),
+            or_(Job.deadline_at.is_(None), Job.deadline_at >= now_dt),
             or_(Job.expires_at.is_(None), Job.expires_at >= now_dt),
         ]
 
@@ -76,11 +78,44 @@ class JobService:
                 )
             )
 
-        if params.job_type:
-            base_filters.append(Job.job_type.ilike(f"%{params.job_type.strip()}%"))
+        if getattr(params, "workplace_type", None):
+            base_filters.append(Job.workplace_type.ilike(f"%{params.workplace_type.strip()}%"))
 
-        if params.source_platform:
-            base_filters.append(Job.source_platform.ilike(f"%{params.source_platform.strip()}%"))
+        if params.job_type:
+            base_filters.append(
+                or_(
+                    Job.job_type.ilike(f"%{params.job_type.strip()}%"),
+                    Job.workplace_type.ilike(f"%{params.job_type.strip()}%"),
+                    Job.employment_type.ilike(f"%{params.job_type.strip()}%"),
+                )
+            )
+
+        if getattr(params, "source_name", None):
+            base_filters.append(
+                or_(
+                    Job.source_name.ilike(f"%{params.source_name.strip()}%"),
+                    Job.source_platform.ilike(f"%{params.source_name.strip()}%"),
+                )
+            )
+        elif params.source_platform:
+            base_filters.append(
+                or_(
+                    Job.source_platform.ilike(f"%{params.source_platform.strip()}%"),
+                    Job.source_name.ilike(f"%{params.source_platform.strip()}%"),
+                )
+            )
+
+        if getattr(params, "experience_level", None):
+            base_filters.append(Job.experience_level.ilike(f"%{params.experience_level.strip()}%"))
+
+        if getattr(params, "company_name", None):
+            base_filters.append(Job.company_name.ilike(f"%{params.company_name.strip()}%"))
+
+        if getattr(params, "verified_only", False):
+            base_filters.append(Job.status.in_(["active_confirmed", "active_likely"]))
+
+        if getattr(params, "status", None):
+            base_filters.append(Job.status == params.status.strip())
 
         if params.salary_min is not None:
             base_filters.append(
@@ -139,8 +174,8 @@ class JobService:
         res = await db.execute(candidate_stmt)
         candidate_jobs = list(res.scalars().all())
 
-        # Nếu tìm kiếm cụ thể mà tập ứng viên lọc quá hẹp, nới lỏng để hybrid engine chấm điểm
-        if search_query and len(candidate_jobs) < 10:
+        # Nếu tìm kiếm cụ thể mà tập ứng viên lọc quá hẹp, nới lỏng khi KHÔNG bật strict_mode
+        if search_query and len(candidate_jobs) < 10 and not params.strict_mode:
             relaxed_stmt = (
                 select(Job)
                 .options(selectinload(Job.company))
@@ -159,7 +194,13 @@ class JobService:
             candidate_jobs=candidate_jobs,
             intent=intent,
             strict_mode=params.strict_mode,
+            verified_only=getattr(params, "verified_only", False),
+            sort_by=getattr(params, "sort_by", "newest"),
+            workplace_type=getattr(params, "workplace_type", None),
+            experience_level=getattr(params, "experience_level", None),
+            company_name=getattr(params, "company_name", None),
         )
+
 
         if discovery_telemetry:
             diagnostics["multi_source_discovery"] = discovery_telemetry
@@ -175,6 +216,7 @@ class JobService:
             j.all_sources = item.get("all_sources")
             j.match_reasons = item.get("reasons")
             j.match_score = round(item.get("score", 0.0), 1)
+            j.ranking_breakdown = item.get("ranking_breakdown")
             jobs.append(j)
 
         total_pages = math.ceil(total / params.page_size) if total > 0 else 0
@@ -208,17 +250,17 @@ class JobService:
 
         # Tự động vô hiệu hóa nếu tin đã quá hạn nộp
         now_dt = datetime.now(timezone.utc)
-        if job.expires_at and job.expires_at.tzinfo is None:
-            job_exp = job.expires_at.replace(tzinfo=timezone.utc)
-        else:
-            job_exp = job.expires_at
+        effective_deadline = job.deadline_at or job.expires_at
+        if effective_deadline:
+            dl_utc = effective_deadline if effective_deadline.tzinfo else effective_deadline.replace(tzinfo=timezone.utc)
+            if dl_utc < now_dt:
+                job.is_active = False
+                job.status = "expired"
+                job.status_reason = f"Đã quá hạn nộp hồ sơ ({dl_utc.date()})"
+                await db.commit()
+                return None
 
-        if job_exp and job_exp < now_dt:
-            job.is_active = False
-            await db.commit()
-            return None
-
-        if not job.is_active:
+        if not job.is_active or job.status in ["expired", "closed"]:
             return None
 
         return job
@@ -301,6 +343,7 @@ class JobService:
                 job_dict["company_id"] = company.id
 
         new_job = Job(**job_dict)
+        new_job.sync_universal_fields()
         db.add(new_job)
         await db.commit()
         await db.refresh(new_job)
@@ -336,11 +379,12 @@ class JobService:
 
         if existing_job:
             for key, value in job_dict.items():
-                if key not in ("id", "created_at", "crawled_at") and hasattr(existing_job, key):
+                if key not in ("id", "created_at", "crawled_at", "first_seen_at") and hasattr(existing_job, key):
                     if value is not None or key == "is_active":
                         setattr(existing_job, key, value)
-            existing_job.is_active = True
             existing_job.crawled_at = datetime.now(timezone.utc)
+            existing_job.last_seen_at = datetime.now(timezone.utc)
+            existing_job.sync_universal_fields()
             await db.commit()
             await db.refresh(existing_job)
             return existing_job
@@ -349,19 +393,25 @@ class JobService:
 
     async def deactivate_expired_jobs(self, db: AsyncSession) -> int:
         """
-        Vô hiệu hóa (is_active = False) cho toàn bộ các tin tuyển dụng đã qua ngày hết hạn (expires_at < now)
+        Vô hiệu hóa (is_active = False, status = 'expired') cho toàn bộ các tin tuyển dụng đã qua ngày hết hạn
         """
         now_dt = datetime.now(timezone.utc)
         stmt = (
             update(Job)
             .where(
                 and_(
-                    Job.is_active.is_(True),
-                    Job.expires_at.is_not(None),
-                    Job.expires_at < now_dt,
+                    Job.status.in_(["active_confirmed", "active_likely", "unknown"]),
+                    or_(
+                        and_(Job.deadline_at.is_not(None), Job.deadline_at < now_dt),
+                        and_(Job.expires_at.is_not(None), Job.expires_at < now_dt),
+                    ),
                 )
             )
-            .values(is_active=False)
+            .values(
+                is_active=False,
+                status="expired",
+                status_reason=f"Đã qua hạn chót nộp hồ sơ theo chu kỳ kiểm tra tự động ({now_dt.date()})",
+            )
         )
         result = await db.execute(stmt)
         await db.commit()

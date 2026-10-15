@@ -338,7 +338,7 @@ class MultiSourceCrawler:
             {
                 "title": "Kỹ Thuật Viên Vận Hành Cáp Treo Nữ Hoàng & Vòng Quay Mặt Trời",
                 "company_name": "Công viên Sun World Ha Long (Tập đoàn Sun Group)",
-                "source_url": "https://www.facebook.com/SunWorldHalongComplex/?ref=cable_car",
+                "source_url": "https://halongcomplex.sunworld.vn/tuyen-dung",
                 "salary_text": "11 - 16 triệu",
                 "salary_min": 11000000,
                 "salary_max": 16000000,
@@ -370,7 +370,7 @@ class MultiSourceCrawler:
             {
                 "title": "Nhân Viên Thu Mua & Quản Lý Chuỗi Cung Ứng Thực Phẩm Nhà Hàng 5 Sao",
                 "company_name": "Vinpearl Resort & Spa Hạ Long",
-                "source_url": "https://www.facebook.com/vinpearlhalongresort/?ref=purchasing",
+                "source_url": "https://vinpearl.com/vi/hotels/vinpearl-resort-spa-ha-long",
                 "salary_text": "11 - 15 triệu",
                 "salary_min": 11000000,
                 "salary_max": 15000000,
