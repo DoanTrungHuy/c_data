@@ -130,25 +130,21 @@ export default function HaLongITHub() {
   };
 
   return (
-    <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-slate-800 to-blue-950 p-6 sm:p-8 lg:p-10 text-white shadow-xl border border-slate-700/60">
-      {/* Decorative Glow Elements */}
-      <div className="absolute -top-24 -right-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-emerald-500/15 rounded-full blur-3xl pointer-events-none" />
-
+    <div className="relative overflow-hidden rounded-3xl bg-neutral-950 p-6 sm:p-8 lg:p-10 text-white shadow-xl border border-neutral-800">
       {/* Top Header Badge & Radar Status */}
-      <div className="relative flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-slate-700/60">
+      <div className="relative flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-neutral-800">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 border border-blue-400/30 text-blue-300 text-xs font-bold mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-700 text-neutral-300 text-xs font-bold mb-3">
             <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-40"></span>
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
             </span>
-            <span>RADAR CNTT CHUYÊN SÂU • TP. HẠ LONG & QUẢNG NINH</span>
+            <span>RADAR CNTT CHUYÊN SÂU • TP. HẠ LONG &amp; QUẢNG NINH</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-black tracking-tight text-white">
             Trung Tâm Việc Làm IT Hạ Long
           </h2>
-          <p className="mt-1 text-sm text-slate-300 max-w-2xl leading-relaxed">
+          <p className="mt-1 text-sm text-neutral-400 max-w-2xl leading-relaxed">
             Hệ thống Harvester quét tự động định kỳ 30 phút, cam kết Zero-404, chỉ giữ tin ĐANG TUYỂN DỤNG thực tế từ các tập đoàn và doanh nghiệp hàng đầu.
           </p>
         </div>
@@ -158,26 +154,26 @@ export default function HaLongITHub() {
           <button
             type="button"
             onClick={() => setSkillMatcherOpen(true)}
-            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 font-bold text-xs sm:text-sm border border-amber-400/30 transition-all active:scale-95 cursor-pointer shadow-sm"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-neutral-900 hover:bg-neutral-800 text-white font-bold text-xs sm:text-sm border border-neutral-700 transition-all active:scale-95 cursor-pointer shadow-sm"
             title="So khớp kỹ năng cá nhân với tất cả việc làm Hạ Long"
           >
-            <SparklesIcon className="h-4 w-4 text-amber-400" />
+            <SparklesIcon className="h-4 w-4 text-white" />
             <span>AI So Khớp CV</span>
           </button>
 
           <button
             type="button"
             onClick={() => setSalaryGuideOpen(true)}
-            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-slate-800/90 hover:bg-slate-700 text-slate-200 font-bold text-xs sm:text-sm border border-slate-700 transition-all active:scale-95 cursor-pointer shadow-sm"
+            className="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-2xl bg-neutral-900 hover:bg-neutral-800 text-white font-bold text-xs sm:text-sm border border-neutral-700 transition-all active:scale-95 cursor-pointer shadow-sm"
             title="Xem báo cáo mức lương IT chi tiết tại TP. Hạ Long"
           >
-            <ChartBarIcon className="h-4 w-4 text-emerald-400" />
+            <ChartBarIcon className="h-4 w-4 text-white" />
             <span>Bảng Lương IT</span>
           </button>
 
           <Link
             href="/jobs?province=Quảng Ninh"
-            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-2xl bg-gradient-to-r from-primary-600 to-blue-600 text-white font-bold text-xs sm:text-sm hover:brightness-110 active:scale-95 transition-all shadow-md shadow-primary-900/40"
+            className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-2xl bg-white text-black hover:bg-neutral-200 font-bold text-xs sm:text-sm active:scale-95 transition-all shadow-md"
           >
             <span>Tất cả việc làm</span>
             <ArrowRightIcon className="h-4 w-4" />
@@ -187,50 +183,50 @@ export default function HaLongITHub() {
 
       {/* 4 Quick Stat Highlights */}
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 my-6">
-        <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/60 backdrop-blur-xs">
-          <div className="text-xs text-slate-400 flex items-center gap-1">
-            <CpuChipIcon className="h-4 w-4 text-primary-400" />
+        <div className="p-3.5 rounded-2xl bg-neutral-900 border border-neutral-800">
+          <div className="text-xs text-neutral-400 flex items-center gap-1">
+            <CpuChipIcon className="h-4 w-4 text-white" />
             <span>Vị trí CNTT tuyển gấp</span>
           </div>
           <div className="text-xl sm:text-2xl font-black text-white mt-1">25+ Việc làm</div>
-          <div className="text-[11px] text-emerald-400 font-medium mt-0.5">100% Đang mở đơn</div>
+          <div className="text-[11px] text-neutral-400 font-medium mt-0.5">100% Đang mở đơn</div>
         </div>
 
-        <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/60 backdrop-blur-xs">
-          <div className="text-xs text-slate-400 flex items-center gap-1">
-            <BanknotesIcon className="h-4 w-4 text-emerald-400" />
+        <div className="p-3.5 rounded-2xl bg-neutral-900 border border-neutral-800">
+          <div className="text-xs text-neutral-400 flex items-center gap-1">
+            <BanknotesIcon className="h-4 w-4 text-white" />
             <span>Mức lương bình quân</span>
           </div>
-          <div className="text-xl sm:text-2xl font-black text-emerald-400 mt-1">14 - 26 Tr/th</div>
-          <div className="text-[11px] text-slate-400 mt-0.5">Thưởng Service Charge</div>
+          <div className="text-xl sm:text-2xl font-black text-white mt-1">14 - 26 Tr/th</div>
+          <div className="text-[11px] text-neutral-400 mt-0.5">Thưởng Service Charge</div>
         </div>
 
-        <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/60 backdrop-blur-xs">
-          <div className="text-xs text-slate-400 flex items-center gap-1">
-            <BuildingOffice2Icon className="h-4 w-4 text-accent-400" />
+        <div className="p-3.5 rounded-2xl bg-neutral-900 border border-neutral-800">
+          <div className="text-xs text-neutral-400 flex items-center gap-1">
+            <BuildingOffice2Icon className="h-4 w-4 text-white" />
             <span>Doanh nghiệp đối tác</span>
           </div>
           <div className="text-xl sm:text-2xl font-black text-white mt-1">18 Tập đoàn lớn</div>
-          <div className="text-[11px] text-slate-400 mt-0.5">Wyndham, Vinmec, CICT, TKV</div>
+          <div className="text-[11px] text-neutral-400 mt-0.5">Wyndham, Vinmec, CICT, TKV</div>
         </div>
 
-        <div className="p-3.5 rounded-2xl bg-slate-800/60 border border-slate-700/60 backdrop-blur-xs">
-          <div className="text-xs text-slate-400 flex items-center gap-1">
-            <BoltIcon className="h-4 w-4 text-amber-400" />
+        <div className="p-3.5 rounded-2xl bg-neutral-900 border border-neutral-800">
+          <div className="text-xs text-neutral-400 flex items-center gap-1">
+            <BoltIcon className="h-4 w-4 text-white" />
             <span>Chu kỳ Harvester</span>
           </div>
-          <div className="text-xl sm:text-2xl font-black text-amber-400 mt-1">Mỗi 30 Phút</div>
-          <div className="text-[11px] text-slate-400 mt-0.5">Tự động quét & đối soát</div>
+          <div className="text-xl sm:text-2xl font-black text-white mt-1">Mỗi 30 Phút</div>
+          <div className="text-[11px] text-neutral-400 mt-0.5">Tự động quét &amp; đối soát</div>
         </div>
       </div>
 
       {/* 7 Special IT Sectors in Ha Long (Interactive Pills Grid) */}
       <div className="space-y-3">
         <div className="flex items-center justify-between">
-          <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
+          <span className="text-xs font-bold uppercase tracking-wider text-neutral-400">
             Lọc theo 7 nhóm chuyên ngành CNTT trọng điểm tại Hạ Long:
           </span>
-          <span className="text-xs text-slate-400 hidden sm:inline">
+          <span className="text-xs text-neutral-400 hidden sm:inline">
             Bấm chọn để lọc việc làm tức thì
           </span>
         </div>
@@ -241,26 +237,26 @@ export default function HaLongITHub() {
               key={sector.id}
               type="button"
               onClick={() => handleSelectSector(sector)}
-              className="group text-left p-4 rounded-2xl bg-slate-800/50 hover:bg-slate-700/70 border border-slate-700 hover:border-blue-400 transition-all duration-200 cursor-pointer flex flex-col justify-between"
+              className="group text-left p-4 rounded-2xl bg-neutral-900 hover:bg-neutral-850 border border-neutral-800 hover:border-neutral-500 transition-all duration-200 cursor-pointer flex flex-col justify-between"
             >
               <div>
                 <div className="flex items-center justify-between">
                   <span className="text-2xl">{sector.icon}</span>
-                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-slate-900/60 text-slate-300 border border-slate-700">
+                  <span className="text-xs font-bold px-2 py-0.5 rounded-full bg-neutral-800 text-neutral-300 border border-neutral-700">
                     {sector.count} việc
                   </span>
                 </div>
-                <h3 className="font-bold text-sm text-white mt-2 group-hover:text-blue-300 transition-colors">
+                <h3 className="font-bold text-sm text-white mt-2 group-hover:underline transition-colors">
                   {sector.name}
                 </h3>
-                <p className="text-xs text-slate-400 mt-1 line-clamp-1">
+                <p className="text-xs text-neutral-400 mt-1 line-clamp-1">
                   {sector.companies.join(", ")}
                 </p>
               </div>
 
-              <div className="mt-3 pt-2.5 border-t border-slate-700/60 flex items-center justify-between text-xs font-semibold">
-                <span className="text-emerald-400">{sector.salary}</span>
-                <span className="text-slate-400 group-hover:text-white group-hover:translate-x-1 transition-transform">
+              <div className="mt-3 pt-2.5 border-t border-neutral-800 flex items-center justify-between text-xs font-semibold">
+                <span className="text-white font-bold">{sector.salary}</span>
+                <span className="text-neutral-400 group-hover:text-white group-hover:translate-x-1 transition-transform">
                   →
                 </span>
               </div>
@@ -270,9 +266,9 @@ export default function HaLongITHub() {
       </div>
 
       {/* Bottom Quick Search Tags */}
-      <div className="mt-6 pt-5 border-t border-slate-700/60 flex flex-wrap items-center gap-2 text-xs">
-        <span className="text-slate-400 font-semibold flex items-center gap-1">
-          <MapPinIcon className="h-3.5 w-3.5 text-red-400" />
+      <div className="mt-6 pt-5 border-t border-neutral-800 flex flex-wrap items-center gap-2 text-xs">
+        <span className="text-neutral-400 font-semibold flex items-center gap-1">
+          <MapPinIcon className="h-3.5 w-3.5 text-neutral-300" />
           Khu vực hot:
         </span>
         {[
@@ -286,7 +282,7 @@ export default function HaLongITHub() {
           <Link
             key={area.label}
             href={`/jobs?q=${encodeURIComponent(area.query)}&province=${encodeURIComponent("Quảng Ninh")}`}
-            className="px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors"
+            className="px-2.5 py-1 rounded-lg bg-neutral-900 hover:bg-neutral-800 text-neutral-300 hover:text-white border border-neutral-800 transition-colors"
           >
             {area.label}
           </Link>

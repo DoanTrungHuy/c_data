@@ -123,23 +123,23 @@ export default function JobsContent({ initialData }: JobsContentProps) {
       {/* Main Content Area (3 cols) */}
       <div className="lg:col-span-3 space-y-6">
         {/* Results Bar */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-slate-200/90 shadow-2xs">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-white p-4 rounded-2xl border border-neutral-200 shadow-xs">
           <div>
-            <h1 className="text-lg sm:text-xl font-bold text-slate-900">
+            <h1 className="text-lg sm:text-xl font-bold text-black">
               {q ? (
                 <span>
-                  Kết quả tìm kiếm cho: <span className="text-primary-600">"{q}"</span>
+                  Kết quả tìm kiếm cho: <span className="underline">"{q}"</span>
                 </span>
               ) : province ? (
                 <span>
-                  Việc làm tại <span className="text-primary-600">{province}</span>
+                  Việc làm tại <span className="underline">{province}</span>
                 </span>
               ) : (
                 <span>Tất cả việc làm tuyển dụng</span>
               )}
             </h1>
-            <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-              Tìm thấy <strong className="text-slate-800">{initialData.total}</strong> việc làm phù hợp
+            <p className="text-xs sm:text-sm text-neutral-500 mt-0.5">
+              Tìm thấy <strong className="text-black">{initialData.total}</strong> việc làm phù hợp
             </p>
           </div>
 
@@ -149,10 +149,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setSkillMatcherOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 transition-all cursor-pointer shadow-2xs"
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
               title="So khớp kỹ năng cá nhân của bạn với mọi việc làm"
             >
-              <SparklesIcon className="h-4 w-4 text-amber-500" />
+              <SparklesIcon className="h-4 w-4 text-black" />
               <span>AI So Khớp CV</span>
             </button>
 
@@ -160,10 +160,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setSalaryGuideOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 transition-all cursor-pointer shadow-2xs"
+              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
               title="Báo cáo mức lương IT chi tiết tại TP. Hạ Long"
             >
-              <ChartBarIcon className="h-4 w-4 text-emerald-600" />
+              <ChartBarIcon className="h-4 w-4 text-black" />
               <span>Bảng Lương IT</span>
             </button>
 
@@ -171,7 +171,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setRadarOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-black bg-gradient-to-r from-orange-500 via-amber-500 to-red-500 text-white hover:brightness-105 active:scale-95 shadow-md shadow-orange-500/20 transition-all cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-neutral-900 hover:bg-neutral-800 text-white border border-neutral-700 active:scale-95 transition-all cursor-pointer shadow-xs"
               title="Kích hoạt Radar mò tìm sâu trên Facebook Groups, Threads & TikTok"
             >
               <span className="text-sm">🛰️</span>
@@ -182,10 +182,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               type="button"
               onClick={handleLiveCrawl}
               disabled={isCrawling}
-              className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-sm ${
+              className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer ${
                 isCrawling
-                  ? "bg-amber-100 text-amber-800 border border-amber-300 animate-pulse cursor-wait"
-                  : "bg-gradient-to-r from-amber-500 to-orange-500 text-white hover:from-amber-600 hover:to-orange-600 active:scale-95"
+                  ? "bg-neutral-200 text-neutral-800 border border-neutral-300 animate-pulse cursor-wait"
+                  : "bg-black hover:bg-neutral-800 text-white active:scale-95"
               }`}
               title="Quét trực tiếp dữ liệu từ các sàn, Fanpage Facebook và trang web doanh nghiệp"
             >
@@ -197,9 +197,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               <button
                 type="button"
                 onClick={() => setMobileFilterOpen(true)}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-primary-50 text-primary-700 font-semibold text-xs border border-primary-200 hover:bg-primary-100"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-neutral-100 text-black font-semibold text-xs border border-neutral-300 hover:bg-neutral-200"
               >
-                <AdjustmentsHorizontalIcon className="h-4 w-4" />
+                <AdjustmentsHorizontalIcon className="h-4 w-4 text-black" />
                 <span>Bộ lọc ({hasFilters ? "Đang bật" : "Tất cả"})</span>
               </button>
             </div>
@@ -208,9 +208,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
         {/* Active Skills Profile Match Banner */}
         {hasSkills && (
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 p-3.5 bg-gradient-to-r from-amber-50 via-orange-50 to-amber-50 border border-amber-200/90 rounded-2xl text-xs text-amber-950 shadow-2xs">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 p-3.5 bg-neutral-100 border border-neutral-300 rounded-2xl text-xs text-black shadow-xs">
             <div className="flex items-center gap-2">
-              <span className="flex h-7 w-7 items-center justify-center rounded-xl bg-amber-400 text-amber-950 font-bold text-xs shadow-inner">
+              <span className="flex h-7 w-7 items-center justify-center rounded-xl bg-black text-white font-bold text-xs">
                 ✨
               </span>
               <span>
@@ -220,7 +220,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setSkillMatcherOpen(true)}
-              className="text-primary-700 hover:text-primary-800 font-bold hover:underline shrink-0 text-left sm:text-right"
+              className="text-black font-bold hover:underline shrink-0 text-left sm:text-right cursor-pointer"
             >
               Chỉnh sửa kỹ năng hồ sơ →
             </button>
@@ -403,18 +403,18 @@ export default function JobsContent({ initialData }: JobsContentProps) {
         {/* Smart Semantic Suggestions & Related Industries Bar */}
         {((initialData.matched_industries && initialData.matched_industries.length > 0) ||
           (initialData.related_keywords && initialData.related_keywords.length > 0)) && (
-          <div className="bg-gradient-to-r from-blue-50/90 via-indigo-50/70 to-purple-50/70 p-4 rounded-2xl border border-blue-200 shadow-2xs space-y-2.5 animate-fadeIn">
+          <div className="bg-neutral-100 p-4 rounded-2xl border border-neutral-200 shadow-xs space-y-2.5 animate-fadeIn">
             <div className="flex flex-wrap items-center justify-between gap-2">
-              <div className="flex items-center gap-2 text-xs font-bold text-primary-900">
+              <div className="flex items-center gap-2 text-xs font-bold text-black">
                 <span className="text-base">🧠</span>
-                <span>Phân tích bài viết & Mò ngành nghề liên quan:</span>
+                <span>Phân tích bài viết &amp; Mò ngành nghề liên quan:</span>
               </div>
               {initialData.matched_industries && initialData.matched_industries.length > 0 && (
                 <div className="flex flex-wrap gap-1.5">
                   {initialData.matched_industries.map((ind) => (
                     <span
                       key={ind}
-                      className="px-2.5 py-0.5 rounded-full bg-primary-600 text-white text-[11px] font-bold shadow-2xs"
+                      className="px-2.5 py-0.5 rounded-full bg-black text-white text-[11px] font-bold shadow-xs"
                     >
                       {ind}
                     </span>
@@ -425,8 +425,8 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
             {/* Related Keywords Chips */}
             {initialData.related_keywords && initialData.related_keywords.length > 0 && (
-              <div className="flex flex-wrap items-center gap-1.5 pt-1.5 border-t border-blue-200/60">
-                <span className="text-xs font-semibold text-slate-600 mr-1">
+              <div className="flex flex-wrap items-center gap-1.5 pt-1.5 border-t border-neutral-200">
+                <span className="text-xs font-semibold text-neutral-600 mr-1">
                   Từ khóa gợi ý:
                 </span>
                 {initialData.related_keywords.map((kw) => (
@@ -439,10 +439,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                       params.delete("page");
                       router.push(`/jobs?${params.toString()}`);
                     }}
-                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white hover:bg-primary-600 hover:text-white border border-blue-200/90 text-slate-700 text-xs font-medium transition-all shadow-2xs active:scale-95 cursor-pointer group"
+                    className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white hover:bg-black hover:text-white border border-neutral-300 text-neutral-800 text-xs font-medium transition-all shadow-xs active:scale-95 cursor-pointer group"
                   >
                     <span>{kw}</span>
-                    <span className="text-slate-400 group-hover:text-white text-[10px]">↗</span>
+                    <span className="text-neutral-400 group-hover:text-white text-[10px]">↗</span>
                   </button>
                 ))}
               </div>

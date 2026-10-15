@@ -96,12 +96,12 @@ export default function FilterSidebar({
 
   return (
     <aside
-      className={`w-full bg-white rounded-2xl border border-slate-200/90 p-5 shadow-sm space-y-6 ${className}`}
+      className={`w-full bg-white rounded-2xl border border-neutral-200 p-5 shadow-xs space-y-6 ${className}`}
     >
       {/* Header */}
-      <div className="flex items-center justify-between pb-4 border-b border-slate-100">
-        <div className="flex items-center gap-2 text-slate-900 font-bold text-base">
-          <FunnelIcon className="h-5 w-5 text-primary-600" />
+      <div className="flex items-center justify-between pb-4 border-b border-neutral-100">
+        <div className="flex items-center gap-2 text-black font-bold text-base">
+          <FunnelIcon className="h-5 w-5 text-black" />
           <span>Bộ lọc tìm kiếm</span>
         </div>
 
@@ -109,7 +109,7 @@ export default function FilterSidebar({
           <button
             type="button"
             onClick={handleResetFilters}
-            className="flex items-center gap-1 text-xs font-semibold text-rose-600 hover:text-rose-700 hover:underline"
+            className="flex items-center gap-1 text-xs font-semibold text-neutral-600 hover:text-black hover:underline cursor-pointer"
           >
             <ArrowPathIcon className="h-3.5 w-3.5" />
             <span>Xóa lọc</span>
@@ -120,7 +120,7 @@ export default function FilterSidebar({
           <button
             type="button"
             onClick={onCloseMobile}
-            className="md:hidden p-1 text-slate-400 hover:text-slate-600 rounded-lg"
+            className="md:hidden p-1 text-neutral-400 hover:text-black rounded-lg cursor-pointer"
           >
             <XMarkIcon className="h-6 w-6" />
           </button>
@@ -128,51 +128,51 @@ export default function FilterSidebar({
       </div>
 
       {/* 0. Quality Tier Filter */}
-      <div className="space-y-2 pb-4 border-b border-slate-100">
+      <div className="space-y-2 pb-4 border-b border-neutral-100">
         <div className="flex items-center justify-between">
-          <label className="text-xs font-bold uppercase tracking-wider text-amber-950 flex items-center gap-1">
+          <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
             <span>💎 Thẩm Định Chất Lượng</span>
           </label>
           {selectedQualityTier && (
             <button
               onClick={() => updateParam("quality_tier", "")}
-              className="text-[10px] text-amber-700 hover:underline font-semibold"
+              className="text-[10px] text-neutral-600 hover:text-black hover:underline font-semibold cursor-pointer"
             >
               Đặt lại
             </button>
           )}
         </div>
         <div className="space-y-1 text-xs">
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-amber-50/60 text-slate-700">
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
             <input
               type="radio"
               name="quality_tier"
               value=""
               checked={selectedQualityTier === ""}
               onChange={() => updateParam("quality_tier", "")}
-              className="text-amber-600 focus:ring-amber-500"
+              className="text-black focus:ring-black"
             />
             <span>Tất cả tin tuyển dụng</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-amber-50 text-amber-900 font-bold">
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-bold">
             <input
               type="radio"
               name="quality_tier"
               value="diamond"
               checked={selectedQualityTier === "diamond"}
               onChange={() => updateParam("quality_tier", "diamond")}
-              className="text-amber-600 focus:ring-amber-500"
+              className="text-black focus:ring-black"
             />
             <span>💎 Thẩm định Kim Cương (≥ 85đ)</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-emerald-50 text-emerald-900 font-semibold">
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-semibold">
             <input
               type="radio"
               name="quality_tier"
               value="gold"
               checked={selectedQualityTier === "gold"}
               onChange={() => updateParam("quality_tier", "gold")}
-              className="text-emerald-600 focus:ring-emerald-500"
+              className="text-black focus:ring-black"
             />
             <span>⭐ Đạt chuẩn kiểm định (≥ 70đ)</span>
           </label>

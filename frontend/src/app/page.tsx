@@ -35,66 +35,58 @@ export default async function HomePage() {
     {
       name: "Công nghệ thông tin / IT",
       desc: "Lập trình viên, QA, DevOps, Helpdesk, AI",
-      icon: <CommandLineIcon className="h-6 w-6 text-primary-600" />,
+      icon: <CommandLineIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Công nghệ thông tin",
       count: "53 việc làm",
-      bgClass: "bg-blue-50 text-blue-600",
     },
     {
       name: "Du lịch & Khách sạn",
       desc: "Điều hành tour, Lễ tân, F&B, Resort 5*",
-      icon: <GlobeAmericasIcon className="h-6 w-6 text-teal-600" />,
+      icon: <GlobeAmericasIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Du lịch",
       count: "8 việc làm",
-      bgClass: "bg-teal-50 text-teal-600",
     },
     {
       name: "Kinh doanh / Bán hàng",
       desc: "Sale B2B, B2C, Quản lý thị trường",
-      icon: <BriefcaseIcon className="h-6 w-6 text-emerald-600" />,
+      icon: <BriefcaseIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Kinh doanh",
       count: "6 việc làm",
-      bgClass: "bg-emerald-50 text-emerald-600",
     },
     {
       name: "Tài chính / Kế toán",
       desc: "Kế toán tổng hợp, Thuế, Ngân hàng",
-      icon: <CalculatorIcon className="h-6 w-6 text-indigo-600" />,
+      icon: <CalculatorIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Kế toán",
       count: "5 việc làm",
-      bgClass: "bg-indigo-50 text-indigo-600",
     },
     {
       name: "Kỹ thuật / Than - Cơ điện",
       desc: "Cơ khí, Tự động hóa SCADA, Khai mỏ",
-      icon: <WrenchScrewdriverIcon className="h-6 w-6 text-amber-600" />,
+      icon: <WrenchScrewdriverIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Kỹ thuật",
       count: "5 việc làm",
-      bgClass: "bg-amber-50 text-amber-600",
     },
     {
       name: "Hành chính & Nhân sự",
       desc: "Tuyển dụng, C&B, Hành chính tổng hợp",
-      icon: <UserGroupIcon className="h-6 w-6 text-rose-600" />,
+      icon: <UserGroupIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Nhân sự",
       count: "4 việc làm",
-      bgClass: "bg-rose-50 text-rose-600",
     },
     {
       name: "Nhà hàng & F&B",
       desc: "Bếp, Phụ bếp, Quản lý nhà hàng",
-      icon: <MegaphoneIcon className="h-6 w-6 text-orange-600" />,
+      icon: <MegaphoneIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Nhà hàng",
       count: "4 việc làm",
-      bgClass: "bg-orange-50 text-orange-600",
     },
     {
       name: "CSKH & Tư vấn",
       desc: "Chăm sóc khách hàng, Lễ tân tour",
-      icon: <PhoneArrowUpRightIcon className="h-6 w-6 text-cyan-600" />,
+      icon: <PhoneArrowUpRightIcon className="h-6 w-6 text-black" />,
       href: "/jobs?category=Chăm sóc khách hàng",
       count: "3 việc làm",
-      bgClass: "bg-cyan-50 text-cyan-600",
     },
   ];
 
@@ -145,27 +137,24 @@ export default async function HomePage() {
   return (
     <div className="flex flex-col space-y-16 lg:space-y-24 pb-20">
       {/* 1. HERO SECTION */}
-      <section className="relative overflow-hidden pt-12 pb-16 md:pt-20 md:pb-24 bg-gradient-to-b from-blue-50/70 via-white to-slate-50 border-b border-slate-200/60">
-        {/* Soft Background Glow Circles */}
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-gradient-to-tr from-blue-300/30 to-amber-200/20 blur-3xl rounded-full pointer-events-none" />
-
+      <section className="relative overflow-hidden pt-12 pb-16 md:pt-20 md:pb-24 bg-white border-b border-neutral-200">
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           {/* Subtle Category Badge */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50/80 border border-blue-200/60 text-xs sm:text-sm font-semibold text-blue-700 mb-6">
-            <SparklesIcon className="h-4 w-4 text-blue-600" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-100 border border-neutral-300 text-xs sm:text-sm font-semibold text-neutral-900 mb-6">
+            <SparklesIcon className="h-4 w-4 text-black" />
             <span>Nền tảng việc làm thông minh VịnhViệc</span>
           </div>
 
           {/* Clean, Impactful Headline */}
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 leading-tight max-w-3xl mx-auto">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight text-black leading-tight max-w-3xl mx-auto">
             Tìm việc làm chất lượng tại{" "}
-            <span className="text-blue-600">
-              Hạ Long & Toàn quốc
+            <span className="underline decoration-neutral-300 underline-offset-8">
+              Hạ Long &amp; Toàn quốc
             </span>
           </h1>
 
           {/* Subtitle */}
-          <p className="mt-4 sm:mt-5 text-sm sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-4 sm:mt-5 text-sm sm:text-lg text-neutral-600 max-w-2xl mx-auto leading-relaxed">
             Tổng hợp và xác minh tin tuyển dụng đa nguồn thời gian thực. Cam kết 100% dữ liệu chuẩn xác, không tin ảo.
           </p>
 
@@ -183,29 +172,29 @@ export default async function HomePage() {
             label="Tổng việc làm đang tuyển"
             value={stats.total_jobs}
             subtitle="Đang tuyển dụng"
-            icon={<BriefcaseIcon className="h-7 w-7 text-primary-600" />}
-            iconBgClass="bg-primary-50 text-primary-600"
+            icon={<BriefcaseIcon className="h-7 w-7 text-black" />}
+            iconBgClass="bg-neutral-100 text-black"
           />
           <StatsCard
             label="Doanh nghiệp tuyển dụng"
             value={stats.total_companies}
             subtitle="Đã xác thực"
-            icon={<BuildingOffice2Icon className="h-7 w-7 text-emerald-600" />}
-            iconBgClass="bg-emerald-50 text-emerald-600"
+            icon={<BuildingOffice2Icon className="h-7 w-7 text-black" />}
+            iconBgClass="bg-neutral-100 text-black"
           />
           <StatsCard
             label="Tỉnh thành có việc làm"
             value={`${stats.total_provinces_with_jobs} / 63`}
             subtitle="Bao phủ toàn quốc"
-            icon={<MapPinIcon className="h-7 w-7 text-accent-600" />}
-            iconBgClass="bg-accent-50 text-accent-600"
+            icon={<MapPinIcon className="h-7 w-7 text-black" />}
+            iconBgClass="bg-neutral-100 text-black"
           />
           <StatsCard
             label="Việc làm mới hôm nay"
             value={`+${stats.new_jobs_today}`}
             subtitle="Cập nhật tự động"
-            icon={<SparklesIcon className="h-7 w-7 text-purple-600" />}
-            iconBgClass="bg-purple-50 text-purple-600"
+            icon={<SparklesIcon className="h-7 w-7 text-black" />}
+            iconBgClass="bg-neutral-100 text-black"
           />
         </div>
       </section>
@@ -219,16 +208,16 @@ export default async function HomePage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
           <div>
-            <span className="text-xs font-bold uppercase tracking-wider text-primary-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-neutral-500">
               Danh mục việc làm
             </span>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-1">
+            <h2 className="text-2xl sm:text-3xl font-black text-black mt-1">
               Khám phá theo ngành nghề hot nhất
             </h2>
           </div>
           <Link
             href="/jobs"
-            className="inline-flex items-center gap-1.5 text-sm font-bold text-primary-600 hover:text-primary-700 hover:gap-2 transition-all"
+            className="inline-flex items-center gap-1.5 text-sm font-bold text-black hover:underline transition-all"
           >
             <span>Tất cả ngành nghề</span>
             <ArrowRightIcon className="h-4 w-4" />
@@ -240,26 +229,26 @@ export default async function HomePage() {
             <Link
               key={cat.name}
               href={cat.href}
-              className="group p-5 rounded-2xl border border-slate-200/90 bg-white hover:border-primary-400 hover:shadow-card transition-all duration-200 flex flex-col justify-between"
+              className="group p-5 rounded-2xl border border-neutral-200 bg-white hover:border-black hover:shadow-md transition-all duration-200 flex flex-col justify-between"
             >
               <div className="flex items-start gap-4">
                 <div
-                  className={`flex h-12 w-12 shrink-0 items-center justify-center rounded-xl ${cat.bgClass} group-hover:scale-110 transition-transform`}
+                  className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-neutral-100 text-black border border-neutral-200 group-hover:scale-105 transition-transform"
                 >
                   {cat.icon}
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold text-slate-900 group-hover:text-primary-600 transition-colors">
+                  <h3 className="text-sm font-bold text-black group-hover:underline transition-colors">
                     {cat.name}
                   </h3>
-                  <p className="text-xs text-slate-500 mt-0.5 line-clamp-1">
+                  <p className="text-xs text-neutral-500 mt-0.5 line-clamp-1">
                     {cat.desc}
                   </p>
                 </div>
               </div>
-              <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs font-semibold text-slate-500 group-hover:text-primary-600">
+              <div className="mt-4 pt-3 border-t border-neutral-100 flex items-center justify-between text-xs font-semibold text-neutral-500 group-hover:text-black">
                 <span>{cat.count}</span>
-                <span className="text-slate-400 group-hover:translate-x-1 transition-transform">
+                <span className="text-neutral-400 group-hover:translate-x-1 group-hover:text-black transition-transform">
                   →
                 </span>
               </div>
@@ -272,17 +261,17 @@ export default async function HomePage() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
           <div>
-            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 text-xs font-bold mb-2">
-              <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping" />
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-neutral-100 text-neutral-900 border border-neutral-300 text-xs font-bold mb-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-black animate-ping" />
               Mới cập nhật
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900">
+            <h2 className="text-2xl sm:text-3xl font-black text-black">
               Việc làm mới đăng tuyển hôm nay
             </h2>
           </div>
           <Link
             href="/jobs"
-            className="inline-flex items-center gap-2 rounded-xl bg-primary-600 px-4 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-primary-700 transition-colors"
+            className="inline-flex items-center gap-2 rounded-xl bg-black px-4 py-2.5 text-sm font-bold text-white shadow-xs hover:bg-neutral-800 transition-colors"
           >
             <span>Xem tất cả {stats.total_jobs.toLocaleString("vi-VN")} việc làm</span>
             <ArrowRightIcon className="h-4 w-4" />
@@ -300,13 +289,13 @@ export default async function HomePage() {
       {/* 5. JOBS BY POPULAR PROVINCES */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-10">
-          <span className="text-xs font-bold uppercase tracking-wider text-accent-600">
+          <span className="text-xs font-bold uppercase tracking-wider text-neutral-500">
             Phân bố địa lý
           </span>
-          <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mt-1">
+          <h2 className="text-2xl sm:text-3xl font-black text-black mt-1">
             Việc làm tại các tỉnh thành trọng điểm
           </h2>
-          <p className="text-sm text-slate-600 mt-2">
+          <p className="text-sm text-neutral-600 mt-2">
             Tìm kiếm cơ hội nghề nghiệp tại nơi bạn sinh sống hoặc sẵn sàng định cư
           </p>
         </div>
@@ -316,25 +305,25 @@ export default async function HomePage() {
             <Link
               key={prov.name}
               href={`/jobs?province=${encodeURIComponent(prov.name)}`}
-              className="group relative overflow-hidden rounded-2xl border border-slate-200/90 bg-white p-6 hover:border-primary-400 hover:shadow-card transition-all duration-200"
+              className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white p-6 hover:border-black hover:shadow-md transition-all duration-200"
             >
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-blue-50 text-primary-700">
+                <span className="text-xs font-bold px-2 py-0.5 rounded bg-neutral-100 text-neutral-800 border border-neutral-200">
                   {prov.tag}
                 </span>
-                <span className="text-xs font-bold text-slate-500">
+                <span className="text-xs font-bold text-neutral-500">
                   {typeof prov.count === "number"
                     ? `${prov.count.toLocaleString("vi-VN")} việc làm`
                     : `${prov.count} việc làm`}
                 </span>
               </div>
-              <h3 className="text-xl font-black text-slate-900 group-hover:text-primary-600 transition-colors">
+              <h3 className="text-xl font-black text-black group-hover:underline transition-colors">
                 {prov.name}
               </h3>
-              <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+              <p className="text-xs text-neutral-600 mt-1 leading-relaxed">
                 {prov.desc}
               </p>
-              <div className="mt-4 flex items-center text-xs font-bold text-primary-600 group-hover:gap-2 transition-all">
+              <div className="mt-4 flex items-center text-xs font-bold text-black group-hover:gap-2 transition-all">
                 <span>Khám phá ngay</span>
                 <ArrowRightIcon className="h-3.5 w-3.5 ml-1" />
               </div>
@@ -345,9 +334,9 @@ export default async function HomePage() {
 
       {/* 6. WHY CHOOSE C_DATA BANNER */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="rounded-3xl bg-gradient-to-tr from-slate-900 via-primary-950 to-slate-900 p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
+        <div className="rounded-3xl bg-neutral-950 border border-neutral-800 p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
           <div className="relative z-10 max-w-3xl">
-            <span className="inline-block text-xs font-bold tracking-widest text-accent-400 uppercase mb-3">
+            <span className="inline-block text-xs font-bold tracking-widest text-neutral-400 uppercase mb-3">
               Minh bạch • Toàn diện • Tự động hóa
             </span>
             <h2 className="text-2xl sm:text-4xl font-black tracking-tight leading-snug">
@@ -355,31 +344,31 @@ export default async function HomePage() {
             </h2>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-accent-400 font-bold text-base">
-                  <CheckBadgeIcon className="h-5 w-5" />
+                <div className="flex items-center gap-2 text-white font-bold text-base">
+                  <CheckBadgeIcon className="h-5 w-5 text-white" />
                   <span>Dữ liệu tập trung</span>
                 </div>
-                <p className="text-xs text-slate-300 leading-relaxed">
+                <p className="text-xs text-neutral-400 leading-relaxed">
                   Tổng hợp thông tin từ TopCV, VietnamWorks, CareerViet, ITviec, không bỏ sót bất kỳ cơ hội nào.
                 </p>
               </div>
 
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-accent-400 font-bold text-base">
-                  <CheckBadgeIcon className="h-5 w-5" />
+                <div className="flex items-center gap-2 text-white font-bold text-base">
+                  <CheckBadgeIcon className="h-5 w-5 text-white" />
                   <span>Cập nhật liên tục</span>
                 </div>
-                <p className="text-xs text-slate-300 leading-relaxed">
+                <p className="text-xs text-neutral-400 leading-relaxed">
                   Robot thu thập dữ liệu tự động theo chu kỳ mỗi giờ, loại bỏ tin hết hạn và tin trùng lặp.
                 </p>
               </div>
 
               <div className="space-y-2">
-                <div className="flex items-center gap-2 text-accent-400 font-bold text-base">
-                  <CheckBadgeIcon className="h-5 w-5" />
+                <div className="flex items-center gap-2 text-white font-bold text-base">
+                  <CheckBadgeIcon className="h-5 w-5 text-white" />
                   <span>Phi lợi nhuận 100%</span>
                 </div>
-                <p className="text-xs text-slate-300 leading-relaxed">
+                <p className="text-xs text-neutral-400 leading-relaxed">
                   Miễn phí hoàn toàn cho người lao động, chuyển hướng ứng tuyển trực tiếp đến nhà tuyển dụng.
                 </p>
               </div>
@@ -388,7 +377,7 @@ export default async function HomePage() {
             <div className="mt-8">
               <Link
                 href="/about"
-                className="inline-flex items-center gap-2 rounded-xl bg-accent-500 px-5 py-3 text-sm font-bold text-white shadow-md hover:bg-accent-600 transition-colors"
+                className="inline-flex items-center gap-2 rounded-xl bg-white text-black px-5 py-3 text-sm font-bold shadow-md hover:bg-neutral-100 transition-colors"
               >
                 <span>Tìm hiểu câu chuyện C_Data</span>
                 <ArrowRightIcon className="h-4 w-4" />

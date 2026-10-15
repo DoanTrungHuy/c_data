@@ -189,40 +189,40 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
     : "C";
 
   return (
-    <div className="min-h-screen bg-slate-50/70 pb-20">
+    <div className="min-h-screen bg-white pb-20">
       {/* Top Breadcrumb Bar */}
-      <div className="border-b border-slate-200/80 bg-white py-3.5">
+      <div className="border-b border-neutral-200 bg-white py-3.5">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <nav className="flex items-center gap-2 text-xs text-slate-500">
+          <nav className="flex items-center gap-2 text-xs text-neutral-500">
             <Link
               href="/"
-              className="flex items-center gap-1 hover:text-primary-600 transition-colors"
+              className="flex items-center gap-1 hover:text-black transition-colors"
             >
               <HomeIcon className="h-3.5 w-3.5" />
               <span>Trang chủ</span>
             </Link>
-            <ChevronRightIcon className="h-3 w-3 text-slate-400" />
+            <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
             <Link
               href="/jobs"
-              className="hover:text-primary-600 transition-colors"
+              className="hover:text-black transition-colors"
             >
               Việc làm
             </Link>
             {job.location_province && (
               <>
-                <ChevronRightIcon className="h-3 w-3 text-slate-400" />
+                <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
                 <Link
                   href={`/jobs?province=${encodeURIComponent(
                     job.location_province
                   )}`}
-                  className="hover:text-primary-600 transition-colors"
+                  className="hover:text-black transition-colors"
                 >
                   {job.location_province}
                 </Link>
               </>
             )}
-            <ChevronRightIcon className="h-3 w-3 text-slate-400" />
-            <span className="text-slate-800 font-medium truncate max-w-xs sm:max-w-md">
+            <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
+            <span className="text-black font-medium truncate max-w-xs sm:max-w-md">
               {job.title}
             </span>
           </nav>
@@ -234,7 +234,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
           {/* Main Job Content (2 cols) */}
           <div className="lg:col-span-2 space-y-6">
             {/* Main Header Card */}
-            <div className="rounded-3xl border border-slate-200/90 bg-white p-6 sm:p-8 shadow-sm space-y-6">
+            <div className="rounded-3xl border border-neutral-200 bg-white p-6 sm:p-8 shadow-xs space-y-6">
               <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-5">
                 <div className="flex items-start gap-4">
                   {/* Company Logo or Platform Fallback */}
@@ -245,14 +245,14 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     size="xl"
                   />
                   <div className="space-y-1">
-                    <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight leading-snug">
+                    <h1 className="text-xl sm:text-2xl font-black text-black tracking-tight leading-snug">
                       {job.title}
                     </h1>
-                    <div className="flex items-center gap-2 text-sm text-slate-600 font-semibold">
-                      <BuildingOffice2Icon className="h-4 w-4 text-slate-400" />
+                    <div className="flex items-center gap-2 text-sm text-neutral-600 font-semibold">
+                      <BuildingOffice2Icon className="h-4 w-4 text-neutral-400" />
                       <span>{job.company_name}</span>
                       <ShieldCheckIcon
-                        className="h-4 w-4 text-emerald-500 inline"
+                        className="h-4 w-4 text-black inline"
                         title="Doanh nghiệp xác thực"
                       />
                     </div>
@@ -262,11 +262,9 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 {/* Source Platform Badge & Quick Save/Share */}
                 <div className="flex flex-wrap items-center gap-2 sm:self-start">
                   <span
-                    className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border ${platform.badgeClass}`}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold border border-neutral-200 bg-neutral-100 text-neutral-800"
                   >
-                    <span
-                      className={`w-2 h-2 rounded-full ${platform.dotClass}`}
-                    />
+                    <span className="w-2 h-2 rounded-full bg-black" />
                     Nguồn: {platform.name}
                   </span>
                   <SaveJobButton jobId={job.id} showText />
@@ -275,43 +273,43 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
               </div>
 
               {/* Key Badges Info Grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 py-4 border-y border-slate-100">
-                <div className="p-3 rounded-xl bg-emerald-50/70 border border-emerald-100">
-                  <div className="flex items-center gap-1 text-xs text-emerald-700 font-medium mb-1">
-                    <CurrencyDollarIcon className="h-4 w-4" />
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 py-4 border-y border-neutral-100">
+                <div className="p-3 rounded-xl bg-neutral-50 border border-neutral-200">
+                  <div className="flex items-center gap-1 text-xs text-neutral-600 font-medium mb-1">
+                    <CurrencyDollarIcon className="h-4 w-4 text-black" />
                     <span>Mức lương</span>
                   </div>
-                  <span className="text-sm font-black text-emerald-800">
+                  <span className="text-sm font-black text-black">
                     {salaryDisplay}
                   </span>
                 </div>
 
-                <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-100">
-                  <div className="flex items-center gap-1 text-xs text-primary-700 font-medium mb-1">
-                    <MapPinIcon className="h-4 w-4" />
+                <div className="p-3 rounded-xl bg-neutral-50 border border-neutral-200">
+                  <div className="flex items-center gap-1 text-xs text-neutral-600 font-medium mb-1">
+                    <MapPinIcon className="h-4 w-4 text-black" />
                     <span>Địa điểm</span>
                   </div>
-                  <span className="text-sm font-bold text-primary-900 truncate block">
+                  <span className="text-sm font-bold text-black truncate block">
                     {job.location_province || "Toàn quốc"}
                   </span>
                 </div>
 
-                <div className="p-3 rounded-xl bg-slate-50 border border-slate-200">
-                  <div className="flex items-center gap-1 text-xs text-slate-600 font-medium mb-1">
-                    <BriefcaseIcon className="h-4 w-4" />
+                <div className="p-3 rounded-xl bg-neutral-50 border border-neutral-200">
+                  <div className="flex items-center gap-1 text-xs text-neutral-600 font-medium mb-1">
+                    <BriefcaseIcon className="h-4 w-4 text-black" />
                     <span>Hình thức</span>
                   </div>
-                  <span className="text-sm font-bold text-slate-800 truncate block">
+                  <span className="text-sm font-bold text-black truncate block">
                     {jobTypeDisplay}
                   </span>
                 </div>
 
-                <div className="p-3 rounded-xl bg-purple-50/70 border border-purple-100">
-                  <div className="flex items-center gap-1 text-xs text-purple-700 font-medium mb-1">
-                    <ClockIcon className="h-4 w-4" />
+                <div className="p-3 rounded-xl bg-neutral-50 border border-neutral-200">
+                  <div className="flex items-center gap-1 text-xs text-neutral-600 font-medium mb-1">
+                    <ClockIcon className="h-4 w-4 text-black" />
                     <span>Ngày đăng</span>
                   </div>
-                  <span className="text-sm font-bold text-purple-900 truncate block">
+                  <span className="text-sm font-bold text-black truncate block">
                     {relativeDate}
                   </span>
                 </div>
@@ -325,13 +323,13 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                       href={`https://zalo.me/${job.raw_data.mined.phones[0]}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 hover:bg-emerald-700 px-6 py-3.5 text-base font-extrabold text-white shadow-md shadow-emerald-600/25 transition-all duration-200 active:scale-95"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-6 py-3.5 text-base font-bold text-black transition-all duration-200 active:scale-95 cursor-pointer"
                     >
-                      <span>💬 Nhắn Zalo ứng tuyển: {job.raw_data.mined.phones[0]}</span>
+                      <span>💬 Nhắn Zalo: {job.raw_data.mined.phones[0]}</span>
                     </a>
                     <a
                       href={`tel:${job.raw_data.mined.phones[0]}`}
-                      className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-800 hover:bg-slate-900 px-5 py-3.5 text-base font-bold text-white shadow-md transition-all duration-200 active:scale-95"
+                      className="inline-flex items-center justify-center gap-2 rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-5 py-3.5 text-base font-bold text-black transition-all duration-200 active:scale-95 cursor-pointer"
                     >
                       <span>📞 Gọi Hotline HR</span>
                     </a>
@@ -341,7 +339,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 {job.raw_data?.mined?.hr_email && (
                   <a
                     href={`mailto:${job.raw_data.mined.hr_email}?subject=Ứng tuyển vị trí ${encodeURIComponent(job.title)}`}
-                    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-blue-600 hover:bg-blue-700 px-6 py-3.5 text-base font-extrabold text-white shadow-md shadow-blue-600/25 transition-all duration-200 active:scale-95"
+                    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-6 py-3.5 text-base font-bold text-black transition-all duration-200 active:scale-95 cursor-pointer"
                   >
                     <span>✉️ Gửi CV Email</span>
                   </a>
@@ -350,7 +348,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 {/* Nút xem trực tiếp toàn văn bài đăng trên trang */}
                 <a
                   href="#job-description"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-900 hover:bg-slate-800 px-5 py-3.5 text-base font-bold text-white shadow-md transition-all duration-200 active:scale-95"
+                  className="inline-flex items-center justify-center gap-2 rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-5 py-3.5 text-base font-bold text-black transition-all duration-200 active:scale-95 cursor-pointer"
                 >
                   <span>📄 Đọc Toàn Văn Bài Viết</span>
                 </a>
@@ -360,7 +358,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     href={job.source_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-accent-500 to-amber-500 px-6 py-3.5 text-base font-extrabold text-white shadow-md shadow-accent-500/25 hover:from-accent-600 hover:to-amber-600 transition-all duration-200 active:scale-95"
+                    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-black hover:bg-neutral-800 px-6 py-3.5 text-base font-bold text-white shadow-xs transition-all duration-200 active:scale-95 cursor-pointer"
                   >
                     <span>
                       {platform.id === "facebook"
@@ -379,7 +377,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                         ? "🏢 Mở Cổng Tuyển Dụng Doanh Nghiệp"
                         : `Xem Nguồn Tuyển Dụng Gốc (${platform.name})`}
                     </span>
-                    <ArrowTopRightOnSquareIcon className="h-5 w-5" />
+                    <ArrowTopRightOnSquareIcon className="h-4 w-4" />
                   </a>
                 )}
 
@@ -413,20 +411,20 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
               </div>
 
               {/* Hồ Sơ Dẫn Chứng Đăng Tuyển & Minh Chứng Thẩm Định Pháp Nhân */}
-              <div className="rounded-3xl bg-gradient-to-br from-emerald-50/90 via-teal-50/50 to-white border border-emerald-200/90 p-5 sm:p-6 space-y-4 shadow-xs">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-emerald-200/60 pb-3.5">
+              <div className="rounded-3xl bg-neutral-50 border border-neutral-200 p-5 sm:p-6 space-y-4 shadow-xs">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-neutral-200 pb-3.5">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-emerald-600 text-white font-extrabold text-lg shadow-sm">
+                    <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl bg-black text-white font-black text-lg shadow-xs">
                       ✓
                     </div>
                     <div>
-                      <h3 className="font-black text-emerald-950 text-base sm:text-lg flex items-center gap-2">
+                      <h3 className="font-black text-black text-base sm:text-lg flex items-center gap-2">
                         <span>Hồ Sơ Dẫn Chứng Đăng Tuyển Đã Kiểm Định</span>
-                        <span className="text-[10px] bg-emerald-200/90 text-emerald-900 px-2 py-0.5 rounded-full font-bold">
+                        <span className="text-[10px] bg-neutral-200 text-black px-2 py-0.5 rounded-full font-bold">
                           HTTP 200 OK
                         </span>
                       </h3>
-                      <p className="text-xs text-emerald-800 mt-0.5">
+                      <p className="text-xs text-neutral-600 mt-0.5">
                         Cam kết tin đăng có bằng chứng nguồn gốc rõ ràng, không dẫn link ảo hay trang 404
                       </p>
                     </div>
@@ -437,7 +435,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                       href={job.source_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 px-4 py-2 text-xs font-bold text-white shadow-2xs transition-all active:scale-95 self-start sm:self-auto"
+                      className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-black hover:bg-neutral-800 px-4 py-2 text-xs font-bold text-white shadow-xs transition-all active:scale-95 self-start sm:self-auto cursor-pointer"
                     >
                       <span>Mở Cổng Tuyển Dụng Gốc</span>
                       <ArrowTopRightOnSquareIcon className="h-4 w-4" />
@@ -446,25 +444,25 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
-                  <div className="bg-white/90 p-3.5 rounded-2xl border border-emerald-100 space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                  <div className="bg-white p-3.5 rounded-2xl border border-neutral-200 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Cổng xác thực nguồn gốc:
                     </span>
-                    <span className="font-extrabold text-slate-900 block text-sm truncate">
+                    <span className="font-extrabold text-black block text-sm truncate">
                       {job.evidence_proof?.source_name || platform.name}
                     </span>
-                    <span className="text-[11px] text-emerald-700 font-semibold flex items-center gap-1">
-                      <span className="h-2 w-2 rounded-full bg-emerald-500 animate-pulse" />
+                    <span className="text-[11px] text-neutral-700 font-semibold flex items-center gap-1">
+                      <span className="h-2 w-2 rounded-full bg-black inline-block" />
                       Pháp nhân đã đối soát
                     </span>
                   </div>
 
-                  <div className="bg-white/90 p-3.5 rounded-2xl border border-emerald-100 space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                  <div className="bg-white p-3.5 rounded-2xl border border-neutral-200 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Đầu mối nhân sự trực tiếp:
                     </span>
                     <div className="flex items-center gap-2">
-                      <span className="font-extrabold text-emerald-800 text-sm">
+                      <span className="font-black text-black text-sm">
                         📞 {job.evidence_proof?.recruiter_contact?.hotline || job.raw_data?.mined?.phones?.[0] || "0912.888.999"}
                       </span>
                       {(job.evidence_proof?.recruiter_contact?.zalo || job.raw_data?.mined?.phones?.[0]) && (
@@ -472,36 +470,36 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                           href={`https://zalo.me/${job.evidence_proof?.recruiter_contact?.zalo || job.raw_data?.mined?.phones?.[0]}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-[10px] bg-emerald-600 text-white font-bold px-2 py-0.5 rounded-md hover:bg-emerald-700 transition-colors"
+                          className="text-[10px] bg-black text-white font-bold px-2 py-0.5 rounded-md hover:bg-neutral-800 transition-colors"
                         >
                           Chat Zalo
                         </a>
                       )}
                     </div>
-                    <span className="text-[11px] text-slate-500 block truncate">
+                    <span className="text-[11px] text-neutral-500 block truncate">
                       ✉️ {job.evidence_proof?.recruiter_contact?.email || job.raw_data?.mined?.hr_email || "tuyendung@vinhviec.vn"}
                     </span>
                   </div>
 
-                  <div className="bg-white/90 p-3.5 rounded-2xl border border-emerald-100 space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                  <div className="bg-white p-3.5 rounded-2xl border border-neutral-200 space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Địa điểm làm việc xác minh:
                     </span>
-                    <span className="font-bold text-slate-900 block truncate">
+                    <span className="font-bold text-black block truncate">
                       {job.location_full || `${job.location_district || "Hạ Long"}, ${job.location_province || "Quảng Ninh"}`}
                     </span>
-                    <span className="text-[11px] text-slate-500 block">
+                    <span className="text-[11px] text-neutral-500 block">
                       Khu vực: {job.location_province || "Quảng Ninh"}
                     </span>
                   </div>
                 </div>
 
                 {job.evidence_proof?.announcement_snippet && (
-                  <div className="bg-white/95 p-3.5 rounded-2xl border border-emerald-100 text-xs text-slate-700 leading-relaxed space-y-1">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">
+                  <div className="bg-white p-3.5 rounded-2xl border border-neutral-200 text-xs text-neutral-800 leading-relaxed space-y-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-neutral-400 block">
                       Trích lục bằng chứng thông báo tuyển dụng gốc (Thẩm định {job.evidence_proof.verified_at}):
                     </span>
-                    <p className="italic text-slate-600">
+                    <p className="italic text-neutral-600">
                       "{job.evidence_proof.announcement_snippet}"
                     </p>
                   </div>

@@ -31,7 +31,7 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="border-t border-slate-200 bg-slate-900 text-slate-300">
+    <footer className="border-t border-neutral-800 bg-neutral-950 text-neutral-300">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Brand & Mission */}
@@ -39,16 +39,16 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <CDataLogo size="md" showTagline={false} theme="dark" />
             </div>
-            <p className="text-sm text-slate-400 leading-relaxed">
+            <p className="text-sm text-neutral-400 leading-relaxed">
               VịnhViệc — Cổng thông tin việc làm và tuyển dụng thông minh hàng đầu TP. Hạ Long, Quảng Ninh. Khởi nghiệp vững vàng bên Vịnh Di sản.
             </p>
-            <div className="pt-2 text-xs text-slate-400 space-y-1.5">
+            <div className="pt-2 text-xs text-neutral-400 space-y-1.5">
               <div className="flex items-center gap-2">
-                <MapPinIcon className="h-4 w-4 text-accent-400 shrink-0" />
+                <MapPinIcon className="h-4 w-4 text-white shrink-0" />
                 <span>Khởi nguồn từ Hạ Long, Quảng Ninh, Việt Nam</span>
               </div>
               <div className="flex items-center gap-2">
-                <EnvelopeIcon className="h-4 w-4 text-primary-400 shrink-0" />
+                <EnvelopeIcon className="h-4 w-4 text-white shrink-0" />
                 <span>contact@vinhviec.vn</span>
               </div>
             </div>
@@ -56,7 +56,7 @@ export default function Footer() {
 
           {/* Popular Provinces */}
           <div>
-            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Việc làm theo khu vực
             </h3>
             <ul className="space-y-2.5 text-sm">
@@ -64,7 +64,7 @@ export default function Footer() {
                 <li key={prov.name}>
                   <Link
                     href={prov.href}
-                    className="text-slate-400 hover:text-white transition-colors duration-150 inline-block hover:translate-x-1 transition-transform"
+                    className="text-neutral-400 hover:text-white transition-colors duration-150 inline-block hover:translate-x-1 transition-transform"
                   >
                     Việc làm tại {prov.name}
                   </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
 
           {/* Popular Categories */}
           <div>
-            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
               Ngành nghề nổi bật
             </h3>
             <ul className="space-y-2.5 text-sm">
@@ -83,7 +83,7 @@ export default function Footer() {
                 <li key={cat.name}>
                   <Link
                     href={cat.href}
-                    className="text-slate-400 hover:text-white transition-colors duration-150 inline-block hover:translate-x-1 transition-transform"
+                    className="text-neutral-400 hover:text-white transition-colors duration-150 inline-block hover:translate-x-1 transition-transform"
                   >
                     {cat.name}
                   </Link>
@@ -94,14 +94,14 @@ export default function Footer() {
 
           {/* About & Quick Links */}
           <div>
-            <h3 className="text-sm font-semibold text-white uppercase tracking-wider mb-4">
-              Thông tin & Pháp lý
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
+              Thông tin &amp; Pháp lý
             </h3>
             <ul className="space-y-2.5 text-sm">
               <li>
                 <Link
                   href="/about"
-                  className="text-slate-400 hover:text-white transition-colors duration-150"
+                  className="text-neutral-400 hover:text-white transition-colors duration-150"
                 >
                   Về dự án C_Data
                 </Link>
@@ -109,7 +109,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about#how-it-works"
-                  className="text-slate-400 hover:text-white transition-colors duration-150"
+                  className="text-neutral-400 hover:text-white transition-colors duration-150"
                 >
                   Cơ chế tổng hợp tin tự động
                 </Link>
@@ -117,7 +117,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/jobs"
-                  className="text-slate-400 hover:text-white transition-colors duration-150"
+                  className="text-neutral-400 hover:text-white transition-colors duration-150"
                 >
                   Toàn bộ tin tuyển dụng
                 </Link>
@@ -125,18 +125,18 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about#contact"
-                  className="text-slate-400 hover:text-white transition-colors duration-150"
+                  className="text-neutral-400 hover:text-white transition-colors duration-150"
                 >
-                  Liên hệ & Hợp tác
+                  Liên hệ &amp; Hợp tác
                 </Link>
               </li>
             </ul>
 
-            <div className="mt-6 p-3.5 rounded-xl bg-slate-800/80 border border-slate-700/60">
-              <span className="text-xs font-semibold text-accent-400 block mb-1">
-                Dự án Nguồn Mở & Cộng Đồng
+            <div className="mt-6 p-3.5 rounded-xl bg-neutral-900 border border-neutral-800">
+              <span className="text-xs font-bold text-white block mb-1">
+                Dự án Nguồn Mở &amp; Cộng Đồng
               </span>
-              <p className="text-xs text-slate-400 leading-normal">
+              <p className="text-xs text-neutral-400 leading-normal">
                 Dữ liệu được thu thập tự động từ các trang việc làm uy tín nhằm hỗ trợ người lao động Việt Nam tiếp cận việc làm nhanh nhất.
               </p>
             </div>
@@ -144,10 +144,10 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="mt-12 pt-8 border-t border-neutral-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-neutral-500">
           <p>© {new Date().getFullYear()} VịnhViệc. Nền tảng việc làm &amp; cơ hội nghề nghiệp Hạ Long.</p>
-          <p className="flex items-center gap-1.5 text-slate-400">
-            Phát triển với <HeartIcon className="h-4 w-4 text-red-500 inline fill-red-500" /> vì cộng đồng người tìm việc Việt Nam
+          <p className="flex items-center gap-1.5 text-neutral-400">
+            Phát triển với <HeartIcon className="h-4 w-4 text-white inline" /> vì cộng đồng người tìm việc Việt Nam
           </p>
         </div>
       </div>

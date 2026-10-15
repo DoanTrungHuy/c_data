@@ -74,7 +74,7 @@ export default function Pagination({
 
   return (
     <nav
-      className="flex items-center justify-between border-t border-slate-200 px-4 py-4 sm:px-0"
+      className="flex items-center justify-between border-t border-neutral-200 px-4 py-4 sm:px-0"
       aria-label="Phân trang"
     >
       {/* Previous Button */}
@@ -83,13 +83,13 @@ export default function Pagination({
           <Link
             href={createPageURL(currentPage - 1)}
             onClick={(e) => handlePageClick(e, currentPage - 1)}
-            className="inline-flex items-center gap-2 border-t-2 border-transparent pr-1 pt-4 text-sm font-semibold text-slate-600 hover:border-primary-500 hover:text-primary-600 transition-colors"
+            className="inline-flex items-center gap-2 border-t-2 border-transparent pr-1 pt-4 text-sm font-semibold text-neutral-600 hover:border-black hover:text-black transition-colors"
           >
             <ChevronLeftIcon className="h-4 w-4" aria-hidden="true" />
             <span>Trang trước</span>
           </Link>
         ) : (
-          <span className="inline-flex items-center gap-2 border-t-2 border-transparent pr-1 pt-4 text-sm font-semibold text-slate-300 cursor-not-allowed">
+          <span className="inline-flex items-center gap-2 border-t-2 border-transparent pr-1 pt-4 text-sm font-semibold text-neutral-300 cursor-not-allowed">
             <ChevronLeftIcon className="h-4 w-4" aria-hidden="true" />
             <span>Trang trước</span>
           </span>
@@ -103,7 +103,7 @@ export default function Pagination({
             return (
               <span
                 key={`ellipsis-${idx}`}
-                className="inline-flex items-center border-t-2 border-transparent px-3 pt-4 text-sm font-medium text-slate-400"
+                className="inline-flex items-center border-t-2 border-transparent px-3 pt-4 text-sm font-medium text-neutral-400"
               >
                 ...
               </span>
@@ -120,8 +120,8 @@ export default function Pagination({
               onClick={(e) => handlePageClick(e, pageNum)}
               className={`inline-flex items-center border-t-2 px-3 pt-4 text-sm font-bold transition-colors ${
                 isCurrent
-                  ? "border-primary-600 text-primary-600 font-extrabold"
-                  : "border-transparent text-slate-500 hover:border-slate-300 hover:text-slate-700"
+                  ? "border-black text-black font-black"
+                  : "border-transparent text-neutral-500 hover:border-neutral-400 hover:text-black"
               }`}
               aria-current={isCurrent ? "page" : undefined}
             >
@@ -132,7 +132,7 @@ export default function Pagination({
       </div>
 
       {/* Mobile Page indicator */}
-      <div className="flex md:hidden text-xs font-semibold text-slate-500 pt-4">
+      <div className="flex md:hidden text-xs font-semibold text-neutral-500 pt-4">
         Trang {currentPage} / {totalPages}
       </div>
 
@@ -142,13 +142,13 @@ export default function Pagination({
           <Link
             href={createPageURL(currentPage + 1)}
             onClick={(e) => handlePageClick(e, currentPage + 1)}
-            className="inline-flex items-center gap-2 border-t-2 border-transparent pl-1 pt-4 text-sm font-semibold text-slate-600 hover:border-primary-500 hover:text-primary-600 transition-colors"
+            className="inline-flex items-center gap-2 border-t-2 border-transparent pl-1 pt-4 text-sm font-semibold text-neutral-600 hover:border-black hover:text-black transition-colors"
           >
             <span>Trang sau</span>
             <ChevronRightIcon className="h-4 w-4" aria-hidden="true" />
           </Link>
         ) : (
-          <span className="inline-flex items-center gap-2 border-t-2 border-transparent pl-1 pt-4 text-sm font-semibold text-slate-300 cursor-not-allowed">
+          <span className="inline-flex items-center gap-2 border-t-2 border-transparent pl-1 pt-4 text-sm font-semibold text-neutral-300 cursor-not-allowed">
             <span>Trang sau</span>
             <ChevronRightIcon className="h-4 w-4" aria-hidden="true" />
           </span>
