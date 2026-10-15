@@ -55,7 +55,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -377,7 +377,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it",
@@ -536,7 +536,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "mining_it",
@@ -695,9 +695,9 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
-      "check_reason": "HTTP 200 - Hoạt động bình thường",
+      "check_reason": "Domain uy tín nội bộ (Timeout/Firewall)",
       "role_family": "healthcare_it",
       "evidence_proof": {
         "verified": true,
@@ -854,7 +854,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "Domain uy tín nội bộ (Timeout/Firewall)",
       "role_family": "port_logistics_it",
@@ -1015,7 +1015,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it",
@@ -1174,7 +1174,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "software_it",
@@ -1335,7 +1335,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "software_it",
@@ -1804,7 +1804,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it",
@@ -1961,7 +1961,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -2274,7 +2274,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -2431,7 +2431,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -2588,7 +2588,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -2745,7 +2745,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "mining_it",
@@ -2902,7 +2902,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "Domain uy tín nội bộ (Timeout/Firewall)",
       "role_family": "banking_it",
@@ -6149,7 +6149,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "healthcare_it",
@@ -6316,7 +6316,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -6475,7 +6475,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "Domain uy tín nội bộ (Timeout/Firewall)",
       "role_family": "healthcare_it",
@@ -6628,7 +6628,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "port_logistics_it",
@@ -6781,7 +6781,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it",
@@ -7848,7 +7848,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "hotel_it",
@@ -8005,7 +8005,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it",
@@ -10864,7 +10864,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "telecom_it",
@@ -12062,7 +12062,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 200 - Hoạt động bình thường",
       "role_family": "banking_it",
@@ -14400,7 +14400,7 @@
         ]
       },
       "verified_live": true,
-      "verified_at": "2026-10-15T09:23:51.689736+00:00",
+      "verified_at": "2026-10-15T09:38:29.358086+00:00",
       "recruitment_status": "active",
       "check_reason": "HTTP 403 - Hợp lệ",
       "role_family": "hotel_it",
