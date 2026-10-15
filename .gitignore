@@ -35,3 +35,7 @@ Thumbs.db
 # Celery
 celerybeat-schedule
 celerybeat.pid
+
+# SQLite temp files
+*.db-shm
+*.db-wal

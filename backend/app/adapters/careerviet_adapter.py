@@ -140,10 +140,18 @@ class CareerVietAdapter(BaseJobAdapter):
                 source_job_id = job_id_match.group(1) if job_id_match else full_url.split("/")[-1].replace(".html", "")
 
                 # 2. Tên công ty
-                comp_tag = container.find("a", href=lambda h: h and "/nha-tuyen-dung/" in h)
+                comp_tag = container.find("a", class_=re.compile(r"company-name|company"))
                 if not comp_tag:
-                    comp_tag = container.find("a", class_=re.compile(r"company"))
-                company_name = comp_tag.get_text(strip=True) if comp_tag else "Doanh nghiệp tuyển dụng"
+                    comp_tag = container.find("a", href=lambda h: h and "/nha-tuyen-dung/" in h)
+                if not comp_tag:
+                    # check image alt
+                    img_tag = container.find("img", class_=re.compile(r"image-logo-emp|logo"))
+                    if img_tag and img_tag.get("alt"):
+                        company_name = img_tag["alt"].strip()
+                    else:
+                        company_name = "Doanh nghiệp tuyển dụng"
+                else:
+                    company_name = comp_tag.get_text(strip=True) or comp_tag.get("title", "").strip() or "Doanh nghiệp tuyển dụng"
 
                 # 3. Lương
                 sal_tag = container.find(class_=re.compile(r"salary|luong"))
