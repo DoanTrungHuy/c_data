@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import {
   XMarkIcon,
   SparklesIcon,
@@ -51,15 +52,20 @@ export default function SkillMatcherModal({
 }: SkillMatcherModalProps) {
   const { skills, updateSkills } = useUserSkills();
   const [selected, setSelected] = useState<string[]>(skills);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Sync state when modal opens
-  React.useEffect(() => {
+  useEffect(() => {
     if (isOpen) {
       setSelected(skills);
     }
   }, [isOpen, skills]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
   const toggleSkill = (id: string) => {
     if (selected.includes(id)) {
@@ -83,7 +89,7 @@ export default function SkillMatcherModal({
     updateSkills([]);
   };
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 md:p-6 overflow-hidden">
       {/* Backdrop */}
       <div
@@ -216,6 +222,7 @@ export default function SkillMatcherModal({
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

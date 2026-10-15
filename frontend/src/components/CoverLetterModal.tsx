@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import {
   XMarkIcon,
   SparklesIcon,
@@ -27,8 +28,13 @@ export default function CoverLetterModal({
   const [candidatePhone, setCandidatePhone] = useState("0988xxxxxx");
   const [experienceLevel, setExperienceLevel] = useState("1_2_years");
   const [copied, setCopied] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
-  if (!isOpen) return null;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!isOpen || !mounted) return null;
 
   const hrEmail = job.raw_data?.mined?.hr_email || "";
   const hrPhone = job.raw_data?.mined?.phones?.[0] || "";
@@ -105,7 +111,7 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
     window.location.href = mailtoUrl;
   };
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
       {/* Backdrop */}
       <div
@@ -249,6 +255,7 @@ Email: ${candidateName.toLowerCase().replace(/\s+/g, "")}@gmail.com`;
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

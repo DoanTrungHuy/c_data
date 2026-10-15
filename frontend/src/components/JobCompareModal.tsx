@@ -1,6 +1,7 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import {
   XMarkIcon,
@@ -25,10 +26,15 @@ export default function JobCompareModal({
   onClose,
 }: JobCompareModalProps) {
   const { comparedJobs, removeJobFromCompare, clearCompareJobs } = useCompareJobs();
+  const [mounted, setMounted] = useState(false);
 
-  if (!isOpen || comparedJobs.length === 0) return null;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
-  return (
+  if (!isOpen || comparedJobs.length === 0 || !mounted) return null;
+
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
       {/* Backdrop */}
       <div
@@ -253,6 +259,7 @@ export default function JobCompareModal({
           </table>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

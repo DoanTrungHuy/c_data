@@ -1,6 +1,7 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import {
   XMarkIcon,
   CurrencyDollarIcon,
@@ -74,9 +75,15 @@ export default function HaLongSalaryGuideModal({
   isOpen,
   onClose,
 }: HaLongSalaryGuideModalProps) {
-  if (!isOpen) return null;
+  const [mounted, setMounted] = useState(false);
 
-  return (
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!isOpen || !mounted) return null;
+
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 md:p-6 overflow-hidden">
       {/* Backdrop */}
       <div
@@ -228,6 +235,7 @@ export default function HaLongSalaryGuideModal({
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

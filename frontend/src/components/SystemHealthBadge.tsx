@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import {
   ShieldCheckIcon,
   CheckBadgeIcon,
@@ -13,6 +14,11 @@ import {
 
 export default function SystemHealthBadge() {
   const [modalOpen, setModalOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <>
@@ -35,14 +41,14 @@ export default function SystemHealthBadge() {
       </div>
 
       {/* System Health Status Details Modal */}
-      {modalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
+      {modalOpen && mounted && createPortal(
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
           <div
             className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
             onClick={() => setModalOpen(false)}
           />
 
-          <div className="relative w-full max-w-xl rounded-3xl bg-white shadow-2xl border border-neutral-200 p-6 sm:p-8 z-10 space-y-5 animate-fadeIn">
+          <div className="relative w-full max-w-xl max-h-[90vh] overflow-y-auto rounded-3xl bg-white shadow-2xl border border-neutral-200 p-5 sm:p-8 z-10 space-y-5 animate-fadeIn">
             {/* Header */}
             <div className="flex items-start justify-between pb-3 border-b border-neutral-100">
               <div className="flex items-center gap-3">
@@ -116,7 +122,8 @@ export default function SystemHealthBadge() {
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );

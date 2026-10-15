@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { useRouter } from "next/navigation";
 import {
   XMarkIcon,
@@ -32,6 +33,11 @@ export default function DeepSocialRadarModal({
   const [logs, setLogs] = useState<Array<{ text: string; time: string; type?: string }>>([]);
   const [result, setResult] = useState<SocialHarvestResponse | null>(null);
   const [copiedUrl, setCopiedUrl] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (defaultKeyword) {
@@ -39,7 +45,7 @@ export default function DeepSocialRadarModal({
     }
   }, [defaultKeyword]);
 
-  if (!isOpen) return null;
+  if (!isOpen || !mounted) return null;
 
   const hotKeywords = [
     "IT Hạ Long",
@@ -142,7 +148,7 @@ export default function DeepSocialRadarModal({
     router.refresh();
   };
 
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
       {/* Backdrop */}
       <div
@@ -539,6 +545,7 @@ export default function DeepSocialRadarModal({
           </div>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }

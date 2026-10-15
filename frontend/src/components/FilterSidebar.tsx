@@ -120,7 +120,7 @@ export default function FilterSidebar({
           <button
             type="button"
             onClick={onCloseMobile}
-            className="md:hidden p-1 text-neutral-400 hover:text-black rounded-lg cursor-pointer"
+            className="lg:hidden p-1 text-neutral-400 hover:text-black rounded-lg cursor-pointer"
           >
             <XMarkIcon className="h-6 w-6" />
           </button>

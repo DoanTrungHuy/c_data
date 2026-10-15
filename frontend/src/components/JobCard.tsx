@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import {
   MapPinIcon,
@@ -34,6 +35,12 @@ interface JobCardProps {
 
 export default function JobCard({ job, featured = false }: JobCardProps) {
   const [previewOpen, setPreviewOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
   const { isJobCompared, addJobToCompare, removeJobFromCompare } = useCompareJobs();
   const { skills: userSkills, hasSkills } = useUserSkills();
   const evaluation = hasSkills ? evaluateJobMatch(job, userSkills) : null;
@@ -66,8 +73,8 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
         }`}
       >
         <div>
-          {/* Top Header: Company info + Platform badge + Save bookmark */}
-          <div className="flex items-start justify-between gap-2.5 mb-3">
+          {/* Top Header: Company info + Save bookmark */}
+          <div className="flex items-center justify-between gap-3 mb-2.5">
             <div className="flex items-center gap-2.5 min-w-0 flex-1">
               <CompanyOrPlatformLogo
                 companyName={job.company_name}
@@ -77,57 +84,74 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               />
               <div className="min-w-0 flex-1">
                 <p
-                  className="text-xs font-semibold text-neutral-600 truncate group-hover:text-black transition-colors"
+                  className="text-xs sm:text-sm font-bold text-neutral-900 truncate group-hover:text-black transition-colors"
                   title={job.company_name}
                 >
                   {job.company_name}
                 </p>
-                <div className="flex items-center gap-1.5 text-[11px] text-neutral-400 mt-0.5">
-                  <ClockIcon className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">{relativeDate}</span>
+                <div className="flex items-center gap-1.5 text-[11px] text-neutral-500 mt-0.5">
+                  <ClockIcon className="h-3.5 w-3.5 text-neutral-400 shrink-0" />
+                  <span className="shrink-0">{relativeDate}</span>
+                  <span>•</span>
+                  <span className="truncate">{job.location_province || "Quảng Ninh"}</span>
                 </div>
               </div>
             </div>
 
-            {/* Platform badge, Evidence status & Save bookmark */}
-            <div className="flex items-center gap-1.5 shrink-0 flex-wrap justify-end">
-              {job.evidence_proof?.verified && (
-                <span
-                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-neutral-900 text-white border border-black shadow-2xs whitespace-nowrap"
-                  title="Tin tuyển dụng có dẫn chứng xác thực: Đã kiểm tra liên kết & thông tin liên hệ nhà tuyển dụng"
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-                  <span>Dẫn chứng ✓</span>
-                </span>
-              )}
-              {job.source_url ? (
-                <a
-                  href={job.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border border-neutral-300 bg-neutral-100 hover:bg-neutral-200 text-neutral-900 transition-all hover:scale-105 active:scale-95 shadow-2xs cursor-pointer max-w-[140px] sm:max-w-[200px]"
-                  title={
-                    job.evidence_proof?.source_name
-                      ? `Mở trực tiếp ${job.evidence_proof.source_name} (Link đã xác thực)`
-                      : `Bấm để mở tin gốc trên ${platform.name} (Tab mới)`
-                  }
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-black shrink-0" />
-                  <span className="truncate">{platform.name}</span>
-                  <ArrowUpRightIcon className="h-3 w-3 opacity-70 shrink-0" />
-                </a>
-              ) : (
-                <span
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border border-neutral-200 bg-neutral-50 text-neutral-700 max-w-[140px] sm:max-w-[200px]"
-                  title={`Nguồn: ${platform.name}`}
-                >
-                  <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 shrink-0" />
-                  <span className="truncate">{platform.name}</span>
-                </span>
-              )}
+            <div className="shrink-0">
               <SaveJobButton jobId={job.id} />
             </div>
+          </div>
+
+          {/* Verification & Source Badges Row */}
+          <div className="flex flex-wrap items-center gap-1.5 mb-2.5">
+            {job.evidence_proof?.verified && (
+              <span
+                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-neutral-900 text-white border border-black shadow-2xs whitespace-nowrap"
+                title="Tin tuyển dụng có dẫn chứng xác thực: Đã kiểm tra liên kết & thông tin liên hệ nhà tuyển dụng"
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
+                <span>Dẫn chứng ✓</span>
+              </span>
+            )}
+            {job.source_url ? (
+              <a
+                href={job.source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => e.stopPropagation()}
+                className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-semibold border border-neutral-300 bg-neutral-100 hover:bg-neutral-200 text-neutral-900 transition-all shadow-2xs cursor-pointer max-w-[150px]"
+                title={`Bấm để mở tin gốc trên ${platform.name} (Tab mới)`}
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-black shrink-0" />
+                <span className="truncate">{platform.name}</span>
+                <ArrowUpRightIcon className="h-3 w-3 opacity-70 shrink-0" />
+              </a>
+            ) : (
+              <span
+                className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-medium border border-neutral-200 bg-neutral-50 text-neutral-700 max-w-[150px]"
+                title={`Nguồn: ${platform.name}`}
+              >
+                <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 shrink-0" />
+                <span className="truncate">{platform.name}</span>
+              </span>
+            )}
+            {job.all_sources && job.all_sources.length > 1 && (
+              <span
+                className="inline-flex items-center gap-1 rounded-full bg-neutral-100 px-2 py-0.5 text-[10px] font-bold text-neutral-800 border border-neutral-300"
+                title={`Tin tuyển dụng này được tìm thấy trên ${job.all_sources.length} nền tảng khác nhau`}
+              >
+                <span>🌐 {job.all_sources.length} nguồn</span>
+              </span>
+            )}
+            {job.quality_score && job.quality_score >= 70 && (
+              <span
+                className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-bold border border-neutral-300 bg-neutral-100 text-neutral-900 shadow-2xs"
+                title={`Độ uy tín & thẩm định chất lượng tin: ${job.quality_score}/100đ`}
+              >
+                <span>{job.quality_score >= 85 ? "💎" : "⭐"} {job.quality_score}/100 Thẩm định</span>
+              </span>
+            )}
           </div>
 
           {/* Job Title */}
@@ -140,7 +164,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
             </Link>
           </h3>
 
-          {/* Badges row: Salary, Job Type, Match Score & Multi-Source */}
+          {/* Badges row: Salary, Job Type, Match Score */}
           <div className="mt-3 flex flex-wrap items-center gap-2">
             {/* Salary pill */}
             <div className="inline-flex items-center gap-1.5 rounded-lg bg-neutral-100 px-2.5 py-1 text-xs font-bold text-neutral-950 border border-neutral-300">
@@ -154,47 +178,27 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               <span>{jobTypeDisplay}</span>
             </div>
 
-            {/* Personal Profile AI Match Score if user has skills, otherwise server match score */}
+            {/* Personal Profile AI Match Score if user has skills, otherwise server match score (capped at 100%) */}
             {evaluation && evaluation.score > 0 ? (
               <span
                 className="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-black bg-black text-white border border-black"
                 title={`Khớp ${evaluation.matchedSkills.length} kỹ năng bạn đã chọn: ${evaluation.matchedSkills.join(", ")}`}
               >
-                <span>✨ Khớp hồ sơ: {evaluation.score}%</span>
+                <span>✨ Khớp hồ sơ: {Math.min(100, Math.max(0, Math.round(evaluation.score)))}%</span>
               </span>
             ) : job.match_score !== undefined && job.match_score !== null ? (
               <span
                 className="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-black bg-black text-white border border-black"
                 title="Điểm số độ phù hợp dựa trên vai trò, trách nhiệm thực tế, địa bàn và kỹ năng"
               >
-                <span>🎯 Phù hợp: {job.match_score}%</span>
+                <span>🎯 Phù hợp: {Math.min(100, Math.max(0, Math.round(job.match_score)))}%</span>
               </span>
             ) : null}
-
-            {/* Multi-source indicator if consolidated */}
-            {job.all_sources && job.all_sources.length > 1 && (
-              <span
-                className="inline-flex items-center gap-1 rounded-lg bg-neutral-100 px-2.5 py-1 text-xs font-bold text-neutral-900 border border-neutral-300"
-                title={`Tin tuyển dụng này được tìm thấy trên ${job.all_sources.length} nền tảng khác nhau`}
-              >
-                <span>🌐 {job.all_sources.length} nguồn</span>
-              </span>
-            )}
 
             {/* Experience level if available */}
             {job.experience_level && (
               <span className="inline-flex items-center rounded-lg bg-neutral-100 px-2.5 py-1 text-xs font-medium text-neutral-800 border border-neutral-200">
                 {job.experience_level}
-              </span>
-            )}
-
-            {/* Quality Score & Audit Tier */}
-            {job.quality_score && job.quality_score >= 70 && (
-              <span
-                className="inline-flex items-center gap-1 rounded-lg px-2.5 py-1 text-xs font-bold border border-neutral-300 bg-neutral-100 text-neutral-900 shadow-2xs"
-                title={`Độ uy tín & thẩm định chất lượng tin: ${job.quality_score}/100đ (Pháp nhân xác thực, lương minh bạch, địa chỉ cụ thể, HR trực tiếp)`}
-              >
-                <span>{job.quality_score >= 85 ? "💎" : "⭐"} {job.quality_score}/100 Thẩm định</span>
               </span>
             )}
           </div>
@@ -373,10 +377,10 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-black hover:bg-neutral-800 px-3 py-1.5 rounded-xl transition-all shadow-xs cursor-pointer group/link"
+                className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-black hover:bg-neutral-800 px-3 py-1.5 rounded-xl transition-all shadow-xs cursor-pointer group/link max-w-[150px] sm:max-w-[200px]"
                 title={`Mở nguồn tuyển dụng gốc: ${platform.name} (Tab mới)`}
               >
-                <span>🌐 {platform.name}</span>
+                <span className="truncate">🌐 {platform.name}</span>
                 <ArrowUpRightIcon className="h-3.5 w-3.5 shrink-0 text-white group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5 transition-transform" />
               </a>
             )}
@@ -385,7 +389,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
       </div>
 
       {/* In-App Social Post Preview Modal */}
-      {previewOpen && (
+      {previewOpen && mounted && createPortal(
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
           <div
             className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
@@ -676,7 +680,8 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );

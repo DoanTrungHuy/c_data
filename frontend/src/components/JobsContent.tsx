@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   FunnelIcon,
@@ -33,6 +34,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [mobileFilterOpen, setMobileFilterOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const [isCrawling, setIsCrawling] = useState(false);
   const [crawlMessage, setCrawlMessage] = useState<string | null>(null);
   const [conclusions, setConclusions] = useState<any>(null);
@@ -41,6 +43,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const [skillMatcherOpen, setSkillMatcherOpen] = useState(false);
   const [salaryGuideOpen, setSalaryGuideOpen] = useState(false);
   const { skills: userSkills, hasSkills } = useUserSkills();
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const q = searchParams?.get("q") || "";
   const province = searchParams?.get("province") || "";
@@ -108,7 +114,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
       </div>
 
       {/* Mobile Filter Modal */}
-      {mobileFilterOpen && (
+      {mobileFilterOpen && mounted && createPortal(
         <div className="fixed inset-0 z-50 flex lg:hidden">
           <div
             className="fixed inset-0 bg-slate-900/60 backdrop-blur-xs"
@@ -117,7 +123,8 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           <div className="relative ml-auto w-full max-w-xs h-full bg-white p-4 overflow-y-auto shadow-2xl z-10">
             <FilterSidebar onCloseMobile={() => setMobileFilterOpen(false)} />
           </div>
-        </div>
+        </div>,
+        document.body
       )}
 
       {/* Main Content Area (3 cols) */}
@@ -144,12 +151,12 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
 
           {/* Action buttons: Deep Social Radar, Live Crawl & Mobile Filter */}
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar w-full sm:w-auto flex-nowrap sm:flex-wrap py-1">
             {/* AI Skill Matcher Button */}
             <button
               type="button"
               onClick={() => setSkillMatcherOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
               title="So khớp kỹ năng cá nhân của bạn với mọi việc làm"
             >
               <SparklesIcon className="h-4 w-4 text-black" />
@@ -160,7 +167,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setSalaryGuideOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
               title="Báo cáo mức lương IT chi tiết tại TP. Hạ Long"
             >
               <ChartBarIcon className="h-4 w-4 text-black" />
@@ -171,7 +178,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setRadarOpen(true)}
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-neutral-900 hover:bg-neutral-800 text-white border border-neutral-700 active:scale-95 transition-all cursor-pointer shadow-xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-neutral-900 hover:bg-neutral-800 text-white border border-neutral-700 active:scale-95 transition-all cursor-pointer shadow-xs"
               title="Kích hoạt Radar mò tìm sâu trên Facebook Groups, Threads & TikTok"
             >
               <span className="text-sm">🛰️</span>
@@ -182,18 +189,18 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               type="button"
               onClick={handleLiveCrawl}
               disabled={isCrawling}
-              className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer ${
                 isCrawling
                   ? "bg-neutral-200 text-neutral-800 border border-neutral-300 animate-pulse cursor-wait"
                   : "bg-black hover:bg-neutral-800 text-white active:scale-95"
               }`}
               title="Quét trực tiếp dữ liệu từ các sàn, Fanpage Facebook và trang web doanh nghiệp"
             >
-              <span>{isCrawling ? "⏳ Đang cào realtime..." : "⚡ Quét tin mới"}</span>
+              <span>{isCrawling ? "⏳ Đang cào..." : "⚡ Quét tin mới"}</span>
             </button>
 
             {/* Mobile Filter Trigger Button */}
-            <div className="lg:hidden">
+            <div className="lg:hidden shrink-0">
               <button
                 type="button"
                 onClick={() => setMobileFilterOpen(true)}

@@ -94,9 +94,6 @@ export default function RootLayout({
         <link rel="icon" href={`${basePath}/icon.svg`} type="image/svg+xml" />
         <link rel="icon" href={`${basePath}/icon-32.png`} type="image/png" sizes="32x32" />
         <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
-        <meta property="og:image" content={`${siteUrl}/og-image.png`} />
-        <meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
-        <meta name="twitter:card" content="summary_large_image" />
         <meta name="theme-color" content="#09090B" />
       </head>
       <body className="min-h-screen flex flex-col font-sans bg-white text-black selection:bg-black selection:text-white">

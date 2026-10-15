@@ -155,7 +155,11 @@ export default function Header() {
               </span>
             </Link>
           </div>
-          <div className="pt-2 border-t border-neutral-100">
+          <div className="pt-2 border-t border-neutral-100 flex flex-col gap-2.5">
+            <div className="flex items-center justify-between px-1">
+              <span className="text-xs text-neutral-500 font-medium">Hệ thống tuyển dụng:</span>
+              <SystemHealthBadge />
+            </div>
             <Link
               href="/jobs"
               onClick={() => setMobileMenuOpen(false)}

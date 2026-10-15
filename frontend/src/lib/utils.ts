@@ -220,7 +220,7 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
   if (p.includes("facebook") || p.includes("fb")) {
     return {
       id: "facebook",
-      name: platform,
+      name: "Facebook",
       badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
       dotClass: "bg-black",
       iconBg: "bg-neutral-900",
@@ -230,7 +230,7 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
   if (p.includes("threads")) {
     return {
       id: "threads",
-      name: platform,
+      name: "Threads",
       badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
       dotClass: "bg-black",
       iconBg: "bg-neutral-900",
@@ -240,7 +240,27 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
   if (p.includes("tiktok")) {
     return {
       id: "tiktok",
-      name: platform,
+      name: "TikTok",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
+    };
+  }
+
+  if (p.includes("cổng thông tin") || p.includes("cong thong tin")) {
+    return {
+      id: "company",
+      name: "Cổng thông tin",
+      badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
+      dotClass: "bg-black",
+      iconBg: "bg-neutral-900",
+    };
+  }
+
+  if (p.includes("ban nhân sự") || p.includes("nhân sự") || p.includes("tuyển dụng")) {
+    return {
+      id: "company",
+      name: "Nhân sự DN",
       badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
       dotClass: "bg-black",
       iconBg: "bg-neutral-900",
@@ -248,10 +268,9 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
   }
 
   if (p.includes("doanh nghiệp") || p.includes("công ty") || p.includes("sungroup") || p.includes("vinpearl")) {
-    const cleanName = platform && platform.length > 20 ? truncateText(platform, 18) : platform;
     return {
       id: "company",
-      name: cleanName,
+      name: "Doanh nghiệp",
       badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
       dotClass: "bg-black",
       iconBg: "bg-neutral-900",
@@ -268,7 +287,7 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     };
   }
 
-  const cleanOtherName = platform && platform.length > 20 ? truncateText(platform, 18) : platform;
+  const cleanOtherName = platform && platform.length > 14 ? truncateText(platform, 12) : platform || "VịnhViệc";
   return {
     id: "other",
     name: cleanOtherName,

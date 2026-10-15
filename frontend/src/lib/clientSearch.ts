@@ -380,7 +380,7 @@ export function searchJobsRealtime(
     return {
       job: {
         ...job,
-        match_score: Math.max(0, score),
+        match_score: Math.min(100, Math.max(0, Math.round(score))),
         match_reasons: reasons,
       },
       score,
