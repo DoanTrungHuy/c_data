@@ -1,12 +1,12 @@
 {
-  "name": "C_Data - Việc Làm IT Hạ Long & Việt Nam",
-  "short_name": "C_Data IT",
+  "name": "VịnhViệc - Việc Làm IT Hạ Long & Vùng Vịnh",
+  "short_name": "VịnhViệc",
   "description": "Nền tảng tìm kiếm việc làm CNTT thời gian thực TP. Hạ Long và toàn quốc. Quét liên tục, đối soát Zero-404, 100% tin đang tuyển dụng.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#0B0F19",
-  "theme_color": "#0284c7",
+  "background_color": "#FFFFFF",
+  "theme_color": "#000000",
   "orientation": "portrait-primary",
   "icons": [
     {
