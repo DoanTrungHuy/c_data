@@ -1,21 +1,13 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 import {
   MagnifyingGlassIcon,
   MapPinIcon,
-  SparklesIcon,
-  BoltIcon,
   XMarkIcon,
-  BuildingOffice2Icon,
-  CurrencyDollarIcon,
-  CheckBadgeIcon,
 } from "@heroicons/react/24/outline";
 import { VIETNAM_PROVINCES } from "@/constants/vietnamData";
-import { Job } from "@/types/job";
-import { loadAllJobsForClient, searchJobsRealtime } from "@/lib/clientSearch";
 
 interface SearchBarProps {
   initialQuery?: string;
@@ -44,13 +36,7 @@ export default function SearchBar({
   const [liveCrawl, setLiveCrawl] = useState(initialLive);
   const [strictMode, setStrictMode] = useState(initialStrictMode);
   const [verifiedOnly, setVerifiedOnly] = useState(initialVerifiedOnly);
-
-  // Real-time search states
-  const [realtimeJobs, setRealtimeJobs] = useState<Job[]>([]);
-  const [realtimeTotal, setRealtimeTotal] = useState(0);
-  const [isOpen, setIsOpen] = useState(false);
   const [isSearching, setIsSearching] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
 
   // Lắng nghe thay đổi từ ngoài vào
   useEffect(() => {
@@ -61,63 +47,20 @@ export default function SearchBar({
     setProvince(initialProvince);
   }, [initialProvince]);
 
-  // Click outside to close dropdown
-  useEffect(() => {
-    function handleClickOutside(event: MouseEvent) {
-      if (
-        containerRef.current &&
-        !containerRef.current.contains(event.target as Node)
-      ) {
-        setIsOpen(false);
-      }
-    }
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
-
-  // Thực hiện tìm kiếm Real-time mỗi khi query hoặc province thay đổi
+  // Thực hiện tìm kiếm Real-time cập nhật danh sách việc làm trên trang
   useEffect(() => {
     const trimmed = query.trim();
-    if (!trimmed && !province) {
-      setRealtimeJobs([]);
-      setRealtimeTotal(0);
-      setIsOpen(false);
-      onRealtimeChange?.("", province);
-      return;
-    }
-
     setIsSearching(true);
-    const timer = setTimeout(async () => {
-      try {
-        const allJobs = await loadAllJobsForClient();
-        const results = searchJobsRealtime(allJobs, {
-          q: trimmed,
-          province: province || undefined,
-          strict_mode: strictMode,
-          verified_only: verifiedOnly,
-          page_size: 6,
-        });
-
-        setRealtimeJobs(results.items);
-        setRealtimeTotal(results.total);
-        if (trimmed.length > 0 || province) {
-          setIsOpen(true);
-        }
-      } catch (err) {
-        console.warn("Realtime search error:", err);
-      } finally {
-        setIsSearching(false);
-      }
-
+    const timer = setTimeout(() => {
+      setIsSearching(false);
       onRealtimeChange?.(trimmed, province);
-    }, 150); // 150ms debounce cho trải nghiệm siêu mượt
+    }, 200);
 
     return () => clearTimeout(timer);
-  }, [query, province, strictMode, verifiedOnly, onRealtimeChange]);
+  }, [query, province, onRealtimeChange]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsOpen(false);
     const params = new URLSearchParams();
     if (query.trim()) params.set("q", query.trim());
     if (province) params.set("province", province);
@@ -128,20 +71,13 @@ export default function SearchBar({
     router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
   };
 
-  const handleSelectJob = (jobId: string | number) => {
-    setIsOpen(false);
-    router.push(`/jobs/${jobId}`);
-  };
-
   const clearQuery = () => {
     setQuery("");
-    setRealtimeJobs([]);
-    setIsOpen(false);
     onRealtimeChange?.("", province);
   };
 
   return (
-    <div ref={containerRef} className="relative w-full">
+    <div className="relative w-full">
       <form
         onSubmit={handleSubmit}
         className={`w-full ${
@@ -151,7 +87,7 @@ export default function SearchBar({
         } ${className}`}
       >
         <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3">
-          {/* Keyword Search Input with Real-time indicator */}
+          {/* Keyword Search Input */}
           <div className="relative flex-1 flex items-center">
             <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-neutral-400">
               {isSearching ? (
@@ -164,9 +100,6 @@ export default function SearchBar({
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              onFocus={() => {
-                if (query.trim() || province) setIsOpen(true);
-              }}
               placeholder="Chức danh, vị trí, kỹ năng (IT, Kế toán, Khách sạn...)"
               className="w-full pl-10 pr-9 py-3 text-sm sm:text-base text-neutral-900 placeholder-neutral-400 bg-transparent rounded-xl focus:outline-none font-medium"
             />
@@ -308,121 +241,6 @@ export default function SearchBar({
           </div>
         </div>
       </form>
-
-      {/* POPUP DROPDOWN TÌM KIẾM THỜI GIAN THỰC (REAL-TIME INSTANT RESULTS) */}
-      {isOpen && (query.trim() || province) && (
-        <div className="absolute top-full left-0 right-0 mt-2 z-50 bg-white rounded-2xl shadow-2xl border border-neutral-300 overflow-hidden animate-in fade-in slide-in-from-top-2 duration-200">
-          {/* Header dropdown */}
-          <div className="px-4 py-3 bg-neutral-100 border-b border-neutral-200 flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-40"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-black"></span>
-              </span>
-              <span className="text-xs font-bold text-neutral-900">
-                Tìm kiếm tức thì (Real-time):{" "}
-                <strong className="text-black font-black">
-                  {realtimeTotal}
-                </strong>{" "}
-                việc làm phù hợp
-              </span>
-            </div>
-            <button
-              onClick={() => setIsOpen(false)}
-              className="text-neutral-500 hover:text-black text-xs font-semibold cursor-pointer"
-            >
-              Đóng ✕
-            </button>
-          </div>
-
-          {/* Danh sách công việc tìm thấy trong thời gian thực */}
-          <div className="max-h-[380px] overflow-y-auto divide-y divide-neutral-100">
-            {realtimeJobs.length > 0 ? (
-              realtimeJobs.map((job) => (
-                <div
-                  key={job.id}
-                  onClick={() => handleSelectJob(job.id)}
-                  className="p-3.5 sm:p-4 hover:bg-neutral-50 cursor-pointer transition-colors flex items-start justify-between gap-3 group"
-                >
-                  <div className="space-y-1 min-w-0 flex-1">
-                    <div className="flex items-center gap-2 flex-wrap">
-                      <h4 className="text-sm font-bold text-black group-hover:underline transition-colors line-clamp-1">
-                        {job.title}
-                      </h4>
-                      {job.evidence_proof?.verified && (
-                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-bold bg-neutral-100 text-black border border-neutral-300 shrink-0">
-                          ✓ Dẫn chứng
-                        </span>
-                      )}
-                      {job.match_score && job.match_score > 30 && (
-                        <span className="inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded text-[10px] font-bold bg-neutral-100 text-black border border-neutral-300 shrink-0">
-                          🎯 {Math.round(job.match_score)}% phù hợp
-                        </span>
-                      )}
-                    </div>
-
-                    <div className="flex items-center gap-3 text-xs text-neutral-600 flex-wrap">
-                      <span className="flex items-center gap-1 font-medium text-neutral-800 truncate max-w-[200px]">
-                        <BuildingOffice2Icon className="h-3.5 w-3.5 text-neutral-500 shrink-0" />
-                        <span>{job.company_name}</span>
-                        <CheckBadgeIcon className="h-3.5 w-3.5 text-black shrink-0" />
-                      </span>
-
-                      <span className="flex items-center gap-1 text-neutral-600">
-                        <MapPinIcon className="h-3.5 w-3.5 text-neutral-500 shrink-0" />
-                        <span>{job.location_province || "Quảng Ninh"}</span>
-                      </span>
-
-                      <span className="flex items-center gap-1 font-bold text-black">
-                        <CurrencyDollarIcon className="h-3.5 w-3.5 text-black shrink-0" />
-                        <span>{job.salary_text || "Thỏa thuận"}</span>
-                      </span>
-                    </div>
-
-                    {job.match_reasons && job.match_reasons.length > 0 && (
-                      <p className="text-[11px] text-neutral-700 font-medium line-clamp-1">
-                        ✓ {job.match_reasons[0]}
-                      </p>
-                    )}
-                  </div>
-
-                  <div className="text-right shrink-0">
-                    <span className="inline-block px-2.5 py-1 rounded-lg bg-black text-white font-bold text-xs group-hover:bg-neutral-800 transition-all shadow-2xs">
-                      Xem ngay ➔
-                    </span>
-                  </div>
-                </div>
-              ))
-            ) : (
-              <div className="py-8 text-center space-y-2">
-                <p className="text-sm font-semibold text-neutral-800">
-                  Không tìm thấy việc làm nào khớp hoàn toàn với "{query}"
-                </p>
-                <p className="text-xs text-neutral-500">
-                  Thử tìm kiếm với từ khóa ngắn gọn hơn như: "IT", "Khách sạn", "Kế toán"
-                </p>
-              </div>
-            )}
-          </div>
-
-          {/* Footer nút xem tất cả */}
-          {realtimeTotal > 0 && (
-            <div className="p-3 bg-neutral-50 border-t border-neutral-200 text-center">
-              <button
-                type="button"
-                onClick={handleSubmit}
-                className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-black hover:underline transition-colors cursor-pointer"
-              >
-                <span>Xem toàn bộ {realtimeTotal} việc làm cho</span>
-                <span className="underline">
-                  "{query.trim() || province || "Tất cả"}"
-                </span>
-                <span>➔</span>
-              </button>
-            </div>
-          )}
-        </div>
-      )}
     </div>
   );
 }
