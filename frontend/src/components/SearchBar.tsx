@@ -170,13 +170,13 @@ export default function SearchBar({
         </div>
 
         {/* Streamlined Filter Toggles & Popular Chips */}
-        <div className="mt-3 pt-2.5 border-t border-neutral-100 flex flex-wrap items-center justify-between gap-2.5 text-xs">
+        <div className="mt-3 pt-2.5 border-t border-neutral-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 text-xs">
           {/* Quick Filters */}
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar max-w-full py-0.5">
             <button
               type="button"
               onClick={() => setStrictMode(!strictMode)}
-              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border transition-colors cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border transition-colors cursor-pointer ${
                 strictMode
                   ? "bg-black text-white border-black"
                   : "bg-neutral-100 text-neutral-700 border-neutral-200 hover:bg-neutral-200 hover:text-black"
@@ -189,7 +189,7 @@ export default function SearchBar({
             <button
               type="button"
               onClick={() => setVerifiedOnly(!verifiedOnly)}
-              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border transition-colors cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border transition-colors cursor-pointer ${
                 verifiedOnly
                   ? "bg-black text-white border-black"
                   : "bg-neutral-100 text-neutral-700 border-neutral-200 hover:bg-neutral-200 hover:text-black"
@@ -202,7 +202,7 @@ export default function SearchBar({
             <button
               type="button"
               onClick={() => setLiveCrawl(!liveCrawl)}
-              className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border transition-colors cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold border transition-colors cursor-pointer ${
                 liveCrawl
                   ? "bg-black text-white border-black"
                   : "bg-neutral-100 text-neutral-700 border-neutral-200 hover:bg-neutral-200 hover:text-black"
@@ -214,7 +214,7 @@ export default function SearchBar({
           </div>
 
           {/* Clean Horizontal Popular Searches */}
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 max-w-full">
+          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 w-full sm:w-auto">
             <span className="text-[11px] font-medium text-neutral-400 shrink-0">
               Gợi ý:
             </span>

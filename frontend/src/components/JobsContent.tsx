@@ -633,9 +633,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
         )}
 
         {/* Quick Filter & Quality Sort Bar */}
-        <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider mr-1">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
+          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar w-full sm:w-auto py-0.5">
+            <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider mr-1 shrink-0">
               Ưu tiên:
             </span>
             <button
@@ -650,7 +650,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                 params.delete("page");
                 router.push(`/jobs?${params.toString()}`);
               }}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
                 quality_tier === "diamond"
                   ? "bg-black text-white border-black shadow-xs"
                   : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
@@ -672,7 +672,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
                 params.delete("page");
                 router.push(`/jobs?${params.toString()}`);
               }}
-              className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
                 province === "Quảng Ninh"
                   ? "bg-black text-white border-black shadow-xs"
                   : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
@@ -684,7 +684,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
 
           {/* Sort By Dropdown */}
-          <div className="flex items-center gap-2 ml-auto text-xs">
+          <div className="flex items-center justify-between sm:justify-end gap-2 w-full sm:w-auto text-xs pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
             <span className="text-neutral-500 font-medium">Sắp xếp:</span>
             <select
               value={sort_by || "default"}
