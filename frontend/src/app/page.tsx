@@ -271,7 +271,7 @@ export default async function HomePage() {
           </div>
           <Link
             href="/jobs"
-            className="inline-flex items-center gap-2 rounded-xl bg-black px-4 py-2.5 text-sm font-bold text-white shadow-xs hover:bg-neutral-800 transition-colors"
+            className="inline-flex items-center justify-center gap-2 rounded-xl bg-black px-4 py-2.5 text-sm font-bold text-white shadow-xs hover:bg-neutral-800 transition-colors w-full sm:w-auto"
           >
             <span>Xem tất cả {stats.total_jobs.toLocaleString("vi-VN")} việc làm</span>
             <ArrowRightIcon className="h-4 w-4" />

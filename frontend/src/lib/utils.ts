@@ -248,9 +248,10 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
   }
 
   if (p.includes("doanh nghiệp") || p.includes("công ty") || p.includes("sungroup") || p.includes("vinpearl")) {
+    const cleanName = platform && platform.length > 20 ? truncateText(platform, 18) : platform;
     return {
       id: "company",
-      name: platform,
+      name: cleanName,
       badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
       dotClass: "bg-black",
       iconBg: "bg-neutral-900",
@@ -267,9 +268,10 @@ export function getSourcePlatformInfo(platform?: string | null): PlatformInfo {
     };
   }
 
+  const cleanOtherName = platform && platform.length > 20 ? truncateText(platform, 18) : platform;
   return {
     id: "other",
-    name: platform,
+    name: cleanOtherName,
     badgeClass: "bg-neutral-100 text-neutral-800 border-neutral-300",
     dotClass: "bg-black",
     iconBg: "bg-neutral-900",

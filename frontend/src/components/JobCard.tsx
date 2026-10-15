@@ -59,41 +59,41 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
   return (
     <>
       <div
-        className={`group relative flex flex-col justify-between rounded-2xl border bg-white p-5 sm:p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-md ${
+        className={`group relative flex flex-col justify-between rounded-2xl border bg-white p-4 sm:p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-md ${
           featured
             ? "border-black ring-1 ring-black bg-white"
             : "border-neutral-200 hover:border-black"
         }`}
       >
         <div>
-          {/* Top Header: Company initial + Platform badge + Date */}
-          <div className="flex items-start justify-between gap-3 mb-3">
-            <div className="flex items-center gap-3">
+          {/* Top Header: Company info + Platform badge + Save bookmark */}
+          <div className="flex items-start justify-between gap-2.5 mb-3">
+            <div className="flex items-center gap-2.5 min-w-0 flex-1">
               <CompanyOrPlatformLogo
                 companyName={job.company_name}
                 logoUrl={job.company?.logo_url}
                 sourcePlatform={job.source_platform}
                 size="md"
               />
-              <div>
+              <div className="min-w-0 flex-1">
                 <p
-                  className="text-xs font-semibold text-neutral-500 line-clamp-1 group-hover:text-black transition-colors"
+                  className="text-xs font-semibold text-neutral-600 truncate group-hover:text-black transition-colors"
                   title={job.company_name}
                 >
                   {job.company_name}
                 </p>
                 <div className="flex items-center gap-1.5 text-[11px] text-neutral-400 mt-0.5">
-                  <ClockIcon className="h-3.5 w-3.5" />
-                  <span>{relativeDate}</span>
+                  <ClockIcon className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">{relativeDate}</span>
                 </div>
               </div>
             </div>
 
             {/* Platform badge, Evidence status & Save bookmark */}
-            <div className="flex items-center gap-1.5 shrink-0">
+            <div className="flex items-center gap-1.5 shrink-0 flex-wrap justify-end">
               {job.evidence_proof?.verified && (
                 <span
-                  className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold bg-neutral-900 text-white border border-black shadow-2xs"
+                  className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-neutral-900 text-white border border-black shadow-2xs whitespace-nowrap"
                   title="Tin tuyển dụng có dẫn chứng xác thực: Đã kiểm tra liên kết & thông tin liên hệ nhà tuyển dụng"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
@@ -106,24 +106,24 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={(e) => e.stopPropagation()}
-                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border border-neutral-300 bg-neutral-100 hover:bg-neutral-200 text-neutral-900 transition-all hover:scale-105 active:scale-95 shadow-2xs cursor-pointer"
+                  className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold border border-neutral-300 bg-neutral-100 hover:bg-neutral-200 text-neutral-900 transition-all hover:scale-105 active:scale-95 shadow-2xs cursor-pointer max-w-[140px] sm:max-w-[200px]"
                   title={
                     job.evidence_proof?.source_name
                       ? `Mở trực tiếp ${job.evidence_proof.source_name} (Link đã xác thực)`
                       : `Bấm để mở tin gốc trên ${platform.name} (Tab mới)`
                   }
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-black" />
-                  <span>{platform.name}</span>
+                  <span className="w-1.5 h-1.5 rounded-full bg-black shrink-0" />
+                  <span className="truncate">{platform.name}</span>
                   <ArrowUpRightIcon className="h-3 w-3 opacity-70 shrink-0" />
                 </a>
               ) : (
                 <span
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border border-neutral-200 bg-neutral-50 text-neutral-700"
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium border border-neutral-200 bg-neutral-50 text-neutral-700 max-w-[140px] sm:max-w-[200px]"
                   title={`Nguồn: ${platform.name}`}
                 >
-                  <span className="w-1.5 h-1.5 rounded-full bg-neutral-400" />
-                  {platform.name}
+                  <span className="w-1.5 h-1.5 rounded-full bg-neutral-400 shrink-0" />
+                  <span className="truncate">{platform.name}</span>
                 </span>
               )}
               <SaveJobButton jobId={job.id} />

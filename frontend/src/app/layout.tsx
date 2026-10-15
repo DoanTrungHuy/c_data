@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -11,9 +11,10 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-export const viewport = {
+export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
+  maximumScale: 5,
 };
 
 const isGh = process.env.GITHUB_PAGES === "true";
@@ -70,6 +71,7 @@ export default function RootLayout({
   return (
     <html lang="vi" className={inter.variable}>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <link rel="icon" href={`${basePath}/favicon.ico`} sizes="any" />
         <link rel="icon" href={`${basePath}/icon.png`} type="image/png" sizes="32x32" />
         <link rel="icon" href={`${basePath}/favicon.svg`} type="image/svg+xml" />
