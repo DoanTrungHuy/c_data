@@ -17,7 +17,6 @@ interface SearchBarProps {
   initialVerifiedOnly?: boolean;
   compact?: boolean;
   className?: string;
-  onRealtimeChange?: (query: string, province: string) => void;
 }
 
 export default function SearchBar({
@@ -28,7 +27,6 @@ export default function SearchBar({
   initialVerifiedOnly = false,
   compact = false,
   className = "",
-  onRealtimeChange,
 }: SearchBarProps) {
   const router = useRouter();
   const [query, setQuery] = useState(initialQuery);
@@ -36,9 +34,8 @@ export default function SearchBar({
   const [liveCrawl, setLiveCrawl] = useState(initialLive);
   const [strictMode, setStrictMode] = useState(initialStrictMode);
   const [verifiedOnly, setVerifiedOnly] = useState(initialVerifiedOnly);
-  const [isSearching, setIsSearching] = useState(false);
 
-  // Lắng nghe thay đổi từ ngoài vào
+  // Đồng bộ giá trị khởi tạo khi URL thay đổi
   useEffect(() => {
     setQuery(initialQuery);
   }, [initialQuery]);
@@ -46,18 +43,6 @@ export default function SearchBar({
   useEffect(() => {
     setProvince(initialProvince);
   }, [initialProvince]);
-
-  // Thực hiện tìm kiếm Real-time cập nhật danh sách việc làm trên trang
-  useEffect(() => {
-    const trimmed = query.trim();
-    setIsSearching(true);
-    const timer = setTimeout(() => {
-      setIsSearching(false);
-      onRealtimeChange?.(trimmed, province);
-    }, 200);
-
-    return () => clearTimeout(timer);
-  }, [query, province, onRealtimeChange]);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -73,7 +58,6 @@ export default function SearchBar({
 
   const clearQuery = () => {
     setQuery("");
-    onRealtimeChange?.("", province);
   };
 
   return (
@@ -90,11 +74,7 @@ export default function SearchBar({
           {/* Keyword Search Input */}
           <div className="relative flex-1 flex items-center">
             <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-neutral-400">
-              {isSearching ? (
-                <div className="h-5 w-5 border-2 border-black border-t-transparent rounded-full animate-spin" />
-              ) : (
-                <MagnifyingGlassIcon className="h-5 w-5 text-neutral-400" />
-              )}
+              <MagnifyingGlassIcon className="h-5 w-5 text-neutral-400" />
             </div>
             <input
               type="text"
@@ -107,7 +87,8 @@ export default function SearchBar({
               <button
                 type="button"
                 onClick={clearQuery}
-                className="absolute inset-y-0 right-0 pr-3 flex items-center text-neutral-400 hover:text-black"
+                className="absolute inset-y-0 right-0 pr-3 flex items-center text-neutral-400 hover:text-black cursor-pointer"
+                title="Xóa từ khóa"
               >
                 <XMarkIcon className="h-4 w-4" />
               </button>
@@ -232,6 +213,13 @@ export default function SearchBar({
                 onClick={() => {
                   setQuery(chip.q);
                   if (chip.prov) setProvince(chip.prov);
+                  const params = new URLSearchParams();
+                  if (chip.q.trim()) params.set("q", chip.q.trim());
+                  if (chip.prov) params.set("province", chip.prov);
+                  if (liveCrawl) params.set("live", "true");
+                  if (strictMode) params.set("strict_mode", "true");
+                  if (verifiedOnly) params.set("verified_only", "true");
+                  router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
                 }}
                 className="shrink-0 px-2.5 py-1 rounded-lg bg-neutral-100 hover:bg-neutral-200 text-neutral-800 hover:text-black border border-neutral-200 hover:border-black text-[11px] font-medium transition-colors cursor-pointer"
               >

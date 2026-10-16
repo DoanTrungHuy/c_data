@@ -24,10 +24,6 @@ function JobsView() {
   const isStrictMode = searchParams?.get("strict_mode") === "true";
   const isSavedOnly = searchParams?.get("saved") === "true";
 
-  // State hỗ trợ tìm kiếm Real-time động ngay trên trang
-  const [activeQuery, setActiveQuery] = useState(urlQ);
-  const [activeProvince, setActiveProvince] = useState(urlProvince);
-
   const [data, setData] = useState<JobListResponse>({
     items: [],
     total: 0,
@@ -39,65 +35,45 @@ function JobsView() {
   });
   const [loading, setLoading] = useState(true);
 
-  // Cập nhật khi URL params thay đổi
+  // Tải danh sách việc làm theo đúng tham số trên thanh địa chỉ URL (chỉ kích hoạt khi bấm tìm kiếm hoặc đổi trang/bộ lọc)
   useEffect(() => {
-    setActiveQuery(urlQ);
-  }, [urlQ]);
-
-  useEffect(() => {
-    setActiveProvince(urlProvince);
-  }, [urlProvince]);
-
-  const fetchJobs = useCallback(
-    (qStr: string, provStr: string) => {
-      let isMounted = true;
-      setLoading(true);
-      getJobs({
-        q: qStr || undefined,
-        province: provStr || undefined,
-        category: category || undefined,
-        job_type: job_type || undefined,
-        salary_min: salary_min ? Number(salary_min) : undefined,
-        salary_max: salary_max ? Number(salary_max) : undefined,
-        source_platform: platform || undefined,
-        live: isLive,
-        strict_mode: isStrictMode,
-        saved: isSavedOnly,
-        page,
-        page_size: pageSize,
+    let isMounted = true;
+    setLoading(true);
+    getJobs({
+      q: urlQ || undefined,
+      province: urlProvince || undefined,
+      category: category || undefined,
+      job_type: job_type || undefined,
+      salary_min: salary_min ? Number(salary_min) : undefined,
+      salary_max: salary_max ? Number(salary_max) : undefined,
+      source_platform: platform || undefined,
+      live: isLive,
+      strict_mode: isStrictMode,
+      saved: isSavedOnly,
+      page,
+      page_size: pageSize,
+    })
+      .then((res) => {
+        if (isMounted) {
+          setData(res);
+          setLoading(false);
+        }
       })
-        .then((res) => {
-          if (isMounted) {
-            setData(res);
-            setLoading(false);
-          }
-        })
-        .catch(() => {
-          if (isMounted) setLoading(false);
-        });
+      .catch(() => {
+        if (isMounted) setLoading(false);
+      });
 
-      return () => {
-        isMounted = false;
-      };
-    },
-    [category, job_type, platform, salary_min, salary_max, isLive, isStrictMode, isSavedOnly, page, pageSize]
-  );
-
-  useEffect(() => {
-    return fetchJobs(activeQuery, activeProvince);
-  }, [fetchJobs, activeQuery, activeProvince]);
-
-  const handleRealtimeChange = useCallback((newQuery: string, newProvince: string) => {
-    setActiveQuery(newQuery);
-    setActiveProvince(newProvince);
-  }, []);
+    return () => {
+      isMounted = false;
+    };
+  }, [urlQ, urlProvince, category, job_type, platform, salary_min, salary_max, isLive, isStrictMode, isSavedOnly, page, pageSize]);
 
   return (
     <div className="min-h-screen bg-white pb-16">
       {/* Search Header Banner */}
       <div className="bg-neutral-50 border-b border-neutral-200 py-6 sm:py-8">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 space-y-4">
-          {/* Breadcrumb & Real-time Indicator */}
+          {/* Breadcrumb & Status Indicator */}
           <div className="flex flex-wrap items-center justify-between gap-3">
             <nav className="flex items-center gap-2 text-xs text-neutral-500 font-medium">
               <Link
@@ -117,28 +93,33 @@ function JobsView() {
                   <span className="text-black font-bold">❤️ Việc làm đã lưu</span>
                 </>
               )}
-              {activeProvince && !isSavedOnly && (
+              {urlProvince && !isSavedOnly && (
                 <>
                   <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
                   <span className="text-black font-semibold">
-                    {activeProvince}
+                    {urlProvince}
+                  </span>
+                </>
+              )}
+              {urlQ && !isSavedOnly && (
+                <>
+                  <ChevronRightIcon className="h-3 w-3 text-neutral-400" />
+                  <span className="text-neutral-900 font-bold truncate max-w-[150px]">
+                    "{urlQ}"
                   </span>
                 </>
               )}
             </nav>
 
-            {/* Real-time Indicator Badge */}
+            {/* Status Indicator Badge */}
             {isSavedOnly ? (
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 text-black border border-neutral-300 text-xs font-bold shadow-2xs">
                 <span>📌 Chế độ xem việc làm đã lưu</span>
               </div>
             ) : (
               <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-neutral-100 text-black border border-neutral-300 text-xs font-bold shadow-2xs">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-black opacity-40"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-black"></span>
-                </span>
-                <span>Real-time Active (Cập nhật tức thì)</span>
+                <span className="h-2 w-2 rounded-full bg-black"></span>
+                <span>Dữ liệu xác thực Zero-404</span>
               </div>
             )}
           </div>
@@ -146,11 +127,10 @@ function JobsView() {
           {/* SearchBar Input */}
           <div className="max-w-4xl">
             <SearchBar
-              initialQuery={activeQuery}
-              initialProvince={activeProvince}
+              initialQuery={urlQ}
+              initialProvince={urlProvince}
               initialLive={isLive}
               initialStrictMode={isStrictMode}
-              onRealtimeChange={handleRealtimeChange}
               compact
             />
           </div>
