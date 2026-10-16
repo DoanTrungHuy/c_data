@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { createPortal } from "react-dom";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
@@ -16,6 +16,7 @@ import {
   BookmarkIcon,
   SparklesIcon,
   MapPinIcon,
+  DocumentArrowDownIcon,
 } from "@heroicons/react/24/outline";
 import JobCard from "@/components/JobCard";
 import FilterSidebar from "@/components/FilterSidebar";
@@ -27,6 +28,11 @@ import SkillMatcherModal from "@/components/SkillMatcherModal";
 import HaLongSalaryGuideModal from "@/components/HaLongSalaryGuideModal";
 import RegionalHotspotMap from "@/components/RegionalHotspotMap";
 import { useUserSkills } from "@/lib/skillMatcher";
+import { useSavedJobs } from "@/lib/savedJobs";
+import {
+  useApplicationTracker,
+  exportJobsToCSV,
+} from "@/lib/applicationTracker";
 
 interface JobsContentProps {
   initialData: JobListResponse;
@@ -46,6 +52,42 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const [salaryGuideOpen, setSalaryGuideOpen] = useState(false);
   const [showHotspotMap, setShowHotspotMap] = useState(false);
   const { skills: userSkills, hasSkills } = useUserSkills();
+  const { savedIds } = useSavedJobs();
+  const {
+    appliedMap,
+    dismissedIds,
+    appliedCount,
+    dismissedCount,
+    isApplied,
+    isDismissed,
+  } = useApplicationTracker();
+
+  const isSavedOnly = searchParams?.get("saved") === "true";
+  const [pipelineTab, setPipelineTab] = useState<"all" | "saved" | "applied" | "dismissed">(
+    isSavedOnly ? "saved" : "all"
+  );
+
+  const displayItems = useMemo(() => {
+    if (pipelineTab === "saved") {
+      return initialData.items.filter((j) => savedIds.includes(String(j.id)));
+    }
+    if (pipelineTab === "applied") {
+      return initialData.items.filter((j) => isApplied(j.id));
+    }
+    if (pipelineTab === "dismissed") {
+      return initialData.items.filter((j) => isDismissed(j.id));
+    }
+    // Default "all": exclude dismissed jobs
+    return initialData.items.filter((j) => !isDismissed(j.id));
+  }, [initialData.items, pipelineTab, savedIds, appliedMap, dismissedIds]);
+
+  const handleExportCSV = () => {
+    const listToExport = displayItems.length > 0 ? displayItems : initialData.items;
+    exportJobsToCSV(
+      listToExport,
+      `vinhviec_${pipelineTab}_${new Date().toISOString().slice(0, 10)}.csv`
+    );
+  };
 
   useEffect(() => {
     setMounted(true);
@@ -63,7 +105,6 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const sort_by = searchParams?.get("sort_by") || "";
   const strict_mode = searchParams?.get("strict_mode") === "true";
   const verified_only = searchParams?.get("verified_only") === "true";
-  const isSavedOnly = searchParams?.get("saved") === "true";
 
   const removeFilter = (key: string) => {
     const params = new URLSearchParams(searchParams?.toString() || "");
@@ -230,6 +271,81 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               </button>
             </div>
           </div>
+        </div>
+
+        {/* Pipeline Tabs & CSV Export Bar (DrJonoG / ATS Tracking Engine) */}
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-white p-3 sm:p-3.5 rounded-2xl border border-neutral-200 shadow-xs">
+          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
+            <button
+              type="button"
+              onClick={() => setPipelineTab("all")}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                pipelineTab === "all"
+                  ? "bg-black text-white shadow-xs"
+                  : "bg-neutral-100 text-neutral-700 hover:text-black hover:bg-neutral-200 border border-neutral-200"
+              }`}
+            >
+              <span>📋 Tất cả</span>
+              <span className={`px-1.5 py-0.2 rounded-full text-[10px] ${pipelineTab === "all" ? "bg-white/20 text-white" : "bg-neutral-200 text-neutral-800"}`}>
+                {initialData.items.filter((j) => !isDismissed(j.id)).length}
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setPipelineTab("saved")}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                pipelineTab === "saved"
+                  ? "bg-black text-white shadow-xs"
+                  : "bg-neutral-100 text-neutral-700 hover:text-black hover:bg-neutral-200 border border-neutral-200"
+              }`}
+            >
+              <span>⭐ Đã lưu</span>
+              <span className={`px-1.5 py-0.2 rounded-full text-[10px] ${pipelineTab === "saved" ? "bg-white/20 text-white" : "bg-neutral-200 text-neutral-800"}`}>
+                {savedIds.length}
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setPipelineTab("applied")}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                pipelineTab === "applied"
+                  ? "bg-black text-white shadow-xs"
+                  : "bg-neutral-100 text-neutral-700 hover:text-black hover:bg-neutral-200 border border-neutral-200"
+              }`}
+            >
+              <span>📝 Đã ứng tuyển</span>
+              <span className={`px-1.5 py-0.2 rounded-full text-[10px] ${pipelineTab === "applied" ? "bg-white/20 text-white" : "bg-neutral-200 text-neutral-800"}`}>
+                {appliedCount}
+              </span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setPipelineTab("dismissed")}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                pipelineTab === "dismissed"
+                  ? "bg-black text-white shadow-xs"
+                  : "bg-neutral-100 text-neutral-700 hover:text-black hover:bg-neutral-200 border border-neutral-200"
+              }`}
+            >
+              <span>👁️ Đã ẩn</span>
+              <span className={`px-1.5 py-0.2 rounded-full text-[10px] ${pipelineTab === "dismissed" ? "bg-white/20 text-white" : "bg-neutral-200 text-neutral-800"}`}>
+                {dismissedCount}
+              </span>
+            </button>
+          </div>
+
+          <button
+            type="button"
+            onClick={handleExportCSV}
+            className="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 font-bold text-xs transition-colors cursor-pointer shadow-2xs self-end sm:self-auto"
+            title="Xuất bảng Excel/CSV danh sách việc làm đang hiển thị (tương thích tiếng Việt có dấu)"
+          >
+            <DocumentArrowDownIcon className="h-4 w-4" />
+            <span>Xuất Excel / CSV</span>
+          </button>
         </div>
 
         {/* Regional Hotspot Map View */}
@@ -822,10 +938,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
         </div>
 
         {/* Job Listings / Empty State */}
-        {initialData.items.length > 0 ? (
+        {displayItems.length > 0 ? (
           <div className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {initialData.items.map((job) => (
+              {displayItems.map((job) => (
                 <JobCard key={job.id} job={job} searchQuery={q} />
               ))}
             </div>
@@ -838,7 +954,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               />
             </div>
           </div>
-        ) : isSavedOnly ? (
+        ) : pipelineTab === "saved" || isSavedOnly ? (
           /* Empty State for Saved Jobs */
           <div className="text-center py-16 px-4 bg-white rounded-3xl border border-neutral-200 shadow-xs space-y-4">
             <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
@@ -853,10 +969,54 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <div className="pt-2">
               <button
                 type="button"
-                onClick={() => router.push("/jobs?province=Quảng+Ninh")}
+                onClick={() => setPipelineTab("all")}
                 className="inline-flex items-center gap-2 rounded-xl bg-black px-6 py-3 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
               >
-                <span>Khám phá việc làm IT Hạ Long</span>
+                <span>Xem tất cả việc làm</span>
+              </button>
+            </div>
+          </div>
+        ) : pipelineTab === "applied" ? (
+          /* Empty State for Applied Jobs */
+          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-neutral-200 shadow-xs space-y-4">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
+              <CheckCircleIcon className="h-8 w-8" />
+            </div>
+            <h3 className="text-lg font-bold text-black">
+              Bạn chưa theo dõi việc làm nào đã nộp đơn
+            </h3>
+            <p className="text-sm text-neutral-500 max-w-md mx-auto leading-relaxed">
+              Khi bạn nộp hồ sơ vào một vị trí, hãy bấm nút <strong>"Đã nộp?"</strong> trên thẻ việc làm để ghi chú lịch hẹn phỏng vấn và quản lý tiến trình tuyển dụng.
+            </p>
+            <div className="pt-2">
+              <button
+                type="button"
+                onClick={() => setPipelineTab("all")}
+                className="inline-flex items-center gap-2 rounded-xl bg-black px-6 py-3 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
+              >
+                <span>Khám phá việc làm để ứng tuyển</span>
+              </button>
+            </div>
+          </div>
+        ) : pipelineTab === "dismissed" ? (
+          /* Empty State for Dismissed Jobs */
+          <div className="text-center py-16 px-4 bg-white rounded-3xl border border-neutral-200 shadow-xs space-y-4">
+            <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-neutral-100 text-black border border-neutral-200">
+              <XMarkIcon className="h-8 w-8" />
+            </div>
+            <h3 className="text-lg font-bold text-black">
+              Không có việc làm nào bị ẩn
+            </h3>
+            <p className="text-sm text-neutral-500 max-w-md mx-auto leading-relaxed">
+              Bạn có thể bấm biểu tượng con mắt gạch chéo trên bất kỳ tin tuyển dụng nào không phù hợp để ẩn nó đi và làm sạch màn hình tìm kiếm.
+            </p>
+            <div className="pt-2">
+              <button
+                type="button"
+                onClick={() => setPipelineTab("all")}
+                className="inline-flex items-center gap-2 rounded-xl bg-black px-6 py-3 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
+              >
+                <span>Quay lại danh sách chính</span>
               </button>
             </div>
           </div>

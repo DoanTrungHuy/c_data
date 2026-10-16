@@ -14,6 +14,9 @@ import {
   CheckBadgeIcon,
   PhoneIcon,
   EnvelopeIcon,
+  EyeIcon,
+  EyeSlashIcon,
+  ClipboardDocumentCheckIcon,
 } from "@heroicons/react/24/outline";
 import { Job } from "@/types/job";
 import {
@@ -29,6 +32,17 @@ import SaveJobButton from "@/components/SaveJobButton";
 import HighlightMatch from "@/components/HighlightMatch";
 import { useCompareJobs } from "@/lib/compareJobs";
 import { useUserSkills, evaluateJobMatch } from "@/lib/skillMatcher";
+import {
+  useApplicationTracker,
+  ApplicationStage,
+} from "@/lib/applicationTracker";
+
+const stageLabels: Record<ApplicationStage, string> = {
+  submitted: "Đã nộp đơn",
+  interviewing: "Phỏng vấn",
+  offer: "Nhận Offer",
+  rejected: "Đã từ chối",
+};
 
 interface JobCardProps {
   job: Job;
@@ -42,13 +56,39 @@ export default function JobCard({
   searchQuery,
 }: JobCardProps) {
   const [previewOpen, setPreviewOpen] = useState(false);
+  const [stageModalOpen, setStageModalOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const searchParams = useSearchParams();
   const effectiveQuery = searchQuery ?? (searchParams?.get("q") || "");
 
+  const {
+    isApplied,
+    isDismissed,
+    toggleApplied,
+    toggleDismiss,
+    appliedMap,
+    markApplied,
+    removeApplied,
+  } = useApplicationTracker();
+
+  const applied = isApplied(job.id);
+  const dismissed = isDismissed(job.id);
+  const appliedRecord = appliedMap[String(job.id)];
+  const [customNotes, setCustomNotes] = useState(appliedRecord?.notes || "");
+  const [selectedStage, setSelectedStage] = useState<ApplicationStage>(
+    appliedRecord?.stage || "submitted"
+  );
+
   useEffect(() => {
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (appliedRecord) {
+      setSelectedStage(appliedRecord.stage);
+      setCustomNotes(appliedRecord.notes || "");
+    }
+  }, [appliedRecord]);
 
   const { isJobCompared, addJobToCompare, removeJobFromCompare } = useCompareJobs();
   const { skills: userSkills, hasSkills } = useUserSkills();
@@ -76,13 +116,34 @@ export default function JobCard({
     <>
       <div
         className={`group relative flex flex-col justify-between rounded-2xl border bg-white p-4 sm:p-6 transition-all duration-200 hover:-translate-y-1 hover:shadow-md ${
-          featured
+          dismissed
+            ? "opacity-60 border-dashed border-neutral-300 bg-neutral-50/60"
+            : featured
             ? "border-black ring-1 ring-black bg-white"
             : "border-neutral-200 hover:border-black"
         }`}
       >
         <div>
-          {/* Top Header: Company info + Save bookmark */}
+          {dismissed && (
+            <div className="mb-2.5 px-3 py-1.5 rounded-xl bg-neutral-200/80 text-neutral-800 text-xs flex items-center justify-between border border-neutral-300">
+              <span className="flex items-center gap-1.5 font-medium">
+                <EyeSlashIcon className="h-3.5 w-3.5 text-neutral-600" />
+                Tin này đang trong danh sách bị ẩn
+              </span>
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleDismiss(job.id);
+                }}
+                className="text-black font-bold hover:underline cursor-pointer"
+              >
+                Hiện lại
+              </button>
+            </div>
+          )}
+
+          {/* Top Header: Company info + Save bookmark & Dismiss */}
           <div className="flex items-center justify-between gap-3 mb-2.5">
             <div className="flex items-center gap-2.5 min-w-0 flex-1">
               <CompanyOrPlatformLogo
@@ -107,7 +168,26 @@ export default function JobCard({
               </div>
             </div>
 
-            <div className="shrink-0">
+            <div className="flex items-center gap-1 shrink-0">
+              <button
+                type="button"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleDismiss(job.id);
+                }}
+                className={`p-2 rounded-xl transition-colors cursor-pointer ${
+                  dismissed
+                    ? "text-black bg-neutral-200"
+                    : "text-neutral-400 hover:text-black hover:bg-neutral-100"
+                }`}
+                title={dismissed ? "Hiện lại tin tuyển dụng này" : "Ẩn tin tuyển dụng này khỏi danh sách"}
+              >
+                {dismissed ? (
+                  <EyeIcon className="h-4 w-4" />
+                ) : (
+                  <EyeSlashIcon className="h-4 w-4" />
+                )}
+              </button>
               <SaveJobButton jobId={job.id} />
             </div>
           </div>
@@ -336,6 +416,28 @@ export default function JobCard({
             >
               <span>👁️ Xem nhanh</span>
             </button>
+
+            {/* Application Tracker Button */}
+            {applied ? (
+              <button
+                type="button"
+                onClick={() => setStageModalOpen(true)}
+                className="inline-flex items-center gap-1 text-[11px] font-bold px-2.5 py-1.5 rounded-xl transition-all cursor-pointer bg-black text-white hover:bg-neutral-800 shadow-2xs"
+                title="Nhấn để cập nhật tiến độ nộp đơn hoặc ghi chú"
+              >
+                <ClipboardDocumentCheckIcon className="h-3.5 w-3.5 text-white" />
+                <span>✓ {stageLabels[appliedRecord?.stage || "submitted"]}</span>
+              </button>
+            ) : (
+              <button
+                type="button"
+                onClick={() => toggleApplied(job.id)}
+                className="inline-flex items-center gap-1 text-[11px] font-semibold text-neutral-700 hover:text-black bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-2.5 py-1.5 rounded-xl transition-colors cursor-pointer"
+                title="Đánh dấu đã nộp đơn để theo dõi tiến độ"
+              >
+                <span>📝 Đã nộp?</span>
+              </button>
+            )}
 
             <button
               type="button"
@@ -690,6 +792,97 @@ export default function JobCard({
                 >
                   <span>Chi tiết đầy đủ →</span>
                 </Link>
+              </div>
+            </div>
+          </div>
+        </div>,
+        document.body
+      )}
+
+      {/* Application Stage & Private Notes Tracker Modal */}
+      {stageModalOpen && mounted && createPortal(
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+          <div
+            className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
+            onClick={() => setStageModalOpen(false)}
+          />
+          <div className="relative w-full max-w-md rounded-3xl bg-white shadow-2xl border border-neutral-200 p-6 z-10 space-y-4 animate-fadeIn">
+            <div className="flex items-center justify-between pb-3 border-b border-neutral-200">
+              <div className="flex items-center gap-2">
+                <span className="text-xl">📝</span>
+                <div>
+                  <h4 className="font-bold text-black text-sm">Quản lý Tiến độ Ứng tuyển</h4>
+                  <p className="text-[11px] text-neutral-500 line-clamp-1">{job.title}</p>
+                </div>
+              </div>
+              <button
+                type="button"
+                onClick={() => setStageModalOpen(false)}
+                className="p-1 rounded-lg text-neutral-400 hover:text-black cursor-pointer"
+              >
+                <XMarkIcon className="h-5 w-5" />
+              </button>
+            </div>
+
+            <div className="space-y-3.5 text-xs">
+              <div>
+                <label className="font-bold text-black block mb-1.5">Trạng thái hồ sơ:</label>
+                <div className="grid grid-cols-2 gap-2">
+                  {(["submitted", "interviewing", "offer", "rejected"] as ApplicationStage[]).map((st) => (
+                    <button
+                      key={st}
+                      type="button"
+                      onClick={() => setSelectedStage(st)}
+                      className={`p-2 rounded-xl text-xs font-bold border transition-all text-center cursor-pointer ${
+                        selectedStage === st
+                          ? "bg-black text-white border-black shadow-xs"
+                          : "bg-neutral-50 text-neutral-800 border-neutral-200 hover:bg-neutral-100"
+                      }`}
+                    >
+                      {stageLabels[st]}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <label className="font-bold text-black block mb-1.5">Ghi chú riêng của bạn:</label>
+                <textarea
+                  rows={3}
+                  value={customNotes}
+                  onChange={(e) => setCustomNotes(e.target.value)}
+                  placeholder="Ví dụ: Đã gửi CV cho HR, hẹn phỏng vấn vòng 1 lúc 14h thứ Năm..."
+                  className="w-full p-2.5 rounded-xl bg-neutral-50 border border-neutral-300 text-xs focus:outline-none focus:ring-1 focus:ring-black text-black font-medium"
+                />
+              </div>
+
+              {appliedRecord?.appliedAt && (
+                <p className="text-[11px] text-neutral-500">
+                  Ngày bắt đầu theo dõi: {new Date(appliedRecord.appliedAt).toLocaleDateString("vi-VN")} {new Date(appliedRecord.appliedAt).toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" })}
+                </p>
+              )}
+
+              <div className="flex items-center justify-between pt-2 border-t border-neutral-200">
+                <button
+                  type="button"
+                  onClick={() => {
+                    removeApplied(job.id);
+                    setStageModalOpen(false);
+                  }}
+                  className="text-xs font-semibold text-neutral-500 hover:text-black hover:underline cursor-pointer"
+                >
+                  Xóa khỏi danh sách đã nộp
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    markApplied(job.id, selectedStage, customNotes);
+                    setStageModalOpen(false);
+                  }}
+                  className="px-4 py-2 rounded-xl bg-black text-white text-xs font-bold hover:bg-neutral-800 cursor-pointer shadow-xs"
+                >
+                  Lưu thay đổi
+                </button>
               </div>
             </div>
           </div>

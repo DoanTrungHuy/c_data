@@ -10,10 +10,137 @@ import {
   DocumentTextIcon,
   ArrowRightIcon,
   LightBulbIcon,
+  ShieldCheckIcon,
+  ExclamationTriangleIcon,
+  HandThumbUpIcon,
+  ScaleIcon,
 } from "@heroicons/react/24/outline";
 
 interface CvSkillGapAnalyzerProps {
   job: Job;
+}
+
+interface RedFlag {
+  title: string;
+  desc: string;
+  severity: "high" | "medium" | "info";
+}
+
+interface ProAdvantage {
+  title: string;
+  desc: string;
+}
+
+function analyzeJobRedFlagsAndPros(job: Job) {
+  const flags: RedFlag[] = [];
+  const pros: ProAdvantage[] = [];
+  const fullText = `${job.title} ${job.description || ""} ${job.requirements || ""} ${job.salary_text || ""}`.toLowerCase();
+
+  // 1. Red Flags Detection
+  if (
+    !job.salary_min &&
+    !job.salary_max &&
+    (!job.salary_text || /thỏa thuận|thoa thuan|cạnh tranh|hấp dẫn/i.test(job.salary_text))
+  ) {
+    flags.push({
+      title: "Mức lương chưa công khai con số rõ ràng",
+      desc: "Lương để 'Thỏa thuận', bạn nên chủ động chuẩn bị mức lương kỳ vọng dựa trên thị trường trước buổi phỏng vấn.",
+      severity: "medium",
+    });
+  }
+
+  if (/hết việc.*không hết giờ|chịu được áp lực cao|sẵn sàng ot|tăng ca|overtime/i.test(fullText)) {
+    flags.push({
+      title: "Khối lượng công việc & nguy cơ OT thường xuyên",
+      desc: "Tin tuyển dụng có nhắc đến áp lực cao hoặc tăng ca. Hãy hỏi rõ chế độ tính lương làm thêm giờ (150%, 200%).",
+      severity: "medium",
+    });
+  }
+
+  if (/như một gia đình|công ty là nhà|coi nhau như gia đình/i.test(fullText)) {
+    flags.push({
+      title: "Văn hóa 'Như người một nhà'",
+      desc: "Cần chú ý ranh giới giữa công việc và thời gian cá nhân để tránh làm việc ngoài giờ không đãi ngộ.",
+      severity: "info",
+    });
+  }
+
+  if (/giữ bằng|đặt cọc|nộp phí|đóng tiền|tiền cọc/i.test(fullText)) {
+    flags.push({
+      title: "CẢNH BÁO: Yêu cầu đặt cọc hoặc giữ giấy tờ",
+      desc: "Bộ luật Lao động nghiêm cấm giữ văn bằng gốc hoặc thu phí tuyển dụng. Tuyệt đối không nộp tiền.",
+      severity: "high",
+    });
+  }
+
+  // 2. Pros Detection
+  if (/bhxh|bhyt|bảo hiểm|bảo hiểm xã hội/i.test(fullText)) {
+    pros.push({
+      title: "Đầy đủ bảo hiểm theo luật",
+      desc: "Cam kết đóng BHXH, BHYT, BHTN đầy đủ theo quy định của nhà nước.",
+    });
+  }
+
+  if (/tháng 13|thưởng tết|thưởng kpi|thưởng hiệu quả|thưởng doanh số/i.test(fullText)) {
+    pros.push({
+      title: "Chính sách thưởng minh bạch",
+      desc: "Có thưởng tháng 13 hoặc thưởng KPI theo hiệu quả công việc.",
+    });
+  }
+
+  if (/macbook|laptop|máy tính|trang thiết bị|cấp máy/i.test(fullText)) {
+    pros.push({
+      title: "Cung cấp thiết bị làm việc",
+      desc: "Trang bị máy tính / thiết bị chuyên dụng phục vụ công việc.",
+    });
+  }
+
+  if (job.evidence_proof?.verified) {
+    pros.push({
+      title: "Dẫn chứng xác thực 100%",
+      desc: "Tin tuyển dụng đã được hệ thống thẩm định số điện thoại & cổng thông tin chính thức.",
+    });
+  }
+
+  if (job.tech_stack && job.tech_stack.length >= 2) {
+    pros.push({
+      title: `Công nghệ hiện đại (${job.tech_stack.slice(0, 3).join(", ")})`,
+      desc: "Tech stack rõ ràng, thuận lợi nâng cao kỹ năng lập trình và chuyên môn IT.",
+    });
+  }
+
+  // 3. Verdict
+  let verdict: {
+    status: "highly_recommended" | "consider" | "caution";
+    badgeText: string;
+    title: string;
+    desc: string;
+  };
+
+  if (flags.some((f) => f.severity === "high")) {
+    verdict = {
+      status: "caution",
+      badgeText: "⚠️ CẢNH BÁO RỦI RO",
+      title: "CẦN THẬN TRỌNG CAO KHI ỨNG TUYỂN",
+      desc: "Tin có dấu hiệu yêu cầu chi phí hoặc giữ bằng gốc. Hãy tìm hiểu kỹ trước khi gửi bất kỳ thông tin nhạy cảm nào.",
+    };
+  } else if (flags.length <= 1 && pros.length >= 2) {
+    verdict = {
+      status: "highly_recommended",
+      badgeText: "💎 RẤT ĐÁNG ỨNG TUYỂN (TIER A)",
+      title: "MÔI TRƯỜNG & ĐÃI NGỘ RÕ RÀNG",
+      desc: "Vị trí có chính sách đãi ngộ tốt, môi trường làm việc rõ ràng và thông tin đăng tuyển minh bạch.",
+    };
+  } else {
+    verdict = {
+      status: "consider",
+      badgeText: "⚖️ TIỀM NĂNG - HỎI KỸ KHI DEAL (TIER B)",
+      title: "CƠ HỘI NGHỀ NGHIỆP ĐẦY TRIỂN VỌNG",
+      desc: "Cơ hội tốt cho chuyên môn, hãy chuẩn bị các câu hỏi về chế độ đãi ngộ và lộ trình thăng tiến khi gặp nhà tuyển dụng.",
+    };
+  }
+
+  return { flags, pros, verdict };
 }
 
 export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
@@ -41,6 +168,8 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
     }
     return Array.from(list);
   }, [job]);
+
+  const audit = useMemo(() => analyzeJobRedFlagsAndPros(job), [job]);
 
   const analysis = useMemo(() => {
     if (!cvText.trim()) return null;
@@ -85,13 +214,13 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
           </div>
           <div>
             <h3 className="text-base sm:text-xl font-black text-black flex items-center gap-2">
-              <span>Trình So Khớp CV & Phân Tích Lỗ Hổng Kỹ Năng ATS</span>
+              <span>Trình So Khớp CV & Thẩm Định Đãi Ngộ AI</span>
               <span className="text-[10px] bg-neutral-100 text-black border border-neutral-300 font-bold px-2 py-0.5 rounded-full uppercase">
-                ATS Scanner
+                ATS &amp; Risk Scanner
               </span>
             </h3>
             <p className="text-xs text-neutral-600 mt-0.5">
-              Dán đoạn trích CV hoặc kỹ năng của bạn để đối soát mức độ tương thích trước khi nộp hồ sơ
+              Đánh giá điểm cộng, cảnh báo rủi ro (Red Flags) và đối soát từ khóa CV chuẩn ATS
             </p>
           </div>
         </div>
@@ -104,6 +233,82 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
           <DocumentTextIcon className="h-4 w-4" />
           <span>Dán mẫu thử nghiệm</span>
         </button>
+      </div>
+
+      {/* AI Hiring Verdict & Job Audit Banner (Inspired by DrJonoG/job_search) */}
+      <div className="p-4 sm:p-5 rounded-2xl bg-neutral-50 border border-neutral-200 space-y-4">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pb-3 border-b border-neutral-200">
+          <div className="flex items-center gap-2.5">
+            <span className="text-2xl">
+              {audit.verdict.status === "caution" ? "⚠️" : audit.verdict.status === "highly_recommended" ? "💎" : "⚖️"}
+            </span>
+            <div>
+              <span className="text-[10px] uppercase font-bold text-neutral-500 tracking-wider block">
+                Đánh giá khuyến nghị nộp đơn:
+              </span>
+              <h4 className="text-sm sm:text-base font-black text-black">
+                {audit.verdict.title}
+              </h4>
+            </div>
+          </div>
+          <span className="inline-flex items-center px-3 py-1 rounded-xl text-xs font-black bg-black text-white self-start sm:self-auto">
+            {audit.verdict.badgeText}
+          </span>
+        </div>
+        <p className="text-xs text-neutral-600 leading-relaxed">
+          {audit.verdict.desc}
+        </p>
+
+        {/* 2-Column: Red Flags vs Pros */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">
+          {/* Pros */}
+          <div className="p-3.5 rounded-xl sm:rounded-2xl bg-white border border-neutral-200 space-y-2">
+            <span className="font-bold text-black text-xs flex items-center gap-1.5">
+              <HandThumbUpIcon className="h-4 w-4 text-black" />
+              <span>Điểm cộng &amp; Quyền lợi nổi bật ({audit.pros.length}):</span>
+            </span>
+            {audit.pros.length > 0 ? (
+              <div className="space-y-1.5 pt-1">
+                {audit.pros.map((p, idx) => (
+                  <div key={idx} className="p-2 rounded-lg bg-neutral-50 border border-neutral-200">
+                    <p className="font-bold text-neutral-900 text-[11px] flex items-center gap-1">
+                      <span>✓</span> {p.title}
+                    </p>
+                    <p className="text-[10px] text-neutral-600 mt-0.5 leading-relaxed">{p.desc}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-neutral-500 text-[11px] italic">
+                Chưa phát hiện quyền lợi đặc biệt nêu rõ trong tin.
+              </p>
+            )}
+          </div>
+
+          {/* Red Flags */}
+          <div className="p-3.5 rounded-xl sm:rounded-2xl bg-white border border-neutral-200 space-y-2">
+            <span className="font-bold text-black text-xs flex items-center gap-1.5">
+              <ExclamationTriangleIcon className="h-4 w-4 text-black" />
+              <span>Dấu hiệu cần lưu ý khi phỏng vấn ({audit.flags.length}):</span>
+            </span>
+            {audit.flags.length > 0 ? (
+              <div className="space-y-1.5 pt-1">
+                {audit.flags.map((f, idx) => (
+                  <div key={idx} className="p-2 rounded-lg bg-neutral-50 border border-neutral-200">
+                    <p className="font-bold text-neutral-900 text-[11px] flex items-center gap-1">
+                      <span>🚩</span> {f.title}
+                    </p>
+                    <p className="text-[10px] text-neutral-600 mt-0.5 leading-relaxed">{f.desc}</p>
+                  </div>
+                ))}
+              </div>
+            ) : (
+              <p className="text-neutral-800 text-[11px] font-bold">
+                🎉 Tuyệt vời! Không phát hiện điểm cảnh báo rủi ro nào trong tin tuyển dụng này.
+              </p>
+            )}
+          </div>
+        </div>
       </div>
 
       {/* Input area */}
