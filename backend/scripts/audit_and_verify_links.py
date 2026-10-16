@@ -46,6 +46,19 @@ def audit_job(idx_j):
             if not h1 or not has_detail:
                 return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "CareerViet 404 / Missing JD"}
             live_h1 = h1.get_text(strip=True)
+            if "không tìm thấy" in live_h1.lower() or "404" in live_h1.lower() or "đã hết hạn" in live_h1.lower():
+                return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Expired/Not found on site"}
+            
+            # Check title match
+            t1 = title.lower().replace(" ", "").replace("-", "").replace("/", "")
+            t2 = live_h1.lower().replace(" ", "").replace("-", "").replace("/", "")
+            if not ((t1 in t2) or (t2 in t1)):
+                return {"idx": idx, "title": title, "live_title": live_h1, "url": url, "valid": False, "reason": "Title mismatch"}
+            
+            proof_url = j.get("evidence_proof", {}).get("direct_url", "")
+            if proof_url and proof_url != url:
+                return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Proof URL does not match source URL"}
+
             return {"idx": idx, "title": title, "live_title": live_h1, "url": url, "valid": True}
         
         return {"idx": idx, "title": title, "url": url, "valid": True}
