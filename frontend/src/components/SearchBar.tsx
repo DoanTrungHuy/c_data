@@ -18,8 +18,8 @@ import { loadAllJobsForClient } from "@/lib/clientSearch";
 import { Job } from "@/types/job";
 import HighlightMatch, { stripTonesExact } from "@/components/HighlightMatch";
 
-const RECENT_SEARCHES_KEY = "vinhviec_recent_searches";
-const MAX_RECENT_SEARCHES = 6;
+// Clear legacy search history keys from browser storage once
+const LEGACY_RECENT_SEARCHES_KEY = "vinhviec_recent_searches";
 
 const POPULAR_HALONG_SEARCHES = [
   { label: "IT & Phần mềm Hạ Long", q: "IT", prov: "Quảng Ninh" },
@@ -56,9 +56,8 @@ export default function SearchBar({
   const [strictMode, setStrictMode] = useState(initialStrictMode);
   const [verifiedOnly, setVerifiedOnly] = useState(initialVerifiedOnly);
 
-  // Autocomplete & Search History State
+  // Autocomplete Suggestions State (No search history tracking)
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [recentSearches, setRecentSearches] = useState<string[]>([]);
   const [allJobs, setAllJobs] = useState<Job[]>([]);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
 
@@ -74,16 +73,11 @@ export default function SearchBar({
     setProvince(initialProvince);
   }, [initialProvince]);
 
-  // Load recent searches from localStorage
+  // Clean legacy search history from localStorage as requested
   useEffect(() => {
     try {
-      const stored = localStorage.getItem(RECENT_SEARCHES_KEY);
-      if (stored) {
-        const parsed = JSON.parse(stored);
-        if (Array.isArray(parsed)) {
-          setRecentSearches(parsed.slice(0, MAX_RECENT_SEARCHES));
-        }
-      }
+      localStorage.removeItem(LEGACY_RECENT_SEARCHES_KEY);
+      localStorage.removeItem("c_data_recent_searches");
     } catch {
       // Ignore localStorage errors
     }
@@ -115,42 +109,6 @@ export default function SearchBar({
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-
-  const saveRecentSearch = (searchTerm: string) => {
-    const term = searchTerm.trim();
-    if (!term) return;
-    try {
-      const updated = [
-        term,
-        ...recentSearches.filter((s) => s.toLowerCase() !== term.toLowerCase()),
-      ].slice(0, MAX_RECENT_SEARCHES);
-      setRecentSearches(updated);
-      localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
-    } catch {
-      // Ignore localStorage errors
-    }
-  };
-
-  const removeRecentSearch = (e: React.MouseEvent, item: string) => {
-    e.stopPropagation();
-    try {
-      const updated = recentSearches.filter((s) => s !== item);
-      setRecentSearches(updated);
-      localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
-    } catch {
-      // Ignore
-    }
-  };
-
-  const clearAllRecentSearches = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    try {
-      setRecentSearches([]);
-      localStorage.removeItem(RECENT_SEARCHES_KEY);
-    } catch {
-      // Ignore
-    }
-  };
 
   // Compute live suggestions when query is typed (>= 1 character)
   const suggestions = useMemo(() => {
@@ -207,44 +165,28 @@ export default function SearchBar({
   const flatActiveItems = useMemo(() => {
     const trimmed = query.trim();
     if (!trimmed) {
-      // Flatten recent and popular
-      const items: Array<{
-        label: string;
-        q: string;
-        prov?: string;
-        type: "recent" | "popular";
-      }> = [];
-      recentSearches.forEach((s) => {
-        items.push({ label: s, q: s, type: "recent" });
-      });
-      POPULAR_HALONG_SEARCHES.forEach((p) => {
-        items.push({ label: p.label, q: p.q, prov: p.prov, type: "popular" });
-      });
-      return items;
-    } else {
-      // Flatten suggestions
-      const items: Array<{
-        label: string;
-        q: string;
-        prov?: string;
-        type: "title" | "company" | "skill";
-      }> = [];
-      suggestions.titles.forEach((t) =>
-        items.push({ label: t.text, q: t.text, type: "title" })
-      );
-      suggestions.companies.forEach((c) =>
-        items.push({ label: c.text, q: c.text, type: "company" })
-      );
-      suggestions.skills.forEach((s) =>
-        items.push({ label: s.text, q: s.text, type: "skill" })
-      );
-      return items;
+      return [];
     }
-  }, [query, recentSearches, suggestions]);
+    const items: Array<{
+      label: string;
+      q: string;
+      prov?: string;
+      type: "title" | "company" | "skill";
+    }> = [];
+    suggestions.titles.forEach((t) =>
+      items.push({ label: t.text, q: t.text, type: "title" })
+    );
+    suggestions.companies.forEach((c) =>
+      items.push({ label: c.text, q: c.text, type: "company" })
+    );
+    suggestions.skills.forEach((s) =>
+      items.push({ label: s.text, q: s.text, type: "skill" })
+    );
+    return items;
+  }, [query, suggestions]);
 
   const executeSearch = (targetQuery: string, targetProvince?: string) => {
     setIsDropdownOpen(false);
-    saveRecentSearch(targetQuery);
 
     const params = new URLSearchParams();
     if (targetQuery.trim()) params.set("q", targetQuery.trim());
@@ -331,10 +273,14 @@ export default function SearchBar({
               value={query}
               onChange={(e) => {
                 setQuery(e.target.value);
-                setIsDropdownOpen(true);
+                setIsDropdownOpen(Boolean(e.target.value.trim()));
                 setHighlightedIndex(-1);
               }}
-              onFocus={() => setIsDropdownOpen(true)}
+              onFocus={() => {
+                if (query.trim()) {
+                  setIsDropdownOpen(true);
+                }
+              }}
               onKeyDown={handleKeyDown}
               placeholder="Chức danh, vị trí, kỹ năng (IT, Kế toán, Khách sạn...)"
               className="w-full pl-10 pr-9 py-3 text-sm sm:text-base text-neutral-900 placeholder-neutral-400 bg-transparent rounded-xl focus:outline-none font-medium"
@@ -474,86 +420,11 @@ export default function SearchBar({
         </div>
       </form>
 
-      {/* Autocomplete & Recent Search Dropdown */}
-      {isDropdownOpen && (
+      {/* Autocomplete Suggestions Dropdown (Chỉ hiển thị khi đang gõ từ khóa) */}
+      {isDropdownOpen && Boolean(query.trim()) && (
         <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl border border-neutral-300 shadow-xl z-50 overflow-hidden divide-y divide-neutral-100 animate-fadeIn text-xs sm:text-sm">
-          {!query.trim() ? (
-            /* Mode 1: Empty input - show Recent Searches & Trending */
-            <div className="p-3 sm:p-4 space-y-4">
-              {recentSearches.length > 0 && (
-                <div>
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider flex items-center gap-1.5">
-                      <ClockIcon className="h-3.5 w-3.5 text-neutral-400" />
-                      Lịch sử tìm kiếm gần đây
-                    </span>
-                    <button
-                      type="button"
-                      onClick={clearAllRecentSearches}
-                      className="text-[11px] font-semibold text-neutral-400 hover:text-black transition-colors cursor-pointer"
-                    >
-                      Xóa tất cả
-                    </button>
-                  </div>
-
-                  <div className="space-y-1">
-                    {recentSearches.map((term, idx) => (
-                      <div
-                        key={term}
-                        onClick={() => {
-                          setQuery(term);
-                          executeSearch(term);
-                        }}
-                        className={`flex items-center justify-between p-2 rounded-xl cursor-pointer transition-colors ${
-                          highlightedIndex === idx
-                            ? "bg-neutral-100 font-bold text-black"
-                            : "hover:bg-neutral-50 text-neutral-800"
-                        }`}
-                      >
-                        <div className="flex items-center gap-2.5 truncate">
-                          <ClockIcon className="h-4 w-4 text-neutral-400 shrink-0" />
-                          <span className="truncate">{term}</span>
-                        </div>
-                        <button
-                          type="button"
-                          onClick={(e) => removeRecentSearch(e, term)}
-                          className="p-1 text-neutral-400 hover:text-black rounded-md cursor-pointer"
-                          title="Xóa mục này"
-                        >
-                          <XMarkIcon className="h-3.5 w-3.5" />
-                        </button>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Trending Quảng Ninh tags */}
-              <div>
-                <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider flex items-center gap-1.5 mb-2.5">
-                  <FireIcon className="h-3.5 w-3.5 text-black" />
-                  Tìm kiếm nổi bật tại Quảng Ninh
-                </span>
-                <div className="flex flex-wrap gap-2">
-                  {POPULAR_HALONG_SEARCHES.map((item) => (
-                    <button
-                      key={item.label}
-                      type="button"
-                      onClick={() => {
-                        setQuery(item.q);
-                        if (item.prov) setProvince(item.prov);
-                        executeSearch(item.q, item.prov);
-                      }}
-                      className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-neutral-900 border border-neutral-200 hover:border-black text-xs font-medium transition-all cursor-pointer"
-                    >
-                      <span>{item.label}</span>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ) : hasSuggestions ? (
-            /* Mode 2: Query typed - show live Suggestions with counts */
+          {hasSuggestions ? (
+            /* Gợi ý autocomplete trực tiếp theo từ khóa đang gõ */
             <div className="p-2 sm:p-3 space-y-3 max-h-[380px] overflow-y-auto">
               {/* Job Titles Section */}
               {suggestions.titles.length > 0 && (

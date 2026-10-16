@@ -61,7 +61,7 @@ export default function InterviewPrepKit({ job }: InterviewPrepKitProps) {
     const company = job.company_name || "Nhà tuyển dụng";
     const techs = job.tech_stack || [];
     const mainTech = techs.length > 0 ? techs[0] : "chuyên môn của bạn";
-    const loc = job.location_district || job.location_province || "Quảng Ninh";
+    const loc = job.location_district || job.location_province || "Toàn quốc";
 
     return [
       {

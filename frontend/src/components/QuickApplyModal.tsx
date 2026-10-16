@@ -54,7 +54,7 @@ export default function QuickApplyModal({
     const company = job.company_name || "Quý Công ty";
     const title = job.title || "vị trí tuyển dụng";
     const techs = (job.tech_stack || []).slice(0, 3).join(", ");
-    const loc = job.location_district || job.location_province || "Hạ Long, Quảng Ninh";
+    const loc = job.location_district || job.location_province || job.location_full || "Việt Nam";
 
     return `Kính gửi: Bộ phận Tuyển dụng ${company},
 

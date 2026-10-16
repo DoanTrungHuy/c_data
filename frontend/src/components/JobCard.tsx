@@ -102,7 +102,7 @@ export default function JobCard({
                   <ClockIcon className="h-3.5 w-3.5 text-neutral-400 shrink-0" />
                   <span className="shrink-0">{relativeDate}</span>
                   <span>•</span>
-                  <span className="truncate">{job.location_province || "Quảng Ninh"}</span>
+                  <span className="truncate">{job.location_province || job.location_full || "Toàn quốc"}</span>
                 </div>
               </div>
             </div>
@@ -463,7 +463,7 @@ export default function JobCard({
                 </span>
                 <span className="inline-flex items-center gap-1 px-3 py-1 rounded-lg bg-neutral-100 text-neutral-800 text-xs font-medium border border-neutral-200">
                   <MapPinIcon className="h-4 w-4 text-neutral-600" />
-                  {job.location_province || "Quảng Ninh"} {job.location_district ? `(${job.location_district})` : ""}
+                  {job.location_province || job.location_full || "Toàn quốc"} {job.location_district ? `(${job.location_district})` : ""}
                 </span>
               </div>
             </div>

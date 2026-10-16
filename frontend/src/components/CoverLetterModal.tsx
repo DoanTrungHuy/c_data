@@ -74,7 +74,7 @@ export default function CoverLetterModal({
 
     return `${greeting}
 
-Tên tôi là ${candidateName} (SĐT: ${candidatePhone}). Qua nền tảng việc làm VịnhViệc, tôi được biết Quý công ty hiện đang có nhu cầu tuyển dụng vị trí: "${job.title}" tại khu vực ${job.location_province || "Hạ Long, Quảng Ninh"}.
+Tên tôi là ${candidateName} (SĐT: ${candidatePhone}). Qua nền tảng việc làm VịnhViệc, tôi được biết Quý công ty hiện đang có nhu cầu tuyển dụng vị trí: "${job.title}" tại khu vực ${job.location_province || job.location_full || "Việt Nam"}.
 
 Nhận thấy bản thân có định hướng gắn bó lâu dài tại Hạ Long cùng các kỹ năng kỹ thuật phù hợp với yêu cầu tuyển dụng, tôi xin gửi hồ sơ ứng tuyển vào vị trí này.
 

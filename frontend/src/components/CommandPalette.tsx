@@ -124,7 +124,7 @@ export default function CommandPalette({ isOpen, onClose }: CommandPaletteProps)
         type: "job" as const,
         id: String(j.id),
         title: j.title,
-        subtitle: `${j.company_name} • ${j.location_district || j.location_province || "Quảng Ninh"}`,
+        subtitle: `${j.company_name} • ${j.location_district || j.location_province || "Toàn quốc"}`,
         meta: j.salary_text || "Thỏa thuận",
         action: () => router.push(`/jobs/${j.id}`),
       }));
@@ -246,7 +246,7 @@ export default function CommandPalette({ isOpen, onClose }: CommandPaletteProps)
                           isSelected ? "text-neutral-300" : "text-neutral-500"
                         }`}
                       >
-                        {job.company_name} • {job.location_district || job.location_province || "Quảng Ninh"}
+                        {job.company_name} • {job.location_district || job.location_province || "Toàn quốc"}
                       </p>
                     </div>
 

@@ -18,7 +18,7 @@ export default function SalaryBenchmarkWidget({ job }: SalaryBenchmarkWidgetProp
   const benchmarkData = useMemo(() => {
     const min = job.salary_min || 0;
     const max = job.salary_max || 0;
-    const loc = job.location_province || "Quảng Ninh";
+    const loc = job.location_province || "Toàn quốc";
 
     // Estimated mid point
     let midSalary = 12; // default 12m
@@ -30,18 +30,18 @@ export default function SalaryBenchmarkWidget({ job }: SalaryBenchmarkWidgetProp
       midSalary = Math.round(max / 1000000);
     }
 
-    // Benchmark comparison against Ha Long average (11.5M VNĐ)
-    const halongAvg = 11.5;
-    const diffPct = Math.round(((midSalary - halongAvg) / halongAvg) * 100);
+    // Benchmark comparison against market average (11.5M VNĐ)
+    const marketAvg = 11.5;
+    const diffPct = Math.round(((midSalary - marketAvg) / marketAvg) * 100);
 
     let percentile = 50;
     let tierText = "Mức lương tiêu chuẩn thị trường";
     if (midSalary >= 30) {
       percentile = 95;
-      tierText = "Top 5% thu nhập cao nhất tại Quảng Ninh";
+      tierText = `Top 5% thu nhập cao nhất tại ${loc}`;
     } else if (midSalary >= 20) {
       percentile = 85;
-      tierText = "Top 15% thu nhập hấp dẫn tại địa bàn";
+      tierText = `Top 15% thu nhập hấp dẫn tại ${loc}`;
     } else if (midSalary >= 15) {
       percentile = 70;
       tierText = "Top 30% mức lương cạnh tranh tại Hạ Long";
