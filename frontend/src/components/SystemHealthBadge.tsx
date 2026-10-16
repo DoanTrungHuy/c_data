@@ -91,10 +91,10 @@ export default function SystemHealthBadge() {
                 <ClockIcon className="h-5 w-5 text-black shrink-0 mt-0.5" />
                 <div>
                   <p className="font-bold text-black">
-                    Cập nhật liên tục 30 phút / lần & Cloud Actions 6h
+                    Cập nhật tự động định kỳ mỗi 30 phút
                   </p>
                   <p className="text-neutral-600 text-[11px] mt-0.5 leading-relaxed">
-                    Harvester daemon chạy nền tự động dò tìm tin tuyển dụng mới tại Hạ Long và đồng bộ trực tiếp lên GitHub Pages.
+                    Hệ thống Harvester trên GitHub Actions & Daemon tự động quét tin mới tại Hạ Long, kiểm định chất lượng và đồng bộ trực tiếp lên GitHub Pages.
                   </p>
                 </div>
               </div>
