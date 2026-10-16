@@ -1,13 +1,34 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import {
   MagnifyingGlassIcon,
   MapPinIcon,
   XMarkIcon,
+  ClockIcon,
+  FireIcon,
+  BriefcaseIcon,
+  BuildingOfficeIcon,
+  BoltIcon,
+  TrashIcon,
 } from "@heroicons/react/24/outline";
 import { VIETNAM_PROVINCES } from "@/constants/vietnamData";
+import { loadAllJobsForClient } from "@/lib/clientSearch";
+import { Job } from "@/types/job";
+import HighlightMatch, { stripTonesExact } from "@/components/HighlightMatch";
+
+const RECENT_SEARCHES_KEY = "vinhviec_recent_searches";
+const MAX_RECENT_SEARCHES = 6;
+
+const POPULAR_HALONG_SEARCHES = [
+  { label: "IT & Phần mềm Hạ Long", q: "IT", prov: "Quảng Ninh" },
+  { label: "Khách Sạn & Resort Bãi Cháy", q: "Khách Sạn", prov: "Quảng Ninh" },
+  { label: "Kế toán tổng hợp", q: "Kế Toán", prov: "Quảng Ninh" },
+  { label: "Cảng Cái Lân & KCN", q: "Cái Lân", prov: "Quảng Ninh" },
+  { label: "Tập đoàn Than - TKV", q: "Khai Thác", prov: "Quảng Ninh" },
+  { label: "Làm việc từ xa (Remote)", q: "Remote", prov: "" },
+];
 
 interface SearchBarProps {
   initialQuery?: string;
@@ -35,7 +56,16 @@ export default function SearchBar({
   const [strictMode, setStrictMode] = useState(initialStrictMode);
   const [verifiedOnly, setVerifiedOnly] = useState(initialVerifiedOnly);
 
-  // Đồng bộ giá trị khởi tạo khi URL thay đổi
+  // Autocomplete & Search History State
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [allJobs, setAllJobs] = useState<Job[]>([]);
+  const [highlightedIndex, setHighlightedIndex] = useState(-1);
+
+  const containerRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  // Sync initial query & province
   useEffect(() => {
     setQuery(initialQuery);
   }, [initialQuery]);
@@ -44,11 +74,182 @@ export default function SearchBar({
     setProvince(initialProvince);
   }, [initialProvince]);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  // Load recent searches from localStorage
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem(RECENT_SEARCHES_KEY);
+      if (stored) {
+        const parsed = JSON.parse(stored);
+        if (Array.isArray(parsed)) {
+          setRecentSearches(parsed.slice(0, MAX_RECENT_SEARCHES));
+        }
+      }
+    } catch {
+      // Ignore localStorage errors
+    }
+  }, []);
+
+  // Preload jobs for real-time suggestions
+  useEffect(() => {
+    loadAllJobsForClient()
+      .then((jobs) => {
+        if (Array.isArray(jobs)) {
+          setAllJobs(jobs);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
+  // Close dropdown on click outside
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(e.target as Node)
+      ) {
+        setIsDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
+  const saveRecentSearch = (searchTerm: string) => {
+    const term = searchTerm.trim();
+    if (!term) return;
+    try {
+      const updated = [
+        term,
+        ...recentSearches.filter((s) => s.toLowerCase() !== term.toLowerCase()),
+      ].slice(0, MAX_RECENT_SEARCHES);
+      setRecentSearches(updated);
+      localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
+    } catch {
+      // Ignore localStorage errors
+    }
+  };
+
+  const removeRecentSearch = (e: React.MouseEvent, item: string) => {
+    e.stopPropagation();
+    try {
+      const updated = recentSearches.filter((s) => s !== item);
+      setRecentSearches(updated);
+      localStorage.setItem(RECENT_SEARCHES_KEY, JSON.stringify(updated));
+    } catch {
+      // Ignore
+    }
+  };
+
+  const clearAllRecentSearches = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    try {
+      setRecentSearches([]);
+      localStorage.removeItem(RECENT_SEARCHES_KEY);
+    } catch {
+      // Ignore
+    }
+  };
+
+  // Compute live suggestions when query is typed (>= 1 character)
+  const suggestions = useMemo(() => {
+    const trimmed = query.trim();
+    if (!trimmed || allJobs.length === 0) {
+      return { titles: [], companies: [], skills: [] };
+    }
+
+    const normQuery = stripTonesExact(trimmed).toLowerCase();
+    const titleMap = new Map<string, number>();
+    const companyMap = new Map<string, number>();
+    const skillMap = new Map<string, number>();
+
+    for (const job of allJobs) {
+      // Match Title
+      if (job.title) {
+        const normTitle = stripTonesExact(job.title).toLowerCase();
+        if (normTitle.includes(normQuery)) {
+          titleMap.set(job.title, (titleMap.get(job.title) || 0) + 1);
+        }
+      }
+      // Match Company
+      if (job.company_name) {
+        const normComp = stripTonesExact(job.company_name).toLowerCase();
+        if (normComp.includes(normQuery)) {
+          companyMap.set(job.company_name, (companyMap.get(job.company_name) || 0) + 1);
+        }
+      }
+      // Match Tech Stack
+      if (Array.isArray(job.tech_stack)) {
+        for (const skill of job.tech_stack) {
+          const normSkill = stripTonesExact(skill).toLowerCase();
+          if (normSkill.includes(normQuery)) {
+            skillMap.set(skill, (skillMap.get(skill) || 0) + 1);
+          }
+        }
+      }
+    }
+
+    return {
+      titles: Array.from(titleMap.entries())
+        .slice(0, 4)
+        .map(([text, count]) => ({ text, count })),
+      companies: Array.from(companyMap.entries())
+        .slice(0, 3)
+        .map(([text, count]) => ({ text, count })),
+      skills: Array.from(skillMap.entries())
+        .slice(0, 3)
+        .map(([text, count]) => ({ text, count })),
+    };
+  }, [query, allJobs]);
+
+  // Flatten active suggestions for keyboard navigation
+  const flatActiveItems = useMemo(() => {
+    const trimmed = query.trim();
+    if (!trimmed) {
+      // Flatten recent and popular
+      const items: Array<{
+        label: string;
+        q: string;
+        prov?: string;
+        type: "recent" | "popular";
+      }> = [];
+      recentSearches.forEach((s) => {
+        items.push({ label: s, q: s, type: "recent" });
+      });
+      POPULAR_HALONG_SEARCHES.forEach((p) => {
+        items.push({ label: p.label, q: p.q, prov: p.prov, type: "popular" });
+      });
+      return items;
+    } else {
+      // Flatten suggestions
+      const items: Array<{
+        label: string;
+        q: string;
+        prov?: string;
+        type: "title" | "company" | "skill";
+      }> = [];
+      suggestions.titles.forEach((t) =>
+        items.push({ label: t.text, q: t.text, type: "title" })
+      );
+      suggestions.companies.forEach((c) =>
+        items.push({ label: c.text, q: c.text, type: "company" })
+      );
+      suggestions.skills.forEach((s) =>
+        items.push({ label: s.text, q: s.text, type: "skill" })
+      );
+      return items;
+    }
+  }, [query, recentSearches, suggestions]);
+
+  const executeSearch = (targetQuery: string, targetProvince?: string) => {
+    setIsDropdownOpen(false);
+    saveRecentSearch(targetQuery);
+
     const params = new URLSearchParams();
-    if (query.trim()) params.set("q", query.trim());
-    if (province) params.set("province", province);
+    if (targetQuery.trim()) params.set("q", targetQuery.trim());
+    const effProvince = targetProvince !== undefined ? targetProvince : province;
+    if (effProvince) params.set("province", effProvince);
     if (liveCrawl) params.set("live", "true");
     if (strictMode) params.set("strict_mode", "true");
     if (verifiedOnly) params.set("verified_only", "true");
@@ -56,12 +257,60 @@ export default function SearchBar({
     router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
   };
 
-  const clearQuery = () => {
-    setQuery("");
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (
+      highlightedIndex >= 0 &&
+      highlightedIndex < flatActiveItems.length
+    ) {
+      const item = flatActiveItems[highlightedIndex];
+      setQuery(item.q);
+      if (item.prov !== undefined) setProvince(item.prov);
+      executeSearch(item.q, item.prov);
+    } else {
+      executeSearch(query, province);
+    }
   };
 
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (!isDropdownOpen) {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        setIsDropdownOpen(true);
+      }
+      return;
+    }
+
+    if (e.key === "ArrowDown") {
+      e.preventDefault();
+      setHighlightedIndex((prev) =>
+        prev < flatActiveItems.length - 1 ? prev + 1 : 0
+      );
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      setHighlightedIndex((prev) =>
+        prev > 0 ? prev - 1 : flatActiveItems.length - 1
+      );
+    } else if (e.key === "Escape") {
+      setIsDropdownOpen(false);
+      setHighlightedIndex(-1);
+    }
+  };
+
+  const clearQuery = () => {
+    setQuery("");
+    setHighlightedIndex(-1);
+    if (inputRef.current) {
+      inputRef.current.focus();
+    }
+  };
+
+  const hasSuggestions =
+    suggestions.titles.length > 0 ||
+    suggestions.companies.length > 0 ||
+    suggestions.skills.length > 0;
+
   return (
-    <div className="relative w-full">
+    <div ref={containerRef} className="relative w-full">
       <form
         onSubmit={handleSubmit}
         className={`w-full ${
@@ -77,11 +326,19 @@ export default function SearchBar({
               <MagnifyingGlassIcon className="h-5 w-5 text-neutral-400" />
             </div>
             <input
+              ref={inputRef}
               type="text"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setIsDropdownOpen(true);
+                setHighlightedIndex(-1);
+              }}
+              onFocus={() => setIsDropdownOpen(true)}
+              onKeyDown={handleKeyDown}
               placeholder="Chức danh, vị trí, kỹ năng (IT, Kế toán, Khách sạn...)"
               className="w-full pl-10 pr-9 py-3 text-sm sm:text-base text-neutral-900 placeholder-neutral-400 bg-transparent rounded-xl focus:outline-none font-medium"
+              autoComplete="off"
             />
             {query && (
               <button
@@ -199,27 +456,14 @@ export default function SearchBar({
             <span className="text-[11px] font-medium text-neutral-400 shrink-0">
               Gợi ý:
             </span>
-            {[
-              { label: "IT Hạ Long", q: "IT", prov: "Quảng Ninh" },
-              { label: "Khách Sạn Bãi Cháy", q: "Khách Sạn", prov: "Quảng Ninh" },
-              { label: "Ngành Than", q: "Khai Thác", prov: "Quảng Ninh" },
-              { label: "Cảng Cái Lân", q: "Cái Lân", prov: "Quảng Ninh" },
-              { label: "FPT Telecom", q: "FPT", prov: "Quảng Ninh" },
-              { label: "Làm từ xa", q: "Remote", prov: "" },
-            ].map((chip) => (
+            {POPULAR_HALONG_SEARCHES.slice(0, 5).map((chip) => (
               <button
                 key={chip.label}
                 type="button"
                 onClick={() => {
                   setQuery(chip.q);
                   if (chip.prov) setProvince(chip.prov);
-                  const params = new URLSearchParams();
-                  if (chip.q.trim()) params.set("q", chip.q.trim());
-                  if (chip.prov) params.set("province", chip.prov);
-                  if (liveCrawl) params.set("live", "true");
-                  if (strictMode) params.set("strict_mode", "true");
-                  if (verifiedOnly) params.set("verified_only", "true");
-                  router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
+                  executeSearch(chip.q, chip.prov);
                 }}
                 className="shrink-0 px-2.5 py-1 rounded-lg bg-neutral-100 hover:bg-neutral-200 text-neutral-800 hover:text-black border border-neutral-200 hover:border-black text-[11px] font-medium transition-colors cursor-pointer"
               >
@@ -229,6 +473,216 @@ export default function SearchBar({
           </div>
         </div>
       </form>
+
+      {/* Autocomplete & Recent Search Dropdown */}
+      {isDropdownOpen && (
+        <div className="absolute left-0 right-0 top-full mt-2 bg-white rounded-2xl border border-neutral-300 shadow-xl z-50 overflow-hidden divide-y divide-neutral-100 animate-fadeIn text-xs sm:text-sm">
+          {!query.trim() ? (
+            /* Mode 1: Empty input - show Recent Searches & Trending */
+            <div className="p-3 sm:p-4 space-y-4">
+              {recentSearches.length > 0 && (
+                <div>
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider flex items-center gap-1.5">
+                      <ClockIcon className="h-3.5 w-3.5 text-neutral-400" />
+                      Lịch sử tìm kiếm gần đây
+                    </span>
+                    <button
+                      type="button"
+                      onClick={clearAllRecentSearches}
+                      className="text-[11px] font-semibold text-neutral-400 hover:text-black transition-colors cursor-pointer"
+                    >
+                      Xóa tất cả
+                    </button>
+                  </div>
+
+                  <div className="space-y-1">
+                    {recentSearches.map((term, idx) => (
+                      <div
+                        key={term}
+                        onClick={() => {
+                          setQuery(term);
+                          executeSearch(term);
+                        }}
+                        className={`flex items-center justify-between p-2 rounded-xl cursor-pointer transition-colors ${
+                          highlightedIndex === idx
+                            ? "bg-neutral-100 font-bold text-black"
+                            : "hover:bg-neutral-50 text-neutral-800"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5 truncate">
+                          <ClockIcon className="h-4 w-4 text-neutral-400 shrink-0" />
+                          <span className="truncate">{term}</span>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={(e) => removeRecentSearch(e, term)}
+                          className="p-1 text-neutral-400 hover:text-black rounded-md cursor-pointer"
+                          title="Xóa mục này"
+                        >
+                          <XMarkIcon className="h-3.5 w-3.5" />
+                        </button>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Trending Quảng Ninh tags */}
+              <div>
+                <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider flex items-center gap-1.5 mb-2.5">
+                  <FireIcon className="h-3.5 w-3.5 text-black" />
+                  Tìm kiếm nổi bật tại Quảng Ninh
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {POPULAR_HALONG_SEARCHES.map((item) => (
+                    <button
+                      key={item.label}
+                      type="button"
+                      onClick={() => {
+                        setQuery(item.q);
+                        if (item.prov) setProvince(item.prov);
+                        executeSearch(item.q, item.prov);
+                      }}
+                      className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-neutral-900 border border-neutral-200 hover:border-black text-xs font-medium transition-all cursor-pointer"
+                    >
+                      <span>{item.label}</span>
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ) : hasSuggestions ? (
+            /* Mode 2: Query typed - show live Suggestions with counts */
+            <div className="p-2 sm:p-3 space-y-3 max-h-[380px] overflow-y-auto">
+              {/* Job Titles Section */}
+              {suggestions.titles.length > 0 && (
+                <div>
+                  <span className="px-2 py-1 text-[11px] font-bold text-neutral-400 uppercase tracking-wider block">
+                    Vị trí / Chức danh công việc
+                  </span>
+                  <div className="space-y-0.5">
+                    {suggestions.titles.map((titleItem, idx) => (
+                      <div
+                        key={titleItem.text}
+                        onClick={() => {
+                          setQuery(titleItem.text);
+                          executeSearch(titleItem.text);
+                        }}
+                        className={`flex items-center justify-between p-2 rounded-xl cursor-pointer transition-colors ${
+                          highlightedIndex === idx
+                            ? "bg-neutral-100 font-bold text-black"
+                            : "hover:bg-neutral-50 text-neutral-900"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5 truncate min-w-0">
+                          <BriefcaseIcon className="h-4 w-4 text-neutral-500 shrink-0" />
+                          <HighlightMatch
+                            text={titleItem.text}
+                            query={query}
+                            className="truncate text-xs sm:text-sm font-medium"
+                          />
+                        </div>
+                        <span className="text-[11px] font-semibold text-neutral-500 shrink-0 pl-2">
+                          {titleItem.count} việc
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Companies Section */}
+              {suggestions.companies.length > 0 && (
+                <div>
+                  <span className="px-2 py-1 text-[11px] font-bold text-neutral-400 uppercase tracking-wider block">
+                    Doanh nghiệp & Đơn vị tuyển dụng
+                  </span>
+                  <div className="space-y-0.5">
+                    {suggestions.companies.map((compItem, idx) => {
+                      const itemIdx = suggestions.titles.length + idx;
+                      return (
+                        <div
+                          key={compItem.text}
+                          onClick={() => {
+                            setQuery(compItem.text);
+                            executeSearch(compItem.text);
+                          }}
+                          className={`flex items-center justify-between p-2 rounded-xl cursor-pointer transition-colors ${
+                            highlightedIndex === itemIdx
+                              ? "bg-neutral-100 font-bold text-black"
+                              : "hover:bg-neutral-50 text-neutral-900"
+                          }`}
+                        >
+                          <div className="flex items-center gap-2.5 truncate min-w-0">
+                            <BuildingOfficeIcon className="h-4 w-4 text-neutral-500 shrink-0" />
+                            <HighlightMatch
+                              text={compItem.text}
+                              query={query}
+                              className="truncate text-xs sm:text-sm font-medium"
+                            />
+                          </div>
+                          <span className="text-[11px] font-semibold text-neutral-500 shrink-0 pl-2">
+                            {compItem.count} việc
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+
+              {/* Skills Section */}
+              {suggestions.skills.length > 0 && (
+                <div>
+                  <span className="px-2 py-1 text-[11px] font-bold text-neutral-400 uppercase tracking-wider block">
+                    Kỹ năng &amp; Công nghệ
+                  </span>
+                  <div className="space-y-0.5">
+                    {suggestions.skills.map((skillItem, idx) => {
+                      const itemIdx =
+                        suggestions.titles.length +
+                        suggestions.companies.length +
+                        idx;
+                      return (
+                        <div
+                          key={skillItem.text}
+                          onClick={() => {
+                            setQuery(skillItem.text);
+                            executeSearch(skillItem.text);
+                          }}
+                          className={`flex items-center justify-between p-2 rounded-xl cursor-pointer transition-colors ${
+                            highlightedIndex === itemIdx
+                              ? "bg-neutral-100 font-bold text-black"
+                              : "hover:bg-neutral-50 text-neutral-900"
+                          }`}
+                        >
+                          <div className="flex items-center gap-2.5 truncate min-w-0">
+                            <BoltIcon className="h-4 w-4 text-neutral-500 shrink-0" />
+                            <HighlightMatch
+                              text={skillItem.text}
+                              query={query}
+                              className="truncate text-xs sm:text-sm font-medium"
+                            />
+                          </div>
+                          <span className="text-[11px] font-semibold text-neutral-500 shrink-0 pl-2">
+                            {skillItem.count} việc
+                          </span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+            </div>
+          ) : (
+            /* Mode 3: Query typed but no matches in local cache */
+            <div className="p-4 text-center text-neutral-500 text-xs sm:text-sm">
+              <p>Bấm Enter hoặc "Tìm việc" để tìm kiếm toàn diện cho "{query}"</p>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }

@@ -59,6 +59,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const tech_stack = searchParams?.get("tech_stack") || "";
   const sort_by = searchParams?.get("sort_by") || "";
   const strict_mode = searchParams?.get("strict_mode") === "true";
+  const verified_only = searchParams?.get("verified_only") === "true";
   const isSavedOnly = searchParams?.get("saved") === "true";
 
   const removeFilter = (key: string) => {
@@ -636,7 +637,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
           <div className="flex items-center gap-2 overflow-x-auto no-scrollbar w-full sm:w-auto py-0.5">
             <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider mr-1 shrink-0">
-              Ưu tiên:
+              Lọc nhanh:
             </span>
             <button
               type="button"
@@ -657,7 +658,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               }`}
             >
               <span>💎</span>
-              <span>Tin Thẩm Định Kim Cương</span>
+              <span>Kim Cương (≥85đ)</span>
             </button>
 
             <button
@@ -679,7 +680,96 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               }`}
             >
               <span>📍</span>
-              <span>Trọng Điểm Hạ Long & QN</span>
+              <span>Hạ Long & QN</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (salary_min === "20000000") {
+                  params.delete("salary_min");
+                } else {
+                  params.set("salary_min", "20000000");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                salary_min === "20000000"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>💰</span>
+              <span>Lương &gt; 20tr</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (q === "IT") {
+                  params.delete("q");
+                } else {
+                  params.set("q", "IT");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                q === "IT"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>💻</span>
+              <span>IT & Phần mềm</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (category === "Khách sạn" || q === "Khách sạn") {
+                  params.delete("category");
+                  if (q === "Khách sạn") params.delete("q");
+                } else {
+                  params.set("category", "Khách sạn");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                category === "Khách sạn" || q === "Khách sạn"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>🏨</span>
+              <span>Khách Sạn & Du Lịch</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (verified_only) {
+                  params.delete("verified_only");
+                } else {
+                  params.set("verified_only", "true");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                verified_only
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>🛡️</span>
+              <span>Đã xác thực</span>
             </button>
           </div>
 
@@ -711,7 +801,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           <div className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {initialData.items.map((job) => (
-                <JobCard key={job.id} job={job} />
+                <JobCard key={job.id} job={job} searchQuery={q} />
               ))}
             </div>
 

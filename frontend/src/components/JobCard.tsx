@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import {
   MapPinIcon,
   CurrencyDollarIcon,
@@ -25,17 +26,25 @@ import {
 import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
 import SaveJobButton from "@/components/SaveJobButton";
+import HighlightMatch from "@/components/HighlightMatch";
 import { useCompareJobs } from "@/lib/compareJobs";
 import { useUserSkills, evaluateJobMatch } from "@/lib/skillMatcher";
 
 interface JobCardProps {
   job: Job;
   featured?: boolean;
+  searchQuery?: string;
 }
 
-export default function JobCard({ job, featured = false }: JobCardProps) {
+export default function JobCard({
+  job,
+  featured = false,
+  searchQuery,
+}: JobCardProps) {
   const [previewOpen, setPreviewOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const searchParams = useSearchParams();
+  const effectiveQuery = searchQuery ?? (searchParams?.get("q") || "");
 
   useEffect(() => {
     setMounted(true);
@@ -87,7 +96,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
                   className="text-xs sm:text-sm font-bold text-neutral-900 truncate group-hover:text-black transition-colors"
                   title={job.company_name}
                 >
-                  {job.company_name}
+                  <HighlightMatch text={job.company_name} query={effectiveQuery} />
                 </p>
                 <div className="flex items-center gap-1.5 text-[11px] text-neutral-500 mt-0.5">
                   <ClockIcon className="h-3.5 w-3.5 text-neutral-400 shrink-0" />
@@ -160,7 +169,7 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
               href={`/jobs/${job.id}`}
               className="focus:outline-none focus:underline"
             >
-              {job.title}
+              <HighlightMatch text={job.title} query={effectiveQuery} />
             </Link>
           </h3>
 
@@ -306,7 +315,10 @@ export default function JobCard({ job, featured = false }: JobCardProps) {
           {/* Description snippet */}
           {job.description && (
             <p className="mt-2 text-xs text-neutral-500 line-clamp-2 leading-relaxed">
-              {truncateText(job.description.replace(/<[^>]*>?/gm, ""), 120)}
+              <HighlightMatch
+                text={truncateText(job.description.replace(/<[^>]*>?/gm, ""), 120)}
+                query={effectiveQuery}
+              />
             </p>
           )}
         </div>
