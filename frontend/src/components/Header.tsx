@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -8,15 +8,24 @@ import {
   XMarkIcon,
   BookmarkIcon,
   ArrowRightIcon,
+  MagnifyingGlassIcon,
 } from "@heroicons/react/24/outline";
 import CDataLogo from "@/components/CDataLogo";
 import { useSavedJobs } from "@/lib/savedJobs";
 import SystemHealthBadge from "@/components/SystemHealthBadge";
+import CommandPalette from "@/components/CommandPalette";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [commandPaletteOpen, setCommandPaletteOpen] = useState(false);
   const pathname = usePathname();
   const { count: savedCount } = useSavedJobs();
+
+  useEffect(() => {
+    const handleOpen = () => setCommandPaletteOpen(true);
+    window.addEventListener("open-command-palette", handleOpen);
+    return () => window.removeEventListener("open-command-palette", handleOpen);
+  }, []);
 
   const navigation = [
     { name: "Tìm việc làm", href: "/jobs" },
@@ -61,7 +70,21 @@ export default function Header() {
         </nav>
 
         {/* Desktop Actions */}
-        <div className="hidden md:flex items-center gap-3">
+        <div className="hidden md:flex items-center gap-2.5">
+          {/* Quick Spotlight Search Button */}
+          <button
+            type="button"
+            onClick={() => setCommandPaletteOpen(true)}
+            className="flex items-center gap-2 px-3 py-1.5 rounded-xl text-xs font-semibold text-neutral-600 hover:text-black bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 transition-colors cursor-pointer shadow-2xs"
+            title="Mở tìm kiếm nhanh (Phím tắt: Cmd+K hoặc Ctrl+K)"
+          >
+            <MagnifyingGlassIcon className="h-3.5 w-3.5 text-black" />
+            <span className="hidden lg:inline text-neutral-700">Tìm nhanh...</span>
+            <kbd className="px-1.5 py-0.5 rounded-md bg-white border border-neutral-300 text-[10px] font-mono font-bold text-black shadow-2xs">
+              ⌘K
+            </kbd>
+          </button>
+
           {/* Subtle Verified Status Badge */}
           <SystemHealthBadge />
 
@@ -91,7 +114,16 @@ export default function Header() {
         </div>
 
         {/* Mobile menu button */}
-        <div className="flex md:hidden items-center gap-2">
+        <div className="flex md:hidden items-center gap-1.5">
+          <button
+            type="button"
+            onClick={() => setCommandPaletteOpen(true)}
+            className="p-2 text-neutral-700 hover:text-black rounded-lg"
+            aria-label="Tìm kiếm nhanh"
+          >
+            <MagnifyingGlassIcon className="h-5 w-5 text-black" />
+          </button>
+
           <Link
             href="/jobs?saved=true"
             className="relative p-2 text-neutral-700 hover:text-black rounded-lg"
@@ -171,6 +203,12 @@ export default function Header() {
           </div>
         </div>
       )}
+
+      {/* Global Quick Search Command Palette */}
+      <CommandPalette
+        isOpen={commandPaletteOpen}
+        onClose={() => setCommandPaletteOpen(false)}
+      />
     </header>
   );
 }

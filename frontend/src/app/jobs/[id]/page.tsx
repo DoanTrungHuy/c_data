@@ -33,6 +33,8 @@ import InterviewPrepKit from "@/components/InterviewPrepKit";
 import SalaryBenchmarkWidget from "@/components/SalaryBenchmarkWidget";
 import QuickApplyButton from "@/components/QuickApplyButton";
 import PrintJobButton from "@/components/PrintJobButton";
+import CvSkillGapAnalyzer from "@/components/CvSkillGapAnalyzer";
+import CareerPathRoadmap from "@/components/CareerPathRoadmap";
 import type { Metadata } from "next";
 
 import fs from "fs";
@@ -763,6 +765,12 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
 
             {/* AI Interview Preparation & STAR Answer Kit */}
             <InterviewPrepKit job={job} />
+
+            {/* ATS CV Match & Skill Gap Analyzer */}
+            <CvSkillGapAnalyzer job={job} />
+
+            {/* Career Path & Promotion Roadmap */}
+            <CareerPathRoadmap job={job} />
 
             {/* Direct HR Contact Box */}
             {job.raw_data?.mined?.phones && job.raw_data.mined.phones.length > 0 && (

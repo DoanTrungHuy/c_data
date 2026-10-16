@@ -15,6 +15,7 @@ import {
   CheckCircleIcon,
   BookmarkIcon,
   SparklesIcon,
+  MapPinIcon,
 } from "@heroicons/react/24/outline";
 import JobCard from "@/components/JobCard";
 import FilterSidebar from "@/components/FilterSidebar";
@@ -24,6 +25,7 @@ import { crawlLiveJobs } from "@/lib/api";
 import DeepSocialRadarModal from "@/components/DeepSocialRadarModal";
 import SkillMatcherModal from "@/components/SkillMatcherModal";
 import HaLongSalaryGuideModal from "@/components/HaLongSalaryGuideModal";
+import RegionalHotspotMap from "@/components/RegionalHotspotMap";
 import { useUserSkills } from "@/lib/skillMatcher";
 
 interface JobsContentProps {
@@ -42,6 +44,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const [diagnosticsOpen, setDiagnosticsOpen] = useState(false);
   const [skillMatcherOpen, setSkillMatcherOpen] = useState(false);
   const [salaryGuideOpen, setSalaryGuideOpen] = useState(false);
+  const [showHotspotMap, setShowHotspotMap] = useState(false);
   const { skills: userSkills, hasSkills } = useUserSkills();
 
   useEffect(() => {
@@ -175,6 +178,21 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               <span>Bảng Lương IT</span>
             </button>
 
+            {/* Regional Hotspot Map Button */}
+            <button
+              type="button"
+              onClick={() => setShowHotspotMap(!showHotspotMap)}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer shadow-xs ${
+                showHotspotMap
+                  ? "bg-black text-white border-black"
+                  : "bg-neutral-100 hover:bg-neutral-200 text-black border-neutral-300"
+              }`}
+              title="Bản đồ kinh tế & tọa độ việc làm 6 phân khu trọng điểm Quảng Ninh"
+            >
+              <MapPinIcon className={`h-4 w-4 ${showHotspotMap ? "text-white" : "text-black"}`} />
+              <span>Bản Đồ 6 Phân Khu</span>
+            </button>
+
             {/* Social Deep Radar Trigger Button */}
             <button
               type="button"
@@ -213,6 +231,13 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             </div>
           </div>
         </div>
+
+        {/* Regional Hotspot Map View */}
+        {showHotspotMap && (
+          <div className="animate-fadeIn">
+            <RegionalHotspotMap />
+          </div>
+        )}
 
         {/* Active Skills Profile Match Banner */}
         {hasSkills && (
