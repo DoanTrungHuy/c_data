@@ -1,7 +1,7 @@
 <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Obsidian Solid Squircle Base -->
   <rect width="40" height="40" rx="10" fill="#09090B" />
-  <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
 
   <!-- The Modern Double-V Monogram (VịnhViệc) -->
   <path

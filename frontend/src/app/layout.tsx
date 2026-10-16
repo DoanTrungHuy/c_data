@@ -67,13 +67,13 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: `${basePath}/favicon.ico`, sizes: "any" },
-      { url: `${basePath}/icon.svg`, type: "image/svg+xml" },
-      { url: `${basePath}/icon-32.png`, type: "image/png", sizes: "32x32" },
-      { url: `${basePath}/icon.png`, type: "image/png", sizes: "512x512" },
+      { url: `${basePath}/favicon.ico?v=20261016`, sizes: "any" },
+      { url: `${basePath}/icon.svg?v=20261016`, type: "image/svg+xml" },
+      { url: `${basePath}/icon-32.png?v=20261016`, type: "image/png", sizes: "32x32" },
+      { url: `${basePath}/icon.png?v=20261016`, type: "image/png", sizes: "512x512" },
     ],
-    shortcut: `${basePath}/favicon.ico`,
-    apple: `${basePath}/apple-touch-icon.png`,
+    shortcut: `${basePath}/favicon.ico?v=20261016`,
+    apple: `${basePath}/apple-touch-icon.png?v=20261016`,
   },
   robots: {
     index: true,
@@ -90,10 +90,10 @@ export default function RootLayout({
     <html lang="vi" className={inter.variable}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
-        <link rel="icon" href={`${basePath}/favicon.ico`} sizes="any" />
-        <link rel="icon" href={`${basePath}/icon.svg`} type="image/svg+xml" />
-        <link rel="icon" href={`${basePath}/icon-32.png`} type="image/png" sizes="32x32" />
-        <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png`} />
+        <link rel="icon" href={`${basePath}/favicon.ico?v=20261016`} sizes="any" />
+        <link rel="icon" href={`${basePath}/icon.svg?v=20261016`} type="image/svg+xml" />
+        <link rel="icon" href={`${basePath}/icon-32.png?v=20261016`} type="image/png" sizes="32x32" />
+        <link rel="apple-touch-icon" href={`${basePath}/apple-touch-icon.png?v=20261016`} />
         <meta name="theme-color" content="#09090B" />
       </head>
       <body className="min-h-screen flex flex-col font-sans bg-white text-black selection:bg-black selection:text-white">

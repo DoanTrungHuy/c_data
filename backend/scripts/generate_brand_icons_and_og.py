@@ -141,26 +141,34 @@ def main():
     print("Bắt đầu sinh bộ nhận diện biểu tượng thương hiệu VịnhViệc...")
     logo_base = render_logo_base(2048)
 
-    # 1. Favicon .ico (chứa các độ phân giải 16, 32, 48, 64)
-    ico_sizes = [(16, 16), (32, 32), (48, 48), (64, 64)]
-    ico_images = [logo_base.resize(sz, Image.Resampling.LANCZOS) for sz in ico_sizes]
+    # Dọn dẹp các file icon trùng lặp trong src/app để tránh xung đột Next.js 500 error
+    conflicting_app_files = [
+        os.path.join(APP_DIR, "favicon.ico"),
+        os.path.join(APP_DIR, "icon.png"),
+        os.path.join(APP_DIR, "icon.svg"),
+        os.path.join(APP_DIR, "apple-icon.png"),
+    ]
+    for af in conflicting_app_files:
+        if os.path.exists(af):
+            try:
+                os.remove(af)
+                print(f"🧹 Đã xóa file xung đột: {af}")
+            except Exception as e:
+                print(f"⚠️ Không thể xóa {af}: {e}")
 
+    # 1. Favicon .ico đa kích thước (16, 24, 32, 48, 64) chuẩn Windows & Web
+    ico_sizes = [(16, 16), (24, 24), (32, 32), (48, 48), (64, 64)]
     public_ico = os.path.join(PUBLIC_DIR, "favicon.ico")
-    app_ico = os.path.join(APP_DIR, "favicon.ico")
+    logo_base.save(public_ico, format="ICO", sizes=ico_sizes)
+    print(f"✅ Đã tạo multi-res favicon: {public_ico}")
 
-    ico_images[0].save(public_ico, format="ICO", sizes=ico_sizes, append_images=ico_images[1:])
-    ico_images[0].save(app_ico, format="ICO", sizes=ico_sizes, append_images=ico_images[1:])
-    print(f"✅ Đã tạo {public_ico} & {app_ico}")
-
-    # 2. Icon PNG
+    # 2. Icon PNG cho Web, PWA, Apple Touch Icon
     png_configs = [
-        (os.path.join(PUBLIC_DIR, "icon.png"), (512, 512)),
-        (os.path.join(APP_DIR, "icon.png"), (512, 512)),
         (os.path.join(PUBLIC_DIR, "icon-32.png"), (32, 32)),
+        (os.path.join(PUBLIC_DIR, "apple-touch-icon.png"), (180, 180)),
         (os.path.join(PUBLIC_DIR, "icon-192.png"), (192, 192)),
         (os.path.join(PUBLIC_DIR, "icon-512.png"), (512, 512)),
-        (os.path.join(PUBLIC_DIR, "apple-touch-icon.png"), (180, 180)),
-        (os.path.join(APP_DIR, "apple-icon.png"), (180, 180)),
+        (os.path.join(PUBLIC_DIR, "icon.png"), (512, 512)),
     ]
 
     for path, sz in png_configs:
@@ -168,11 +176,11 @@ def main():
         resized.save(path, format="PNG")
         print(f"✅ Đã tạo {path} ({sz[0]}x{sz[1]})")
 
-    # 3. SVG icons (chuẩn vector)
+    # 3. SVG icons (chuẩn vector siêu nét cho Chrome, Firefox, Safari)
     svg_content = """<svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Obsidian Solid Squircle Base -->
   <rect width="40" height="40" rx="10" fill="#09090B" />
-  <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="rgba(255, 255, 255, 0.2)" stroke-width="1" />
+  <rect x="0.5" y="0.5" width="39" height="39" rx="9.5" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
 
   <!-- The Modern Double-V Monogram (VịnhViệc) -->
   <path
@@ -190,7 +198,6 @@ def main():
     for svg_path in [
         os.path.join(PUBLIC_DIR, "favicon.svg"),
         os.path.join(PUBLIC_DIR, "icon.svg"),
-        os.path.join(APP_DIR, "icon.svg"),
     ]:
         with open(svg_path, "w", encoding="utf-8") as f:
             f.write(svg_content)
