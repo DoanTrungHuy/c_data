@@ -18,6 +18,7 @@ from app.services.html_purifier import (
     extract_contacts_and_salary_from_text,
 )
 from app.adapters.jobspy_adapter import JobSpyMultiSourceAdapter
+from app.adapters.ats_api_adapter import DirectATSApiAdapter
 
 
 class TestHarvesterAndPurifier(unittest.TestCase):
@@ -97,6 +98,23 @@ class TestHarvesterAndPurifier(unittest.TestCase):
         self.assertEqual(loc_remote["workplace_type"], "remote")
         self.assertEqual(loc_remote["province"], "Toàn quốc")
 
+    def test_05_ats_api_adapter_location_and_provider(self):
+        """Kiểm tra DirectATSApiAdapter phân giải địa bàn và hỗ trợ Greenhouse/Lever"""
+        adapter = DirectATSApiAdapter()
+        self.assertEqual(adapter.adapter_id, "ats_api_direct")
+
+        # Phân giải Onsite Hạ Long
+        qn = adapter._resolve_location("Ha Long Bay, Quang Ninh")
+        self.assertEqual(qn["province"], "Quảng Ninh")
+        self.assertEqual(qn["district"], "Hạ Long")
+        self.assertEqual(qn["workplace_type"], "onsite")
+
+        # Phân giải Remote
+        rem = adapter._resolve_location("Remote - Anywhere in Vietnam")
+        self.assertEqual(rem["province"], "Toàn quốc")
+        self.assertEqual(rem["workplace_type"], "remote")
+
 
 if __name__ == "__main__":
     unittest.main()
+

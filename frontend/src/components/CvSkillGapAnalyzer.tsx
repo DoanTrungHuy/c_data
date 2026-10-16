@@ -14,6 +14,12 @@ import {
   ExclamationTriangleIcon,
   HandThumbUpIcon,
   ScaleIcon,
+  ClipboardDocumentIcon,
+  ClipboardDocumentCheckIcon,
+  ChatBubbleBottomCenterTextIcon,
+  MapPinIcon,
+  CurrencyDollarIcon,
+  AcademicCapIcon,
 } from "@heroicons/react/24/outline";
 
 interface CvSkillGapAnalyzerProps {
@@ -146,6 +152,7 @@ function analyzeJobRedFlagsAndPros(job: Job) {
 export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
   const [cvText, setCvText] = useState("");
   const [isAnalyzed, setIsAnalyzed] = useState(false);
+  const [copiedIdx, setCopiedIdx] = useState<number | null>(null);
 
   // Extract key required keywords from job
   const targetKeywords = useMemo(() => {
@@ -158,7 +165,6 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
         }
       });
     }
-    // Common requirements keywords
     if (job.requirements) {
       ["tiếng anh", "giao tiếp", "tin học văn phòng", "excel", "bằng lái", "kinh nghiệm", "kế toán", "quản trị"].forEach((k) => {
         if (job.requirements && job.requirements.toLowerCase().includes(k)) {
@@ -171,6 +177,58 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
 
   const audit = useMemo(() => analyzeJobRedFlagsAndPros(job), [job]);
 
+  // Split job description into sentences for exact evidence citations (sliday/resume-job-matcher pattern)
+  const jdSentences = useMemo(() => {
+    const raw = `${job.description || ""} ${job.requirements || ""}`
+      .replace(/<[^>]*>/g, " ")
+      .replace(/\s+/g, " ");
+    return raw
+      .split(/(?<=[.!?\n])\s+/)
+      .map((s) => s.trim())
+      .filter((s) => s.length > 25 && s.length < 280);
+  }, [job]);
+
+  // Hard constraints check (sliday/resume-job-matcher pattern)
+  const hardConstraints = useMemo(() => {
+    const isRemote =
+      job.workplace_type === "remote" ||
+      /remote|từ xa/i.test(`${job.title} ${job.location_province || ""}`);
+
+    const hasSalary = Boolean(job.salary_min || job.salary_max);
+    const level = job.experience_level || "Middle (1 - 3 năm)";
+
+    return [
+      {
+        id: "location",
+        title: "Hình thức làm việc & Địa bàn",
+        value: isRemote
+          ? "Làm việc từ xa (Remote)"
+          : `${job.location_province || "Toàn quốc"}${job.location_district ? ` • ${job.location_district}` : ""}`,
+        status: isRemote ? "optimal" : "onsite",
+        desc: isRemote
+          ? "Vị trí tuyển dụng toàn quốc hoặc từ xa, không yêu cầu di chuyển cơ sở."
+          : "Yêu cầu có mặt làm việc trực tiếp tại trụ sở doanh nghiệp.",
+      },
+      {
+        id: "salary",
+        title: "Khung lương & Thu nhập",
+        value: job.salary_text || "Thỏa thuận",
+        status: hasSalary ? "optimal" : "negotiable",
+        desc: hasSalary
+          ? "Dải thu nhập đã được xác thực, dễ dàng đối soát mục tiêu tài chính."
+          : "Lương thỏa thuận, hãy chuẩn bị mức kỳ vọng dựa trên năng lực cá nhân.",
+      },
+      {
+        id: "seniority",
+        title: "Cấp bậc kinh nghiệm",
+        value: level,
+        status: "optimal",
+        desc: `Phù hợp với ứng viên có nền tảng ${level}.`,
+      },
+    ];
+  }, [job]);
+
+  // Match analysis
   const analysis = useMemo(() => {
     if (!cvText.trim()) return null;
 
@@ -198,6 +256,45 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
     };
   }, [cvText, targetKeywords]);
 
+  // Find exact sentence citations from JD matching user's keywords
+  const citations = useMemo(() => {
+    if (!analysis || analysis.matched.length === 0) return [];
+    const list: { skill: string; sentence: string }[] = [];
+    const seenSentences = new Set<string>();
+
+    for (const sk of analysis.matched.slice(0, 3)) {
+      const normSk = removeVietnameseTones(sk);
+      const match = jdSentences.find(
+        (s) => removeVietnameseTones(s).includes(normSk) && !seenSentences.has(s)
+      );
+      if (match) {
+        seenSentences.add(match);
+        list.push({ skill: sk, sentence: match });
+      }
+    }
+    return list;
+  }, [analysis, jdSentences]);
+
+  // AI-Tailored Bullet Points Generator (jramnai/ai-resume-analyzer pattern)
+  const tailoredBulletPoints = useMemo(() => {
+    const primary = analysis?.matched[0] || job.tech_stack?.[0] || "hệ thống chuyên môn";
+    const secondary = analysis?.matched[1] || job.tech_stack?.[1] || "công nghệ thông tin";
+
+    return [
+      `Đã trực tiếp thiết kế, triển khai và vận hành hệ thống với ${primary}, gia tăng tính ổn định của hạ tầng công nghệ thêm 30%.`,
+      `Tối ưu hóa quy trình xử lý dữ liệu và cấu hình ${secondary}, rút ngắn thời gian khắc phục sự cố xuống dưới 15 phút.`,
+      `Phối hợp cùng các phòng ban nghiệp vụ để chuyển đổi số, chuẩn hóa tài liệu kỹ thuật và tuân thủ các quy chuẩn bảo mật doanh nghiệp.`,
+    ];
+  }, [analysis, job]);
+
+  const handleCopyBulletPoint = (text: string, idx: number) => {
+    if (typeof navigator !== "undefined" && navigator.clipboard) {
+      navigator.clipboard.writeText(text);
+      setCopiedIdx(idx);
+      setTimeout(() => setCopiedIdx(null), 2000);
+    }
+  };
+
   const handleQuickPasteSample = () => {
     const sample = `Kinh nghiệm 2 năm làm việc tại vị trí tương đương. Nắm vững tin học văn phòng, Excel nâng cao, kỹ năng giao tiếp tốt. Có kinh nghiệm sử dụng ${job.tech_stack?.[0] || "hệ thống phần mềm chuyên môn"}. Tiếng Anh đọc hiểu tài liệu tốt.`;
     setCvText(sample);
@@ -216,11 +313,11 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
             <h3 className="text-base sm:text-xl font-black text-black flex items-center gap-2">
               <span>Trình So Khớp CV & Thẩm Định Đãi Ngộ AI</span>
               <span className="text-[10px] bg-neutral-100 text-black border border-neutral-300 font-bold px-2 py-0.5 rounded-full uppercase">
-                ATS &amp; Risk Scanner
+                ATS Scanner &amp; Hard Constraints
               </span>
             </h3>
             <p className="text-xs text-neutral-600 mt-0.5">
-              Đánh giá điểm cộng, cảnh báo rủi ro (Red Flags) và đối soát từ khóa CV chuẩn ATS
+              Phân tích điều kiện cốt lõi, cảnh báo rủi ro (Red Flags), trích dẫn bằng chứng từ JD và đề xuất bullet point chuẩn ATS
             </p>
           </div>
         </div>
@@ -235,7 +332,33 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
         </button>
       </div>
 
-      {/* AI Hiring Verdict & Job Audit Banner (Inspired by DrJonoG/job_search) */}
+      {/* Section 1: Hard Constraints Screening (Inspired by sliday/resume-job-matcher) */}
+      <div className="space-y-2">
+        <span className="text-xs font-bold text-black flex items-center gap-1.5">
+          <ScaleIcon className="h-4 w-4 text-black" />
+          <span>Sàng lọc Rào Cản Tuyển Dụng (Hard Constraints Screening):</span>
+        </span>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+          {hardConstraints.map((c) => (
+            <div
+              key={c.id}
+              className="p-3.5 rounded-xl bg-neutral-50 border border-neutral-200 space-y-1 shadow-2xs"
+            >
+              <span className="text-[10px] uppercase font-bold text-neutral-400 block tracking-wider">
+                {c.title}
+              </span>
+              <p className="font-bold text-black text-xs line-clamp-1">
+                {c.value}
+              </p>
+              <p className="text-[11px] text-neutral-600 leading-relaxed pt-1 border-t border-neutral-200/60">
+                {c.desc}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Section 2: AI Hiring Verdict & Job Audit Banner (Inspired by DrJonoG/job_search) */}
       <div className="p-4 sm:p-5 rounded-2xl bg-neutral-50 border border-neutral-200 space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 pb-3 border-b border-neutral-200">
           <div className="flex items-center gap-2.5">
@@ -311,7 +434,7 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
         </div>
       </div>
 
-      {/* Input area */}
+      {/* Section 3: CV Input Box */}
       <div className="space-y-2">
         <label className="text-xs font-bold text-black flex items-center justify-between">
           <span>Dán đoạn tóm tắt kinh nghiệm hoặc danh sách kỹ năng từ CV của bạn:</span>
@@ -329,9 +452,9 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
         />
       </div>
 
-      {/* Analysis Result Display */}
+      {/* Section 4: Analysis Result Display */}
       {analysis && isAnalyzed && (
-        <div className="p-4 sm:p-5 rounded-2xl bg-neutral-50 border border-neutral-200 space-y-4 animate-fadeIn">
+        <div className="p-4 sm:p-5 rounded-2xl bg-neutral-50 border border-neutral-200 space-y-5 animate-fadeIn">
           {/* Match Score Gauge */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-neutral-200 pb-3.5">
             <div>
@@ -408,6 +531,66 @@ export default function CvSkillGapAnalyzer({ job }: CvSkillGapAnalyzerProps) {
                   🎉 Hoàn hảo! Bạn đã bao phủ toàn bộ các từ khóa cốt lõi của JD!
                 </p>
               )}
+            </div>
+          </div>
+
+          {/* Section 5: Exact Evidence Citations from Job Description (Inspired by sliday/resume-job-matcher) */}
+          {citations.length > 0 && (
+            <div className="p-4 rounded-xl bg-white border border-neutral-200 space-y-2.5">
+              <span className="text-xs font-bold text-black flex items-center gap-1.5">
+                <ChatBubbleBottomCenterTextIcon className="h-4 w-4 text-black" />
+                <span>Dẫn chứng trích xuất trực tiếp từ bài đăng tuyển dụng (Evidence Citations):</span>
+              </span>
+              <div className="space-y-2 text-[11px]">
+                {citations.map((c, idx) => (
+                  <div
+                    key={idx}
+                    className="p-2.5 rounded-lg bg-neutral-50 border-l-2 border-l-black border border-neutral-200 text-neutral-700"
+                  >
+                    <span className="font-bold text-black block mb-0.5">
+                      Phù hợp với từ khóa: <code className="bg-neutral-200 px-1 py-0.2 rounded text-[10px]">{c.skill}</code>
+                    </span>
+                    <p className="italic leading-relaxed">
+                      "{c.sentence}"
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Section 6: Actionable ATS Bullet Point Suggestions (Inspired by jramnai/ai-resume-analyzer) */}
+          <div className="p-4 rounded-xl bg-white border border-neutral-200 space-y-2.5">
+            <span className="text-xs font-bold text-black flex items-center justify-between">
+              <span className="flex items-center gap-1.5">
+                <SparklesIcon className="h-4 w-4 text-black" />
+                <span>Gợi ý câu mô tả thành tích chuẩn ATS để đưa vào CV:</span>
+              </span>
+              <span className="text-[10px] text-neutral-400 font-normal">Công thức: Động từ hành động + Chỉ số + Công nghệ</span>
+            </span>
+            <div className="space-y-2 text-[11px]">
+              {tailoredBulletPoints.map((bp, idx) => (
+                <div
+                  key={idx}
+                  className="flex items-start justify-between gap-2 p-2.5 rounded-lg bg-neutral-50 border border-neutral-200 hover:border-black transition-colors"
+                >
+                  <p className="text-neutral-800 leading-relaxed flex-1">
+                    • {bp}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => handleCopyBulletPoint(bp, idx)}
+                    className="shrink-0 p-1 rounded-md text-neutral-500 hover:text-black hover:bg-neutral-200 transition-colors"
+                    title="Sao chép câu này"
+                  >
+                    {copiedIdx === idx ? (
+                      <ClipboardDocumentCheckIcon className="h-4 w-4 text-black" />
+                    ) : (
+                      <ClipboardDocumentIcon className="h-4 w-4" />
+                    )}
+                  </button>
+                </div>
+              ))}
             </div>
           </div>
 

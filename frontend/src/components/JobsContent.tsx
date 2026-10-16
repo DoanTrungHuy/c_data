@@ -17,8 +17,11 @@ import {
   SparklesIcon,
   MapPinIcon,
   DocumentArrowDownIcon,
+  ViewColumnsIcon,
+  Bars3Icon,
 } from "@heroicons/react/24/outline";
 import JobCard from "@/components/JobCard";
+import JobKanbanBoard from "@/components/JobKanbanBoard";
 import FilterSidebar from "@/components/FilterSidebar";
 import Pagination from "@/components/Pagination";
 import { JobListResponse } from "@/types/job";
@@ -66,6 +69,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const [pipelineTab, setPipelineTab] = useState<"all" | "saved" | "applied" | "dismissed">(
     isSavedOnly ? "saved" : "all"
   );
+  const [viewMode, setViewMode] = useState<"grid" | "kanban">("grid");
 
   const displayItems = useMemo(() => {
     if (pipelineTab === "saved") {
@@ -337,15 +341,47 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             </button>
           </div>
 
-          <button
-            type="button"
-            onClick={handleExportCSV}
-            className="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 font-bold text-xs transition-colors cursor-pointer shadow-2xs self-end sm:self-auto"
-            title="Xuất bảng Excel/CSV danh sách việc làm đang hiển thị (tương thích tiếng Việt có dấu)"
-          >
-            <DocumentArrowDownIcon className="h-4 w-4" />
-            <span>Xuất Excel / CSV</span>
-          </button>
+          <div className="flex items-center gap-2 shrink-0 self-end sm:self-auto">
+            {/* View Mode Switcher (List vs Kanban) */}
+            <div className="flex items-center gap-0.5 border border-neutral-300 rounded-xl p-0.5 bg-neutral-100">
+              <button
+                type="button"
+                onClick={() => setViewMode("grid")}
+                className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                  viewMode === "grid"
+                    ? "bg-black text-white shadow-2xs"
+                    : "text-neutral-700 hover:text-black"
+                }`}
+                title="Chế độ hiển thị Lưới / Danh sách"
+              >
+                <Bars3Icon className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Danh sách</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode("kanban")}
+                className={`inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                  viewMode === "kanban"
+                    ? "bg-black text-white shadow-2xs"
+                    : "text-neutral-700 hover:text-black"
+                }`}
+                title="Chế độ hiển thị Bảng Kanban quản lý tiến trình ứng tuyển"
+              >
+                <ViewColumnsIcon className="h-3.5 w-3.5" />
+                <span className="hidden sm:inline">Bảng Kanban</span>
+              </button>
+            </div>
+
+            <button
+              type="button"
+              onClick={handleExportCSV}
+              className="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 font-bold text-xs transition-colors cursor-pointer shadow-2xs"
+              title="Xuất bảng Excel/CSV danh sách việc làm đang hiển thị (tương thích tiếng Việt có dấu)"
+            >
+              <DocumentArrowDownIcon className="h-4 w-4" />
+              <span>Xuất CSV</span>
+            </button>
+          </div>
         </div>
 
         {/* Regional Hotspot Map View */}
@@ -937,8 +973,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
         </div>
 
-        {/* Job Listings / Empty State */}
-        {displayItems.length > 0 ? (
+        {/* Job Listings / Kanban Board / Empty State */}
+        {viewMode === "kanban" ? (
+          <JobKanbanBoard jobs={initialData.items} />
+        ) : displayItems.length > 0 ? (
           <div className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {displayItems.map((job) => (

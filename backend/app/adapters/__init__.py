@@ -13,6 +13,7 @@ from app.adapters.local_enterprise_adapter import local_enterprise_adapter, Loca
 from app.adapters.facebook_public_adapter import facebook_public_adapter, FacebookPublicAdapter
 from app.adapters.threads_public_adapter import threads_public_adapter, ThreadsPublicAdapter
 from app.adapters.jobspy_adapter import JobSpyMultiSourceAdapter
+from app.adapters.ats_api_adapter import DirectATSApiAdapter, ats_api_direct_adapter
 
 __all__ = [
     "AdapterError",
@@ -27,4 +28,6 @@ __all__ = [
     "threads_public_adapter",
     "ThreadsPublicAdapter",
     "JobSpyMultiSourceAdapter",
+    "DirectATSApiAdapter",
+    "ats_api_direct_adapter",
 ]
