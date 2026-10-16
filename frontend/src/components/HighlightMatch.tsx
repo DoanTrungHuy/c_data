@@ -13,7 +13,7 @@ interface HighlightMatchProps {
 const VIETNAMESE_ACCENT_MAP: Record<string, string> = {
   à: "a", á: "a", ả: "a", ã: "a", ạ: "a",
   ă: "a", ắ: "a", ằ: "a", ẳ: "a", ẵ: "a", ặ: "a",
-  â: "a", ấn: "a", ầ: "a", ẩ: "a", ẫ: "a", ậ: "a",
+  â: "a", ấ: "a", ầ: "a", ẩ: "a", ẫ: "a", ậ: "a",
   è: "e", é: "e", ẻ: "e", ẽ: "e", ẹ: "e",
   ê: "e", ế: "e", ề: "e", ể: "e", ễ: "e", ệ: "e",
   ì: "i", í: "i", ỉ: "i", ĩ: "i", ị: "i",

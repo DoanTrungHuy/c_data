@@ -181,25 +181,43 @@ ROLE_TAXONOMY: Dict[str, Dict[str, Any]] = {
         ],
         "environment_default": "field",
     },
-    "hotel_hospitality": {
-        "canonical": "Du lịch / Khách sạn / Lễ tân",
+    "receptionist": {
+        "canonical": "Lễ tân / Tiếp tân / Khánh tiết",
         "triggers": [
-            "khach san", "resort", "le tan", "front desk", "buong phong",
-            "tour guide", "huong dan vien", "du thuyen", "cruise",
+            "le tan", "receptionist", "tiep tan", "khanh tiet", "front desk",
         ],
         "synonyms": [
-            "Lễ tân khách sạn", "Nhân viên khách sạn", "Front Desk Officer",
-            "Hướng dẫn viên du lịch", "Nhân viên du thuyền",
+            "Nhân viên lễ tân", "Lễ tân khách sạn", "Tiếp tân", "Front Desk Officer", "Chuyên viên khánh tiết",
+        ],
+        "environment_default": "office",
+    },
+    "hotel_hospitality": {
+        "canonical": "Du lịch / Khách sạn / Buồng phòng",
+        "triggers": [
+            "khach san", "resort", "buong phong", "tour guide", "huong dan vien", "du thuyen", "cruise",
+        ],
+        "synonyms": [
+            "Nhân viên khách sạn", "Nhân viên buồng phòng", "Hướng dẫn viên du lịch", "Nhân viên du thuyền",
+        ],
+        "environment_default": "office",
+    },
+    "chief_accountant": {
+        "canonical": "Kế toán trưởng / Trưởng phòng kế toán",
+        "triggers": [
+            "ke toan truong", "chief accountant", "truong phong ke toan",
+        ],
+        "synonyms": [
+            "Kế toán trưởng", "Chief Accountant", "Trưởng phòng kế toán",
         ],
         "environment_default": "office",
     },
     "accounting": {
         "canonical": "Kế toán / Kiểm toán / Thuế",
         "triggers": [
-            "ke toan", "ke toan tong hop", "ke toan kho", "ke toan noi bo", "kiem toan", "thue",
+            "ke toan", "ke toan tong hop", "ke toan kho", "ke toan noi bo", "ke toan thue", "kiem toan", "thue",
         ],
         "synonyms": [
-            "Kế toán tổng hợp", "Kế toán nội bộ", "Kế toán kho", "Chuyên viên kế toán",
+            "Kế toán tổng hợp", "Kế toán nội bộ", "Kế toán kho", "Kế toán thuế", "Chuyên viên kế toán",
         ],
         "environment_default": "office",
     },

@@ -137,6 +137,10 @@ class JobService:
         if search_query:
             query_match_clauses = []
 
+            # A0. Khớp trực tiếp cụm từ tìm kiếm trong tiêu đề hoặc tên công ty
+            query_match_clauses.append(Job.title.ilike(f"%{search_query}%"))
+            query_match_clauses.append(Job.company_name.ilike(f"%{search_query}%"))
+
             # A. Khớp các từ đồng nghĩa và biến thể vai trò nghề nghiệp
             for syn in intent.role_synonyms[:6]:
                 syn_clean = syn.strip()

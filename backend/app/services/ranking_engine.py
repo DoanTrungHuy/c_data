@@ -248,7 +248,10 @@ class MultiSignalRankingEngine:
         title_score = 0.0
         role_matched = False
 
-        # Khớp cụm từ trong ngoặc kép nếu có
+        norm_q = normalize_text(intent.raw_query)
+        q_words = [w for w in norm_q.split() if len(w) >= 2] if norm_q else []
+
+        # 1. Khớp cụm từ trong ngoặc kép nếu có
         if intent.exact_phrases:
             for phrase in intent.exact_phrases:
                 p_norm = normalize_text(phrase)
@@ -258,29 +261,45 @@ class MultiSignalRankingEngine:
                     role_matched = True
                     break
 
+        # 2. Khớp tuyệt đối hoặc cụm từ tìm kiếm trong tiêu đề (Ưu tiên cao nhất)
+        if not role_matched and norm_q:
+            if title_norm == norm_q:
+                title_score = 25.0
+                reasons.append(f"Tiêu đề khớp chính xác tuyệt đối: '{intent.raw_query}' (+25.0)")
+                role_matched = True
+            elif norm_q in title_norm:
+                title_score = 24.0
+                reasons.append(f"Tiêu đề chứa nguyên cụm tìm kiếm: '{intent.raw_query}' (+24.0)")
+                role_matched = True
+            elif len(q_words) > 1 and all(re.search(rf"\b{re.escape(w)}\b", title_norm) for w in q_words):
+                title_score = 23.0
+                reasons.append(f"Tiêu đề chứa đầy đủ các từ trong: '{intent.raw_query}' (+23.0)")
+                role_matched = True
+
+        # 3. Khớp từ đồng nghĩa vai trò chính xác
         if not role_matched:
             for syn in intent.role_synonyms:
                 syn_norm = normalize_text(syn)
                 if not syn_norm:
                     continue
                 if re.search(rf"\b{re.escape(syn_norm)}\b", title_norm):
-                    title_score = 25.0
-                    reasons.append(f"Tiêu đề khớp chính xác vai trò: '{syn}' (+25.0)")
+                    title_score = 22.0
+                    reasons.append(f"Tiêu đề khớp vai trò tương đương: '{syn}' (+22.0)")
                     role_matched = True
                     break
                 elif syn_norm in title_norm:
-                    title_score = max(title_score, 20.0)
-                    reasons.append(f"Tiêu đề chứa từ khóa vai trò: '{syn}' (+20.0)")
+                    title_score = max(title_score, 18.0)
+                    reasons.append(f"Tiêu đề chứa từ khóa vai trò: '{syn}' (+18.0)")
                     role_matched = True
 
-        # Token độc lập IT / CNTT / Bác sĩ / Lái xe
+        # 4. Token độc lập IT / CNTT
         if not role_matched and intent.primary_role:
             if "IT" in intent.primary_role and re.search(r"\b(it|cntt)\b", title_norm):
-                title_score = 22.0
-                reasons.append("Tiêu đề chứa định danh chuyên môn IT/CNTT (+22.0)")
+                title_score = 20.0
+                reasons.append("Tiêu đề chứa định danh chuyên môn IT/CNTT (+20.0)")
                 role_matched = True
 
-        # Ngành nghề danh mục
+        # 5. Ngành nghề danh mục
         if not role_matched and intent.primary_role:
             cat_norm = normalize_text(job.category or "")
             if normalize_text(intent.primary_role) in cat_norm or cat_norm in normalize_text(intent.primary_role):
@@ -288,14 +307,12 @@ class MultiSignalRankingEngine:
                 reasons.append(f"Danh mục nghề nghiệp phù hợp nhóm: {intent.primary_role} (+15.0)")
                 role_matched = True
 
-        # Từ khóa chung khi không có role taxonomy
-        if not role_matched and intent.raw_query:
-            norm_q = normalize_text(intent.raw_query)
-            q_words = [w for w in norm_q.split() if len(w) >= 2]
-            matched = [w for w in q_words if re.search(rf"\b{re.escape(w)}\b", title_norm)]
-            if matched:
-                title_score = min(20.0, len(matched) * 7.0)
-                reasons.append(f"Tiêu đề khớp từ khóa tìm kiếm: {' + '.join(matched)} (+{round(title_score, 1)})")
+        # 6. Từ khóa đơn (chỉ khi truy vấn chỉ có 1 từ duy nhất)
+        if not role_matched and len(q_words) == 1:
+            w = q_words[0]
+            if re.search(rf"\b{re.escape(w)}\b", title_norm):
+                title_score = 15.0
+                reasons.append(f"Tiêu đề khớp từ khóa đơn: '{w}' (+15.0)")
                 role_matched = True
 
         score += title_score
