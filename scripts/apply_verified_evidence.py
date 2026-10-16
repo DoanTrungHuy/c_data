@@ -127,15 +127,13 @@ def process_jobs():
 
             base_url, p_name, p_hotline, p_email = matched
             
-            # Giữ nguyên source_url nếu đã hợp lệ và chưa dùng; nếu không thì sinh candidate_url duy nhất
+            # Giữ nguyên source_url thực tế của bài đăng, tuyệt đối không tạo tham số giả ?jid=
             if url and url.startswith("http") and not ("?ref=" in url or "?post_ref=" in url) and url not in used_urls:
                 final_url = url
+            elif url and url.startswith("http"):
+                final_url = url
             else:
-                clean_base = base_url.rstrip("/")
-                candidate_url = f"{clean_base}?jid={slugify(title)}-{idx+1}"
-                while candidate_url in used_urls:
-                    candidate_url += "-1"
-                final_url = candidate_url
+                final_url = base_url
 
             used_urls.add(final_url)
             j["source_url"] = final_url

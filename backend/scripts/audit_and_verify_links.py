@@ -34,36 +34,40 @@ def audit_job(idx_j):
     if "?jid=" in url:
         return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Fake ?jid query"}
 
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=8, allow_redirects=True)
-        if r.status_code >= 400:
-            return {"idx": idx, "title": title, "url": url, "valid": False, "reason": f"HTTP {r.status_code}"}
-        
-        soup = BeautifulSoup(r.text, "html.parser")
-        if "careerviet.vn" in url:
-            h1 = soup.find("h1")
-            has_detail = bool(soup.select(".detail-box, .detail-row, .job-detail-content"))
-            if not h1 or not has_detail:
-                return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "CareerViet 404 / Missing JD"}
-            live_h1 = h1.get_text(strip=True)
-            if "không tìm thấy" in live_h1.lower() or "404" in live_h1.lower() or "đã hết hạn" in live_h1.lower():
-                return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Expired/Not found on site"}
+    for attempt in range(2):
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=10, allow_redirects=True)
+            if r.status_code >= 400:
+                return {"idx": idx, "title": title, "url": url, "valid": False, "reason": f"HTTP {r.status_code}"}
             
-            # Check title match
-            t1 = title.lower().replace(" ", "").replace("-", "").replace("/", "")
-            t2 = live_h1.lower().replace(" ", "").replace("-", "").replace("/", "")
-            if not ((t1 in t2) or (t2 in t1)):
-                return {"idx": idx, "title": title, "live_title": live_h1, "url": url, "valid": False, "reason": "Title mismatch"}
-            
-            proof_url = j.get("evidence_proof", {}).get("direct_url", "")
-            if proof_url and proof_url != url:
-                return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Proof URL does not match source URL"}
+            soup = BeautifulSoup(r.text, "html.parser")
+            if "careerviet.vn" in url:
+                h1 = soup.find("h1")
+                has_detail = bool(soup.select(".detail-box, .detail-row, .job-detail-content"))
+                if not h1 or not has_detail:
+                    return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "CareerViet 404 / Missing JD"}
+                live_h1 = h1.get_text(strip=True)
+                if "không tìm thấy" in live_h1.lower() or "404" in live_h1.lower() or "đã hết hạn" in live_h1.lower():
+                    return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Expired/Not found on site"}
+                
+                # Check title match
+                t1 = title.lower().replace(" ", "").replace("-", "").replace("/", "")
+                t2 = live_h1.lower().replace(" ", "").replace("-", "").replace("/", "")
+                if not ((t1 in t2) or (t2 in t1)):
+                    return {"idx": idx, "title": title, "live_title": live_h1, "url": url, "valid": False, "reason": "Title mismatch"}
+                
+                proof_url = j.get("evidence_proof", {}).get("direct_url", "")
+                if proof_url and proof_url != url:
+                    return {"idx": idx, "title": title, "url": url, "valid": False, "reason": "Proof URL does not match source URL"}
 
-            return {"idx": idx, "title": title, "live_title": live_h1, "url": url, "valid": True}
-        
-        return {"idx": idx, "title": title, "url": url, "valid": True}
-    except Exception as e:
-        return {"idx": idx, "title": title, "url": url, "valid": False, "reason": f"Connection error: {str(e)[:40]}"}
+                return {"idx": idx, "title": title, "live_title": live_h1, "url": url, "valid": True}
+            
+            return {"idx": idx, "title": title, "url": url, "valid": True}
+        except Exception as e:
+            if attempt == 0:
+                time.sleep(1)
+                continue
+            return {"idx": idx, "title": title, "url": url, "valid": False, "reason": f"Connection error: {str(e)[:40]}"}
 
 def main():
     json_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "frontend", "public", "data", "jobs.json"))
@@ -71,7 +75,7 @@ def main():
         jobs = json.load(f)
 
     print(f"Bắt đầu thẩm định {len(jobs)} liên kết tuyển dụng...", flush=True)
-    with ThreadPoolExecutor(max_workers=16) as ex:
+    with ThreadPoolExecutor(max_workers=6) as ex:
         results = list(ex.map(audit_job, enumerate(jobs)))
 
     valid = [r for r in results if r["valid"]]
