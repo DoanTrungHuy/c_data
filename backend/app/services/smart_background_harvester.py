@@ -381,22 +381,35 @@ class SmartBackgroundHarvester:
         """
         Quét và đối soát ưu tiên cao nhất cho TP. Hạ Long và tỉnh Quảng Ninh
         Sử dụng SmartHaLongDeepCrawler bao phủ 7 nhóm chuyên ngành CNTT trọng điểm
+        và SocialDeepHarvester quét các group Facebook, Fanpage tuyển dụng IT Hạ Long
         """
         logger.info("🌊 [Priority Hạ Long] Bắt đầu quét & kiểm tra chuyên sâu các đơn vị tuyển dụng tại Hạ Long...")
+        total_synced = 0
         try:
             from app.services.smart_halong_deep_crawler import SmartHaLongDeepCrawler
             crawler = SmartHaLongDeepCrawler(db_session=self.session)
             res = crawler.sweep_halong_it_positions()
-            return res.get("added_count", 0) + res.get("updated_count", 0)
+            total_synced += res.get("added_count", 0) + res.get("updated_count", 0)
         except Exception as e:
             logger.error(f"Lỗi khi chạy quét sâu Hạ Long: {e}", exc_info=True)
-            return 0
+
+        try:
+            from app.services.social_deep_harvester import social_deep_harvester
+            soc_res = social_deep_harvester.execute_social_deep_harvest(keyword="IT Hạ Long")
+            total_synced += soc_res.get("saved_count", 0)
+            logger.info(f"Đã đồng bộ {soc_res.get('saved_count', 0)} việc làm IT từ Facebook và mạng xã hội.")
+        except Exception as e:
+            logger.error(f"Lỗi khi quét mạng xã hội IT Hạ Long: {e}", exc_info=True)
+
+        return total_synced
 
     def audit_and_purge_expired_jobs(self) -> Tuple[int, int]:
         """
         Quét lại toàn bộ database:
         - Đóng các tin đã quá hạn nộp hồ sơ (is_active = False)
         - Đóng các tin có chứa từ khóa dừng tuyển / lỗi 404
+        - BỎ HOÀN TOÀN các tin không có yêu cầu JD tuyển dụng hoặc thiếu mô tả
+        - BỎ HOÀN TOÀN các tin mạng xã hội không thuộc chuyên ngành CNTT / IT
         """
         logger.info("🔍 [Audit] Bắt đầu rà soát toàn bộ tin trong Database để đóng tin hết hạn...")
         now = datetime.now(timezone.utc)
@@ -406,7 +419,7 @@ class SmartBackgroundHarvester:
         retained_count = 0
 
         for job in active_jobs:
-            # Kiểm tra hạn nộp hồ sơ
+            # 1. Kiểm tra hạn nộp hồ sơ và từ khóa đóng đơn
             job_dict = {
                 "expires_at": job.expires_at,
                 "description": job.description,
@@ -414,17 +427,36 @@ class SmartBackgroundHarvester:
             }
             is_valid, msg = self.check_recruitment_status(job_dict)
 
-            # Kiểm tra link 404 và link mạng xã hội không chuẩn
+            # 2. Kiểm tra yêu cầu JD tuyển dụng đầy đủ (link không có JD hoặc không hiển thị gì thì bỏ)
+            desc_clean = (job.description or "").strip()
+            req_clean = (job.requirements or "").strip()
+            if is_valid and (len(desc_clean) < 50 or len(req_clean) < 30):
+                is_valid = False
+                msg = "Thiếu mô tả công việc hoặc thiếu yêu cầu ứng tuyển JD (Bỏ theo yêu cầu chuẩn xác)"
+
+            # 3. Kiểm tra link 404 và link mạng xã hội không chuẩn
             if is_valid and job.source_url:
                 if (
                     "?post_ref=" in job.source_url
                     or "?ref=" in job.source_url
+                    or "#it-" in job.source_url
                     or "radisson" in job.source_url.lower()
                     or "tiktok.com" in job.source_url.lower()
                     or "threads.net" in job.source_url.lower()
                 ):
                     is_valid = False
                     msg = "Link nguồn không hợp lệ / chứa tham số rác hoặc mạng xã hội không chuẩn"
+
+            # 4. Kiểm tra tin từ mạng xã hội: bắt buộc phải thuộc IT / CNTT và có địa chỉ rõ ràng
+            if is_valid and job.source_url and "facebook.com" in job.source_url.lower():
+                title_cat = f"{(job.title or '').lower()} {(job.category or '').lower()} {desc_clean.lower()}"
+                it_matches = any(k in title_cat for k in [
+                    "it", "cntt", "công nghệ thông tin", "phần mềm", "lập trình",
+                    "mạng", "kỹ thuật", "hệ thống", "helpdesk", "developer", "cloud", "camera", "dữ liệu"
+                ])
+                if not it_matches:
+                    is_valid = False
+                    msg = "Tin mạng xã hội không thuộc chuyên ngành CNTT / IT (Loại bỏ tin ngẫu nhiên)"
 
             if not is_valid:
                 job.is_active = False
@@ -446,7 +478,9 @@ class SmartBackgroundHarvester:
 
         output_list = []
         for j in active_jobs:
-            if j.company:
+            if j.company_name and j.company_name.strip():
+                comp_name = j.company_name.strip()
+            elif j.company:
                 comp_name = j.company.name
                 if "Bất Động Sản Hạ Long" in comp_name and "Bất Động Sản Hạ Long" not in j.title and "bất động sản" not in (j.title or "").lower():
                     raw_comp = None
@@ -454,7 +488,7 @@ class SmartBackgroundHarvester:
                         raw_comp = j.raw_data.get("company") or j.raw_data.get("company_name")
                     comp_name = raw_comp if raw_comp else (f"Doanh nghiệp tại {j.location_province}" if j.location_province else "Doanh nghiệp uy tín")
             else:
-                comp_name = j.company_name or (j.raw_data or {}).get("company_name", "Doanh nghiệp")
+                comp_name = (j.raw_data or {}).get("company_name", "Doanh nghiệp")
             prov = j.location_province or ""
             loc_full = j.location_full or ""
 

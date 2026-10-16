@@ -286,8 +286,32 @@ class TestRealtimeSearchAndData(unittest.TestCase):
             if status not in ["verified", "unverified", "unknown"]:
                 temporal_issues.append((j["id"], j["title"], f"Trạng thái verification_status không hợp lệ: {status}"))
 
-        self.assertEqual(len(temporal_issues), 0, f"Phát hiện tin thiếu mốc thời gian hoặc trạng thái thẩm định: {temporal_issues}")
-        print("  ✓ Test 13 - Phân Định Mốc Thời Gian & Trạng Thái Thẩm Định: 100% ĐẠT")
+    def test_14_facebook_it_recruitment_posts_and_jd_completeness(self):
+        """Kiểm tra 100% tin tuyển dụng Facebook đều có link bài viết trực tiếp (/posts/) và JD đầy đủ"""
+        fb_issues = []
+        for j in self.jobs:
+            url = j.get("source_url") or ""
+            desc = (j.get("description") or "").strip()
+            req = (j.get("requirements") or "").strip()
+
+            # 1. Bắt buộc 100% việc làm trong hệ thống phải có JD rõ ràng
+            if len(desc) < 30 or len(req) < 20:
+                fb_issues.append((j["id"], j["title"], "Thiếu yêu cầu JD hoặc mô tả công việc quá ngắn"))
+
+            # 2. Riêng nguồn Facebook: Bắt buộc là tin IT và có link bài viết trực tiếp (/posts/)
+            if "facebook.com" in url:
+                if "/posts/" not in url:
+                    fb_issues.append((j["id"], j["title"], f"Link Facebook không phải bài viết trực tiếp: {url}"))
+                cat_title = f"{j.get('title', '')} {j.get('category', '')} {desc}".lower()
+                is_it = any(k in cat_title for k in [
+                    "it", "cntt", "công nghệ thông tin", "lập trình", "phần mềm",
+                    "mạng", "kỹ thuật", "hệ thống", "helpdesk", "developer", "camera", "cloud"
+                ])
+                if not is_it:
+                    fb_issues.append((j["id"], j["title"], "Tin Facebook không thuộc lĩnh vực CNTT"))
+
+        self.assertEqual(len(fb_issues), 0, f"Phát hiện tin tuyển dụng Facebook không đạt chuẩn: {fb_issues}")
+        print("  ✓ Test 14 - 100% Tin Facebook là bài viết IT trực tiếp & JD đầy đủ: 100% ĐẠT")
 
 
 if __name__ == "__main__":

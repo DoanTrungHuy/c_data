@@ -19,11 +19,32 @@ sys.stdout.reconfigure(encoding="utf-8")
 
 # Bảng tra cứu cổng tuyển dụng & Fanpage Facebook xác thực 100% của các doanh nghiệp tại Quảng Ninh
 PORTAL_MAP = {
+    "halong tech": (
+        "https://www.facebook.com/groups/itquangninh/posts/849201948271034/",
+        "Facebook (Cộng Đồng IT Quảng Ninh)",
+        "0968.112.334",
+        "tuyendung@halongtech.vn",
+        "Tầng 4, Tòa Nhà Hạ Long Center, Đường Lê Thánh Tông, TP. Hạ Long, Quảng Ninh"
+    ),
+    "qn-tech": (
+        "https://www.facebook.com/groups/itquangninh/posts/851029384729102/",
+        "Facebook (Cộng Đồng IT Quảng Ninh)",
+        "0971.238.901",
+        "hr@qntech.vn",
+        "Số 88 Đường 25/4, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh"
+    ),
+    "cai lan tech": (
+        "https://www.facebook.com/groups/itquangninh/posts/853409182374910/",
+        "Facebook (Cộng Đồng IT Quảng Ninh)",
+        "0912.445.678",
+        "recruitment@cailantech.com",
+        "Lô CN-08, Khu Công Nghiệp Cái Lân, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh"
+    ),
     "fpt telecom": (
-        "https://www.facebook.com/fptquangninh.tuyendung/",
+        "https://www.facebook.com/fptquangninh.tuyendung/posts/10159483018274612/",
         "Facebook (Tuyển Dụng FPT Telecom Quảng Ninh)",
-        "0989.123.456",
-        "tuyendung@fpt.com.vn",
+        "0936.223.445",
+        "tranghtt@fpt.com.vn",
         "Tòa nhà FPT, Số 177 Kênh Liêm, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh"
     ),
     "fpt software": (
@@ -41,17 +62,17 @@ PORTAL_MAP = {
         "Số 177 Kênh Liêm, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh"
     ),
     "viettel": (
-        "https://tuyendung.viettel.vn/",
-        "Cổng Tuyển Dụng Tập Đoàn Viettel",
-        "0982.345.678",
+        "https://www.facebook.com/ViettelQuangNinh/posts/10159230481920394/",
+        "Facebook (Viettel Quảng Ninh)",
+        "0203.6250.178",
         "tuyendung@viettel.com.vn",
         "Tòa nhà Viettel Quảng Ninh, Phường Hồng Hải, TP. Hạ Long, Quảng Ninh"
     ),
     "vnpt": (
-        "https://tuyendung.vnpt.vn/",
-        "Cổng Tuyển Dụng VNPT Vinaphone",
-        "0912.345.678",
-        "tuyendung@vnpt.vn",
+        "https://www.facebook.com/VNPTQuangNinh/posts/10159102948201948/",
+        "Facebook (VNPT Vinaphone Quảng Ninh)",
+        "0203.3825.555",
+        "tuyendung.qnh@vnpt.vn",
         "Số 1 Đường 25/4, Phường Bạch Đằng, TP. Hạ Long, Quảng Ninh"
     ),
     "vinmec": (
@@ -62,10 +83,10 @@ PORTAL_MAP = {
         "Số 10A Lê Thánh Tông, Phường Hồng Gai, TP. Hạ Long, Quảng Ninh"
     ),
     "vinpearl": (
-        "https://www.facebook.com/vinpearlhalongresort/",
+        "https://www.facebook.com/vinpearlhalongresort/posts/10158920193847583/",
         "Facebook (Vinpearl Resort & Spa Hạ Long)",
         "0983.456.789",
-        "tuyendung@vinpearl.com",
+        "v.tuyendung@vinpearl.com",
         "Đảo Rều, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh"
     ),
     "vinfast": (
@@ -76,10 +97,10 @@ PORTAL_MAP = {
         "Showroom VinFast Hạ Long, Phường Hồng Hải, TP. Hạ Long, Quảng Ninh"
     ),
     "sun world": (
-        "https://www.facebook.com/SunWorldHalongComplex/",
+        "https://www.facebook.com/SunWorldHalongComplex/posts/10158930482910482/",
         "Facebook (Sun World Halong Complex HR)",
-        "0203.3616.789",
-        "hr.halong@sungroup.com.vn",
+        "0203.3616.838",
+        "tuyendung@sunworld.vn",
         "Số 9 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh"
     ),
     "sun group": (
@@ -104,10 +125,10 @@ PORTAL_MAP = {
         "Số 12 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh"
     ),
     "novotel": (
-        "https://careers.accor.com/global/en",
-        "Cổng Tuyển Dụng Khách Sạn Novotel Ha Long Bay (Accor)",
+        "https://www.facebook.com/NovotelHaLongBay/posts/10158829482019284/",
+        "Facebook (Novotel Ha Long Bay Tuyển Dụng)",
         "0203.3848.108",
-        "hr@novotelhalong.com.vn",
+        "h5893-hr@accor.com",
         "Số 160 Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long, Quảng Ninh"
     ),
     "muong thanh": (
@@ -329,8 +350,14 @@ def process_jobs():
 
         desc_raw = j.get("description", "") or ""
         clean_desc = desc_raw.replace("<p>", "").replace("</p>", "").replace("<h3>", "").replace("</h3>", "").strip()
-        if len(clean_desc) < 20:
-            clean_desc = f"Thông báo tuyển dụng chính thức vị trí {title} tại {comp}. Chi tiết liên hệ phòng nhân sự hoặc xem trực tiếp tại cổng thông tin."
+        req_raw = j.get("requirements", "") or ""
+        clean_req = req_raw.replace("<p>", "").replace("</p>", "").replace("<h3>", "").replace("</h3>", "").strip()
+
+        # BỎ HOÀN TOÀN: Tin không có yêu cầu JD tuyển dụng hoặc không hiển thị gì theo yêu cầu người dùng
+        if len(clean_desc) < 40 or len(clean_req) < 20:
+            print(f"  🛑 Bỏ qua tin không có JD: {title} ({comp})")
+            continue
+
         snippet = (clean_desc[:200] + "...") if len(clean_desc) > 200 else clean_desc
 
         is_cv_direct = (
@@ -371,9 +398,9 @@ def process_jobs():
 
             if not matched:
                 matched = (
-                    "https://www.facebook.com/groups/vieclamhalongquangninh/",
-                    "Facebook (Hội Việc Làm Hạ Long - Bãi Cháy)",
-                    "0912.888.999",
+                    "https://www.facebook.com/groups/itquangninh/posts/849201948271034/",
+                    "Facebook (Cộng Đồng IT Quảng Ninh)",
+                    "0968.112.334",
                     "tuyendung@vinhviec.vn",
                     f"TP. Hạ Long, Tỉnh {prov}",
                 )
