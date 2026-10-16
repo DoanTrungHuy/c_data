@@ -125,3 +125,26 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Print optimization for saving job postings as clean PDF */
+@media print {
+  header,
+  footer,
+  nav,
+  button,
+  .no-print,
+  #compare-tray {
+    display: none !important;
+  }
+  body, main {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+  }
+  .prose-content {
+    color: #000000 !important;
+  }
+  a[href]::after {
+    content: "" !important;
+  }
+}

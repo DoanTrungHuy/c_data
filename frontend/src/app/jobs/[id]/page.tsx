@@ -29,6 +29,10 @@ import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
 import SaveJobButton from "@/components/SaveJobButton";
 import ShareJobButton from "@/components/ShareJobButton";
 import CoverLetterButton from "@/components/CoverLetterButton";
+import InterviewPrepKit from "@/components/InterviewPrepKit";
+import SalaryBenchmarkWidget from "@/components/SalaryBenchmarkWidget";
+import QuickApplyButton from "@/components/QuickApplyButton";
+import PrintJobButton from "@/components/PrintJobButton";
 import type { Metadata } from "next";
 
 import fs from "fs";
@@ -346,34 +350,37 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
 
               {/* Action Buttons */}
               <div className="space-y-3 pt-1">
-                {/* Primary Button */}
-                {job.source_url && (
-                  <a
-                    href={job.source_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-black hover:bg-neutral-800 px-6 py-3.5 text-sm sm:text-base font-bold text-white shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                  >
-                    <span>
-                      {platform.id === "facebook"
-                        ? "🌐 Mở Trang Facebook Gốc"
-                        : platform.id === "threads"
-                        ? "🌐 Mở Trang Threads Gốc"
-                        : platform.id === "tiktok"
-                        ? "🌐 Mở Kênh TikTok Gốc"
-                        : platform.id === "careerviet"
-                        ? "📄 Xem Bài Đăng Trên CareerViet"
-                        : platform.id === "topcv"
-                        ? "📄 Xem Bài Đăng Trên TopCV"
-                        : platform.id === "vietnamworks"
-                        ? "📄 Xem Bài Đăng Trên VietnamWorks"
-                        : platform.id === "company" || (job.source_platform && (job.source_platform.includes("Website") || job.source_platform.includes("Doanh nghiệp") || job.source_platform.includes("Tập Đoàn")))
-                        ? "🏢 Mở Cổng Doanh Nghiệp"
-                        : `Xem Tin Gốc (${platform.name})`}
-                    </span>
-                    <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
-                  </a>
-                )}
+                {/* Primary Action Buttons: 1-Click Apply & Source Link */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                  <QuickApplyButton job={job} className="w-full py-3.5 text-sm sm:text-base" />
+                  {job.source_url && (
+                    <a
+                      href={job.source_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                    >
+                      <span>
+                        {platform.id === "facebook"
+                          ? "🌐 Mở Trang Facebook Gốc"
+                          : platform.id === "threads"
+                          ? "🌐 Mở Trang Threads Gốc"
+                          : platform.id === "tiktok"
+                          ? "🌐 Mở Kênh TikTok Gốc"
+                          : platform.id === "careerviet"
+                          ? "📄 Xem Trên CareerViet"
+                          : platform.id === "topcv"
+                          ? "📄 Xem Trên TopCV"
+                          : platform.id === "vietnamworks"
+                          ? "📄 Xem Trên VietnamWorks"
+                          : platform.id === "company" || (job.source_platform && (job.source_platform.includes("Website") || job.source_platform.includes("Doanh nghiệp") || job.source_platform.includes("Tập Đoàn")))
+                          ? "🏢 Mở Cổng Doanh Nghiệp"
+                          : `Xem Tin Gốc (${platform.name})`}
+                      </span>
+                      <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
+                    </a>
+                  )}
+                </div>
 
                 {/* Direct Contact Buttons (if available) */}
                 {(job.raw_data?.mined?.phones?.[0] || job.raw_data?.mined?.hr_email) && (
@@ -426,6 +433,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   <CoverLetterButton job={job} className="px-3.5 py-2 text-xs font-bold" />
                   <SaveJobButton jobId={job.id} showText className="px-3 py-2 text-xs font-bold" />
                   <ShareJobButton title={job.title} showText className="px-3 py-2 text-xs font-bold" />
+                  <PrintJobButton className="px-3 py-2 text-xs font-bold" />
 
                   {job.location_full && (
                     <a
@@ -749,6 +757,12 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 </div>
               </div>
             </div>
+
+            {/* Salary Benchmark & Living Cost Advantages */}
+            <SalaryBenchmarkWidget job={job} />
+
+            {/* AI Interview Preparation & STAR Answer Kit */}
+            <InterviewPrepKit job={job} />
 
             {/* Direct HR Contact Box */}
             {job.raw_data?.mined?.phones && job.raw_data.mined.phones.length > 0 && (
