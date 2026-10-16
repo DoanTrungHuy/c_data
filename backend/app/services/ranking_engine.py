@@ -206,9 +206,9 @@ class MultiSignalRankingEngine:
             penalty_score
         )
 
-        # Bảo vệ độ liên quan: nếu không có bất kỳ tín hiệu nghề nghiệp/kỹ năng/công ty nào
-        # thì điểm tổng bị triệt tiêu (không để tin spam nguồn uy tín chiếm trang đầu)
-        if rel_score <= 0 and not intent.target_company and intent.primary_role:
+        # Bảo vệ độ liên quan: nếu người dùng có nhập từ khóa tìm kiếm nhưng không có bất kỳ tín hiệu nghề nghiệp/kỹ năng/công ty nào
+        # thì điểm tổng bị triệt tiêu về 0 (không để tin spam nguồn uy tín chiếm trang kết quả)
+        if (intent.raw_query or intent.primary_role) and rel_score <= 0 and not intent.target_company:
             raw_total = 0.0
 
         total_score = max(0.0, min(100.0, raw_total))

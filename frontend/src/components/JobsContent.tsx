@@ -752,12 +752,65 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               <MagnifyingGlassIcon className="h-8 w-8" />
             </div>
             <h3 className="text-lg font-bold text-black">
-              Không tìm thấy việc làm phù hợp
+              {q ? (
+                <>
+                  Không tìm thấy việc làm phù hợp cho: <span className="underline font-black">"{q}"</span>
+                </>
+              ) : (
+                "Không tìm thấy việc làm phù hợp"
+              )}
             </h3>
-            <p className="text-sm text-neutral-500 max-w-md mx-auto leading-relaxed">
-              Hãy thử tìm kiếm với từ khóa ngắn hơn, bỏ bớt các bộ lọc địa điểm hoặc ngành nghề để có nhiều kết quả hơn.
+            <p className="text-sm text-neutral-500 max-w-lg mx-auto leading-relaxed">
+              {q ? (
+                <>
+                  Hệ thống không tìm thấy tin tuyển dụng nào chứa từ khóa này. Bạn hãy thử kiểm tra lại chính tả, thử từ khóa khác hoặc bấm các gợi ý bên dưới.
+                </>
+              ) : (
+                "Hãy thử tìm kiếm với từ khóa ngắn hơn, bỏ bớt các bộ lọc địa điểm hoặc ngành nghề để có nhiều kết quả hơn."
+              )}
             </p>
-            <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+
+            {/* Quick Suggestions for Empty State */}
+            <div className="pt-2">
+              <span className="text-xs font-semibold text-neutral-500 block mb-2">
+                Gợi ý việc làm trọng điểm bạn có thể thử:
+              </span>
+              <div className="flex flex-wrap items-center justify-center gap-2 max-w-lg mx-auto">
+                {["IT Hạ Long", "IT Support Bãi Cháy", "Kỹ sư Cái Lân", "Lập trình viên React", "Khách Sạn 5 Sao", "FPT Telecom"].map((sug) => (
+                  <button
+                    key={sug}
+                    type="button"
+                    onClick={() => {
+                      const params = new URLSearchParams();
+                      params.set("q", sug);
+                      if (province) params.set("province", province);
+                      router.push(`/jobs?${params.toString()}`);
+                    }}
+                    className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-neutral-100 hover:bg-black hover:text-white border border-neutral-200 text-xs font-medium transition-all active:scale-95 cursor-pointer"
+                  >
+                    <span>{sug}</span>
+                    <span className="text-neutral-400 text-[10px]">↗</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-3 flex flex-col sm:flex-row items-center justify-center gap-3">
+              {q && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    const params = new URLSearchParams(searchParams?.toString() || "");
+                    params.delete("q");
+                    params.delete("page");
+                    router.push(`/jobs${params.toString() ? `?${params.toString()}` : ""}`);
+                  }}
+                  className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-2.5 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
+                >
+                  <XMarkIcon className="h-4 w-4" />
+                  <span>Xóa từ khóa "{q}"</span>
+                </button>
+              )}
               {strict_mode && (
                 <button
                   type="button"
@@ -774,19 +827,11 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               )}
               <button
                 type="button"
-                onClick={handleLiveCrawl}
-                disabled={isCrawling}
-                className="inline-flex items-center gap-2 rounded-xl bg-black px-5 py-2.5 text-xs font-bold text-white hover:bg-neutral-800 shadow-xs transition-all active:scale-95 cursor-pointer"
-              >
-                <span>{isCrawling ? "⏳ Đang cào realtime..." : "⚡ Quét Realtime Đa Nguồn Ngay"}</span>
-              </button>
-              <button
-                type="button"
                 onClick={clearAllFilters}
                 className="inline-flex items-center gap-2 rounded-xl bg-neutral-100 px-5 py-2.5 text-xs font-bold text-black hover:bg-neutral-200 border border-neutral-300 transition-colors cursor-pointer"
               >
                 <ArrowPathIcon className="h-4 w-4" />
-                <span>Đặt lại toàn bộ bộ lọc</span>
+                <span>Xem tất cả việc làm</span>
               </button>
             </div>
           </div>

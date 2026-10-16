@@ -124,6 +124,26 @@ export async function loadAllJobsForClient(): Promise<Job[]> {
   return fetchPromise;
 }
 
+// Danh sách các từ dừng phổ biến trong câu tìm kiếm việc làm tiếng Việt
+const QUERY_STOP_WORDS = new Set([
+  "tuyen", "tuyendung", "can", "cantuyen", "tim", "timviec",
+  "viec", "vieclam", "job", "jobs", "tai", "o", "cho", "va", "nhung",
+  "cac", "mot", "nhom", "doi", "cap", "khu", "vuc", "chuyen", "nhan"
+]);
+
+// Danh sách các địa danh / khu vực trọng điểm
+const KNOWN_LOCATIONS = [
+  "quang ninh", "ha long", "bai chay", "cai lan", "hon gai", "hong gai", "tuan chau",
+  "cam pha", "uong bi", "dong trieu", "mong cai", "van don", "quang yen",
+  "ha noi", "ho chi minh", "hcm", "sai gon", "da nang", "hai phong", "binh duong"
+];
+
+// Các âm tiết tiếng Việt đơn lẻ hay bị va chạm nhầm vào giữa các từ ghép (như 'toàn' trong 'an toàn', 'toàn thời gian')
+const VIETNAMESE_SYLLABLE_COLLISIONS = new Set([
+  "toan", "thiet", "hoan", "thanh", "dong", "nghiep", "phan", "mem", "vien", "nhan", "chuyen",
+  "quan", "tri", "he", "thong", "bang", "bai", "cai", "hon", "gai", "ninh", "long", "kinh", "doanh"
+]);
+
 /**
  * Tìm kiếm Real-time (Client-side Search Engine)
  * Chạy ngay lập tức trong 2ms trên từng phím gõ của người dùng
@@ -149,13 +169,35 @@ export function searchJobsRealtime(
   const rawProvince = (params.province || "").trim();
   const normProvince = removeVietnameseTones(rawProvince);
 
-  // Tạo tập từ khóa mở rộng thông minh
-  const searchTokens = normQ.split(/\s+/).filter(Boolean);
-  const expandedTokens = new Set<string>(searchTokens);
+  // Tách địa danh trong chuỗi tìm kiếm nếu có (ví dụ "IT Bãi Cháy" -> có "bai chay")
+  let cleanQWithoutLoc = normQ;
+  const matchedLocsInQ: string[] = [];
+  for (const loc of KNOWN_LOCATIONS) {
+    if (cleanQWithoutLoc.includes(loc)) {
+      matchedLocsInQ.push(loc);
+      cleanQWithoutLoc = cleanQWithoutLoc.replace(loc, " ");
+    }
+  }
 
+  const allTokens = normQ.split(/\s+/).filter(Boolean);
+  const cleanQTrimmed = cleanQWithoutLoc.trim();
+
+  // Tập hợp các cụm từ / từ khóa nghiệp vụ mục tiêu
+  const searchPhrases = new Set<string>();
+  if (cleanQTrimmed) {
+    searchPhrases.add(cleanQTrimmed);
+  }
+
+  for (const tok of cleanQTrimmed.split(/\s+/)) {
+    if (tok && tok.length >= 3 && !VIETNAMESE_SYLLABLE_COLLISIONS.has(tok) && !QUERY_STOP_WORDS.has(tok)) {
+      searchPhrases.add(tok);
+    }
+  }
+
+  // Mở rộng từ đồng nghĩa vai trò/chuyên ngành
   for (const [key, synonyms] of Object.entries(ROLE_SYNONYMS)) {
-    if (normQ.includes(key) || synonyms.some((s) => normQ.includes(s))) {
-      synonyms.forEach((s) => expandedTokens.add(s));
+    if (normQ === key || normQ.includes(key) || synonyms.some((s) => normQ === s || normQ.includes(s))) {
+      synonyms.forEach((s) => searchPhrases.add(s));
     }
   }
 
@@ -199,13 +241,12 @@ export function searchJobsRealtime(
         const loc = locArray[i];
         if (normLoc.includes(loc)) {
           locMatched = true;
-          score += 35;
-          reasons.push(`Thuộc khu vực phù hợp (${job.location_province || rawProvince}) (+35)`);
+          score += 25;
+          reasons.push(`Thuộc khu vực phù hợp (${job.location_province || rawProvince}) (+25)`);
           break;
         }
       }
       if (!locMatched) {
-        // Tỉnh thành yêu cầu hoàn toàn không khớp -> LOẠI BỎ NGAY LẬP TỨC (Hard Exclusion)
         return {
           job: {
             ...job,
@@ -225,70 +266,80 @@ export function searchJobsRealtime(
           normCompany.includes(zoneKey) ||
           zoneKeywords.some((z) => normLoc.includes(z) || normCompany.includes(z));
         if (zoneMatched) {
-          score += 45;
-          reasons.push(`Khớp chính xác khu vực trọng điểm (${zoneKey.toUpperCase()}) (+45)`);
-        }
-      }
-    }
-
-    // 1.2 Nếu từ khóa q chứa tên tỉnh thành (ví dụ người dùng gõ "Hà Nội" trong ô tìm kiếm)
-    for (const [locKey, locSynonyms] of Object.entries(LOCATION_SYNONYMS)) {
-      if (normQ.includes(locKey) || locSynonyms.some((s) => normQ.includes(s))) {
-        const locInJob = normLoc.includes(locKey) || locSynonyms.some((s) => normLoc.includes(s));
-        if (locInJob) {
-          score += 30;
-          reasons.push(`Khớp địa bàn trong từ khóa (${locKey.toUpperCase()}) (+30)`);
-        } else {
-          score -= 50; // Trừ điểm nặng nếu người dùng gõ đích danh địa bàn mà việc làm ở nơi khác
+          score += 20;
+          reasons.push(`Khớp chính xác khu vực trọng điểm (${zoneKey.toUpperCase()}) (+20)`);
         }
       }
     }
 
     // 2. Kiểm tra từ khóa chức danh & nhiệm vụ thực tế
-    if (searchTokens.length > 0) {
-      let titleHits = 0;
-      let descHits = 0;
+    let queryMatched = false;
+    let queryScore = 0;
 
-      // Khớp chính xác cả cụm
-      if (normTitle.includes(normQ)) {
-        score += 40;
-        reasons.push(`Chức danh khớp trực tiếp "${rawQ}" (+40)`);
-      } else {
-        // Khớp từng từ hoặc từ đồng nghĩa
-        const expArray = Array.from(expandedTokens);
-        for (let i = 0; i < expArray.length; i++) {
-          const token = expArray[i];
-          if (normTitle.includes(token)) {
-            titleHits++;
+    if (allTokens.length > 0) {
+      if (searchPhrases.size > 0) {
+        const phraseList = Array.from(searchPhrases);
+        for (const phrase of phraseList) {
+          if (normTitle.includes(phrase)) {
+            queryMatched = true;
+            queryScore += 45;
+            reasons.push(`Chức danh khớp "${phrase}" (+45)`);
+            break;
+          } else if (normCompany.includes(phrase)) {
+            queryMatched = true;
+            queryScore += 35;
+            reasons.push(`Khớp tên doanh nghiệp/đơn vị "${phrase}" (+35)`);
+            break;
+          } else if (normCategory.includes(phrase)) {
+            queryMatched = true;
+            queryScore += 25;
+            reasons.push(`Khớp danh mục ngành nghề (+25)`);
+            break;
+          } else if (job.tech_stack && job.tech_stack.some((t) => removeVietnameseTones(t).includes(phrase))) {
+            queryMatched = true;
+            queryScore += 35;
+            reasons.push(`Khớp công nghệ/kỹ năng "${phrase}" (+35)`);
+            break;
+          } else if (normDesc.includes(phrase) || normReq.includes(phrase)) {
+            queryMatched = true;
+            queryScore += 20;
+            reasons.push(`Nội dung mô tả công việc có liên quan (+20)`);
+            break;
           }
-          if (normDesc.includes(token) || normReq.includes(token)) {
-            descHits++;
-          }
         }
 
-        if (titleHits > 0) {
-          score += Math.min(30, titleHits * 12);
-          reasons.push(`Chức danh có từ khóa chuyên môn phù hợp (+${Math.min(30, titleHits * 12)})`);
+        // BẮT BUỘC: Nếu người dùng đã gõ từ khóa mà không khớp bất kỳ cụm từ nghiệp vụ nào -> LOẠI BỎ NGAY LẬP TỨC!
+        if (!queryMatched) {
+          return {
+            job: {
+              ...job,
+              match_score: 0,
+              match_reasons: [],
+            },
+            score: -9999,
+          };
         }
-        if (descHits > 0) {
-          score += Math.min(20, descHits * 5);
-          reasons.push(`Mô tả công việc có các trách nhiệm kỹ thuật phù hợp (+${Math.min(20, descHits * 5)})`);
+      } else if (matchedLocsInQ.length > 0) {
+        // Người dùng chỉ gõ địa danh trong ô tìm kiếm (ví dụ "Bãi Cháy" hoặc "Cái Lân")
+        const locInJob = matchedLocsInQ.some((l) => normLoc.includes(l) || normCompany.includes(l));
+        if (!locInJob) {
+          return {
+            job: {
+              ...job,
+              match_score: 0,
+              match_reasons: [],
+            },
+            score: -9999,
+          };
         }
-      }
-
-      if (normCompany.includes(normQ)) {
-        score += 20;
-        reasons.push(`Khớp tên doanh nghiệp/khách sạn (+20)`);
-      }
-
-      if (normCategory.includes(normQ)) {
-        score += 15;
+        queryMatched = true;
+        queryScore += 30;
       }
 
       // Ràng buộc khắt khe (Strict mode)
-      if (params.strict_mode) {
+      if (params.strict_mode && cleanQTrimmed) {
         const fullJobHaystack = `${normTitle} ${normCompany} ${normDesc} ${normReq} ${normLoc} ${normCategory}`;
-        const hasAll = searchTokens.every((t) => fullJobHaystack.includes(t));
+        const hasAll = cleanQTrimmed.split(/\s+/).every((t) => fullJobHaystack.includes(t));
         if (!hasAll) {
           return {
             job: {
@@ -300,9 +351,10 @@ export function searchJobsRealtime(
           };
         }
       }
+      score += queryScore;
     } else {
-      // Khi không có từ khóa tìm kiếm thì điểm cơ sở
-      score += 10;
+      // Khi không có từ khóa tìm kiếm (chế độ duyệt danh sách)
+      score += 40;
     }
 
     // 3. Khớp ngành nghề lọc
@@ -368,8 +420,8 @@ export function searchJobsRealtime(
 
     // 9. Điểm cộng Dẫn chứng tuyển dụng xác thực (Verified Evidence Proof Bonus)
     if (job.evidence_proof && job.evidence_proof.verified) {
-      score += 25;
-      reasons.push("Dẫn chứng tuyển dụng đã qua kiểm định pháp nhân (+25)");
+      score += 15;
+      reasons.push("Dẫn chứng tuyển dụng đã qua kiểm định pháp nhân (+15)");
     }
 
     // 10. Lọc khắt khe nếu người dùng bật chế độ chỉ xem tin có dẫn chứng (Verified Only)
@@ -387,9 +439,9 @@ export function searchJobsRealtime(
     };
   });
 
-  // Lọc chỉ giữ các công việc có điểm phù hợp dương (hoặc hiển thị tất cả nếu không có query)
+  // Lọc chỉ giữ các công việc có điểm phù hợp dương
   let eligible = scoredJobs
-    .filter((item) => (normQ || normProvince || params.category || params.job_type || params.quality_tier || params.tech_stack ? item.score > 0 : true))
+    .filter((item) => item.score > 0)
     .sort((a, b) => {
       if (params.sort_by === "quality") {
         return (b.job.quality_score || 0) - (a.job.quality_score || 0);
@@ -406,14 +458,14 @@ export function searchJobsRealtime(
   const start = (page - 1) * pageSize;
   const pagedItems = eligible.slice(start, start + pageSize);
 
-  const keywords = [
+  const keywords = total > 0 ? [
     "IT Support Hạ Long",
     "IT Officer Khách Sạn",
     "Kỹ sư CNTT Cái Lân",
     "Lập trình viên React",
     "Nhân viên IT Bãi Cháy",
     "Quản trị mạng hệ thống",
-  ];
+  ] : [];
 
   return {
     items: pagedItems,

@@ -174,21 +174,6 @@ class JobService:
         res = await db.execute(candidate_stmt)
         candidate_jobs = list(res.scalars().all())
 
-        # Nếu tìm kiếm cụ thể mà tập ứng viên lọc quá hẹp, nới lỏng khi KHÔNG bật strict_mode
-        if search_query and len(candidate_jobs) < 10 and not params.strict_mode:
-            relaxed_stmt = (
-                select(Job)
-                .options(selectinload(Job.company))
-                .where(and_(*base_filters))
-                .order_by(Job.posted_at.desc().nullslast(), Job.crawled_at.desc())
-                .limit(100)
-            )
-            relaxed_res = await db.execute(relaxed_stmt)
-            existing_ids = {j.id for j in candidate_jobs}
-            for rj in relaxed_res.scalars().all():
-                if rj.id not in existing_ids:
-                    candidate_jobs.append(rj)
-
         # 4. Chấm điểm độ phù hợp và xếp hạng có thể giải thích (Hybrid Ranking & Explainability)
         ranked_items, diagnostics = hybrid_search_engine.rank_and_filter_jobs(
             candidate_jobs=candidate_jobs,

@@ -287,7 +287,7 @@ export async function getJobs(params: JobSearchParams = {}): Promise<JobListResp
 
   try {
     const response = await apiClient.get<JobListResponse>("/jobs", { params });
-    if (response.data && Array.isArray(response.data.items) && response.data.items.length > 0) {
+    if (response.data && Array.isArray(response.data.items)) {
       return response.data;
     }
   } catch {
