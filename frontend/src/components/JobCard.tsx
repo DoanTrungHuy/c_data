@@ -25,6 +25,7 @@ import {
   formatJobType,
   getSourcePlatformInfo,
   truncateText,
+  isValidDirectJobUrl,
 } from "@/lib/utils";
 import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
@@ -203,9 +204,9 @@ export default function JobCard({
                 <span>Dẫn chứng ✓</span>
               </span>
             )}
-            {job.source_url ? (
+            {isValidDirectJobUrl(job.source_url) ? (
               <a
-                href={job.source_url}
+                href={job.source_url!}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
@@ -478,9 +479,9 @@ export default function JobCard({
 
           {/* Right: Direct Source Link & Primary Detail CTA */}
           <div className="flex items-center gap-2 w-full sm:w-auto">
-            {job.source_url && (
+            {isValidDirectJobUrl(job.source_url) && (
               <a
-                href={job.source_url}
+                href={job.source_url!}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
@@ -768,15 +769,15 @@ export default function JobCard({
               </div>
 
               <div className="flex flex-wrap items-center gap-2">
-                {job.source_url && (
+                {isValidDirectJobUrl(job.source_url) && (
                   <>
                     <CopySourceButton
-                      url={job.source_url}
+                      url={job.source_url!}
                       label="Chép link nguồn"
                       className="text-xs font-semibold text-neutral-700 hover:text-black border border-neutral-300 px-3 py-2 rounded-xl hover:bg-neutral-100"
                     />
                     <a
-                      href={job.source_url}
+                      href={job.source_url!}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-black hover:bg-neutral-800 px-4 py-2.5 rounded-xl transition-all shadow-xs"

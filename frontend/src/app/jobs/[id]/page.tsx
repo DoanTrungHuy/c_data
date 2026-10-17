@@ -15,6 +15,7 @@ import {
   BookmarkIcon,
   CheckCircleIcon,
   CalendarDaysIcon,
+  EnvelopeIcon,
 } from "@heroicons/react/24/outline";
 import { getJob, getJobs } from "@/lib/api";
 import {
@@ -22,6 +23,7 @@ import {
   formatDate,
   formatJobType,
   getSourcePlatformInfo,
+  isValidDirectJobUrl,
 } from "@/lib/utils";
 import JobCard from "@/components/JobCard";
 import CopySourceButton from "@/components/CopySourceButton";
@@ -355,9 +357,9 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 {/* Primary Action Buttons: 1-Click Apply & Source Link */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <QuickApplyButton job={job} className="w-full py-3.5 text-sm sm:text-base" />
-                  {job.source_url && (
+                  {isValidDirectJobUrl(job.source_url) ? (
                     <a
-                      href={job.source_url}
+                      href={job.source_url!}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
@@ -380,6 +382,21 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                           : `Xem Tin Gốc (${platform.name})`}
                       </span>
                       <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
+                    </a>
+                  ) : job.raw_data?.mined?.hr_email ? (
+                    <a
+                      href={`mailto:${job.raw_data.mined.hr_email}?subject=${encodeURIComponent(`Ứng tuyển: ${job.title} - ${job.company}`)}`}
+                      className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-900 hover:bg-black text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                    >
+                      <EnvelopeIcon className="h-4 w-4 shrink-0" />
+                      <span>✉️ Ứng Tuyển Qua Email HR</span>
+                    </a>
+                  ) : (
+                    <a
+                      href="#job-description"
+                      className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                    >
+                      <span>📄 Toàn Văn Bài Đăng Tuyển Dụng</span>
                     </a>
                   )}
                 </div>
@@ -474,15 +491,22 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     </div>
                   </div>
 
-                  {job.source_url && (
+                  {isValidDirectJobUrl(job.source_url) ? (
                     <a
-                      href={job.source_url}
+                      href={job.source_url!}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-black hover:bg-neutral-800 px-4 py-2 text-xs font-bold text-white shadow-xs transition-all active:scale-95 self-start sm:self-auto cursor-pointer"
                     >
                       <span>Mở Cổng Tuyển Dụng Gốc</span>
                       <ArrowTopRightOnSquareIcon className="h-4 w-4" />
+                    </a>
+                  ) : (
+                    <a
+                      href="#job-description"
+                      className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-neutral-200 hover:bg-neutral-300 px-4 py-2 text-xs font-bold text-black shadow-xs transition-all active:scale-95 self-start sm:self-auto cursor-pointer"
+                    >
+                      <span>Xem Bản Lưu Trực Tiếp</span>
                     </a>
                   )}
                 </div>

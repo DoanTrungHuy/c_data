@@ -305,3 +305,52 @@ export function truncateText(text?: string | null, maxLength = 120): string {
   if (text.length <= maxLength) return text;
   return text.substring(0, maxLength).trim() + "...";
 }
+
+/**
+ * Kiểm tra xem URL nguồn có phải là trang tin tuyển dụng trực tiếp thực thụ hay không.
+ * Ngăn chặn tuyệt đối việc tham chiếu sai đến trang đặt phòng khách sạn, trang chủ dịch vụ, hoặc anchor hash.
+ */
+export function isValidDirectJobUrl(url?: string | null): boolean {
+  if (!url || typeof url !== "string") return false;
+  const clean = url.trim().toLowerCase();
+  if (!clean.startsWith("http://") && !clean.startsWith("https://")) return false;
+
+  // Chặn tuyệt đối link chứa anchor giả lập #it- hoặc tham số rác
+  if (clean.includes("#it-") || clean.includes("?post_ref=") || clean.includes("?ref=")) {
+    return false;
+  }
+
+  // Chặn các domain dịch vụ khách sạn / du lịch dễ bị redirect sang trang booking đặt phòng
+  const bookingOnlyDomains = [
+    "wyndhamhalong.com",
+    "paradisevietnam.com",
+    "yokoonsenquanghanh.com.vn",
+    "muongthanh.com",
+    "flc.vn",
+    "vinpearl.com",
+    "sunworld.vn",
+  ];
+  try {
+    const parsed = new URL(clean);
+    // Nếu chỉ là trang chủ (root domain) không có path chi tiết tin đăng
+    if ((parsed.pathname === "/" || parsed.pathname === "") && !parsed.search) {
+      return false;
+    }
+    if (bookingOnlyDomains.some((d) => parsed.hostname.includes(d))) {
+      // Nếu không có path tuyển dụng thực thụ, tuyệt đối không cho redirect sang trang booking
+      if (
+        !parsed.pathname.includes("/careers") &&
+        !parsed.pathname.includes("/tuyen-dung") &&
+        !parsed.pathname.includes("/jobs") &&
+        !parsed.pathname.includes("/recruitment")
+      ) {
+        return false;
+      }
+    }
+  } catch {
+    return false;
+  }
+
+  return true;
+}
+

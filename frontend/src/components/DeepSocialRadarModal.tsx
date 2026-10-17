@@ -14,6 +14,7 @@ import {
   ArrowTopRightOnSquareIcon,
 } from "@heroicons/react/24/outline";
 import { harvestSocialDeep, SocialHarvestResponse } from "@/lib/api";
+import { isValidDirectJobUrl } from "@/lib/utils";
 
 interface DeepSocialRadarModalProps {
   isOpen: boolean;
@@ -500,28 +501,27 @@ export default function DeepSocialRadarModal({
                     </div>
 
                     <div className="flex items-center gap-2 shrink-0">
-                      {j.source_url && (
-                        <button
-                          type="button"
-                          onClick={() => handleCopyLink(j.source_url)}
-                          className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl border border-neutral-200 text-xs font-medium text-neutral-700 hover:bg-neutral-100 transition-colors"
-                          title="Sao chép link bài đăng gốc"
-                        >
-                          <ClipboardDocumentCheckIcon className="h-3.5 w-3.5 text-neutral-500" />
-                          <span>{copiedUrl === j.source_url ? "✓ Đã chép" : "Chép link"}</span>
-                        </button>
-                      )}
-
-                      {j.source_url && (
-                        <a
-                          href={j.source_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black font-bold text-xs transition-colors border border-neutral-300"
-                        >
-                          <span>Mở nguồn</span>
-                          <ArrowTopRightOnSquareIcon className="h-3.5 w-3.5" />
-                        </a>
+                      {isValidDirectJobUrl(j.source_url) && (
+                        <>
+                          <button
+                            type="button"
+                            onClick={() => handleCopyLink(j.source_url)}
+                            className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-xl border border-neutral-200 text-xs font-medium text-neutral-700 hover:bg-neutral-100 transition-colors"
+                            title="Sao chép link bài đăng gốc"
+                          >
+                            <ClipboardDocumentCheckIcon className="h-3.5 w-3.5 text-neutral-500" />
+                            <span>{copiedUrl === j.source_url ? "✓ Đã chép" : "Chép link"}</span>
+                          </button>
+                          <a
+                            href={j.source_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 px-3 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black font-bold text-xs transition-colors border border-neutral-300"
+                          >
+                            <span>Mở nguồn</span>
+                            <ArrowTopRightOnSquareIcon className="h-3.5 w-3.5" />
+                          </a>
+                        </>
                       )}
                     </div>
                   </div>
