@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import { Job } from "@/types/job";
 import {
   CurrencyDollarIcon,
@@ -9,12 +9,14 @@ import {
   ArrowTrendingUpIcon,
   CheckBadgeIcon,
 } from "@heroicons/react/24/outline";
+import GrossNetSalaryCalculator from "@/components/GrossNetSalaryCalculator";
 
 interface SalaryBenchmarkWidgetProps {
   job: Job;
 }
 
 export default function SalaryBenchmarkWidget({ job }: SalaryBenchmarkWidgetProps) {
+  const [showCalculator, setShowCalculator] = useState(false);
   const benchmarkData = useMemo(() => {
     const min = job.salary_min || 0;
     const max = job.salary_max || 0;
@@ -167,6 +169,36 @@ export default function SalaryBenchmarkWidget({ job }: SalaryBenchmarkWidgetProp
             Khoản dôi dư tài chính tích lũy được nhờ chi phí sinh hoạt hợp lý tại Quảng Ninh.
           </p>
         </div>
+      </div>
+
+      {/* Interactive Gross-Net Salary Calculator Drawer */}
+      <div className="pt-2 border-t border-neutral-200">
+        <button
+          type="button"
+          onClick={() => setShowCalculator(!showCalculator)}
+          className="w-full flex items-center justify-between p-3.5 rounded-2xl bg-neutral-50 hover:bg-neutral-100 border border-neutral-200 transition-colors text-xs font-bold text-black cursor-pointer shadow-2xs"
+        >
+          <div className="flex items-center gap-2">
+            <span className="text-base">🧮</span>
+            <span>
+              {showCalculator
+                ? "Thu gọn công cụ tính lương Gross ⇋ Net"
+                : `Tính thử lương thực lĩnh (Net) cầm về tay cho vị trí này (${benchmarkData.midSalary} triệu)`}
+            </span>
+          </div>
+          <span className="text-neutral-500 font-bold text-[11px]">
+            {showCalculator ? "▲ Thu gọn" : "▼ Xem thực nhận & thuế"}
+          </span>
+        </button>
+
+        {showCalculator && (
+          <div className="mt-3.5 pt-3.5 border-t border-neutral-200 animate-fadeIn">
+            <GrossNetSalaryCalculator
+              initialSalary={benchmarkData.midSalary * 1000000}
+              initialMode="gross_to_net"
+            />
+          </div>
+        )}
       </div>
     </div>
   );

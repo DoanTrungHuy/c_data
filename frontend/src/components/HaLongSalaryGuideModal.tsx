@@ -7,7 +7,9 @@ import {
   CurrencyDollarIcon,
   LightBulbIcon,
   AcademicCapIcon,
+  CalculatorIcon,
 } from "@heroicons/react/24/outline";
+import GrossNetSalaryCalculator from "@/components/GrossNetSalaryCalculator";
 
 interface HaLongSalaryGuideModalProps {
   isOpen: boolean;
@@ -76,6 +78,8 @@ export default function HaLongSalaryGuideModal({
   onClose,
 }: HaLongSalaryGuideModalProps) {
   const [mounted, setMounted] = useState(false);
+  const [activeTab, setActiveTab] = useState<"tiers" | "calculator">("tiers");
+  const [calcSalary, setCalcSalary] = useState<number>(18000000);
 
   useEffect(() => {
     setMounted(true);
@@ -92,7 +96,7 @@ export default function HaLongSalaryGuideModal({
       />
 
       {/* Modal Dialog */}
-      <div className="relative w-full max-w-3xl rounded-2xl sm:rounded-3xl bg-white shadow-2xl border border-neutral-200 z-10 flex flex-col max-h-[85vh] overflow-hidden animate-fadeIn">
+      <div className="relative w-full max-w-3xl rounded-2xl sm:rounded-3xl bg-white shadow-2xl border border-neutral-200 z-10 flex flex-col max-h-[88vh] overflow-hidden animate-fadeIn">
         {/* Fixed Header */}
         <div className="shrink-0 px-4 sm:px-6 py-3.5 sm:py-4 border-b border-neutral-200 bg-white flex items-center justify-between gap-3">
           <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
@@ -102,7 +106,7 @@ export default function HaLongSalaryGuideModal({
             <div className="min-w-0">
               <div className="flex items-center gap-2">
                 <h3 className="text-base sm:text-lg font-black text-black truncate">
-                  Báo Cáo Lương IT Hạ Long 2026
+                  Báo Cáo Lương &amp; Tính Thuế IT 2026
                 </h3>
                 <span className="text-[10px] bg-neutral-100 text-neutral-800 border border-neutral-300 font-bold px-1.5 py-0.5 rounded-md uppercase shrink-0">
                   Thực tế
@@ -116,122 +120,182 @@ export default function HaLongSalaryGuideModal({
           <button
             type="button"
             onClick={onClose}
-            className="shrink-0 p-1.5 rounded-xl text-neutral-400 hover:text-black hover:bg-neutral-100 transition-colors"
+            className="shrink-0 p-1.5 rounded-xl text-neutral-400 hover:text-black hover:bg-neutral-100 transition-colors cursor-pointer"
             title="Đóng"
           >
             <XMarkIcon className="h-5 w-5" />
           </button>
         </div>
 
+        {/* Tab Selection */}
+        <div className="shrink-0 px-4 sm:px-6 pt-2 pb-0 bg-neutral-50 border-b border-neutral-200 flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setActiveTab("tiers")}
+            className={`flex items-center gap-1.5 py-2 px-3 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+              activeTab === "tiers"
+                ? "border-black text-black bg-white rounded-t-lg"
+                : "border-transparent text-neutral-500 hover:text-black"
+            }`}
+          >
+            <CurrencyDollarIcon className="h-4 w-4" />
+            <span>Thang Lương Hạ Long</span>
+          </button>
+          <button
+            type="button"
+            onClick={() => setActiveTab("calculator")}
+            className={`flex items-center gap-1.5 py-2 px-3 text-xs font-bold border-b-2 transition-all cursor-pointer ${
+              activeTab === "calculator"
+                ? "border-black text-black bg-white rounded-t-lg"
+                : "border-transparent text-neutral-500 hover:text-black"
+            }`}
+          >
+            <CalculatorIcon className="h-4 w-4" />
+            <span>Tính Lương Gross ⇋ Net</span>
+            <span className="px-1.5 py-0.2 rounded-full bg-black text-white text-[9px] font-bold">2026</span>
+          </button>
+        </div>
+
         {/* Scrollable Body */}
         <div className="flex-1 overflow-y-auto px-4 sm:px-6 py-4 space-y-4 [scrollbar-width:thin] [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-neutral-300 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-neutral-400">
-          {/* Quick Highlights Summary */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
-            <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider block">
-                Mức lương phổ biến
-              </span>
-              <p className="text-lg font-black text-black mt-0.5">12 - 25 Triệu</p>
-              <p className="text-[11px] text-neutral-600 mt-0.5">Cao hơn 15% mặt bằng lân cận</p>
+          {activeTab === "calculator" ? (
+            <div className="animate-fadeIn">
+              <GrossNetSalaryCalculator initialSalary={calcSalary} />
             </div>
-            <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider block">
-                Đãi ngộ độc quyền
-              </span>
-              <p className="text-lg font-black text-black mt-0.5">+ Service Charge</p>
-              <p className="text-[11px] text-neutral-600 mt-0.5">Khách sạn 5* thưởng thêm 2 - 5tr</p>
-            </div>
-            <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200">
-              <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider block">
-                Nhu cầu tuyển dụng
-              </span>
-              <p className="text-lg font-black text-black mt-0.5">Rộng mở &amp; Khát việc</p>
-              <p className="text-[11px] text-neutral-600 mt-0.5">Cần nhân lực IT gắn bó lâu dài</p>
-            </div>
-          </div>
+          ) : (
+            <>
+              {/* Quick Highlights Summary */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200">
+                  <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider block">
+                    Mức lương phổ biến
+                  </span>
+                  <p className="text-lg font-black text-black mt-0.5">12 - 25 Triệu</p>
+                  <p className="text-[11px] text-neutral-600 mt-0.5">Cao hơn 15% mặt bằng lân cận</p>
+                </div>
+                <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200">
+                  <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider block">
+                    Đãi ngộ độc quyền
+                  </span>
+                  <p className="text-lg font-black text-black mt-0.5">+ Service Charge</p>
+                  <p className="text-[11px] text-neutral-600 mt-0.5">Khách sạn 5* thưởng thêm 2 - 5tr</p>
+                </div>
+                <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200">
+                  <span className="text-[10px] font-bold text-neutral-500 uppercase tracking-wider block">
+                    Nhu cầu tuyển dụng
+                  </span>
+                  <p className="text-lg font-black text-black mt-0.5">Rộng mở &amp; Khát việc</p>
+                  <p className="text-[11px] text-neutral-600 mt-0.5">Cần nhân lực IT gắn bó lâu dài</p>
+                </div>
+              </div>
 
-          {/* Detailed Roles Breakdown */}
-          <div className="space-y-3">
-            <h4 className="text-[11px] font-extrabold text-neutral-700 uppercase tracking-wider flex items-center gap-1.5">
-              <CurrencyDollarIcon className="h-3.5 w-3.5 text-black" />
-              <span>Thang lương chi tiết theo khối ngành tại Hạ Long:</span>
-            </h4>
+              {/* Detailed Roles Breakdown */}
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <h4 className="text-[11px] font-extrabold text-neutral-700 uppercase tracking-wider flex items-center gap-1.5">
+                    <CurrencyDollarIcon className="h-3.5 w-3.5 text-black" />
+                    <span>Thang lương chi tiết theo khối ngành tại Hạ Long:</span>
+                  </h4>
+                  <span className="text-[10px] text-neutral-500 font-medium">Bấm "Tính Net" để xem thực nhận</span>
+                </div>
 
-            <div className="space-y-2.5">
-              {SALARY_TIERS.map((tier) => (
-                <div
-                  key={tier.role}
-                  className="p-3.5 rounded-2xl border border-neutral-200 bg-white hover:border-black transition-all space-y-2"
-                >
-                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
-                    <div>
-                      <h5 className="font-bold text-black text-sm">
-                        {tier.role}
-                      </h5>
-                      <p className="text-[11px] text-neutral-500">
-                        📍 {tier.location}
+                <div className="space-y-2.5">
+                  {SALARY_TIERS.map((tier) => (
+                    <div
+                      key={tier.role}
+                      className="p-3.5 rounded-2xl border border-neutral-200 bg-white hover:border-black transition-all space-y-2 shadow-2xs"
+                    >
+                      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                        <div>
+                          <h5 className="font-bold text-black text-sm">
+                            {tier.role}
+                          </h5>
+                          <p className="text-[11px] text-neutral-500">
+                            📍 {tier.location}
+                          </p>
+                        </div>
+                        <div className="flex sm:flex-col items-center sm:items-end justify-between sm:justify-center gap-2">
+                          <div className="sm:text-right">
+                            <span className="font-black text-black text-sm sm:text-base block">
+                              {tier.range}
+                            </span>
+                            <span className="text-[10px] text-neutral-600 font-medium block">
+                              {tier.bonus}
+                            </span>
+                          </div>
+                          <button
+                            type="button"
+                            onClick={() => {
+                              const match = tier.range.match(/(\d+)/);
+                              if (match) {
+                                setCalcSalary(parseInt(match[1]) * 1000000);
+                              }
+                              setActiveTab("calculator");
+                            }}
+                            className="inline-flex items-center gap-1 text-[10px] font-bold text-black hover:text-white bg-neutral-100 hover:bg-black px-2 py-1 rounded-lg border border-neutral-300 transition-all cursor-pointer shadow-2xs"
+                            title="Tính lương thực lĩnh cầm về tay"
+                          >
+                            <CalculatorIcon className="h-3 w-3" />
+                            <span>Tính Net</span>
+                          </button>
+                        </div>
+                      </div>
+
+                      {/* Progress bar visual */}
+                      <div className="w-full bg-neutral-100 rounded-full h-1.5 overflow-hidden border border-neutral-200">
+                        <div
+                          className="h-full rounded-full bg-black"
+                          style={{ width: `${tier.barPercent}%` }}
+                        />
+                      </div>
+
+                      {/* Skills tags */}
+                      <div className="flex flex-wrap items-center gap-1 text-[11px]">
+                        <span className="text-[10px] font-bold text-neutral-400 uppercase">Kỹ năng:</span>
+                        {tier.skills.map((s) => (
+                          <span
+                            key={s}
+                            className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-800 text-[10px] font-semibold border border-neutral-200"
+                          >
+                            {s}
+                          </span>
+                        ))}
+                      </div>
+
+                      <p className="text-[11px] text-neutral-700 bg-neutral-50 p-2 rounded-xl border border-neutral-200 flex items-start gap-1.5 leading-snug">
+                        <LightBulbIcon className="h-3.5 w-3.5 text-black shrink-0 mt-0.5" />
+                        <span><strong>Lời khuyên:</strong> {tier.advice}</span>
                       </p>
                     </div>
-                    <div className="sm:text-right">
-                      <span className="font-black text-black text-sm sm:text-base block">
-                        {tier.range}
-                      </span>
-                      <span className="text-[10px] text-neutral-600 font-medium block">
-                        {tier.bonus}
-                      </span>
-                    </div>
-                  </div>
-
-                  {/* Progress bar visual */}
-                  <div className="w-full bg-neutral-100 rounded-full h-1.5 overflow-hidden border border-neutral-200">
-                    <div
-                      className="h-full rounded-full bg-black"
-                      style={{ width: `${tier.barPercent}%` }}
-                    />
-                  </div>
-
-                  {/* Skills tags */}
-                  <div className="flex flex-wrap items-center gap-1 text-[11px]">
-                    <span className="text-[10px] font-bold text-neutral-400 uppercase">Kỹ năng:</span>
-                    {tier.skills.map((s) => (
-                      <span
-                        key={s}
-                        className="px-2 py-0.5 rounded-md bg-neutral-100 text-neutral-800 text-[10px] font-semibold border border-neutral-200"
-                      >
-                        {s}
-                      </span>
-                    ))}
-                  </div>
-
-                  <p className="text-[11px] text-neutral-700 bg-neutral-50 p-2 rounded-xl border border-neutral-200 flex items-start gap-1.5 leading-snug">
-                    <LightBulbIcon className="h-3.5 w-3.5 text-black shrink-0 mt-0.5" />
-                    <span><strong>Lời khuyên:</strong> {tier.advice}</span>
-                  </p>
+                  ))}
                 </div>
-              ))}
-            </div>
-          </div>
+              </div>
 
-          {/* Footer Advice */}
-          <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200 text-xs text-neutral-800 space-y-1">
-            <p className="font-bold text-black text-xs flex items-center gap-1.5">
-              <AcademicCapIcon className="h-3.5 w-3.5 text-black" />
-              <span>Kinh nghiệm phỏng vấn IT tại Quảng Ninh</span>
-            </p>
-            <p className="text-[11px] text-neutral-600 leading-relaxed">
-              Các doanh nghiệp và khách sạn tại Hạ Long đánh giá rất cao <strong>tính ổn định, định hướng gắn bó lâu dài tại địa phương</strong>, sự chủ động xử lý sự cố ngoài giờ và thái độ phục vụ thân thiện với các bộ phận vận hành.
-            </p>
-          </div>
+              {/* Footer Advice */}
+              <div className="p-3 rounded-2xl bg-neutral-50 border border-neutral-200 text-xs text-neutral-800 space-y-1">
+                <p className="font-bold text-black text-xs flex items-center gap-1.5">
+                  <AcademicCapIcon className="h-3.5 w-3.5 text-black" />
+                  <span>Kinh nghiệm phỏng vấn IT tại Quảng Ninh</span>
+                </p>
+                <p className="text-[11px] text-neutral-600 leading-relaxed">
+                  Các doanh nghiệp và khách sạn tại Hạ Long đánh giá rất cao <strong>tính ổn định, định hướng gắn bó lâu dài tại địa phương</strong>, sự chủ động xử lý sự cố ngoài giờ và thái độ phục vụ thân thiện với các bộ phận vận hành.
+                </p>
+              </div>
+            </>
+          )}
         </div>
 
         {/* Fixed Footer */}
-        <div className="shrink-0 px-4 sm:px-6 py-3 border-t border-neutral-200 bg-white flex items-center justify-end">
+        <div className="shrink-0 px-4 sm:px-6 py-3 border-t border-neutral-200 bg-white flex items-center justify-between">
+          <span className="text-[11px] text-neutral-500 font-medium">
+            {activeTab === "calculator" ? "Cập nhật Nghị định 73/2024 & 74/2024/NĐ-CP" : "Dữ liệu thị trường việc làm Hạ Long 2026"}
+          </span>
           <button
             type="button"
             onClick={onClose}
             className="px-5 py-2 rounded-xl bg-black hover:bg-neutral-800 text-white font-bold text-xs shadow-xs transition-all active:scale-95 cursor-pointer"
           >
-            Đóng bảng lương
+            Đóng
           </button>
         </div>
       </div>

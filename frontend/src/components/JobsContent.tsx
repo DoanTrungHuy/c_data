@@ -24,7 +24,7 @@ import JobCard from "@/components/JobCard";
 import JobKanbanBoard from "@/components/JobKanbanBoard";
 import FilterSidebar from "@/components/FilterSidebar";
 import Pagination from "@/components/Pagination";
-import { JobListResponse } from "@/types/job";
+import { Job, JobListResponse } from "@/types/job";
 import { crawlLiveJobs } from "@/lib/api";
 import DeepSocialRadarModal from "@/components/DeepSocialRadarModal";
 import SkillMatcherModal from "@/components/SkillMatcherModal";
@@ -36,6 +36,7 @@ import {
   useApplicationTracker,
   exportJobsToCSV,
 } from "@/lib/applicationTracker";
+import { loadAllJobsForClient } from "@/lib/clientSearch";
 
 interface JobsContentProps {
   initialData: JobListResponse;
@@ -70,23 +71,49 @@ export default function JobsContent({ initialData }: JobsContentProps) {
     isSavedOnly ? "saved" : "all"
   );
   const [viewMode, setViewMode] = useState<"grid" | "kanban">("grid");
+  const [allJobsPool, setAllJobsPool] = useState<Job[]>([]);
+
+  useEffect(() => {
+    let active = true;
+    loadAllJobsForClient()
+      .then((jobs) => {
+        if (active && jobs && jobs.length > 0) {
+          setAllJobsPool(jobs);
+        }
+      })
+      .catch((err) => console.warn("Failed to load all jobs pool:", err));
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  const activePool = allJobsPool.length > 0 ? allJobsPool : initialData.items;
 
   const displayItems = useMemo(() => {
     if (pipelineTab === "saved") {
-      return initialData.items.filter((j) => savedIds.includes(String(j.id)));
+      return activePool.filter((j) => savedIds.includes(String(j.id)));
     }
     if (pipelineTab === "applied") {
-      return initialData.items.filter((j) => isApplied(j.id));
+      return activePool.filter((j) => isApplied(j.id));
     }
     if (pipelineTab === "dismissed") {
-      return initialData.items.filter((j) => isDismissed(j.id));
+      return activePool.filter((j) => isDismissed(j.id));
     }
-    // Default "all": exclude dismissed jobs
+    // Default "all": exclude dismissed jobs from initialData items (for pagination consistency)
     return initialData.items.filter((j) => !isDismissed(j.id));
-  }, [initialData.items, pipelineTab, savedIds, appliedMap, dismissedIds]);
+  }, [initialData.items, activePool, pipelineTab, savedIds, appliedMap, dismissedIds]);
 
   const handleExportCSV = () => {
-    const listToExport = displayItems.length > 0 ? displayItems : initialData.items;
+    let listToExport: Job[] = [];
+    if (pipelineTab === "saved") {
+      listToExport = activePool.filter((j) => savedIds.includes(String(j.id)));
+    } else if (pipelineTab === "applied") {
+      listToExport = activePool.filter((j) => isApplied(j.id));
+    } else if (pipelineTab === "dismissed") {
+      listToExport = activePool.filter((j) => isDismissed(j.id));
+    } else {
+      listToExport = displayItems.length > 0 ? displayItems : initialData.items;
+    }
     exportJobsToCSV(
       listToExport,
       `vinhviec_${pipelineTab}_${new Date().toISOString().slice(0, 10)}.csv`
@@ -291,7 +318,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             >
               <span>📋 Tất cả</span>
               <span className={`px-1.5 py-0.2 rounded-full text-[10px] ${pipelineTab === "all" ? "bg-white/20 text-white" : "bg-neutral-200 text-neutral-800"}`}>
-                {initialData.items.filter((j) => !isDismissed(j.id)).length}
+                {Math.max(0, (allJobsPool.length > 0 ? allJobsPool.length : initialData.total) - dismissedCount)}
               </span>
             </button>
 
@@ -975,7 +1002,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
 
         {/* Job Listings / Kanban Board / Empty State */}
         {viewMode === "kanban" ? (
-          <JobKanbanBoard jobs={initialData.items} />
+          <JobKanbanBoard jobs={activePool} />
         ) : displayItems.length > 0 ? (
           <div className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -984,13 +1011,15 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               ))}
             </div>
 
-            {/* Pagination */}
-            <div className="pt-6">
-              <Pagination
-                currentPage={initialData.page}
-                totalPages={initialData.total_pages}
-              />
-            </div>
+            {/* Pagination only displayed in 'all' tab */}
+            {pipelineTab === "all" && (
+              <div className="pt-6">
+                <Pagination
+                  currentPage={initialData.page}
+                  totalPages={initialData.total_pages}
+                />
+              </div>
+            )}
           </div>
         ) : pipelineTab === "saved" || isSavedOnly ? (
           /* Empty State for Saved Jobs */

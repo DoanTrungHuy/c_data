@@ -20,7 +20,7 @@ import {
   useApplicationTracker,
   ApplicationStage,
 } from "@/lib/applicationTracker";
-import { useSavedJobs } from "@/lib/savedJobs";
+import { useSavedJobs, toggleSaveJob } from "@/lib/savedJobs";
 
 interface JobKanbanBoardProps {
   jobs: Job[];
@@ -259,6 +259,17 @@ export default function JobKanbanBoard({ jobs }: JobKanbanBoardProps) {
                       {/* Stage Progression Buttons */}
                       <div className="pt-2 border-t border-neutral-100 flex items-center justify-between gap-1 text-[11px]">
                         {/* Left / Back Button */}
+                        {col.id === "saved" && (
+                          <button
+                            type="button"
+                            onClick={() => toggleSaveJob(String(job.id))}
+                            className="inline-flex items-center gap-0.5 text-neutral-400 hover:text-black px-1.5 py-1 rounded hover:bg-neutral-100 transition-colors"
+                            title="Bỏ lưu việc làm khỏi danh sách"
+                          >
+                            <TrashIcon className="h-3 w-3" />
+                            <span>Bỏ lưu</span>
+                          </button>
+                        )}
                         {col.id === "submitted" && (
                           <button
                             type="button"
@@ -363,6 +374,15 @@ export default function JobKanbanBoard({ jobs }: JobKanbanBoardProps) {
                           >
                             <span>Nhận Offer 🏆</span>
                           </button>
+                        )}
+                        {col.id === "offer" && (
+                          <span
+                            className="ml-auto inline-flex items-center gap-1 font-bold text-white bg-black px-2.5 py-1 rounded-lg text-[10px] shadow-2xs"
+                            title="Đã nhận đề nghị tuyển dụng thành công"
+                          >
+                            <CheckBadgeIcon className="h-3.5 w-3.5" />
+                            <span>Đã đạt 🏆</span>
+                          </span>
                         )}
                       </div>
                     </div>
