@@ -23,6 +23,7 @@ import urllib.parse
 import requests
 
 from app.models.job import Job
+from app.services.open_source_reference_verifier import open_source_reference_verifier
 
 logger = logging.getLogger("c_data.verification_engine")
 
@@ -109,9 +110,49 @@ class JobVerificationEngine:
                 )
 
         # ---------------------------------------------------------------------
-        # QUY TẮC 3, 4, 5: Kiểm tra trực tiếp URL nếu live_check=True
+        # QUY TẮC 3, 4, 5: Thẩm định bằng chứng liên kết nguồn & Schema.org JSON-LD
         # ---------------------------------------------------------------------
         target_url = job.apply_url or job.source_url
+        if target_url and target_url.startswith("http"):
+            audit = open_source_reference_verifier.audit_reference(
+                url=target_url,
+                expected_title=job.title,
+                expected_company=job.company,
+                fetch_live=live_check,
+            )
+            if not audit.is_valid_job_reference:
+                return VerificationResult(
+                    status="closed",
+                    status_reason=f"Liên kết nguồn bị từ chối thẩm định: {audit.reason}",
+                    status_evidence={
+                        "rule": "RULE_REFERENCE_VERIFICATION_REJECTED",
+                        "verdict_code": audit.verdict_code,
+                        "url": target_url,
+                        "resolved_url": audit.resolved_url,
+                        "reason": audit.reason,
+                    },
+                    confidence=audit.confidence,
+                    verified_at=now,
+                    url_checked=target_url,
+                    http_status=audit.http_status,
+                )
+            elif audit.has_schema_job_posting:
+                return VerificationResult(
+                    status="active_confirmed",
+                    status_reason=f"Đã đối soát thành công cấu trúc Schema.org JobPosting: {audit.reason}",
+                    status_evidence={
+                        "rule": "RULE_SCHEMA_JOBPOSTING_VERIFIED",
+                        "url": target_url,
+                        "resolved_url": audit.resolved_url,
+                        "schema_data": audit.extracted_schema,
+                        "http_status": audit.http_status or 200,
+                    },
+                    confidence=0.99,
+                    verified_at=now,
+                    url_checked=target_url,
+                    http_status=audit.http_status or 200,
+                )
+
         if live_check and target_url and target_url.startswith("http"):
             try:
                 resp = self.session.get(target_url, timeout=timeout_seconds, allow_redirects=True)
