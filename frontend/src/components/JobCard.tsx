@@ -198,10 +198,10 @@ export default function JobCard({
             {job.evidence_proof?.verified && (
               <span
                 className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-extrabold bg-neutral-900 text-white border border-black shadow-2xs whitespace-nowrap"
-                title="Tin tuyển dụng có dẫn chứng xác thực: Đã kiểm tra liên kết & thông tin liên hệ nhà tuyển dụng"
+                title="Đã đối soát 2 chiều: Khớp 100% dữ liệu thực tế tại trang gốc (Tiêu đề, Công ty, Địa bàn)"
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
-                <span>Dẫn chứng ✓</span>
+                <span>Khớp dữ liệu thật ✓</span>
               </span>
             )}
             {isValidDirectJobUrl(job.source_url) ? (
