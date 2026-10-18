@@ -26845,6 +26845,116 @@
     "is_active": true
   },
   {
+    "id": "cv_live_3646165354",
+    "title": "Application Support (IT Support)",
+    "company_name": "CÔNG TY TNHH DONG MART",
+    "description": "Mô tả Công việc\nCOMPANY DESCRIPTION\nDong Mart is a fast-growing fixed-price retail chain in Vietnam, offering more than 10,000 everyday products across diverse categories. Founded on September 11, 2024 in Ho Chi Minh City, the company operates in the FMCG retail sector, focusing on essential items such as snacks, packaged foods, cosmetics, personal care, stationery, household goods, and toys.\nDong Mart (ECO-SHOP 19K) is committed to providing convenient shopping experiences and affordable products for local communities. The company is expanding its retail network near residential areas to improve access to daily essentials. By 2026, Dong Mart aims to operate 100 stores nationwide and further strengthen its presence across Vietnam.\nJOB DESCRIPTION\n1. Application Support\n•    Provide first-level support for business applications.\n•    Assist users in resolving application-related issues.\n•    Respond to support tickets and service requests within defined SLA.\n•    Escalate complex issues to senior Application Support staff or vendors when necessary.\n•    Track incidents and follow up until resolution.\n2. ERP, POS and WMS Support\n•    Support daily operations of ERP, POS, Warehouse Management System (WMS/Infolog)\n•    Assist store users, warehouse users, and head office staff with application-related requests.\n•    Verify transaction issues and system errors.\n•    Support testing after fixes or system changes.\n3. User Training and Assistance\n•    Provide basic training and guida",
+    "requirements": "Yêu Cầu Công Việc\n•    Bachelor’s Degree in Information Technology/ Information Systems/ Computer Science/ Software Engineering/ Business Information Systems, or related disciplines.\n•    4–5 years of relevant experience in IT Support, Application Support, System Support, or a similar role.\n•    Experience in retail, warehouse, or other multi-site business environments is preferred.\n•    Strong working knowledge of:\nERP systems and business applications\nPOS systems and retail technology\nRetail business processes and operational workflows\nDatabase concepts and data management\nSoftware support and incident management processes\nSystem integration and data flow between business applications\nIT support procedures and user management\n•    Technical Skills\nPractical experience with SQL for data checking, analysis, and troubleshooting.\nGood knowledge of Microsoft SQL Server or other relational database systems.\nStrong troubleshooting skills for software applications, databases, and system-rela",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/application-support-it-support.35C87AB9.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/application-support-it-support.35C87AB9.html",
+    "posted_at": "2026-10-18T23:49:15.236429+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T23:49:15.236429+00:00",
+    "last_verified_at": "2026-10-18T23:49:15.236429+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T23:49:15.236429+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/application-support-it-support.35C87AB9.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Application Support (IT Support) tại CÔNG TY TNHH DONG MART (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Application Support (IT Support)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/application-support-it-support.35C87AB9.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "9b4b2591-2c15-4ecf-b67f-01e39a60b043",
     "title": "SAP Public Cloud Developer (BTP / Integration Suite)",
     "company_name": "DatVietVAC Group Holdings",
