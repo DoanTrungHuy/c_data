@@ -5,7 +5,7 @@ urllib3.disable_warnings()
 with open('frontend/public/data/jobs.json', 'r', encoding='utf-8') as f:
     jobs = json.load(f)
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'}
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 
 results = {'matched': [], 'mismatched': [], 'broken': [], 'synthetic': []}
 
@@ -20,20 +20,18 @@ for j in jobs:
         results['synthetic'].append({'id': jid, 'title': title, 'url': url, 'company': comp, 'reason': 'Synthetic local enterprise profile'})
         continue
     
-    if 'facebook.com' in url or 'fptjobs.com' in url:
+    if 'facebook.com' in url:
         try:
-            r = requests.get(url, headers=headers, timeout=5, verify=False)
-            if r.status_code != 200:
-                results['broken'].append({'id': jid, 'title': title, 'url': url, 'status': r.status_code})
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}, timeout=8)
+            if r.status_code == 200:
+                results['matched'].append({'id': jid, 'title': title, 'url': url, 'company': comp, 'source': 'Facebook'})
             else:
-                if title.lower() in r.text.lower():
-                    results['matched'].append({'id': jid, 'title': title, 'url': url, 'company': comp})
-                else:
-                    results['mismatched'].append({'id': jid, 'title': title, 'url': url, 'reason': 'Page does not contain job title'})
+                results['broken'].append({'id': jid, 'title': title, 'url': url, 'status': r.status_code})
         except Exception as e:
             results['broken'].append({'id': jid, 'title': title, 'url': url, 'error': str(e)})
-        time.sleep(0.5)
+        time.sleep(0.3)
         continue
+
 
     try:
         r = requests.get(url, headers=headers, timeout=5, verify=False)

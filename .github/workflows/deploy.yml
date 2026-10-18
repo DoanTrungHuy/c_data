@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
   schedule:
-    - cron: "*/30 * * * *" # Tự động quét và cập nhật lại toàn bộ việc làm mỗi 30 phút
+    - cron: "*/20 * * * *" # Tự động quét và cập nhật lại toàn bộ việc làm mỗi 20 phút
   workflow_dispatch:
 
 permissions:
@@ -35,12 +35,13 @@ jobs:
           pip install -r requirements.txt
           python -c "import app.main; print('Backend Verified!')"
 
-      - name: Apply Verified Evidence & Quality Enrichment
+      - name: Run Scheduled Social & Multi-Source Crawler
         env:
           PYTHONPATH: "./backend"
           PYTHONIOENCODING: "utf-8"
         run: |
-          python scripts/apply_verified_evidence.py
+          python scripts/run_scheduled_social_crawler.py --once
+
 
 
       - name: Run Rigorous Realtime Search & Data Quality Tests

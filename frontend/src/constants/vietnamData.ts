@@ -110,11 +110,11 @@ export const SALARY_RANGES = [
 
 export const SOURCE_PLATFORMS = [
   { id: "Facebook", name: "Facebook (Group & Fanpage)" },
-  { id: "Threads", name: "Threads (Meta)" },
-  { id: "TikTok", name: "TikTok Jobs" },
+  { id: "LinkedIn", name: "LinkedIn Jobs" },
+  { id: "ITviec", name: "ITviec" },
   { id: "CareerViet", name: "CareerViet" },
   { id: "TopCV", name: "TopCV" },
   { id: "VietnamWorks", name: "VietnamWorks" },
-  { id: "ITviec", name: "ITviec" },
   { id: "Doanh Nghiệp", name: "Website Doanh Nghiệp" },
 ];
+
