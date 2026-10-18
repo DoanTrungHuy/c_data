@@ -25430,6 +25430,1421 @@
     "is_active": true
   },
   {
+    "id": "cv_live_1150063681",
+    "title": "Nhân Viên Quản Lý Chất Lượng (QC)",
+    "company_name": "Công Ty TNHH Roeders Việt Nam",
+    "description": "Mô tả Công việc\nVị trí nhân viên QC sẽ hỗ trợ trưởng phòng quản lý chất lượng đảm bảo chất lượng và độ chính xác cho toàn bộ các chi tiết được gia công, các quy trình sản xuất và tất cả các vấn đề khác liên quan tại nhà máy.\nCác nhiệm vụ chính:\nLàm việc với máy  đo tọa độ 3 trục CMM (CMM) - Zeiss CMM\nHỗ trợ  phòng sản xuất quản lý chất lượng, kiểm soát chất lượng cũng như độ chính xác của tất cả các chi tiết, nguyên vật liệu, các quy trình sản xuất và các vần đề khác liên quan\nSử dụng các thiết bị đo độ chính xác khác có trong nhà máy để đảm bảo độ chính xác tuyệt đối cho các chi tiết và sản phẩm được sản xuất\nChịu trách nhiệm đo lường độ chính xác của các chi tiết không chỉ tại nhà máy mà còn từ các nhà cung cấp và đối tác khác của công ty\nLàm việc theo ca, hợp tác chặt chẽ với các trưởng ca, hỗ trợ họ kiểm soát chất lượng trong sản xuất cũng như chất lượng của các máy CNC\nLàm việc với các phòng ban khác để thu thập thông tin, dữ liệu để nâng cao các quy chuẩn chất lượng tại nhà máy cũng như toàn bộ hệ thống quản lý chất lượng\nKiểm tra và làm việc gắn khít với các nhà cung cấp hiện tại cũng như tìm kiếm thêm những nhà cung cấp tiềm năng để kiểm duyệt hệ thông quản lý chất lượng và hệ thống sản xuất của họ nếu được yêu cầu",
+    "requirements": "Yêu Cầu Công Việc\nỨng cử viên phù hợp là người đã có kinh nghiệm làm việc và nhiệt tình chuyên tâm công việc với sự hiểu biết sâu sắc về các thiết bị đo đạc, các cách thức kiểm tra độ chính xác và quy trình sản xuất liên quan cũng như biết cách làm việc theo nhóm\nKỹ năng cứng:\nCó kiến thức tốt về ngành gia công cơ khí chính xác CNC và các cách thức kiểm tra độ chính xác của các chi tiết gia công bằng kim loại\nCó kiến thức tốt về CAD/CAM trong quá trình sản xuất\nƯu tiên có kinh nghiệm sử dụng máy CMM\nCó kinh nghiệm làm việc trong các mảng quản lý chất lượng tại các công ty và lĩnh lực gia công cơ khí chính xác\nBiết sử dụng MS-Office và phần mềm Access\nKỹ năng mềm:\nGiao tiếp rõ ràng và tin cậy\nPhát hiện và biết cách giải quyết vấn đề\nTư duy logic và có tính hệ thống\nChú trọng kết quả, tập trung chất luợng và sự tin cậy\nTrình độ\nƯu tiên tốt nghiệp kỹ sư trong Quản lý chất lượng công nghiệp / Cơ khí chế tạo / Cơ điện tử\nSố năm kinh nghiệm\n2-3 năm kinh nghiệm trong mảng quản lý chất lượng l",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc.35C851DE.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc.35C851DE.html",
+    "posted_at": "2026-10-18T14:09:06.859801+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:06.859801+00:00",
+    "last_verified_at": "2026-10-18T14:09:06.859801+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:06.859801+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc.35C851DE.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên Quản Lý Chất Lượng (QC) tại Công Ty TNHH Roeders Việt Nam (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân Viên Quản Lý Chất Lượng (QC)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc.35C851DE.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1380164277",
+    "title": "Nhân Viên Quản Lý Chất Lượng QA/QP",
+    "company_name": "Công ty TNHH Halla Electronics Vina",
+    "description": "Mô tả Công việc\nChịu trách nhiệm quản lý, điều hành các hoạt động của bộ phận QA theo chức năng và nhiệm vụ được giao.\nLập kế hoạch và thực hiện đánh giá nội bộ; phối hợp đánh giá từ bên ngoài, theo dõi và thúc đẩy các hoạt động cải tiến.\nĐối ứng các đợt đánh giá chất lượng từ khách hàng; xây dựng, cải tiến hệ thống tiêu chuẩn chất lượng và đảm bảo việc thực thi hiệu quả.\nQuản lý công tác đào tạo nhằm nâng cao kỹ năng chuyên môn và tư duy về chất lượng cho nhân viên bộ phận QA cũng như toàn nhà máy.\nTriển khai các cuộc họp chất lượng định kỳ; theo dõi, đôn đốc các phòng ban liên quan thực hiện các hành động cải tiến theo kết luận cuộc họp.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Cao đẳng trở lên.\nCó từ\n2–3 năm kinh nghiệm\nở vị trí tương đương.\nCó kỹ năng làm việc nhóm, làm việc độc lập và chịu được áp lực công việc.\nNam/Nữ, độ tuổi từ\n23–35\n.\nQuyền lợi\nMức lương:\nThỏa thuận.\nChế độ phúc lợi\nNghỉ\n04 Chủ nhật\nvà\n02–03 Thứ Bảy/tháng\n.\nKhông yêu cầu giấy khám sức khỏe đầu vào.\nTham gia đầy đủ chế độ bảo hiểm ngay trong thời gian thử việc.\nQuà tặng các dịp: sinh nhật, kết hôn, kỷ niệm ngày cưới, hiếu hỷ, thâm niên, lễ Tết... với giá trị từ\n500k VNĐ đến 10trVNĐ\n.\nTrợ cấp cho con nhỏ dưới 06 tuổi.\nNghỉ mát, du lịch hằng năm.\nThưởng theo kết quả kinh doanh.\nCùng nhiều chế độ phúc lợi hấp dẫn khác.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hải Phòng",
+    "location_district": null,
+    "location_full": "Hải Phòng",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qa-qp.35C83EA7.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qa-qp.35C83EA7.html",
+    "posted_at": "2026-10-18T14:09:06.998099+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:06.998099+00:00",
+    "last_verified_at": "2026-10-18T14:09:06.998099+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:06.998099+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qa-qp.35C83EA7.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hải Phòng"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên Quản Lý Chất Lượng QA/QP tại Công ty TNHH Halla Electronics Vina (Hải Phòng). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân Viên Quản Lý Chất Lượng QA/QP",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qa-qp.35C83EA7.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hải Phòng"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1258453413",
+    "title": "Nhân Viên Quản Lý Chất Lượng/ QC Staff",
+    "company_name": "CÔNG TY TRÁCH NHIỆM HỮU HẠN AK VINA",
+    "description": "Mô tả Công việc\nSố lượng: 2\nTHỜI GIAN LÀM VIỆC\n: Đi hành chính hoặc 3 ca, có hỗ trợ tiền ăn ca 2 và ca 3\nĐỊA ĐIỂM LÀM VIỆC: không có xe đưa rước, tự túc đi lại\n+ Nhà máy Đồng Nai: Số 2, KCN Gò Dầu, xã Phước Thái, thành phố Đồng Nai\nMÔ TẢ CÔNG VIỆC\n- Nắm bắt các yêu cầu về tiêu chuẩn kiểm tra chất lượng sản phẩm\n- Hiểu biết về hệ thống quản lý chất lượng\n- Biết sử dụng các thiết bị phòng thí nghiệm (sắc ký khí, sắc ký lỏng, vi sinh) là một lợi thế.\n- Giám sát chất lượng từ khâu nguyên vật liệu đầu vào, quy trình sản xuất đến thành phẩm đầu ra\n- Thực hiện các nhiệm vụ khác khi được cấp trên giao",
+    "requirements": "Yêu Cầu Công Việc\nYÊU CẦU CÔNG VIỆC\n- Trình độ học vấn: Cao đẳng, Đại học Hóa học, Kỹ thuật hóa học, các chuyên ngành liên quan.\n- Độ tuổi: Từ 22 đến 35 tuổi (Nam)\n- Kinh nghiệm: Ưu tiên những người có kinh nghiệm hóa chất.\n- Ngoại ngữ: Có thể giao tiếp Tiếng Anh là 1 lợi thế\n- Nghiêm túc, trung thực, cẩn thận, chủ động và có trách nhiệm với công việc.\nQUYỀN LỢI ĐƯỢC HƯỞNG\n- Tăng lương 1 lần/năm, lương tháng 13\n- Tham gia đầy đủ bảo hiểm & hỗ trợ bảo hiểm tai nạn 24/24 cho nhân viên\n- Các chế độ phúc lợi khác: sinh nhật, cưới hỏi, tang lễ, thai sản, con cái, ngày thành lập công ty, sữa hàng tháng cho nhân viên, thâm niên (10 năm, 20 năm)\n- Được tham gia các khóa đào tạo nâng cao trình độ\n- Các hoạt động và quà tặng khác từ Công đoàn AK VINA",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Đồng Nai",
+    "location_district": null,
+    "location_full": "Đồng Nai",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc-staff.35C8767A.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc-staff.35C8767A.html",
+    "posted_at": "2026-10-18T14:09:07.130670+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:07.130670+00:00",
+    "last_verified_at": "2026-10-18T14:09:07.130670+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:07.130670+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc-staff.35C8767A.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Đồng Nai"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên Quản Lý Chất Lượng/ QC Staff tại CÔNG TY TRÁCH NHIỆM HỮU HẠN AK VINA (Đồng Nai). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân Viên Quản Lý Chất Lượng/ QC Staff",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-quan-ly-chat-luong-qc-staff.35C8767A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Đồng Nai"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_0285014028",
+    "title": "Nhân Viên QA/QC",
+    "company_name": "Tập đoàn Nhựa Bình Thuận",
+    "description": "Mô tả Công việc\nXây dựng và ban hành Quy trình\n:\nSoạn thảo, cập nhật và ban hành các tài liệu, quy định, hướng dẫn công việc.\nĐảm bảo quy trình hoạt động tuân thủ các tiêu chuẩn quốc tế (như ISO, CMMI, GMP...).\nTư vấn cho các phòng ban cách vận hành đúng quy trình chuẩn.\nKiểm tra và giám sát nội bộ\n:\nTheo dõi đánh giá việc thực hiện Quy trình tại các bộ phận.\nThực hiện các đợt đánh giá chất lượng nội bộ (Internal Audit) định kỳ.\nPhát hiện các điểm KPH hoặc nguy cơ rủi ro trong cách vận hành\nPhân tích lỗi và cải tiến\n:\nThu thập dữ liệu, thống kê các lỗi hoặc sự cố phát sinh trong quá trình làm việc.\nPhân tích nguyên nhân gốc rễ dẫn đến lỗi.\nĐề xuất giải pháp khắc phục, phòng ngừa và cải tiến quy trình để không lặp lại lỗi.\nĐào tạo và báo cáo:\nHướng dẫn, phổ biến quy trình chất lượng mới cho nhân viên trong công ty.\nLàm việc với các đối tác, cơ quan đánh giá chứng nhận bên ngoài khi có yêu cầu.\nLập báo cáo định kỳ gửi lên cấp quản lý TP Chất lượng QA/QC về tình hình chất lượng.",
+    "requirements": "Yêu Cầu Công Việc\nYÊU CẦU ỨNG VIÊN\nĐộ tuổi: 25 – 37 tuổi, Nam/nữ\nTrình độ: Cao đẳng trở lên\nKinh nghiệm: từ 1 năm ở vị trí tương đương\nChủ động, cầu tiến, trung thực, công bằng, sáng tạo, liêm chính, minh bạch, yêu nghề.\nQUYỀN LỢI\nLương thỏa thuận theo năng lực, kinh nghiệm: 10 – 13 triệu/tháng\nĐược đóng BHXH, BHYT, BHTN theo quy định, nghỉ phép năm; du lịch, nghỉ mát hằng năm\nThưởng Lễ, Tết đầy đủ theo Luật Lao động (Tết Âm lịch, Tết Dương lịch, 30/4 – 1/5, 1/6, 2/9, Trung thu, 20/10), thưởng thâm niên, hỗ trợ nuôi con nhỏ dưới 6 tuổi,…\nTHỜI GIAN & ĐỊA ĐIỂM LÀM VIỆC\nThời gian làm việc:\n8h00 – 17h00, thứ 2 – thứ 7 (nghỉ trưa 12h00 – 13h00)\nĐịa điểm làm việc:\nNhà máy Hưng Yên – Lô A6, KCN Ecoland, xã Xuân Trúc, Hưng Yên",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hưng Yên",
+    "location_district": null,
+    "location_full": "Hưng Yên",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qa-qc.35C84735.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qa-qc.35C84735.html",
+    "posted_at": "2026-10-18T14:09:07.609677+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:07.609677+00:00",
+    "last_verified_at": "2026-10-18T14:09:07.609677+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:07.609677+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qa-qc.35C84735.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hưng Yên"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên QA/QC tại Tập đoàn Nhựa Bình Thuận (Hưng Yên). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân Viên QA/QC",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qa-qc.35C84735.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hưng Yên"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9271285836",
+    "title": "Nhân Viên QC – Quality Control",
+    "company_name": "Công Ty TNHH Chemtech",
+    "description": "Mô tả Công việc\nKiểm tra nguyên liệu đầu vào\nKiểm tra, lấy mẫu và thực hiện các yêu cầu kiểm tra chất lượng đối với nguyên vật liệu đầu vào theo tiêu chuẩn/quy định của Công ty.\nKiểm tra thành phẩm\nKiểm tra chất lượng sản phẩm trong và sau quá trình sản xuất; đối chiếu với tiêu chuẩn kỹ thuật/specification.\nKiểm tra, phân loại hàng thành phẩm\nKiểm tra tình trạng sản phẩm, phân loại hàng đạt/không đạt và xác định tình trạng xử lý theo quy định.\nLập báo cáo và xử lý hàng lỗi\nGhi nhận, báo cáo các trường hợp sản phẩm không phù hợp; theo dõi và phối hợp xử lý hàng lỗi/hàng chờ xử lý.\nKiểm tra dữ liệu & lưu hồ sơ\nKiểm tra tính chính xác của dữ liệu QC, cập nhật biểu mẫu và lưu trữ hồ sơ kiểm tra chất lượng đầy đủ, đúng quy định.\nThực hiện test Gel\nThực hiện kiểm tra Gel theo phương pháp/tiêu chuẩn của Công ty và ghi nhận kết quả.\nLàm COA\nChuẩn bị và thực hiện COA (Certificate of Analysis) cho sản phẩm theo yêu cầu.\nCông việc QC khác\nThực hiện các công việc liên quan đến kiểm soát chất lượng theo sự phân công của cấp trên.\nThời gian làm việc 07:45 – 16:20\n, Thứ Hai – Thứ Sáu\nNgày nghỉ Thứ Bảy & Chủ Nhật",
+    "requirements": "Yêu Cầu Công Việc\nTrình độ\nTốt nghiệp Trung cấp/Cao đẳng/Đại học các ngành\nHóa học, vật liệu\nhoặc ngành liên quan.\nKinh nghiệm\nƯu tiên ứng viên có kinh nghiệm QC trong\nnhà máy sản xuất nhựa, polymer, hóa chất hoặc sản xuất công nghiệp\n. Ứng viên mới ra trường sẽ được đào tạo\nKiến thức\nCó kiến thức cơ bản về kiểm tra chất lượng, lấy mẫu, tiêu chuẩn sản phẩm và xử lý sản phẩm không phù hợp.\nKỹ năng\nCẩn thận, trung thực, có khả năng kiểm tra và ghi nhận số liệu chính xác.\nTin học\nSử dụng được Word, Excel và các công cụ văn phòng.\nThái độ\nCó tinh thần trách nhiệm, tuân thủ quy trình, chủ động học hỏi và phối hợp tốt với các bộ phận liên quan.\nSức khỏe\nĐảm bảo sức khỏe để làm việc tại nhà máy/phòng QC.\nTHỜI GIAN LÀM VIỆC\n🕐\n07:45 – 16:20 | Thứ Hai – Thứ Sáu\n📅\nNghỉ Thứ Bảy & Chủ Nhật\n🌿 Môi trường làm việc ổn định, chuyên nghiệp, không làm ca.\nQUYỀN LỢI & PHÚC LỢI\n💰\nThu nhập\nMức lương cạnh tranh, trao đổi theo năng lực và kinh nghiệm\n🎁\nThưởng\nThưởng theo chính sách Công ty\n🏥\nBảo hiểm\nTham gia ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Bình Dương",
+    "location_district": null,
+    "location_full": "Bình Dương",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qc-quality-control.35C88F6A.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qc-quality-control.35C88F6A.html",
+    "posted_at": "2026-10-18T14:09:08.071136+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:08.071136+00:00",
+    "last_verified_at": "2026-10-18T14:09:08.071136+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:08.071136+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qc-quality-control.35C88F6A.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Bình Dương"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên QC – Quality Control tại Công Ty TNHH Chemtech (Bình Dương). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân Viên QC – Quality Control",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-qc-quality-control.35C88F6A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Bình Dương"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8192231704",
+    "title": "QA Engineer",
+    "company_name": "Hello Health Group - CÔNG TY TNHH XIN CHÀO SỨC KHỎE",
+    "description": "Mô tả Công việc\nAbout Hello Health Group\nHello Health Group connects\n100 million+ people across Southeast Asia\nto better healthcare. We operate in eight countries:\nVietnam, Indonesia, Malaysia, Thailand, the Philippines, Cambodia, Singapore, and Taiwan\n. We build AI-driven products that make care simpler, more accessible, and more affordable. Our ecosystem spans the full value chain, connecting consumers and patients with clinics, healthcare providers, and pharmaceutical partners.\nWhat you’ll do\nCreate detailed, comprehensive, and well-structured test cases before product launches. Conduct post-release/ post-implementation testing.\nWork with internal teams (Engineering/Product) to understand clients’ requirements and product features, to ensure rigorous tests.\nExecute manual testing in a structured, reproducible way\nIdentify, record, and track bugs thoroughly\nReport bugs and errors to development teams\nHelp troubleshoot issues\nWork with cross-functional teams to ensure quality throughout the software development lifecycle",
+    "requirements": "Yêu Cầu Công Việc\nWhat we’re looking for\nProven experience as a Quality Assurance Tester or similar role\nExperience in project management and QA methodology\nFamiliarity with Agile/Scrum frameworks\nAbility to document and troubleshoot errors\nWorking knowledge of SQL and APIs\nWorking knowledge with AI tools\nExperience in AI testing is a plus\nExperience in mobile testing is a plus\nAbility to communicate in English is a plus\nAttention to details\nAnalytical mind and problem-solving aptitude\nStrong organizational skills\nBSc/BA in Computer Science, Engineering, or a related field.\nISTQB Foundation Level certification is a plus.\nWhat we offer\nWe are passionate individuals that are driven to succeed. Our work culture is characterized by strong team spirit, high degrees of openness and innovation, and strong collaboration across fields. We love the freedom of an entrepreneurial company and are looking for like-minded, ambitious professionals who have a desire to build something new and actively ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/qa-engineer.35C89816.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/qa-engineer.35C89816.html",
+    "posted_at": "2026-10-18T14:09:08.403828+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:08.403828+00:00",
+    "last_verified_at": "2026-10-18T14:09:08.403828+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:08.403828+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/qa-engineer.35C89816.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí QA Engineer tại Hello Health Group - CÔNG TY TNHH XIN CHÀO SỨC KHỎE (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "QA Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/qa-engineer.35C89816.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5029850587",
+    "title": "133050 - QA Manager - Automobiles Parts",
+    "company_name": "RGF HR Agent Vietnam Co., LTD",
+    "description": "Mô tả Công việc\nRGF's Client\n- a\nJapanese company\nin the\nautomobile parts manufacturing\nindustry - is looking for a\nQA Manager\nto lead the QA/QC department, establish and improve the quality management system, oversee inspections and supplier quality audits, handle customer quality requirements and audits, investigate quality issues, drive continuous quality improvement, and coordinate with HQ and overseas customers.\nWorking Location:\nLong Thanh Dist., Dong Nai Province\nMonthly Salary:\nHigh salary (Negotiable)\nJob Responsibilities\nManage the QA/QC department and maintain/improve the quality assurance system.\nDevelop inspection plans and establish/manage quality standards.\nManage in-process inspections, pre-shipment inspections, and supplier quality audits.\nInvestigate quality issues and implement corrective and preventive actions.\nHandle customer quality requirements and customer audits.\nPrepare and maintain quality documents, including QC process charts, work instructions, and inspection records.\nTrain and guide local QA/QC staff and production operators on quality standards.\nLead quality improvement activities.\nCommunicate with HQ and overseas customers on quality-related matters.",
+    "requirements": "Yêu Cầu Công Việc\n- Education:\nHigh school diploma or above\n- Language:\nBusiness-level English or Japanese\n- Experience:\nAt least 5 years of QA/QC experience\nStrong experience in Quality Assurance\nManagement experience\nExperience communicating with overseas customers or overseas sites\n- Preferable Skill/ Experience\nAutomotive industry experience\nExperience in a casting manufacturer\nKnowledge of ISO9001 and IATF16949\nNotice:\nThank you for your interest in career opportunities at RGF. Suitable candidates will be contacted by our consultants at the earliest possible time. Your resume will also be kept in our system for consideration for other suitable opportunities in the future. Please kindly check your email regularly for the latest job updates from RGF!",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Đồng Nai",
+    "location_district": null,
+    "location_full": "Đồng Nai",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/133050-qa-manager-automobiles-parts.35C81BF0.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/133050-qa-manager-automobiles-parts.35C81BF0.html",
+    "posted_at": "2026-10-18T14:09:08.545643+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:08.545643+00:00",
+    "last_verified_at": "2026-10-18T14:09:08.545643+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:08.545643+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/133050-qa-manager-automobiles-parts.35C81BF0.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Đồng Nai"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí 133050 - QA Manager - Automobiles Parts tại RGF HR Agent Vietnam Co., LTD (Đồng Nai). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "133050 - QA Manager - Automobiles Parts",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/133050-qa-manager-automobiles-parts.35C81BF0.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Đồng Nai"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9800092567",
+    "title": "Nhân Viên Kiểm Soát Chất Lượng (QC Executive)",
+    "company_name": "Công Ty Cổ Phần TEKCOM",
+    "description": "Mô tả Công việc\n-        Triển khai kế hoạch kiểm soát chất lượng theo kế hoạch sản xuất và tình hình thực tế tại nhà máy.\n-        Đánh giá, kiểm tra và ghi nhận các rủi ro chất lượng trong quá trình sản xuất.\n-        Phân tích nguyên nhân, phối hợp xử lý sự cố chất lượng và sản phẩm không phù hợp.\n-        Cập nhật quy trình sản xuất, QCP và tiêu chuẩn chất lượng sản phẩm.\n-        Phối hợp với các bộ phận liên quan trong quá trình sản xuất và phát triển sản phẩm mới.\n-        Thực hiện lấy mẫu kiểm tra, thử nghiệm theo định kỳ hoặc theo yêu cầu.\n-        Hướng dẫn, điều phối và đào tạo nhân viên KCS về tiêu chuẩn chất lượng và phương pháp kiểm soát.\n-        Tham gia các hoạt động cải tiến chất lượng và nâng cao hiệu quả hệ thống QC.\n-        Thực hiện họp và làm báo cáo chất lượng định kỳ (ngày/tuần/tháng).\n-         Thực hiện các công việc khác theo phân công của cấp trên.",
+    "requirements": "Yêu Cầu Công Việc\nTrình độ học vấn:\nTốt nghiệp Trung cấp trở lên, ưu tiên các ngành liên quan đến công nghiệp chế biến gỗ, hóa chất.\nKinh nghiệm:\nÍt nhất 01 năm kinh nghiệm quản lý chất lượng. Có kinh nghiệm kiểm soát chất lượng trên chuyền sản xuất, xử lý sản phẩm không phù hợp và phối hợp với các bộ phận liên quan.\nNăng động, hoạt bát, sáng tạo, chịu được áp lực công việc cao.\nSử dụng thành thạo máy tính (sử dụng excel, power point\nCó kiến thức về quản lý chất lượng sản phẩm; nắm được các tiêu chí và phương pháp kiểm soát chất lượng trên chuyền sản xuất. Có kiến thức về 5S, ISO 9001, Kaizen và truy xuất nguồn gốc là lợi thế.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Bình Dương",
+    "location_district": null,
+    "location_full": "Bình Dương",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-soat-chat-luong-qc-executive.35C87C7D.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-soat-chat-luong-qc-executive.35C87C7D.html",
+    "posted_at": "2026-10-18T14:09:09.500674+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:09.500674+00:00",
+    "last_verified_at": "2026-10-18T14:09:09.500674+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:09.500674+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-soat-chat-luong-qc-executive.35C87C7D.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Bình Dương"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên Kiểm Soát Chất Lượng (QC Executive) tại Công Ty Cổ Phần TEKCOM (Bình Dương). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân Viên Kiểm Soát Chất Lượng (QC Executive)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-soat-chat-luong-qc-executive.35C87C7D.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Bình Dương"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2371418311",
+    "title": "Customer Relations & QC",
+    "company_name": "ASIAN TRAILS - CÔNG TY TNHH DU LỊCH ĐƯỜNG MÒN CHÂU Á",
+    "description": "Mô tả Công việc\nAbout the role:\nThe Customer Relations and Quality Control Coordinator is responsible for managing client support, complaint handling, and the overall quality of tour services. This role also oversees company branding and internal communications, and plays a central role in crisis management and service innovation.\nResponsibilities:\nCustomer Relations; Complaint Handling\no   Manage client support for VIP clients and handle all complaint cases.\no   Coordinate and prepare complaint reports to agents in a timely and professional manner.\no   Manage complaint escalation and resolution in accordance with company procedures.\nQuality Control; Supplier Audits\no   Conduct quality, health, and safety audits with suppliers to ensure service standards and liability compliance.\no   Proactively identify service quality issues and implement corrective actions.\no   Lead crisis management responses and drive product updates and innovation.\nBranding; Internal Communication\no   Oversee company branding including client materials, design, advertising, and communications.\no   Manage and ensure consistency of agent signage and client-facing presentation materials.\no   Implement internal training programmes and communication flow improvements to enhance coordination between teams and offices.\nGeneral Management\nSupport additional tasks as assigned by the MD/GM.",
+    "requirements": "Yêu Cầu Công Việc\nRequirements:\no   A genuine interest in and passion for the hospitality and tourism industry.\no   Excellent communication and interpersonal skills.\no   Good negotiation skills and strong attention to detail.\no   Good command of English.\no   Ability to work independently and as part of a team.\no   Proficient in Microsoft Office applications and relevant tools.\no   Able to work well under pressure and manage multiple priorities.\no   Be familiar with our sustainability policy and code of conduct, and all things sustainable on the Responsible Travel page of our website.\nBenefits:\no   Attractive Income Negotiable;\no   Stable job. Friendly, professional working environment;\no   Colleagues friendly and helpful;\no   Health insurance and social insurance;\no   Yearly review salary;\no   12 days’ annual leave per year;\no   Career development will be offered commensurate with the responsibilities and qualifications.\no   Days off: Saturdays and Sundays",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "HIS/PACS Y Tế",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/customer-relations-qc.35C8A0B6.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/customer-relations-qc.35C8A0B6.html",
+    "posted_at": "2026-10-18T14:09:09.964900+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:09.964900+00:00",
+    "last_verified_at": "2026-10-18T14:09:09.964900+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:09.964900+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/customer-relations-qc.35C8A0B6.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Customer Relations & QC tại ASIAN TRAILS - CÔNG TY TNHH DU LỊCH ĐƯỜNG MÒN CHÂU Á (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Customer Relations & QC",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/customer-relations-qc.35C8A0B6.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8025802386",
+    "title": "134040 - QA Leader/ Deputy Manager - Manufacturing",
+    "company_name": "RGF HR Agent Vietnam Co., LTD",
+    "description": "Mô tả Công việc\nRGF's client- a Japanese company in the\nmanufacturing industry\n- is looking for a\nQA Leader/Deputy Manager\nto manage the QMS, oversee quality control, handle quality issues and customer complaints, implement corrective actions, and monitor quality performance.\nWorking Location:\nVinh Loc Commune, Ho Chi Minh City\nMonthly Salary:\n20M ~ 26M VND Gross\nJob Description\nManage and maintain the QMS in accordance with ISO 9001, IATF 16949, and customer requirements.\nImplement quality control (QC) processes for mass production.\nMonitor and analyze product quality data, such as defect rates and PPM.\nConduct internal audits of the Quality Management System.\nInvestigate the root causes of quality issues that arise.\nDevelop and implement corrective and preventive actions (CAPA).\nManage change control processes related to suppliers and internal changes.\nSupport the Deputy Director (PGD) in reviewing and monitoring key quality performance indicators (KPIs).\nSupport Japanese staff in developing and implementing countermeasures to address customer complaints.\nVerify the implementation of countermeasures following customer audits.\nPrepare periodic quality reports and ad hoc reports as required.",
+    "requirements": "Yêu Cầu Công Việc\nEducational Background:\nUniversity graduate.\nLanguage:\nBusiness-level English.\nExperience:\nAt least 3 years of experience as a QA Team Leader / Deputy QA Manager, including:\nPractical knowledge and experience in Quality Management Systems (QMS) in accordance with ISO 9001 and IATF 16949 standards.\nAnalytical and problem-solving skills to conduct root cause analysis and implement corrective actions.\nManagement and supervisory skills to monitor KPIs and manage change control processes.\nCommunication and coordination skills to support superiors and collaborate effectively with colleagues.\nAbility to conduct internal audits and respond to customer audits.\nNotice:\nThank you for your interest in career opportunities at RGF. Suitable candidates will be contacted by our consultants at the earliest possible time. Your resume will also be kept in our system for consideration for other suitable opportunities in the future. Please kindly check your email regularly for the latest ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/134040-qa-leader-deputy-manager-manufacturing.35C88BBE.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/134040-qa-leader-deputy-manager-manufacturing.35C88BBE.html",
+    "posted_at": "2026-10-18T14:09:09.890151+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:09.890151+00:00",
+    "last_verified_at": "2026-10-18T14:09:09.890151+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:09.890151+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/134040-qa-leader-deputy-manager-manufacturing.35C88BBE.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí 134040 - QA Leader/ Deputy Manager - Manufacturing tại RGF HR Agent Vietnam Co., LTD (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "134040 - QA Leader/ Deputy Manager - Manufacturing",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/134040-qa-leader-deputy-manager-manufacturing.35C88BBE.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9542531232",
+    "title": "QA Staff",
+    "company_name": "Panasonic Vietnam Group",
+    "description": "Mô tả Công việc\n·       Perform\nOutgoing Quality Control (OQC)\nand product inspections according to production schedules and delivery plans.\n·       Conduct inspections based on inspection standards, work instructions, and check sheets; support the development and maintenance of quality documents.\n·       Monitor product quality, manage non-conforming products (NG), support root cause analysis, and follow up on corrective actions.\n·       Monitor 4M changes and conduct quality patrols on production lines to ensure process compliance.\n·       Support supplier quality activities and participate in quality improvement (Kaizen) initiatives.\n·       Provide quality training for inspectors and production operators while ensuring compliance with company quality and safety standards.\n·       Perform other duties assigned by the supervisor.\n·       Perform other duties assigned by the QA Manager.",
+    "requirements": "Yêu Cầu Công Việc\n·       Education: University/College\n·       Language: Business English.\n·       At least 01 year of experience in QA position at electric equipment company.\n·       Have good knowledge of ISO 9001, 14001, RoHS.\n·       Negotiation skills, communication skills, organizational skills.\n·      Analytical skills, problem-solving skills,",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Bình Dương",
+    "location_district": null,
+    "location_full": "Bình Dương",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/qa-staff.35C88FBB.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/qa-staff.35C88FBB.html",
+    "posted_at": "2026-10-18T14:09:10.383035+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:10.383035+00:00",
+    "last_verified_at": "2026-10-18T14:09:10.383035+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:10.383035+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/qa-staff.35C88FBB.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Bình Dương"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí QA Staff tại Panasonic Vietnam Group (Bình Dương). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "QA Staff",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/qa-staff.35C88FBB.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Bình Dương"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_3643717954",
+    "title": "132589 - QC Leader - Manufacturing",
+    "company_name": "RGF HR Agent Vietnam Co., LTD",
+    "description": "Mô tả Công việc\nRGF's Client – a Japanese company in manufacturing industrial components and materials\n- is looking for a\nQC Leader - Manufacturing\nto implement and maintain quality control systems and processes in manufacturing operations, ensuring compliance with ISO9001 standards and customer requirements.\nWorking Location:\nVSIP Hai Phong\nMonthly Salary:\nCompetitive based on qualifications\nJob Responsibilities:\nBuild and implement quality assurance activities according to the ISO9001 standard\nControl product quality and production processes\nHandle arising quality issues, respond to customer requirements\nCoordinate with related departments to improve quality, meet customer requirements\nConduct internal audit activities, respond to customer and third-party audits\nMonitor quality KPIs\nTrain staff and subordinate workers\nOther tasks as required by Management",
+    "requirements": "Yêu Cầu Công Việc\nNecessary Skill / Experience:\nEducational background:\nBachelor's degree in related fields\nLanguage skills:\nBusiness-level English or Japanese (Japanese is prioritized)\nExperience:\nAt least 2 years of experience in QA/QC position in a manufacturing company\nUnderstanding of ISO9001, ISO14001\nPreferable Skill/ Experience:\nPrior experience in Japanese companies\nJapanese language proficiency is prioritized.\nNotice:\nThank you for your interest in career opportunities at RGF. Suitable candidates will be contacted by our consultants at the earliest possible time. Your resume will also be kept in our system for consideration for other suitable opportunities in the future. Please kindly check your email regularly for the latest job updates from RGF!",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hải Phòng",
+    "location_district": null,
+    "location_full": "Hải Phòng",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/132589-qc-leader-manufacturing.35C831BA.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/132589-qc-leader-manufacturing.35C831BA.html",
+    "posted_at": "2026-10-18T14:09:10.548621+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:10.548621+00:00",
+    "last_verified_at": "2026-10-18T14:09:10.548621+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:10.548621+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/132589-qc-leader-manufacturing.35C831BA.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hải Phòng"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí 132589 - QC Leader - Manufacturing tại RGF HR Agent Vietnam Co., LTD (Hải Phòng). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "132589 - QC Leader - Manufacturing",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/132589-qc-leader-manufacturing.35C831BA.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hải Phòng"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_0281009904",
+    "title": "QA/QC MANAGER",
+    "company_name": "CÔNG TY TNHH SX-TM HÀNH MỸ",
+    "description": "Mô tả Công việc\n- Quản lý, triển khai vận hành hệ thống chất lượng công ty như ISO9001, CCC, FSC, Go-NoGo và các tiêu chuẩn chất lượng khác theo yêu cầu của từng khách hàng.\n- Đảm bảo mục tiêu chất lượng sản phẩm của Công ty luôn đáp ứng được với tiêu chuẩn đề ra\n- Quản lý, điều hành, giám sát, phân công công việc của nhân sự trong phòng QA-QC.\n- Thiết lập các quy trình, hướng dẫn, biểu mẫu cho toàn hệ thống chất lượng của công ty.\n- Phối hợp phòng R&D thiết lập các quy trính sản xuất, phân tích đánh giá rủi ro và đưa ra kế hoạch kiểm soát cho tất cả các sản phẩm mới.\n- Triển khai, đào tạo cho nhân viên QA-QC những thông tin liên quan về sản phẩm mới trước khi đưa vào sản xuất hàng loạt hoặc khi có thay đổi.\n- Lập kế hoạch đào tạo và tiến hành đào tạo hàng năm cho nhân viên các xưởng.\n- Thống kê tổng họp KPI của các xưởng để đưa ra hành động khắc phục cải tiến trong quá trình sản xuất, nhằm giảm thiểu tối đa các nguyên nhân phát sinh lỗi trong quá trình sản xuất.\n- Theo dõi hệ thống KPI từ khách hàng sau đó phân tích nguyên nhân để đưa ra giải pháp khắc phục nhằm làm giảm thiểu tối đa những chi phí phát sinh do vấn đề chất lượng gây ra.\n- Cải tiến hệ thống, cải tiến quy trình nhằm tăng hiệu quả sản xuất đảm bảo yêu cầu chất lượng sản phẩm theo yêu cầu của khách hàng\n-  Phân tích nguyên nhân hành động khắc phục cho những lô hàng không đạt do khách hàng khiếu nại.\n- Giải quyết các khiếu nại của khách hàng về chất lượng, về hệ thống.\n- Kiểm soát sự tuân thủ của các phòng ban về ",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Cao đẳng/Đại học chuyên ngành Quản lý chất lượng, Công nghệ gỗ, Kỹ thuật, Cơ khí hoặc các ngành liên quan.\nCó tối thiểu 03 - 05 năm kinh nghiệm ở vị trí QA/QC Supervisor, QA/QC Manager trong công ty sản xuất.\nAm hiểu hệ thống quản lý chất lượng ISO 9001, FSC, CCC, Go-NoGo và các tiêu chuẩn chất lượng khách hàng.\nCó kinh nghiệm xây dựng, triển khai và duy trì hệ thống quản lý chất lượng.\nCó khả năng phân tích dữ liệu, theo dõi KPI chất lượng, xử lý khiếu nại khách hàng và thực hiện các hành động khắc phục, cải tiến.\nThành thạo các công cụ phân tích nguyên nhân lỗi như 5 Why, Fishbone...\nCó kinh nghiệm quản lý, đào tạo và phát triển đội ngũ QA/QC.\nHiểu biết về yêu cầu hóa chất, an toàn sản phẩm và tiêu chuẩn chất lượng đối với ngành sản xuất là một lợi thế.\nCó kỹ năng giao tiếp, giải quyết vấn đề và làm việc nhóm tốt.\nTiếng Anh khá, có khả năng đọc hiểu tài liệu kỹ thuật và trao đổi công việc với khách hàng.\nQUYỀN LỢI:\n- Mức lương: LƯƠNG CẠNH TRANH\n- Đảm bảo ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Long An",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/qa-qc-manager.35C80FDA.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/qa-qc-manager.35C80FDA.html",
+    "posted_at": "2026-10-18T14:09:10.731972+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T14:09:10.731972+00:00",
+    "last_verified_at": "2026-10-18T14:09:10.731972+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T14:09:10.731972+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/qa-qc-manager.35C80FDA.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Long An"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí QA/QC MANAGER tại CÔNG TY TNHH SX-TM HÀNH MỸ (Long An). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "QA/QC MANAGER",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/qa-qc-manager.35C80FDA.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Long An"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "9b4b2591-2c15-4ecf-b67f-01e39a60b043",
     "title": "SAP Public Cloud Developer (BTP / Integration Suite)",
     "company_name": "DatVietVAC Group Holdings",
