@@ -205,6 +205,21 @@ def run_social_crawl_cycle():
                     })
                     break
 
+    # 2. Quét sâu các sàn tuyển dụng lớn (CareerViet) thời gian thực
+    try:
+        from app.services.live_it_crawler_engine import LiveITCrawlerEngine
+        logger.info("🌐 Đang quét bổ sung các sàn tuyển dụng CNTT lớn thời gian thực...")
+        live_engine = LiveITCrawlerEngine()
+        portal_jobs = live_engine.crawl_careerviet_it_catalog(max_items=40)
+        for pj in portal_jobs:
+            p_url = pj.get("source_url")
+            if p_url and p_url not in seen_urls:
+                current_jobs.append(pj)
+                seen_urls.add(p_url)
+                newly_added += 1
+    except Exception as e:
+        logger.warning(f"Lỗi quét live portal: {e}")
+
     # Sắp xếp ưu tiên: Việc làm Quảng Ninh / Hạ Long lên đầu
     current_jobs.sort(
         key=lambda x: (
