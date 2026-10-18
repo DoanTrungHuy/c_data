@@ -362,31 +362,8 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 </div>
               </div>
 
-              {/* Lý do phù hợp với tiêu chí tuyển dụng (Phần B) */}
-              <div className="rounded-2xl bg-neutral-100 p-3.5 border border-neutral-200 space-y-2">
-                <span className="text-xs font-black uppercase tracking-wider text-neutral-700 flex items-center gap-1.5">
-                  <span>🎯 Đánh Giá Phù Hợp Tiêu Chí Ứng Tuyển</span>
-                </span>
-                <div className="flex flex-wrap gap-2 text-xs">
-                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
-                    ✓ Chuyên môn: {job.category || "Công nghệ thông tin / Phần mềm"}
-                  </span>
-                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
-                    ✓ Địa bàn: {job.location_province || "Quảng Ninh"}
-                  </span>
-                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
-                    ✓ Nguồn tin: {platform.name}
-                  </span>
-                  {job.experience_level && (
-                    <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
-                      ✓ Cấp bậc: {job.experience_level}
-                    </span>
-                  )}
-                </div>
-              </div>
-
               {/* Action Buttons */}
-              <div className="space-y-3 pt-1">
+              <div className="space-y-3 pt-2">
                 {/* Primary Action Buttons: 1-Click Apply & Source Link */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <QuickApplyButton job={job} className="w-full py-3.5 text-sm sm:text-base" />
@@ -470,7 +447,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 <div className="flex flex-wrap items-center gap-2 pt-1">
                   <a
                     href="#job-description"
-                    className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-3.5 py-2 text-xs font-bold text-black transition-colors"
+                    className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-200 px-3.5 py-2 text-xs font-semibold text-black transition-colors"
                   >
                     <span>📄 Toàn văn bài đăng</span>
                   </a>
@@ -479,13 +456,11 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     <CopySourceButton
                       url={job.source_url}
                       label="Sao chép link"
-                      className="px-3 py-2 text-xs font-bold text-neutral-800 bg-white border border-neutral-300 rounded-xl hover:bg-neutral-50 transition-colors shadow-2xs cursor-pointer"
+                      className="px-3 py-2 text-xs font-semibold text-neutral-800 bg-white border border-neutral-300 rounded-xl hover:bg-neutral-50 transition-colors shadow-2xs cursor-pointer"
                     />
                   )}
-                  <CoverLetterButton job={job} className="px-3.5 py-2 text-xs font-bold" />
-                  <SaveJobButton jobId={job.id} showText className="px-3 py-2 text-xs font-bold" />
-                  <ShareJobButton title={job.title} showText className="px-3 py-2 text-xs font-bold" />
-                  <PrintJobButton className="px-3 py-2 text-xs font-bold" />
+                  <CoverLetterButton job={job} className="px-3.5 py-2 text-xs font-semibold" />
+                  <PrintJobButton className="px-3 py-2 text-xs font-semibold" />
 
                   {job.location_full && (
                     <a
@@ -494,7 +469,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                       )}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-1 rounded-xl border border-neutral-300 bg-white px-3 py-2 text-xs font-bold text-neutral-800 hover:bg-neutral-50 transition-colors shadow-2xs"
+                      className="inline-flex items-center justify-center gap-1 rounded-xl border border-neutral-300 bg-white px-3 py-2 text-xs font-semibold text-neutral-800 hover:bg-neutral-50 transition-colors shadow-2xs"
                       title="Mở chỉ đường trên Google Maps"
                     >
                       <MapPinIcon className="h-3.5 w-3.5 text-black" />
@@ -971,12 +946,12 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
               </div>
 
               {job.source_url && (
-                <div className="pt-2 space-y-2">
+                <div className="pt-2">
                   <a
                     href={job.source_url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-black px-4 py-2.5 text-xs font-bold text-white hover:bg-neutral-800 transition-colors shadow-xs"
+                    className="w-full inline-flex items-center justify-center gap-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-2.5 text-xs font-semibold text-neutral-900 transition-colors"
                   >
                     <span>
                       {platform.id === "facebook"
@@ -989,16 +964,6 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     </span>
                     <ArrowTopRightOnSquareIcon className="h-3.5 w-3.5" />
                   </a>
-
-                  <CopySourceButton
-                    url={job.source_url}
-                    label="Sao chép link nguồn bài đăng"
-                    className="w-full justify-center rounded-xl border border-neutral-300 bg-neutral-100 px-4 py-2 text-xs font-semibold text-black hover:bg-neutral-200 shadow-2xs"
-                  />
-
-                  <p className="text-[11px] text-neutral-500 text-center leading-normal pt-1">
-                    💡 Toàn bộ mô tả và thông tin liên hệ HR đã được lưu đầy đủ trên trang này. Bạn có thể gọi Hotline hoặc nhắn Zalo trực tiếp mà không sợ lỗi 404.
-                  </p>
                 </div>
               )}
             </div>

@@ -230,26 +230,26 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
 
           {/* Action buttons: Deep Social Radar, Live Crawl & Mobile Filter */}
-          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar w-full sm:w-auto flex-nowrap sm:flex-wrap py-1">
+          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar w-full sm:w-auto flex-nowrap py-1">
             {/* AI Skill Matcher Button */}
             <button
               type="button"
               onClick={() => setSkillMatcherOpen(true)}
-              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-neutral-100 hover:bg-neutral-200 text-neutral-800 hover:text-black border border-neutral-200 transition-colors cursor-pointer"
               title="So khớp kỹ năng cá nhân của bạn với mọi việc làm"
             >
-              <SparklesIcon className="h-4 w-4 text-black" />
-              <span>AI So Khớp CV</span>
+              <SparklesIcon className="h-3.5 w-3.5 text-black" />
+              <span>So Khớp CV</span>
             </button>
 
             {/* Salary Guide Button */}
             <button
               type="button"
               onClick={() => setSalaryGuideOpen(true)}
-              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 transition-all cursor-pointer shadow-xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-neutral-100 hover:bg-neutral-200 text-neutral-800 hover:text-black border border-neutral-200 transition-colors cursor-pointer"
               title="Báo cáo mức lương IT chi tiết tại TP. Hạ Long"
             >
-              <ChartBarIcon className="h-4 w-4 text-black" />
+              <ChartBarIcon className="h-3.5 w-3.5 text-black" />
               <span>Bảng Lương IT</span>
             </button>
 
@@ -257,14 +257,14 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setShowHotspotMap(!showHotspotMap)}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold border transition-all cursor-pointer shadow-xs ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold border transition-colors cursor-pointer ${
                 showHotspotMap
                   ? "bg-black text-white border-black"
-                  : "bg-neutral-100 hover:bg-neutral-200 text-black border-neutral-300"
+                  : "bg-neutral-100 hover:bg-neutral-200 text-neutral-800 hover:text-black border-neutral-200"
               }`}
               title="Bản đồ kinh tế & tọa độ việc làm 6 phân khu trọng điểm Quảng Ninh"
             >
-              <MapPinIcon className={`h-4 w-4 ${showHotspotMap ? "text-white" : "text-black"}`} />
+              <MapPinIcon className={`h-3.5 w-3.5 ${showHotspotMap ? "text-white" : "text-black"}`} />
               <span>Bản Đồ 6 Phân Khu</span>
             </button>
 
@@ -272,25 +272,24 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             <button
               type="button"
               onClick={() => setRadarOpen(true)}
-              className="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-neutral-900 hover:bg-neutral-800 text-white border border-neutral-700 active:scale-95 transition-all cursor-pointer shadow-xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-neutral-100 hover:bg-neutral-200 text-neutral-800 hover:text-black border border-neutral-200 transition-colors cursor-pointer"
               title="Kích hoạt Radar mò tìm sâu trên Facebook Groups, Threads & TikTok"
             >
-              <span className="text-sm">🛰️</span>
-              <span>Radar Mò MXH Sâu</span>
+              <span>🛰️ Radar MXH</span>
             </button>
 
             <button
               type="button"
               onClick={handleLiveCrawl}
               disabled={isCrawling}
-              className={`shrink-0 inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer ${
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer ${
                 isCrawling
-                  ? "bg-neutral-200 text-neutral-800 border border-neutral-300 animate-pulse cursor-wait"
-                  : "bg-black hover:bg-neutral-800 text-white active:scale-95"
+                  ? "bg-neutral-200 text-neutral-600 border border-neutral-300 animate-pulse cursor-wait"
+                  : "bg-black hover:bg-neutral-800 text-white shadow-xs active:scale-95"
               }`}
               title="Quét trực tiếp dữ liệu từ các sàn, Fanpage Facebook và trang web doanh nghiệp"
             >
-              <span>{isCrawling ? "⏳ Đang cào..." : "⚡ Quét tin mới"}</span>
+              <span>{isCrawling ? "⏳ Đang quét..." : "⚡ Quét tin mới"}</span>
             </button>
 
             {/* Mobile Filter Trigger Button */}
@@ -298,10 +297,10 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               <button
                 type="button"
                 onClick={() => setMobileFilterOpen(true)}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-neutral-100 text-black font-semibold text-xs border border-neutral-300 hover:bg-neutral-200"
+                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-neutral-100 text-black font-semibold text-xs border border-neutral-200 hover:bg-neutral-200"
               >
-                <AdjustmentsHorizontalIcon className="h-4 w-4 text-black" />
-                <span>Bộ lọc ({hasFilters ? "Đang bật" : "Tất cả"})</span>
+                <AdjustmentsHorizontalIcon className="h-3.5 w-3.5 text-black" />
+                <span>Bộ lọc</span>
               </button>
             </div>
           </div>
@@ -402,13 +401,33 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               </button>
             </div>
 
+            {/* Sort Dropdown */}
+            <select
+              value={sort_by || "default"}
+              onChange={(e) => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (e.target.value === "default") {
+                  params.delete("sort_by");
+                } else {
+                  params.set("sort_by", e.target.value);
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className="text-xs font-semibold text-black bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-black cursor-pointer"
+              title="Sắp xếp kết quả"
+            >
+              <option value="default">Phù hợp nhất</option>
+              <option value="quality">💎 Điểm Thẩm Định Cao</option>
+            </select>
+
             <button
               type="button"
               onClick={handleExportCSV}
-              className="shrink-0 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 font-bold text-xs transition-colors cursor-pointer shadow-2xs"
+              className="shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-black border border-neutral-300 font-semibold text-xs transition-colors cursor-pointer shadow-2xs"
               title="Xuất bảng Excel/CSV danh sách việc làm đang hiển thị (tương thích tiếng Việt có dấu)"
             >
-              <DocumentArrowDownIcon className="h-4 w-4" />
+              <DocumentArrowDownIcon className="h-3.5 w-3.5" />
               <span>Xuất CSV</span>
             </button>
           </div>
@@ -448,37 +467,32 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           const diagIntent = diag?.parsed_intent || diag?.intent;
 
           return (
-            <div className="bg-neutral-50 text-neutral-900 rounded-2xl border border-neutral-200 shadow-xs overflow-hidden animate-fadeIn">
+            <div className="bg-neutral-50 text-neutral-800 rounded-xl border border-neutral-200 overflow-hidden animate-fadeIn">
               <button
                 type="button"
                 onClick={() => setDiagnosticsOpen(!diagnosticsOpen)}
-                className="w-full px-4 py-3 bg-neutral-100 hover:bg-neutral-200/70 flex items-center justify-between text-left transition-colors cursor-pointer"
+                className="w-full px-3.5 py-2 hover:bg-neutral-100 flex items-center justify-between text-left transition-colors cursor-pointer text-xs"
               >
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-sm">🔍</span>
-                  <span className="text-xs font-bold text-black">
-                    Chẩn đoán Truy vấn & Xếp hạng Thông minh (Intent & Diagnostics)
+                <div className="flex items-center gap-2 truncate">
+                  <span className="text-xs">🔍</span>
+                  <span className="font-semibold text-neutral-700">
+                    Phân tích truy vấn AI
                   </span>
                   {diagIntent?.primary_role && (
-                    <span className="px-2 py-0.5 rounded-full bg-neutral-200 text-black border border-neutral-300 text-[10px] font-bold">
-                      Vị trí: {diagIntent.primary_role}
+                    <span className="px-2 py-0.5 rounded-full bg-neutral-200 text-black text-[10px] font-medium">
+                      {diagIntent.primary_role}
                     </span>
                   )}
-                  {(diagIntent?.target_district || diagIntent?.city || diagIntent?.target_province || diagIntent?.province) && (
-                    <span className="px-2 py-0.5 rounded-full bg-neutral-200 text-black border border-neutral-300 text-[10px] font-bold">
-                      Địa phương: {diagIntent?.target_district || diagIntent?.city || diagIntent?.target_province || diagIntent?.province}
-                    </span>
-                  )}
-                  <span className="text-[10px] text-neutral-500">
-                    ({diag?.total_candidates_examined || 0} ứng viên • {diag?.duplicates_consolidated || 0} trùng lặp gộp)
+                  <span className="text-[11px] text-neutral-400 hidden sm:inline">
+                    ({diag?.total_candidates_examined || 0} hồ sơ đối soát)
                   </span>
                 </div>
-                <div className="flex items-center gap-1 text-neutral-500 text-xs font-semibold shrink-0">
-                  <span>{diagnosticsOpen ? "Thu gọn" : "Xem chi tiết"}</span>
+                <div className="flex items-center gap-1 text-neutral-500 text-xs font-medium shrink-0">
+                  <span>{diagnosticsOpen ? "Thu gọn" : "Chi tiết"}</span>
                   {diagnosticsOpen ? (
-                    <ChevronUpIcon className="h-4 w-4" />
+                    <ChevronUpIcon className="h-3.5 w-3.5" />
                   ) : (
-                    <ChevronDownIcon className="h-4 w-4" />
+                    <ChevronDownIcon className="h-3.5 w-3.5" />
                   )}
                 </div>
               </button>
@@ -892,256 +906,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
           </div>
         )}
 
-        {/* Quick Filter & Quality Sort Bar */}
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 p-3.5 rounded-2xl bg-white border border-neutral-200 shadow-xs">
-          <div className="flex items-center gap-2 overflow-x-auto no-scrollbar w-full sm:w-auto py-0.5">
-            <span className="text-xs font-bold text-neutral-500 uppercase tracking-wider mr-1 shrink-0">
-              Lọc nhanh:
-            </span>
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (quality_tier === "diamond") {
-                  params.delete("quality_tier");
-                } else {
-                  params.set("quality_tier", "diamond");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                quality_tier === "diamond"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>💎</span>
-              <span>Kim Cương (≥85đ)</span>
-            </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (province === "Quảng Ninh") {
-                  params.delete("province");
-                } else {
-                  params.set("province", "Quảng Ninh");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                province === "Quảng Ninh"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>📍</span>
-              <span>Hạ Long & QN</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (enterprise_only) {
-                  params.delete("enterprise_only");
-                } else {
-                  params.set("enterprise_only", "true");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                enterprise_only
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>🌟</span>
-              <span>DN Trọng Điểm HL</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (experience_level === "fresher") {
-                  params.delete("experience_level");
-                } else {
-                  params.set("experience_level", "fresher");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                experience_level === "fresher"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>🎓</span>
-              <span>Fresher / Intern</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (experience_level === "junior") {
-                  params.delete("experience_level");
-                } else {
-                  params.set("experience_level", "junior");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                experience_level === "junior"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>💻</span>
-              <span>Junior (1-2 năm)</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (remote) {
-                  params.delete("remote");
-                } else {
-                  params.set("remote", "true");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                remote
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>🏠</span>
-              <span>Remote / Từ xa</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (salary_min === "20000000") {
-                  params.delete("salary_min");
-                } else {
-                  params.set("salary_min", "20000000");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                salary_min === "20000000"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>💰</span>
-              <span>Lương &gt; 20tr</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (q === "IT") {
-                  params.delete("q");
-                } else {
-                  params.set("q", "IT");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                q === "IT"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>💻</span>
-              <span>IT & Phần mềm</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (category === "Khách sạn" || q === "Khách sạn") {
-                  params.delete("category");
-                  if (q === "Khách sạn") params.delete("q");
-                } else {
-                  params.set("category", "Khách sạn");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                category === "Khách sạn" || q === "Khách sạn"
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>🏨</span>
-              <span>Khách Sạn & Du Lịch</span>
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (verified_only) {
-                  params.delete("verified_only");
-                } else {
-                  params.set("verified_only", "true");
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
-                verified_only
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              <span>🛡️</span>
-              <span>Đã xác thực</span>
-            </button>
-          </div>
-
-          {/* Sort By Dropdown */}
-          <div className="flex items-center justify-between sm:justify-end gap-2 w-full sm:w-auto text-xs pt-2 sm:pt-0 border-t sm:border-t-0 border-neutral-100">
-            <span className="text-neutral-500 font-medium">Sắp xếp:</span>
-            <select
-              value={sort_by || "default"}
-              onChange={(e) => {
-                const params = new URLSearchParams(searchParams?.toString() || "");
-                if (e.target.value === "default") {
-                  params.delete("sort_by");
-                } else {
-                  params.set("sort_by", e.target.value);
-                }
-                params.delete("page");
-                router.push(`/jobs?${params.toString()}`);
-              }}
-              className="text-xs font-bold text-black bg-neutral-100 border border-neutral-300 rounded-xl px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-black cursor-pointer"
-            >
-              <option value="default">Phù hợp nhất</option>
-              <option value="quality">💎 Điểm Thẩm Định Cao Nhất</option>
-            </select>
-          </div>
-        </div>
 
         {/* Job Listings / Kanban Board / Empty State */}
         {viewMode === "kanban" ? (

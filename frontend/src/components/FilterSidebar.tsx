@@ -135,136 +135,189 @@ export default function FilterSidebar({
         )}
       </div>
 
-      {/* 0. Quality Tier Filter */}
-      <div className="space-y-2 pb-4 border-b border-neutral-100">
+      {/* 1. Location & Priority */}
+      <div className="space-y-3 pb-5 border-b border-neutral-100">
         <div className="flex items-center justify-between">
-          <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
-            <span>💎 Thẩm Định Chất Lượng</span>
+          <label className="text-xs font-bold uppercase tracking-wider text-black">
+            Địa điểm (Tỉnh / Thành phố)
           </label>
-          {selectedQualityTier && (
+          {selectedProvince && (
             <button
-              onClick={() => updateParam("quality_tier", "")}
-              className="text-[10px] text-neutral-600 hover:text-black hover:underline font-semibold cursor-pointer"
+              onClick={() => updateParam("province", "")}
+              className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
             >
               Đặt lại
             </button>
           )}
         </div>
-        <div className="space-y-1 text-xs">
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+        <div className="relative mb-2">
+          <MagnifyingGlassIcon className="absolute left-2.5 top-2.5 h-3.5 w-3.5 text-neutral-400" />
+          <input
+            type="text"
+            placeholder="Tìm nhanh tỉnh thành..."
+            value={provinceSearch}
+            onChange={(e) => setProvinceSearch(e.target.value)}
+            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-xl border border-neutral-200 focus:outline-none focus:ring-1 focus:ring-black bg-neutral-50"
+          />
+        </div>
+        <div className="max-h-36 overflow-y-auto pr-1 space-y-1 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
             <input
               type="radio"
-              name="quality_tier"
+              name="province"
               value=""
-              checked={selectedQualityTier === ""}
-              onChange={() => updateParam("quality_tier", "")}
-              className="text-black focus:ring-black"
+              checked={selectedProvince === ""}
+              onChange={() => updateParam("province", "")}
+              className="accent-black"
             />
-            <span>Tất cả tin tuyển dụng</span>
+            <span className="font-medium">Tất cả địa điểm</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-bold">
-            <input
-              type="radio"
-              name="quality_tier"
-              value="diamond"
-              checked={selectedQualityTier === "diamond"}
-              onChange={() => updateParam("quality_tier", "diamond")}
-              className="text-black focus:ring-black"
-            />
-            <span>💎 Thẩm định Kim Cương (≥ 85đ)</span>
-          </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-semibold">
-            <input
-              type="radio"
-              name="quality_tier"
-              value="gold"
-              checked={selectedQualityTier === "gold"}
-              onChange={() => updateParam("quality_tier", "gold")}
-              className="text-black focus:ring-black"
-            />
-            <span>⭐ Đạt chuẩn kiểm định (≥ 70đ)</span>
-          </label>
-        </div>
-      </div>
-
-      {/* Tech Stack Cloud Filter */}
-      <div className="space-y-2 pb-4 border-b border-neutral-200">
-        <div className="flex items-center justify-between">
-          <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
-            <span>⚡ Kỹ Năng / Tech Stack</span>
-          </label>
-          {selectedTech && (
-            <button
-              onClick={() => updateParam("tech_stack", "")}
-              className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
+          {filteredProvinces.map((prov) => (
+            <label
+              key={prov.code}
+              className="flex items-center justify-between cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800"
             >
-              Bỏ chọn
-            </button>
-          )}
-        </div>
-        <div className="flex flex-wrap gap-1.5 pt-1">
-          {[
-            "Cisco", "Fortinet", "Windows Server", "Linux", "Opera PMS",
-            "Micros POS", "SCADA / DCS", "PLC Siemens", "HIS Quản Lý Bệnh Viện",
-            "Python", "React.js", "SQL Server", "ERP SAP", "Docker & Container"
-          ].map((tech) => (
-            <button
-              key={tech}
-              type="button"
-              onClick={() => updateParam("tech_stack", selectedTech === tech ? "" : tech)}
-              className={`text-[11px] font-bold px-2 py-1 rounded-lg border transition-all cursor-pointer ${
-                selectedTech === tech
-                  ? "bg-black text-white border-black shadow-xs"
-                  : "bg-neutral-100 text-neutral-800 border-neutral-200 hover:bg-neutral-200"
-              }`}
-            >
-              {tech}
-            </button>
+              <div className="flex items-center gap-2">
+                <input
+                  type="radio"
+                  name="province"
+                  value={prov.name}
+                  checked={selectedProvince === prov.name}
+                  onChange={() => updateParam("province", prov.name)}
+                  className="accent-black"
+                />
+                <span>{prov.name}</span>
+              </div>
+              {prov.popular && (
+                <span className="text-[10px] font-bold text-black bg-neutral-200 px-1.5 py-0.2 rounded">
+                  Hot
+                </span>
+              )}
+            </label>
           ))}
         </div>
-      </div>
 
-      {/* Strategic Focus & Local Priority Filter */}
-      <div className="space-y-2 pb-4 border-b border-neutral-200">
-        <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
-          <span>🎯 Ưu Tiên & Trọng Điểm</span>
-        </label>
-        <div className="space-y-1.5 text-xs">
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-bold">
+        {/* Priority Checkboxes */}
+        <div className="space-y-1.5 pt-2 border-t border-neutral-100 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-900 font-semibold">
             <input
               type="checkbox"
               checked={selectedEnterprise}
               onChange={(e) => updateParam("enterprise_only", e.target.checked ? "true" : "")}
-              className="text-black focus:ring-black rounded"
+              className="accent-black rounded"
             />
-            <span>🌟 Doanh nghiệp trọng điểm Hạ Long</span>
+            <span>🌟 Trọng điểm Hạ Long</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800 font-semibold">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800 font-medium">
             <input
               type="checkbox"
               checked={selectedVerified}
               onChange={(e) => updateParam("verified_only", e.target.checked ? "true" : "")}
-              className="text-black focus:ring-black rounded"
+              className="accent-black rounded"
             />
             <span>🛡️ Tin đã thẩm định đối soát</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800 font-semibold">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800 font-medium">
             <input
               type="checkbox"
               checked={selectedRemote}
               onChange={(e) => updateParam("remote", e.target.checked ? "true" : "")}
-              className="text-black focus:ring-black rounded"
+              className="accent-black rounded"
             />
-            <span>🏠 Làm việc từ xa (Remote / Hybrid)</span>
+            <span>🏠 Làm việc từ xa (Remote)</span>
           </label>
         </div>
       </div>
 
-      {/* Seniority & Experience Level Filter */}
-      <div className="space-y-2 pb-4 border-b border-neutral-200">
+      {/* 2. Industry & Tech Stack */}
+      <div className="space-y-3 pb-5 border-b border-neutral-100">
         <div className="flex items-center justify-between">
-          <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
-            <span>🎓 Cấp Bậc &amp; Kinh Nghiệm</span>
+          <label className="text-xs font-bold uppercase tracking-wider text-black">
+            Ngành nghề chuyên môn
+          </label>
+          {selectedCategory && (
+            <button
+              onClick={() => updateParam("category", "")}
+              className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
+            >
+              Đặt lại
+            </button>
+          )}
+        </div>
+        <div className="space-y-1 text-xs max-h-40 overflow-y-auto pr-1">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
+            <input
+              type="radio"
+              name="category"
+              value=""
+              checked={selectedCategory === ""}
+              onChange={() => updateParam("category", "")}
+              className="accent-black"
+            />
+            <span className="font-medium">Tất cả ngành nghề</span>
+          </label>
+          {POPULAR_CATEGORIES.map((cat) => (
+            <label
+              key={cat.slug}
+              className="flex items-center justify-between cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800"
+            >
+              <div className="flex items-center gap-2 truncate">
+                <input
+                  type="radio"
+                  name="category"
+                  value={cat.name}
+                  checked={selectedCategory === cat.name}
+                  onChange={() => updateParam("category", cat.name)}
+                  className="accent-black"
+                />
+                <span className="truncate">{cat.name}</span>
+              </div>
+            </label>
+          ))}
+        </div>
+
+        {/* Tech Stack Cloud */}
+        <div className="pt-2 border-t border-neutral-100">
+          <div className="flex items-center justify-between mb-1.5">
+            <span className="text-[11px] font-bold text-neutral-600 uppercase tracking-wider">
+              Kỹ năng / Tech Stack
+            </span>
+            {selectedTech && (
+              <button
+                onClick={() => updateParam("tech_stack", "")}
+                className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
+              >
+                Bỏ chọn
+              </button>
+            )}
+          </div>
+          <div className="flex flex-wrap gap-1">
+            {[
+              "Cisco", "Fortinet", "Windows Server", "Linux", "Opera PMS",
+              "Micros POS", "Python", "React.js", "SQL Server", "ERP SAP"
+            ].map((tech) => (
+              <button
+                key={tech}
+                type="button"
+                onClick={() => updateParam("tech_stack", selectedTech === tech ? "" : tech)}
+                className={`text-[10px] font-bold px-2 py-1 rounded-md border transition-colors cursor-pointer ${
+                  selectedTech === tech
+                    ? "bg-black text-white border-black"
+                    : "bg-neutral-100 text-neutral-800 border-neutral-200 hover:bg-neutral-200"
+                }`}
+              >
+                {tech}
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* 3. Seniority & Experience */}
+      <div className="space-y-2 pb-5 border-b border-neutral-100">
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-bold uppercase tracking-wider text-black">
+            Cấp bậc &amp; Kinh nghiệm
           </label>
           {selectedExperience && (
             <button
@@ -276,197 +329,70 @@ export default function FilterSidebar({
           )}
         </div>
         <div className="space-y-1 text-xs">
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
             <input
               type="radio"
               name="experience_level"
               value=""
               checked={selectedExperience === ""}
               onChange={() => updateParam("experience_level", "")}
-              className="text-black focus:ring-black"
+              className="accent-black"
             />
             <span>Tất cả cấp bậc</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-bold">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-black font-semibold">
             <input
               type="radio"
               name="experience_level"
               value="fresher"
               checked={selectedExperience === "fresher"}
               onChange={() => updateParam("experience_level", "fresher")}
-              className="text-black focus:ring-black"
+              className="accent-black"
             />
-            <span>🎓 Fresher / Thực tập sinh (Ưu tiên)</span>
+            <span>🎓 Fresher / Thực tập</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-semibold">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-black font-semibold">
             <input
               type="radio"
               name="experience_level"
               value="junior"
               checked={selectedExperience === "junior"}
               onChange={() => updateParam("experience_level", "junior")}
-              className="text-black focus:ring-black"
+              className="accent-black"
             />
-            <span>💻 Junior (1 - 2 năm kinh nghiệm)</span>
+            <span>💻 Junior (1 - 2 năm)</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
             <input
               type="radio"
               name="experience_level"
               value="middle"
               checked={selectedExperience === "middle"}
               onChange={() => updateParam("experience_level", "middle")}
-              className="text-black focus:ring-black"
+              className="accent-black"
             />
-            <span>⚡ Middle (2 - 4 năm kinh nghiệm)</span>
+            <span>⚡ Middle (2 - 4 năm)</span>
           </label>
-          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
             <input
               type="radio"
               name="experience_level"
               value="senior"
               checked={selectedExperience === "senior"}
               onChange={() => updateParam("experience_level", "senior")}
-              className="text-black focus:ring-black"
+              className="accent-black"
             />
-            <span>👑 Senior / Quản lý (&gt; 4 năm)</span>
+            <span>👑 Senior / Quản lý</span>
           </label>
         </div>
       </div>
 
-      {/* 1. Province Filter */}
-      <div className="space-y-2">
-        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
-          Địa điểm (Tỉnh / Thành phố)
+      {/* 4. Salary Range & Job Type */}
+      <div className="space-y-3 pb-5 border-b border-neutral-100">
+        <label className="text-xs font-bold uppercase tracking-wider text-black block">
+          Mức lương &amp; Hình thức
         </label>
-        <div className="relative mb-2">
-          <MagnifyingGlassIcon className="absolute left-2.5 top-2.5 h-4 w-4 text-neutral-400" />
-          <input
-            type="text"
-            placeholder="Lọc tỉnh thành..."
-            value={provinceSearch}
-            onChange={(e) => setProvinceSearch(e.target.value)}
-            className="w-full pl-8 pr-3 py-1.5 text-xs rounded-lg border border-neutral-300 focus:outline-none focus:ring-1 focus:ring-black"
-          />
-        </div>
-        <div className="max-h-40 overflow-y-auto pr-1 space-y-1 text-sm">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
-            <input
-              type="radio"
-              name="province"
-              value=""
-              checked={selectedProvince === ""}
-              onChange={() => updateParam("province", "")}
-              className="text-black focus:ring-black accent-black rounded"
-            />
-            <span className="text-xs font-medium">Tất cả địa điểm</span>
-          </label>
-          {filteredProvinces.map((prov) => (
-            <label
-              key={prov.code}
-              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
-            >
-              <div className="flex items-center gap-2">
-                <input
-                  type="radio"
-                  name="province"
-                  value={prov.name}
-                  checked={selectedProvince === prov.name}
-                  onChange={() => updateParam("province", prov.name)}
-                  className="text-black focus:ring-black accent-black"
-                />
-                <span className="text-xs">{prov.name}</span>
-              </div>
-              {prov.popular && (
-                <span className="text-[10px] font-bold text-black bg-neutral-200 px-1.5 py-0.5 rounded">
-                  Hot
-                </span>
-              )}
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* 2. Category Filter */}
-      <div className="space-y-2 pt-4 border-t border-neutral-200">
-        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
-          Ngành nghề chuyên môn
-        </label>
-        <div className="space-y-1.5 text-sm max-h-48 overflow-y-auto pr-1">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
-            <input
-              type="radio"
-              name="category"
-              value=""
-              checked={selectedCategory === ""}
-              onChange={() => updateParam("category", "")}
-              className="text-black focus:ring-black accent-black"
-            />
-            <span className="text-xs font-medium">Tất cả ngành nghề</span>
-          </label>
-          {POPULAR_CATEGORIES.map((cat) => (
-            <label
-              key={cat.slug}
-              className="flex items-center justify-between cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
-            >
-              <div className="flex items-center gap-2">
-                <input
-                  type="radio"
-                  name="category"
-                  value={cat.name}
-                  checked={selectedCategory === cat.name}
-                  onChange={() => updateParam("category", cat.name)}
-                  className="text-black focus:ring-black accent-black"
-                />
-                <span className="text-xs line-clamp-1">{cat.name}</span>
-              </div>
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* 3. Job Type Filter */}
-      <div className="space-y-2 pt-4 border-t border-neutral-200">
-        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
-          Hình thức làm việc
-        </label>
-        <div className="space-y-1.5 text-sm">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
-            <input
-              type="radio"
-              name="job_type"
-              value=""
-              checked={selectedJobType === ""}
-              onChange={() => updateParam("job_type", "")}
-              className="text-black focus:ring-black accent-black"
-            />
-            <span className="text-xs font-medium">Tất cả hình thức</span>
-          </label>
-          {JOB_TYPES.map((jt) => (
-            <label
-              key={jt.value}
-              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
-            >
-              <input
-                type="radio"
-                name="job_type"
-                value={jt.value}
-                checked={selectedJobType === jt.value}
-                onChange={() => updateParam("job_type", jt.value)}
-                className="text-black focus:ring-black accent-black"
-              />
-              <span className="text-xs">{jt.label}</span>
-            </label>
-          ))}
-        </div>
-      </div>
-
-      {/* 4. Salary Range Filter */}
-      <div className="space-y-2 pt-4 border-t border-neutral-200">
-        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
-          Mức lương
-        </label>
-        <div className="space-y-1.5 text-sm">
+        <div className="space-y-1 text-xs">
           {SALARY_RANGES.map((range, idx) => {
             const isChecked =
               (range.min === undefined &&
@@ -479,43 +405,83 @@ export default function FilterSidebar({
             return (
               <label
                 key={`sal-${idx}`}
-                className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
+                className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800"
               >
                 <input
                   type="radio"
                   name="salary_range"
                   checked={isChecked}
                   onChange={() => handleSalaryChange(range.min, range.max)}
-                  className="text-black focus:ring-black accent-black"
+                  className="accent-black"
                 />
-                <span className="text-xs">{range.label}</span>
+                <span>{range.label}</span>
               </label>
             );
           })}
         </div>
+
+        <div className="pt-2 border-t border-neutral-100 space-y-1 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
+            <input
+              type="radio"
+              name="job_type"
+              value=""
+              checked={selectedJobType === ""}
+              onChange={() => updateParam("job_type", "")}
+              className="accent-black"
+            />
+            <span className="font-medium">Tất cả hình thức</span>
+          </label>
+          {JOB_TYPES.map((jt) => (
+            <label
+              key={jt.value}
+              className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800"
+            >
+              <input
+                type="radio"
+                name="job_type"
+                value={jt.value}
+                checked={selectedJobType === jt.value}
+                onChange={() => updateParam("job_type", jt.value)}
+                className="accent-black"
+              />
+              <span>{jt.label}</span>
+            </label>
+          ))}
+        </div>
       </div>
 
-      {/* 5. Source Platform Filter */}
-      <div className="space-y-2 pt-4 border-t border-neutral-200">
-        <label className="text-xs font-bold uppercase tracking-wider text-neutral-700">
-          Nguồn tuyển dụng
-        </label>
-        <div className="space-y-1.5 text-sm">
-          <label className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700">
+      {/* 5. Source Platform & Quality Tier */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-bold uppercase tracking-wider text-black">
+            Nguồn tuyển dụng
+          </label>
+          {selectedPlatform && (
+            <button
+              onClick={() => updateParam("source_platform", "")}
+              className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
+            >
+              Đặt lại
+            </button>
+          )}
+        </div>
+        <div className="space-y-1 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800">
             <input
               type="radio"
               name="source_platform"
               value=""
               checked={selectedPlatform === ""}
               onChange={() => updateParam("source_platform", "")}
-              className="text-black focus:ring-black accent-black"
+              className="accent-black"
             />
-            <span className="text-xs font-medium">Tất cả nguồn</span>
+            <span className="font-medium">Tất cả nguồn</span>
           </label>
           {SOURCE_PLATFORMS.map((platform) => (
             <label
               key={platform.id}
-              className="flex items-center gap-2 cursor-pointer p-1 rounded hover:bg-neutral-100 text-neutral-700"
+              className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-neutral-800"
             >
               <input
                 type="radio"
@@ -523,11 +489,26 @@ export default function FilterSidebar({
                 value={platform.id}
                 checked={selectedPlatform === platform.id}
                 onChange={() => updateParam("source_platform", platform.id)}
-                className="text-black focus:ring-black accent-black"
+                className="accent-black"
               />
-              <span className="text-xs">{platform.name}</span>
+              <span>{platform.name}</span>
             </label>
           ))}
+        </div>
+
+        {/* Quality Tier */}
+        <div className="pt-2 border-t border-neutral-100 space-y-1 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1 rounded-lg hover:bg-neutral-50 text-black font-semibold">
+            <input
+              type="radio"
+              name="quality_tier"
+              value="diamond"
+              checked={selectedQualityTier === "diamond"}
+              onChange={() => updateParam("quality_tier", selectedQualityTier === "diamond" ? "" : "diamond")}
+              className="accent-black"
+            />
+            <span>💎 Thẩm định Kim Cương (≥ 85đ)</span>
+          </label>
         </div>
       </div>
     </aside>
