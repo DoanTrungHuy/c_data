@@ -24643,6 +24643,789 @@
     "is_active": true
   },
   {
+    "id": "cv_live_1827918915",
+    "title": "IT Supervisor/ Business Technology Supervisor",
+    "company_name": "Công Ty NABATI Việt Nam",
+    "description": "Mô tả Công việc\nDigital Solutions & Automation Development – 45%\n-      Analyze business needs and propose digitalization solutions for different departments.\n-      Develop applications and automated workflows using Power Apps, Power Automate, SharePoint, and other suitable platforms.\n-      Participate in the development of internal applications, corporate websites, E-Office solutions, workflows, and operational support tools.\n-      Design data structures, user permissions, testing processes, deployment approaches, and continuous application improvements.\n-      Manage source code, version control, and technical documentation.\nBusiness Applications & System Integration – 20%\n-      Participate in the implementation and operation of SAP, E-Office, Microsoft 365, Data Lake, and other business applications.\n-      Support system and data integration through APIs, databases, file exchange, or other appropriate integration methods.\n-      Validate data accuracy, consistency, and integrity across systems.\n-      Coordinate with Business Owners and vendors to troubleshoot issues, improve existing solutions, and develop new functionalities.\nDigital Project Delivery – 15%\n-      Gather, analyze, and clarify business requirements.\n-      Prepare project plans and monitor project progress, risks, deliverables, and quality.\n-      Coordinate system testing, User Acceptance Testing (UAT), user training, deployment, and post-implementation support.\n-      Provide project status updates ",
+    "requirements": "Yêu Cầu Công Việc\nBachelor’s degree in\nIT, Computer Science, Information Systems\nor related fields.\n3+ years\nof experience in Application Development, Power Platform, System Integration, or Automation.\nHands-on experience with\nPower Apps, Power Automate, SharePoint Online\n.\nKnowledge of\nSQL, APIs, Data Integration, Microsoft 365 & Entra ID\n.\nStrong\nBusiness Analysis, Problem-solving, Project Management & Communication\nskills.\nExperience with\nERP/SAP/E-Office\nis a plus.\nFamiliarity with\nAI-assisted development & automation\nis preferred.\nGood\nEnglish communication\n.\nStrong ownership, proactive mindset, and ability to work independently.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "IT Support L1/L2",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor-business-technology-supervisor.35C878B2.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor-business-technology-supervisor.35C878B2.html",
+    "posted_at": "2026-10-18T11:47:30.660670+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:30.660670+00:00",
+    "last_verified_at": "2026-10-18T11:47:30.660670+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:30.660670+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor-business-technology-supervisor.35C878B2.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT Supervisor/ Business Technology Supervisor tại Công Ty NABATI Việt Nam (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "IT Supervisor/ Business Technology Supervisor",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor-business-technology-supervisor.35C878B2.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1775906333",
+    "title": "Manufacturing IT Supervisor",
+    "company_name": "Công Ty TNHH Yokohama Tyre Việt Nam",
+    "description": "Mô tả Công việc\nKEY RESPONSIBILITIES\nSystem & Network Administration\n- Install, configure, and maintain servers (Windows Server / Linux).\n- Manage virtualization platforms (VMware, Hyper-V).\n- Perform regular data backup and recovery to ensure data integrity and security.\n- Monitor system performance and troubleshoot server and internal service issues (file server, DNS, DHCP, etc.).\n- Manage system access rights and ensure information security.\n- Set up, configure, and monitor LAN/WAN and Wi-Fi networks.\n- Manage network devices: Routers, Switches, Firewalls (Cisco, Fortinet, etc.).\n- Configure VPN and site-to-site connections.\n- Manage and troubleshoot IP Camera systems and Telephone switchboards (VoIP/PBX).\nManufacturing & Production Systems\n- Set up, configure, and monitor LAN/WAN and Wi-Fi networks.\n- Provide technical support for production-related systems: SEEDs (MES), SAP, ERP.\n- Manage and support barcode printers and scanners (Honeywell, Keyence, etc.).\n- Collaborate with production teams to optimize manufacturing processes through technology.\n- Propose and implement digital transformation initiatives to improve factory efficiency.\nHelpdesk & User Support\n- Receive and handle technical support requests from employees (hardware, software, network).\n- Install and configure computers, laptops, printers, and peripheral devices.\n- Manage user accounts: Active Directory, Email (Office 365), VPN.\nOther Duties\n- Propose upgrades and improvements to IT infrastructure.\n- Coord",
+    "requirements": "Yêu Cầu Công Việc\nKEY QUALIFICATIONS AND SKILLS\nEducation & Experience\n- College or University degree in IT, Computer Networking, Information Systems, or related fields.\n- At least 5 years of experience as a System/Network Administrator.\n- Candidates with experience in a manufacturing environment are strongly preferred.\nTechnical Knowledge\n- Solid knowledge of Windows Server, basic Linux, Active Directory, and Group Policy.\n- Strong understanding of networking: TCP/IP, VLAN, Routing, Switching, DNS, DHCP.\n- Experience in configuring and troubleshooting Cisco/SonicWall devices.\n- Hands-on experience with virtualization platforms (VMware/Hyper-V).\n- Experience supporting MES/production systems (e.g., SEEDs or equivalent) and barcode scanners/printers is a big plus.\nSkills\n- Strong documentation skills with the ability to write clear, structured procedures (SOPs).\n- Logical thinking, fast troubleshooting, and ability to work under pressure during critical incidents.\n- Good communication a",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Bình Dương",
+    "location_district": null,
+    "location_full": "Bình Dương",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Linux",
+      "Cisco Networking",
+      "LAN/WAN",
+      "Camera AI",
+      "Active Directory",
+      "Firewall"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
+    "posted_at": "2026-10-18T11:47:30.554594+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:30.554594+00:00",
+    "last_verified_at": "2026-10-18T11:47:30.554594+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:30.554594+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Bình Dương"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Manufacturing IT Supervisor tại Công Ty TNHH Yokohama Tyre Việt Nam (Bình Dương). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Manufacturing IT Supervisor",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/manufacturing-it-supervisor.35C89105.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Bình Dương"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8120463565",
+    "title": "Nhân viên IT",
+    "company_name": "CÔNG TY TRÁCH NHIỆM HỮU HẠN YKK VIỆT NAM - CHI NHÁNH ĐỒNG VĂN",
+    "description": "Mô tả Công việc\n-          Quản trị và giám sát hệ thống LAN, WAN, Wifi, Internet, VPN và thiết bị mạng\n-          Cấu hình, kiểm tra và xử lý sự cố switch, router, firewall, access point và kết nối giữa các site\n-          Quản trị Windows Server, Active Directory, DNS, DHCP, file server và các dịch vụ hạ tầng liên quan\n-          Thực hiện quản lý tài khoản, phân quyền truy cập, backup/restore và theo dõi tình trạng hệ thống\n-          Phối hợp với nhà cung cấp và các bộ phận để xử lý sự cố, triển khai dự án và cải tiến hạ tầng\n-          Tài liệu hóa cấu hình, sơ đồ mạng, danh sách thiết bị, tuân thủ quy trình bảo mật (ISMS) của Công ty\n-          Thực hiện các công việc khác do Quản lý bộ phận phân công",
+    "requirements": "Yêu Cầu Công Việc\n1.\nBằng cấp:\nTốt nghiệp Cao đẳng trở lên chuyên ngành Công nghệ thông tin,… hoặc các ngành liên quan\n2.\nKinh nghiệm:\nÍt nhất 2 năm kinh nghiệm ở vị trí tương đương\n3.\nKỹ năng:\n- Có kiến thức về TCP/IP, VLAN, routing, switching, firewall, VPN, Wifi, DNS, DHCP\n- Có kiến thức về Windows Server, Active Directory, Group Policy, file server, backup và phân quyền truy cập\n- Hiểu biết cơ bản về bảo mật hệ thống, kiểm soát truy cập và vận hành theo quy trình\n- Có khả năng phân tích, xử lý sự cố mạng/máy chủ và đọc hiểu tài liệu kỹ thuật tiếng Anh\n- Cẩn thận, trách nhiệm, tuân thủ quy trình và chú trọng an toàn thông tin\n- Có khả năng xử lý sự cố và phối hợp tốt với các bộ phận liên quan\n- Chủ động học hỏi, cải tiến hệ thống và sẵn sàng hỗ trợ khi có sự cố phát sinh\n- Ưu tiên có kinh nghiệm vận hành network/server trong doanh nghiệp hoặc nhà máy sản xuất\n+ Kinh nghiệm với firewall, switch L2/L3, VPN, Window Server, VMware/Hyper-V, hệ thống backup\n+ Có chứng chỉ CNA, CCNP, Windo",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Hà Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Azure",
+      "WiFi Mesh",
+      "Active Directory",
+      "Firewall",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C8569F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C8569F.html",
+    "posted_at": "2026-10-18T11:47:31.316130+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:31.316130+00:00",
+    "last_verified_at": "2026-10-18T11:47:31.316130+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:31.316130+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C8569F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân viên IT tại CÔNG TY TRÁCH NHIỆM HỮU HẠN YKK VIỆT NAM - CHI NHÁNH ĐỒNG VĂN (Hà Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Nhân viên IT",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C8569F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8994828448",
+    "title": "NHÂN VIÊN IT",
+    "company_name": "Công ty Cổ phần Tập Đoàn Picenza Viet Nam",
+    "description": "Mô tả Công việc\n1. Quản trị hệ thống Server:\nĐề xuất phương án nâng cấp hệ thống máy chủ, các gọi dịch vụ, phần mềm cần thiết theo nhu cầu phát triển của công ty.\nĐề xuất phương án mua mới, bổ sung thiết bị hệ thống máy chủ theo nhu cầu phát triển công ty.\nĐưa ra phương án xử lý kịp thời các sự cố về hệ thống server, kiểm tra tình trạng vận hành của hệ thống server, nhiệt độ phòng server, đảm bảo hệ thống luôn hoạt động tốt, bảo dưỡng định kỳ hệ thống server.\nKiểm tra tình trạng backup, virus, kiểm soát truy cập website, kết nối hội sở và kho Từ Liêm, và các địa điểm khác nếu có.\nHỗ trợ xử lý các sự cố về việc sử dụng các phần mềm bản quyền mà công ty đang sử dụng. (Effect, windowserver, Kaspersky, Sophos)\nCập nhật email CBNV mới, khóa email CBNV cũ đã nghỉ việc\n2\n. Quản lý hệ thống máy tính công ty:\nLên kế hoach bảo trì, bảo dưỡng toàn bộ máy tính công ty.\nThống kê, quản lý số lượng máy tính công ty\nHỗ trợ sửa chữa, cài đặt window, các phần mềm liên quan đến công việc cho toàn bộ cán bộ nhân viên toàn công ty\nHỗ trợ điều chuyển vị trí ngồi, máy tính cho cán bộ nhân viên các phòng ban\nĐề xuất mua mới bổ sung, nâng cấp máy tính theo tình trạng, nhu cầu sử dụng máy tính của ban lãnh đạo, các phòng ban, bộ phận, cán bộ nhân viên.\nQuản lý, theo dõi CBNV sử dụng máy tính làm việc, việc riêng.\nBáo cáo ban lãnh đạo về việc sử dụng máy tính bất thường (theo chỉ đạo của TGĐ)\n3.\nQuản lý hệ thống Camera:\nKiểm tra tình trạng hoạt động của hệ thống camera toàn bộ công ty\nĐề xuất phương án",
+    "requirements": "Yêu Cầu Công Việc\n- Nam: tuổi từ 30 – 35.\n- Trình độ học vấn:  Tối thiểu từ Cao đẳng trở lên.\n- Chuyên ngành:  Công nghệ thông tin.\n- Sử dụng Word, Excel là yêu cầu bắt buộc.\n- Thích nghi công việc nhanh, có trách nhiệm cao trong công việc được giao.\n- Biết phối hợp công việc với đồng nghiệp\n- Cần mẫn, có trách nhiệm với công việc.\n- Có ít nhất 05 năm kinh nghiệm trong lĩnh vực chuyên môn hoặc các công việc khác có tính chất tương tự.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "WiFi Mesh",
+      "Camera AI",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
+    "posted_at": "2026-10-18T11:47:31.242081+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:31.242081+00:00",
+    "last_verified_at": "2026-10-18T11:47:31.242081+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:31.242081+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí NHÂN VIÊN IT tại Công ty Cổ phần Tập Đoàn Picenza Viet Nam (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "NHÂN VIÊN IT",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it.35C84493.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5056000690",
+    "title": "Senior Factory Technical Support Specialist (Footwear Developer)",
+    "company_name": "BOA Technology",
+    "description": "Mô tả Công việc\nOVERVIEW OF THE ROLE\nReporting to the Factory Technical Support Lead, this position is key in ensuring that our Brand Partner factories thoroughly understand the installation requirements for BOA products before production begins. You will provide essential technical support to the Brand Partner factories for consistently maintaining high standards of quality and performance including supporting on the resolution of customer quality issues, conducting installation training and overseeing the factories’ proper installation of the BOA system on products.\nCORE RESPONSIBILITIES\n•    Reflect and role model BOA’s vision, values and Leadership Model and demonstrate passion for our mission across the Factory Education & Technical Support team and rest of the organization.\n•    Familiar with all BOA products including the functionality and the installation requirements.\n•    Deliver proficient training to our brand partner factories to ensure all BOA-powered products meet our design and installation requirements and ensure clear understanding of BOA quality standards.\n•    Review, recommend and update installation methods to help improve the installation efficiency, provide installation related inputs to product teams for effective product creation.\n•    Assist Brand Partner factories in resolving any issues and involve relevant members within BOA to address their issue.\n•    Translate and update the manufacturing instruction documents.\n•    Complete, organize, and sub",
+    "requirements": "Yêu Cầu Công Việc\nREQUIRED QUALIFICATIONS\n•    Tertiary education\n•    Good command of spoken and written Vietnamese and English\n•    At least 5 years of experience in footwear manufacturing. Familiar with the whole process of shoes making and shoes structure\n•    Experience in building and maintaining customer relationships\n•    Frequent travel is required\nDESIRED QUALIFICATIONS\n•    Good command of spoken Mandarin",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Đồng Nai",
+    "location_district": null,
+    "location_full": "Đồng Nai",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "HIS/PACS Y Tế",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-factory-technical-support-specialist-footwear-developer.35C82D5C.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-factory-technical-support-specialist-footwear-developer.35C82D5C.html",
+    "posted_at": "2026-10-18T11:47:32.977336+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:32.977336+00:00",
+    "last_verified_at": "2026-10-18T11:47:32.977336+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:32.977336+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-factory-technical-support-specialist-footwear-developer.35C82D5C.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Đồng Nai"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Factory Technical Support Specialist (Footwear Developer) tại BOA Technology (Đồng Nai). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Senior Factory Technical Support Specialist (Footwear Developer)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-factory-technical-support-specialist-footwear-developer.35C82D5C.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Đồng Nai"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1963537237",
+    "title": "IT support",
+    "company_name": "Công ty TNHH Amphenol Technology Vietnam (Xưởng 3)",
+    "description": "Mô tả Công việc\n·       Provide daily HelpDesk support for end users (PC, laptop, printer, software, email, network)\n·       Support Microsoft Windows, Microsoft Office and business applications\n·       Manage user accounts and permissions in Active Directory\n·       Troubleshoot LAN/WAN, Internet and Wi-Fi connectivity issues\n·       Support network infrastructure, including network cabling, switches and wireless access points\n·       Support production-related IT equipment (barcode scanner, label printer and production terminals)\n·       Maintain IT inventory and asset records\n·       Coordinate with vendors for hardware repair and maintenance\n·       Ensure IT equipment and network cabling are properly organized according to company standard\n·       Follow IT policies, security standards and documentation procedures",
+    "requirements": "Yêu Cầu Công Việc\n·       Diploma or Bachelor's Degree in Information Technology or related field\n·       Minimum 1 years of IT Support experience\n·       Good knowledge of Windows OS, Active Directory, DNS, DHCP and networking\n·       Familiar with PC, printer and network troubleshooting\n·       Experience in manufacturing environment is an advantage\n·       Ability to communicate in English and read technical documentation\n·       Ability to work independently and manage multiple tasks effectively\n·       Responsible, proactive, service-minded and able to work under pressure",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Long An",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "LAN/WAN",
+      "Active Directory",
+      "IT Support L1/L2",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C86B5C.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C86B5C.html",
+    "posted_at": "2026-10-18T11:47:33.103626+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:33.103626+00:00",
+    "last_verified_at": "2026-10-18T11:47:33.103626+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:33.103626+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C86B5C.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Long An"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT support tại Công ty TNHH Amphenol Technology Vietnam (Xưởng 3) (Long An). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "IT support",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C86B5C.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Long An"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6823486038",
+    "title": "IT Support",
+    "company_name": "KDI EDUCATION",
+    "description": "Mô tả Công việc\n1. Hỗ trợ người dùng & Cấp phát thiết bị (30%)\nTiếp nhận và xử lý sự cố: máy tính, mạng, email, phần mềm, Wifi và thiết bị ngoại vi (máy in, máy photocopy, điện thoại VoIP); hỗ trợ reset mật khẩu, hướng dẫn sử dụng hệ thống.\nHỗ trợ quy trình hội nhập nhân sự (Onboarding/Offboarding), phối hợp cùng HR:\nCài đặt hệ điều hành (Windows), phần mềm chuẩn công ty; cấp phát máy tính và thiết bị cho nhân sự mới.\nKhởi tạo tài khoản trên các hệ thống công ty, phân quyền truy cập và hướng dẫn sử dụng ban đầu.\nThu hồi thiết bị, khóa tài khoản, sao lưu và bàn giao dữ liệu khi nhân sự nghỉ việc.\nHỗ trợ kỹ thuật cho các cuộc họp, trình chiếu và sự kiện nội bộ.\n2. Kiểm tra & Vận hành hệ thống hàng ngày (30%)\nKiểm tra toàn bộ hạ tầng mỗi ngày theo checklist: mạng LAN/Wifi, Server, camera, âm thanh, cổng check-in, POS và thiết bị IoT tại Văn phòng và Trung tâm.\nVận hành hệ thống Camera, âm thanh, Wifi, cổng check-in, POS và các thiết bị IoT của Trung tâm; đảm bảo hoạt động ổn định, khắc phục sự cố kịp thời - ưu tiên hạn chế gián đoạn hoạt động giảng dạy.\nChẩn đoán, xử lý sự cố phát sinh về hạ tầng mạng, phần cứng, phần mềm nội bộ của công ty.\nGiám sát cảnh báo hệ thống; tuân thủ và góp ý chính sách bảo mật, phân quyền, đảm bảo an toàn thông tin.\nKiểm tra, bảo trì định kỳ, theo dõi tình trạng thiết bị.\n3. Hỗ trợ Quản trị hệ thống & Quản lý dịch vụ (20%)\nPhối hợp cấu hình hệ thống mạng, hệ thống SaaS theo nhu cầu các phòng ban (dưới sự hướng dẫn của Chuyên viên Quản trị Hệ thống).\n",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ:\nTốt nghiệp Đại học/Cao đẳng chuyên ngành Công nghệ thông tin, Quản trị mạng hoặc các ngành liên quan\nCó các chứng chỉ MCSA. CCNA…là một lợi thế\n2. Chuyên môn:\nAm hiểu về phần cứng máy tính, máy in, POS và các thiết bị công nghệ thông tin\nCấu hình được các thiết bị mạng: Switch, Router, Wifi\nThông thạo các hệ điều hành Windows, Linux, MacOS\nBiết sử dụng các phần mềm Google Workspace, Chữ ký số, HTKK…\nBiết sử dụng công cụ AI (Chat GPT, Claude, Gemini...) hỗ trợ công việc; có hiểu biết về thiết bị IoT, camera, hệ thống check-in/POS\n3. Kinh nghiệm:\nTối thiểu 01 năm kinh nghiệm tại vị trí IT Support, Helpdesk hoặc vận hành hệ thống\n4. Ngoại ngữ:\nTiếng Anh có khả năng đọc hiểu tài liệu chuyên ngành.\n5. Yêu cầu về kỹ năng:\nPhán đoán và giải quyết vấn đề nhanh chóng.\nGiao tiếp và hướng dẫn người dùng không chuyên về kỹ thuật.\nViết tài liệu hướng dẫn, quy trình (SOP) rõ ràng, dễ hiểu.\n6. Yêu cầu về thái độ:\nTrung thực, cầu thị, có tinh thần trách nhiệm cao.\nTư duy",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Linux",
+      "CCNA",
+      "WiFi Mesh",
+      "Camera AI",
+      "IT Support L1/L2",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C88C27.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C88C27.html",
+    "posted_at": "2026-10-18T11:47:32.899282+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T11:47:32.899282+00:00",
+    "last_verified_at": "2026-10-18T11:47:32.899282+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T11:47:32.899282+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C88C27.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT Support tại KDI EDUCATION (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "IT Support",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-support.35C88C27.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "7d86b538-f0c0-4764-985a-3999aab84e7d",
     "title": "Senior Frontend Developer",
     "company_name": "Astek Vietnam",
