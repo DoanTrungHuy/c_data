@@ -205,12 +205,12 @@ def run_social_crawl_cycle():
                     })
                     break
 
-    # 2. Quét sâu các sàn tuyển dụng lớn (CareerViet) thời gian thực
+    # 2. Quét sâu các sàn tuyển dụng CNTT lớn (CareerViet + ITViec) thời gian thực
     try:
         from app.services.live_it_crawler_engine import LiveITCrawlerEngine
-        logger.info("🌐 Đang quét bổ sung các sàn tuyển dụng CNTT lớn thời gian thực...")
+        logger.info("🌐 Đang quét bổ sung các sàn tuyển dụng CNTT lớn (CareerViet + ITViec) thời gian thực...")
         live_engine = LiveITCrawlerEngine()
-        portal_jobs = live_engine.crawl_careerviet_it_catalog(max_items=40)
+        portal_jobs = live_engine.crawl_all_sources(max_careerviet=30, max_itviec=30, existing_urls=seen_urls)
         for pj in portal_jobs:
             p_url = pj.get("source_url")
             if p_url and p_url not in seen_urls:
@@ -219,6 +219,23 @@ def run_social_crawl_cycle():
                 newly_added += 1
     except Exception as e:
         logger.warning(f"Lỗi quét live portal: {e}")
+
+    # Lọc bỏ tin rác, tag filter, hoặc non-IT trước khi lưu
+    DISQUALIFIED = [
+        "filter", "jobs in", "garment", "merchandiser", "fabric", "may mặc",
+        "dệt may", "thời trang", "cnc", "máy phay", "gia công cơ khí"
+    ]
+    pure_jobs = []
+    for j in current_jobs:
+        comp = j.get("company_name", "").lower()
+        title = j.get("title", "").lower()
+        if j.get("location_province") == "Quảng Ninh":
+            pure_jobs.append(j)
+            continue
+        if any(term in title or term in comp for term in DISQUALIFIED):
+            continue
+        pure_jobs.append(j)
+    current_jobs = pure_jobs
 
     # Sắp xếp ưu tiên: Việc làm Quảng Ninh / Hạ Long lên đầu
     current_jobs.sort(

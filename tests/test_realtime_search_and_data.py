@@ -313,6 +313,20 @@ class TestRealtimeSearchAndData(unittest.TestCase):
         self.assertEqual(len(fb_issues), 0, f"Phát hiện tin tuyển dụng Facebook không đạt chuẩn: {fb_issues}")
         print("  ✓ Test 14 - 100% Tin Facebook là bài viết IT trực tiếp & JD đầy đủ: 100% ĐẠT")
 
+    def test_15_zero_tag_filter_or_catalog_pages(self):
+        """Kiểm tra 100% không có trang tag filter hoặc danh mục rác bị nhầm thành bài tuyển dụng"""
+        invalid_items = []
+        for j in self.jobs:
+            comp = (j.get("company_name") or "").lower()
+            title = (j.get("title") or "").lower()
+            if "filter" in comp:
+                invalid_items.append((j["id"], j["title"], "Tên công ty là Filter"))
+            if "jobs in" in title or "việc làm it tại" in title:
+                invalid_items.append((j["id"], j["title"], "Tiêu đề là trang danh mục"))
+
+        self.assertEqual(len(invalid_items), 0, f"Phát hiện tin là trang tag/danh mục: {invalid_items}")
+        print("  ✓ Test 15 - 100% Tin là bài tuyển dụng cụ thể (Zero tag/filter pages): 100% ĐẠT")
+
 
 if __name__ == "__main__":
     print("\n" + "=" * 60)
