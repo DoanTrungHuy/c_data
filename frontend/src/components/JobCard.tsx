@@ -30,6 +30,7 @@ import {
 import CopySourceButton from "@/components/CopySourceButton";
 import CompanyOrPlatformLogo from "@/components/CompanyOrPlatformLogo";
 import SaveJobButton from "@/components/SaveJobButton";
+import QuickApplyButton from "@/components/QuickApplyButton";
 import HighlightMatch from "@/components/HighlightMatch";
 import { useUserSkills, evaluateJobMatch } from "@/lib/skillMatcher";
 import {
@@ -632,6 +633,10 @@ export default function JobCard({
                     <ArrowUpRightIcon className="h-3.5 w-3.5" />
                   </a>
                 )}
+                <QuickApplyButton
+                  job={job}
+                  className="px-3.5 py-2 text-xs"
+                />
                 <button
                   type="button"
                   onClick={() => setStageModalOpen(true)}

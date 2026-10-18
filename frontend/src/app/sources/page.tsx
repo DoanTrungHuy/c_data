@@ -183,13 +183,13 @@ export default function SourceHealthDashboardPage() {
   const getIndustryBadge = (industry: string) => {
     switch (industry) {
       case "hospitality_tourism":
-        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">Du lịch & Khách sạn 5★</span>;
+        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-neutral-100 text-neutral-900 border border-neutral-300">🏨 Du lịch & Khách sạn 5★</span>;
       case "healthcare":
-        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Y tế & Bệnh viện</span>;
+        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-neutral-100 text-neutral-900 border border-neutral-300">🏥 Y tế & Bệnh viện</span>;
       case "industry_logistics":
-        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-amber-50 text-amber-700 border border-amber-200">Công nghiệp, Than & Cảng biển</span>;
+        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-neutral-100 text-neutral-900 border border-neutral-300">🚢 Công nghiệp, Than & Cảng biển</span>;
       case "telecom_it":
-        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-purple-50 text-purple-700 border border-purple-200">Viễn thông & CNTT địa phương</span>;
+        return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-neutral-100 text-neutral-900 border border-neutral-300">📡 Viễn thông & CNTT địa phương</span>;
       default:
         return <span className="px-2.5 py-1 rounded-lg text-xs font-bold bg-neutral-100 text-neutral-700 border border-neutral-200">{industry}</span>;
     }
@@ -339,27 +339,27 @@ export default function SourceHealthDashboardPage() {
           {/* Quick Metrics Bar for Companies */}
           {activeTab === "companies" && (
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-              <div className="bg-blue-50/60 p-3.5 rounded-2xl border border-blue-200 text-center">
-                <span className="text-[11px] font-bold text-blue-700 uppercase block">Du lịch & Khách sạn</span>
-                <span className="text-xl sm:text-2xl font-black text-blue-900">
+              <div className="bg-neutral-50 p-3.5 rounded-2xl border border-neutral-200 text-center">
+                <span className="text-[11px] font-bold text-neutral-500 uppercase block">🏨 Du lịch & Khách sạn</span>
+                <span className="text-xl sm:text-2xl font-black text-black">
                   {companies.filter((c) => c.industry_group === "hospitality_tourism").length} đơn vị
                 </span>
               </div>
-              <div className="bg-emerald-50/60 p-3.5 rounded-2xl border border-emerald-200 text-center">
-                <span className="text-[11px] font-bold text-emerald-700 uppercase block">Y tế & Bệnh viện</span>
-                <span className="text-xl sm:text-2xl font-black text-emerald-900">
+              <div className="bg-neutral-50 p-3.5 rounded-2xl border border-neutral-200 text-center">
+                <span className="text-[11px] font-bold text-neutral-500 uppercase block">🏥 Y tế & Bệnh viện</span>
+                <span className="text-xl sm:text-2xl font-black text-black">
                   {companies.filter((c) => c.industry_group === "healthcare").length} bệnh viện
                 </span>
               </div>
-              <div className="bg-amber-50/60 p-3.5 rounded-2xl border border-amber-200 text-center">
-                <span className="text-[11px] font-bold text-amber-700 uppercase block">Cảng biển, Than & KCN</span>
-                <span className="text-xl sm:text-2xl font-black text-amber-900">
+              <div className="bg-neutral-50 p-3.5 rounded-2xl border border-neutral-200 text-center">
+                <span className="text-[11px] font-bold text-neutral-500 uppercase block">🚢 Cảng biển, Than & KCN</span>
+                <span className="text-xl sm:text-2xl font-black text-black">
                   {companies.filter((c) => c.industry_group === "industry_logistics").length} tập đoàn
                 </span>
               </div>
-              <div className="bg-purple-50/60 p-3.5 rounded-2xl border border-purple-200 text-center">
-                <span className="text-[11px] font-bold text-purple-700 uppercase block">Viễn thông & CNTT</span>
-                <span className="text-xl sm:text-2xl font-black text-purple-900">
+              <div className="bg-neutral-50 p-3.5 rounded-2xl border border-neutral-200 text-center">
+                <span className="text-[11px] font-bold text-neutral-500 uppercase block">📡 Viễn thông & CNTT</span>
+                <span className="text-xl sm:text-2xl font-black text-black">
                   {companies.filter((c) => c.industry_group === "telecom_it").length} nhà mạng
                 </span>
               </div>
