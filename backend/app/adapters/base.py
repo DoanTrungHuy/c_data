@@ -163,6 +163,48 @@ class RawJobRecord:
             "is_test_fixture": self.is_test_fixture,
         }
 
+    def to_universal_job(self, source_name: str = "Direct Source", source_type: str = "job_board", source_id: Optional[str] = None):
+        from app.schemas.universal_job import UniversalJob, LocationNormalized, VerificationStatus
+        now_str = datetime.now(timezone.utc).isoformat()
+        sid = source_id or source_name.lower().replace(' ', '_')
+        return UniversalJob(
+            job_id=f"{sid}_{self.source_job_id}",
+            title=self.title,
+            company_name=self.company_name,
+            location_raw=self.location_raw or (self.location_province or "Toàn quốc"),
+            location_normalized=LocationNormalized(
+                city=self.location_district or "Hạ Long",
+                province=self.location_province or "Quảng Ninh",
+                district=self.location_district,
+                confidence=self.location_confidence,
+            ),
+            job_categories=[self.category] if self.category else ["Công nghệ thông tin"],
+            seniority=self.experience_level or "Junior",
+            experience_requirement=self.experience_level or "Không yêu cầu kinh nghiệm",
+            work_type="Remote" if self.workplace_type == "remote" else ("Hybrid" if self.workplace_type == "hybrid" else "On-site"),
+            work_schedule=self.employment_type or "Toàn thời gian",
+            salary_min=self.salary_min,
+            salary_max=self.salary_max,
+            salary_currency=self.salary_currency,
+            salary_text=self.salary_text,
+            description=self.description or "",
+            required_skills=self.required_skills,
+            posted_at=self.posted_at.isoformat() if self.posted_at else None,
+            deadline=self.deadline_at.isoformat() if self.deadline_at else None,
+            first_seen_at=self.first_seen_at.isoformat() if self.first_seen_at else now_str,
+            last_seen_at=(self.discovered_at or self.first_seen_at).isoformat() if (self.discovered_at or self.first_seen_at) else now_str,
+            source_name=source_name,
+            source_type=source_type,
+            original_url=self.source_url,
+            application_url=self.apply_url or self.source_url,
+            employer_url=None,
+            application_method="online_form",
+            verification_status=VerificationStatus.ACTIVE_CONFIRMED if self.status == "active_confirmed" else (VerificationStatus.LIKELY_ACTIVE if self.status == "active_likely" else VerificationStatus.UNVERIFIED),
+            verification_evidence=[],
+            duplicate_group_id=None,
+            crawl_status="success",
+        )
+
 
 @dataclass
 class AdapterCrawlResult:
@@ -197,11 +239,21 @@ class BaseJobAdapter(ABC):
     """
 
     adapter_id: str = "base_adapter"
+    source_id: str = "base_adapter"
     source_name: str = "Base Source"
     source_domain: str = ""
     default_delay_seconds: float = 1.0
 
-    @abstractmethod
+    def __init__(self):
+        self.errors: List[AdapterError] = []
+
+    def record_error(self, err: AdapterError) -> None:
+        """Ghi nhận lỗi telemetry chuẩn hóa vào bộ đệm của adapter"""
+        if not hasattr(self, "errors"):
+            self.errors = []
+        self.errors.append(err)
+        logger.warning(f"[{getattr(self, 'source_id', getattr(self, 'adapter_id', 'adapter'))}] {err.error_type}: {err.message}")
+
     def discover_jobs(
         self,
         keyword: Optional[str] = None,
@@ -217,9 +269,25 @@ class BaseJobAdapter(ABC):
         - Khi có `since_timestamp`, chỉ lấy hoặc ưu tiên các bài đăng mới hơn mốc này.
         - Trả về AdapterCrawlResult chuẩn hóa chứa RawJobRecord và phân loại lỗi.
         """
-        pass
+        if hasattr(self, "fetch_jobs"):
+            import inspect
+            sig = inspect.signature(getattr(self, "fetch_jobs"))
+            kwargs: Dict[str, Any] = {}
+            if "query" in sig.parameters:
+                kwargs["query"] = keyword or "IT"
+            elif "keyword" in sig.parameters:
+                kwargs["keyword"] = keyword or "IT"
+            if "province" in sig.parameters:
+                kwargs["province"] = province
+            elif "location" in sig.parameters:
+                kwargs["location"] = province or "Vietnam"
+            if "page" in sig.parameters:
+                kwargs["page"] = page
+            elif "start" in sig.parameters:
+                kwargs["start"] = (page - 1) * limit
+            return getattr(self, "fetch_jobs")(**kwargs)
+        raise NotImplementedError("Subclasses must implement discover_jobs or fetch_jobs")
 
-    @abstractmethod
     def fetch_job_detail(
         self,
         source_job_id: str,
@@ -229,16 +297,28 @@ class BaseJobAdapter(ABC):
         Lấy nội dung chi tiết bài đăng (mô tả, yêu cầu, phúc lợi, hạn nộp) khi được phép truy cập.
         Trả về None nếu không lấy được hoặc bị hạn chế.
         """
-        pass
+        return None
 
     def as_discovery_callable(self):
         """
         Chuyển đổi Adapter thành callable tương thích với MultiSourceDiscovery và SourceRegistry
         Signature: (intent, max_items) -> List[Dict[str, Any]]
         """
-        def _callable(intent: Any, max_items: int = 10) -> List[Dict[str, Any]]:
-            kw = intent.expanded_queries[0] if getattr(intent, "expanded_queries", None) else getattr(intent, "raw_query", None)
-            prov = getattr(intent, "target_province", None)
+        def _callable(intent: Any = None, max_items: int = 10, **kwargs) -> List[Dict[str, Any]]:
+            if isinstance(intent, str):
+                kw = intent
+                prov = kwargs.get("province")
+            elif intent is not None:
+                kw = getattr(intent, "expanded_queries", [None])[0] if getattr(intent, "expanded_queries", None) else getattr(intent, "raw_query", None)
+                prov = getattr(intent, "target_province", None)
+            else:
+                kw = kwargs.get("keyword", "IT")
+                prov = kwargs.get("province")
             res = self.discover_jobs(keyword=kw, province=prov, limit=max_items)
             return [item.to_dict() for item in res.items[:max_items]]
         return _callable
+
+
+# Alias for backward and cross-module compatibility
+BaseCrawlerAdapter = BaseJobAdapter
+

@@ -1,0 +1,986 @@
+{
+  "metadata": {
+    "dataset_name": "C_Data Ground-Truth Quality & Verification Benchmark",
+    "version": "1.0.0",
+    "created_at": "2026-10-17T18:55:00Z",
+    "description": "Tập dữ liệu kiểm thử thực tế có gán nhãn thủ công (Ground Truth) dùng để đánh giá toán học Precision, Recall, F1, Accuracy, Trích xuất trường và Chống trùng lặp. Tuyệt đối không suy đoán số liệu."
+  },
+  "job_classification_samples": [
+    {
+      "id": "job_cls_01",
+      "title": "Kỹ Sư Cơ Điện (M&E) - Sun World Hạ Long",
+      "company": "Tập đoàn Sun Group",
+      "content": "Tuyển dụng Kỹ Sư Cơ Điện (M&E) tại Bãi Cháy, Hạ Long. Mô tả công việc: Bảo trì hệ thống cáp treo, vòng quay mặt trời. Yêu cầu: Tốt nghiệp đại học chuyên ngành Điện/Cơ khí, tối thiểu 2 năm kinh nghiệm. Quyền lợi: Lương 15 - 20 triệu, đóng BHXH đầy đủ. Nộp hồ sơ ngay qua email hr@sungroup.com.vn hoặc gửi CV tại cổng tuyển dụng.",
+      "url": "https://sungroup.com.vn/careers/ky-su-co-dien-ha-long",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng thật, có vị trí, yêu cầu, quyền lợi, kênh nộp hồ sơ."
+    },
+    {
+      "id": "job_cls_02",
+      "title": "Chuyên Viên Phát Triển Phần Mềm Java / Spring Boot",
+      "company": "FPT Software",
+      "content": "FPT Software đang tuyển dụng 03 Java Developer làm việc tại Hà Nội hoặc Remote. Yêu cầu 1-3 năm kinh nghiệm với Spring Boot, Microservices, MySQL. Mức lương $800 - $1500. Ứng tuyển ngay trước 30/11/2026.",
+      "url": "https://fptsoftware.com/careers/java-developer-hanoi",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng thật về ngành CNTT từ FPT Software."
+    },
+    {
+      "id": "job_cls_03",
+      "title": "Nhân Viên Lễ Tân Khách Sạn (Biết Tiếng Anh/Tiếng Trung)",
+      "company": "Khách Sạn Wyndham Legend Hạ Long",
+      "content": "Khách sạn 5 sao Wyndham Legend Bãi Cháy cần tuyển 02 Nhân viên Lễ tân làm ca. Yêu cầu giao tiếp tiếng Anh tốt, ngoại hình ưa nhìn. Lương thỏa thuận + Service charge + ăn ca. Nộp hồ sơ tại phòng Nhân sự khách sạn.",
+      "url": "https://wyndhamhalong.com/careers/le-tan-tieng-anh",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng trực tiếp ngành khách sạn tại Hạ Long."
+    },
+    {
+      "id": "job_cls_04",
+      "title": "Thợ Lò Khai Thác Than Hầm Lò - Bậc 3/5 Trở Lên",
+      "company": "Công Ty Cổ Phần Than Đèo Nai - Cọc Sáu - TKV",
+      "content": "Tuyển 50 công nhân khai thác mỏ hầm lò và lộ thiên tại Cẩm Phả, Quảng Ninh. Thu nhập bình quân 18 - 30 triệu đồng/tháng. Bố trí nhà ở tập thể, hỗ trợ tiền ăn ca. Liên hệ phòng TCLĐ công ty.",
+      "url": "https://vinacomin.vn/tuyen-dung/tho-lo-cam-pha-2026",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng ngành than khoáng sản Quảng Ninh."
+    },
+    {
+      "id": "job_cls_05",
+      "title": "Nhân Viên Thu Ngân Bán Hàng Siêu Thị",
+      "company": "WinCommerce (WinMart+ Hạ Long)",
+      "content": "WinMart tuyển nhân viên thu ngân full-time tại Hạ Long, Quảng Ninh. Lương cứng 6.5 - 8 triệu + thưởng doanh số. Không yêu cầu kinh nghiệm, được đào tạo. Đi làm ngay.",
+      "url": "https://winmart.vn/tuyendung/thu-ngan-ha-long",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng ngành bán lẻ tại địa phương."
+    },
+    {
+      "id": "job_cls_06",
+      "title": "Thực Tập Sinh Marketing / Content Creator (Fresher/Intern)",
+      "company": "Công Ty Cổ Phần Công Nghệ Nova Hà Nội",
+      "content": "Tìm kiếm các bạn sinh viên năm cuối hoặc mới tốt nghiệp tham gia thực tập sinh Content & SEO tại Cầu Giấy, Hà Nội. Hỗ trợ thực tập 3.000.000 - 5.000.000đ/tháng, dấu mộc thực tập.",
+      "url": "https://novatech.vn/careers/intern-marketing",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển thực tập sinh thực tế tại Hà Nội."
+    },
+    {
+      "id": "job_cls_07",
+      "title": "Kỹ Sư Vận Hành Thiết Bị Cảng Biển (RTG/QC Crane)",
+      "company": "Công Ty TNHH Cảng Container Quốc Tế Cái Lân (CICT)",
+      "content": "Tuyển dụng Kỹ sư bảo trì cơ giới tại Cảng Cái Lân, phường Bãi Cháy, Hạ Long. Yêu cầu tốt nghiệp Đại học Hàng Hải hoặc Bách Khoa. Mức lương cạnh tranh.",
+      "url": "https://cict.com.vn/tuyen-dung/ky-su-van-hanh-cau-cang",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tuyển dụng logistics cảng biển tại Bãi Cháy Hạ Long."
+    },
+    {
+      "id": "job_cls_08",
+      "title": "Bác Sĩ Đa Khoa / Điều Dưỡng Viên",
+      "company": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
+      "content": "Vinmec Hạ Long tuyển Bác sĩ nội trú và Điều dưỡng trưởng. Địa chỉ: 10A Lê Thánh Tông, Hồng Gai, Hạ Long, Quảng Ninh. Yêu cầu có chứng chỉ hành nghề.",
+      "url": "https://vinmec.com/careers/dieu-duong-vinmec-ha-long",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng ngành y tế tại Hồng Gai Hạ Long."
+    },
+    {
+      "id": "job_cls_09",
+      "title": "Nhân Viên Phục Vụ Nhà Hàng & Bartender",
+      "company": "Du Thuyền Paradise Elegance Cruise",
+      "content": "Tuyển gấp 5 nhân viên phục vụ và 2 Bartender làm việc trên du thuyền ngủ đêm Vịnh Hạ Long (Cảng tàu Tuần Châu). Bao ăn ở trên tàu, tips cao.",
+      "url": "https://paradisevietnam.com/tuyen-dung/phuc-vu-du-thuyen",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng dịch vụ du lịch trên vịnh Hạ Long."
+    },
+    {
+      "id": "job_cls_10",
+      "title": "Frontend Engineer (React / Next.js) - Remote Toàn Quốc",
+      "company": "TechGlobal Vietnam",
+      "content": "Vị trí tuyển dụng Frontend Developer làm việc Remote 100% tại nhà. Yêu cầu thành thạo React, TypeScript, Next.js. Mức lương $1200 - $2000. Nộp CV trực tiếp.",
+      "url": "https://techglobal.io/jobs/frontend-engineer-remote",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng vị trí Remote thực tế."
+    },
+    {
+      "id": "job_cls_11",
+      "title": "Kế Toán Tổng Hợp Doanh Nghiệp Sản Xuất",
+      "company": "Công Ty TNHH Yazaki Hải Phòng Việt Nam - Chi Nhánh Quảng Ninh",
+      "content": "Tuyển 01 Kế toán tổng hợp tại KCN Đông Mai, thị xã Quảng Yên, Quảng Ninh. Lương 12 - 16 triệu, có xe đưa đón từ Hạ Long và Uông Bí.",
+      "url": "https://yazaki.com.vn/careers/ke-toan-dong-mai",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng kế toán nhà máy công nghiệp."
+    },
+    {
+      "id": "job_cls_12",
+      "title": "Trưởng Phòng Kinh Doanh Bất Động Sản Nghỉ Dưỡng",
+      "company": "Công Ty Bất Động Sản Đất Xanh Miền Duyên Hải",
+      "content": "Tuyển Trưởng phòng kinh doanh làm việc tại VP Hạ Long, Quảng Ninh. Hoa hồng cao, thu nhập không giới hạn. Yêu cầu 2 năm kinh nghiệm quản lý sàn BDS.",
+      "url": "https://datxanh.com.vn/careers/truong-phong-kd-ha-long",
+      "ground_truth_is_job": true,
+      "human_verification_notes": "Tin tuyển dụng quản lý kinh doanh tại Hạ Long."
+    },
+    {
+      "id": "non_job_01",
+      "title": "Đặt Phòng Khách Sạn Wyndham Legend Hạ Long - Giá Tốt Nhất",
+      "company": "Wyndham Legend Halong Hotel",
+      "content": "Chào mừng bạn đến với Wyndham Legend Hạ Long. Đặt phòng ngay để nhận ưu đãi giảm 20% cho các hạng phòng Deluxe, Executive Suite view Vịnh Hạ Long. Nhận phòng lúc 14:00, trả phòng 12:00. Số lượng khách: 2 người lớn, 1 trẻ em. Giá từ 2.200.000 VNĐ/đêm bao gồm bữa sáng buffet.",
+      "url": "https://wyndhamhalong.com/vi/rooms/deluxe-ocean-view",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Trang đặt phòng khách sạn, chứa từ khóa booking, check-in, check-out, giá phòng; không phải tuyển dụng."
+    },
+    {
+      "id": "non_job_02",
+      "title": "Vé Cáp Treo Nữ Hoàng Sun World Hạ Long - Khuyến Mãi 2026",
+      "company": "Sun World Hạ Long Complex",
+      "content": "Bảng giá vé Sun World Hạ Long mới nhất. Giá vé cáp treo Nữ Hoàng và Vòng quay Mặt Trời: 350.000đ/người lớn, 250.000đ/trẻ em. Đặt vé trực tuyến ngay hôm nay để nhận mã giảm giá 10% và miễn phí vào công viên nước Typhoon Water Park.",
+      "url": "https://sunworld.vn/ha-long/gia-ve-khuyen-mai",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Trang bán vé tham quan giải trí, không phải bài đăng tuyển dụng."
+    },
+    {
+      "id": "non_job_03",
+      "title": "Thị Trường Lao Động Quảng Ninh Sôi Động Những Tháng Cuối Năm",
+      "company": "Báo Quảng Ninh Điện Tử",
+      "content": "Theo báo cáo của Sở Lao động - Thương binh và Xã hội tỉnh Quảng Ninh, trong quý 3 năm nay thị trường lao động tại Hạ Long, Cẩm Phả ghi nhận mức tăng trưởng 12%. Nhu cầu nhân lực tập trung vào ngành dịch vụ khách sạn và công nghiệp chế biến chế tạo. Nhiều chuyên gia nhận định tình hình tuyển dụng sẽ duy trì tích cực.",
+      "url": "https://baoquangninh.vn/kinh-te/thi-truong-lao-dong-quang-ninh-2026",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Bài báo tin tức thời sự kinh tế, chỉ bàn luận chung về thị trường lao động, không có form nộp đơn hay vị trí cần tuyển cụ thể."
+    },
+    {
+      "id": "non_job_04",
+      "title": "Tour Du Thuyền Vịnh Hạ Long 2 Ngày 1 Đêm Trọn Gói",
+      "company": "Du Lịch Vịnh Xanh Travel",
+      "content": "Hành trình khám phá kỳ quan thiên nhiên thế giới Vịnh Hạ Long trên du thuyền 5 sao. Lịch trình bao gồm chèo thuyền kayak hang Luồn, tắm biển đảo Ti Tốp, thưởng thức tiệc BBQ hải sản. Đặt chỗ ngay: Hotline 1900 xxxx.",
+      "url": "https://vinhxanhtravel.vn/tour/ha-long-2n1d",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Tour du lịch thương mại, không phải tin tuyển dụng."
+    },
+    {
+      "id": "non_job_05",
+      "title": "Giới Thiệu Về Chúng Tôi - Lịch Sử Hình Thành Và Phát Triển",
+      "company": "Tập Đoàn Công Nghiệp Than - Khoáng Sản Việt Nam",
+      "content": "Tập đoàn Than - Khoáng sản Việt Nam (TKV) là tập đoàn kinh tế nhà nước giữ vai trò trụ cột trong việc đảm bảo an ninh năng lượng quốc gia. Được thành lập từ năm 1994, TKV đã không ngừng đổi mới công nghệ khai thác than tại vùng than Quảng Ninh và cả nước. Tầm nhìn chiến lược đến năm 2030...",
+      "url": "https://vinacomin.vn/gioi-thieu/lich-su-phat-trien",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Trang giới thiệu doanh nghiệp (About Us), không có tin tuyển dụng."
+    },
+    {
+      "id": "non_job_06",
+      "title": "Chính Sách Bảo Hành Thiết Bị Và Quy Trình Đổi Trả",
+      "company": "Siêu Thị Điện Máy Xanh",
+      "content": "Quy định bảo hành điện thoại, máy giặt, điều hòa tại hệ thống Siêu thị Điện Máy Xanh trên toàn quốc bao gồm TP Hạ Long, Cẩm Phả, Uông Bí. Thời gian tiếp nhận bảo hành từ 8h00 - 21h00 mỗi ngày. Khách hàng vui lòng mang theo hóa đơn hoặc số điện thoại mua hàng.",
+      "url": "https://dienmayxanh.com/chinh-sach-bao-hanh",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Chính sách bảo hành sản phẩm thương mại."
+    },
+    {
+      "id": "non_job_07",
+      "title": "Trải Nghiệm Tắm Khoáng Nóng Chuẩn Nhật Bản Tại Yoko Onsen Quang Hanh",
+      "company": "Yoko Onsen Quang Hanh Resort",
+      "content": "Khu nghỉ dưỡng suối khoáng nóng phong cách Nhật Bản tại Cẩm Phả, Quảng Ninh. Giá vé Public Onsen chỉ từ 750.000đ/khách. Bữa trưa buffet ẩm thực Nhật Bản hảo hạng. Đặt dịch vụ trực tuyến để nhận ưu đãi cuối tuần.",
+      "url": "https://yokoonsenquanghanh.com.vn/dich-vu/tam-khoang-onsen",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Quảng bá dịch vụ spa nghỉ dưỡng, chứa từ khóa đặt chỗ/giá vé, không phải tin việc làm."
+    },
+    {
+      "id": "non_job_08",
+      "title": "Top 10 Quán Hải Sản Ngon Rẻ Nhất Tại Bãi Cháy Hạ Long",
+      "company": "Cẩm Nang Ăn Uống Hạ Long Food Blog",
+      "content": "Đến Hạ Long ăn gì ở đâu? Điểm danh 10 nhà hàng hải sản tươi sống được du khách đánh giá cao nhất dọc đường bao biển Bãi Cháy và Hồng Gai. Giá cả minh bạch, view ngắm cầu Bãi Cháy tuyệt đẹp.",
+      "url": "https://halongfoodies.com/review/quan-hai-san-ngon-ha-long",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Bài viết review ẩm thực ẩm thực du lịch."
+    },
+    {
+      "id": "non_job_09",
+      "title": "Thông Báo Lịch Cắt Điện Luân Phiên Khu Vực TP Hạ Long",
+      "company": "Công Ty Điện Lực Quảng Ninh (PC Quảng Ninh)",
+      "content": "Công ty Điện lực Quảng Ninh trân trọng thông báo lịch tạm ngừng cung cấp điện phục vụ sửa chữa nâng cấp lưới điện tại các phường Hồng Hà, Bạch Đằng, Bãi Cháy ngày 25/10/2026. Quý khách hàng vui lòng chủ động kế hoạch sinh hoạt và sản xuất.",
+      "url": "https://quangninhpc.vn/thong-bao-lich-cup-dien-ha-long",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Thông báo dịch vụ dân sinh, không phải tin tuyển dụng."
+    },
+    {
+      "id": "non_job_10",
+      "title": "Hướng Dẫn Nộp Đơn Xin Việc Mẫu Chuẩn Cho Người Mới Ra Trường",
+      "company": "Blog Kỹ Năng Nghề Nghiệp Việt",
+      "content": "Cách viết email ứng tuyển chuyên nghiệp và mẫu CV ấn tượng gửi nhà tuyển dụng. Hướng dẫn chi tiết từng phần: thông tin liên hệ, mục tiêu nghề nghiệp, kinh nghiệm thực tập. Tải miễn phí 20 mẫu CV PDF đẹp mắt.",
+      "url": "https://careerblog.vn/meo-phong-van/huong-dan-viet-don-xin-viec",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Bài viết hướng dẫn mẹo nghề nghiệp, không phải tin tuyển dụng tuyển người thực tế."
+    },
+    {
+      "id": "non_job_11",
+      "title": "Bảng Giá Căn Hộ Nghỉ Dưỡng View Biển Bãi Cháy Hạ Long",
+      "company": "Sàn Bất Động Sản Cenland Quảng Ninh",
+      "content": "Mở bán quỹ căn hộ condotel cao cấp ngay trung tâm du lịch Bãi Cháy. Chính sách thanh toán linh hoạt 15%, ngân hàng hỗ trợ lãi suất 0% trong 24 tháng. Chiết khấu lên đến 8% cho khách hàng thanh toán sớm trong tháng này.",
+      "url": "https://cenland.vn/du-an/ha-long-bay-condotel",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Quảng cáo bất động sản thương mại."
+    },
+    {
+      "id": "non_job_12",
+      "title": "Quy Trình Thủ Tục Làm Hộ Chiếu Trực Tuyến Mới Nhất",
+      "company": "Cổng Dịch Vụ Công Bộ Công An",
+      "content": "Công dân có thể thực hiện đăng ký làm hộ chiếu phổ thông cấp tỉnh trực tuyến qua Cổng dịch vụ công quốc gia. Chuẩn bị ảnh chụp chân dung nền trắng 4x6cm, CCCD gắn chip và tài khoản thanh toán lệ phí trực tuyến 160.000 đồng.",
+      "url": "https://dichvucong.gov.vn/huong-dan-lam-ho-chieu",
+      "ground_truth_is_job": false,
+      "human_verification_notes": "Thủ tục hành chính nhà nước."
+    }
+  ],
+  "active_vs_expired_samples": [
+    {
+      "id": "status_01",
+      "title": "Kỹ Sư Trắc Địa Mỏ - TKV Quảng Ninh",
+      "company": "Công Ty CP Than Cọc Sáu",
+      "deadline_date": "2026-11-30",
+      "text_content": "Công ty đang tiếp nhận hồ sơ ứng tuyển vị trí Kỹ sư mỏ. Hạn nộp hồ sơ đến hết ngày 30/11/2026. Ứng viên gửi CV về phòng nhân sự.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Hạn nộp hồ sơ còn hiệu lực trong tương lai (30/11/2026), có tín hiệu đang tiếp nhận hồ sơ."
+    },
+    {
+      "id": "status_02",
+      "title": "Lập Trình Viên Python / Backend (Remote)",
+      "company": "TechData Corp",
+      "deadline_date": "2026-12-15",
+      "text_content": "Tuyển Backend Developer làm việc remote. Nộp hồ sơ ngay qua nút Apply Now bên dưới. Vị trí đang mở.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Hạn nộp còn xa, nút Apply Now đang hoạt động."
+    },
+    {
+      "id": "status_03",
+      "title": "Nhân Viên Buồng Phòng Khách Sạn Mường Thanh Bãi Cháy",
+      "company": "Khách Sạn Mường Thanh Grand Hạ Long",
+      "deadline_date": "2026-11-15",
+      "text_content": "Khách sạn tuyển dụng nhân viên buồng phòng làm việc theo ca. Hạn nộp hồ sơ: 15/11/2026. Nhận hồ sơ trực tiếp tại quầy lễ tân.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Tin đang còn tuyển, hạn nộp hợp lệ."
+    },
+    {
+      "id": "status_04",
+      "title": "Nhân Viên Giao Hàng Bằng Xe Máy (Shipper Hà Nội)",
+      "company": "Giao Hàng Tiết Kiệm (GHTK)",
+      "deadline_date": "2026-12-31",
+      "text_content": "GHTK liên tục tuyển tài xế giao nhận hàng tại Hà Nội. Thu nhập 10-18 triệu/tháng. Đăng ký đi làm ngay trong ngày.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Nhu cầu tuyển liên tục, đang mở tiếp nhận hồ sơ."
+    },
+    {
+      "id": "status_05",
+      "title": "Giám Sát Vận Hành Cáp Treo Sun World",
+      "company": "Tập đoàn Sun Group",
+      "deadline_date": "2026-11-20",
+      "text_content": "Tuyển Giám sát cáp treo tại Hạ Long. Hạn ứng tuyển: 20/11/2026. Ứng viên nộp CV qua cổng tuyển dụng trực tuyến.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Vị trí đang mở với thời hạn tuyển dụng rõ ràng."
+    },
+    {
+      "id": "status_06",
+      "title": "Nhân Viên Bán Vé Phim Rạp CGV Vincom Hạ Long",
+      "company": "CJ CGV Việt Nam",
+      "deadline_date": "2026-11-10",
+      "text_content": "CGV Hạ Long tuyển nhân viên làm việc bán thời gian. Ưu tiên sinh viên. Hạn nộp: 10/11/2026.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Tin còn hạn ứng tuyển."
+    },
+    {
+      "id": "status_07",
+      "title": "Thực Tập Sinh Lập Trình Nhúng C/C++",
+      "company": "Viettel High Tech Hà Nội",
+      "deadline_date": "2026-12-01",
+      "text_content": "Chương trình thực tập sinh kỹ sư nhúng Viettel. Hạn đăng ký trước ngày 01/12/2026. Phỏng vấn online.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Chương trình thực tập đang mở nhận đơn."
+    },
+    {
+      "id": "status_08",
+      "title": "Đầu Bếp Âu - Khách Sạn Novotel Hạ Long",
+      "company": "Novotel Ha Long Bay",
+      "deadline_date": "2026-11-25",
+      "text_content": "Tuyển Bếp trưởng / Đầu bếp Âu. Hạn nộp 25/11/2026. Liên hệ phòng nhân sự để nộp CV.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Vị trí đang mở tuyển dụng."
+    },
+    {
+      "id": "status_09",
+      "title": "Kỹ Sư An Toàn Lao Động (HSE) Công Trình",
+      "company": "Coteccons Chi Nhánh Quảng Ninh",
+      "deadline_date": "2026-11-18",
+      "text_content": "Tuyển Kỹ sư HSE cho dự án tại Tuần Châu, Hạ Long. Hạn hồ sơ: 18/11/2026.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Còn hạn tuyển dụng."
+    },
+    {
+      "id": "status_10",
+      "title": "Nhân Viên Chăm Sóc Khách Hàng (Telesales)",
+      "company": "FPT Telecom Quảng Ninh",
+      "deadline_date": "2026-11-30",
+      "text_content": "FPT Telecom Hạ Long tuyển 5 nhân viên kinh doanh internet và truyền hình. Hạn nhận hồ sơ: 30/11/2026.",
+      "ground_truth_is_active": true,
+      "human_verification_notes": "Còn hạn tuyển dụng."
+    },
+    {
+      "id": "status_11",
+      "title": "Nhân Viên Lễ Tân Khách Sạn Mùa Hè 2024",
+      "company": "Khách Sạn Sài Gòn Hạ Long",
+      "deadline_date": "2024-06-30",
+      "text_content": "Hạn nộp hồ sơ đã hết ngày 30/06/2024. Cảm ơn các ứng viên đã quan tâm. Tin tuyển dụng này đã hết hạn.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Hạn nộp hồ sơ đã trôi qua trong quá khứ (2024), văn bản ghi rõ 'tin tuyển dụng này đã hết hạn'."
+    },
+    {
+      "id": "status_12",
+      "title": "Kỹ Sư Lập Trình PHP Laravel",
+      "company": "TechVN Studio Hà Nội",
+      "deadline_date": "2025-01-15",
+      "text_content": "Vị trí này đã đóng. Công ty đã tuyển đủ người cho dự án. Vui lòng theo dõi các đợt tuyển dụng sau.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Có tín hiệu rõ ràng 'vị trí này đã đóng' và 'đã tuyển đủ người', hạn nộp trong quá khứ."
+    },
+    {
+      "id": "status_13",
+      "title": "Tài Xế Xe Tải Vận Chuyển Cảng Cái Lân",
+      "company": "Công Ty Vận Tải Biển Hạ Long",
+      "deadline_date": "2025-05-20",
+      "text_content": "Thông báo: Đã ngưng nhận hồ sơ cho vị trí lái xe tải hạng C do đủ chỉ tiêu.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Chứa cụm từ 'đã ngưng nhận hồ sơ' và 'đủ chỉ tiêu'."
+    },
+    {
+      "id": "status_14",
+      "title": "Nhân Viên Pha Chế Cafe Highland Bãi Cháy",
+      "company": "Highlands Coffee Quảng Ninh",
+      "deadline_date": "2025-03-01",
+      "text_content": "Công việc này đã dừng tuyển. Hệ thống tuyển dụng đã tự động lưu trữ tin.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Chứa cụm từ 'công việc này đã dừng tuyển'."
+    },
+    {
+      "id": "status_15",
+      "title": "Chuyên Viên SEO & Content Marketing",
+      "company": "Digital Media Hà Nội",
+      "deadline_date": "2024-12-31",
+      "text_content": "Hết hạn nộp hồ sơ từ 31/12/2024. Cổng tiếp nhận ứng tuyển đã khóa.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Quá hạn nộp hồ sơ, cổng nộp đơn đã khóa."
+    },
+    {
+      "id": "status_16",
+      "title": "Nhân Viên Bảo Vệ Ca Đêm TTTM Marine Plaza",
+      "company": "Bảo Vệ Long Hải Hạ Long",
+      "deadline_date": "2025-02-28",
+      "text_content": "Đóng tuyển dụng vị trí bảo vệ Marine Plaza kể từ ngày 28/02/2025.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Ghi rõ 'đóng tuyển dụng'."
+    },
+    {
+      "id": "status_17",
+      "title": "Thực Tập Sinh Thiết Kế Đồ Họa Graphic Intern",
+      "company": "Design House Hà Nội",
+      "deadline_date": "2025-08-31",
+      "text_content": "This job is closed and no longer accepting applications. Thank you for your interest.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Tín hiệu đóng tuyển bằng tiếng Anh: 'job is closed', 'no longer accepting'."
+    },
+    {
+      "id": "status_18",
+      "title": "Giám Sát Bán Hàng Khu Vực Đông Bắc",
+      "company": "Masan Consumer",
+      "deadline_date": "2025-04-15",
+      "text_content": "Tin tuyển dụng đã hết hạn. Đơn ứng tuyển cho vị trí này không còn được chấp nhận.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Chứa tín hiệu 'tin tuyển dụng đã hết hạn'."
+    },
+    {
+      "id": "status_19",
+      "title": "Trợ Lý Giám Đốc Khách Sạn D'Lioro Bãi Cháy",
+      "company": "D'Lioro Hotel & Resort",
+      "deadline_date": "2025-07-01",
+      "text_content": "Đã đủ người cho đợt tuyển mùa hè 2025. Hẹn gặp lại các ứng viên trong các chiến dịch tiếp theo.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Chứa cụm từ 'đã đủ người'."
+    },
+    {
+      "id": "status_20",
+      "title": "Kỹ Sư Xây Dựng Cầu Đường Dự Án Ven Biển",
+      "company": "Cienco 4 Quảng Ninh",
+      "deadline_date": "2024-10-15",
+      "text_content": "Hết hạn nộp hồ sơ. Đề nghị các ứng viên đã nộp theo dõi kết quả phỏng vấn qua email.",
+      "ground_truth_is_active": false,
+      "human_verification_notes": "Chứa tín hiệu 'hết hạn nộp hồ sơ' và ngày trong quá khứ."
+    }
+  ],
+  "location_disambiguation_samples": [
+    {
+      "id": "loc_01",
+      "title": "Kỹ Sư Vận Hành Thiết Bị Cáp Treo Nữ Hoàng",
+      "company": "Sun World Hạ Long",
+      "text_snippet": "Trụ sở Tập đoàn Sun Group đặt tại Hà Nội. Tuy nhiên vị trí này làm việc trực tiếp tại Ga Đại Dương, Phường Bãi Cháy, TP Hạ Long, Quảng Ninh.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Hà Nội chỉ là nơi đặt trụ sở tập đoàn, nơi làm việc thực tế (workplace) là Hạ Long."
+    },
+    {
+      "id": "loc_02",
+      "title": "Chuyên Viên Kinh Doanh Tour Khách Quốc Tế",
+      "company": "Vietravel Hà Nội",
+      "text_snippet": "Làm việc tại văn phòng Hà Nội (Quận Hoàn Kiếm). Trách nhiệm: Bán các tour du lịch Hạ Long, Sa Pa và Đà Nẵng cho khách du lịch nước ngoài.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Hạ Long chỉ là điểm đến du lịch trong sản phẩm tour, nơi làm việc thực tế của nhân viên là tại Hà Nội."
+    },
+    {
+      "id": "loc_03",
+      "title": "Bác Sĩ Trưởng Khoa Nhi - Vinmec Hạ Long",
+      "company": "Hệ Thống Y Tế Vinmec",
+      "text_snippet": "Địa điểm làm việc: Bệnh viện Đa khoa Quốc tế Vinmec Hạ Long, 10A Lê Thánh Tông, TP Hạ Long, tỉnh Quảng Ninh. Ứng viên từ Hà Nội được cấp nhà công vụ.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Nơi làm việc là Vinmec Hạ Long, Hà Nội chỉ được nhắc đến như nguồn ứng viên."
+    },
+    {
+      "id": "loc_04",
+      "title": "Lập Trình Viên AI & Data Scientist",
+      "company": "FPT Software F-Ville",
+      "text_snippet": "Làm việc tại Khu công nghệ cao Hòa Lạc, Hà Nội. Hỗ trợ xe đưa đón hàng ngày từ nội thành Hà Nội. Đôi khi có chuyến công tác kiểm tra dự án tại Quảng Ninh.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Nơi làm việc chính thức tại Hà Nội, Quảng Ninh chỉ là chuyến công tác ngắn ngày."
+    },
+    {
+      "id": "loc_05",
+      "title": "Nhân Viên Buồng Phòng Du Thuyền Ngủ Đêm",
+      "company": "Heritage Cruises Hạ Long",
+      "text_snippet": "Nơi làm việc: Du thuyền 5 sao khởi hành từ Cảng tàu quốc tế Tuần Châu, TP Hạ Long, Quảng Ninh. Bao ăn ở toàn bộ trên du thuyền.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Địa điểm làm việc cụ thể tại Tuần Châu, Hạ Long."
+    },
+    {
+      "id": "loc_06",
+      "title": "Giảng Viên CNTT / An Toàn Thông Tin",
+      "company": "Đại Học Bách Khoa Hà Nội",
+      "text_snippet": "Địa điểm công tác: Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội. Giảng dạy các môn Mạng máy tính và An toàn mạng.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Rõ ràng làm việc tại Hà Nội."
+    },
+    {
+      "id": "loc_07",
+      "title": "Thợ Hàn Công Nghệ Cao - Nhà Máy Đóng Tàu Hạ Long",
+      "company": "Công Ty TNHH MTV Đóng Tàu Hạ Long",
+      "text_snippet": "Nơi làm việc: Khu công nghiệp Cái Lân, phường Giếng Đáy, TP Hạ Long, tỉnh Quảng Ninh. Thu nhập 15-22 triệu/tháng.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Địa điểm thực tế tại Cái Lân, Hạ Long."
+    },
+    {
+      "id": "loc_08",
+      "title": "Nhân Viên Tư Vấn Tuyển Sinh Khóa Học Kỹ Năng",
+      "company": "Học Viện Kỹ Năng Alpha",
+      "text_snippet": "Làm việc tại cơ sở Cầu Giấy, Hà Nội. Tư vấn cho các học viên trên toàn miền Bắc bao gồm Quảng Ninh, Hải Phòng, Hải Dương.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Làm việc tại Hà Nội, Quảng Ninh chỉ là thị trường học viên."
+    },
+    {
+      "id": "loc_09",
+      "title": "Nhân Viên Giao Nhận Cảng Hàng Hải",
+      "company": "Công Ty Logistics VIMC",
+      "text_snippet": "Địa điểm làm việc: Cảng Cái Lân, TP Hạ Long, tỉnh Quảng Ninh. Thực hiện thủ tục thông quan hàng hóa xuất nhập khẩu.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Làm việc tại Hạ Long."
+    },
+    {
+      "id": "loc_10",
+      "title": "Kỹ Sư Kiểm Thử Phần Mềm QA/QC (Manual Tester)",
+      "company": "Tập Đoàn Bưu Chính Viễn Thông VNPT IT",
+      "text_snippet": "Địa điểm làm việc: Tòa nhà VNPT, 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội. Tham gia kiểm thử phần mềm cho các cổng dịch vụ công tỉnh Quảng Ninh và Lào Cai.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Làm việc tại Đống Đa Hà Nội, Quảng Ninh là khách hàng triển khai phần mềm."
+    },
+    {
+      "id": "loc_11",
+      "title": "Nhân Viên Bảo Trì Điện Nước Khách Sạn Bãi Cháy",
+      "company": "Khách Sạn Mường Thanh Luxury Hạ Long Centre",
+      "text_snippet": "Làm việc tại: Khu 2, Đường Hạ Long, Phường Bãi Cháy, Thành phố Hạ Long, Quảng Ninh. Yêu cầu có chứng chỉ nghề điện.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Làm việc thực tế tại Bãi Cháy Hạ Long."
+    },
+    {
+      "id": "loc_12",
+      "title": "Chuyên Viên Quan Hệ Khách Hàng Doanh Nghiệp Lớn",
+      "company": "Ngân Hàng TMCP Ngoại Thương Việt Nam (Vietcombank Sở Giao Dịch)",
+      "text_snippet": "Địa điểm làm việc: Tòa nhà Vietcombank 11 Láng Hạ, Ba Đình, Hà Nội. Quản lý danh mục khách hàng doanh nghiệp vận tải biển.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Làm việc tại Ba Đình Hà Nội."
+    },
+    {
+      "id": "loc_13",
+      "title": "Đầu Bếp Nhà Hàng Hải Sản Hồng Gai",
+      "company": "Nhà Hàng Hương Duyên Hạ Long",
+      "text_snippet": "Địa điểm làm việc: 66 Trần Hưng Đạo, Phường Hồng Gai, TP Hạ Long, Quảng Ninh. Chế biến các món hải sản truyền thống.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Địa bàn tại Hồng Gai, Hạ Long."
+    },
+    {
+      "id": "loc_14",
+      "title": "Nhân Viên Pháp Chế Doanh Nghiệp (Legal Officer)",
+      "company": "Tập Đoàn Geleximco Hà Nội",
+      "text_snippet": "Văn phòng làm việc: 36 Hoàng Cầu, Đống Đa, Hà Nội. Thẩm định pháp lý các dự án khu đô thị tại Hà Nội, Quảng Ninh, Thái Bình.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Văn phòng tại Đống Đa Hà Nội."
+    },
+    {
+      "id": "loc_15",
+      "title": "Nhân Viên Bán Vé Tham Quan Vịnh Hạ Long",
+      "company": "Ban Quản Lý Vịnh Hạ Long",
+      "text_snippet": "Nơi làm việc: Cảng tàu khách quốc tế Hạ Long, đường Giảng Võ, Bãi Cháy, TP Hạ Long, Quảng Ninh.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Làm việc tại Bãi Cháy Hạ Long."
+    },
+    {
+      "id": "loc_16",
+      "title": "Kiến Trúc Sư Giải Pháp Điện Toán Đám Mây (Cloud AWS)",
+      "company": "CMC Telecom Hà Nội",
+      "text_snippet": "Làm việc tại Tòa nhà CMC Duy Tân, Cầu Giấy, Hà Nội. Thiết kế kiến trúc hybrid cloud cho các ngân hàng và tập đoàn tài chính.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Làm việc tại Cầu Giấy Hà Nội."
+    },
+    {
+      "id": "loc_17",
+      "title": "Nhân Viên Chăm Sóc Động Vật Thủy Sinh",
+      "company": "Thủy Cung Tuần Châu Park",
+      "text_snippet": "Địa điểm làm việc: Khu du lịch quốc tế Tuần Châu, TP Hạ Long, Quảng Ninh. Chăm sóc và cho cá heo ăn.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Làm việc tại Tuần Châu Hạ Long."
+    },
+    {
+      "id": "loc_18",
+      "title": "Biên Tập Viên Tin Tức Truyền Hình Kỹ Thuật Số",
+      "company": "Đài Tiếng Nói Việt Nam (VOV Live)",
+      "text_snippet": "Địa điểm làm việc: 58 Quán Sứ, Hoàn Kiếm, Hà Nội. Sản xuất bản tin phát thanh và tin tức trên nền tảng số.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Làm việc tại Hoàn Kiếm Hà Nội."
+    },
+    {
+      "id": "loc_19",
+      "title": "Giám Sát Bán Hàng Kênh Đại Lý Vùng Mỏ",
+      "company": "Công Ty Sữa Vinamilk",
+      "text_snippet": "Địa bàn phụ trách: TP Hạ Long và Cẩm Phả. Văn phòng đại diện tại Phường Cao Xanh, TP Hạ Long, tỉnh Quảng Ninh.",
+      "ground_truth_target_city": "Hạ Long",
+      "is_halong_workplace": true,
+      "is_hanoi_workplace": false,
+      "human_verification_notes": "Địa bàn tại Hạ Long Quảng Ninh."
+    },
+    {
+      "id": "loc_20",
+      "title": "Chuyên Viên Nhân Sự & Đào Tạo Nội Bộ",
+      "company": "Tập Đoàn FPT Cầu Giấy",
+      "text_snippet": "Địa điểm làm việc: Tòa nhà FPT Cầu Giấy, 10 Phạm Văn Bạch, Dịch Vọng, Cầu Giấy, Hà Nội. Tổ chức các khóa onboarding cho nhân viên toàn quốc.",
+      "ground_truth_target_city": "Hà Nội",
+      "is_halong_workplace": false,
+      "is_hanoi_workplace": true,
+      "human_verification_notes": "Làm việc tại Cầu Giấy Hà Nội."
+    }
+  ],
+  "url_validity_samples": [
+    {
+      "id": "url_01",
+      "url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-dien-ha-long.35B29B12.html",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL chi tiết công việc cụ thể trên sàn việc làm CareerViet với mã định danh tin rõ ràng."
+    },
+    {
+      "id": "url_02",
+      "url": "https://sungroup.com.vn/careers/tuyen-dung-ky-su-van-hanh-cap-treo",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL trang chi tiết việc làm chính thức trên cổng tuyển dụng Sun Group."
+    },
+    {
+      "id": "url_03",
+      "url": "https://topcv.vn/viec-lam/nhan-vien-kinh-doanh-fpt-telecom-quang-ninh/1429812.html",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL chi tiết tin tuyển dụng TopCV với ID bài đăng."
+    },
+    {
+      "id": "url_04",
+      "url": "https://boards.greenhouse.io/techglobal/jobs/4982173002",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL cổng ATS Greenhouse trực tiếp cho vị trí công việc."
+    },
+    {
+      "id": "url_05",
+      "url": "https://fptsoftware.com/careers/job-detail?id=JAVA_DEV_HN_2026",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL chi tiết việc làm trên cổng tuyển dụng FPT có query job id chuẩn."
+    },
+    {
+      "id": "url_06",
+      "url": "https://jobs.lever.co/vng/94b54e38-a28d-4f10-bf92-b4ea2d8f9c11",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL cổng ATS Lever trực tiếp đến form ứng tuyển."
+    },
+    {
+      "id": "url_07",
+      "url": "https://hoteljob.vn/viec-lam/le-tan-khach-san-wyndham-legend-ha-long-182947.html",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL chi tiết công việc ngành khách sạn trên Hoteljob."
+    },
+    {
+      "id": "url_08",
+      "url": "https://vinpearl.com/vi/careers/nhan-vien-buong-phong-vinpearl-ha-long",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL trực tiếp trang tuyển dụng Vinpearl Resort Hạ Long."
+    },
+    {
+      "id": "url_09",
+      "url": "https://vietnamworks.com/chuyen-vien-seo-content-quang-ninh-1782910-jv",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL chi tiết tin tuyển dụng VietnamWorks."
+    },
+    {
+      "id": "url_10",
+      "url": "https://cict.com.vn/tuyen-dung/ky-su-bao-tri-co-gioi-cang-bien-2026",
+      "ground_truth_is_valid_direct": true,
+      "human_verification_notes": "URL trang tuyển dụng chính thức của Cảng Cái Lân."
+    },
+    {
+      "id": "url_11",
+      "url": "https://careerviet.vn/",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Trang chủ root của sàn việc làm, không phải URL trực tiếp đến bài tuyển dụng cụ thể."
+    },
+    {
+      "id": "url_12",
+      "url": "https://wyndhamhalong.com/vi/rooms/executive-suite-booking",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "URL đặt phòng phòng nghỉ khách sạn (booking engine), vi phạm tiêu chuẩn tin tuyển dụng."
+    },
+    {
+      "id": "url_13",
+      "url": "https://topcv.vn/#it-98214",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "URL trang chủ kèm anchor giả lập (#it-...), không phải trang chi tiết tuyển dụng."
+    },
+    {
+      "id": "url_14",
+      "url": "https://sunworld.vn/ha-long",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Trang giới thiệu khu vui chơi giải trí Sun World Hạ Long, không có path tuyển dụng."
+    },
+    {
+      "id": "url_15",
+      "url": "https://booking.com/hotel/vn/wyndham-legend-halong.html",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Domain Booking.com chuyên đặt phòng khách sạn, không phải trang tuyển dụng."
+    },
+    {
+      "id": "url_16",
+      "url": "https://vietnamworks.com/tim-viec-lam?ref=facebook_ad",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Trang tìm kiếm việc làm chung kèm tracking tiếp thị, không dẫn đến JD cụ thể."
+    },
+    {
+      "id": "url_17",
+      "url": "https://fptsoftware.com/?post_ref=tracker_12345",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Trang chủ root công ty kèm query tracking giả."
+    },
+    {
+      "id": "url_18",
+      "url": "https://yokoonsenquanghanh.com.vn/gia-ve-on-sen",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Trang bán vé suối khoáng nóng, không phải trang tuyển dụng."
+    },
+    {
+      "id": "url_19",
+      "url": "not-a-valid-http-url-string",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Chuỗi văn bản sai cú pháp giao thức HTTP/HTTPS."
+    },
+    {
+      "id": "url_20",
+      "url": "https://muongthanh.com/khuyen-mai-mua-he",
+      "ground_truth_is_valid_direct": false,
+      "human_verification_notes": "Trang ưu đãi thương mại của tập đoàn khách sạn, không phải trang tuyển dụng."
+    }
+  ],
+  "deduplication_pairs": [
+    {
+      "pair_id": "dedup_01",
+      "job_a": {
+        "title": "Kỹ Sư Cơ Điện (M&E) - Sun World Hạ Long",
+        "company": "Tập đoàn Sun Group",
+        "location_province": "Quảng Ninh",
+        "location_district": "TP Hạ Long",
+        "source_url": "https://sungroup.com.vn/careers/ky-su-co-dien-ha-long?utm_source=facebook&utm_campaign=hiring"
+      },
+      "job_b": {
+        "title": "[Tuyển Gấp] Kỹ Sư Cơ Điện (M&E) - Sun World Hạ Long",
+        "company": "Sun Group Đông Bắc",
+        "location_province": "Quảng Ninh",
+        "location_district": "TP Hạ Long",
+        "source_url": "https://sungroup.com.vn/careers/ky-su-co-dien-ha-long"
+      },
+      "ground_truth_is_duplicate": true,
+      "human_verification_notes": "Cùng một vị trí, URL gốc giống nhau sau khi loại bỏ UTM tracking, biến thể tiêu đề chỉ có từ rác [Tuyển Gấp]."
+    },
+    {
+      "pair_id": "dedup_02",
+      "job_a": {
+        "title": "Lập Trình Viên Java Spring Boot Backend",
+        "company": "Công Ty Cổ Phần Phần Mềm FPT",
+        "location_province": "Hà Nội",
+        "location_district": "Quận Cầu Giấy",
+        "source_url": "https://careerviet.vn/vi/tim-viec-lam/java-spring-boot.35A12.html"
+      },
+      "job_b": {
+        "title": "Java Spring Boot Developer (Backend)",
+        "company": "FPT Software",
+        "location_province": "Hà Nội",
+        "location_district": "Cầu Giấy",
+        "source_url": "https://topcv.vn/viec-lam/java-spring-boot-fpt/12984.html"
+      },
+      "ground_truth_is_duplicate": true,
+      "human_verification_notes": "Cùng công ty FPT, cùng vị trí Java backend, cùng địa bàn Cầu Giấy Hà Nội đăng chéo trên 2 sàn."
+    },
+    {
+      "pair_id": "dedup_03",
+      "job_a": {
+        "title": "Nhân Viên Lễ Tân Khách Sạn (Bãi Cháy)",
+        "company": "Khách Sạn Wyndham Legend Hạ Long",
+        "location_province": "Quảng Ninh",
+        "location_district": "Bãi Cháy",
+        "source_url": "https://wyndhamhalong.com/careers/receptionist-1"
+      },
+      "job_b": {
+        "title": "Nhân Viên Lễ Tân Khách Sạn (Bãi Cháy)",
+        "company": "Wyndham Legend Halong Hotel",
+        "location_province": "Quảng Ninh",
+        "location_district": "Bãi Cháy",
+        "source_url": "https://hoteljob.vn/viec-lam/le-tan-wyndham-1249"
+      },
+      "ground_truth_is_duplicate": true,
+      "human_verification_notes": "Cùng công ty Wyndham Legend, cùng tiêu đề Lễ tân Bãi Cháy, trùng lặp đa sàn."
+    },
+    {
+      "pair_id": "dedup_04",
+      "job_a": {
+        "title": "Kế Toán Trưởng Doanh Nghiệp Sản Xuất",
+        "company": "Tập Đoàn Than Khoáng Sản Việt Nam TKV",
+        "location_province": "Quảng Ninh",
+        "location_district": "Hạ Long",
+        "source_url": "https://vinacomin.vn/careers/ke-toan-truong-hl?ref=site"
+      },
+      "job_b": {
+        "title": "Kế Toán Trưởng Doanh Nghiệp Sản Xuất",
+        "company": "TKV Vinacomin",
+        "location_province": "Quảng Ninh",
+        "location_district": "Hạ Long",
+        "source_url": "https://vinacomin.vn/careers/ke-toan-truong-hl"
+      },
+      "ground_truth_is_duplicate": true,
+      "human_verification_notes": "Cùng một công việc trên trang tuyển dụng TKV với cùng canonical URL."
+    },
+    {
+      "pair_id": "dedup_05",
+      "job_a": {
+        "title": "Nhân Viên Phục Vụ Nhà Hàng Du Thuyền Paradise",
+        "company": "Tập Đoàn Du Thuyền Paradise Việt Nam",
+        "location_province": "Quảng Ninh",
+        "location_district": "Tuần Châu, Hạ Long",
+        "source_url": "https://paradisevietnam.com/careers/waiter-1"
+      },
+      "job_b": {
+        "title": "Cần Tuyển Gấp Nhân Viên Phục Vụ Nhà Hàng Du Thuyền Paradise",
+        "company": "Paradise Vietnam Cruise",
+        "location_province": "Quảng Ninh",
+        "location_district": "Tuần Châu, TP Hạ Long",
+        "source_url": "https://careerviet.vn/vi/tim-viec-lam/phuc-vu-paradise.html"
+      },
+      "ground_truth_is_duplicate": true,
+      "human_verification_notes": "Trùng lặp chéo sàn của Paradise Cruises tại Tuần Châu."
+    },
+    {
+      "pair_id": "dedup_06",
+      "job_a": {
+        "title": "Lễ Tân Ca Ngày Khách Sạn Mường Thanh Bãi Cháy",
+        "company": "Tập Đoàn Mường Thanh",
+        "location_province": "Quảng Ninh",
+        "location_district": "Bãi Cháy, Hạ Long",
+        "source_url": "https://muongthanh.com/careers/le-tan-bai-chay"
+      },
+      "job_b": {
+        "title": "Lễ Tân Khách Sạn Mường Thanh Grand Hà Nội",
+        "company": "Tập Đoàn Mường Thanh",
+        "location_province": "Hà Nội",
+        "location_district": "Hoàng Mai, Hà Nội",
+        "source_url": "https://muongthanh.com/careers/le-tan-ha-noi"
+      },
+      "ground_truth_is_duplicate": false,
+      "human_verification_notes": "Anti-merge: Cùng công ty Mường Thanh nhưng hai khách sạn ở hai tỉnh thành hoàn toàn khác nhau (Hạ Long vs Hà Nội)."
+    },
+    {
+      "pair_id": "dedup_07",
+      "job_a": {
+        "title": "Kế Toán Trưởng Chi Nhánh",
+        "company": "FPT Telecom",
+        "location_province": "Quảng Ninh",
+        "location_district": "Hạ Long",
+        "source_url": "https://fpt.vn/careers/ke-toan-truong-qn"
+      },
+      "job_b": {
+        "title": "Nhân Viên Kế Toán Thu Công Nợ",
+        "company": "FPT Telecom",
+        "location_province": "Quảng Ninh",
+        "location_district": "Hạ Long",
+        "source_url": "https://fpt.vn/careers/ke-toan-vien-qn"
+      },
+      "ground_truth_is_duplicate": false,
+      "human_verification_notes": "Anti-merge: Cùng công ty FPT và cùng địa bàn Hạ Long nhưng hai vị trí và cấp bậc khác nhau (Kế toán trưởng vs Nhân viên)."
+    },
+    {
+      "pair_id": "dedup_08",
+      "job_a": {
+        "title": "Kỹ Sư An Toàn Lao Động HSE",
+        "company": "Công Ty Xây Dựng Vinaconex",
+        "location_province": "Quảng Ninh",
+        "location_district": "Cẩm Phả",
+        "source_url": "https://vinaconex.com.vn/hse-cam-pha"
+      },
+      "job_b": {
+        "title": "Kỹ Sư An Toàn Lao Động HSE",
+        "company": "Công Ty Xây Dựng Vinaconex",
+        "location_province": "Hà Nội",
+        "location_district": "Nam Từ Liêm",
+        "source_url": "https://vinaconex.com.vn/hse-ha-noi"
+      },
+      "ground_truth_is_duplicate": false,
+      "human_verification_notes": "Anti-merge: Cùng vị trí kỹ sư HSE nhưng ở hai công trường dự án khác nhau tại Quảng Ninh và Hà Nội."
+    },
+    {
+      "pair_id": "dedup_09",
+      "job_a": {
+        "title": "Bác Sĩ Ngoại Khoa Phẫu Thuật",
+        "company": "Bệnh Viện Đa Khoa Quốc Tế Vinmec",
+        "location_province": "Quảng Ninh",
+        "location_district": "TP Hạ Long",
+        "source_url": "https://vinmec.com/careers/bac-si-ngoai-ha-long"
+      },
+      "job_b": {
+        "title": "Điều Dưỡng Viên Khoa Hồi Sức Tích Cực",
+        "company": "Bệnh Viện Đa Khoa Quốc Tế Vinmec",
+        "location_province": "Quảng Ninh",
+        "location_district": "TP Hạ Long",
+        "source_url": "https://vinmec.com/careers/dieu-duong-ha-long"
+      },
+      "ground_truth_is_duplicate": false,
+      "human_verification_notes": "Anti-merge: Cùng cơ sở y tế Vinmec Hạ Long nhưng hai chức danh chuyên môn hoàn toàn khác nhau."
+    },
+    {
+      "pair_id": "dedup_10",
+      "job_a": {
+        "title": "Thực Tập Sinh Lập Trình Web Frontend",
+        "company": "Tập Đoàn VNG",
+        "location_province": "Hà Nội",
+        "location_district": "Hai Bà Trưng",
+        "source_url": "https://vng.com.vn/careers/intern-frontend"
+      },
+      "job_b": {
+        "title": "Senior Technical Lead Web Frontend",
+        "company": "Tập Đoàn VNG",
+        "location_province": "Hà Nội",
+        "location_district": "Hai Bà Trưng",
+        "source_url": "https://vng.com.vn/careers/tech-lead-frontend"
+      },
+      "ground_truth_is_duplicate": false,
+      "human_verification_notes": "Anti-merge: Khác biệt rõ ràng về cấp bậc trách nhiệm (Thực tập sinh vs Senior Tech Lead)."
+    }
+  ],
+  "field_extraction_samples": [
+    {
+      "sample_id": "extract_01",
+      "raw_text": "CÔNG TY CỔ PHẦN TẬP ĐOÀN SUN GROUP Tuyển dụng: Kỹ Sư Cơ Điện (M&E) Địa điểm làm việc: TP. Hạ Long, Quảng Ninh Hình thức: Toàn thời gian Mức kinh nghiệm: Junior (1 - 3 năm) Hạn nộp hồ sơ: 2026-11-30",
+      "ground_truth": {
+        "title": "Kỹ Sư Cơ Điện (M&E)",
+        "company": "Tập đoàn Sun Group",
+        "location": "Hạ Long",
+        "job_type": "Toàn thời gian",
+        "experience_level": "Junior",
+        "deadline": "2026-11-30"
+      }
+    },
+    {
+      "sample_id": "extract_02",
+      "raw_text": "FPT SOFTWARE Thông báo tuyển: Lập Trình Viên Java Spring Boot Nơi làm việc: Cầu Giấy, Hà Nội Loại hợp đồng: Toàn thời gian Kinh nghiệm: Fresher (dưới 1 năm kinh nghiệm) Hạn ứng tuyển: 2026-12-15",
+      "ground_truth": {
+        "title": "Lập Trình Viên Java Spring Boot",
+        "company": "FPT Software",
+        "location": "Hà Nội",
+        "job_type": "Toàn thời gian",
+        "experience_level": "Fresher",
+        "deadline": "2026-12-15"
+      }
+    },
+    {
+      "sample_id": "extract_03",
+      "raw_text": "Khách Sạn Wyndham Legend Bãi Cháy Vị trí: Nhân Viên Lễ Tân Ca Đêm Nơi làm: Bãi Cháy, Hạ Long, Quảng Ninh Chế độ: Bán thời gian Kinh nghiệm: Không yêu cầu Hạn nộp: 2026-11-20",
+      "ground_truth": {
+        "title": "Nhân Viên Lễ Tân Ca Đêm",
+        "company": "Khách Sạn Wyndham Legend Hạ Long",
+        "location": "Hạ Long",
+        "job_type": "Bán thời gian",
+        "experience_level": "Không yêu cầu",
+        "deadline": "2026-11-20"
+      }
+    },
+    {
+      "sample_id": "extract_04",
+      "raw_text": "Tập Đoàn Công Nghệ VNPT Tuyển: Thực Tập Sinh An Toàn Thông Tin (Security Intern) Làm việc tại: Đống Đa, Hà Nội Loại hình: Thực tập Cấp bậc: Intern / Fresher Hạn nộp: 2026-12-01",
+      "ground_truth": {
+        "title": "Thực Tập Sinh An Toàn Thông Tin",
+        "company": "Tập Đoàn VNPT",
+        "location": "Hà Nội",
+        "job_type": "Thực tập",
+        "experience_level": "Fresher",
+        "deadline": "2026-12-01"
+      }
+    },
+    {
+      "sample_id": "extract_05",
+      "raw_text": "Công Ty Cổ Phần Than Đèo Nai - TKV Tuyển: Thợ Hàn Cơ Khí Công Trình Địa bàn: Cẩm Phả, Quảng Ninh Hình thức: Toàn thời gian Kinh nghiệm: Junior (2 năm) Hạn nộp hồ sơ: 2026-11-25",
+      "ground_truth": {
+        "title": "Thợ Hàn Cơ Khí Công Trình",
+        "company": "Công Ty Cổ Phần Than Đèo Nai - TKV",
+        "location": "Cẩm Phả",
+        "job_type": "Toàn thời gian",
+        "experience_level": "Junior",
+        "deadline": "2026-11-25"
+      }
+    }
+  ]
+}

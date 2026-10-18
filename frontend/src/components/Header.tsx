@@ -33,6 +33,7 @@ export default function Header() {
       name: "IT Hạ Long",
       href: "/jobs?q=IT&province=Qu%E1%BA%A3ng+Ninh",
     },
+    { name: "Sức khỏe nguồn", href: "/sources" },
     { name: "Về chúng tôi", href: "/about" },
   ];
 

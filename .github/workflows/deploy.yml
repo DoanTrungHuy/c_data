@@ -35,14 +35,13 @@ jobs:
           pip install -r requirements.txt
           python -c "import app.main; print('Backend Verified!')"
 
-      - name: Run Deep Quality Harvester on Cloud
-        continue-on-error: true
+      - name: Apply Verified Evidence & Quality Enrichment
         env:
           PYTHONPATH: "./backend"
           PYTHONIOENCODING: "utf-8"
         run: |
-          python scripts/run_deep_quality_harvester.py --once || true
-          python scripts/apply_verified_evidence.py || true
+          python scripts/apply_verified_evidence.py
+
 
       - name: Run Rigorous Realtime Search & Data Quality Tests
         env:

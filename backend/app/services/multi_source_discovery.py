@@ -388,8 +388,9 @@ class MultiSourceDiscovery:
                         existing.location_province = j.get("location_province")
                     if j.get("location_district"):
                         existing.location_district = j.get("location_district")
-                    if j.get("category"):
-                        existing.category = j.get("category")
+                    raw_cat = j.get("category")
+                    if raw_cat and isinstance(raw_cat, str):
+                        existing.category = raw_cat
                     
                     # Cập nhật các trường Universal Job Schema
                     existing.last_seen_at = now
@@ -405,6 +406,8 @@ class MultiSourceDiscovery:
                     existing.is_active = True
                     existing.crawled_at = now
                 else:
+                    raw_cat = j.get("category")
+                    final_cat = raw_cat if isinstance(raw_cat, str) else (mined.get("inferred_industry") or "Công nghệ thông tin")
                     new_job = Job(
                         id=str(uuid.uuid4()),
                         title=j["title"],
@@ -421,7 +424,7 @@ class MultiSourceDiscovery:
                         location_district=j.get("location_district"),
                         location_full=j.get("location_full"),
                         job_type=j.get("job_type", "full-time"),
-                        category=j.get("category") or mined.get("inferred_industry"),
+                        category=final_cat,
                         source_platform=j.get("source_platform") or j.get("source_name") or "CareerViet",
                         source_name=j.get("source_name") or j.get("source_platform") or "CareerViet",
                         source_url=source_url,

@@ -37,6 +37,10 @@ export default function FilterSidebar({
   const selectedSalaryMax = searchParams?.get("salary_max") || "";
   const selectedQualityTier = searchParams?.get("quality_tier") || "";
   const selectedTech = searchParams?.get("tech_stack") || "";
+  const selectedExperience = searchParams?.get("experience_level") || "";
+  const selectedRemote = searchParams?.get("remote") === "true";
+  const selectedEnterprise = searchParams?.get("enterprise_only") === "true";
+  const selectedVerified = searchParams?.get("verified_only") === "true";
 
   // Local state for searching provinces
   const [provinceSearch, setProvinceSearch] = useState("");
@@ -87,7 +91,11 @@ export default function FilterSidebar({
       selectedSalaryMin ||
       selectedSalaryMax ||
       selectedQualityTier ||
-      selectedTech
+      selectedTech ||
+      selectedExperience ||
+      selectedRemote ||
+      selectedEnterprise ||
+      selectedVerified
   );
 
   const filteredProvinces = VIETNAM_PROVINCES.filter((p) =>
@@ -213,6 +221,116 @@ export default function FilterSidebar({
               {tech}
             </button>
           ))}
+        </div>
+      </div>
+
+      {/* Strategic Focus & Local Priority Filter */}
+      <div className="space-y-2 pb-4 border-b border-neutral-200">
+        <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
+          <span>🎯 Ưu Tiên & Trọng Điểm</span>
+        </label>
+        <div className="space-y-1.5 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-bold">
+            <input
+              type="checkbox"
+              checked={selectedEnterprise}
+              onChange={(e) => updateParam("enterprise_only", e.target.checked ? "true" : "")}
+              className="text-black focus:ring-black rounded"
+            />
+            <span>🌟 Doanh nghiệp trọng điểm Hạ Long</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800 font-semibold">
+            <input
+              type="checkbox"
+              checked={selectedVerified}
+              onChange={(e) => updateParam("verified_only", e.target.checked ? "true" : "")}
+              className="text-black focus:ring-black rounded"
+            />
+            <span>🛡️ Tin đã thẩm định đối soát</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800 font-semibold">
+            <input
+              type="checkbox"
+              checked={selectedRemote}
+              onChange={(e) => updateParam("remote", e.target.checked ? "true" : "")}
+              className="text-black focus:ring-black rounded"
+            />
+            <span>🏠 Làm việc từ xa (Remote / Hybrid)</span>
+          </label>
+        </div>
+      </div>
+
+      {/* Seniority & Experience Level Filter */}
+      <div className="space-y-2 pb-4 border-b border-neutral-200">
+        <div className="flex items-center justify-between">
+          <label className="text-xs font-bold uppercase tracking-wider text-black flex items-center gap-1">
+            <span>🎓 Cấp Bậc &amp; Kinh Nghiệm</span>
+          </label>
+          {selectedExperience && (
+            <button
+              onClick={() => updateParam("experience_level", "")}
+              className="text-[10px] text-neutral-500 hover:text-black hover:underline font-semibold cursor-pointer"
+            >
+              Đặt lại
+            </button>
+          )}
+        </div>
+        <div className="space-y-1 text-xs">
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+            <input
+              type="radio"
+              name="experience_level"
+              value=""
+              checked={selectedExperience === ""}
+              onChange={() => updateParam("experience_level", "")}
+              className="text-black focus:ring-black"
+            />
+            <span>Tất cả cấp bậc</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-bold">
+            <input
+              type="radio"
+              name="experience_level"
+              value="fresher"
+              checked={selectedExperience === "fresher"}
+              onChange={() => updateParam("experience_level", "fresher")}
+              className="text-black focus:ring-black"
+            />
+            <span>🎓 Fresher / Thực tập sinh (Ưu tiên)</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-black font-semibold">
+            <input
+              type="radio"
+              name="experience_level"
+              value="junior"
+              checked={selectedExperience === "junior"}
+              onChange={() => updateParam("experience_level", "junior")}
+              className="text-black focus:ring-black"
+            />
+            <span>💻 Junior (1 - 2 năm kinh nghiệm)</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+            <input
+              type="radio"
+              name="experience_level"
+              value="middle"
+              checked={selectedExperience === "middle"}
+              onChange={() => updateParam("experience_level", "middle")}
+              className="text-black focus:ring-black"
+            />
+            <span>⚡ Middle (2 - 4 năm kinh nghiệm)</span>
+          </label>
+          <label className="flex items-center gap-2 cursor-pointer p-1.5 rounded-lg hover:bg-neutral-100 text-neutral-800">
+            <input
+              type="radio"
+              name="experience_level"
+              value="senior"
+              checked={selectedExperience === "senior"}
+              onChange={() => updateParam("experience_level", "senior")}
+              className="text-black focus:ring-black"
+            />
+            <span>👑 Senior / Quản lý (&gt; 4 năm)</span>
+          </label>
         </div>
       </div>
 

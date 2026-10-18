@@ -14,6 +14,10 @@ from app.adapters.facebook_public_adapter import facebook_public_adapter, Facebo
 from app.adapters.threads_public_adapter import threads_public_adapter, ThreadsPublicAdapter
 from app.adapters.jobspy_adapter import JobSpyMultiSourceAdapter
 from app.adapters.ats_api_adapter import DirectATSApiAdapter, ats_api_direct_adapter
+from app.adapters.linkedin_guest_adapter import LinkedInGuestAdapter, linkedin_guest_adapter
+from app.adapters.itviec_adapter import ITviecAdapter, itviec_adapter
+from app.adapters.ybox_adapter import YboxAdapter, ybox_adapter
+from app.adapters.jobsgo_adapter import JobsGOAdapter, jobsgo_adapter
 
 __all__ = [
     "AdapterError",
@@ -30,4 +34,13 @@ __all__ = [
     "JobSpyMultiSourceAdapter",
     "DirectATSApiAdapter",
     "ats_api_direct_adapter",
+    "LinkedInGuestAdapter",
+    "linkedin_guest_adapter",
+    "ITviecAdapter",
+    "itviec_adapter",
+    "YboxAdapter",
+    "ybox_adapter",
+    "JobsGOAdapter",
+    "jobsgo_adapter",
 ]
+

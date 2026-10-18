@@ -15,6 +15,16 @@ export interface StructuredLocation {
 
 export type WorkplaceType = "onsite" | "hybrid" | "remote" | "unknown";
 export type JobStatus = "active_confirmed" | "active_likely" | "expired" | "closed" | "unknown";
+export type VerificationStatusType =
+  | "active_confirmed"
+  | "likely_active"
+  | "expired_confirmed"
+  | "likely_expired"
+  | "unreachable_link"
+  | "redirected_or_changed"
+  | "unverified"
+  | "verified"
+  | "unknown";
 export type SalaryPeriod = "month" | "year" | "hour" | "day" | "project" | "unknown";
 
 export interface Job {
@@ -67,7 +77,7 @@ export interface Job {
   status?: JobStatus;
   status_reason?: string | null;
   status_evidence?: any;
-  verification_status?: "verified" | "unverified" | "unknown" | null;
+  verification_status?: VerificationStatusType | string | null;
   is_active?: boolean;
 
   // Confidence & Deduplication
@@ -145,6 +155,8 @@ export interface JobSearchParams {
   province?: string;
   category?: string;
   job_type?: string;
+  experience_level?: string;
+  remote?: boolean;
   salary_min?: number;
   salary_max?: number;
   source_platform?: string;
@@ -156,6 +168,7 @@ export interface JobSearchParams {
   saved?: boolean;
   quality_tier?: string;
   tech_stack?: string;
+  enterprise_only?: boolean;
 }
 
 export interface SearchIntentDiagnostics {

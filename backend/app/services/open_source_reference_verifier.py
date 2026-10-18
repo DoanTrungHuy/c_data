@@ -178,15 +178,22 @@ class OpenSourceReferenceVerifier:
             hostname = (parsed.hostname or "").lower()
             path = parsed.path or ""
 
+            # Check if dedicated recruitment subdomain (tuyendung.*, career.*, jobs.*)
+            is_dedicated_career_subdomain = any(
+                hostname.startswith(p) for p in ["tuyendung.", "career.", "careers.", "jobs.", "recruitment.", "job."]
+            )
+
             # Check if root domain with no path or query
             if (path == "/" or path == "") and not parsed.query:
-                return False, f"URL chỉ là trang chủ root ({hostname}) không phải trang chi tiết tuyển dụng"
+                if not is_dedicated_career_subdomain:
+                    return False, f"URL chỉ là trang chủ root ({hostname}) không phải trang chi tiết tuyển dụng"
 
             # Check known hospitality booking domains
             if any(b_dom in hostname for b_dom in HOSPITALITY_BOOKING_DOMAINS):
-                careers_cues = ["/careers", "/tuyen-dung", "/recruitment", "/jobs"]
-                if not any(cue in path.lower() for cue in careers_cues):
-                    return False, f"Domain {hostname} là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng"
+                if not is_dedicated_career_subdomain:
+                    careers_cues = ["/careers", "/tuyen-dung", "/recruitment", "/jobs", "/co-hoi-nghe-nghiep", "/nghe-nghiep"]
+                    if not any(cue in path.lower() for cue in careers_cues):
+                        return False, f"Domain {hostname} là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng"
 
             return True, "Cú pháp URL hợp lệ"
         except Exception as e:

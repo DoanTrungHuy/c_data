@@ -310,7 +310,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
               </div>
 
               {/* Key Badges Info Grid */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 py-3 sm:py-4 border-y border-neutral-100">
+              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-3 py-3 sm:py-4 border-y border-neutral-100">
                 <div className="p-2.5 sm:p-3 rounded-xl bg-neutral-50 border border-neutral-200">
                   <div className="flex items-center gap-1 text-[11px] sm:text-xs text-neutral-600 font-medium mb-0.5 sm:mb-1">
                     <CurrencyDollarIcon className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-black shrink-0" />
@@ -349,6 +349,39 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   <span className="text-xs sm:text-sm font-bold text-black truncate block">
                     {relativeDate}
                   </span>
+                </div>
+
+                <div className="p-2.5 sm:p-3 rounded-xl bg-neutral-50 border border-neutral-200 col-span-2 sm:col-span-1">
+                  <div className="flex items-center gap-1 text-[11px] sm:text-xs text-neutral-600 font-medium mb-0.5 sm:mb-1">
+                    <CalendarDaysIcon className="h-3.5 w-3.5 sm:h-4 sm:w-4 text-black shrink-0" />
+                    <span>Hạn nộp hồ sơ</span>
+                  </div>
+                  <span className="text-xs sm:text-sm font-bold text-black truncate block">
+                    {job.expires_at ? new Date(job.expires_at).toLocaleDateString("vi-VN") : "Đang mở tuyển"}
+                  </span>
+                </div>
+              </div>
+
+              {/* Lý do phù hợp với tiêu chí tuyển dụng (Phần B) */}
+              <div className="rounded-2xl bg-neutral-100 p-3.5 border border-neutral-200 space-y-2">
+                <span className="text-xs font-black uppercase tracking-wider text-neutral-700 flex items-center gap-1.5">
+                  <span>🎯 Đánh Giá Phù Hợp Tiêu Chí Ứng Tuyển</span>
+                </span>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
+                    ✓ Chuyên môn: {job.category || "Công nghệ thông tin / Phần mềm"}
+                  </span>
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
+                    ✓ Địa bàn: {job.location_province || "Quảng Ninh"}
+                  </span>
+                  <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
+                    ✓ Nguồn tin: {platform.name}
+                  </span>
+                  {job.experience_level && (
+                    <span className="inline-flex items-center px-2.5 py-1 rounded-lg bg-white border border-neutral-300 font-bold text-black">
+                      ✓ Cấp bậc: {job.experience_level}
+                    </span>
+                  )}
                 </div>
               </div>
 

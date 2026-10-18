@@ -115,12 +115,18 @@ def normalize_company_name(name: Optional[str]) -> str:
         return "vingroup"
     if "than deo nai" in clean or "than coc sau" in clean or "than ha long" in clean or "vinacomin" in clean or "tkv" in clean:
         return "tkv_vinacomin"
-    if "fpt telecom" in clean or "fpt software" in clean or "fpt is" in clean:
+    if "fpt" in clean:
         return "fpt"
     if "wyndham legend" in clean:
         return "wyndham_halong"
     if "cang container quoc te cai lan" in clean or "cict" in clean:
         return "cict_cailan"
+    if "paradise" in clean:
+        return "paradise_cruises"
+    if "muong thanh" in clean:
+        return "muongthanh"
+    if "viettel" in clean:
+        return "viettel"
 
     return clean
 
@@ -147,6 +153,10 @@ def normalize_job_title(title: Optional[str]) -> str:
         raw = re.sub(w, "", raw)
 
     clean = re.sub(r"[^a-z0-9\s]", " ", raw)
+    # Standardize equivalent roles (Vietnamese / English)
+    clean = re.sub(r"\blap trinh vien\b", "developer", clean)
+    clean = re.sub(r"\bky su phan mem\b", "software engineer", clean)
+    clean = re.sub(r"\bnhan vien kinh doanh\b", "sales", clean)
     clean = re.sub(r"\s+", " ", clean).strip()
     return clean
 
@@ -234,7 +244,15 @@ class JobDeduplicationEngine:
 
         # Guard 2: Cùng công ty và cùng tiêu đề nhưng khác biệt chi nhánh / quận huyện rõ ràng
         # Ví dụ: Mường Thanh tuyển Lễ tân Bãi Cháy vs Lễ tân Hòn Gai hoặc FPT tuyển Hạ Long vs Cẩm Phả
-        if dist_a and dist_b and dist_a != dist_b:
+        def _clean_dist(d: str) -> str:
+            d_norm = unidecode.unidecode(d).lower()
+            d_clean = re.sub(r"\b(quan|huyen|thi xa|tx|tp|thanh pho|phuong|xa)\b", " ", d_norm)
+            d_clean = re.sub(r"[^a-z0-9\s]", " ", d_clean)
+            return re.sub(r"\s+", " ", d_clean).strip()
+
+        cdist_a = _clean_dist(dist_a)
+        cdist_b = _clean_dist(dist_b)
+        if cdist_a and cdist_b and cdist_a != cdist_b and cdist_a not in cdist_b and cdist_b not in cdist_a:
             # Kiểm tra xem mô tả có nói về 2 chi nhánh khác nhau không
             desc_sim = compute_text_similarity(
                 getattr(job_a, "description", ""),
@@ -242,7 +260,7 @@ class JobDeduplicationEngine:
             )
             # Nếu khác quận huyện và mô tả không trùng khớp cao, giữ độc lập
             if desc_sim < 0.80:
-                return False, f"anti_merge_different_district_{dist_a}_vs_{dist_b}", 0.0
+                return False, f"anti_merge_different_district_{cdist_a}_vs_{cdist_b}", 0.0
 
         # Guard 3: Khác biệt quá lớn về mức lương (ví dụ: Fresher 7tr vs Lead 30tr dù cùng chức danh kỹ thuật)
         min_a = getattr(job_a, "salary_min", None)

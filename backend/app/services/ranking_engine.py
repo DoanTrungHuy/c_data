@@ -250,6 +250,8 @@ class MultiSignalRankingEngine:
 
         norm_q = normalize_text(intent.raw_query)
         q_words = [w for w in norm_q.split() if len(w) >= 2] if norm_q else []
+        loc_tokens = set(intent.location_aliases or []) | {"ha", "long", "quang", "ninh", "bai", "chay", "hon", "gai", "hn", "hcm", "noi", "sai", "gon"}
+        role_words = [w for w in q_words if w not in loc_tokens]
 
         # 1. Khớp cụm từ trong ngoặc kép nếu có
         if intent.exact_phrases:
@@ -274,6 +276,10 @@ class MultiSignalRankingEngine:
             elif len(q_words) > 1 and all(re.search(rf"\b{re.escape(w)}\b", title_norm) for w in q_words):
                 title_score = 23.0
                 reasons.append(f"Tiêu đề chứa đầy đủ các từ trong: '{intent.raw_query}' (+23.0)")
+                role_matched = True
+            elif len(role_words) > 1 and all(re.search(rf"\b{re.escape(w)}\b", title_norm) for w in role_words):
+                title_score = 23.0
+                reasons.append(f"Tiêu đề chứa đầy đủ các từ khóa chuyên môn: '{' '.join(role_words)}' (+23.0)")
                 role_matched = True
 
         # 3. Khớp từ đồng nghĩa vai trò chính xác

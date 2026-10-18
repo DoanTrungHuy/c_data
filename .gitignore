@@ -16,9 +16,12 @@ env/
 
 # Build
 .next/
+out/
+frontend/out/
 dist/
 build/
 *.egg-info/
+
 
 # Docker volumes
 postgres_data/

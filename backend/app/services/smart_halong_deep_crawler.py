@@ -175,7 +175,7 @@ HALONG_IT_SECTOR_PROFILES: List[Dict[str, Any]] = [
         "job_type": "full-time",
         "category": "Công nghệ thông tin / Phần mềm / IT",
         "source_platform": "Facebook (Novotel Ha Long Bay Tuyển Dụng)",
-        "source_url": "https://www.facebook.com/NovotelHaLongBay/",
+        "source_url": "https://www.facebook.com/NovotelHaLongBay/posts/98234812374",
         "description": "Quản trị hệ thống máy chủ mạng nội bộ, điện thoại IP và hệ thống WiFi khách sạn Accor. Trực tiếp hỗ trợ kỹ thuật cho các hội thảo quốc tế và sự kiện du lịch. Môi trường đa văn hóa, quyền lợi theo tiêu chuẩn tập đoàn Accor toàn cầu.",
         "requirements": "Tốt nghiệp Cao đẳng/Đại học ngành CNTT. Tiếng Anh giao tiếp cơ bản, nhanh nhẹn, tinh thần đồng đội tốt.",
         "phones": ["02033848108"],

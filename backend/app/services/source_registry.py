@@ -288,6 +288,106 @@ class SourceRegistry:
                 compliance_notes="Tuân thủ chuẩn RSS syndication mở, định kỳ nạp dữ liệu.",
                 target_provinces=["Toàn quốc", "Quảng Ninh"],
             ),
+
+            # -----------------------------------------------------------------
+            # NGUỒN BỔ SUNG ĐÃ KIỂM TOÁN THỰC TẾ (CHẶNG B)
+            # -----------------------------------------------------------------
+            SourceDefinition(
+                id="viettel_group",
+                name="Tập đoàn Công nghiệp - Viễn thông Quân đội Viettel",
+                category=SourceCategory.ENTERPRISE_DIRECT,
+                domain="tuyendung.viettel.vn",
+                access_method=AccessMethod.PUBLIC_WEB,
+                is_enabled=True,
+                priority=2,
+                sync_interval_seconds=7200,
+                rate_limit=RateLimitConfig(requests_per_minute=20, min_delay_seconds=2.0),
+                health_status=SourceHealthStatus.UNKNOWN,
+                credential_status=CredentialStatus.UNNEEDED,
+                access_conditions="Cổng tuyển dụng chính thức Viettel chi nhánh Quảng Ninh và toàn quốc.",
+                compliance_notes="Tuân thủ chính sách robots.txt của tuyendung.viettel.vn.",
+                target_provinces=["Quảng Ninh", "Hà Nội", "Toàn quốc"],
+            ),
+            SourceDefinition(
+                id="itviec",
+                name="Cổng việc làm CNTT chuyên sâu ITviec",
+                category=SourceCategory.SPECIALIZED_LOCAL,
+                domain="itviec.com",
+                access_method=AccessMethod.PUBLIC_WEB,
+                is_enabled=True,
+                priority=1,
+                sync_interval_seconds=3600,
+                rate_limit=RateLimitConfig(requests_per_minute=20, min_delay_seconds=2.0),
+                health_status=SourceHealthStatus.UNKNOWN,
+                credential_status=CredentialStatus.UNNEEDED,
+                access_conditions="Truy vấn qua cổng tìm kiếm công khai ITviec search query.",
+                compliance_notes="Tuân thủ rate limit máy chủ ITviec, không cào dữ liệu cá nhân.",
+                target_provinces=["Quảng Ninh", "Hà Nội", "Toàn quốc"],
+            ),
+            SourceDefinition(
+                id="jobsgo",
+                name="Sàn tuyển dụng JobsGO",
+                category=SourceCategory.NATIONAL_JOB_BOARD,
+                domain="jobsgo.vn",
+                access_method=AccessMethod.PUBLIC_WEB,
+                is_enabled=True,
+                priority=2,
+                sync_interval_seconds=7200,
+                rate_limit=RateLimitConfig(requests_per_minute=25, min_delay_seconds=1.5),
+                health_status=SourceHealthStatus.UNKNOWN,
+                credential_status=CredentialStatus.UNNEEDED,
+                access_conditions="Truy cập danh mục việc làm công khai tại Quảng Ninh và miền Bắc.",
+                compliance_notes="Tôn trọng robots.txt, chỉ thu thập tin công khai.",
+                target_provinces=["Quảng Ninh", "Hà Nội", "Toàn quốc"],
+            ),
+            SourceDefinition(
+                id="glints_vn",
+                name="Nền tảng việc làm trẻ Glints Vietnam",
+                category=SourceCategory.NATIONAL_JOB_BOARD,
+                domain="glints.com",
+                access_method=AccessMethod.PUBLIC_WEB,
+                is_enabled=True,
+                priority=2,
+                sync_interval_seconds=7200,
+                rate_limit=RateLimitConfig(requests_per_minute=25, min_delay_seconds=1.5),
+                health_status=SourceHealthStatus.UNKNOWN,
+                credential_status=CredentialStatus.UNNEEDED,
+                access_conditions="Truy cập danh mục việc làm công nghệ qua SSR public data.",
+                compliance_notes="Trích xuất chuẩn xác thông tin tuyển dụng mở.",
+                target_provinces=["Toàn quốc", "Quảng Ninh", "Hà Nội"],
+            ),
+            SourceDefinition(
+                id="ybox_fresher",
+                name="Kênh việc làm sinh viên & Fresher Ybox",
+                category=SourceCategory.NATIONAL_JOB_BOARD,
+                domain="ybox.vn",
+                access_method=AccessMethod.PUBLIC_WEB,
+                is_enabled=True,
+                priority=2,
+                sync_interval_seconds=7200,
+                rate_limit=RateLimitConfig(requests_per_minute=20, min_delay_seconds=2.0),
+                health_status=SourceHealthStatus.UNKNOWN,
+                credential_status=CredentialStatus.UNNEEDED,
+                access_conditions="Cổng thông tin thực tập sinh, Fresher và việc làm khởi đầu.",
+                compliance_notes="Phù hợp tối đa với bộ lọc Fresher/Junior/Intern của C_Data.",
+                target_provinces=["Toàn quốc", "Hà Nội", "Quảng Ninh"],
+            ),
+            SourceDefinition(
+                id="linkedin_guest_api",
+                name="LinkedIn Public Guest Search (Không cần đăng nhập)",
+                category=SourceCategory.SOCIAL_PUBLIC,
+                domain="linkedin.com",
+                access_method=AccessMethod.PUBLIC_WEB,
+                is_enabled=True,
+                priority=1,
+                sync_interval_seconds=3600,
+                rate_limit=RateLimitConfig(requests_per_minute=15, min_delay_seconds=3.0),
+                health_status=SourceHealthStatus.UNKNOWN,
+                credential_status=CredentialStatus.UNNEEDED,
+                access_conditions="Truy cập danh mục việc làm công khai qua seeMoreJobPostings guest endpoint.",
+                compliance_notes="Sử dụng endpoint khách công khai của LinkedIn, không vượt tường bảo vệ.",
+                target_provinces=["Toàn quốc", "Quảng Ninh", "Hà Nội"],
+            ),
         ]
 
         for s in initial_sources:
@@ -335,6 +435,31 @@ class SourceRegistry:
         except Exception as e:
             logger.warning(f"Chưa thể nạp ThreadsPublicAdapter: {e}")
 
+        try:
+            from app.adapters.itviec_adapter import itviec_adapter
+            self.register_adapter("itviec", itviec_adapter.as_discovery_callable())
+        except Exception as e:
+            logger.warning(f"Chưa thể nạp ITviecAdapter: {e}")
+
+        try:
+            from app.adapters.linkedin_guest_adapter import linkedin_guest_adapter
+            self.register_adapter("linkedin_guest_api", linkedin_guest_adapter.as_discovery_callable())
+        except Exception as e:
+            logger.warning(f"Chưa thể nạp LinkedInGuestAdapter: {e}")
+
+        try:
+            from app.adapters.ybox_adapter import ybox_adapter
+            self.register_adapter("ybox_fresher", ybox_adapter.as_discovery_callable())
+        except Exception as e:
+            logger.warning(f"Chưa thể nạp YboxAdapter: {e}")
+
+        try:
+            from app.adapters.jobsgo_adapter import jobsgo_adapter
+            self.register_adapter("jobsgo", jobsgo_adapter.as_discovery_callable())
+        except Exception as e:
+            logger.warning(f"Chưa thể nạp JobsGOAdapter: {e}")
+
+
     def _load_persisted_state(self) -> None:
         """Nạp trạng thái và chỉ số đo lường đã lưu trữ từ đĩa"""
         if not STATE_FILE_PATH.exists():
@@ -352,9 +477,15 @@ class SourceRegistry:
                     # Phục hồi metrics
                     if "metrics" in saved_attrs:
                         src.metrics = SourceMetrics(**saved_attrs["metrics"])
-                    # Phục hồi sức khỏe
+                    # Phục hồi sức khỏe (Tuân thủ nghiêm ngặt: không khôi phục HEALTHY nếu chưa từng kiểm tra hoặc crawl thành công)
                     if "health_status" in saved_attrs:
-                        src.health_status = SourceHealthStatus(saved_attrs["health_status"])
+                        loaded_status = SourceHealthStatus(saved_attrs["health_status"])
+                        has_check = bool(saved_attrs.get("last_health_check_at"))
+                        has_crawl = bool(saved_attrs.get("last_successful_crawl"))
+                        if loaded_status == SourceHealthStatus.HEALTHY and not has_check and not has_crawl:
+                            src.health_status = SourceHealthStatus.UNKNOWN
+                        else:
+                            src.health_status = loaded_status
                     if "health_evidence" in saved_attrs:
                         src.health_evidence = saved_attrs["health_evidence"]
                     if "credential_status" in saved_attrs:

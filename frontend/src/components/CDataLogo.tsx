@@ -34,6 +34,8 @@ export default function CDataLogo({
         className={`relative flex ${iconSizes[size]} shrink-0 items-center justify-center transition-transform duration-200 group-hover:scale-105`}
       >
         <svg
+          width="40"
+          height="40"
           viewBox="0 0 40 40"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

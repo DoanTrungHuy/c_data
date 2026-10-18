@@ -1,6 +1,6 @@
 import uuid
 from datetime import datetime
-from typing import Any, List, Optional
+from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, ConfigDict, Field
 
 
@@ -81,3 +81,26 @@ class CompanyListResponse(BaseModel):
     page: int
     page_size: int
     total_pages: int
+
+
+class CompanyRegistryProfile(BaseModel):
+    """
+    Hồ sơ doanh nghiệp địa phương chuyên sâu (Master Prompt Nhóm B & E).
+    Lưu trữ cấu trúc thông tin doanh nghiệp tại Hạ Long / Quảng Ninh,
+    kênh tuyển dụng chính thức, hotline HR và trạng thái theo dõi trực tiếp.
+    """
+    company_id: str = Field(..., description="Mã định danh duy nhất của doanh nghiệp")
+    name: str = Field(..., description="Tên đầy đủ theo pháp nhân")
+    brand_name: Optional[str] = Field(None, description="Tên thương hiệu phổ biến")
+    industry_group: str = Field(..., description="hospitality_tourism, healthcare, industry_logistics, telecom_it, education_finance")
+    locations: List[Dict[str, str]] = Field(default_factory=list, description="Danh sách địa chỉ tại Quảng Ninh")
+    website_home: str = Field(..., description="Website chính thức của doanh nghiệp")
+    career_url: str = Field(..., description="Trang nghề nghiệp / tuyển dụng chính thức")
+    social_channels: Dict[str, str] = Field(default_factory=dict, description="Kênh Facebook, LinkedIn, Zalo tuyển dụng")
+    hr_contacts: Dict[str, Any] = Field(default_factory=dict, description="Hotline HR, email tuyển dụng")
+    career_page_status: str = Field(default="unknown", description="healthy, redirected, blocked, unmaintained, unknown")
+    last_checked_at: Optional[str] = Field(None, description="Thời điểm kiểm tra HTTP gần nhất")
+    http_status: Optional[int] = Field(None, description="Mã HTTP status trang tuyển dụng")
+    active_it_roles: List[str] = Field(default_factory=list, description="Vị trí CNTT/kỹ thuật trọng điểm thường tuyển")
+    notes: Optional[str] = Field(None, description="Ghi chú nghiệp vụ và đặc thù địa bàn")
+

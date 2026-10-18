@@ -133,6 +133,9 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   const salary_max = searchParams?.get("salary_max");
   const quality_tier = searchParams?.get("quality_tier") || "";
   const tech_stack = searchParams?.get("tech_stack") || "";
+  const experience_level = searchParams?.get("experience_level") || "";
+  const enterprise_only = searchParams?.get("enterprise_only") === "true";
+  const remote = searchParams?.get("remote") === "true";
   const sort_by = searchParams?.get("sort_by") || "";
   const strict_mode = searchParams?.get("strict_mode") === "true";
   const verified_only = searchParams?.get("verified_only") === "true";
@@ -179,7 +182,7 @@ export default function JobsContent({ initialData }: JobsContentProps) {
   };
 
   const hasFilters = Boolean(
-    province || category || job_type || platform || salary_min || salary_max || quality_tier || tech_stack
+    province || category || job_type || platform || salary_min || salary_max || quality_tier || tech_stack || experience_level || enterprise_only || remote || verified_only
   );
 
   return (
@@ -826,6 +829,58 @@ export default function JobsContent({ initialData }: JobsContentProps) {
               </span>
             )}
 
+            {enterprise_only && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-300 text-black font-bold shadow-2xs">
+                🌟 DN Trọng Điểm Hạ Long
+                <button
+                  type="button"
+                  onClick={() => removeFilter("enterprise_only")}
+                  className="text-neutral-400 hover:text-black cursor-pointer"
+                >
+                  <XMarkIcon className="h-3.5 w-3.5" />
+                </button>
+              </span>
+            )}
+
+            {experience_level && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-300 text-black font-bold shadow-2xs">
+                🎓 Cấp bậc: {experience_level === "fresher" ? "Fresher / Intern" : experience_level === "junior" ? "Junior" : experience_level === "middle" ? "Middle" : "Senior / Lead"}
+                <button
+                  type="button"
+                  onClick={() => removeFilter("experience_level")}
+                  className="text-neutral-400 hover:text-black cursor-pointer"
+                >
+                  <XMarkIcon className="h-3.5 w-3.5" />
+                </button>
+              </span>
+            )}
+
+            {remote && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-300 text-black font-bold shadow-2xs">
+                🏠 Remote / Từ xa
+                <button
+                  type="button"
+                  onClick={() => removeFilter("remote")}
+                  className="text-neutral-400 hover:text-black cursor-pointer"
+                >
+                  <XMarkIcon className="h-3.5 w-3.5" />
+                </button>
+              </span>
+            )}
+
+            {verified_only && (
+              <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white border border-neutral-300 text-black font-bold shadow-2xs">
+                🛡️ Đã Thẩm Định Đối Soát
+                <button
+                  type="button"
+                  onClick={() => removeFilter("verified_only")}
+                  className="text-neutral-400 hover:text-black cursor-pointer"
+                >
+                  <XMarkIcon className="h-3.5 w-3.5" />
+                </button>
+              </span>
+            )}
+
             <button
               type="button"
               onClick={clearAllFilters}
@@ -885,6 +940,94 @@ export default function JobsContent({ initialData }: JobsContentProps) {
             >
               <span>📍</span>
               <span>Hạ Long & QN</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (enterprise_only) {
+                  params.delete("enterprise_only");
+                } else {
+                  params.set("enterprise_only", "true");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                enterprise_only
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>🌟</span>
+              <span>DN Trọng Điểm HL</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (experience_level === "fresher") {
+                  params.delete("experience_level");
+                } else {
+                  params.set("experience_level", "fresher");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                experience_level === "fresher"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>🎓</span>
+              <span>Fresher / Intern</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (experience_level === "junior") {
+                  params.delete("experience_level");
+                } else {
+                  params.set("experience_level", "junior");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                experience_level === "junior"
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>💻</span>
+              <span>Junior (1-2 năm)</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const params = new URLSearchParams(searchParams?.toString() || "");
+                if (remote) {
+                  params.delete("remote");
+                } else {
+                  params.set("remote", "true");
+                }
+                params.delete("page");
+                router.push(`/jobs?${params.toString()}`);
+              }}
+              className={`shrink-0 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold border transition-all cursor-pointer ${
+                remote
+                  ? "bg-black text-white border-black shadow-xs"
+                  : "bg-neutral-100 text-black border-neutral-200 hover:bg-neutral-200"
+              }`}
+            >
+              <span>🏠</span>
+              <span>Remote / Từ xa</span>
             </button>
 
             <button

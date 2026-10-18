@@ -4,16 +4,16 @@
     "health_status": "healthy",
     "health_evidence": "Đồng bộ thành công 5 bản ghi (0.0ms)",
     "credential_status": "unneeded",
-    "last_health_check_at": "2026-10-14T19:53:35.584578+00:00",
-    "last_successful_crawl": "2026-10-15T07:09:17.864336+00:00",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:59.079776+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 103,
-      "new_count": 103,
+      "discovered_count": 32,
+      "new_count": 32,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "vinpearl": {
@@ -22,15 +22,15 @@
     "health_evidence": "Đồng bộ thành công 5 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.868353+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.080816+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 103,
-      "new_count": 103,
+      "discovered_count": 32,
+      "new_count": 32,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "tkv_mining": {
@@ -39,15 +39,15 @@
     "health_evidence": "Đồng bộ thành công 5 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.875432+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.085920+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 103,
-      "new_count": 103,
+      "discovered_count": 32,
+      "new_count": 32,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "fpt_telecom": {
@@ -56,15 +56,15 @@
     "health_evidence": "Đồng bộ thành công 3 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.870442+00:00",
-    "last_failed_crawl": "2026-10-15T07:09:17.381376+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.080816+00:00",
+    "last_failed_crawl": "2026-10-17T13:47:58.257912+00:00",
     "last_error_message": "HTTP 503 Service Unavailable",
     "metrics": {
-      "discovered_count": 221,
-      "new_count": 141,
-      "error_count": 15,
+      "discovered_count": 56,
+      "new_count": 36,
+      "error_count": 4,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 62
+      "total_runs": 16
     }
   },
   "cict_cailan": {
@@ -73,32 +73,32 @@
     "health_evidence": "Đồng bộ thành công 3 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.888336+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.087925+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 93,
-      "new_count": 93,
+      "discovered_count": 24,
+      "new_count": 24,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "careerviet": {
     "is_enabled": true,
     "health_status": "healthy",
-    "health_evidence": "Đồng bộ thành công 5 bản ghi (889.5ms)",
+    "health_evidence": "Đồng bộ thành công 5 bản ghi (1415.1ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.858339+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:58.545585+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 15,
-      "new_count": 15,
+      "discovered_count": 5,
+      "new_count": 5,
       "error_count": 0,
-      "last_crawl_duration_ms": 471.7,
-      "total_runs": 31
+      "last_crawl_duration_ms": 284.5,
+      "total_runs": 8
     }
   },
   "topcv": {
@@ -106,8 +106,8 @@
     "health_status": "healthy",
     "health_evidence": "Máy chủ topcv.vn phản hồi HTTP 200 (0.0ms)",
     "credential_status": "valid",
-    "last_health_check_at": "2026-10-15T07:09:17.368815+00:00",
-    "last_successful_crawl": "2026-10-15T07:09:17.860334+00:00",
+    "last_health_check_at": "2026-10-17T13:47:58.251129+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:58.547554+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
@@ -115,7 +115,7 @@
       "new_count": 0,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 30
+      "total_runs": 7
     }
   },
   "vietnamworks": {
@@ -141,7 +141,7 @@
     "health_evidence": null,
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.872338+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.081950+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
@@ -149,7 +149,7 @@
       "new_count": 0,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "quang_ninh_industrial_zones": {
@@ -158,7 +158,7 @@
     "health_evidence": null,
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.879339+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.086927+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
@@ -166,24 +166,24 @@
       "new_count": 0,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "social_public_halong": {
     "is_enabled": true,
     "health_status": "healthy",
-    "health_evidence": "Đồng bộ thành công 2 bản ghi (0.0ms)",
+    "health_evidence": "Đồng bộ thành công 4 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.897418+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.088851+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 108,
-      "new_count": 108,
+      "discovered_count": 28,
+      "new_count": 28,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 31
+      "total_runs": 8
     }
   },
   "threads_public": {
@@ -192,15 +192,15 @@
     "health_evidence": "Đồng bộ thành công 1 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.903421+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.089869+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
-      "discovered_count": 15,
-      "new_count": 15,
+      "discovered_count": 12,
+      "new_count": 12,
       "error_count": 0,
       "last_crawl_duration_ms": 0.0,
-      "total_runs": 10
+      "total_runs": 8
     }
   },
   "government_national_labor_rss": {
@@ -209,15 +209,117 @@
     "health_evidence": null,
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.882323+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.086927+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {
       "discovered_count": 0,
       "new_count": 0,
       "error_count": 0,
-      "last_crawl_duration_ms": 1.0,
-      "total_runs": 31
+      "last_crawl_duration_ms": 0.0,
+      "total_runs": 8
+    }
+  },
+  "viettel_group": {
+    "is_enabled": true,
+    "health_status": "healthy",
+    "health_evidence": "Đồng bộ thành công 3 bản ghi (0.0ms)",
+    "credential_status": "unneeded",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:59.081950+00:00",
+    "last_failed_crawl": null,
+    "last_error_message": null,
+    "metrics": {
+      "discovered_count": 24,
+      "new_count": 24,
+      "error_count": 0,
+      "last_crawl_duration_ms": 0.0,
+      "total_runs": 8
+    }
+  },
+  "itviec": {
+    "is_enabled": true,
+    "health_status": "healthy",
+    "health_evidence": "Đồng bộ thành công 5 bản ghi (349.3ms)",
+    "credential_status": "unneeded",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:58.897821+00:00",
+    "last_failed_crawl": "2026-10-17T13:38:34.499894+00:00",
+    "last_error_message": "'int' object has no attribute 'lower'",
+    "metrics": {
+      "discovered_count": 16,
+      "new_count": 16,
+      "error_count": 2,
+      "last_crawl_duration_ms": 349.3,
+      "total_runs": 8
+    }
+  },
+  "jobsgo": {
+    "is_enabled": true,
+    "health_status": "healthy",
+    "health_evidence": "Đồng bộ thành công 5 bản ghi (221.7ms)",
+    "credential_status": "unneeded",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:59.083052+00:00",
+    "last_failed_crawl": null,
+    "last_error_message": null,
+    "metrics": {
+      "discovered_count": 5,
+      "new_count": 5,
+      "error_count": 0,
+      "last_crawl_duration_ms": 0.0,
+      "total_runs": 8
+    }
+  },
+  "glints_vn": {
+    "is_enabled": true,
+    "health_status": "healthy",
+    "health_evidence": "Đồng bộ thành công 5 bản ghi (0.0ms)",
+    "credential_status": "unneeded",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:59.084027+00:00",
+    "last_failed_crawl": null,
+    "last_error_message": null,
+    "metrics": {
+      "discovered_count": 20,
+      "new_count": 20,
+      "error_count": 0,
+      "last_crawl_duration_ms": 0.0,
+      "total_runs": 8
+    }
+  },
+  "ybox_fresher": {
+    "is_enabled": true,
+    "health_status": "healthy",
+    "health_evidence": "Đồng bộ thành công 5 bản ghi (0.0ms)",
+    "credential_status": "unneeded",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:59.085010+00:00",
+    "last_failed_crawl": null,
+    "last_error_message": null,
+    "metrics": {
+      "discovered_count": 5,
+      "new_count": 5,
+      "error_count": 0,
+      "last_crawl_duration_ms": 0.0,
+      "total_runs": 8
+    }
+  },
+  "linkedin_guest_api": {
+    "is_enabled": true,
+    "health_status": "healthy",
+    "health_evidence": "Đồng bộ thành công 5 bản ghi (178.9ms)",
+    "credential_status": "unneeded",
+    "last_health_check_at": null,
+    "last_successful_crawl": "2026-10-17T13:47:59.077674+00:00",
+    "last_failed_crawl": null,
+    "last_error_message": null,
+    "metrics": {
+      "discovered_count": 25,
+      "new_count": 25,
+      "error_count": 0,
+      "last_crawl_duration_ms": 178.9,
+      "total_runs": 8
     }
   },
   "test_custom_mining_portal": {
@@ -226,7 +328,7 @@
     "health_evidence": "Đồng bộ thành công 1 bản ghi (0.0ms)",
     "credential_status": "unneeded",
     "last_health_check_at": null,
-    "last_successful_crawl": "2026-10-15T07:09:17.862322+00:00",
+    "last_successful_crawl": "2026-10-17T13:47:59.078651+00:00",
     "last_failed_crawl": null,
     "last_error_message": null,
     "metrics": {

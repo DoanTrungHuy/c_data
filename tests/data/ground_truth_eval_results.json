@@ -1,0 +1,1003 @@
+{
+  "evaluated_at": "2026-10-17T13:48:22.137226+00:00",
+  "job_vs_non_job": {
+    "tp": 12,
+    "fp": 1,
+    "tn": 11,
+    "fn": 0,
+    "total": 24,
+    "accuracy": 95.83,
+    "precision": 92.31,
+    "recall": 100.0,
+    "f1": 96.0,
+    "samples_count": 24,
+    "detailed_results": [
+      {
+        "id": "job_cls_01",
+        "title": "Kỹ Sư Cơ Điện (M&E) - Sun World Hạ Long",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_02",
+        "title": "Chuyên Viên Phát Triển Phần Mềm Java / Spring Boot",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_03",
+        "title": "Nhân Viên Lễ Tân Khách Sạn (Biết Tiếng Anh/Tiếng Trung)",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_04",
+        "title": "Thợ Lò Khai Thác Than Hầm Lò - Bậc 3/5 Trở Lên",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_05",
+        "title": "Nhân Viên Thu Ngân Bán Hàng Siêu Thị",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_06",
+        "title": "Thực Tập Sinh Marketing / Content Creator (Fresher/Intern)",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_07",
+        "title": "Kỹ Sư Vận Hành Thiết Bị Cảng Biển (RTG/QC Crane)",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_08",
+        "title": "Bác Sĩ Đa Khoa / Điều Dưỡng Viên",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_09",
+        "title": "Nhân Viên Phục Vụ Nhà Hàng & Bartender",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_10",
+        "title": "Frontend Engineer (React / Next.js) - Remote Toàn Quốc",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_11",
+        "title": "Kế Toán Tổng Hợp Doanh Nghiệp Sản Xuất",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "job_cls_12",
+        "title": "Trưởng Phòng Kinh Doanh Bất Động Sản Nghỉ Dưỡng",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_01",
+        "title": "Đặt Phòng Khách Sạn Wyndham Legend Hạ Long - Giá Tốt Nhất",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_02",
+        "title": "Vé Cáp Treo Nữ Hoàng Sun World Hạ Long - Khuyến Mãi 2026",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_03",
+        "title": "Thị Trường Lao Động Quảng Ninh Sôi Động Những Tháng Cuối Năm",
+        "ground_truth": false,
+        "predicted": true,
+        "is_correct": false
+      },
+      {
+        "id": "non_job_04",
+        "title": "Tour Du Thuyền Vịnh Hạ Long 2 Ngày 1 Đêm Trọn Gói",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_05",
+        "title": "Giới Thiệu Về Chúng Tôi - Lịch Sử Hình Thành Và Phát Triển",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_06",
+        "title": "Chính Sách Bảo Hành Thiết Bị Và Quy Trình Đổi Trả",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_07",
+        "title": "Trải Nghiệm Tắm Khoáng Nóng Chuẩn Nhật Bản Tại Yoko Onsen Quang Hanh",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_08",
+        "title": "Top 10 Quán Hải Sản Ngon Rẻ Nhất Tại Bãi Cháy Hạ Long",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_09",
+        "title": "Thông Báo Lịch Cắt Điện Luân Phiên Khu Vực TP Hạ Long",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_10",
+        "title": "Hướng Dẫn Nộp Đơn Xin Việc Mẫu Chuẩn Cho Người Mới Ra Trường",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_11",
+        "title": "Bảng Giá Căn Hộ Nghỉ Dưỡng View Biển Bãi Cháy Hạ Long",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "non_job_12",
+        "title": "Quy Trình Thủ Tục Làm Hộ Chiếu Trực Tuyến Mới Nhất",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      }
+    ]
+  },
+  "active_vs_expired": {
+    "tp": 10,
+    "fp": 0,
+    "tn": 10,
+    "fn": 0,
+    "total": 20,
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "samples_count": 20,
+    "detailed_results": [
+      {
+        "id": "status_01",
+        "title": "Kỹ Sư Trắc Địa Mỏ - TKV Quảng Ninh",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-30) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_02",
+        "title": "Lập Trình Viên Python / Backend (Remote)",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-12-15) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_03",
+        "title": "Nhân Viên Buồng Phòng Khách Sạn Mường Thanh Bãi Cháy",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-15) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_04",
+        "title": "Nhân Viên Giao Hàng Bằng Xe Máy (Shipper Hà Nội)",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-12-31) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_05",
+        "title": "Giám Sát Vận Hành Cáp Treo Sun World",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-20) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_06",
+        "title": "Nhân Viên Bán Vé Phim Rạp CGV Vincom Hạ Long",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-10) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_07",
+        "title": "Thực Tập Sinh Lập Trình Nhúng C/C++",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-12-01) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_08",
+        "title": "Đầu Bếp Âu - Khách Sạn Novotel Hạ Long",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-25) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_09",
+        "title": "Kỹ Sư An Toàn Lao Động (HSE) Công Trình",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-18) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_10",
+        "title": "Nhân Viên Chăm Sóc Khách Hàng (Telesales)",
+        "status_returned": "active_likely",
+        "status_reason": "Có hạn nộp hồ sơ hợp lệ (2026-11-30) từ nguồn kiểm duyệt",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "status_11",
+        "title": "Nhân Viên Lễ Tân Khách Sạn Mùa Hè 2024",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2024-06-30)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_12",
+        "title": "Kỹ Sư Lập Trình PHP Laravel",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-01-15)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_13",
+        "title": "Tài Xế Xe Tải Vận Chuyển Cảng Cái Lân",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-05-20)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_14",
+        "title": "Nhân Viên Pha Chế Cafe Highland Bãi Cháy",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-03-01)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_15",
+        "title": "Chuyên Viên SEO & Content Marketing",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2024-12-31)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_16",
+        "title": "Nhân Viên Bảo Vệ Ca Đêm TTTM Marine Plaza",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-02-28)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_17",
+        "title": "Thực Tập Sinh Thiết Kế Đồ Họa Graphic Intern",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-08-31)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_18",
+        "title": "Giám Sát Bán Hàng Khu Vực Đông Bắc",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-04-15)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_19",
+        "title": "Trợ Lý Giám Đốc Khách Sạn D'Lioro Bãi Cháy",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2025-07-01)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "status_20",
+        "title": "Kỹ Sư Xây Dựng Cầu Đường Dự Án Ven Biển",
+        "status_returned": "expired",
+        "status_reason": "Đã quá hạn nộp hồ sơ (2024-10-15)",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      }
+    ]
+  },
+  "location_disambiguation": {
+    "halong_metrics": {
+      "tp": 10,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "total": 20,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "hanoi_metrics": {
+      "tp": 10,
+      "fp": 0,
+      "tn": 10,
+      "fn": 0,
+      "total": 20,
+      "accuracy": 100.0,
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0
+    },
+    "samples_count": 20,
+    "detailed_results": [
+      {
+        "id": "loc_01",
+        "title": "Kỹ Sư Vận Hành Thiết Bị Cáp Treo Nữ Hoàng",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_02",
+        "title": "Chuyên Viên Kinh Doanh Tour Khách Quốc Tế",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_03",
+        "title": "Bác Sĩ Trưởng Khoa Nhi - Vinmec Hạ Long",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_04",
+        "title": "Lập Trình Viên AI & Data Scientist",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_05",
+        "title": "Nhân Viên Buồng Phòng Du Thuyền Ngủ Đêm",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_06",
+        "title": "Giảng Viên CNTT / An Toàn Thông Tin",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_07",
+        "title": "Thợ Hàn Công Nghệ Cao - Nhà Máy Đóng Tàu Hạ Long",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_08",
+        "title": "Nhân Viên Tư Vấn Tuyển Sinh Khóa Học Kỹ Năng",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_09",
+        "title": "Nhân Viên Giao Nhận Cảng Hàng Hải",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_10",
+        "title": "Kỹ Sư Kiểm Thử Phần Mềm QA/QC (Manual Tester)",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_11",
+        "title": "Nhân Viên Bảo Trì Điện Nước Khách Sạn Bãi Cháy",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_12",
+        "title": "Chuyên Viên Quan Hệ Khách Hàng Doanh Nghiệp Lớn",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_13",
+        "title": "Đầu Bếp Nhà Hàng Hải Sản Hồng Gai",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_14",
+        "title": "Nhân Viên Pháp Chế Doanh Nghiệp (Legal Officer)",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_15",
+        "title": "Nhân Viên Bán Vé Tham Quan Vịnh Hạ Long",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_16",
+        "title": "Kiến Trúc Sư Giải Pháp Điện Toán Đám Mây (Cloud AWS)",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_17",
+        "title": "Nhân Viên Chăm Sóc Động Vật Thủy Sinh",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_18",
+        "title": "Biên Tập Viên Tin Tức Truyền Hình Kỹ Thuật Số",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      },
+      {
+        "id": "loc_19",
+        "title": "Giám Sát Bán Hàng Kênh Đại Lý Vùng Mỏ",
+        "gt_target_city": "Hạ Long",
+        "predicted_city": "Hạ Long",
+        "correct_city": true
+      },
+      {
+        "id": "loc_20",
+        "title": "Chuyên Viên Nhân Sự & Đào Tạo Nội Bộ",
+        "gt_target_city": "Hà Nội",
+        "predicted_city": "Hà Nội",
+        "correct_city": true
+      }
+    ]
+  },
+  "url_validity": {
+    "tp": 10,
+    "fp": 0,
+    "tn": 10,
+    "fn": 0,
+    "total": 20,
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "samples_count": 20,
+    "detailed_results": [
+      {
+        "id": "url_01",
+        "url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-dien-ha-long.35B29B12.html",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_02",
+        "url": "https://sungroup.com.vn/careers/tuyen-dung-ky-su-van-hanh-cap-treo",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_03",
+        "url": "https://topcv.vn/viec-lam/nhan-vien-kinh-doanh-fpt-telecom-quang-ninh/1429812.html",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_04",
+        "url": "https://boards.greenhouse.io/techglobal/jobs/4982173002",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_05",
+        "url": "https://fptsoftware.com/careers/job-detail?id=JAVA_DEV_HN_2026",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_06",
+        "url": "https://jobs.lever.co/vng/94b54e38-a28d-4f10-bf92-b4ea2d8f9c11",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_07",
+        "url": "https://hoteljob.vn/viec-lam/le-tan-khach-san-wyndham-legend-ha-long-182947.html",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_08",
+        "url": "https://vinpearl.com/vi/careers/nhan-vien-buong-phong-vinpearl-ha-long",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_09",
+        "url": "https://vietnamworks.com/chuyen-vien-seo-content-quang-ninh-1782910-jv",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_10",
+        "url": "https://cict.com.vn/tuyen-dung/ky-su-bao-tri-co-gioi-cang-bien-2026",
+        "reason": "Cú pháp URL hợp lệ",
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "id": "url_11",
+        "url": "https://careerviet.vn/",
+        "reason": "URL chỉ là trang chủ root (careerviet.vn) không phải trang chi tiết tuyển dụng",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_12",
+        "url": "https://wyndhamhalong.com/vi/rooms/executive-suite-booking",
+        "reason": "Domain wyndhamhalong.com là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_13",
+        "url": "https://topcv.vn/#it-98214",
+        "reason": "URL chứa anchor giả lập hoặc query tracking rác",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_14",
+        "url": "https://sunworld.vn/ha-long",
+        "reason": "Domain sunworld.vn là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_15",
+        "url": "https://booking.com/hotel/vn/wyndham-legend-halong.html",
+        "reason": "Domain booking.com là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_16",
+        "url": "https://vietnamworks.com/tim-viec-lam?ref=facebook_ad",
+        "reason": "URL chứa anchor giả lập hoặc query tracking rác",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_17",
+        "url": "https://fptsoftware.com/?post_ref=tracker_12345",
+        "reason": "URL chứa anchor giả lập hoặc query tracking rác",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_18",
+        "url": "https://yokoonsenquanghanh.com.vn/gia-ve-on-sen",
+        "reason": "Domain yokoonsenquanghanh.com.vn là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_19",
+        "url": "not-a-valid-http-url-string",
+        "reason": "URL không bắt đầu bằng giao thức http:// hoặc https://",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "id": "url_20",
+        "url": "https://muongthanh.com/khuyen-mai-mua-he",
+        "reason": "Domain muongthanh.com là website đặt phòng/dịch vụ khách sạn, thiếu path tuyển dụng",
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      }
+    ]
+  },
+  "deduplication": {
+    "tp": 5,
+    "fp": 0,
+    "tn": 5,
+    "fn": 0,
+    "total": 10,
+    "accuracy": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "samples_count": 10,
+    "detailed_results": [
+      {
+        "pair_id": "dedup_01",
+        "match_reason": "exact_canonical_url",
+        "confidence": 1.0,
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_02",
+        "match_reason": "same_company_and_title_0.794",
+        "confidence": 0.85,
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_03",
+        "match_reason": "same_company_and_title_1.0",
+        "confidence": 1.0,
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_04",
+        "match_reason": "exact_canonical_url",
+        "confidence": 1.0,
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_05",
+        "match_reason": "same_company_and_title_0.93",
+        "confidence": 0.93,
+        "ground_truth": true,
+        "predicted": true,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_06",
+        "match_reason": "anti_merge_different_province",
+        "confidence": 0.0,
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_07",
+        "match_reason": "no_match",
+        "confidence": 0.0,
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_08",
+        "match_reason": "anti_merge_different_province",
+        "confidence": 0.0,
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_09",
+        "match_reason": "no_match",
+        "confidence": 0.0,
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      },
+      {
+        "pair_id": "dedup_10",
+        "match_reason": "no_match",
+        "confidence": 0.0,
+        "ground_truth": false,
+        "predicted": false,
+        "is_correct": true
+      }
+    ]
+  },
+  "field_extraction": {
+    "field_accuracies": {
+      "title": 100.0,
+      "company": 60.0,
+      "location": 100.0,
+      "job_type": 100.0,
+      "experience_level": 100.0,
+      "deadline": 100.0
+    },
+    "overall_extraction_accuracy": 93.33,
+    "total_fields_evaluated": 30,
+    "detailed_results": [
+      {
+        "sample_id": "extract_01",
+        "field_evals": {
+          "title": {
+            "ground_truth": "Kỹ Sư Cơ Điện (M&E)",
+            "extracted": "Kỹ Sư Cơ Điện (M&E)",
+            "is_match": true
+          },
+          "company": {
+            "ground_truth": "Tập đoàn Sun Group",
+            "extracted": "CÔNG TY CỔ PHẦN TẬP ĐOÀN SUN GROUP",
+            "is_match": true
+          },
+          "location": {
+            "ground_truth": "Hạ Long",
+            "extracted": "Hạ Long",
+            "is_match": true
+          },
+          "job_type": {
+            "ground_truth": "Toàn thời gian",
+            "extracted": "Toàn thời gian",
+            "is_match": true
+          },
+          "experience_level": {
+            "ground_truth": "Junior",
+            "extracted": "Junior",
+            "is_match": true
+          },
+          "deadline": {
+            "ground_truth": "2026-11-30",
+            "extracted": "2026-11-30",
+            "is_match": true
+          }
+        }
+      },
+      {
+        "sample_id": "extract_02",
+        "field_evals": {
+          "title": {
+            "ground_truth": "Lập Trình Viên Java Spring Boot",
+            "extracted": "Lập Trình Viên Java Spring Boot",
+            "is_match": true
+          },
+          "company": {
+            "ground_truth": "FPT Software",
+            "extracted": "FPT SOFTWARE",
+            "is_match": true
+          },
+          "location": {
+            "ground_truth": "Hà Nội",
+            "extracted": "Hà Nội",
+            "is_match": true
+          },
+          "job_type": {
+            "ground_truth": "Toàn thời gian",
+            "extracted": "Toàn thời gian",
+            "is_match": true
+          },
+          "experience_level": {
+            "ground_truth": "Fresher",
+            "extracted": "Fresher",
+            "is_match": true
+          },
+          "deadline": {
+            "ground_truth": "2026-12-15",
+            "extracted": "2026-12-15",
+            "is_match": true
+          }
+        }
+      },
+      {
+        "sample_id": "extract_03",
+        "field_evals": {
+          "title": {
+            "ground_truth": "Nhân Viên Lễ Tân Ca Đêm",
+            "extracted": "Nhân Viên Lễ Tân Ca Đêm",
+            "is_match": true
+          },
+          "company": {
+            "ground_truth": "Khách Sạn Wyndham Legend Hạ Long",
+            "extracted": "Khách Sạn Wyndham Legend Bãi Cháy",
+            "is_match": false
+          },
+          "location": {
+            "ground_truth": "Hạ Long",
+            "extracted": "Hạ Long",
+            "is_match": true
+          },
+          "job_type": {
+            "ground_truth": "Bán thời gian",
+            "extracted": "Bán thời gian",
+            "is_match": true
+          },
+          "experience_level": {
+            "ground_truth": "Không yêu cầu",
+            "extracted": "Không yêu cầu",
+            "is_match": true
+          },
+          "deadline": {
+            "ground_truth": "2026-11-20",
+            "extracted": "2026-11-20",
+            "is_match": true
+          }
+        }
+      },
+      {
+        "sample_id": "extract_04",
+        "field_evals": {
+          "title": {
+            "ground_truth": "Thực Tập Sinh An Toàn Thông Tin",
+            "extracted": "Thực Tập Sinh An Toàn Thông Tin (Security Intern)",
+            "is_match": true
+          },
+          "company": {
+            "ground_truth": "Tập Đoàn VNPT",
+            "extracted": "Tập Đoàn Công Nghệ VNPT",
+            "is_match": false
+          },
+          "location": {
+            "ground_truth": "Hà Nội",
+            "extracted": "Hà Nội",
+            "is_match": true
+          },
+          "job_type": {
+            "ground_truth": "Thực tập",
+            "extracted": "Thực tập",
+            "is_match": true
+          },
+          "experience_level": {
+            "ground_truth": "Fresher",
+            "extracted": "Fresher",
+            "is_match": true
+          },
+          "deadline": {
+            "ground_truth": "2026-12-01",
+            "extracted": "2026-12-01",
+            "is_match": true
+          }
+        }
+      },
+      {
+        "sample_id": "extract_05",
+        "field_evals": {
+          "title": {
+            "ground_truth": "Thợ Hàn Cơ Khí Công Trình",
+            "extracted": "Thợ Hàn Cơ Khí Công Trình Địa bàn: Cẩm Phả, Quảng Ninh",
+            "is_match": true
+          },
+          "company": {
+            "ground_truth": "Công Ty Cổ Phần Than Đèo Nai - TKV",
+            "extracted": "Công Ty Cổ Phần Than Đèo Nai - TKV",
+            "is_match": true
+          },
+          "location": {
+            "ground_truth": "Cẩm Phả",
+            "extracted": "Cẩm Phả",
+            "is_match": true
+          },
+          "job_type": {
+            "ground_truth": "Toàn thời gian",
+            "extracted": "Toàn thời gian",
+            "is_match": true
+          },
+          "experience_level": {
+            "ground_truth": "Junior",
+            "extracted": "Junior",
+            "is_match": true
+          },
+          "deadline": {
+            "ground_truth": "2026-11-25",
+            "extracted": "2026-11-25",
+            "is_match": true
+          }
+        }
+      }
+    ]
+  }
+}

@@ -912,10 +912,110 @@ export function searchJobsRealtime(
     if (params.job_type) {
       const normType = removeVietnameseTones(params.job_type);
       const normJobType = removeVietnameseTones(job.job_type || "");
-      if (normJobType.includes(normType)) {
-        score += 10;
+      const fullText = removeVietnameseTones(`${job.job_type || ""} ${job.description || ""}`);
+      if (normJobType.includes(normType) || fullText.includes(normType)) {
+        score += 15;
       } else {
-        score -= 20;
+        return { job, score: -9999 };
+      }
+    }
+
+    if (params.experience_level) {
+      const expKey = removeVietnameseTones(params.experience_level);
+      const normJobExp = removeVietnameseTones(job.experience_level || "");
+      const fullJobText = removeVietnameseTones(`${job.title || ""} ${job.description || ""} ${job.requirements || ""}`);
+
+      let isExpMatch = false;
+      if (expKey.includes("fresher") || expKey.includes("intern") || expKey.includes("thuc tap")) {
+        isExpMatch =
+          normJobExp.includes("fresher") ||
+          normJobExp.includes("intern") ||
+          normJobExp.includes("thuc tap") ||
+          fullJobText.includes("fresher") ||
+          fullJobText.includes("intern") ||
+          fullJobText.includes("thuc tap") ||
+          fullJobText.includes("chua co kinh nghiem") ||
+          fullJobText.includes("khong yeu cau kinh nghiem") ||
+          fullJobText.includes("sinh vien moi ra truong") ||
+          fullJobText.includes("tap su");
+      } else if (expKey.includes("junior")) {
+        isExpMatch =
+          normJobExp.includes("junior") ||
+          normJobExp.includes("fresher") ||
+          fullJobText.includes("junior") ||
+          fullJobText.includes("1 nam") ||
+          fullJobText.includes("2 nam") ||
+          fullJobText.includes("1-2 nam") ||
+          fullJobText.includes("duoi 2 nam") ||
+          fullJobText.includes("khong yeu cau kinh nghiem");
+      } else if (expKey.includes("middle")) {
+        isExpMatch =
+          normJobExp.includes("middle") ||
+          fullJobText.includes("middle") ||
+          fullJobText.includes("2-4 nam") ||
+          fullJobText.includes("3 nam") ||
+          fullJobText.includes("chuyen vien");
+      } else if (expKey.includes("senior") || expKey.includes("quan ly") || expKey.includes("lead")) {
+        isExpMatch =
+          normJobExp.includes("senior") ||
+          normJobExp.includes("lead") ||
+          normJobExp.includes("manager") ||
+          normJobExp.includes("quan ly") ||
+          normJobExp.includes("truong nhom") ||
+          fullJobText.includes("senior") ||
+          fullJobText.includes("lead") ||
+          fullJobText.includes("truong nhom") ||
+          fullJobText.includes("quan ly") ||
+          fullJobText.includes("5 nam") ||
+          fullJobText.includes("4 nam");
+      } else {
+        isExpMatch = normJobExp.includes(expKey) || fullJobText.includes(expKey);
+      }
+
+      if (isExpMatch) {
+        score += 20;
+        reasons.push(`Khớp cấp bậc / kinh nghiệm: ${params.experience_level} (+20)`);
+      } else {
+        return { job, score: -9999 };
+      }
+    }
+
+    if (params.source_platform) {
+      const normPlatform = removeVietnameseTones(params.source_platform);
+      const jobPlatform = removeVietnameseTones(job.source_platform || "");
+      const isPlatformMatch =
+        jobPlatform.includes(normPlatform) ||
+        (normPlatform === "doanh nghiep" && (jobPlatform.includes("doanh nghiep") || job.evidence_proof?.source_type === "enterprise_direct")) ||
+        (normPlatform.includes("facebook") && jobPlatform.includes("facebook"));
+      if (isPlatformMatch) {
+        score += 20;
+        reasons.push(`Nguồn tuyển dụng: ${params.source_platform} (+20)`);
+      } else {
+        return { job, score: -9999 };
+      }
+    }
+
+    if (params.enterprise_only) {
+      const isLocalEnterprise =
+        (job.source_platform && job.source_platform.includes("Doanh Nghiệp")) ||
+        job.evidence_proof?.source_type === "enterprise_direct" ||
+        String(job.id).startsWith("local_ent_");
+      if (isLocalEnterprise) {
+        score += 25;
+        reasons.push("Doanh nghiệp trọng điểm Hạ Long (+25)");
+      } else {
+        return { job, score: -9999 };
+      }
+    }
+
+    if (params.remote) {
+      const fullJobText = removeVietnameseTones(`${job.title || ""} ${job.description || ""} ${job.requirements || ""} ${job.location_full || ""} ${job.job_type || ""}`);
+      const isRemoteMatch = fullJobText.includes("remote") || fullJobText.includes("tu xa") || fullJobText.includes("hybrid");
+      if (isRemoteMatch) {
+        score += 25;
+        reasons.push("Làm việc từ xa (Remote / Hybrid) (+25)");
+      } else {
+        return { job, score: -9999 };
       }
     }
 

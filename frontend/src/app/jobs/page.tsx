@@ -18,6 +18,13 @@ function JobsView() {
   const platform = searchParams?.get("source_platform") || "";
   const salary_min = searchParams?.get("salary_min");
   const salary_max = searchParams?.get("salary_max");
+  const experience_level = searchParams?.get("experience_level") || "";
+  const quality_tier = searchParams?.get("quality_tier") || "";
+  const tech_stack = searchParams?.get("tech_stack") || "";
+  const sort_by = searchParams?.get("sort_by") || "";
+  const isRemote = searchParams?.get("remote") === "true";
+  const isEnterpriseOnly = searchParams?.get("enterprise_only") === "true";
+  const isVerifiedOnly = searchParams?.get("verified_only") === "true";
   const page = Number(searchParams?.get("page")) || 1;
   const pageSize = Number(searchParams?.get("page_size")) || 20;
   const isLive = searchParams?.get("live") === "true";
@@ -47,6 +54,13 @@ function JobsView() {
       salary_min: salary_min ? Number(salary_min) : undefined,
       salary_max: salary_max ? Number(salary_max) : undefined,
       source_platform: platform || undefined,
+      experience_level: experience_level || undefined,
+      quality_tier: quality_tier || undefined,
+      tech_stack: tech_stack || undefined,
+      sort_by: sort_by || undefined,
+      remote: isRemote || undefined,
+      enterprise_only: isEnterpriseOnly || undefined,
+      verified_only: isVerifiedOnly || undefined,
       live: isLive,
       strict_mode: isStrictMode,
       saved: isSavedOnly,
@@ -66,7 +80,7 @@ function JobsView() {
     return () => {
       isMounted = false;
     };
-  }, [urlQ, urlProvince, category, job_type, platform, salary_min, salary_max, isLive, isStrictMode, isSavedOnly, page, pageSize]);
+  }, [urlQ, urlProvince, category, job_type, platform, salary_min, salary_max, experience_level, quality_tier, tech_stack, sort_by, isRemote, isEnterpriseOnly, isVerifiedOnly, isLive, isStrictMode, isSavedOnly, page, pageSize]);
 
   return (
     <div className="min-h-screen bg-white pb-16">
