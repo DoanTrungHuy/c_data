@@ -25209,6 +25209,227 @@
     "is_active": true
   },
   {
+    "id": "cv_live_9730456395",
+    "title": "Senior AI Engineer - Ba Đình, HN 28716",
+    "company_name": "Công Ty TNHH Reeracoen Việt Nam",
+    "description": "Mô tả Công việc\n- Nghiên cứu và phát triển các ứng dụng AI / Deep Learning / Machine Learning phục vụ hoạt động kinh doanh, sản phẩm và dịch vụ của công ty\n- Các dự án bao gồm: Xử lý hình ảnh, NLP (Xử lý ngôn ngữ tự nhiên), nhận diện giọng nói, AI nhúng (embedded AI)\n- Trải nghiệm môi trường làm việc chuyên nghiệp với các dự án đa dạng",
+    "requirements": "Yêu Cầu Công Việc\n• Bằng Cử nhân.\n• Có ít nhất 5 năm kinh nghiệm trong lĩnh vực Xử lý ảnh kỹ thuật số và Thị giác máy tính (Computer Vision).\n• Kỹ năng lập trình tốt với một trong các ngôn ngữ: C, C++, C#, hoặc Python.\n• Am hiểu về Xử lý ảnh kỹ thuật số, Thị giác máy tính, Học máy (Machine Learning) và Học sâu (Deep Learning) (bao gồm 2D & 3D, OpenGL, Point cloud, v.v.).\n• Có kinh nghiệm thực hiện các dự án Thị giác máy tính như Phân đoạn ảnh (Image Segmentation), Phát hiện đối tượng (Object Detection), Truy xuất ảnh (Image Retrieval), Phân loại ảnh (Image Classification) sử dụng thư viện OpenCV là một lợi thế lớn.\n• Có kinh nghiệm làm việc với các framework Deep Learning phổ biến (OpenCV, TensorFlow, PyTorch, v.v.).\n• Tiếng Anh: Trình độ trung cấp trở lên.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "C#",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-ba-dinh-hn-28716.35C82559.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-ba-dinh-hn-28716.35C82559.html",
+    "posted_at": "2026-10-18T12:11:12.740060+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T12:11:12.740060+00:00",
+    "last_verified_at": "2026-10-18T12:11:12.740060+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T12:11:12.740060+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-ba-dinh-hn-28716.35C82559.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior AI Engineer - Ba Đình, HN 28716 tại Công Ty TNHH Reeracoen Việt Nam (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Senior AI Engineer - Ba Đình, HN 28716",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-ba-dinh-hn-28716.35C82559.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1336060102",
+    "title": "Phó phòng Công nghệ Mô hình - Deputy Head of Machine Learning Engineering - Khối Dữ liệu (2026TD456609)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nChịu trách nhiệm đảm bảo việc thiết kế, xây dựng và chuyển đổi hệ thống sang nền tảng MLOps lai (hybrid) tiên tiến. Trực tiếp dẫn dắt các pipeline đưa cụm mô hình trọng yếu (đặc biệt là mô hình Chấm điểm rủi ro - Scoring và Hạn mức - Limit) và các mô hình Kinh doanh từ giai đoạn MVP vào hệ thống lõi thực tế:\n1. Dẫn dắt quá trình đánh giá, thiết kế và quy hoạch kiến trúc nền tảng MLOps tập trung, đặc biệt là chiến lược triển khai kiến trúc lai (Hybrid On-premise/Cloud) với hệ thống MLOPs\nĐịnh nghĩa và ra quyết định công nghệ cho kiến trúc Feature Store, đảm bảo tính nhất quán của dữ liệu phục vụ huấn luyện (Offline Batch) và dự đoán theo thời gian thực (Online Real-time)\n2. Đảm bảo 100% các mô hình được refactor sang chuẩn mã nguồn Production (OOP) và triển khai thông qua đường ống CI/CD tự động hóa hoàn toàn\n3. Chủ trì xây dựng và ban hành bộ Tiêu chuẩn vận hành (MLE SOP), thiết lập ranh giới bàn giao rõ ràng với nhóm Phát triển mô hình (DS)\nXây dựng chuẩn tài liệu hóa để chuyển giao các logic trích xuất đặc trưng phức tạp lên Feature Store (bao gồm cấu trúc mã hóa chuỗi hành vi sử dụng thuật toán Sequence Graph Transform - SGT)\n4. Trực tiếp điều phối kỹ thuật, bám sát các chặng (Milestones) và nghiệm thu các hạng mục bàn giao với đối tác vendor (Ask2AI) trong các giai đoạn cấu trúc MVP lõi",
+    "requirements": "Yêu Cầu Công Việc\n- Tốt nghiệp Cử nhân chuyên ngành khoa học dữ liệu, khoa học máy tính, thống kê, Toán tin... hoặc các chuyên ngành liên quan\n- Tối thiểu 5 năm kinh nghiệm trong các lĩnh vực Data Engineering, Backend/System Architecture hoặc Machine Learning Engineering trong đó có ít nhất 2 - 3 năm ở vị trí quản lý đội ngũ kỹ thuật (Engineering Manager / Tech Lead)\n- Hiểu biết & từng triển khai kiến trúc phần mềm phân tán và vòng đời MLOps; có kinh nghiệm với Feature Store (Hopsworks, Feast) và các nền tảng Experiment Tracking (MLflow, DVC)\n- Sử dụng ở mức độ chuyên gia hệ sinh thái Python, các framework xây dựng API hiệu năng cao (FastAPI, gRPC), và các Serving Engines hàng đầu (Triton Inference Server, TorchServe)\n- Ưu tiên kinh nghiệm trong việc thiết kế và đưa lên Production các mô hình rủi ro tài chính (A-card, B-card, C-card) hoặc các mô hình Kinh doanh (Marketing, Churn …) quy mô lớn\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhâ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Power BI / Tableau",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-cong-nghe-mo-hinh-deputy-head-of-machine-learning-engineering-khoi-du-lieu-2026td456609.35C84B0A.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-cong-nghe-mo-hinh-deputy-head-of-machine-learning-engineering-khoi-du-lieu-2026td456609.35C84B0A.html",
+    "posted_at": "2026-10-18T12:11:12.935665+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-18T12:11:12.935665+00:00",
+    "last_verified_at": "2026-10-18T12:11:12.935665+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T12:11:12.935665+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-cong-nghe-mo-hinh-deputy-head-of-machine-learning-engineering-khoi-du-lieu-2026td456609.35C84B0A.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Phó phòng Công nghệ Mô hình - Deputy Head of Machine Learning Engineering - Khối Dữ liệu (2026TD456609) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "18/10/2026",
+      "checked_at": "18/10/2026",
+      "live_h1": "Phó phòng Công nghệ Mô hình - Deputy Head of Machine Learning Engineering - Khối Dữ liệu (2026TD456609)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/pho-phong-cong-nghe-mo-hinh-deputy-head-of-machine-learning-engineering-khoi-du-lieu-2026td456609.35C84B0A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "9b4b2591-2c15-4ecf-b67f-01e39a60b043",
     "title": "SAP Public Cloud Developer (BTP / Integration Suite)",
     "company_name": "DatVietVAC Group Holdings",
