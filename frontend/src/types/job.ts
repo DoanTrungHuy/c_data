@@ -60,6 +60,8 @@ export interface Job {
   source_platform?: string | null;
   source_url?: string | null;
   apply_url?: string | null;
+  fanpage_url?: string | null;
+  facebook_search_url?: string | null;
   source_job_id?: string | null;
 
   // Temporal Tracking

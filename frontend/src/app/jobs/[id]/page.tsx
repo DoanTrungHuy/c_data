@@ -367,7 +367,32 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 {/* Primary Action Buttons: 1-Click Apply & Source Link */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <QuickApplyButton job={job} className="w-full py-3.5 text-sm sm:text-base" />
-                  {isValidDirectJobUrl(job.source_url) ? (
+                  {platform.id === "facebook" ? (
+                    <div className="flex flex-col sm:flex-row gap-2">
+                      <a
+                        href={job.source_url || `https://www.facebook.com/search/posts/?q=${encodeURIComponent(`Tuyển dụng ${job.title} ${job.company_name}`)}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-[#1877F2] hover:bg-[#166fe5] text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                        title="Mở kết quả bài viết trực tiếp trên Facebook (không bị lỗi 404)"
+                      >
+                        <span>🔍 Tìm Bài Đăng Trên FB</span>
+                        <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
+                      </a>
+                      {job.fanpage_url && (
+                        <a
+                          href={job.fanpage_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                          title="Ghé thăm Fanpage hoặc Nhóm tuyển dụng chính thức"
+                        >
+                          <span>🏢 Fanpage</span>
+                          <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
+                        </a>
+                      )}
+                    </div>
+                  ) : isValidDirectJobUrl(job.source_url) ? (
                     <a
                       href={job.source_url!}
                       target="_blank"
@@ -375,9 +400,7 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                       className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
                     >
                       <span>
-                        {platform.id === "facebook"
-                          ? "🌐 Mở Trang Facebook Gốc"
-                          : platform.id === "threads"
+                        {platform.id === "threads"
                           ? "🌐 Mở Trang Threads Gốc"
                           : platform.id === "tiktok"
                           ? "🌐 Mở Kênh TikTok Gốc"

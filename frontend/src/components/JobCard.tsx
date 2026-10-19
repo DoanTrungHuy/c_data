@@ -323,7 +323,7 @@ export default function JobCard({
                 className="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-neutral-600 hover:text-black bg-neutral-50 hover:bg-neutral-100 border border-neutral-200 px-3 py-1.5 rounded-xl transition-all"
                 title={`Mở nguồn tuyển dụng gốc: ${platform.name}`}
               >
-                <span>Nguồn gốc</span>
+                <span>{platform.id === "facebook" ? "🔍 Tìm trên FB" : "Nguồn gốc"}</span>
                 <ArrowUpRightIcon className="h-3.5 w-3.5 opacity-70" />
               </a>
             )}
@@ -611,13 +611,28 @@ export default function JobCard({
                       label="Chép link nguồn"
                       className="text-xs font-semibold text-neutral-700 hover:text-black border border-neutral-300 px-3 py-2 rounded-xl hover:bg-neutral-100"
                     />
+                    {platform.id === "facebook" && job.fanpage_url && (
+                      <a
+                        href={job.fanpage_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-xs font-bold text-neutral-800 bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-3.5 py-2.5 rounded-xl transition-all"
+                        title="Ghé thăm Fanpage hoặc Nhóm tuyển dụng chính thức"
+                      >
+                        <span>🏢 Fanpage</span>
+                      </a>
+                    )}
                     <a
                       href={job.source_url!}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-1.5 text-xs font-bold text-white bg-black hover:bg-neutral-800 px-4 py-2.5 rounded-xl transition-all shadow-xs"
                     >
-                      <span>🌐 Xem nguồn gốc ({platform.name})</span>
+                      <span>
+                        {platform.id === "facebook"
+                          ? "🔍 Xem bài đăng trên Facebook"
+                          : `🌐 Xem nguồn gốc (${platform.name})`}
+                      </span>
                       <ArrowUpRightIcon className="h-3.5 w-3.5" />
                     </a>
                   </>
