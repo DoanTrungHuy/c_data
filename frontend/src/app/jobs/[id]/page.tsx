@@ -370,24 +370,24 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   {platform.id === "facebook" ? (
                     <div className="flex flex-col sm:flex-row gap-2">
                       <a
-                        href={job.fanpage_url || job.source_url || `https://www.facebook.com/search/posts/?q=${encodeURIComponent(`Tuyển dụng ${job.title} ${job.company_name}`)}`}
+                        href={job.source_url || job.fanpage_url || "https://www.facebook.com/groups/397427535289567/"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-black hover:bg-neutral-800 text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                        title="Ghé thăm Cổng thông tin / Fanpage tuyển dụng chính thức của đơn vị"
+                        title="Mở bài đăng tuyển dụng trực tiếp trên Facebook"
                       >
-                        <span>🏢 Cổng Đơn Vị Tuyển Dụng</span>
+                        <span>📄 Xem Bài Đăng Facebook Gốc</span>
                         <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
                       </a>
-                      {job.source_url && (
+                      {job.fanpage_url && (
                         <a
-                          href={job.source_url}
+                          href={job.fanpage_url}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                          title="Đối soát bài đăng và tin tuyển dụng trên Facebook"
+                          title="Ghé thăm Fanpage hoặc Nhóm tuyển dụng"
                         >
-                          <span>🔗 Đối Soát Bài Đăng</span>
+                          <span>🏢 Fanpage / Nhóm</span>
                           <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
                         </a>
                       )}
@@ -397,21 +397,19 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                       href={job.source_url!}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                      className="w-full inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-black hover:bg-neutral-800 text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
                     >
                       <span>
-                        {platform.id === "threads"
-                          ? "🌐 Mở Trang Threads Gốc"
-                          : platform.id === "tiktok"
-                          ? "🌐 Mở Kênh TikTok Gốc"
+                        {job.source_platform?.includes("Tập Đoàn") || job.source_platform?.includes("Doanh Nghiệp") || job.source_platform?.includes("Cổng")
+                          ? "🏢 Mở Cổng Tuyển Dụng Doanh Nghiệp"
                           : platform.id === "careerviet"
                           ? "📄 Xem Trên CareerViet"
                           : platform.id === "topcv"
                           ? "📄 Xem Trên TopCV"
-                          : platform.id === "vietnamworks"
-                          ? "📄 Xem Trên VietnamWorks"
-                          : platform.id === "company" || (job.source_platform && (job.source_platform.includes("Website") || job.source_platform.includes("Doanh nghiệp") || job.source_platform.includes("Tập Đoàn")))
-                          ? "🏢 Mở Cổng Doanh Nghiệp"
+                          : platform.id === "itviec"
+                          ? "📄 Xem Trên ITViec"
+                          : platform.id === "linkedin"
+                          ? "📄 Xem Trên LinkedIn"
                           : `Xem Tin Gốc (${platform.name})`}
                       </span>
                       <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
