@@ -102,6 +102,14 @@ export interface Job {
   benefits_detail?: string[] | null;
   interview_process?: Array<{ step: number; title: string; desc: string }> | null;
   evidence_proof?: EvidenceProof | null;
+  grounding?: {
+    framework?: string;
+    verification_status?: string;
+    confidence_score?: number;
+    canonical_source?: string;
+    verbatim_evidence_snippet?: string;
+    entities?: Record<string, any>;
+  } | null;
   quality_audit?: {
     corporate_verified?: boolean;
     salary_transparent?: boolean;

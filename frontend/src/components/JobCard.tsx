@@ -316,14 +316,14 @@ export default function JobCard({
           <div className="flex items-center gap-2">
             {isValidDirectJobUrl(job.source_url) && (
               <a
-                href={job.source_url!}
+                href={platform.id === "facebook" && job.fanpage_url ? job.fanpage_url : job.source_url!}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
                 className="hidden sm:inline-flex items-center gap-1 text-xs font-semibold text-neutral-600 hover:text-black bg-neutral-50 hover:bg-neutral-100 border border-neutral-200 px-3 py-1.5 rounded-xl transition-all"
-                title={`Mở nguồn tuyển dụng gốc: ${platform.name}`}
+                title={platform.id === "facebook" ? "Ghé thăm Cổng / Fanpage chính thức của đơn vị" : `Mở nguồn tuyển dụng gốc: ${platform.name}`}
               >
-                <span>{platform.id === "facebook" ? "🔍 Tìm trên FB" : "Nguồn gốc"}</span>
+                <span>{platform.id === "facebook" ? "🏢 Kênh đơn vị" : "Nguồn gốc"}</span>
                 <ArrowUpRightIcon className="h-3.5 w-3.5 opacity-70" />
               </a>
             )}

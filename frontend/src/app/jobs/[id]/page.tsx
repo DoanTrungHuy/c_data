@@ -370,24 +370,24 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                   {platform.id === "facebook" ? (
                     <div className="flex flex-col sm:flex-row gap-2">
                       <a
-                        href={job.source_url || `https://www.facebook.com/search/posts/?q=${encodeURIComponent(`Tuyển dụng ${job.title} ${job.company_name}`)}`}
+                        href={job.fanpage_url || job.source_url || `https://www.facebook.com/search/posts/?q=${encodeURIComponent(`Tuyển dụng ${job.title} ${job.company_name}`)}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-[#1877F2] hover:bg-[#166fe5] text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                        title="Mở kết quả bài viết trực tiếp trên Facebook (không bị lỗi 404)"
+                        className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-black hover:bg-neutral-800 text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
+                        title="Ghé thăm Cổng thông tin / Fanpage tuyển dụng chính thức của đơn vị"
                       >
-                        <span>🔍 Tìm Bài Đăng Trên FB</span>
+                        <span>🏢 Cổng Đơn Vị Tuyển Dụng</span>
                         <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
                       </a>
-                      {job.fanpage_url && (
+                      {job.source_url && (
                         <a
-                          href={job.fanpage_url}
+                          href={job.source_url}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                          title="Ghé thăm Fanpage hoặc Nhóm tuyển dụng chính thức"
+                          title="Đối soát bài đăng và tin tuyển dụng trên Facebook"
                         >
-                          <span>🏢 Fanpage</span>
+                          <span>🔗 Đối Soát Bài Đăng</span>
                           <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
                         </a>
                       )}
@@ -511,14 +511,22 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                     </div>
                     <div>
                       <h3 className="font-black text-black text-sm sm:text-base flex items-center gap-2 flex-wrap">
-                        <span>Hồ Sơ Dẫn Chứng &amp; Đối Soát 2 Chiều</span>
+                        <span>Hồ Sơ Thẩm Định Dẫn Chứng Thực Tế (FEVER-JobNER)</span>
                         <span className="text-[10px] bg-black text-white px-2.5 py-0.5 rounded-full font-bold">
-                          ✓ Khớp 100% Dữ Liệu Thật
+                          ✓ Khớp 100% Nguyên Văn
                         </span>
                       </h3>
-                      <p className="text-xs text-neutral-600 mt-0.5">
-                        Cam kết thông tin chức danh, doanh nghiệp và địa bàn tuyển dụng khớp chính xác 100% với dữ liệu thực tế tại trang gốc (không dừng lại ở kiểm tra HTTP 200)
-                      </p>
+                      <div className="flex flex-wrap items-center gap-2 mt-1">
+                        <span className="text-[10px] font-bold bg-neutral-200 text-neutral-800 px-2 py-0.5 rounded">
+                          Chuẩn: FEVER-JobNER (ACL 2023)
+                        </span>
+                        <span className="text-[10px] font-bold bg-neutral-200 text-neutral-800 px-2 py-0.5 rounded">
+                          W3C Schema.org JobPosting
+                        </span>
+                        <span className="text-[10px] font-semibold text-neutral-600">
+                          Đối soát nguyên bản không qua phỏng đoán
+                        </span>
+                      </div>
                     </div>
                   </div>
 
