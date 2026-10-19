@@ -59,7 +59,9 @@ NON_IT_TERMS = [
     "chuyên viên kinh doanh", "chuyên ngành điện", "điện & tiện ích", "asm -",
     "sales b2b", "sales executive", "sales staff", "nhân viên kinh doanh", "tư vấn bán hàng",
     "kỹ sư điện", "thiết kế điện", "cơ khí", "m&e", "cnc", "máy phay", "phay cnc",
-    "gia công", "garment", "merchandiser", "fabric", "may mặc", "dệt may", "thời trang"
+    "gia công", "garment", "merchandiser", "fabric", "may mặc", "dệt may", "thời trang",
+    "thực phẩm", "nước giải khát", "khiếu nại", "chế biến", "nông nghiệp", "thủy sản", "hải sản",
+    "xây dựng", "công trình", "mỹ phẩm", "dược phẩm bách", "lễ tân", "buồng phòng", "đầu bếp"
 ]
 
 NON_IT_SLUGS = [
@@ -67,34 +69,55 @@ NON_IT_SLUGS = [
     "phuc-vu", "le-tan", "thiet-ke-dien", "co-dien", "hvac", "giao-dich-vien",
     "cham-soc-khach-hang", "telesales", "tiep-thi", "marketing-online",
     "thao-tac", "co-khi", "thu-kho", "bao-ve", "dien-dan-dung", "cnc",
-    "may-phay", "gia-cong", "garment", "merchandiser", "fabric", "may-mac"
+    "may-phay", "gia-cong", "garment", "merchandiser", "fabric", "may-mac",
+    "thuc-pham", "che-bien", "xay-dung"
 ]
 
 IT_KEYWORDS = [
     "it", "cntt", "công nghệ thông tin", "lập trình", "developer", "software",
     "phần mềm", "backend", "frontend", "fullstack", "mobile", "ios", "android",
     "react", "vue", "angular", "node", "python", "java", "golang", "c++", ".net",
-    "php", "tester", "qa", "qc", "devops", "cloud", "aws", "azure", "docker",
+    "php", "tester", "devops", "cloud", "aws", "azure", "docker",
     "kubernetes", "hệ thống", "system admin", "network", "mạng", "helpdesk",
     "it support", "kỹ thuật viên it", "an toàn thông tin", "security", "data",
-    "dữ liệu", "ai", "machine learning", "database", "sql", "chuyển đổi số",
-    "erp", "scada", "pms", "pos", "his", "pacs", "bi", "business analyst"
+    "dữ liệu", "machine learning", "database", "sql", "chuyển đổi số",
+    "erp", "scada", "pms", "pos", "his", "pacs", "business analyst"
 ]
 
 TECH_RULES = [
-    ("python", "Python"), ("java", "Java"), ("spring", "Spring Boot"),
-    ("react", "React"), ("next.js", "Next.js"), ("vue", "Vue.js"),
-    ("angular", "Angular"), ("node", "Node.js"), ("golang", "Go / Golang"),
-    (".net", ".NET / C#"), ("c#", "C#"), ("php", "PHP"),
-    ("docker", "Docker"), ("kubernetes", "Kubernetes"), ("aws", "AWS"),
-    ("azure", "Azure"), ("devops", "CI/CD DevOps"), ("linux", "Linux"),
-    ("sql", "SQL Database"), ("oracle", "Oracle DB"), ("postgres", "PostgreSQL"),
-    ("mongo", "MongoDB"), ("redis", "Redis"), ("cisco", "Cisco Networking"),
-    ("ccna", "CCNA"), ("lan/wan", "LAN/WAN"), ("wifi", "WiFi Mesh"),
-    ("camera", "Camera AI"), ("active directory", "Active Directory"),
-    ("firewall", "Firewall"), ("helpdesk", "IT Support L1/L2"),
-    ("pms", "Opera PMS"), ("his", "HIS/PACS Y Tế"), ("scada", "SCADA Mỏ"),
-    ("bi", "Power BI / Tableau"), ("ai", "AI / Machine Learning")
+    (r"\bpython\b", "Python"),
+    (r"\bjava\b(?!script)", "Java"),
+    (r"\b(spring|spring\s*boot)\b", "Spring Boot"),
+    (r"\b(react|reactjs|react\.js)\b", "React"),
+    (r"\b(next\.js|nextjs)\b", "Next.js"),
+    (r"\b(vue|vuejs|vue\.js)\b", "Vue.js"),
+    (r"\b(angular|angularjs)\b", "Angular"),
+    (r"\b(node|nodejs|node\.js)\b", "Node.js"),
+    (r"\b(golang|\bgo\b)", "Go / Golang"),
+    (r"(\.net|dotnet|\bc#\b)", ".NET / C#"),
+    (r"\bphp\b", "PHP"),
+    (r"\bdocker\b", "Docker"),
+    (r"\b(kubernetes|k8s)\b", "Kubernetes"),
+    (r"\baws\b", "AWS"),
+    (r"\bazure\b", "Azure"),
+    (r"\b(devops|ci/cd|cicd)\b", "CI/CD DevOps"),
+    (r"\blinux\b", "Linux"),
+    (r"\b(sql|mysql|postgresql|postgres)\b", "SQL Database"),
+    (r"\boracle\b", "Oracle DB"),
+    (r"\bmongodb?\b", "MongoDB"),
+    (r"\bredis\b", "Redis"),
+    (r"\b(cisco|ccna|ccnp)\b", "Cisco Networking"),
+    (r"\b(lan|wan|lan/wan)\b", "LAN/WAN"),
+    (r"\b(wifi|wi-fi)\b", "WiFi Mesh"),
+    (r"\b(camera|cctv)\b", "Camera AI"),
+    (r"\b(active\s*directory|\bad\b)", "Active Directory"),
+    (r"\bfirewall\b", "Firewall"),
+    (r"\b(helpdesk|it\s*support)\b", "IT Support L1/L2"),
+    (r"\b(opera\s*pms|smile\s*pms|\bpms\b)", "Opera PMS"),
+    (r"\b(his|pacs|emr)\b", "HIS/PACS Y Tế"),
+    (r"\bscada\b", "SCADA Mỏ"),
+    (r"\b(power\s*bi|tableau)\b", "Power BI / Tableau"),
+    (r"\b(machine\s*learning|deep\s*learning|\bai\b|\bllm\b)\b", "AI / Machine Learning"),
 ]
 
 
@@ -181,11 +204,11 @@ class LiveITCrawlerEngine:
         return None, None
 
     def extract_tech_stack(self, text: str) -> List[str]:
-        """Tự động trích xuất các kỹ năng công nghệ"""
+        """Tự động trích xuất các kỹ năng công nghệ chuẩn xác theo Regex Word-Boundary"""
         lower = text.lower()
         techs = []
-        for kw, tag in TECH_RULES:
-            if kw in lower and tag not in techs:
+        for pattern, tag in TECH_RULES:
+            if re.search(pattern, lower) and tag not in techs:
                 techs.append(tag)
         if not techs:
             techs = ["Công Nghệ Thông Tin", "Hệ Thống", "Hạ Tầng Mạng"]
@@ -210,12 +233,12 @@ class LiveITCrawlerEngine:
             title = h1.get_text(strip=True)
             t_low = title.lower()
 
-            if any(bad in t_low for bad in NON_IT_TERMS) and not any(k in t_low for k in ["lập trình", "developer", "software", "it helpdesk", "qa", "qc"]):
+            if any(bad in t_low for bad in NON_IT_TERMS) and not any(k in t_low for k in ["lập trình", "developer", "software", "it helpdesk", "qa phần mềm", "qc software"]):
                 return None
 
             is_it = False
             for kw in IT_KEYWORDS:
-                if kw in ["it", "qa", "qc", "ai", "bi"]:
+                if kw in ["it", "qa", "qc"]:
                     if re.search(r"\b" + kw + r"\b", t_low):
                         is_it = True
                         break
@@ -226,8 +249,13 @@ class LiveITCrawlerEngine:
             if not is_it:
                 return None
 
-            comp_el = soup.select_one(".employer-name, .company-name, .employer, a.employer")
-            comp_name = comp_el.get_text(strip=True) if comp_el else "Doanh nghiệp CNTT Đối Tác"
+            comp_el = soup.select_one("a.employer, .employer-name, .company-name")
+            comp_name = comp_el.get_text(strip=True) if comp_el else None
+            if not comp_name or comp_name in ["Phúc lợi", "Chế độ phúc lợi", "Doanh nghiệp CNTT Đối Tác"]:
+                return None
+
+            if any(bad in comp_name.lower() for bad in NON_IT_TERMS) and not any(k in t_low for k in ["lập trình", "developer", "software", "it support"]):
+                return None
 
             loc_el = soup.select_one(".map p, .location, .job-location")
             raw_loc = loc_el.get_text(strip=True) if loc_el else "Việt Nam"

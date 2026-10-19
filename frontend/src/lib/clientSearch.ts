@@ -375,7 +375,12 @@ export async function loadAllJobsForClient(): Promise<Job[]> {
           window.location.hostname.includes("github.io");
         const dataUrl = isGhPages ? "/c_data/data/jobs.json" : "/data/jobs.json";
 
-        const res = await fetch(dataUrl);
+        let res = await fetch(dataUrl);
+        if (!res.ok) {
+          const altUrl = isGhPages ? "/data/jobs.json" : "/c_data/data/jobs.json";
+          res = await fetch(altUrl);
+        }
+
         if (res.ok) {
           const data = await res.json();
           if (Array.isArray(data) && data.length > 0) {

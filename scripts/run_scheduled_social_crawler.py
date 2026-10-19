@@ -223,13 +223,19 @@ def run_social_crawl_cycle():
     # Lọc bỏ tin rác, tag filter, hoặc non-IT trước khi lưu
     DISQUALIFIED = [
         "filter", "jobs in", "garment", "merchandiser", "fabric", "may mặc",
-        "dệt may", "thời trang", "cnc", "máy phay", "gia công cơ khí"
+        "dệt may", "thời trang", "cnc", "máy phay", "gia công cơ khí",
+        "thực phẩm", "nước giải khát", "khiếu nại", "chế biến", "nông nghiệp", "thủy sản",
+        "xây dựng", "công trình", "mỹ phẩm", "dược phẩm bách", "buồng phòng", "đầu bếp"
     ]
     pure_jobs = []
     for j in current_jobs:
-        comp = j.get("company_name", "").lower()
-        title = j.get("title", "").lower()
+        comp = j.get("company_name", "").strip().lower()
+        title = j.get("title", "").strip().lower()
+        if comp in ["phúc lợi", "chế độ phúc lợi", "doanh nghiệp cntt đối tác"] or not comp:
+            continue
         if j.get("location_province") == "Quảng Ninh":
+            if any(term in title or term in comp for term in ["thực phẩm", "nước giải khát", "may mặc", "dệt may", "cnc", "máy phay"]):
+                continue
             pure_jobs.append(j)
             continue
         if any(term in title or term in comp for term in DISQUALIFIED):
