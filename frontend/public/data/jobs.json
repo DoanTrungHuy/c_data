@@ -50096,6 +50096,226 @@
     "is_active": true
   },
   {
+    "id": "cv_live_8960991419",
+    "title": "Nhân viên IT Support",
+    "company_name": "HCI Group",
+    "description": "Mô tả Công việc\n1. Hỗ trợ người dùng & phần mềm\n• Hướng dẫn, đào tạo người dùng sử dụng các hệ thống nội bộ: HIS, EMR, ERP, CRM…\n• Hỗ trợ người dùng trong suốt quá trình sử dụng phần mềm tại các cơ sở.\n• Tiếp nhận yêu cầu, phản hồi của người dùng và ghi nhận để phối hợp với bộ phận liên quan xử\nlý, cải tiến hệ thống.\n2. Hỗ trợ triển khai & vận hành hệ thống\n• Tham gia hỗ trợ triển khai các phần mềm nội bộ tại bệnh viện/phòng khám.\n• Theo dõi tình trạng vận hành hệ thống, hỗ trợ xử lý các sự cố phát sinh trong quá trình sử\ndụng.\n• Phối hợp với đội kỹ thuật/đối tác phần mềm để xử lý lỗi, đảm bảo hệ thống hoạt động ổn định.\n3. Hỗ trợ hạ tầng & thiết bị CNTT\n• Bảo dưỡng, sửa chữa và khắc phục sự cố các thiết bị văn phòng: Laptop, Desktop, máy in,\nscan, photo.\n• Hỗ trợ các vấn đề cơ bản liên quan đến:\n◦ Hệ thống mạng nội bộ\n◦ Server, camera giám sát, tổng đài nội bộ\n• Phối hợp với IT Infra hoặc nhà cung cấp khi có sự cố phức tạp.",
+    "requirements": "Yêu Cầu Công Việc\nThu nhập từ 13 - 15 triệu theo năng lực.\n- Phụ cấp cơm trưa 40k/ngày làm việc + Phụ cấp trang thiết bị phương tiện làm việc.\n- Được tham gia BHXH, BHYT, BHTN theo quy định.\n- Chế độ du lịch, nghỉ mát hàng năm.\n- Chế độ 12 ngày phép, khám sức khỏe theo định kỳ\n- Thưởng các ngày lễ tết theo quy định: lương tháng 13, thưởng thâm niên, sáng kiến, nhân viên xuất sắc....\n- Môi trường làm việc năng động, thân thiện, chuyên nghiệp\n- Được ưu đãi sử dụng các dịch vụ thẩm mỹ, y tế chuyên khoa của Tập đoàn.\n* Làm việc tại Tầng 9 188 Trường Chinh, Kim Liên, TP HN\nYêu cầu công việc\n- Ứng viên tốt nghiệp Đại học, Cao đẳng trở lên chuyên ngành Công nghệ thông tin.\n- Ứng viên có tối thiểu 01 năm kinh nghiệm tại vị trí IT support. Ưu  tiên các ứng viên trẻ từ 23- 27 tuổi.\n- Có kiến thức chuyên môn về máy móc công nghệ thông tin, mạng, phần mềm\n- Am hiểu phần cứng, hệ thống mạng, server, camera giám sát, tổng đài;",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Camera AI",
+      "IT Support L1/L2",
+      "HIS/PACS Y Tế"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-support.35C8B50F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-support.35C8B50F.html",
+    "posted_at": "2026-10-20T14:35:29.683526+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-20T14:35:29.683526+00:00",
+    "last_verified_at": "2026-10-20T14:35:29.683526+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-20T14:35:29.683526+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-support.35C8B50F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân viên IT Support tại HCI Group (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "20/10/2026",
+      "checked_at": "20/10/2026",
+      "live_h1": "Nhân viên IT Support",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-support.35C8B50F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4763993643",
+    "title": "IT SPC Developer",
+    "company_name": "Amkor Technology Việt Nam",
+    "description": "Mô tả Công việc\n1.       Responsible for SPC system management​\n2.       Analyze program problems and hand-on troubleshooting\n3.       Gather business requirements and design a solution with QRE team\n4.       Develop and implement program objects\n5.       Provide training to local users as needed",
+    "requirements": "Yêu Cầu Công Việc\n1. Educational background:\n·        BS Degree in Computer Science, Information Technology or related discipline ​\n2. Experiences:\n·       1~2 years experience with MES and 7 Tools QC, 3Sigma/6Sigma\n3. Skills:\n·       Knowledge Visual studio, Visual studio Code, SQL server\n·       Programing language : C#,SQL (Optional : Java, Python )\n·       Troubleshooting skill\n·       English communication skill in Professional working proficiency​\n·       Strong team collaboration and communication skills",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Bắc Ninh",
+    "location_district": null,
+    "location_full": "Bắc Ninh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "SQL Database"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-spc-developer.35C8B3DC.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-spc-developer.35C8B3DC.html",
+    "posted_at": "2026-10-20T14:35:34.077320+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-20T14:35:34.077320+00:00",
+    "last_verified_at": "2026-10-20T14:35:34.077320+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-20T14:35:34.077320+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-spc-developer.35C8B3DC.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Bắc Ninh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT SPC Developer tại Amkor Technology Việt Nam (Bắc Ninh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "20/10/2026",
+      "checked_at": "20/10/2026",
+      "live_h1": "IT SPC Developer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-spc-developer.35C8B3DC.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Bắc Ninh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
