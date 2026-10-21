@@ -50316,6 +50316,337 @@
     "is_active": true
   },
   {
+    "id": "cv_live_0412881118",
+    "title": "Senior Data Engineer",
+    "company_name": "Công Ty Tài Chính Mirae Asset (Việt Nam)",
+    "description": "Mô tả Công việc\nDevelop ETL/ELT jobs to ingest, transform, and load data from multiple source systems into Data Warehouse / Data Lake platforms based on the approved analysis and design documents.\nHands-on experience in building and maintaining ETL/ELT pipelines, especially using Oracle Data Integrator (ODI) or Airflow. Troubleshoot and optimize data pipelines to improve scalability, performance, and operational efficiency.\nUtilize jobs, workflows, APIs and streaming to manage large-scale data processing workloads.\nSupport ML/AI initiatives through data preparation, exploratory analysis, and metric definition.\nDesign and optimize data models, data marts, and data warehouse structures to support analytics and reporting.\nEnsure data quality, governance, reliability, and performance across enterprise data platforms.\nMentor a team of engineers while driving best practices in data modeling and system design for data-heavy applications.",
+    "requirements": "Yêu Cầu Công Việc\nBachelor's degree in\nComputer Science, Information Technology, Data Engineering\n, or related fields.\nMinimum 3+ years in data engineering across large/complex datasets and operate pipelines at scale and integrating multiple source systems.\nSolid background in Data engineering best practices.\nStrong skills in dbt, Python, PySpark, Spark streaming and Advanced SQL.\nUnderstanding and hands-on exposure to DataOps practices, including CI/CD for data pipelines, monitoring, logging, and data quality automation.\nExperience with\nGit\nand modern software development practices is a plus",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "CI/CD DevOps",
+      "SQL Database",
+      "Oracle DB",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-engineer.35C8415D.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-engineer.35C8415D.html",
+    "posted_at": "2026-10-21T00:28:38.755092+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-21T00:28:38.755092+00:00",
+    "last_verified_at": "2026-10-21T00:28:38.755092+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-21T00:28:38.755092+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-engineer.35C8415D.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Data Engineer tại Công Ty Tài Chính Mirae Asset (Việt Nam) (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "21/10/2026",
+      "checked_at": "21/10/2026",
+      "live_h1": "Senior Data Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-engineer.35C8415D.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4839311615",
+    "title": "ATS Software Development Engineer",
+    "company_name": "CÔNG TY TNHH CÔNG NGHIỆP MINDA VIỆT NAM - CHI NHÁNH TẠI THÀNH PHỐ HỒ CHÍ MINH",
+    "description": "Mô tả Công việc\nDevelop software for Automated Test Systems (ATS) and Automated Test Equipment (ATE) using Python/ C#.\nDevelop diagnostics and calibration software for ATS/ATE.\nDesign scalable data structures and server integration (MES, ERP, traceability).\nInterface with MES for product tracking, barcode, and result logging.\nWork with cross-functional teams (hardware, firmware, quality, production) to define system-level test strategies.\nCollaborate with hardware and firmware teams to resolve issues related to ATS/ATE, including hardware, firmware, and software aspects.\nWork closely with hardware and firmware teams to build test programs for each product.",
+    "requirements": "Yêu Cầu Công Việc\nRequired Qualifications:\nBachelor’s degree or higher in Information Technology, Computer Science, or related field.\nStrong experience in software development (C#, Python) and automation frameworks.\nKnowledge of instrument communication protocols (GPIB, VISA, SCPI, CAN, USB, RS485, RS232).\nKnowledge of cloud-based test data management or centralized control systems.\nExperience with automated calibration, version control, and remote test management.\nStrong problem-solving and analytical skills.\nGood English communication skills (both written and verbal).\nPreferred Skills:\nExperience with hardware-in-the-loop (HIL) or software-in-the-loop (SIL) testing.\nExperience with NI Test Stand, C#/.NET automation.\nKnowledge of PCBA or EOL testing in electronics manufacturing.\nExperience with data visualization or report automation.\nFamiliarity with version control (Git).",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      ".NET / C#"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ats-software-development-engineer.35C7AC66.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ats-software-development-engineer.35C7AC66.html",
+    "posted_at": "2026-10-21T00:28:39.728678+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-21T00:28:39.728678+00:00",
+    "last_verified_at": "2026-10-21T00:28:39.728678+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-21T00:28:39.728678+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ats-software-development-engineer.35C7AC66.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí ATS Software Development Engineer tại CÔNG TY TNHH CÔNG NGHIỆP MINDA VIỆT NAM - CHI NHÁNH TẠI THÀNH PHỐ HỒ CHÍ MINH (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "21/10/2026",
+      "checked_at": "21/10/2026",
+      "live_h1": "ATS Software Development Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ats-software-development-engineer.35C7AC66.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1597271577",
+    "title": "Presale Security Engineer",
+    "company_name": "Công ty Cổ phần Đầu tư Kỹ thuật Số Việt (VDI)",
+    "description": "Mô tả Công việc\nTư vấn, xây dựng và trình bày giải pháp an toàn thông tin; phối hợp với kinh doanh tư vấn giải pháp cho khách hàng.\nTham gia trực tiếp công tác đấu thầu: phân tích yêu cầu, lập và hoàn thiện hồ sơ đề xuất kỹ thuật, thuyết minh và bảo vệ giải pháp.\nHỗ trợ PoC, demo, triển khai kỹ thuật khi cần.\nNghiên cứu, cập nhật xu hướng và giải pháp công nghệ bảo mật của các hãng để phục vụ tư vấn, triển khai và đấu thầu.\nChi tiết công việc sẽ trao đổi kỹ hơn khi phỏng vấn.",
+    "requirements": "Yêu Cầu Công Việc\n1. Kinh nghiệm: Tối thiểu 3 năm kinh nghiệm tương đương\n2. Kiến thức chuyên môn:\nTốt nghiệp đại học các chuyên ngành liên quan tới: Công nghệ thông tin, Điện tử, Viễn thông,…\nAm hiểu các giải pháp an toàn thông tin: Firewall, WAF, IPS/IDS, DLP, Email Security, XDR, SIEM, SOAR…\nƯu tiên có kinh nghiệm thiết kế, tư vấn, triển khai giải pháp bảo mật cho hệ thống CNTT.\nƯu tiên có chứng chỉ quốc tế hoặc có lộ trình thi: CCNA/CCNP Security, CEH, CISM, CISSP, CompTIA Security+, chứng chỉ của các hãng (Check Point, Palo Alto, Fortinet, F5, Cisco, Microsoft, AWS Security, v.v.).\nƯu tiên có kinh nghiệm làm hồ sơ thầu, xây dựng đề xuất kỹ thuật\n3. Kỹ năng\nKỹ năng giao tiếp, làm việc nhóm\nKỹ năng đào tạo, trình bày giải pháp.\nKỹ năng viết tài liệu kỹ thuật.\n4. Quyền lợi:\nMức lương upto 45M, có thể thỏa thuận cao hơn theo năng lực\nThưởng theo dự án, thưởng hiệu suất năm; thưởng Lễ/Tết/ghi nhận theo chính sách Công ty.\nReview lương định kỳ 1 năm/lần; lộ trình phát triển rõ ràng từ J",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội, Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AWS",
+      "Cisco Networking",
+      "Firewall"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/presale-security-engineer.35C84029.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/presale-security-engineer.35C84029.html",
+    "posted_at": "2026-10-21T00:28:40.826438+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-21T00:28:40.826438+00:00",
+    "last_verified_at": "2026-10-21T00:28:40.826438+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-21T00:28:40.826438+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/presale-security-engineer.35C84029.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội, Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Presale Security Engineer tại Công ty Cổ phần Đầu tư Kỹ thuật Số Việt (VDI) (Hà Nội, Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "21/10/2026",
+      "checked_at": "21/10/2026",
+      "live_h1": "Presale Security Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/presale-security-engineer.35C84029.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội, Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
