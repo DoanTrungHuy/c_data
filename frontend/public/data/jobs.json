@@ -50978,6 +50978,231 @@
     "is_active": true
   },
   {
+    "id": "cv_live_1653454299",
+    "title": "Cloud Operations Engineer (VNG Cloud/AWS/Azure/VMware)",
+    "company_name": "Công Ty Cổ phần Tập Đoàn KIDO",
+    "description": "Mô tả Công việc\nQuản trị, vận hành và giám sát hạ tầng VNG Cloud, đảm bảo hệ thống máy chủ và các dịch vụ liên quan hoạt động ổn định, an toàn và liên tục.\nQuản lý, cấp phát, thu hồi và tối ưu tài nguyên Cloud như vServer, vStorage, vVPC, AI Platform/Gateway theo nhu cầu vận hành và triển khai dự án.\nCài đặt, cấu hình và quản trị hệ thống máy chủ Linux/Open Source, Nginx, Virtual Host; thiết lập Firewall, Routing và điều hướng lưu lượng truy cập.\nThiết lập, cấu hình và quản lý Database, Backup/Restore, đảm bảo dữ liệu được sao lưu đầy đủ và có khả năng khôi phục khi phát sinh sự cố.\nTheo dõi tình trạng hoạt động của hệ thống; tiếp nhận, phân tích nguyên nhân và xử lý các sự cố liên quan đến hạ tầng Cloud, Server, Network và Database.\nCài đặt các công cụ phục vụ vận hành, thực hiện rà soát bảo mật hệ thống định kỳ; đề xuất phương án nâng cấp, mở rộng và tối ưu tài nguyên hạ tầng.\nPhối hợp với các bộ phận liên quan để đánh giá, tư vấn và triển khai các giải pháp hạ tầng cho dự án sử dụng VNG Cloud.\nThực hiện báo cáo vận hành định kỳ và cập nhật tài liệu kỹ thuật liên quan đến hệ thống.\nSẵn sàng tiếp nhận và xử lý các sự cố phát sinh ngoài giờ hành chính nhằm đảm bảo tính liên tục của hệ thống.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Đại học chuyên ngành Công nghệ Thông tin, Khoa học Máy tính, Mạng máy tính, Hệ thống Thông tin hoặc các ngành liên quan.\nCó trên 05 năm kinh nghiệm quản trị, vận hành hệ thống Server Linux/Open Source; đã tham gia triển khai hoặc vận hành hệ thống máy chủ trên Cloud.\nCó kinh nghiệm thực tế quản trị, vận hành hạ tầng VNG Cloud; kinh nghiệm với AWS, Microsoft Azure hoặc VMware là lợi thế.\nCó kiến thức vững về hệ điều hành Linux/Open Source, Nginx, Virtual Host, Firewall, Routing và quản lý tài nguyên máy chủ.\nCó kinh nghiệm thực tế trong việc thiết lập Database, cấu hình Backup/Restore và xử lý sự cố hệ thống.\nCó trên 03 năm kinh nghiệm về bảo mật hệ thống, bao gồm phân quyền truy cập, bảo mật mạng và kiểm soát an toàn hạ tầng.\nCó khả năng phân tích, xử lý sự cố kỹ thuật độc lập; chủ động trong công việc, có tinh thần trách nhiệm và phối hợp tốt với các bộ phận liên quan.\nCó khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh tốt và giao tiếp hiệu quả.\nƯu tiên:\nỨng",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Linux",
+      "Firewall",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-operations-engineer-vng-cloud-aws-azure-vmware.35C8B846.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-operations-engineer-vng-cloud-aws-azure-vmware.35C8B846.html",
+    "posted_at": "2026-10-22T06:08:33.278996+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-22T06:08:33.278996+00:00",
+    "last_verified_at": "2026-10-22T06:08:33.278996+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-22T06:08:33.278996+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-operations-engineer-vng-cloud-aws-azure-vmware.35C8B846.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Cloud Operations Engineer (VNG Cloud/AWS/Azure/VMware) tại Công Ty Cổ phần Tập Đoàn KIDO (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "22/10/2026",
+      "checked_at": "22/10/2026",
+      "live_h1": "Cloud Operations Engineer (VNG Cloud/AWS/Azure/VMware)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-operations-engineer-vng-cloud-aws-azure-vmware.35C8B846.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6870139873",
+    "title": "Software Engineer",
+    "company_name": "Công ty TNHH Viettel - CHT",
+    "description": "Mô tả Công việc\nChúng tôi đang tìm kiếm Software Architect tài năng và nhiệt huyết để gia nhập đội ngũ phát triển và mở rộng các sản phẩm dịch vụ cho hệ sinh thái ViettelIDC . Vị trí này sẽ chịu trách nhiệm phát triển, triển khai và duy trì các platform chất lượng cao; làm việc chặt chẽ với các nhà phân tích kinh doanh, nhà thiết kế UI/UX và các bên liên quan khác để tạo ra các sản phẩm công nghệ đáp ứng nhu cầu kinh doanh và người dùng.\nTrách nhiệm công việc chính\nXây dựng các sản phẩm mới, bảo trì nâng cấp các sản phẩm cũ phục vụ hàng triệu người dùng của Viettel IDC\nPhát triển nền tảng : Thiết kế kiến trúc hệ thống, phát triển và triển khai các platform theo yêu cầu.\nViết mã chất lượng: Viết mã nguồn rõ ràng, dễ hiểu và tuân thủ các tiêu chuẩn lập trình.\nKiểm thử và gỡ lỗi: Thực hiện kiểm thử đơn vị và kiểm thử tích hợp, xác định và khắc phục các lỗi trong mã nguồn.\nQuản lý mã nguồn: Sử dụng các công cụ quản lý mã nguồn như Git để quản lý và kiểm soát các thay đổi trong mã nguồn.\nTài liệu hóa: Tạo và duy trì tài liệu kỹ thuật liên quan đến các tính năng và mã nguồn của ứng dụng.\nHợp tác với nhóm: Làm việc chặt chẽ với các nhà phát triển khác, nhà thiết kế UI/UX, nhà phân tích kinh doanh và các bên liên quan để đảm bảo sự thống nhất và hiệu quả trong quá trình phát triển.\nNâng cấp và bảo trì: Thực hiện các nhiệm vụ nâng cấp và bảo trì để cải thiện tính năng và hiệu suất của ứng dụng.\nCập nhật công nghệ: Luôn cập nhật với các xu hướng công nghệ mới nhất và đề xuất các công n",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp các ngành liên quan đến Công nghệ thông tin, Khoa học máy tính hoặc các lĩnh vực liên quan\nCó ít nhất 3 năm kinh nghiệm trong phát triển phần mềm\nCó kinh nghiệm về\nthiết kế hệ thống,  API\n&  theo tiêu chuẩn\nSDK\nƯu tiên có kinh nghiệm triển khai sản phầm trên nền tàng\nCloud\n,  đã làm việc với mô hình\nMicroservice\nThành thạo một hoặc nhiều ngôn ngữ lập trình như\nGolang, Python\n,\nJava, Ruby/ .NET…\nKinh nghiệm làm việc với các cơ sở dữ liệu như MySQL, PostgreSQL, MongoDB, Elastic Search, hoặc các hệ quản trị cơ sở dữ liệu tương đương.\nCó kinh nghiệm làm việc với một trong các hệ thống Message Queue (Kafka, RabbitMQ, MQTT)\nCó kinh nghiệm với một trong các Frontend Framework hiện đại như: ReactJS/Redux, Angular 12+, VueJS là một lợi thế\nCó kinh nghiệm thiết kế hệ thống, design pattern, OOP ...\nCó kiến thức triển khai cơ bản hệ thống trên hệ điều hành Linux là một lợi thế.\nCó khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành.\nChứng chỉ: Các chứng chỉ liên quan đến",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "React",
+      "Vue.js",
+      "Angular",
+      "Go / Golang"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+    "posted_at": "2026-10-22T06:08:34.960313+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-22T06:08:34.960313+00:00",
+    "last_verified_at": "2026-10-22T06:08:34.960313+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-22T06:08:34.960313+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Software Engineer tại Công ty TNHH Viettel - CHT (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "22/10/2026",
+      "checked_at": "22/10/2026",
+      "live_h1": "Software Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
