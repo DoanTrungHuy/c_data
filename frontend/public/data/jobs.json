@@ -52765,6 +52765,116 @@
     "is_active": true
   },
   {
+    "id": "cv_live_3754705450",
+    "title": "NHÂN VIÊN IT – ORACLE DATABASE",
+    "company_name": "Công ty TNHH Sài Gòn Stec",
+    "description": "Mô tả Công việc\n- Manage, operate, and monitor database systems\n- Optimize database performance and SQL queries\n- Perform backup, recovery, and ensure data security\n- Troubleshoot and resolve database-related issues",
+    "requirements": "Yêu Cầu Công Việc\n- Bachelor’s degree in IT or related fields\n- 2–4 years of experience in database administration\n- Experience with Oracle/MongoDB\n- Strong SQL skills, knowledge of backup and recovery\n- Understanding of database security and access control\n- Knowledge of Replication, High Availability\nBasic communication in English or Chinese",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Bình Dương",
+    "location_district": null,
+    "location_full": "Bình Dương",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Oracle DB",
+      "MongoDB"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-oracle-database.35C8BA64.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-oracle-database.35C8BA64.html",
+    "posted_at": "2026-10-23T20:30:20.334298+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-23T20:30:20.334298+00:00",
+    "last_verified_at": "2026-10-23T20:30:20.334298+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-23T20:30:20.334298+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-oracle-database.35C8BA64.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Bình Dương"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí NHÂN VIÊN IT – ORACLE DATABASE tại Công ty TNHH Sài Gòn Stec (Bình Dương). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "23/10/2026",
+      "checked_at": "23/10/2026",
+      "live_h1": "NHÂN VIÊN IT – ORACLE DATABASE",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-oracle-database.35C8BA64.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Bình Dương"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
