@@ -52983,6 +52983,118 @@
     "is_active": true
   },
   {
+    "id": "cv_live_6451136908",
+    "title": "Kỹ sư Hệ thống (System Engineer)",
+    "company_name": "Tổng Công ty Cổ phần Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam (BIC)",
+    "description": "Mô tả Công việc\nĐịa điểm làm việc:\nHà Nội (Trụ Sở chính BIC)\nMôi trường và chế độ đãi ngộ bạn được hưởng:\nTổng thu nhập năm từ 200 triệu đến 400 triệu/năm bao gồm: lương vị trí công việc, lương kinh doanh, thưởng quý/năm, thưởng các dịp lễ tết...\nHưởng bảo hiểm xã hội theo quy định của Nhà nước, bảo hiểm BIC Care dành riêng cho cán bộ BIC và người thân.\nTham gia các hoạt động xã hội, đoàn thể, team building, party… du lịch, nghỉ mát hàng năm.\nMô tả công việc:\n​\nQuản trị, vận hành và giám sát hệ thống máy chủ, mạng, lưu trữ và các dịch vụ hạ tầng CNTT của Tổng công ty.\nTriển khai, cấu hình và bảo trì các hệ thống máy chủ vật lý và máy chủ ảo.\nQuản trị các thiết bị mạng như Router, Switch, Firewall, Load Balancer, VPN, WiFi và hệ thống thoại IP (VoIP).\nThực hiện cấu hình, tối ưu hiệu năng và bảo mật hệ thống mạng theo các tiêu chuẩn và chính sách an toàn thông tin của Tổng công ty.\nTriển khai, quản lý và vận hành các nền tảng ảo hóa như VMware.\nQuản trị các hệ thống dịch vụ Microsoft như Active Directory, Exchange, SCCM, WSUS và các dịch vụ nền tảng khác.\nTheo dõi, phân tích và xử lý sự cố liên quan đến hệ thống, mạng, máy chủ, lưu trữ và trung tâm dữ liệu (Data Center).\nThực hiện sao lưu, phục hồi dữ liệu và xây dựng các phương án đảm bảo tính liên tục trong vận hành hệ thống.\nPhối hợp với các đơn vị liên quan trong quá trình triển khai dự án CNTT và các dự án chuyển đổi số của Tổng công ty.\nTham gia xây dựng tài liệu kỹ thuật, tài liệu vận hành, quy trình quản trị và hướng dẫ",
+    "requirements": "Yêu Cầu Công Việc\nTrình độ chuyên môn\nTốt nghiệp Đại học trở lên chuyên ngành Công nghệ thông tin, Hệ thống thông tin hoặc các chuyên ngành liên quan.\nCó tối thiểu 01 năm kinh nghiệm ở vị trí Quản trị hệ thống, Kỹ sư hệ thống hoặc tương đương.\nCó khả năng đọc hiểu tài liệu kỹ thuật bằng tiếng Anh (tương đương TOEIC 450 trở lên).\nYêu cầu về kỹ năng, kinh nghiệm\nCó kiến thức về hạ tầng CNTT, hệ thống máy chủ, mạng máy tính và trung tâm dữ liệu.\nCó kinh nghiệm làm việc với các hệ thống máy chủ Dell, HP, SuperMicro, IBM hoặc tương đương.\nCó hiểu biết về các hệ thống lưu trữ SAN, NAS.\nCó kinh nghiệm cấu hình và quản trị Router, Switch, Firewall, VPN, WiFi, Load Balancer.\nCó khả năng phân tích, khắc phục và xử lý sự cố hệ thống và mạng.\nCó kinh nghiệm quản trị hệ điều hành Windows Server, Linux.\nCó kinh nghiệm triển khai và vận hành môi trường ảo hóa VMware.\nCó kinh nghiệm quản trị Active Directory, Exchange, SCCM, WSUS hoặc các nền tảng tương đương.\nCó hiểu biết về các giải pháp bảo mật hệ ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Linux",
+      "Cisco Networking",
+      "WiFi Mesh",
+      "Active Directory",
+      "Firewall"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-he-thong-system-engineer.35C8B9B3.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-he-thong-system-engineer.35C8B9B3.html",
+    "posted_at": "2026-10-24T06:45:34.635186+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-24T06:45:34.635186+00:00",
+    "last_verified_at": "2026-10-24T06:45:34.635186+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-24T06:45:34.635186+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-he-thong-system-engineer.35C8B9B3.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Kỹ sư Hệ thống (System Engineer) tại Tổng Công ty Cổ phần Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam (BIC) (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "24/10/2026",
+      "checked_at": "24/10/2026",
+      "live_h1": "Kỹ sư Hệ thống (System Engineer)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-he-thong-system-engineer.35C8B9B3.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
