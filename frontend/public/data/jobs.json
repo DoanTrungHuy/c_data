@@ -53206,6 +53206,115 @@
     "is_active": true
   },
   {
+    "id": "cv_live_4295940113",
+    "title": "Chuyên Viên Vận Hành Ứng Dụng (DevOps)",
+    "company_name": "BỆNH VIỆN ĐA KHOA TÂM ANH TP. HỒ CHÍ MINH",
+    "description": "Mô tả Công việc\n-  Triển khai, vận hành các ứng dụng trên các nền tảng Kubernetes, ảo hóa\n-  Triển khai, vận hành và đảm bảo tính sẵn sàng cao cho các Kubernetes cluster.\n-  Containerize và triển khai các ứng dụng trên nền tảng Kubernetes.\n-  Thiết kế và cải thiện hệ thống CI/CD giúp tối ưu hóa quá trình phát triển phần mềm.\n-  Khắc phục các single point of failure của hệ thống và thiết lập hệ thống dự phòng thảm họa cho các ứng dụng quan trọng.\n-  Thiết kế và vận hành các hệ thống theo dõi và cảnh báo nhằm giảm thiểu tối đa ảnh hưởng của sự cố dịch vụ đến người dùng.\n-  Chẩn đoán và khắc phục các vấn đề về triển khai, bảo mật và hiệu năng của dịch vụ.\n-  Hướng dẫn team Dev triển khai và áp dụng các best practices trong phát triển phần mềm\n* Làm việc tại: 2B Phổ Quang, Phường Tân Sơn Hòa, HCM (Quận Tân Bình)",
+    "requirements": "Yêu Cầu Công Việc\nYÊU CẦU CÔNG VIỆC:\n- Trình độ: Đại học chuyên ngành CNTT, Hệ thống thông tin hoặc tương đương.\n- Kinh nghiệm: Tối thiểu 2–3 năm làm việc ở vị trí tương đương.\n*\nKiến thức chuyên môn:\n- Ít nhất 2 năm kinh nghiệm làm kỹ sư DevOps/SRE.\n- Nắm vững lý thuyết nền tảng: mạng máy tính, hệ điều hành, ngôn ngữ lập trình.\n- Hiểu biết tốt các công nghệ như container, Kubernetes, Helm,…\n- Có kinh nghiệm làm việc với các hệ thống on-premise là một lợi thế.\n- Có hiểu biết tốt về bảo mật, kinh nghiệm thiết kế hệ thống có tính an toàn cao.\n- Cẩn thận, tỉ mỉ trong công việc, có thói quen document hệ thống và chia sẻ document với đồng nghiệp.\n- Có kiến thức cơ bản về mạng, bảo mật hệ thống.\n*\nKỹ năng:\n- Phân tích, xử lý sự cố tốt, làm việc độc lập và phối hợp nhóm hiệu quả.\n- Kỹ năng lập kế hoạch và tài liệu hóa hệ thống.\n- Chịu khó học hỏi, sẵn sàng học và nghiên cứu các công nghệ mới khi cần thiết.\n- Giao tiếp tốt, sẵn sàng giúp đỡ và hướng dẫn đồng nghiệp.\nQUYỀN LỢI\n- Mức lương thỏa ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Kubernetes",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-ung-dung-devops.35C8BB97.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-ung-dung-devops.35C8BB97.html",
+    "posted_at": "2026-10-25T05:32:20.837303+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-25T05:32:20.837303+00:00",
+    "last_verified_at": "2026-10-25T05:32:20.837303+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-25T05:32:20.837303+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-ung-dung-devops.35C8BB97.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên Viên Vận Hành Ứng Dụng (DevOps) tại BỆNH VIỆN ĐA KHOA TÂM ANH TP. HỒ CHÍ MINH (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "25/10/2026",
+      "checked_at": "25/10/2026",
+      "live_h1": "Chuyên Viên Vận Hành Ứng Dụng (DevOps)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-ung-dung-devops.35C8BB97.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
