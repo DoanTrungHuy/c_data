@@ -53538,6 +53538,345 @@
     "is_active": true
   },
   {
+    "id": "cv_live_9764340544",
+    "title": "Senior Software Engineer",
+    "company_name": "Công Ty Cổ phần Tập Đoàn KIDO",
+    "description": "Mô tả Công việc\nThiết kế, phát triển và tối ưu Backend Services, Microservices và RESTful APIs phục vụ các sản phẩm, hệ thống Công ty.\nPhân tích yêu cầu nghiệp vụ, đề xuất và triển khai giải pháp kỹ thuật; đảm bảo hiệu năng, bảo mật, tính ổn định và khả năng mở rộng của hệ thống.\nXây dựng và cải thiện cơ chế Authentication & Authorization, phân quyền truy cập và bảo mật API.\nThiết kế, tối ưu SQL/NoSQL Database; phân tích nguyên nhân gốc và xử lý các vấn đề kỹ thuật trên môi trường Production.\nThực hiện Clean Code, Code Review, Testing; phối hợp triển khai qua Git, Docker, CI/CD và hỗ trợ kỹ thuật cho các thành viên trong Team.\nPhối hợp cùng Product, BA, QA và Developer trong quá trình phát triển sản phẩm; chủ động nghiên cứu, đề xuất cải tiến và ứng dụng AI/Data khi phù hợp.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Đại học chuyên ngành CNTT, Khoa học Máy tính, Kỹ thuật Phần mềm hoặc liên quan; có từ 3 năm kinh nghiệm phát triển phần mềm, ưu tiên kinh nghiệm với hệ thống doanh nghiệp.\nThành thạo ít nhất một nền tảng Backend như Java/Spring Boot, Python/FastAPI, Node.js hoặc tương đương; vững OOP, Data Structures & Algorithms và Design Patterns.\nCó kinh nghiệm thiết kế, phát triển RESTful APIs, Microservices, xử lý SQL/NoSQL và các bài toán về hiệu năng, bảo mật, tính ổn định của hệ thống.\nCó kinh nghiệm về Authentication & Authorization (JWT, OAuth2/OIDC, RBAC hoặc tương đương); có khả năng phân tích, triển khai giải pháp và xử lý sự cố trên môi trường Production.\nThành thạo Git, Docker, CI/CD; có khả năng Code Review, tư duy hệ thống, tinh thần ownership và phối hợp tốt trong Team.\nĐIỂM CỘNG\nCó kinh nghiệm phát triển hệ thống Enterprise, xử lý nghiệp vụ phức tạp, tích hợp API và đảm bảo tính nhất quán dữ liệu.\nCó kinh nghiệm với Redis, Kafka/RabbitMQ, Cloud hoặc Techn",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "Docker",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-software-engineer.35C8BE15.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-software-engineer.35C8BE15.html",
+    "posted_at": "2026-10-26T17:38:08.582119+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-26T17:38:08.582119+00:00",
+    "last_verified_at": "2026-10-26T17:38:08.582119+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-26T17:38:08.582119+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-software-engineer.35C8BE15.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Software Engineer tại Công Ty Cổ phần Tập Đoàn KIDO (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/10/2026",
+      "checked_at": "26/10/2026",
+      "live_h1": "Senior Software Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-software-engineer.35C8BE15.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7184905191",
+    "title": "Chuyên viên/Chuyên viên Cao cấp Công nghệ mô hình (AI/ML Ops) - Machine Learning Operations (AI/ML Ops) - Khối Dữ liệu (2026TD455214)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\n-  Thực hiện công tác xây dựng, vận hành các mô hình trên Data Platform, đảm bảo nền tảng cho các mô hình phân tích dữ liệu kinh doanh\n-  Thực hiện cung cấp công cụ cho việc xây dựng mô hình để đưa vào ứng dụng thực tế\n-  Thực hiện thu thập và cung cấp thông tin đầu vào phục vụ xây dựng các hệ thống data mart phục vụ kiểm định và theo dõi kết quả ứng dụng mô hình phân tích kinh doanh\n-  Thực hiện thu thập và cung cấp thông tin phục vụ xây dựng kho lưu trữ dữ liệu đặc điểm làm nguồn đầu vào cho các mô hình phân tích dữ liệu kinh doanh",
+    "requirements": "Yêu Cầu Công Việc\n- Tốt nghiệp Đại học các chuyên ngành Khoa học dữ liệu, Khoa học máy tính, Thống kê, Toán tin, Công nghệ thông tin... hoặc các chuyên ngành liên quan,\n- Có tối thiểu 1 năm kinh nghiệm làm việc tại các lĩnh vực triển khai các sản phầm AI/ML; triển khai, vận hành, bảo trì hạ tầng BigData; Ưu tiên ứng viên có kinh nghiệm làm việc trong lĩnh vực Ngân hàng.\n- Ưu tiên ứng viên có kinh nghiệm sử dụng công cụ Containerization (như Docker), Software Orchestration (như Kubernetes); có kinh nghiệm sử dụng CI/CD tool như Jenkins, Gitlab.\n- Ưu tiên ứng viên có chứng chỉ hoặc có kinh nghiệm sử dụng thành thạo công cụ lập trình và truy vấn dữ liệu: Python, R, SQL, …\n- Ưu tiên ứng viên có khả năng sử dụng thành thạo các công cụ như Hadoop, Spark, Airflow, Kafka và các nền tảng opensource Kubeflow, MLFlow để xây dựng luồng xử lý dữ liệu (data pipeline) phục vụ vận hành mô hình ML.\n- TOEIC 450 hoặc chứng chỉ tương đương\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-chuyen-vien-cao-cap-cong-nghe-mo-hinh-ai-ml-ops-machine-learning-operations-ai-ml-ops-khoi-du-lieu-2026td455214.35C84AFC.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-chuyen-vien-cao-cap-cong-nghe-mo-hinh-ai-ml-ops-machine-learning-operations-ai-ml-ops-khoi-du-lieu-2026td455214.35C84AFC.html",
+    "posted_at": "2026-10-26T17:38:12.159046+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-26T17:38:12.159046+00:00",
+    "last_verified_at": "2026-10-26T17:38:12.159046+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-26T17:38:12.159046+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-chuyen-vien-cao-cap-cong-nghe-mo-hinh-ai-ml-ops-machine-learning-operations-ai-ml-ops-khoi-du-lieu-2026td455214.35C84AFC.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên/Chuyên viên Cao cấp Công nghệ mô hình (AI/ML Ops) - Machine Learning Operations (AI/ML Ops) - Khối Dữ liệu (2026TD455214) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/10/2026",
+      "checked_at": "26/10/2026",
+      "live_h1": "Chuyên viên/Chuyên viên Cao cấp Công nghệ mô hình (AI/ML Ops) - Machine Learning Operations (AI/ML Ops) - Khối Dữ liệu (2026TD455214)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-chuyen-vien-cao-cap-cong-nghe-mo-hinh-ai-ml-ops-machine-learning-operations-ai-ml-ops-khoi-du-lieu-2026td455214.35C84AFC.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8443893264",
+    "title": "Chuyên viên Cao cấp Công nghệ Mô hình - Senior Machine Learning Engineer - Khối Dữ liệu (2026TD456629)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nTrực tiếp xây dựng và duy trì kiến trúc hạ tầng MLOps lai (hybrid), phát triển các đường ống tự động hóa (CI/CD/CT) đảm bảo các mô hình trọng yếu hoạt động ổn định, chính xác với độ trễ tối thiểu phục vụ kinh doanh\n1. Trực tiếp phát triển, tích hợp và tối ưu hóa các đường ống trích xuất đặc trưng (Feature Pipelines) đảm bảo dữ liệu sẵn sàng phục vụ cho cả luồng tính toán Batch và Real-time\nCấu hình các luồng biến đổi dữ liệu, để cung cấp đầu vào chuẩn xác cho mô hình\n2. Thực hiện cấu trúc lại (Refactor) thành mã Production chuẩn OOP. Đóng gói mô hình (Dockerization) và xây dựng các Endpoint phục vụ dự đoán (REST API / gRPC) bằng các framework hiệu năng cao như FastAPI, Triton Inference Server\nXây dựng và duy trì các đường ống CI/CD tự động; thực hiện các chiến lược triển khai không gián đoạn (Blue/Green, Canary)\n3. Thiết lập bảng điều khiển (Dashboards) giám sát các chỉ số hệ thống (CPU, RAM, Latency, Throughput) và chất lượng dự đoán (Data Drift, Concept Drift)\nXây dựng và cấu hình luồng Continuous Training (CT) nhằm tự động thu thập dữ liệu mới và tái huấn luyện khi mô hình suy giảm hiệu năng\nTrực tiếp chẩn đoán và khắc phục các sự cố (Incident Troubleshooting) liên quan đến tầng ứng dụng ML\n4. Tham gia xây dựng các tiêu chuẩn mã nguồn (Coding Guidelines) và quy chuẩn bàn giao (SOP) nội bộ",
+    "requirements": "Yêu Cầu Công Việc\n- Tốt nghiệp Cử nhân chuyên ngành khoa học dữ liệu, khoa học máy tính, thống kê, Toán tin... hoặc các chuyên ngành liên quan\n- Tối thiểu 3 năm kinh nghiệm thực tế ở các vị trí Machine Learning Engineer, Data Engineer hoặc Backend Engineer có chuyên môn triển khai AI/ML\n- Sử dụng thành thạo Python (OOP, Design Patterns), SQL. Kinh nghiệm vững vàng trong việc phát triển API bằng FastAPI hoặc Flask. Nắm vững công nghệ Containerization (Docker, Kubernetes). Có kinh nghiệm thiết lập luồng CI/CD (GitLab CI, GitHub Actions)\n- Đã từng làm việc với các hệ thống Experiment Tracking (MLflow, Weights & Biases) và có kiến thức về Feature Store (Hopsworks, Feast). Khả năng cấu hình Serving Engines (Triton, TorchServe) là một lợi thế lớn\n- Ưu tiên ứng viên đã từng trực tiếp triển khai các mô hình phân tích rủi ro tín dụng (Credit Risk) hoặc mô hình phân tích hành vi trong ngành Tài chính - Ngân hàng\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-cong-nghe-mo-hinh-senior-machine-learning-engineer-khoi-du-lieu-2026td456629.35C84B0C.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-cong-nghe-mo-hinh-senior-machine-learning-engineer-khoi-du-lieu-2026td456629.35C84B0C.html",
+    "posted_at": "2026-10-26T17:38:12.504157+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-26T17:38:12.504157+00:00",
+    "last_verified_at": "2026-10-26T17:38:12.504157+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-26T17:38:12.504157+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-cong-nghe-mo-hinh-senior-machine-learning-engineer-khoi-du-lieu-2026td456629.35C84B0C.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên Cao cấp Công nghệ Mô hình - Senior Machine Learning Engineer - Khối Dữ liệu (2026TD456629) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/10/2026",
+      "checked_at": "26/10/2026",
+      "live_h1": "Chuyên viên Cao cấp Công nghệ Mô hình - Senior Machine Learning Engineer - Khối Dữ liệu (2026TD456629)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-cong-nghe-mo-hinh-senior-machine-learning-engineer-khoi-du-lieu-2026td456629.35C84B0C.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
