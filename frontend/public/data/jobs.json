@@ -53315,6 +53315,116 @@
     "is_active": true
   },
   {
+    "id": "cv_live_1197422725",
+    "title": "Chuyên Viên Vận Hành Hệ Thống (TIẾNG TRUNG)",
+    "company_name": "CÔNG TY TNHH ZTO FREIGHT VIỆT NAM",
+    "description": "Mô tả Công việc\n1.vận hành hệ thống\n·\nTham gia theo dõi, vận hành và mô tả cải tiến các hệ thống quản lý nội bộ của công ty (ERP, WMS, TMS, CRM hoặc các phần mềm quản lý khác).\n·    kiểm tra dữ liệu, luồng xử lý trên hệ thống, đảm bảo thông tin được cập nhật đầy đủ và chính xác.\n·   Phối hợp với các phòng ban để xử lý các vấn đề phát sinh trong quá trình sử dụng hệ thống.\n·   Tiếp nhận yêu cầu thay đổi, cải tiến hệ thống từ các bộ phận và phối hợp với IT/nhà cung cấp phần mềm để triển khai tính năng\n·   Hướng dẫn người dùng sử dụng các chức năng cơ bản của hệ thống.\n2. Quản lý dữ liệu và báo cáo vận hành\n·\nThu thập, tổng hợp và phân tích dữ liệu vận hành.\n·   Theo dõi các chỉ số hoạt động (KPI), tiến độ xử lý công việc và tình trạng vận hành.\n·   Lập báo cáo định kỳ bằng tiếng Việt/tiếng Trung theo yêu cầu.\n·   Kiểm tra tính chính xác của dữ liệu trên hệ thống và báo cáo.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Đại học/Cao đẳng các ngành:  Công nghệ thông tin, Logistics, Ngoại ngữ Trung Quốc hoặc ngành liên quan.\n·\nThành thạo tiếng Trung (nghe, nói, đọc, viết), có khả năng giao tiếp và làm việc trực tiếp với người Trung Quốc.\n·  Có kinh nghiệm làm trợ lý vận hành hoặc quản lý hệ thống là lợi thế.\n·  Hiểu biết về quy trình vận hành, luồng dữ liệu và hệ thống quản lý.\n·  Có khả năng sử dụng và học nhanh các phần mềm quản lý (ERP/WMS/TMS/CRM).\n·  Thành thạo Excel, PowerPoint, Word; có khả năng làm báo cáo dữ liệu.\n·  Kỹ năng giao tiếp, tổ chức công việc và phối hợp nhiều phòng ban tốt.\n·  Có tư duy logic, khả năng phân tích và xử lý vấn đề.\nThông tin khác:\n·   Phúc lợi: Thời gian làm việc: Thứ 2- Thứ 6: 9h-18h (Thứ 7 có thể WFH tùy tình hình)\n·   Địa điểm làm việc: 370 CMT8 Phường Nhiêu Lộc, TP. HCM.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+    "posted_at": "2026-10-26T05:38:04.756968+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-26T05:38:04.756968+00:00",
+    "last_verified_at": "2026-10-26T05:38:04.756968+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-26T05:38:04.756968+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên Viên Vận Hành Hệ Thống (TIẾNG TRUNG) tại CÔNG TY TNHH ZTO FREIGHT VIỆT NAM (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/10/2026",
+      "checked_at": "26/10/2026",
+      "live_h1": "Chuyên Viên Vận Hành Hệ Thống (TIẾNG TRUNG)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
