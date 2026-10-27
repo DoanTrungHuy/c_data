@@ -53877,6 +53877,119 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7224811635",
+    "title": "CV/CVCC DevOps (On‑Premise/Cloud)",
+    "company_name": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN HD",
+    "description": "Mô tả Công việc\nI. Job Responsibilities\nXây dựng và duy trì pipeline CI/CD; thực hiện build, deploy, rollback và quản lý phiên bản ứng dụng trên các môi trường DEV, UAT và Production.\nPhối hợp lập kế hoạch release, kiểm tra điều kiện triển khai, kiểm soát thay đổi và xử lý các vấn đề phát sinh trong quá trình đưa ứng dụng vào vận hành.\nQuản lý cấu hình, tham số môi trường, lịch sử release và tài liệu vận hành của các hệ thống được phân công.\nTriển khai, vận hành và cải tiến nền tảng ứng dụng sử dụng Linux, container, Kubernetes, web server và các dịch vụ hạ tầng on-premise hoặc cloud.\nTự động hóa cấu hình và cấp phát hạ tầng bằng các công cụ Infrastructure as Code và configuration management; giảm thao tác thủ công trên môi trường vận hành.\nPhối hợp với đội ngũ Hạ tầng trong các công việc liên quan đến máy chủ, mạng, lưu trữ, cân bằng tải, DNS, SSL/TLS và phân quyền truy cập.\nTriển khai và vận hành các dịch vụ cơ sở dữ liệu, message broker, API gateway và xác thực; theo dõi tính sẵn sàng, hiệu năng và bảo mật của các thành phần này.\nThiết lập giám sát, thu thập log và cảnh báo; tham gia xử lý sự cố Production, phân tích nguyên nhân gốc rễ và đề xuất biện pháp ngăn ngừa tái diễn.\nThực hiện hoặc phối hợp thực hiện backup/restore, kiểm tra phương án dự phòng và cập nhật tài liệu, báo cáo sau sự cố.",
+    "requirements": "Yêu Cầu Công Việc\nII. Required Qualifications, Capabilities and Skills\nTốt nghiệp đại học chuyên ngành Công nghệ Thông tin, Khoa học Máy tính, Kỹ thuật Phần mềm hoặc lĩnh vực liên quan.\nCó 3–5 năm kinh nghiệm ở vị trí DevOps Engineer, SRE hoặc vai trò tương đương; đã làm việc với hệ thống triển khai trên môi trường on-premise, cloud hoặc mô hình kết hợp.\nSử dụng tốt Linux và Git; có kinh nghiệm thực tế với ít nhất một nền tảng CI/CD như GitLab CI/CD, Jenkins, Azure DevOps hoặc Argo CD.\nCó kinh nghiệm triển khai và vận hành ứng dụng với Docker, Kubernetes và Helm.\nHiểu cách vận hành các thành phần nền tảng phục vụ ứng dụng, bao gồm cơ sở dữ liệu, messaging, API gateway, reverse proxy và quản lý secrets.\nCó kinh nghiệm thiết lập hoặc sử dụng công cụ giám sát, cảnh báo và phân tích log để phát hiện, xử lý sự cố.\nNắm được các khái niệm vận hành liên quan đến DNS, SSL/TLS, load balancer, firewall, backup/restore và kiểm soát truy cập.\nCó tư duy hệ thống, khả năng phân tích sự cố độc lập, gi",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/cv-cvcc-devops-on-premise-cloud.35C8BE65.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/cv-cvcc-devops-on-premise-cloud.35C8BE65.html",
+    "posted_at": "2026-10-27T06:19:22.924597+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-27T06:19:22.924597+00:00",
+    "last_verified_at": "2026-10-27T06:19:22.924597+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-27T06:19:22.924597+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cv-cvcc-devops-on-premise-cloud.35C8BE65.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí CV/CVCC DevOps (On‑Premise/Cloud) tại CÔNG TY CỔ PHẦN CHỨNG KHOÁN HD (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "27/10/2026",
+      "checked_at": "27/10/2026",
+      "live_h1": "CV/CVCC DevOps (On‑Premise/Cloud)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cv-cvcc-devops-on-premise-cloud.35C8BE65.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_7327850718",
     "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
     "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
