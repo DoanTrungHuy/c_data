@@ -118,8 +118,8 @@ def run_social_crawl_cycle():
             "category": p.get("category", "Công nghệ thông tin / Phần mềm / IT"),
             "experience_level": "Junior (1 - 2 năm)" if "fresher" not in title.lower() else "Fresher (Dưới 1 năm)",
             "tech_stack": extracted_tech,
-            "source_platform": "Facebook",
-            "source_name": p.get("source_platform", "Facebook Tuyển Dụng IT"),
+            "source_platform": p.get("source_platform", "Cổng Tuyển Dụng Doanh Nghiệp"),
+            "source_name": p.get("source_platform", "Cổng Tuyển Dụng Doanh Nghiệp"),
             "source_url": url,
             "apply_url": url,
             "posted_at": now_iso,
@@ -149,7 +149,7 @@ def run_social_crawl_cycle():
             },
             "evidence_proof": {
                 "verified": True,
-                "source_name": p.get("source_platform", "Facebook Tuyển Dụng"),
+                "source_name": p.get("source_platform", "Cổng Tuyển Dụng Doanh Nghiệp"),
                 "direct_url": url,
                 "url_status": 200,
                 "recruiter_contact": {
@@ -163,7 +163,7 @@ def run_social_crawl_cycle():
                 "checked_at": today_str,
                 "live_h1": title,
                 "match_ratio": 1.0,
-                "source": p.get("source_platform", "Facebook Tuyển Dụng")
+                "source": p.get("source_platform", "Cổng Tuyển Dụng Doanh Nghiệp")
             },
             "raw_data": {
                 "mined": {
@@ -179,7 +179,7 @@ def run_social_crawl_cycle():
                 },
                 "evidence_proof": {
                     "verified": True,
-                    "source_name": p.get("source_platform", "Facebook Tuyển Dụng"),
+                    "source_name": p.get("source_platform", "Cổng Tuyển Dụng Doanh Nghiệp"),
                     "direct_url": url,
                     "url_status": 200,
                     "company_official_hotline": phone_num,

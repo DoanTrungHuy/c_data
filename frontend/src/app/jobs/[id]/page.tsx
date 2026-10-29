@@ -367,16 +367,30 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                 {/* Primary Action Buttons: 1-Click Apply & Source Link */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                   <QuickApplyButton job={job} className="w-full py-3.5 text-sm sm:text-base" />
-                  {platform.id === "facebook" ? (
+                  {isValidDirectJobUrl(job.source_url) ? (
                     <div className="flex flex-col sm:flex-row gap-2">
                       <a
-                        href={job.source_url || job.fanpage_url || "https://www.facebook.com/groups/397427535289567/"}
+                        href={job.source_url!}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-black hover:bg-neutral-800 text-white px-4 py-3.5 text-sm sm:text-base font-bold shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                        title="Mở bài đăng tuyển dụng trực tiếp trên Facebook"
+                        title="Mở tin tuyển dụng trực tiếp từ nguồn chính thức"
                       >
-                        <span>📄 Xem Bài Đăng Facebook Gốc</span>
+                        <span>
+                          {job.source_platform?.includes("Tập Đoàn") || job.source_platform?.includes("Doanh Nghiệp") || job.source_platform?.includes("Cổng") || job.source_platform?.includes("KCN") || job.source_platform?.includes("Y Tế")
+                            ? "🏢 Mở Cổng Tuyển Dụng Doanh Nghiệp"
+                            : platform.id === "careerviet"
+                            ? "📄 Xem Trên CareerViet"
+                            : platform.id === "topcv"
+                            ? "📄 Xem Trên TopCV"
+                            : platform.id === "itviec"
+                            ? "📄 Xem Trên ITViec"
+                            : platform.id === "linkedin"
+                            ? "📄 Xem Trên LinkedIn"
+                            : platform.id === "facebook"
+                            ? "📄 Xem Bài Đăng Facebook Gốc"
+                            : `Xem Tin Gốc (${platform.name})`}
+                        </span>
                         <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
                       </a>
                       {job.fanpage_url && (
@@ -385,9 +399,9 @@ export default async function JobDetailPage({ params }: JobDetailPageProps) {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center justify-center gap-2 rounded-xl sm:rounded-2xl bg-neutral-100 hover:bg-neutral-200 border border-neutral-300 px-4 py-3.5 text-sm sm:text-base font-bold text-black shadow-xs transition-all duration-200 active:scale-95 cursor-pointer text-center"
-                          title="Ghé thăm Fanpage hoặc Nhóm tuyển dụng"
+                          title="Ghé thăm Fanpage chính thức của doanh nghiệp"
                         >
-                          <span>🏢 Fanpage / Nhóm</span>
+                          <span>🏢 Fanpage Chính Thức</span>
                           <ArrowTopRightOnSquareIcon className="h-4 w-4 shrink-0" />
                         </a>
                       )}
