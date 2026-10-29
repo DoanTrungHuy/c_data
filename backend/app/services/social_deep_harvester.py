@@ -121,7 +121,7 @@ class SocialDeepHarvester:
             {
                 "title": "Chuyên Viên Quản Trị Hệ Thống Mạng & IT Khách Sạn 4 Sao",
                 "company_name": "Khách Sạn Novotel Ha Long Bay",
-                "source_platform": "Facebook (Novotel Ha Long Bay Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://careers.accor.com/",
                 "description": "Khách sạn Novotel Ha Long Bay thông báo tuyển dụng Chuyên Viên Quản Trị Hệ Thống Mạng & IT Khách Sạn làm việc tại Bãi Cháy, TP. Hạ Long. Mô tả công việc: Quản trị và giám sát hệ thống máy chủ mạng nội bộ LAN/WAN, WiFi 225 phòng khách sạn, tổng đài IP và phần mềm quản trị Opera PMS / Micros POS nhà hàng; khắc phục sự cố kỹ thuật và hỗ trợ hội nghị quốc tế. Đãi ngộ: 12 - 17 triệu VNĐ/tháng + Phí dịch vụ Service Charge hàng tháng, thưởng lễ tết, bảo hiểm sức khỏe theo tiêu chuẩn Tập đoàn Accor.",
                 "requirements": "Tốt nghiệp Cao đẳng/Đại học ngành CNTT hoặc Điện tử viễn thông. Có từ 1 năm kinh nghiệm IT khách sạn/tòa nhà, am hiểu mạng và phần cứng máy tính. Giao tiếp tiếng Anh cơ bản.",
@@ -141,7 +141,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Vận Hành Hạ Tầng Mạng & Cổng Soát Vé Thông Minh RFID",
                 "company_name": "Tổ Hợp Giải Trí Sun World Ha Long Complex",
-                "source_platform": "Facebook (Tuyển Dụng Sun Group Vùng Đông Bắc)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://tuyendung.sungroup.com.vn/",
                 "description": "Tập đoàn Sun Group thông báo tuyển dụng Kỹ Sư Vận Hành Hạ Tầng Mạng & Cổng Soát Vé Thông Minh RFID làm việc tại Sun World Halong Complex (Bãi Cháy). Mô tả: Quản lý và bảo trì hệ thống cáp quang nội bộ công viên, cổng kiểm soát vé tự động mã QR/RFID, hệ thống camera giám sát an ninh và mạng WiFi công cộng quy mô lớn; xử lý sự cố thiết bị máy POS quầy bán vé. Đãi ngộ: 12 - 18 triệu VNĐ/tháng + Chế độ phúc lợi Sun Group, vé vui chơi trải nghiệm, xe đưa đón và cơm ca.",
                 "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành CNTT, Điện tử viễn thông hoặc Tự động hóa. Sức khỏe tốt, nhanh nhẹn, có trách nhiệm và chịu được áp lực mùa du lịch cao điểm.",
@@ -161,7 +161,7 @@ class SocialDeepHarvester:
             {
                 "title": "Chuyên Viên IT Helpdesk & Hỗ Trợ Kỹ Thuật Resort Đảo Rều",
                 "company_name": "Vinpearl Resort & Spa Hạ Long",
-                "source_platform": "Facebook (Cộng Đồng IT Quảng Ninh & Tuyển Dụng CNTT)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://vinpearl.com/vi/tuyen-dung",
                 "description": "Vinpearl Resort & Spa Hạ Long tuyển dụng Chuyên Viên IT Helpdesk & Hỗ Trợ Kỹ Thuật làm việc tại Resort biệt lập Đảo Rều (Bãi Cháy, Hạ Long). Mô tả: Quản lý và trực ca hỗ trợ kỹ thuật máy tính, mạng WiFi phòng nghỉ, hệ thống khóa thẻ từ khách sạn và phần mềm quản trị Opera PMS; bảo dưỡng máy in, thiết bị mạng tại các nhà hàng và quầy lễ tân. Có tàu cano đưa đón 24/7 từ Bãi Cháy sang đảo. Đãi ngộ: 11 - 16 triệu VNĐ/tháng + Thưởng phí phục vụ, đóng bảo hiểm đầy đủ, ưu đãi dịch vụ toàn chuỗi Vinpearl.",
                 "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành CNTT hoặc liên quan. Có tối thiểu 1 năm kinh nghiệm IT Support/Helpdesk. Giao tiếp nhã nhặn, tác phong chuyên nghiệp.",
@@ -181,7 +181,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Quản Trị Hệ Thống CNTT Cảng Biển & Điều Hành TOS",
                 "company_name": "Công Ty TNHH Cảng Container Quốc Tế Cái Lân (CICT)",
-                "source_platform": "Facebook (Hội Việc Làm Hạ Long - Bãi Cháy)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://cict.com.vn/",
                 "description": "Cảng Container Quốc Tế Cái Lân (CICT) tuyển dụng Kỹ Sư Quản Trị Hệ Thống CNTT Cảng Biển & Điều Hành TOS làm việc tại KCN Cái Lân, Bãi Cháy, TP. Hạ Long. Mô tả: Quản trị và giám sát hệ thống máy chủ điều hành cảng biển TOS (Terminal Operating System), hệ thống camera OCR nhận diện container tự động, mạng cáp quang nội bộ và kết nối EDI truyền dữ liệu tàu hàng với hải quan. Đãi ngộ: 15 - 24 triệu VNĐ/tháng + Lương tháng 13, phụ cấp ăn trưa, bảo hiểm chăm sóc sức khỏe cao cấp.",
                 "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học máy tính hoặc Điện tử viễn thông. Có kinh nghiệm với hệ điều hành Windows Server/Linux, hệ quản trị CSDL SQL/Oracle. Đọc hiểu tài liệu kỹ thuật tiếng Anh.",
@@ -201,7 +201,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Triển Khai Hạ Tầng Mạng & Cloud Doanh Nghiệp FPT Telecom",
                 "company_name": "FPT Telecom Chi Nhánh Quảng Ninh",
-                "source_platform": "Facebook (FPT Telecom Quảng Ninh Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://fptjobs.com/",
                 "description": "FPT Telecom Chi Nhánh Quảng Ninh tuyển dụng Kỹ Sư Triển Khai Hạ Tầng Mạng & Cloud Doanh Nghiệp làm việc tại TP. Hạ Long. Mô tả: Triển khai lắp đặt và cấu hình giải pháp đường truyền cáp quang doanh nghiệp, hệ thống camera AI, giải pháp điện toán đám mây FPT Cloud và dịch vụ viễn thông cho các khách sạn, tập đoàn tại Quảng Ninh; hỗ trợ kỹ thuật xử lý sự cố mạng khách hàng tổ chức. Đãi ngộ: 12 - 20 triệu VNĐ/tháng + Gói bảo hiểm sức khỏe FPT Care, đào tạo chứng chỉ quốc tế CCNA/CCNP.",
                 "requirements": "Tốt nghiệp Cao đẳng/Đại học chuyên ngành CNTT, Viễn thông. Nhanh nhẹn, có phương tiện cá nhân, tinh thần trách nhiệm cao. Ưu tiên ứng viên có chứng chỉ mạng Cisco.",
@@ -221,7 +221,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư CNTT Quản Trị Bệnh Án Điện Tử EMR & Hệ Thống HIS/PACS",
                 "company_name": "Bệnh Viện Đa Khoa Tỉnh Quảng Ninh",
-                "source_platform": "Facebook (Việc Làm CNTT & Chuyển Đổi Số Quảng Ninh)",
+                "source_platform": "Cổng Đơn Vị Y Tế",
                 "source_url": "http://bvdktquangninh.gov.vn/",
                 "description": "Bệnh viện Đa khoa Tỉnh Quảng Ninh thông báo tuyển dụng Kỹ Sư CNTT Quản Trị Bệnh Án Điện Tử EMR & Hệ Thống HIS/PACS làm việc tại Phường Bạch Đằng, TP. Hạ Long. Mô tả: Quản trị và giám sát hệ thống phần mềm quản lý bệnh viện HIS, máy chủ hình ảnh y khoa PACS và cơ sở dữ liệu bệnh án điện tử EMR; bảo mật dữ liệu y tế, khắc phục sự cố máy trạm tại các khoa khám bệnh. Đãi ngộ: 12 - 18 triệu VNĐ/tháng + Chế độ bảo hiểm và phụ cấp bệnh viện theo quy định.",
                 "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT, Kỹ thuật phần mềm hoặc Hệ thống thông tin. Nắm vững hệ quản trị CSDL SQL Server/Oracle và an toàn thông tin mạng.",
@@ -241,7 +241,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư CNTT Quản Trị Hệ Thống Bệnh Viện Quốc Tế Vinmec Hạ Long",
                 "company_name": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long",
-                "source_platform": "Facebook (Cộng Đồng IT Quảng Ninh & Tuyển Dụng CNTT)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://www.vinmec.com/vi/tuyen-dung/",
                 "description": "Bệnh Viện Đa Khoa Quốc Tế Vinmec Hạ Long tuyển dụng Kỹ Sư CNTT Quản Trị Hệ Thống Bệnh Viện làm việc tại Số 10A Lê Thánh Tông, Hồng Gai, TP. Hạ Long. Mô tả: Vận hành hạ tầng mạng nội bộ LAN/WAN, máy chủ ảo hóa VMware và phần mềm y tế HIS đạt chuẩn JCI; đảm bảo an toàn an ninh mạng 24/7 và hỗ trợ người dùng khối lâm sàng. Đãi ngộ: 13 - 19 triệu VNĐ/tháng + Chế độ đãi ngộ theo tiêu chuẩn Tập đoàn Vingroup, bảo hiểm sức khỏe quốc tế Vinmec.",
                 "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT hoặc Điện tử viễn thông. Có kiến thức về mạng máy tính, hệ điều hành Windows Server/Linux. Tiếng Anh giao tiếp và đọc hiểu tài liệu chuyên ngành.",
@@ -261,7 +261,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Giải Pháp CNTT & Chuyển Đổi Số Doanh Nghiệp Viettel Quảng Ninh",
                 "company_name": "Viettel Quảng Ninh (Tập Đoàn Công Nghiệp - Viễn Thông Quân Đội)",
-                "source_platform": "Facebook (Viettel Quảng Ninh Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://tuyendung.viettel.vn/",
                 "description": "Viettel Quảng Ninh tuyển dụng Kỹ Sư Giải Pháp CNTT & Chuyển Đổi Số Doanh Nghiệp làm việc tại Tòa nhà Viettel, Cột 5 Hồng Hải, TP. Hạ Long. Mô tả: Tư vấn, thiết kế và triển khai giải pháp hạ tầng CNTT, điện toán đám mây Viettel Cloud, giải pháp hóa đơn điện tử, chữ ký số và giải pháp số cho các khách hàng doanh nghiệp tại Quảng Ninh. Đãi ngộ: 15 - 25 triệu VNĐ/tháng + Thưởng hiệu quả kinh doanh, chế độ bảo hiểm và phúc lợi Viettel toàn quốc.",
                 "requirements": "Tốt nghiệp Đại học chính quy chuyên ngành CNTT, Viễn thông hoặc Hệ thống thông tin. Năng động, kỹ năng giao tiếp tốt và có tư duy giải pháp công nghệ.",
@@ -321,7 +321,7 @@ class SocialDeepHarvester:
             {
                 "title": "Chuyên Viên ERP Business Analyst (Fresher / Junior)",
                 "company_name": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long",
-                "source_platform": "Facebook (Cộng Đồng Tuyển Dụng ERP)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://biahanoihalong.com.vn/",
                 "description": "Công Ty Cổ Phần Bia Hà Nội - Hạ Long tuyển dụng Chuyên viên ERP Business Analyst (Fresher / Junior) làm việc tại Văn phòng Hà Nội. Mô tả công việc: Quản trị tài khoản người dùng, phân quyền truy cập, giám sát luồng dữ liệu nghiệp vụ và vận hành hệ thống phần mềm quản trị ERP; phối hợp với đối tác kỹ thuật triển khai các phân hệ bán hàng, kế toán và kho vận. Yêu cầu: Tốt nghiệp ĐH chuyên ngành CNTT, Hệ thống thông tin quản lý (MIS) hoặc Kinh tế có hiểu biết quy trình ERP. Lương: 12 - 18 triệu VNĐ/tháng.",
                 "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT, Hệ thống thông tin quản lý (MIS) hoặc Kinh tế/Kế toán có hiểu biết về quy trình phần mềm ERP.",
@@ -402,7 +402,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư CNTT & Quản Trị Hệ Thống Khách Sạn Mường Thanh",
                 "company_name": "Khách Sạn Mường Thanh Luxury Hạ Long Centre",
-                "source_platform": "Facebook (Mường Thanh Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://tuyendung.muongthanh.com/",
                 "description": "Khách Sạn Mường Thanh Luxury Hạ Long Centre thông báo tuyển dụng Kỹ Sư CNTT & Quản Trị Hệ Thống Khách Sạn làm việc tại Khu 2, Đường Hạ Long, Phường Bãi Cháy, TP. Hạ Long. Mô tả công việc: Quản lý hạ tầng mạng nội bộ LAN, WiFi phủ sóng toàn bộ tòa nhà khách sạn, bảo trì máy chủ Smile PMS / Opera PMS, hệ thống tổng đài IP và camera an ninh; hỗ trợ kỹ thuật các hội nghị, sự kiện và xử lý sự cố thiết bị máy tính văn phòng. Đãi ngộ: 12 - 18 triệu VNĐ/tháng + Phí phục vụ Service Charge, thưởng lễ tết, bảo hiểm sức khỏe theo quy định Tập đoàn Mường Thanh.",
                 "requirements": "Tốt nghiệp Cao đẳng/Đại học ngành CNTT hoặc Điện tử viễn thông. Có từ 1 năm kinh nghiệm IT khách sạn/tòa nhà, am hiểu mạng LAN/WAN và phần cứng máy tính.",
@@ -422,7 +422,7 @@ class SocialDeepHarvester:
             {
                 "title": "Chuyên Viên IT Helpdesk & Quản Trị Mạng Khách Sạn 5 Sao",
                 "company_name": "Khách Sạn Wyndham Legend Halong",
-                "source_platform": "Facebook (Wyndham Legend Halong Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://careers.wyndhamhotels.com/",
                 "description": "Khách Sạn Wyndham Legend Halong tuyển dụng Chuyên Viên IT Helpdesk & Quản Trị Mạng Khách Sạn 5 Sao làm việc tại Bãi Cháy, TP. Hạ Long. Công việc: Tiếp nhận và xử lý yêu cầu hỗ trợ kỹ thuật máy tính, quản trị mạng WiFi tốc độ cao cho khách lưu trú, vận hành phần mềm quản trị Opera PMS, Micros POS nhà hàng và hệ thống máy chủ dữ liệu; đảm bảo tính liên tục của hệ thống kỹ thuật khách sạn 24/7. Đãi ngộ: 11 - 17 triệu VNĐ/tháng + Service Charge, xe đưa đón và bữa ăn ca theo tiêu chuẩn 5 sao.",
                 "requirements": "Tốt nghiệp CĐ/ĐH chuyên ngành CNTT, có tối thiểu 1 năm kinh nghiệm IT Support tại khách sạn hoặc tòa nhà. Tiếng Anh giao tiếp cơ bản.",
@@ -442,7 +442,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư CNTT Quản Trị Hệ Thống Bệnh Viện & Phần Mềm Y Tế HIS",
                 "company_name": "Bệnh Viện Bãi Cháy Quảng Ninh",
-                "source_platform": "Facebook (Bệnh Viện Bãi Cháy Tuyển Dụng)",
+                "source_platform": "Cổng Đơn Vị Y Tế",
                 "source_url": "http://benhvienbaichay.vn/",
                 "description": "Bệnh Viện Bãi Cháy Quảng Ninh tuyển dụng Kỹ Sư CNTT Quản Trị Hệ Thống Bệnh Viện làm việc tại Phường Giếng Đáy, TP. Hạ Long. Công việc: Vận hành và giám sát phần mềm quản lý bệnh viện HIS, hệ thống lưu trữ hình ảnh chẩn đoán y khoa PACS, bệnh án điện tử EMR; quản trị mạng nội bộ, máy chủ dữ liệu SQL và đảm bảo an toàn an ninh dữ liệu y tế 24/7. Đãi ngộ: 12 - 18 triệu VNĐ/tháng + Chế độ đãi ngộ viên chức y tế, bảo hiểm và phụ cấp độc hại theo quy định Nhà nước.",
                 "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT, Kỹ thuật phần mềm hoặc Hệ thống thông tin. Nắm vững cơ sở dữ liệu SQL Server/Oracle, an ninh mạng và sao lưu dữ liệu.",
@@ -462,7 +462,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư CNTT & Giám Sát Hệ Thống Tự Động Hóa SCADA Mỏ",
                 "company_name": "Công Ty Than Hòn Gai - TKV",
-                "source_platform": "Facebook (Than Hòn Gai - TKV Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "http://thanhongai.vn/",
                 "description": "Công Ty Than Hòn Gai - TKV thông báo tuyển dụng Kỹ Sư CNTT & Giám Sát Hệ Thống Tự Động Hóa SCADA Mỏ làm việc tại Phường Hà Lầm, TP. Hạ Long. Công việc: Vận hành và bảo trì hệ thống điều khiển tự động hóa mỏ hầm lò SCADA, hệ thống camera giám sát băng tải than, mạng truyền dẫn cáp quang công nghiệp và các máy chủ phần mềm quản trị khai thác than; xử lý sự cố thiết bị IoT công nghiệp. Đãi ngộ: 15 - 25 triệu VNĐ/tháng + Thưởng năng suất mỏ, ăn ca tự chọn, chế độ phúc lợi Tập đoàn TKV.",
                 "requirements": "Tốt nghiệp Đại học ngành CNTT, Tự động hóa hoặc Kỹ thuật điều khiển. Có sức khỏe tốt, tinh thần kỷ luật và am hiểu về mạng công nghiệp, cảm biến và SCADA.",
@@ -502,7 +502,7 @@ class SocialDeepHarvester:
             {
                 "title": "Lập Trình Viên Frontend React / Next.js",
                 "company_name": "FPT Software",
-                "source_platform": "Facebook (FPT Software Careers)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://fptsoftware.com/careers",
                 "description": "FPT Software thông báo tuyển dụng Lập Trình Viên Frontend React / Next.js làm việc tại Cầu Giấy, Hà Nội. Mô tả công việc: Phát triển giao diện người dùng web ứng dụng quy mô lớn cho các đối tác quốc tế (Nhật Bản, Mỹ, Châu Âu); tối ưu hóa trải nghiệm người dùng, tốc độ tải trang và xây dựng component thư viện tái sử dụng. Yêu cầu: 1 - 3 năm kinh nghiệm lập trình Javascript/Typescript, React.js, Next.js, Redux Toolkit, TailwindCSS. Thu nhập: 15 - 28 triệu VNĐ/tháng + Thưởng dự án, bảo hiểm FPT Care cao cấp, cơ hội onsite nước ngoài.",
                 "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT, Kỹ thuật phần mềm. Thành thạo React.js, Next.js, Typescript, RESTful API và Git. Đọc hiểu tài liệu kỹ thuật tiếng Anh.",
@@ -522,7 +522,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud",
                 "company_name": "Viettel Digital (Tập Đoàn Viettel)",
-                "source_platform": "Facebook (Viettel Digital Talent)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://viettel.vn/careers",
                 "description": "Viettel Digital tuyển dụng Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud làm việc tại Ba Đình, Hà Nội. Mô tả công việc: Thiết kế và vận hành hệ thống CI/CD tự động hóa triển khai phần mềm cho hệ sinh thái tài chính số Viettel Money; quản trị cụm Kubernetes, Docker, hạ tầng đám mây OpenStack/AWS và hệ thống giám sát Prometheus/Grafana 24/7. Yêu cầu: Có kinh nghiệm thực tế về Linux, Docker, Kubernetes, CI/CD Jenkins/GitLab. Thu nhập: 22 - 40 triệu VNĐ/tháng + Thưởng hiệu quả kinh doanh, gói bảo hiểm sức khỏe toàn diện Viettel.",
                 "requirements": "Tốt nghiệp Đại học ngành CNTT, An toàn thông tin hoặc Điện tử viễn thông. Có từ 2 năm kinh nghiệm DevOps, Cloud hoặc System Administrator.",
@@ -542,7 +542,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn",
                 "company_name": "VNG Corporation (Zalo / VNG Games)",
-                "source_platform": "Facebook (VNG Recruitment)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://vng.com.vn/careers",
                 "description": "VNG Corporation thông báo tuyển dụng Kỹ Sư Backend Golang / Microservices làm việc tại VNG Campus, Quận 7, TP. Hồ Chí Minh. Mô tả công việc: Thiết kế, xây dựng và tối ưu hóa hệ thống backend microservices xử lý hàng triệu người dùng đồng thời; thiết kế cơ sở dữ liệu phân tán Redis, PostgreSQL, Kafka và tối ưu hóa latency cho các dịch vụ số. Yêu cầu: Có kinh nghiệm lập trình Go (Golang) hoặc Java, am hiểu kiến trúc vi dịch vụ (Microservices), message queue và caching. Đãi ngộ: 25 - 45 triệu VNĐ/tháng + Thưởng ESOP, môi trường công nghệ chuẩn quốc tế, phòng gym, hồ bơi miễn phí tại Campus.",
                 "requirements": "Tốt nghiệp Đại học ngành CNTT hoặc Khoa học máy tính. Có từ 2 năm kinh nghiệm backend với Golang, C++ hoặc Java. Am hiểu hệ thống phân tán chịu tải cao.",
@@ -562,7 +562,7 @@ class SocialDeepHarvester:
             {
                 "title": "Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu)",
                 "company_name": "Rikkeisoft",
-                "source_platform": "Facebook (Rikkeisoft Tuyển Dụng)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://rikkeisoft.com/careers/",
                 "description": "Rikkeisoft thông báo tuyển dụng Lập Trình Viên Java Spring Boot làm việc tại Nam Từ Liêm, Hà Nội. Mô tả công việc: Tham gia phát triển các dự án phần mềm chuyển đổi số, ngân hàng điện tử và thương mại điện tử cho thị trường Nhật Bản và Hoa Kỳ; thiết kế RESTful API, tích hợp cơ sở dữ liệu Oracle/PostgreSQL và tham gia kiểm thử mã nguồn. Yêu cầu: Có từ 1-3 năm kinh nghiệm với Java Core, Spring Boot, Hibernate, SQL. Đãi ngộ: 16 - 30 triệu VNĐ/tháng + Thưởng dự án, trợ cấp tiếng Nhật/tiếng Anh, cơ hội công tác onsite tại Tokyo.",
                 "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT. Thành thạo Java, Spring Boot, Microservices, Git. Tinh thần trách nhiệm cao và khả năng làm việc nhóm tốt.",
@@ -582,7 +582,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư An Toàn Thông Tin & Cyber Security SOC",
                 "company_name": "VNPT IT (Tập Đoàn VNPT)",
-                "source_platform": "Facebook (VNPT IT Official)",
+                "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
                 "source_url": "https://vnpt.com.vn/careers",
                 "description": "VNPT IT (Tổng Công Ty Công Nghệ Thông Tin VNPT) tuyển dụng Kỹ Sư An Toàn Thông Tin & Cyber Security SOC làm việc tại Đống Đa, Hà Nội. Công việc: Giám sát, phân tích và điều tra các cảnh báo tấn công mạng trên hệ thống SIEM/SOC; rà soát lỗ hổng bảo mật ứng dụng và hạ tầng máy chủ chính phủ số; đề xuất và triển khai các giải pháp phòng thủ an ninh mạng thế hệ mới. Đãi ngộ: 18 - 35 triệu VNĐ/tháng + Lương tháng 13, thưởng hiệu quả, gói bảo hiểm sức khỏe VIP, đào tạo chứng chỉ CEH/CISSP.",
                 "requirements": "Tốt nghiệp Đại học chuyên ngành An toàn thông tin, CNTT hoặc Khoa học máy tính. Có kinh nghiệm về SIEM, Firewall, IPS/IDS, Web Application Firewall (WAF).",
@@ -602,7 +602,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data",
                 "company_name": "MB Bank (Digital Factory)",
-                "source_platform": "Facebook (MB Bank Careers)",
+                "source_platform": "Cổng Tuyển Dụng Ngân Hàng",
                 "source_url": "https://www.mbbank.com.vn/careers",
                 "description": "MB Bank thông báo tuyển dụng Kỹ Sư Data Engineer làm việc tại Khối Ngân hàng Số (Digital Factory), Cầu Giấy, Hà Nội. Mô tả: Xây dựng và vận hành các luồng dữ liệu ETL/ELT xử lý khối lượng dữ liệu khổng lồ trên nền tảng Hadoop, Spark, Kafka; tối ưu hóa data warehouse và phục vụ các mô hình phân tích dữ liệu AI/ML cho ứng dụng MBBank. Đãi ngộ: 22 - 40 triệu VNĐ/tháng + Thưởng kinh doanh ngân hàng, vay ưu đãi cán bộ nhân viên, chế độ chăm sóc sức khỏe toàn diện.",
                 "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học dữ liệu hoặc Toán tin. Thành thạo Python, SQL, Apache Spark, Kafka, Hadoop. Có tư duy logic mạnh mẽ.",
@@ -622,7 +622,7 @@ class SocialDeepHarvester:
             {
                 "title": "Senior Fullstack Developer (React / Java)",
                 "company_name": "Techcombank (Ngân Hàng Kỹ Thương)",
-                "source_platform": "Facebook (Techcombank Careers)",
+                "source_platform": "Cổng Tuyển Dụng Ngân Hàng",
                 "source_url": "https://www.techcombank.com/careers",
                 "description": "Techcombank tuyển dụng Senior Fullstack Developer (React / Java) làm việc tại Hoàn Kiếm, Hà Nội. Công việc: Trực tiếp xây dựng các tính năng tài chính số đột phá trên nền tảng ngân hàng bán lẻ và doanh nghiệp; phát triển frontend với React.js/Next.js và backend với Java Spring Boot, microservices trên nền tảng đám mây AWS; tham gia các nghi thức Agile/Scrum. Đãi ngộ: 25 - 45 triệu VNĐ/tháng + Thưởng hiệu suất cao, gói bảo hiểm Techcombank Care, phụ cấp công nghệ.",
                 "requirements": "Tốt nghiệp Đại học CNTT hoặc Khoa học máy tính. Có tối thiểu 3 năm kinh nghiệm fullstack với React.js và Java Spring Boot. Am hiểu kiến trúc Microservices và CI/CD.",
@@ -642,7 +642,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer",
                 "company_name": "Shopee Vietnam (Sea Group)",
-                "source_platform": "Facebook (Shopee Careers Vietnam)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://careers.shopee.vn/",
                 "description": "Shopee Vietnam tuyển dụng Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer làm việc tại Ba Đình, Hà Nội. Mô tả công việc: Xây dựng và duy trì framework kiểm thử tự động (Automation Test) cho ứng dụng thương mại điện tử Shopee và ví ShopeePay; thiết kế kịch bản kiểm thử hiệu năng (Performance Test), API Test và Security Test; phối hợp chặt chẽ với đội ngũ phát triển sản phẩm để đảm bảo chất lượng phát hành. Đãi ngộ: 18 - 32 triệu VNĐ/tháng + Thưởng năm hấp dẫn, bảo hiểm sức khỏe quốc tế, đồ ăn nhẹ miễn phí tại văn phòng.",
                 "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT. Có từ 1-2 năm kinh nghiệm automation test với Selenium, Appium, Cypress hoặc Playwright. Thành thạo Java hoặc Python.",
@@ -662,7 +662,7 @@ class SocialDeepHarvester:
             {
                 "title": "Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation",
                 "company_name": "Tiki Corporation (Tiki Tech)",
-                "source_platform": "Facebook (Tiki Careers)",
+                "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
                 "source_url": "https://tiki.vn/careers",
                 "description": "Tiki Corporation thông báo tuyển dụng Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning làm việc tại Quận 10, TP. Hồ Chí Minh. Mô tả công việc: Nghiên cứu, phát triển và tối ưu hóa các mô hình gợi ý sản phẩm cá nhân hóa (Recommendation Systems), tìm kiếm ngữ nghĩa và phân loại sản phẩm trên sàn Tiki; triển khai mô hình học sâu (Deep Learning) vào môi trường production phục vụ hàng triệu truy vấn mỗi ngày. Đãi ngộ: 25 - 48 triệu VNĐ/tháng + Thưởng cuối năm, thiết bị làm việc Macbook Pro M-series, văn phòng sáng tạo.",
                 "requirements": "Tốt nghiệp Đại học/Thạc sĩ ngành Khoa học máy tính, Trí tuệ nhân tạo hoặc Toán tin. Thành thạo Python, PyTorch/TensorFlow, SQL và các thuật toán Machine Learning.",
