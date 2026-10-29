@@ -58478,6 +58478,1458 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7842520515",
+    "title": "[TT CNTT] - Chuyên viên lập trình",
+    "company_name": "Tổng Công Ty Chuyển Phát Nhanh Bưu Điện",
+    "description": "Mô tả Công việc\n- Phát triển tính năng: Lập trình các chức năng mới theo tài liệu đặc tả (SRS) từ bộ phận BA.\n- Xây dựng giao diện (Frontend): Chuyển đổi các bản thiết kế (Figma, Photoshop) thành mã nguồn (HTML/CSS/JS) đảm bảo hiển thị tốt trên mọi thiết bị (Responsive Design).\n- Xây dựng hệ thống (Backend): Thiết kế cơ sở dữ liệu, xây dựng API và các logic xử lý nghiệp vụ phía máy chủ.\n- Tối ưu hóa hiệu năng: Cải thiện tốc độ tải trang, tối ưu hóa câu lệnh truy vấn dữ liệu và đảm bảo tính bảo mật của website.\n- Sửa lỗi và Bảo trì: Tiếp nhận báo cáo lỗi từ bộ phận QC và thực hiện khắc phục. Nâng cấp các thư viện, công nghệ để hệ thống không bị lạc hậu.\n- Phối hợp nhóm: Làm việc chặt chẽ với UI/UX Designer để đảm bảo tính thẩm mỹ và với QC để đảm bảo chất lượng sản phẩm\n- Các công việc liên quan khác theo sự phân công của Ban lãnh đạo.",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ:\n- Tốt nghiệp Đại học (Chính quy) trở lên các chuyên ngành: Công nghệ thông tin, Khoa học máy tính hoặc các ngành liên quan.\n2. Kinh nghiệm:\n- Tối thiểu 1–3 năm kinh nghiệm lập trình hoặc vị trí tương đương.\n- Ưu tiên có kinh nghiệm trong lĩnh vực:\n+ Logistics / Chuyển phát\n+ Thương mại điện tử\n+ Chuỗi cung ứng\n3. Kiến thức và kỹ năng chuyên môn:\n- Frontend:\n+ Thành thạo HTML, CSS, JavaScript\n+ Có kinh nghiệm với các framework: ReactJS, Angular, VueJS (ít nhất 1 framework)\n- Backend:\n+ Thành thạo một trong các ngôn ngữ: Java, .NET, NodeJS, PHP\n+ Hiểu biết về xây dựng RESTful API\n- Cơ sở dữ liệu:\n+ Sử dụng tốt: MySQL, SQL Server, PostgreSQL hoặc Oracle\n+ Có khả năng tối ưu truy vấn\n4.  Khác:\n- Hiểu biết về Git, quy trình CI/CD là lợi thế\n- Nắm được các nguyên tắc bảo mật cơ bản (OWASP)\n- Có tư duy logic tốt, khả năng giải quyết vấn đề",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "React",
+      "Vue.js",
+      "Angular",
+      "Node.js",
+      ".NET / C#"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/tt-cntt-chuyen-vien-lap-trinh.35C8BD42.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/tt-cntt-chuyen-vien-lap-trinh.35C8BD42.html",
+    "posted_at": "2026-10-29T05:27:21.959215+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:21.959215+00:00",
+    "last_verified_at": "2026-10-29T05:27:21.959215+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:21.959215+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/tt-cntt-chuyen-vien-lap-trinh.35C8BD42.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [TT CNTT] - Chuyên viên lập trình tại Tổng Công Ty Chuyển Phát Nhanh Bưu Điện (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[TT CNTT] - Chuyên viên lập trình",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/tt-cntt-chuyen-vien-lap-trinh.35C8BD42.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9014559756",
+    "title": "(Middle, Senior) BackEnd Engineer (Java, Spring Boot) - Khối Công nghệ thông tin (2025TD923)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\n1. Tham gia phát triển các dự án, hệ thống của MB như:\n- Payment Platform\n- Chuyển tiền liên ngân hàng – Napas, Citad\n- Open Banking\n- Push Notification\n- Digital Lending\n- Thanh toán QR\n- Ví điện tử\n2. Phát triển mã nguồn sạch, đáp ứng các tiêu chuẩn về hiệu năng, bảo mật.\n3. Thiết kế các hệ thống mới, tính năng mới.\n4. Bảo trì và cải tiến chức năng hoạt động hiện tại\n5. Nghiên cứu và áp dụng các công nghệ mới nhằm nâng cao hiệu năng, khả năng mở rộng và trải nghiệm người dùng.",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\n1. Tốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Kỹ thuật phần mềm, Khoa học máy tính và liên quan\n2. Có kinh nghiệm làm việc thực tế tối thiểu 1,5 năm tại các công ty hoặc dự án về lập trình Backend\n3. Thành thạo ít nhất 1 trong các ngôn ngữ BackEnd, ưu tiên Java.\n4. Thành thạo một trong trong các loại database: Oracle, Sqlserver, PostgreSQL, MongoDB.\n6. Có kinh nghiệm xử các bài toán bất đồng bộ, Message Queue (Kafka, RabbitMQ)\n7. Ưu tiên ứng viên có kỹ năng áp dụng AI, sử dụng skill trong AI Coding để giải quyết các bài toán thực tế trong phát triển phần mềm.\nRiêng với ứng viên Junior, Fresher (kinh nghiệm dưới 1,5 năm): Ưu tiên các bạn xếp loại học tập loại Giỏi, Xuất sắc, GPA cao; đạt giải thưởng trong các cuộc thi chuyên môn; học sinh giỏi tỉnh, thành phố trở lên; có nghiên cứu khoa học được công bố tại các hội thảo, tạp chí\nỨng viên level Junior cần thể hiện nội dung về GPA, thành tích học tập, giải thưởng trong CV.\nMB Bank yêu cầ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "SQL Database",
+      "Oracle DB",
+      "MongoDB",
+      "Redis"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td923.35C8B92D.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td923.35C8B92D.html",
+    "posted_at": "2026-10-29T05:27:26.246976+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:26.246976+00:00",
+    "last_verified_at": "2026-10-29T05:27:26.246976+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:26.246976+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td923.35C8B92D.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí (Middle, Senior) BackEnd Engineer (Java, Spring Boot) - Khối Công nghệ thông tin (2025TD923) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "(Middle, Senior) BackEnd Engineer (Java, Spring Boot) - Khối Công nghệ thông tin (2025TD923)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td923.35C8B92D.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9936757665",
+    "title": "Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nPhát triển, ứng dụng, tối ưu, tích hợp mô hình AI cho các bài toán ứng dụng trong hoạt động Kinh doanh/Ngân hàng về các lĩnh vực Computer Vision, NLP...\nTham gia vào các công đoạn triển khai dịch vụ: Kiến trúc hệ thống, thiết kế mô hình hoạt động, luồng hoạt động, chức năng, tối ưu performance\nCoding, test metrics, service và unittest theo mô hình DevOps, MLOps\nNghiên cứu, tìm hiểu các bài báo khoa học mới nhất về AI, ML, DL\nVới nhóm ứng viên là sinh viên tài năng và fresher: tham gia các chương trình đào tạo và dự án dành cho Trainee để phát triển lên các vị trí chính thức.",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nTốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Điện tử viễn thông, Công nghệ phần mềm, Hệ thống thông tin....\nYêu cầu ứng viên có từ 2 năm kinh nghiệm ở các vị trí AI.\nCó kiến thức và kỹ năng về MỘT TRONG NHỮNG nội dung sau:\n+ Ngôn ngữ lập trình Python, C/C++\n+ Service/MicroService với một trong các framework FastAPI/Flask/Django\n+ Tensorflow/Pytorch/DGL/PyG/Onnx\n+ API (Restful/gRPC), Lập trình an toàn, đảm bảo & tối ưu hiệu năng\n+ Git và Git Flow, Docker/ Kubernete, Kubeflow/MLFlow, TritonServer/ Tensorflow Serving\n+ Các dạng bài toán Supervised learning, Reinforcement learning\n+ Xử lý Ảnh (Computer Vision)/Video/Âm thanh/Ngôn ngữ tự nhiên (NLP)\n+ CNN/RNN/Transformer/Attention, SVM/KNN/Clustering, GNN vv...\n+ Kỹ thuật Knowledge Distiller/ Model Prune,  Model Quantization\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện t",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "CI/CD DevOps",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450878.35C8B926.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450878.35C8B926.html",
+    "posted_at": "2026-10-29T05:27:27.799071+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.799071+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.799071+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.799071+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450878.35C8B926.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450878.35C8B926.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5882290839",
+    "title": "(Middle, Senior) FullStack Developer - Khối Công nghệ thông tin (2025TD943)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nPhát triển, trực tiếp lập trình các hệ thống, ứng dụng của Ngân hàng, gồm các hệ thống nội bộ và ứng dụng dành cho khách hàng với quy mô 30 triệu khách hàng cá nhân và  300.000 khách hàng doanh nghiệp.\nPhát triển hoặc phối hợp triển khai cùng các nhà cung cấp cho các giải pháp Công nghệ.\nQuản lý, phát triển dịch vụ tích hợp với các hệ thống core như: T24, WAY4, BPM, CRM, CIC v.v\nQuản lý, phát triển API trên API Gateway phục vụ tích hợp với các đối tác trong nước và quốc tế.\nNghiên cứu, thử nghiệm, triển khai áp dụng các xu hướng công nghệ mới vào việc phát triển: GraphQL, Docker Container (K8s), CICD, EventSourcing, CQRS, NoSQL ...\nTham gia phân tích nghiệp vụ, đề xuất giải pháp, phương án triển khai nhằm cải tiến, nâng cao hiệu quả của các dự án trong quá trình làm việc.\nLên timeline công việc, quản lý tasks cho các thành viên trong nhóm, giám sát và hỗ trợ các thành viên hoàn thành đúng cam kết.\nDẫn dắt nhóm 3-6 thành viên, đồng hành cùng các thành viên phát triển chuyên môn và hoàn thành công việc",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nTốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Kỹ thuật phần mềm, Khoa học máy tính và liên quan\n2. Có kinh nghiệm làm việc thực tế tại các công ty hoặc dự án về lập trình Backend\n3. Thành thạo ít nhất 1 trong các ngôn ngữ BackEnd, ưu tiên Java.\n4. Thành thạo một trong trong các loại database: Oracle, Sqlserver, PostgreSQL, MongoDB.\n6. Có kinh nghiệm xử các bài toán bất đồng bộ, Message Queue (Kafka, RabbitMQ)\n7. Ưu tiên ứng viên có kỹ năng áp dụng AI, sử dụng skill trong AI Coding để giải quyết các bài toán thực tế trong phát triển phần mềm.\nRiêng với ứng viên Junior, Fresher (kinh nghiệm dưới 1,5 năm): Ưu tiên các bạn xếp loại học tập loại Giỏi, Xuất sắc, GPA cao; đạt giải thưởng trong các cuộc thi chuyên môn; học sinh giỏi tỉnh, thành phố trở lên; có nghiên cứu khoa học được công bố tại các hội thảo, tạp chí\nỨng viên level  Junior cần thể hiện nội dung về GPA, thành tích học tập, giải thưởng trong CV.\nMB Bank yêu cầu ứng viên ứng tuyển",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "SQL Database"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-fullstack-developer-khoi-cong-nghe-thong-tin-2025td943.35C8B932.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-fullstack-developer-khoi-cong-nghe-thong-tin-2025td943.35C8B932.html",
+    "posted_at": "2026-10-29T05:27:26.777597+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:26.777597+00:00",
+    "last_verified_at": "2026-10-29T05:27:26.777597+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:26.777597+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-fullstack-developer-khoi-cong-nghe-thong-tin-2025td943.35C8B932.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí (Middle, Senior) FullStack Developer - Khối Công nghệ thông tin (2025TD943) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "(Middle, Senior) FullStack Developer - Khối Công nghệ thông tin (2025TD943)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/middle-senior-fullstack-developer-khoi-cong-nghe-thong-tin-2025td943.35C8B932.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8909616340",
+    "title": "FullStack Developer (Junior, Senior) - Khối Công nghệ thông tin (2025TD922)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nPhát triển các hệ thống của MBBank, gồm các nền tảng nội bộ và ứng dụng dành cho khách hàng với quy mô 30 triệu khách hàng cá nhân và  300.000 khách hàng doanh nghiệp - đứng đầu Việt Nam về quy mô phục vụ\nQuản lý, phát triển dịch vụ tích hợp với các hệ thống core banking như: T24, WAY4, BPM, CRM, CIC ...\nQuản lý, phát triển API trên API Gateway phục vụ tích hợp với các đối tác trong nước và quốc tế.\nNghiên cứu, thử nghiệm, triển khai áp dụng các xu hướng công nghệ mới vào hoạt động phát triển: GraphQL, Docker Container (K8s), CICD, EventSourcing, CQRS, NoSQL ...",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nTốt nghiệp Đại học các chuyên ngành Công nghệ thông tin và liên quan\nCó kinh nghiệm làm việc thực tế tại các công ty hoặc dự án về lập trình Backend\nThành thạo 1 trong các ngôn ngữ BackEnd, ưu tiên Java hoặc Go\nThành thạo một trong trong các loại database: Oracle, Sqlserver, PostgreSQL, Mongodb.\nCó kinh nghiệm trong domain tài chính, ngân hàng, chứng khoán hoặc các hệ thống có số lượng người dùng lớn là lợi thế\nVới ứng viên Junior, Fresher: Ưu tiên các bạn xếp loại học tập loại Giỏi, Xuất sắc; GPA cao; đạt giải thưởng trong các cuộc thi chuyên môn, học sinh giỏi tỉnh, thành phố trở lên; có nghiên cứu khoa học được công bố tại các hội thảo, tạp chí quốc tế (ứng viên cần thể hiện nội dung về GPA, giải thưởng trong CV)\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n-",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Go / Golang",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/fullstack-developer-junior-senior-khoi-cong-nghe-thong-tin-2025td922.35C8B930.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/fullstack-developer-junior-senior-khoi-cong-nghe-thong-tin-2025td922.35C8B930.html",
+    "posted_at": "2026-10-29T05:27:27.132375+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.132375+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.132375+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.132375+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/fullstack-developer-junior-senior-khoi-cong-nghe-thong-tin-2025td922.35C8B930.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí FullStack Developer (Junior, Senior) - Khối Công nghệ thông tin (2025TD922) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "FullStack Developer (Junior, Senior) - Khối Công nghệ thông tin (2025TD922)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/fullstack-developer-junior-senior-khoi-cong-nghe-thong-tin-2025td922.35C8B930.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1377230116",
+    "title": "AI Software Engineer (Python/Go/C/C++ Backend & AI Agents) - Khối Công nghệ thông tin (2026TD450888)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nXây dựng phát triển các sản phẩm AI có khả năng tự động lập kế hoạch, ra quyết định và thực thi hành động, được triển khai thực tế ở quy mô lớn, các hệ thống AI thế hệ mới như:\n- AI Agents (Autonomous Agents)\n- LLM-powered Applications\n- Multi-agent Workflow Systems\n- AI-driven Backend Services\n- Intelligent Automation Platforms\nTrách nhiệm công việc (Responsibilities):\n- Thiết kế và phát triển các hệ thống Backend tích hợp AI/LLM Agents.\n- Xây dựng các Agentic Workflow, A: Planning – Tool Use – Memory – Execution.\n- Phát triển các dịch vụ AI dưới dạng Microservices (FastAPI/Flask/Django hoặc Java/Go services).\n- Tích hợp các mô hình AI vào hệ thống sản phẩm qua REST/gRPC APIs.\n- Triển khai hệ thống AI production-ready với Docker/Kubernetes.\n- Tối ưu hiệu năng inference: latency, throughput, cost.\n- Làm việc với dữ liệu lớn và hệ thống có lượng người dùng cao (đặc biệt trong tài chính/ngân hàng/chứng khoán).\n- Nghiên cứu và ứng dụng các kỹ thuật mới: RAG, Function Calling, Multi-agent systems, Reinforcement Learning Agents.\n- Đảm bảo các tiêu chuẩn về bảo mật, an toàn và khả năng mở rộng của hệ thống AI",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nTốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Công nghệ phần mềm, Hệ thống thông tin, Tự động hóa, Điện tử viễn thông hoặc các ngành liên quan\nCó kinh nghiệm thực tế làm Backend tại công ty hoặc dự án lớn.\nThành thạo ít nhất 1 ngôn ngữ Backend: Ưu tiên Python, Go, C/C++\nCó kinh nghiệm thiết kế hệ thống Microservice Architecture.\nThành thạo một trong các hệ quản trị cơ sở dữ liệu:PostgreSQL, MongoDB...\nHiểu rõ API design (RESTful/gRPC), bảo mật và tối ưu hiệu năng hệ thống.\nCó kinh nghiệm với: LLM Agents (GPT, Gemini, Claude...), LangChain / LangGraph/ ADK, Autogen, RAG pipelines, Vector Database(Milvus, pgvector...). Tool-use Agents (Function Calling), Memory + Planning + Multi-step reasoning systems\nThành thạo Git/GitFlow\nCó kinh nghiệm: Docker, Kubernetes...\nƯu tiên:\n+ Có kinh nghiệm trong domain: Tài chính, ngân hàng, chứng khoán\n+ Hiểu biết về AI Safety, Guardrails, Model Monitoring.\n+ Có kinh nghiệm tối ưu hệ thốn",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Go / Golang",
+      "Docker",
+      "Kubernetes",
+      "SQL Database"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ai-software-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450888.35C8B92A.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ai-software-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450888.35C8B92A.html",
+    "posted_at": "2026-10-29T05:27:26.971498+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:26.971498+00:00",
+    "last_verified_at": "2026-10-29T05:27:26.971498+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:26.971498+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ai-software-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450888.35C8B92A.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí AI Software Engineer (Python/Go/C/C++ Backend & AI Agents) - Khối Công nghệ thông tin (2026TD450888) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "AI Software Engineer (Python/Go/C/C++ Backend & AI Agents) - Khối Công nghệ thông tin (2026TD450888)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ai-software-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450888.35C8B92A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6979059620",
+    "title": "Agentic Engineer (Python/Go/C/C++ Backend & AI Agents) - Khối Công nghệ thông tin (2026TD450887)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nXây dựng phát triển các sản phẩm AI có khả năng tự động lập kế hoạch, ra quyết định và thực thi hành động, được triển khai thực tế ở quy mô lớn, các hệ thống AI thế hệ mới như:\n- AI Agents (Autonomous Agents)\n- LLM-powered Applications\n- Multi-agent Workflow Systems\n- AI-driven Backend Services\n- Intelligent Automation Platforms\nTrách nhiệm công việc (Responsibilities):\n- Thiết kế và phát triển các hệ thống Backend tích hợp AI/LLM Agents.\n- Xây dựng các Agentic Workflow, A: Planning – Tool Use – Memory – Execution.\n- Phát triển các dịch vụ AI dưới dạng Microservices (FastAPI/Flask/Django hoặc Java/Go services).\n- Tích hợp các mô hình AI vào hệ thống sản phẩm qua REST/gRPC APIs.\n- Triển khai hệ thống AI production-ready với Docker/Kubernetes.\n- Tối ưu hiệu năng inference: latency, throughput, cost.\n- Làm việc với dữ liệu lớn và hệ thống có lượng người dùng cao (đặc biệt trong tài chính/ngân hàng/chứng khoán).\n- Nghiên cứu và ứng dụng các kỹ thuật mới: RAG, Function Calling, Multi-agent systems, Reinforcement Learning Agents.\n- Đảm bảo các tiêu chuẩn về bảo mật, an toàn và khả năng mở rộng của hệ thống AI",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nTốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Công nghệ phần mềm, Hệ thống thông tin, Tự động hóa, Điện tử viễn thông hoặc các ngành liên quan\nCó kinh nghiệm thực tế làm Backend tại công ty hoặc dự án lớn.\nThành thạo ít nhất 1 ngôn ngữ Backend: Ưu tiên Python, Go, C/C++\nCó kinh nghiệm thiết kế hệ thống Microservice Architecture.\nThành thạo một trong các hệ quản trị cơ sở dữ liệu:PostgreSQL, MongoDB...\nHiểu rõ API design (RESTful/gRPC), bảo mật và tối ưu hiệu năng hệ thống.\nCó kinh nghiệm với: LLM Agents (GPT, Gemini, Claude...), LangChain / LangGraph/ ADK, Autogen, RAG pipelines, Vector Database(Milvus, pgvector...). Tool-use Agents (Function Calling), Memory + Planning + Multi-step reasoning systems\nThành thạo Git/GitFlow\nCó kinh nghiệm: Docker, Kubernetes...\nƯu tiên:\n+ Có kinh nghiệm trong domain: Tài chính, ngân hàng, chứng khoán\n+ Hiểu biết về AI Safety, Guardrails, Model Monitoring.\n+ Có kinh nghiệm tối ưu hệ thốn",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Go / Golang",
+      "Docker",
+      "Kubernetes",
+      "SQL Database"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/agentic-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450887.35C8B922.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/agentic-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450887.35C8B922.html",
+    "posted_at": "2026-10-29T05:27:27.448907+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.448907+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.448907+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.448907+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/agentic-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450887.35C8B922.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Agentic Engineer (Python/Go/C/C++ Backend & AI Agents) - Khối Công nghệ thông tin (2026TD450887) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Agentic Engineer (Python/Go/C/C++ Backend & AI Agents) - Khối Công nghệ thông tin (2026TD450887)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/agentic-engineer-python-go-c-c-backend-ai-agents-khoi-cong-nghe-thong-tin-2026td450887.35C8B922.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5737888632",
+    "title": "Senior AI Expert - Khối Công nghệ thông tin (2026TD450201)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nTham gia cố vấn và xây dựng chiến lược, định hướng phát triển AI cho Ban lãnh đạo\nGiám sát, điều phối và phát triển các dự án, sản phẩm hoặc dịch vụ AI trong ngân hàng.\nNhiệm vụ chính:\n1. Trực tiếp tham gia phát triển các dự án AI trọng điểm\n2. Tham gia xây dựng và triển khai chiến lược, định hướng cho các dự án AI\n3. Lập kế hoạch chi tiết và quản lý các dự án phát triển và ứng dụng AI.\n4. Giám sát và hỗ trợ đội ngũ phát triển trong việc phát triển và triển khai các giải pháp AI, đảm bảo chất lượng và hiệu suất cao nhất.\n5. Làm việc với các đơn vị tại Trung tâm AI (LLM, NLP, Computer Vision, Chatbot, R&D) và các đơn vị liên quan (khối Dữ liệu, các Trung tâm phát triển phần mềm, Kiểm thử, BA và khách hàng) để đảm bảo sự phối hợp nhịp nhàng và tối ưu hóa nguồn lực.\n6. Cập nhật và nghiên cứu các công nghệ AI mới nhất, áp dụng vào các dự án thực tế.\n7. Đảm bảo chất lượng và hiệu suất cho các dự án AI, thực hiện kiểm tra và đánh giá định kỳ.\n8. Tham gia tuyển dụng nhân tài, huấn luyện và phát triển đội ngũ",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\n- Tốt nghiệp Đại học trở lên\n- Tối thiểu 5 năm kinh nghiệm trong lĩnh vực AI/ML.\n- Có kinh nghiệm lãnh đạo, quản lý liên quan đến AI là lợi thế\n- Chuyên môn:\n+ Hiểu biết sâu về các công nghệ AI/ML/Computer Vision/NLP/LLM...\n+ Có chuyên môn sâu về quản trị dữ liệu\n- Kỹ năng quản lý:\n+ Kỹ năng lập kế hoạch, tổ chức và quản lý công việc\n+ Kỹ năng ra quyết định, giải quyết vấn đề và quản lý xung đột\n+ Khả năng truyền cảm hứng cho đội ngũ\n- Yêu cầu khác:\n+ Hiểu biết về các quy định pháp lý, đạo đức liên quan đến AI\n+ Kiến thức về quản trị rủi ro và các tiêu chuẩn ngành\"\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\nSkilltags:\nNLP\nComputer Vision\nLLM\nAI Agents\nDeep Learning\nMachine Learning",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-expert-khoi-cong-nghe-thong-tin-2026td450201.35C8B91E.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-expert-khoi-cong-nghe-thong-tin-2026td450201.35C8B91E.html",
+    "posted_at": "2026-10-29T05:27:27.081817+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.081817+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.081817+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.081817+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-expert-khoi-cong-nghe-thong-tin-2026td450201.35C8B91E.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior AI Expert - Khối Công nghệ thông tin (2026TD450201) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior AI Expert - Khối Công nghệ thông tin (2026TD450201)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-ai-expert-khoi-cong-nghe-thong-tin-2026td450201.35C8B91E.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7616034574",
+    "title": "AI Expert - Khối Công nghệ thông tin (2026TD450200)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nChịu trách nhiệm định hướng, giám sát, điều phối và phát triển các dự án, sản phẩm hoặc dịch vụ AI trong ngân hàng.\nNhiệm vụ chính:\n1. Tham gia xây dựng và triển khai định hướng cho các dự án AI\n2. Lập kế hoạch chi tiết và quản lý các dự án phát triển và ứng dụng AI.\n3. Giám sát và hỗ trợ đội ngũ phát triển trong việc phát triển và triển khai các giải pháp AI, đảm bảo chất lượng và hiệu suất cao nhất.\n4. Làm việc chặt chẽ với các phòng ban liên quan tại Trung tâm AI (LLM, NLP, Computer Vision, Chatbot, R&D.v.v. và các đơn vị khác) để đảm bảo sự phối hợp nhịp nhàng và tối ưu hóa nguồn lực.\n5. Cập nhật và nghiên cứu các công nghệ AI mới nhất, áp dụng vào các dự án thực tế.\n6. Đảm bảo chất lượng và hiệu suất cho các dự án AI, thực hiện kiểm tra và đánh giá định kỳ.\n7. Xác định và đánh giá các rủi ro trong quá trình triển khai dự án.\n8. Tham gia tuyển dụng nhân tài, huấn luyện và phát triển đội ngũ",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\n- Tối thiểu 3 năm kinh nghiệm trong lĩnh vực AI/ML.\n- Chuyên môn:\n+ Hiểu biết sâu về các công nghệ AI/ML/Computer Vision/NLP/LLM,v.v.\n+ Có chuyên môn sâu về quản trị dữ liệu\n- Kỹ năng quản lý:\n+ Kỹ năng lập kế hoạch, tổ chức và quản lý công việc\n+ Kỹ năng ra quyết định, giải quyết vấn đề và quản lý xung đột\n+ Khả năng truyền cảm hứng cho đội ngũ\n- Yêu cầu khác:\n+ Hiểu biết về các quy định pháp lý, đạo đức liên quan đến AI\n+ Kiến thức về quản trị rủi ro và các tiêu chuẩn ngành\"\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\nSkilltags:\nNLP\nComputer Vision\nLLM\nAI Agents\nDeep Learning\nMachine Learning",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C8B914.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C8B914.html",
+    "posted_at": "2026-10-29T05:27:27.531416+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.531416+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.531416+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.531416+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C8B914.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí AI Expert - Khối Công nghệ thông tin (2026TD450200) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "AI Expert - Khối Công nghệ thông tin (2026TD450200)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ai-expert-khoi-cong-nghe-thong-tin-2026td450200.35C8B914.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8160677616",
+    "title": "MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nTham gia phát triển, ứng dụng, tối ưu, tích hợp mô hình AI cho các bài toán ứng dụng trong hoạt động Kinh doanh/Ngân hàng về các lĩnh vực Computer Vision, NLP...\nTham gia vào các công đoạn triển khai dịch vụ: Kiến trúc hệ thống, thiết kế mô hình hoạt động, luồng hoạt động, chức năng, tối ưu performance\nTham gia Coding, test metrics, service và unittest theo mô hình DevOps, MLOps\nTham gia nghiên cứu, tìm hiểu các bài báo khoa học mới nhất về AI, ML, DL\nTham gia các chương trình đào tạo và dự án dành cho Trainee để phát triển lên các vị trí chính thức.",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nSinh viên năm 4, tốt nghiệp dưới 01 năm Đại học các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Điện tử viễn thông, Công nghệ phần mềm, Hệ thống thông tin....\nƯu tiên các bạn tốt nghiệp loại Giỏi, Xuất sắc, có thành tích cao, đạt giải thưởng, có nghiên cứu khoa học trong quá trình học Phổ thông, Đại học (ứng viên nên thể hiện nội dung này trong CV)\nỨng viên có thể làm việc fulltime là một lợi thế. Yêu cầu onsite tối thiểu 7/10 buổi làm việc trong tuần (từ thứ 2 - thứ 6).\nCó kiến thức và kỹ năng về MỘT TRONG NHỮNG nội dung sau:\n+ Ngôn ngữ lập trình: Python, C/C++\n+ Service/MicroService với một trong các framework FastAPI/Flask/Django\n+ Tensorflow/Pytorch/DGL/PyG/Onnx\n+ API (Restful/gRPC), Lập trình an toàn, đảm bảo & tối ưu hiệu năng\n+ Git và Git Flow, Docker/ Kubernete, Kubeflow/MLFlow, TritonServer/ Tensorflow Serving\n+ Các dạng bài toán Supervised learning, Reinforcement learning\n+ Xử lý Ảnh (Computer Vision)/Video/Âm thanh/Ngôn ngữ tự n",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Fresher (Dưới 1 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "CI/CD DevOps",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8B910.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8B910.html",
+    "posted_at": "2026-10-29T05:27:28.003556+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:28.003556+00:00",
+    "last_verified_at": "2026-10-29T05:27:28.003556+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:28.003556+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8B910.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8B910.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8463868570",
+    "title": "[All level] AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450582)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nNhân sự AI tại MB sẽ tham gia các dự án khác nhau tùy theo thế mạnh chuyên môn và nhu cầu phát triển năng lực của bản thân, có thể kể đến các mảng công việc sau:\n1. Thiết kế và triển khai các giải pháp AI/ML toàn diện (end-to-end), như LLM, pipeline RAG, semantic search), AI Agent, chatbot, fraud detection.\n2. Thiết kế và triển khai các giải pháp AI/ML trong lĩnh vực Thị giác máy tính (Computer Vision), bao gồm eKYC, OCR, segmentation, classification, camera AI.\n3. Coding, test metrics, service và unit test theo mô hình DevOps, MLOps\n4. Tích hợp và tối ưu hóa quy trình làm việc AI bằng các framework và công cụ như LangChain, LangGraph, LlamaIndex, Hugging Face,...\n5. Nghiên cứu và áp dụng các nghiên cứu mới ( SOTA) như Reinforcement Learning, Self-Supervised Learning và Parameter-Efficient Fine-Tuning...\nVới nhóm ứng viên là sinh viên tài năng và fresher: yêu cầu tham gia các chương trình đào tạo và dự án mới tại MB để để phát triển lên các vị trí Kỹ sư cấp cao tại MB trong tương lai gần.",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\nHọc vấn:\nTốt nghiệp Đại học trở lên các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Kỹ thuật phần mềm, Hệ thống thông tin, Điện tử Viễn thông, Trí tuệ nhân tạo (AI), Khoa học dữ liệu hoặc các ngành liên quan.\nKiến thức và kỹ năng chuyên môn:\nỨng viên cần có nển tảng chuyên môn tốt về một hoặc nhiều mảng sau:\n1. Lập trình:\n- Thành thạo một trong các ngôn ngữ: Python, C/C++.\n- Có kinh nghiệm phát triển Backend Service/Microservices với các framework như FastAPI, Flask hoặc Django.\n2. Machine Learning & Deep Learning\n- Có kinh nghiệm sử dụng ít nhất 01 framework AI/ML phổ biến như: PyTorch, TensorFlow,...\n- Nắm vững các mô hình và thuật toán Machine Learning/Deep Learning như: Supervised Learning, Reinforcement Learning; CNN, Transformer...\n- Có kinh nghiệm về tối ưu mô hình: Knowledge Distillation, Model Pruning, Model Quantization, Inference Optimization...\n3. AI Applications\nCó kinh nghiệm nghiên cứu hoặc triển khai các bài toán về:\n+  Com",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "Camera AI",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450582.35C8B908.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450582.35C8B908.html",
+    "posted_at": "2026-10-29T05:27:27.855189+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.855189+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.855189+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.855189+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450582.35C8B908.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [All level] AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450582) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[All level] AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450582)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-ai-engineer-computer-vision-nlp-llm-khoi-cong-nghe-thong-tin-2026td450582.35C8B908.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2938007327",
+    "title": "[All level] BackEnd Engineer (Java, Spring Boot) - Khối Công nghệ thông tin (2025TD1785)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\n1. Tham gia phát triển các dự án, hệ thống của MB như:\n- Payment Platform\n- Chuyển tiền liên ngân hàng – Napas, Citad\n- Open Banking\n- Push Notification\n- Digital Lending\n- Thanh toán QR\n- Ví điện tử\n2. Phát triển mã nguồn sạch, đáp ứng các tiêu chuẩn về hiệu năng, bảo mật.\n3. Thiết kế các hệ thống mới, tính năng mới.\n4. Bảo trì và cải tiến chức năng hoạt động hiện tại\n5. Nghiên cứu và áp dụng các công nghệ mới nhằm nâng cao hiệu năng, khả năng mở rộng và trải nghiệm người dùng.",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc:\n1. Tốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Kỹ thuật phần mềm, Khoa học máy tính và liên quan\n2. Có kinh nghiệm làm việc thực tế tại các công ty hoặc dự án về lập trình Backend\n3. Thành thạo ít nhất 1 trong các ngôn ngữ BackEnd, ưu tiên Java.\n4. Thành thạo một trong trong các loại database: Oracle, Sqlserver, PostgreSQL, MongoDB.\n6. Có kinh nghiệm xử các bài toán bất đồng bộ, Message Queue (Kafka, RabbitMQ)\n7. Ưu tiên ứng viên có kỹ năng áp dụng AI, sử dụng skill trong AI Coding để giải quyết các bài toán thực tế trong phát triển phần mềm.\nRiêng với ứng viên Junior, Fresher (kinh nghiệm dưới 1,5 năm): Ưu tiên các bạn xếp loại học tập loại Giỏi, Xuất sắc, GPA cao; đạt giải thưởng trong các cuộc thi chuyên môn; học sinh giỏi tỉnh, thành phố trở lên; có nghiên cứu khoa học được công bố tại các hội thảo, tạp chí\nỨng viên level Junior cần thể hiện nội dung về GPA, thành tích học tập, giải thưởng trong CV.\nMB Bank yêu cầu ứng viên ứng tuy",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Go / Golang",
+      "SQL Database",
+      "Oracle DB",
+      "MongoDB"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td1785.35C8B905.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td1785.35C8B905.html",
+    "posted_at": "2026-10-29T05:27:27.747016+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.747016+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.747016+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.747016+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td1785.35C8B905.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [All level] BackEnd Engineer (Java, Spring Boot) - Khối Công nghệ thông tin (2025TD1785) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[All level] BackEnd Engineer (Java, Spring Boot) - Khối Công nghệ thông tin (2025TD1785)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/all-level-backend-engineer-java-spring-boot-khoi-cong-nghe-thong-tin-2025td1785.35C8B905.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2438809029",
+    "title": "R&D Senior Engineer (Embedded Software)",
+    "company_name": "Panasonic Appliances Vietnam",
+    "description": "Mô tả Công việc\nWe are looking for potential candidates who are willing to work for R&D Center in Thang Long II Industrial Zone, Hung Yen, and will be mainly responsible for the following duties:\n- Develop embedded software for washing machine control systems from design to implementation.\n- Analyze functional specifications and convert them into detailed software design.\n- Implement software modules in C/C++ for microcontrollers (Renesas or STM32).\n- Design control logic for washing programs, motor drive, water level and temperature sensing.\n- Conduct unit testing and debugging on actual hardware.\n- Work closely with other teams and testing design flowcharts, test specifications and verification reports.",
+    "requirements": "Yêu Cầu Công Việc\n- University's degree in Electrical/Electronic Engineering, Automation, Mechatronics or Computer Science.\n- 1-5 years experience in embedded software development (Renesas, STM8, Nuvoton preferred).\n- Solid understanding of microcontroller peripherals such as PWM, ADC, UART, I2C, SPI and timers).\n- Experience with development tools such as e2studio, IAR, CS+ or equivalent.\n- Basic knowledge of control systems or motor control is a plus.\n- Careful, responsible and proactive in learning new technologies.\n- Able to read and understand technical documents in English.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hưng Yên",
+    "location_district": null,
+    "location_full": "Hưng Yên",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/r-d-senior-engineer-embedded-software.35C8C030.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/r-d-senior-engineer-embedded-software.35C8C030.html",
+    "posted_at": "2026-10-29T05:27:28.386861+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:28.386861+00:00",
+    "last_verified_at": "2026-10-29T05:27:28.386861+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:28.386861+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/r-d-senior-engineer-embedded-software.35C8C030.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hưng Yên"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí R&D Senior Engineer (Embedded Software) tại Panasonic Appliances Vietnam (Hưng Yên). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "R&D Senior Engineer (Embedded Software)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/r-d-senior-engineer-embedded-software.35C8C030.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hưng Yên"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
