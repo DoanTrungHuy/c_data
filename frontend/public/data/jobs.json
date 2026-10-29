@@ -32511,6 +32511,2591 @@
     "is_active": true
   },
   {
+    "id": "itv_live_4960831264",
+    "title": "Senior Data Engineer (ETL/ELT, Azure / AWS / GCP)",
+    "company_name": "MB Life",
+    "description": "Your skills and experience\nQualification\nBachelor's degree in Computer Science, Information Technology, Engineering or a related field.\nExperience\n3–6 years in data engineering (ETL/ELT, data warehouse/datamart); insurance, banking or financial services experience is an advantage.\nCertification\nCloud data certification (Azure / AWS / GCP) is an advantage.",
+    "requirements": "Why you'll love working here\nBeing an Amazer at MB Life, you are offered:\nNo working on the weekends\n(5 working days/week from Monday to Friday) and\nno overtime\nCompetitive salary\nwith annual review and performance bonus\n100% official salary\nduring the probation period\nMIC Premium Healthcare Insurance\nfor each employee with his/her 03 dependents\nProvide\nLife Insurance\n&\nCancer Insurance\nfor the company's members\nAnnual leave\n: 15 days/year\nOutstanding\nWellness allowances\nLunch/Mobile/Travel allowances\nSponsored\ntraining and\nself-development opportunities\n(English, PMP, CSM, ITIL...)\nModern facilities\nfor convenient working.\nSpecific benefits\non the holidays of the Union\nExciting\ncompany outings/events and team-building activities\nSupportive, international, dynamic\nworking environment and\ntalented, culturally diverse\nteams\nTo create the HAPPINESS together!",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux",
+      "Oracle DB"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-data-engineer-etl-elt-azure-aws-gcp-mb-life-3346",
+    "apply_url": "https://itviec.com/it-jobs/senior-data-engineer-etl-elt-azure-aws-gcp-mb-life-3346",
+    "posted_at": "2026-10-29T05:27:22.926109+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:22.926109+00:00",
+    "last_verified_at": "2026-10-29T05:27:22.926109+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Builds and maintains MB Life's datamarts, data pipelines and integrations, and supports them in production, so that business users, reporting and analytics receive accurate and timely data.",
+      "Build and maintain datamarts and data pipelines: develop ETL/ELT jobs and data models for business domains (policy, customer, agent, claims) following the team's engineering standards, with testing and documentation.",
+      "Develop data platform components and integrations (non-infra), such as ingestion from core systems and partners, reusable pipeline frameworks and data quality checks.",
+      "Provide production issue support and pipeline maintenance: monitor daily jobs, investigate and fix failures and data issues within SLA, and improve pipeline stability and performance."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:22.926109+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-data-engineer-etl-elt-azure-aws-gcp-mb-life-3346",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Data Engineer (ETL/ELT, Azure / AWS / GCP) tại MB Life (Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior Data Engineer (ETL/ELT, Azure / AWS / GCP)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Builds and maintains MB Life's datamarts, data pipelines and integrations, and supports them in production, so that business users, reporting and analytics receive accurate and timely data.",
+          "Build and maintain datamarts and data pipelines: develop ETL/ELT jobs and data models for business domains (policy, customer, agent, claims) following the team's engineering standards, with testing and documentation.",
+          "Develop data platform components and integrations (non-infra), such as ingestion from core systems and partners, reusable pipeline frameworks and data quality checks.",
+          "Provide production issue support and pipeline maintenance: monitor daily jobs, investigate and fix failures and data issues within SLA, and improve pipeline stability and performance."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-data-engineer-etl-elt-azure-aws-gcp-mb-life-3346",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0360821186",
+    "title": "Senior Golang Developer (Backend, AWS, MySQL)",
+    "company_name": "ANDPAD VietNam Co., Ltd",
+    "description": "Job description\nWe are looking for a\nSenior Golang Engineer\nwho can join our team and develop the application in cooperation with the product manager. Working in the form of Squad, a small team can quickly and consistently engage in everything from designing to development, testing and operations.\nAlso, there are a lot of opportunities to work with new languages ​​and FWs other than the main language\nin an international environment\n.\n■\nJob Scope\nDesign and implementation function of the product in charge using Golang\nRefactoring existing products for microservices\nRequirements definition and specification formulation in collaboration with product managers and designers\nArchitecture design based on requirements\nMeasurement of effects for quality improvement and implementation of service improvement measures\n■\nDevelopment environment\nInfrastructure: AWS, GCP\nCI/CD: Circle CI/ Codebuild\nDB: Amazon Aurora (MySQL compatible edition), Elasticsearch, DynamoDB\nConfiguration management: Ansible\nDeploy/ Build: CodePipeline, CodeBuild, CircleCI, GitHub Actions\nIaC: Packer, Terraform\nMonitoring: Datadog, Bugsnag\nOthers: Swagger, Docker, ZenHub, Figma, Slack/Jira",
+    "requirements": "Your skills and experience\nMust have:\nEmpathy for Andpad's mission and values\n5+ years of experience in developing and operating Web services using Golang, AWS, gRPC\nExperience as a technical lead throughout the full project development lifecycle\nExperience in developing and operating Web applications using frameworks\nExperience in schema design such as RDBMS and KVS and design of optimal query\nHave knowledge of Web application security\nExperience Test code implementation (Unit Test)\nGood at English communication\nNice to have:\nExperience of discovering problems from logs and solving problems\nExperience in developing systems using container technologies such as Docker and Kubernetes\nExperience in designing architecture based on application requirements and selecting middleware\nExperience of publishing and contributing OSS\nExternal technical output experience (writing, technical blog, stage, etc.)\nContext Engineering: Experience in how to provide the right context to AI agents, structuri",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Go / Golang",
+      "PHP",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-golang-developer-backend-aws-mysql-andpad-vietnam-co-ltd-4112",
+    "apply_url": "https://itviec.com/it-jobs/senior-golang-developer-backend-aws-mysql-andpad-vietnam-co-ltd-4112",
+    "posted_at": "2026-10-29T05:27:25.362393+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:25.362393+00:00",
+    "last_verified_at": "2026-10-29T05:27:25.362393+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:25.362393+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-golang-developer-backend-aws-mysql-andpad-vietnam-co-ltd-4112",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Golang Developer (Backend, AWS, MySQL) tại ANDPAD VietNam Co., Ltd (3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior Golang Developer (Backend, AWS, MySQL)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-golang-developer-backend-aws-mysql-andpad-vietnam-co-ltd-4112",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_3221829577",
+    "title": "Software Development Engineer in Test (SDET)",
+    "company_name": "ANDPAD VietNam Co., Ltd",
+    "description": "Job description\nThe opportunity\nAt ANDPAD Vietnam, we are building AI-driven web and mobile applications to transform the construction industry. We are looking for a Software Development Engineer in Test who is passionate about quality and has a strong engineering mindset to help us scale our product with confidence.\nIn this role, you will act as a key individual contributor, owning test strategy and driving quality improvements across the product team. You will work closely with AI projects to ensure high-quality releases with fast delivery.\nJob Scope\nDesign, build, and maintain automation test frameworks for Web, Mobile and API (using tools such as Playwright, Cypress, or similar)\nCollaborate with Product and AI teams to define quality metrics for AI-driven features\nParticipate in upstream processes to execute testing efficiently and identify risks early.\nEnsure high test coverage across UI, API, and system levels\nFormulate test strategies and plans to ensure quality and delivery speed at the team level.\nDrive SDLC process improvement and \"Shift-Left\" initiatives based on bug trend and root cause analysis.\nMentor others and support their professional growth through knowledge sharing.\nNote: This is a highly technical role focused on engineering and automation, not manual testing.\nDevelopment environment\nBackend: Ruby (on Rails), Go, Amazon Aurora(MySQL), Elasticsearch, DynamoDB\nFrontEnd:\nReactJS, VueJS, NuxtJS, NextJS\nMobile App: Kotlin, Swift, Flutter\nDeploy/ Build: CodePip",
+    "requirements": "Your skills and experience\nMust-have:\nBachelor's degree in Computer Science, Engineering, or a related field\n3+ years of experience as a Software Engineer and 4+ years in Test (SDET) or Automation Engineer, specializing in Web, Mobile applications and API\nStrong coding skills in modern programming languages (such as Go, RoR, Python, JavaScript/Typescript) with a proven track record of designing test automation frameworks\nStrong command of English, both written and verbal, with the ability to collaborate effectively with Developers and Product Managers\nPreferred:\nExperience leading or mentoring a small QA team\nExperience in test management within a product team or Agile/Scrum team environment\nExperience in development projects for Japanese companies\nKnowledge of business flows in the Architecture/Construction industry\nExperience in non-functional testing (Security, Performance, Scalability)\nContinuous Learning Mindset: A self-driven learner who continuously explores and adopts new techn",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "Go / Golang"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/software-development-engineer-in-test-sdet-andpad-vietnam-co-ltd-4158",
+    "apply_url": "https://itviec.com/it-jobs/software-development-engineer-in-test-sdet-andpad-vietnam-co-ltd-4158",
+    "posted_at": "2026-10-29T05:27:24.301530+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:24.301530+00:00",
+    "last_verified_at": "2026-10-29T05:27:24.301530+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:24.301530+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/software-development-engineer-in-test-sdet-andpad-vietnam-co-ltd-4158",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Software Development Engineer in Test (SDET) tại ANDPAD VietNam Co., Ltd (3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Software Development Engineer in Test (SDET)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/software-development-engineer-in-test-sdet-andpad-vietnam-co-ltd-4158",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "3rd Floor, Dong Nhan Building, 90 Nguyen Dinh Chieu, Tan Dinh Ward, Tan Dinh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9226262535",
+    "title": "Lead Data Engineer (Azure / AWS / GCP)",
+    "company_name": "MB Life",
+    "description": "Job description\n1. Job Purpose:\nLeads the Data Engineering & Support function and owns the architecture and delivery quality of MB Life's data backbone (datamarts, pipelines and data platform, non-infrastructure), ensuring reliable and timely data for operations, reporting, analytics and AI.\n2. Key Responsibilities:\nLead the Data Engineering & Support function: set priorities, allocate resources between projects and production support, and mentor and develop data engineers.\nOwn the datamart, pipeline and data platform architecture, including data warehouse/lakehouse design, scalable ETL/ELT pipelines and integrations with core systems and partners.\nOversee production support and intake management: ensure stable pipelines through monitoring, incident management and SLA tracking, and run a structured intake process for data requests.\nSet engineering standards and CI/CD practices for data, and review designs, code, builds and integrations before release with built-in data quality checks.\nManage the data backbone (non-infra) for reliability, freshness and performance, and report delivery KPIs (on-time delivery, incidents, SLA, data quality) to the manager",
+    "requirements": "Your skills and experience\nQualification and Experience\nQualification:\nBachelor's degree or higher in Computer Science, Information Technology, Software/Computer Engineering or a related field.\nExperience:\n10+ years in data engineering, including team leadership and data platform architecture; insurance, banking or financial services experience is an advantage.\nCertification:\nCloud data certification (Azure / AWS / GCP, e.g. Azure Data Engineer Associate, AWS Data Engineer, Google Professional Data Engineer) is preferred.\nLanguage:\nGood English communication skills are required.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux",
+      "Oracle DB"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/lead-data-engineer-azure-aws-gcp-mb-life-2945",
+    "apply_url": "https://itviec.com/it-jobs/lead-data-engineer-azure-aws-gcp-mb-life-2945",
+    "posted_at": "2026-10-29T05:27:25.193173+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:25.193173+00:00",
+    "last_verified_at": "2026-10-29T05:27:25.193173+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:25.193173+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/lead-data-engineer-azure-aws-gcp-mb-life-2945",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Lead Data Engineer (Azure / AWS / GCP) tại MB Life (Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Lead Data Engineer (Azure / AWS / GCP)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/lead-data-engineer-azure-aws-gcp-mb-life-2945",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_5576392694",
+    "title": "Senior Platform Engineer (Linux, K8S, Git, CI/CD)",
+    "company_name": "MB Life",
+    "description": "Job description\n1. MỤC ĐÍCH CÔNG VIỆC\nThiết kế, xây dựng, vận hành và liên tục cải tiến nền tảng Kubernetes/container cùng các dịch vụ kỹ thuật dùng chung (CI/CD, GitOps, IaC/Automation) phục vụ hệ thống core bảo hiểm, ứng dụng nội bộ và các nền tảng của MB Life.\nGiữ vai trò dẫn dắt kỹ thuật (acting technical lead) của mảng Platform: định hướng chuẩn kỹ thuật, phân công – review công việc và kèm cặp kỹ sư Platform cấp Junior/Mid.\nNâng cao độ tin cậy, bảo mật và khả năng kiểm soát thay đổi của nền tảng; giảm tác vụ thủ công lặp lại (toil), bảo đảm khả năng truy vết và tuân thủ quy định của MB Life.\n2.  NHIỆM VỤ VÀ TRÁCH NHIỆM\nTrách nhiệm chuyên môn:\nA. Kubernetes & Cloud Platform (trọng tâm)\nThiết kế, triển khai, quản trị vòng đời và vận hành các cụm Kubernetes production/non-production: cấu hình, nâng cấp, mở rộng node, bảo trì và phương án rollback.\nPhân tích, xử lý sự cố Kubernetes\nChuẩn hóa Helm chart, manifests, registry, resource request/limit, autoscaling và các thành phần platform dùng chung; theo dõi khả năng mở rộng, hiệu năng và capacity.\nB. CI/CD, GitOps & Release Safety\nXây dựng, vận hành và cải tiến năng lực CI/CD dùng chung (GitLab CI/Jenkins hoặc tương đương), runners/agents và bộ pipeline template có thể tái sử dụng.\nTriển khai GitOps (Argo CD/Flux hoặc tương đương), quản lý cấu hình khai báo theo Git, kiểm soát drift, review, approval, traceability và rollback.\nPhối hợp cùng Development/DevOps và ANTT tích hợp kiểm thử, kiểm tra dependency, SAST/SCA, image sc",
+    "requirements": "Your skills and experience\nTrình độ & kinh nghiệm\nTốt nghiệp Đại học chuyên ngành CNTT, Khoa học máy tính, Điện tử viễn thông hoặc tương đương theo tiêu chuẩn tuyển dụng của Công ty; đọc hiểu tốt tài liệu kỹ thuật tiếng Anh, giao tiếp với hãng/đối tác qua email, ticket.\nTối thiểu 4 năm kinh nghiệm trong Infrastructure, DevOps, SRE hoặc Platform Engineering; trong đó tối thiểu 2 năm trực tiếp triển khai/vận hành Kubernetes production.\nCó kinh nghiệm thực tế với thay đổi/nâng cấp nền tảng, phân tích sự cố production và triển khai automation có thể kiểm chứng qua dự án, sản phẩm hoặc tình huống kỹ thuật.\nĐã từng dẫn dắt kỹ thuật một hạng mục/dự án hoặc hướng dẫn\nKiến thức và năng lực bắt buộc (must-have)\nLinux vững; hiểu TCP/IP, DNS, TLS, HTTP/HTTPS, load balancing, firewall và các nguyên tắc network/storage phục vụ Kubernetes.\nKubernetes và container vững: workloads, scheduling, Helm, Ingress, CNI, CSI, RBAC, resource management, troubleshooting và vận hành an toàn trên production.\nSử dụ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Node.js",
+      ".NET / C#",
+      "Docker",
+      "Kubernetes"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-platform-engineer-linux-k8s-git-ci-cd-mb-life-5711",
+    "apply_url": "https://itviec.com/it-jobs/senior-platform-engineer-linux-k8s-git-ci-cd-mb-life-5711",
+    "posted_at": "2026-10-29T05:27:25.265341+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:25.265341+00:00",
+    "last_verified_at": "2026-10-29T05:27:25.265341+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:25.265341+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-platform-engineer-linux-k8s-git-ci-cd-mb-life-5711",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Platform Engineer (Linux, K8S, Git, CI/CD) tại MB Life (Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior Platform Engineer (Linux, K8S, Git, CI/CD)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-platform-engineer-linux-k8s-git-ci-cd-mb-life-5711",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 15, tòa nhà MB – 21 Cát Linh, O Cho Dua, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_7915515801",
+    "title": "Senior Database Officer (SQL, Oracle, PostgreSql, ETL)",
+    "company_name": "Mcredit - Công ty Tài chính TNHH MB Shinsei",
+    "description": "Job description\nQuản trị, vận hành và giám sát các hệ quản trị cơ sở dữ liệu như\nOracle, SQL Server, PostgreSQL, MySQL, MongoDB\n; đảm bảo hệ thống hoạt động ổn định, an toàn và có tính sẵn sàng cao.\nThực hiện các hoạt động\nbackup, restore, replication, failover\nvà đảm bảo khả năng khôi phục dữ liệu khi xảy ra sự cố.\nTheo dõi hiệu năng, tài nguyên và tình trạng hoạt động của hệ thống; chủ động phát hiện, cảnh báo và xử lý các rủi ro tiềm ẩn.\nHỗ trợ đội ngũ phát triển trong việc thiết kế cơ sở dữ liệu, tối ưu truy vấn SQL, chỉ mục (Index), phân vùng dữ liệu (Partitioning) và hiệu năng hệ thống.\nTriển khai, cấu hình, nâng cấp và bảo trì các hệ quản trị cơ sở dữ liệu theo yêu cầu vận hành hoặc dự án.\nQuản lý quyền truy cập, bảo mật dữ liệu, mã hóa dữ liệu và kiểm soát nhật ký truy cập theo quy định.\nPhối hợp với các đội ngũ Phát triển phần mềm, DevOps và Hạ tầng trong việc triển khai cơ sở dữ liệu trên môi trường\nCloud hoặc On-premise\n.\nXây dựng và cập nhật tài liệu kỹ thuật, quy trình vận hành (SOP), checklist quản trị; tham gia xử lý sự cố và hỗ trợ vận hành hệ thống khi cần.\nChủ động tham gia các chương trình đào tạo, cập nhật kiến thức và công nghệ mới nhằm nâng cao năng lực chuyên môn.\nTuân thủ các quy định, quy trình quản trị rủi ro và an toàn thông tin của Mcredit.\nTham gia các sáng kiến, dự án chuyển đổi số và các nhiệm vụ khác theo phân công của Lãnh đạo.",
+    "requirements": "Your skills and experience\nTốt nghiệp Đại học trở lên chuyên ngành\nCông nghệ thông tin, Khoa học máy tính, Hệ thống thông tin, Kỹ thuật phần mềm\nhoặc các chuyên ngành liên quan.\nCó từ\n2–4 năm kinh nghiệm\ntrong lĩnh vực quản trị cơ sở dữ liệu (Database Administration).\nCCó kinh nghiệm làm việc với một hoặc nhiều hệ quản trị cơ sở dữ liệu như\nOracle, SQL Server, PostgreSQL, MySQL\n; kinh nghiệm với\nMongoDB hoặc Redis\nlà lợi thế.\nThành thạo SQL\n, có khả năng truy vấn, khai thác và tối ưu dữ liệu.\nHiểu biết về mô hình dữ liệu, cấu trúc cơ sở dữ liệu, transaction, locking, indexing và partitioning.\nThành thạo\nSQL\n, có khả năng phân tích và tối ưu truy vấn (Query Tuning, Execution Plan).\nCó kinh nghiệm sao lưu, phục hồi, giám sát và tối ưu hiệu năng cơ sở dữ liệu.\nCó hiểu biết về các dịch vụ cơ sở dữ liệu trên\nAWS, Azure hoặc GCP\nlà lợi thế.\nƯu tiên ứng viên có kiến thức về\nCI/CD, DevOps\n, các công cụ giám sát như\nPrometheus, Grafana, Zabbix\n.\nCó khả năng sử dụng\nBash, Python hoặc PowerShell\n",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 9,10,11,12 Tòa nhà MB Bank, số 21 Cát Linh - Phường Cát Linh, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-database-officer-sql-oracle-postgresql-etl-mcredit-cong-ty-tai-chinh-tnhh-mb-shinsei-5154",
+    "apply_url": "https://itviec.com/it-jobs/senior-database-officer-sql-oracle-postgresql-etl-mcredit-cong-ty-tai-chinh-tnhh-mb-shinsei-5154",
+    "posted_at": "2026-10-29T05:27:24.401603+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:24.401603+00:00",
+    "last_verified_at": "2026-10-29T05:27:24.401603+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:24.401603+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-database-officer-sql-oracle-postgresql-etl-mcredit-cong-ty-tai-chinh-tnhh-mb-shinsei-5154",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 9,10,11,12 Tòa nhà MB Bank, số 21 Cát Linh - Phường Cát Linh, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Database Officer (SQL, Oracle, PostgreSql, ETL) tại Mcredit - Công ty Tài chính TNHH MB Shinsei (Tầng 9,10,11,12 Tòa nhà MB Bank, số 21 Cát Linh - Phường Cát Linh, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior Database Officer (SQL, Oracle, PostgreSql, ETL)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-database-officer-sql-oracle-postgresql-etl-mcredit-cong-ty-tai-chinh-tnhh-mb-shinsei-5154",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 9,10,11,12 Tòa nhà MB Bank, số 21 Cát Linh - Phường Cát Linh, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9950358632",
+    "title": "DevOps Engineer - Khối Công nghệ Thông tin",
+    "company_name": "MB Bank",
+    "description": "Job description\n2025TD945 - DevOps Engineer\nXây dựng và tối ưu hóa quy trình DevOps hoặc DevSecOps, áp dụng nguyên tắc tự động hóa trong việc triển khai các ứng dụng công nghệ thông tin.\nTriển khai, vận hành quản trị các giải pháp hoặc công cụ tự động hóa CICD hoặc IaC, công nghệ Containerization hoặc Kubernetes. (Gitlab, Jenkins, Nexus, Docker, ISTIO, Ansible, Rancher, v.v)\nTham gia vào giai đoạn phát triển sản phẩm, thiết kế các thành phần phi chức năng đảm bảo an ninh và support trong quá trinh vận hành (thiết kế hệ thống theo các chính sách, quy định đảm bảo an ninh, chuẩn hóa logging, tracing và thông tin monitoring ELK, Prometheus, Grafana, v.v)\nPhụ trách deploy, optimizing, monitoring, analysis sản phẩm dịch vụ.",
+    "requirements": "Your skills and experience\nTốt nghiệp các Trường Đại học các chuyên ngành đào tạo: Công nghệ thông tin, Toán tin, Điện tử Viễn thông...\nVị trí mở  với các bạn fresher có nguyện vọng theo đuổi lĩnh vực DevOps\nCó kiến thức nền tảng tốt về logic code, nắm được tiến trình của code\nƯu tiên các ứng viên có:\n+ Kinh nghiệm làm việc thực tế DevOps/DevSecOps tại các công ty công nghệ hoặc IT cho các tổ chức tài chính\n+ Kiến thức nền tảng tốt về 01 trong các loại database: Oracle, Sqlserver, PostgreSQL, Mongodb,…\n+ Có kinh nghiệm xây dựng CI/CD Pipeline, sử dụng 01 trong các công cụ công cụ Jenkins, Gitlab, Nexus, Harbor, Docker, Helm, Kubernetes, Prometheus, Grafana\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\nVì sao Bạn nên đảm bảo đầy đủ thông tin khi ứng tuyển?\n- Hồ sơ của Bạn s",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/devops-engineer-khoi-cong-nghe-thong-tin-mb-bank-2109",
+    "apply_url": "https://itviec.com/it-jobs/devops-engineer-khoi-cong-nghe-thong-tin-mb-bank-2109",
+    "posted_at": "2026-10-29T05:27:23.522598+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:23.522598+00:00",
+    "last_verified_at": "2026-10-29T05:27:23.522598+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:23.522598+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/devops-engineer-khoi-cong-nghe-thong-tin-mb-bank-2109",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí DevOps Engineer - Khối Công nghệ Thông tin tại MB Bank (Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "DevOps Engineer - Khối Công nghệ Thông tin",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/devops-engineer-khoi-cong-nghe-thong-tin-mb-bank-2109",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0931145297",
+    "title": "Product Owner (Signing Bonus, OCR/AI)",
+    "company_name": "Topicus Vietnam",
+    "description": "Job description\nAbout Us\nAt Topicus, we believe IT should serve society. From healthcare and education to finance, our solutions empower millions of people daily by turning complex challenges into user-friendly platforms. We don’t just build software; we increase self-reliance and reduce vulnerability for citizens worldwide.\nWith a team of over 1,500+ \"Topicans\" across Southeast Asia (Vietnam & Thailand) and Europe (the Netherlands, Romania, Portugal, and Iceland), we are constantly expanding our horizons. Our ambition reaches far beyond Europe, driven by a shared mission to make a meaningful difference.\nAbout the Role\nWe’re seeking a visionary\nProduct Owner\nto help shape the future of an AI-powered OCR platform that processes large volumes of financial documents for banks and financial institutions across Europe.\nThis product is part of Akkuro, one of our leading composable banking platforms. You will play a key role in defining product direction while working closely with stakeholders in Europe and Southeast Asia and the development team in Vietnam, giving you significant technical ownership and the opportunity to influence its future direction.\nKey Responsibilities\nOwn and manage the product backlog.\nIndependently gather requirements from internal and external stakeholders.\nTranslate business needs into clear user stories and acceptance criteria.\nPrioritize features based on customer value and business objectives.\nCommunicate effectively with international stakeholders and",
+    "requirements": "Your skills and experience\nExperience as a Product Owner, Business Analyst, or similar product role.\nExperience writing clear user stories and acceptance criteria.\nStrong stakeholder management and communication skills.\nAbility to independently gather information and make prioritization decisions.\nCommercial mindset with the ability to identify business opportunities.\nExperience working in Agile/Scrum environments.\nExcellent English communication skills.\nNice to have\nExperience with OCR or AI-driven products.\nTechnical understanding of APIs and software development.\nExperience working with international development teams.\nExperience in fintech, banking, or document processing.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "106 Nguyen Van Troi Street, Phu Nhuan, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Linux",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/product-owner-signing-bonus-ocr-ai-topicus-vietnam-3127",
+    "apply_url": "https://itviec.com/it-jobs/product-owner-signing-bonus-ocr-ai-topicus-vietnam-3127",
+    "posted_at": "2026-10-29T05:27:27.643154+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:27.643154+00:00",
+    "last_verified_at": "2026-10-29T05:27:27.643154+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:27.643154+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/product-owner-signing-bonus-ocr-ai-topicus-vietnam-3127",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "106 Nguyen Van Troi Street, Phu Nhuan, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Product Owner (Signing Bonus, OCR/AI) tại Topicus Vietnam (106 Nguyen Van Troi Street, Phu Nhuan, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Product Owner (Signing Bonus, OCR/AI)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/product-owner-signing-bonus-ocr-ai-topicus-vietnam-3127",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "106 Nguyen Van Troi Street, Phu Nhuan, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_2294766906",
+    "title": "AI Solution Architect",
+    "company_name": "ITviec Recruitment Consulting",
+    "description": "Job description\nWe are looking for an AI Solution Architect to shape how AI solutions are designed and delivered across client\nengagements. You will connect business needs with practical AI architectures, stay hands-on through PoCs and\ntechnical reviews, and help engineering teams adopt AI-assisted development through coaching, reusable tools, and\nclear standards.\nKey Responsibilities\nLead client discovery and solution workshops, assess AI use cases, and translate business needs into feasible technical approaches.\nDesign secure, scalable, and cost-aware architectures using LLMs, RAG, agents, data integrations, and cloud services.\nBuild or guide PoCs, review designs and code, and support critical technical decisions during delivery.\nSupport solution scoping, technical proposals, presentations, and estimation for selected client opportunities.\nLead AI enablement by coaching teams on AI-assisted development, coding agents, evaluation practices, and reusable engineering workflows.\nDefine reference architectures, reusable patterns, governance principles, and success measures across AI projects.",
+    "requirements": "Your skills and experience\nMust Have\nBachelor's degree in Computer Science, Software Engineering, Information Technology, or a related field, or equivalent practical experience.\n6+ years of experience in software engineering, solution architecture, or a related technical role, including recent hands-on Generative AI experience.\nStrong English communication, facilitation, presentation, and technical documentation skills.\nPersonally built and delivered at least one LLM, RAG, or agent-based application beyond the prototype stage.\nWorking knowledge of RAG, vector search, agentic workflows, tool calling, model selection, and AI system limitations.\nExperience designing cloud-based architectures, APIs, integrations, data flows, and CI/CD practices.\nUnderstanding of AI evaluation, observability, security, privacy, performance, and cost trade-offs.\nExperience using AI coding tools and the ability to coach engineers in practical AI-assisted software development.\nClient-facing experience in disco",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "City, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD DevOps",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/ai-solution-architect-itviec-recruitment-consulting-0525",
+    "apply_url": "https://itviec.com/it-jobs/ai-solution-architect-itviec-recruitment-consulting-0525",
+    "posted_at": "2026-10-29T05:27:26.611567+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:26.611567+00:00",
+    "last_verified_at": "2026-10-29T05:27:26.611567+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:26.611567+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/ai-solution-architect-itviec-recruitment-consulting-0525",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "City, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí AI Solution Architect tại ITviec Recruitment Consulting (City, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "AI Solution Architect",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/ai-solution-architect-itviec-recruitment-consulting-0525",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "City, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_5080175601",
+    "title": "AI Engineer Leader",
+    "company_name": "ITviec Recruitment Consulting",
+    "description": "Job description\nKey Responsibilities\nLead the architecture, development, and delivery of LLM applications, RAG pipelines, and agentic workflows for financial services use cases.\nOwn key technical decisions involving model selection, retrieval design, workflow architecture, integration, cost, and latency.\nBuild evaluation and regression-testing approaches and use output, trace, and failure analysis to improve solution quality.\nEnsure solutions meet production requirements for reliability, security, observability, data protection, and auditability.\nTranslate business, risk, and compliance requirements into practical technical solutions with client and internal stakeholders.\nMentor engineers and establish reusable AI engineering standards, patterns, and development practices.",
+    "requirements": "Your skills and experience\nMust Have\nBachelor's degree in Computer Science, Software Engineering, Information Technology, or a related field, or equivalent practical experience.\n6+ years of professional software or AI engineering experience, including recent hands-on experience delivering Generative AI applications to production.\nStrong Python and software engineering fundamentals, including system design, APIs, testing, debugging, and technical documentation.\nHands-on experience with RAG, embeddings, vector databases, hybrid retrieval, reranking, and data-grounding techniques.\nExperience designing agentic workflows with tool calling and at least one major AI framework such as LangChain,  LangGraph, LlamaIndex, Semantic Kernel, or equivalent.\nExperience with AI evaluation, error analysis, regression testing, tracing, and production monitoring.\nPractical experience with cloud platforms, containers, CI/CD, databases, and production observability.\nUnderstanding of AI security risks, inclu",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "City, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "PHP",
+      "Kubernetes"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/ai-engineer-leader-itviec-recruitment-consulting-0052",
+    "apply_url": "https://itviec.com/it-jobs/ai-engineer-leader-itviec-recruitment-consulting-0052",
+    "posted_at": "2026-10-29T05:27:26.259278+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:26.259278+00:00",
+    "last_verified_at": "2026-10-29T05:27:26.259278+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:26.259278+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/ai-engineer-leader-itviec-recruitment-consulting-0052",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "City, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí AI Engineer Leader tại ITviec Recruitment Consulting (City, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "AI Engineer Leader",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/ai-engineer-leader-itviec-recruitment-consulting-0052",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "City, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_6610273694",
+    "title": "[HCM] [Urgent] Middle/Senior Data Scientist",
+    "company_name": "MTI TECHNOLOGY",
+    "description": "Job description\nABOUT THE ROLE\nAs a Data Scientist, you will play a key role in bridging data science with business value by delivering high-impact solutions across diverse industries. You will work end-to-end—from understanding business requirements to developing models, evaluating outcomes, and deploying scalable solutions—while collaborating with cross-functional teams in a fast-paced, innovation-driven environment.\nKEY RESPONSIBILITIES\nYour core responsibilities will be tailored to your level of seniority and finalized during the hiring process.\nDiscovery and Strategy to Frame Technical Feasibility.\nSolution Architecture & Design:\nDesign robust, scalable, and innovative data science solutions while considering performance, maintainability, and business impact.\nTechnical Leadership:\nProvide technical leadership on complex projects, oversee the work of junior and mid-level data scientists, and ensure best practices are followed.\nEnd-to-End Project Execution:\nTake ownership of data science projects and modules, from data collection and preparation to model development, evaluation, and MLOps.\nCommunication & Storytelling:\nEffectively communicate complex analytical concepts and findings to both technical and non-technical stakeholders, translating insights into actionable business recommendations.\nCross-functional Collaboration:\nWork closely with project managers, engineers, and business stakeholders to align data science efforts with business objectives.\nStakeholder Managemen",
+    "requirements": "Your skills and experience\nQUALIFICATIONS & SKILLS\nEducation:\nBachelor’s degree in Mathematics, Statistics, Data Science, Computer Science, AI, Engineering, or a highly related field is required. A Master’s degree in any of the above disciplines is preferred.\nExperience:\nPossess at least 3 years of experience in one or more data science domains such as machine learning, deep learning, natural language processing (NLP), computer vision (CV), optimization, or statistics.\nGood problem-solving, with the ability to formulate business problems into technical requirements in a scientifically rigorous and effective manner.\nProficient in English communication skills, especially when engaging with non-technical business stakeholders.\nExpert in Python and SQL along with relevant data science libraries (Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch, etc.) and the ability to write production-ready code.\nAdvanced skills in version control (e.g. GitHub, GitLab, etc.) and data visualization.\nExperi",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "02nd Floor, Etown 6 Cong Hoa, 364 Cong Hoa Street, Tan Binh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Go / Golang",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/hcm-urgent-middle-senior-data-scientist-mti-technology-2354",
+    "apply_url": "https://itviec.com/it-jobs/hcm-urgent-middle-senior-data-scientist-mti-technology-2354",
+    "posted_at": "2026-10-29T05:27:26.720182+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:26.720182+00:00",
+    "last_verified_at": "2026-10-29T05:27:26.720182+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:26.720182+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/hcm-urgent-middle-senior-data-scientist-mti-technology-2354",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "02nd Floor, Etown 6 Cong Hoa, 364 Cong Hoa Street, Tan Binh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [HCM] [Urgent] Middle/Senior Data Scientist tại MTI TECHNOLOGY (02nd Floor, Etown 6 Cong Hoa, 364 Cong Hoa Street, Tan Binh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[HCM] [Urgent] Middle/Senior Data Scientist",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/hcm-urgent-middle-senior-data-scientist-mti-technology-2354",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "02nd Floor, Etown 6 Cong Hoa, 364 Cong Hoa Street, Tan Binh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1350718724",
+    "title": "Director of Digital Transformation & Information System",
+    "company_name": "Annam Group",
+    "description": "Job description\nWe are seeking an experienced and business-oriented\nDirector of Digital Transformation and Information Systems\nto lead Annam Group’s digital transformation journey.\nThis role bridges business and technology, ensuring that digital investments support growth, operational excellence, customer experience, profitability, and strategic transformation.\nThe role will lead the Group Digital Roadmap and align business strategy, information systems, data & analytics, e-commerce, customer experience, automation, AI initiatives, and digital governance.\nFurther details will be discussed during the interview.",
+    "requirements": "Your skills and experience\n• Bachelor's or Master's degree in Business, Technology, Engineering, Information Systems or related field.\n• 10+ years of experience in Digital Transformation, Technology or Business Transformation.\n• Strong experience with ERP environments and cross-functional transformation programs.\n• Solid knowledge of ERP (Microsoft Dynamics 365, SAP, Oracle or equivalent), Business Intelligence, Data Governance, E-commerce, AI & Automation, and the Microsoft ecosystem.\n• Experience in Retail, Distribution, FMCG, Food & Beverage or Supply Chain is preferred.\n• Strong business mindset with the ability to influence senior management and bridge Business & IT.\n• Excellent leadership, communication, negotiation, governance and change management capabilities.\n• Fluent in Vietnamese & English.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "16 Hai Ba Trung, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      ".NET / C#",
+      "Azure",
+      "Linux",
+      "SQL Database",
+      "Oracle DB"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/director-of-digital-transformation-information-system-annam-group-5525",
+    "apply_url": "https://itviec.com/it-jobs/director-of-digital-transformation-information-system-annam-group-5525",
+    "posted_at": "2026-10-29T05:27:29.030820+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:29.030820+00:00",
+    "last_verified_at": "2026-10-29T05:27:29.030820+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:29.030820+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/director-of-digital-transformation-information-system-annam-group-5525",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "16 Hai Ba Trung, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Director of Digital Transformation & Information System tại Annam Group (16 Hai Ba Trung, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Director of Digital Transformation & Information System",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/director-of-digital-transformation-information-system-annam-group-5525",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "16 Hai Ba Trung, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_7026121408",
+    "title": "Mid/Senior .NET Dev (ERP Kế toán, bán hàng, khuyến mãi)",
+    "company_name": "CellphoneS",
+    "description": "Job description\nTech Stack\nCore Systems\nBackend:\n.NET Core 6+, REST APIs, EF Core\nDatabase:\nSQL Server, MongoDB, Redis\nMessage Queue:\nKafka, RabbitMQ\nInfrastructure:\nDocker, Kubernetes, Rancher\nFrontend:\nFlutter (Mobile & Web)\nDevOps & Monitoring\nVersion Control:\nGitLab\nCI/CD:\nJenkins, GitHub Actions\nMonitoring:\nELK Stack, New Relic\nCông việc chính\nPhát triển hệ thống:\nThiết kế và phát triển các\nmicroservices\ncho hệ thống ERP.\nXây dựng\nREST APIs\nhỗ trợ ứng dụng web và mobile.\nTối ưu hóa hiệu năng và khả năng mở rộng của hệ thống.\nThiết kế database và tối ưu hóa truy vấn.\nPhát triển nghiệp vụ:\nTự động hóa và tối ưu hóa quy trình nghiệp vụ.\nTích hợp giữa các phân hệ ERP, đảm bảo dữ liệu đồng nhất và chính xác.\nVai trò dẫn dắt:\nThực hiện\ncode review\nvà hướng dẫn thành viên trong nhóm.\nPhân tích yêu cầu và đề xuất giải pháp kỹ thuật.\nNghiên cứu và áp dụng công nghệ mới vào hệ thống.\nXây dựng\ncoding standards\nvà các\nbest practices\n.",
+    "requirements": "Your skills and experience\n3-5 năm kinh nghiệm phát triển với\n.NET Core\nvà\nC#\n.\nThành thạo thiết kế\nRESTful APIs\n.\nHiểu biết sâu về thiết kế và tối ưu hóa database.\nKinh nghiệm làm việc với\nmicroservices architecture\n.\nNắm vững\nOOP\n,\nDesign Patterns\n, và\nClean Architecture\n.\nHiểu biết hoặc từng làm việc với\nERP systems\nvà\nbusiness process automation\n.\nƯu tiên:\nKinh nghiệm với\nDocker\n,\nKubernetes\n,\nKafka/RabbitMQ\n, hoặc\nRedis\n.\nTriển khai\nCI/CD pipeline\n.\nLợi thế:\nKinh nghiệm phát triển\nreporting & analytics\n.\nHiểu biết về\nFlutter\n.\nKinh nghiệm với các nền tảng cloud như\nGCB\nKỹ năng mềm:\nTư duy giải quyết vấn đề nhạy bén.\nKỹ năng giao tiếp và làm việc nhóm hiệu quả.\nChủ động, sáng tạo trong công việc.\nLàm việc tốt dưới áp lực cao.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "350-352 Võ Văn Kiệt , Cau Ong Lanh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Angular",
+      ".NET / C#",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "SQL Database"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/mid-senior-net-dev-erp-ke-toan-ban-hang-khuyen-mai-cellphones-2538",
+    "apply_url": "https://itviec.com/it-jobs/mid-senior-net-dev-erp-ke-toan-ban-hang-khuyen-mai-cellphones-2538",
+    "posted_at": "2026-10-29T05:27:28.854730+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:28.854730+00:00",
+    "last_verified_at": "2026-10-29T05:27:28.854730+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:28.854730+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/mid-senior-net-dev-erp-ke-toan-ban-hang-khuyen-mai-cellphones-2538",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "350-352 Võ Văn Kiệt , Cau Ong Lanh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Mid/Senior .NET Dev (ERP Kế toán, bán hàng, khuyến mãi) tại CellphoneS (350-352 Võ Văn Kiệt , Cau Ong Lanh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Mid/Senior .NET Dev (ERP Kế toán, bán hàng, khuyến mãi)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/mid-senior-net-dev-erp-ke-toan-ban-hang-khuyen-mai-cellphones-2538",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "350-352 Võ Văn Kiệt , Cau Ong Lanh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9726730200",
+    "title": "Business Analyst (Banking/ Finance)",
+    "company_name": "SHINHAN DS",
+    "description": "Job description\nWe are seeking an experienced Finance/ Loan Business Analyst to join our team and support the analysis, design, and implementation of business solutions, with a particular focus on systems built on or integrated with the\nFinance platform\n. The ideal candidate will bridge the gap between business needs and technical solutions, ensuring requirements are clearly defined, documented, and delivered effectively.\nReceive requests for product, process, and feature development or improvement from business units. Analyze requirements and advise the most effective solutions for implementation.\nCollaborate with developers to design solutions for business requirements. Prepare detailed requirement specifications in a format suitable for developers, ensuring clarity and technical feasibility.\nCoordinate with business users and QA/Test teams to validate development outcomes, ensuring solutions meet agreed business requirements.\nSupport business units in drafting and issuing user guides and operational manuals for technology products.\nDeliver product and feature training sessions for IT support teams and business users when required.\nConduct system testing and user acceptance testing (UAT) before deployment.\nTrain and guide end-users on system functionalities\n.",
+    "requirements": "Your skills and experience\nBachelor's degree in Business Administration, Information Systems, Finance, or a related field.\nMinimum 5 years of experience working as a Business Analyst in finance / banking\nHands-on knowledge or working experience with the Nucleus solution (or similar core banking (loan)/finance platforms) is required.\nStrong analytical, problem-solving, and communication skills\nExcellent documentation skills, with the ability to clearly define business processes and system requirements.\nExperience with SQL or data analysis tools is a plus.\nProficient in English",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "11th Floor, The Mett Tower, Tran Bach Dang Street, An Khanh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Azure",
+      "SQL Database",
+      "Oracle DB",
+      "IT Support L1/L2",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/business-analyst-banking-finance-shinhan-ds-4637",
+    "apply_url": "https://itviec.com/it-jobs/business-analyst-banking-finance-shinhan-ds-4637",
+    "posted_at": "2026-10-29T05:27:28.662931+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:28.662931+00:00",
+    "last_verified_at": "2026-10-29T05:27:28.662931+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:28.662931+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/business-analyst-banking-finance-shinhan-ds-4637",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "11th Floor, The Mett Tower, Tran Bach Dang Street, An Khanh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Business Analyst (Banking/ Finance) tại SHINHAN DS (11th Floor, The Mett Tower, Tran Bach Dang Street, An Khanh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Business Analyst (Banking/ Finance)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/business-analyst-banking-finance-shinhan-ds-4637",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "11th Floor, The Mett Tower, Tran Bach Dang Street, An Khanh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_8315235526",
+    "title": "Engineering Manager – Cloud Platform (CI/CD, English)",
+    "company_name": "IIJ Global Solutions Viet Nam",
+    "description": "Job description\nPosition Overview:\nWe are looking for an Engineering Manager to lead the software engineering team responsible for the development and continuous improvement of the HI GIO CLOUD Portal.\nThe role focuses on people management, delivery ownership, engineering execution, and continuous improvement. The Engineering Manager will work closely with the Architect and other stakeholders to translate business priorities into actionable plans and ensure successful delivery.\nKey Responsibilities\n1. People Management\nDirectly manage, coach, and develop software engineers through goal setting, regular feedback, and performance reviews.\nManage team priorities, workload, and resource allocation.\nSupport recruitment, onboarding, and team capability development.\n2. Delivery & Execution\nTranslate business and product priorities into development plans, schedules, and deliverables.\nTake ownership of delivery outcomes, timelines, risks, and dependencies.\nMonitor progress, resolve delivery issues, and take corrective action when necessary.\nCoordinate with the Architect and relevant stakeholders to ensure effective execution.\n3. Engineering Productivity & Continuous Improvement\nIdentify and drive improvements for long-term engineering risks, including security, dependency lifecycle, technical debt, and maintainability.\nImprove development processes, code quality, CI/CD, test automation, and release practices.\nIdentify opportunities to improve productivity through automation, AI-assist",
+    "requirements": "Your skills and experience\nMust-have\nAt least 4 years of experience directly managing software engineers in a software engineering or application development team.\nExperience in people management, coaching, performance reviews, and team development.\nExperience managing a team of around 10–15 members, or experience managing multiple teams with a similar overall size.\nProven experience owning software delivery, including planning, execution, and risk management.\nGood understanding of the software development lifecycle and engineering practices.\nSufficient software engineering knowledge to understand technical discussions, assess risks, and work effectively with Architects and engineers.\nStrong communication, problem-solving, and stakeholder management skills.\nProfessional working proficiency in English.\nNice-to-have\nPrevious experience as a Software Developer, Technical Lead, or Application Engineer.\nExperience with cloud platforms, virtualization, APIs, Kubernetes, CI/CD, or DevOps.\nExp",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "11th Floor, Khanh Nguyen Building, 87A Ham Nghi, Sai Gon, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Go / Golang",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/engineering-manager-cloud-platform-ci-cd-english-iij-global-solutions-viet-nam-3900",
+    "apply_url": "https://itviec.com/it-jobs/engineering-manager-cloud-platform-ci-cd-english-iij-global-solutions-viet-nam-3900",
+    "posted_at": "2026-10-29T05:27:30.273899+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:30.273899+00:00",
+    "last_verified_at": "2026-10-29T05:27:30.273899+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:30.273899+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/engineering-manager-cloud-platform-ci-cd-english-iij-global-solutions-viet-nam-3900",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "11th Floor, Khanh Nguyen Building, 87A Ham Nghi, Sai Gon, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Engineering Manager – Cloud Platform (CI/CD, English) tại IIJ Global Solutions Viet Nam (11th Floor, Khanh Nguyen Building, 87A Ham Nghi, Sai Gon, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Engineering Manager – Cloud Platform (CI/CD, English)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/engineering-manager-cloud-platform-ci-cd-english-iij-global-solutions-viet-nam-3900",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "11th Floor, Khanh Nguyen Building, 87A Ham Nghi, Sai Gon, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_6988586001",
+    "title": "Staff Mobile Engineer (Android/iOS, Fluent in English)",
+    "company_name": "GeoComply (GeoTech Hub Vietnam)",
+    "description": "Job description\nThe Role\nGeoComply is seeking a highly skilled and experienced Staff Mobile Engineer to join our team in Ho Chi Minh City, Vietnam. In this role, you will be instrumental in shaping the mobile architecture of our geolocation compliance solutions, leading the technical direction for our iOS and Android SDKs while ensuring seamless integration with our core service.\nOur product relies on the robust operation of our mobile SDKs with our core geolocation engine. We have strong mobile engineers on both platforms, and we need your expertise to help design and implement the data flow, establish architectural patterns, and drive best practices to ensure our mobile solutions deliver exceptional performance and reliability.\nYou will collaborate closely with engineering managers, product managers, and senior mobile engineers across iOS and Android, providing technical leadership and contributing to our product strategy. Your ability to think strategically, communicate effectively, and build consensus will be critical to your success.\nKey Responsibilities\nMobile Architectural Leadership:\nLead the design and architecture of mobile solutions across iOS and Android platforms, with a focus on the interactions between our SDKs and the core geolocation engine\nDefine and document architectural patterns, interface specifications, and data flow strategies to ensure consistency, maintainability, and performance across both mobile platforms\nEnsure our mobile SDKs remain current with",
+    "requirements": "Your skills and experience\nExtensive Mobile Development Experience:\n10+ years of professional software development experience with strong focus on mobile platforms (iOS and/or Android)\nDeep Mobile Expertise:\nStrong experience in iOS development (Swift, Objective-C, iOS frameworks, Apple platform guidelines)\nStrong experience in Android development (Kotlin, Java, Android SDK, Google Play policies)\nDeep understanding of mobile-specific challenges: device fragmentation, OS version compatibility, background execution, battery optimization, network handling\nExperience with mobile security, anti-fraud techniques, and device attestation\nMobile Architectural Vision:\nProven ability to design and implement complex mobile architectures spanning iOS and Android, with a focus on scalability, maintainability, and performance\nSoftware Design Proficiency:\nExcellent understanding of design patterns and architectural best practices for building scalable and maintainable mobile applications\nCross-Platfor",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Tầng 11, Cao ốc Saigon Trade Center, 37 Tôn Đức Thắng, Phường Sài Gòn, Thành phố , Hồ Chí Minh, Việt Nam, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "React",
+      "Kubernetes",
+      "AWS",
+      "CI/CD DevOps",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/staff-mobile-engineer-android-ios-fluent-in-english-geocomply-geotech-hub-vietnam-4313",
+    "apply_url": "https://itviec.com/it-jobs/staff-mobile-engineer-android-ios-fluent-in-english-geocomply-geotech-hub-vietnam-4313",
+    "posted_at": "2026-10-29T05:27:30.087680+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:30.087680+00:00",
+    "last_verified_at": "2026-10-29T05:27:30.087680+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:30.087680+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/staff-mobile-engineer-android-ios-fluent-in-english-geocomply-geotech-hub-vietnam-4313",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 11, Cao ốc Saigon Trade Center, 37 Tôn Đức Thắng, Phường Sài Gòn, Thành phố , Hồ Chí Minh, Việt Nam, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Staff Mobile Engineer (Android/iOS, Fluent in English) tại GeoComply (GeoTech Hub Vietnam) (Tầng 11, Cao ốc Saigon Trade Center, 37 Tôn Đức Thắng, Phường Sài Gòn, Thành phố , Hồ Chí Minh, Việt Nam, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Staff Mobile Engineer (Android/iOS, Fluent in English)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/staff-mobile-engineer-android-ios-fluent-in-english-geocomply-geotech-hub-vietnam-4313",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 11, Cao ốc Saigon Trade Center, 37 Tôn Đức Thắng, Phường Sài Gòn, Thành phố , Hồ Chí Minh, Việt Nam, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_6186037132",
+    "title": "Senior IT Systems Engineer (Lab & Pharma)",
+    "company_name": "AURIFY",
+    "description": "Job description\nThe position\n53 sites. Around 2,500 specialized workstations. One healthcare company being born. A global healthcare leader is looking for a Senior IT Systems Engineer in Vietnam to become a cornerstone of its IT. You will keep the systems running that labs, production lines and quality teams cannot work without, from instruments to GxP applications to legacy machines. As a versatile generalist, you will troubleshoot across Windows, identity, endpoint security, monitoring and backup, and lead the way when incidents strike. You will start as a fully integrated member of an established global team. Over the next 18 months you will master the environment and earn the trust of the people who depend on it. Then the organization separates and you step up to carry the core independently, with a clear pathway to technical lead. Spin-offs like this come once in a career.\nWhat you’ll be doing\nOwn the estate:\nKeep ~2,500 workstations healthy and secure: OS lifecycles, patching, endpoint tools, backups and monitoring. When you coordinate a change, people listen.\nMaster the environment (first 18 months):\nWork side by side with an established global team. Learn every quirk, build real relationships with lab and manufacturing colleagues, and take ownership early.\nLead when it matters:\nRun complex incident investigations, drive containment and recovery, and fix root causes so problems never come back.\nKeep it compliant:\nFind and fix non-compliant or unmonitored devices, valid",
+    "requirements": "Your skills and experience\nSkills\nExceptional English & Communication:\nHighly proficient spoken and written English. You explain complex risks and solutions clearly to non-technical stakeholders and global management.\nPharmaceutical Background:\nExperience in pharmaceutical, life-sciences or clinical lab environments.\nGeneralist IT & Windows Management:\nStrong, broad enterprise Windows experience, including Active Directory, GPO, PowerShell, patching, software distribution and backup tools.\nEndpoint Security:\nSolid understanding of endpoint security controls and privileged access.\nObservability & Backup:\nKnowledge of enterprise backup, CMDB and monitoring systems.\nInfrastructure Troubleshooting:\nYou follow a problem across OS, applications, networking, identity and hardware until you find the cause.\nControlled Processes:\nExperience with formal change management and technical documentation.\nProduction & Incident Support:\nA proven record supporting production environments and handling maj",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "215B10 Nguyễn Văn Hưởng, An Khanh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Kubernetes",
+      "AWS",
+      "CI/CD DevOps",
+      "Linux",
+      "Active Directory",
+      "IT Support L1/L2"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-it-systems-engineer-lab-pharma-aurify-1511",
+    "apply_url": "https://itviec.com/it-jobs/senior-it-systems-engineer-lab-pharma-aurify-1511",
+    "posted_at": "2026-10-29T05:27:29.764825+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:29.764825+00:00",
+    "last_verified_at": "2026-10-29T05:27:29.764825+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:29.764825+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-it-systems-engineer-lab-pharma-aurify-1511",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "215B10 Nguyễn Văn Hưởng, An Khanh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior IT Systems Engineer (Lab & Pharma) tại AURIFY (215B10 Nguyễn Văn Hưởng, An Khanh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior IT Systems Engineer (Lab & Pharma)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-it-systems-engineer-lab-pharma-aurify-1511",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "215B10 Nguyễn Văn Hưởng, An Khanh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_4526461113",
+    "title": "Automotive Embedded Software Engineer (ASAP)",
+    "company_name": "Hitachi Digital Services",
+    "description": "Job description\nAnalyze requirements, perform architecture design, detailed design, implementation, unit test, integration test and qualification test for Embedded Software and HW Drivers.\nDevelop, integrate and maintain device drivers and low-level software components on Embedded Linux and/or Zephyr RTOS platforms.\nDesign and implement OS abstraction layers (OSAL) and support software portability across different operating systems.\nWork independently and collaboratively with cross-functional teams to deliver high-quality software solutions.",
+    "requirements": "Your skills and experience\n2+ years of experience in Automotive Embedded Systems or Linux Embedded Systems.\nStrong programming skills in C/C++ for HW Drivers, Linux Kernel, Embedded Software, Compiler, Bash/Shell Script and Makefile.\nExperience with Embedded Linux Driver/Kernel/UBOOT development.\nExperience with device driver development and low-level software programming.\nExperience with Zephyr RTOS and OSAL (Operating System Abstraction Layer).\nExperience with Renesas FSP (Flexible Software Package) for RA/RX/RZ platforms is highly preferred.\nExperience with Hardware Manuals, Schematics and Datasheets.\nExperience with any AUTOSAR Classic Platform module (MCAL, BSW, ASW, BLE).\nExperience with communication protocols such as I2C, SPI, CAN, LIN, FlexRay and Ethernet.\nExperience with AUTOSAR Configuration Tools (e.g. DaVinci, ECU Spectrum).\nExperience with multi-tasking and multi-thread programming is a plus.\nGood teamwork, communication and self-management skills.\nEnglish proficiency in",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Helios Bldg, Quang Trung Software City, Trung My Tay, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Linux",
+      "SQL Database"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/automotive-embedded-software-engineer-asap-hitachi-digital-services-1115",
+    "apply_url": "https://itviec.com/it-jobs/automotive-embedded-software-engineer-asap-hitachi-digital-services-1115",
+    "posted_at": "2026-10-29T05:27:33.625564+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:33.625564+00:00",
+    "last_verified_at": "2026-10-29T05:27:33.625564+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:33.625564+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/automotive-embedded-software-engineer-asap-hitachi-digital-services-1115",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Helios Bldg, Quang Trung Software City, Trung My Tay, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Automotive Embedded Software Engineer (ASAP) tại Hitachi Digital Services (Helios Bldg, Quang Trung Software City, Trung My Tay, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Automotive Embedded Software Engineer (ASAP)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/automotive-embedded-software-engineer-asap-hitachi-digital-services-1115",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Helios Bldg, Quang Trung Software City, Trung My Tay, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_3180050944",
+    "title": "Senior Database Administrator (PostgreSQL/AWS/Aurora)",
+    "company_name": "Katalon",
+    "description": "Job description\nFounded in 2016, Katalon is the category leader in AI-augmented software testing, empowering hybrid testers—those blending manual, automation, and AI skills—to deliver exceptional digital experiences. Katalon enables software teams of any size to deliver world-class customer experiences faster, easier, and more efficiently.\nSince its first launch, Katalon has experienced tremendous growth, serving more than 30,000 teams across 80+ countries, many of which are in the Fortune Global 500. Katalon has been named a G2 Leader in software testing for 11 consecutive quarters and a Great Place to Work for three consecutive years.\nAbout the role\nWe are looking for a\nSenior Database Engineer / DBA\nto own Katalon’s production database environment, with a primary focus on\nPostgreSQL / AWS Aurora\n.\nYou will manage approximately\n10 production database clusters hosting customer data on AWS\n, working closely with our Engineering team in Vietnam on database performance, reliability, architecture, security, and future upgrades.\nWe are\nopen to strong Oracle DBA profiles\nwith solid cross-database fundamentals and the ability to work with PostgreSQL/Aurora.\nKey Responsibilities\nManage and maintain production\nPostgreSQL / AWS Aurora\ndatabases.\nTroubleshoot and resolve performance, availability, locking, concurrency, and query issues.\nPerform query tuning, indexing, and database performance optimization.\nDesign databases and schemas for new customer workloads.\nManage high availabilit",
+    "requirements": "Your skills and experience\nJob Requirements\n5+ years of experience in\nDBA / Database Engineering\n.\nStrong experience with production database administration and troubleshooting.\nStrong knowledge of performance tuning, SQL, indexing, HA/replication, backup & recovery, and database security.\nExperience with\nPostgreSQL/Aurora OR Oracle\n.\nStrong understanding of database architecture and operational best practices.\nGood communication and collaboration skills.\nTechnology\nPrimary:\nPostgreSQL, AWS Aurora, AWS RDS, CloudWatch\nOracle profiles are welcome:\nCandidates with strong\nOracle DBA\nexperience and transferable database fundamentals are encouraged to apply. Experience with PostgreSQL/Aurora or Oracle-to-PostgreSQL migration is a plus.\nNice to Have\nExperience with both Oracle and PostgreSQL.\nAWS database experience.\nExperience supporting customer-facing SaaS production environments.\nExperience in a lean, high-ownership DBA environment.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Viettel Building, 285 Cach Mang Thang Tam Street, Hoa Hung, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Angular",
+      "Go / Golang",
+      "Docker",
+      "Kubernetes"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-database-administrator-postgresql-aws-aurora-katalon-0119",
+    "apply_url": "https://itviec.com/it-jobs/senior-database-administrator-postgresql-aws-aurora-katalon-0119",
+    "posted_at": "2026-10-29T05:27:32.780442+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:32.780442+00:00",
+    "last_verified_at": "2026-10-29T05:27:32.780442+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:32.780442+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-database-administrator-postgresql-aws-aurora-katalon-0119",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Viettel Building, 285 Cach Mang Thang Tam Street, Hoa Hung, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Database Administrator (PostgreSQL/AWS/Aurora) tại Katalon (Viettel Building, 285 Cach Mang Thang Tam Street, Hoa Hung, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Senior Database Administrator (PostgreSQL/AWS/Aurora)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-database-administrator-postgresql-aws-aurora-katalon-0119",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Viettel Building, 285 Cach Mang Thang Tam Street, Hoa Hung, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9964885099",
+    "title": "[Danang] PMO/ Project Leader (Japanese N2)",
+    "company_name": "NEC Vietnam",
+    "description": "Job description\nWe are looking for an experienced\nPMO (Japanese N2)\nto support project governance, delivery monitoring, and quality assessment for software development projects serving Japanese customers.\nThe role focuses on reviewing project information, analyzing delivery status and quality indicators, identifying potential risks and areas for improvement, and providing objective observations and recommendations to both customers and offshore teams. The position supports project transparency, quality improvement, and delivery governance through continuous monitoring and data-driven analysis.\nProject Monitoring & Analysis\nReview project progress, delivery status, quality metrics, and project documentation to obtain an objective view of project health.\nAnalyze project data, reports, schedules, defect trends, issue logs, and other project indicators to identify potential risks, quality concerns, or process gaps.\nMonitor compliance with agreed project processes, quality standards, and customer requirements.\nEvaluate project execution from governance and quality perspectives and provide independent observations to stakeholders.\nQuality & Governance Support\nIdentify delivery risks, quality issues, process weaknesses, and operational challenges that may impact project outcomes.\nRaise observations, concerns, and improvement recommendations based on project data and evidence.\nProvide insights and suggestions to offshore teams and customers on improving project quality, risk manageme",
+    "requirements": "Your skills and experience\nBachelor’s degree in Computer Science, IT, or related field.\nFrom 5 years of experience\nin software development, including at least 2 years as\nPMO/ Project Manager/ BrSE\nfor Japanese projects.\nGood understanding of software development lifecycle (SDLC), project governance, software quality management, and delivery processes.\nExperience\nanalyzing project status, delivery quality, project risks, and development metrics.\nFamiliarity with Waterfall and Agile/Scrum methodologies.\nExperience working with Japanese customers in offshore development environments.\nProficiency in Japanese (JLPT N2 or above).\nExperience in web-based systems using\nJava (Spring), Angular.\nBanking domain knowledge is a plus.\nPMP, ACP, ISTQB, or equivalent certifications are advantageous.\nStrong leadership, client-facing, presentation, and negotiation skills.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Đà Nẵng",
+    "location_district": null,
+    "location_full": "., Ngu Hanh Son, Da Nang",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Angular"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/danang-pmo-project-leader-japanese-n2-nec-vietnam-1719",
+    "apply_url": "https://itviec.com/it-jobs/danang-pmo-project-leader-japanese-n2-nec-vietnam-1719",
+    "posted_at": "2026-10-29T05:27:32.484564+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:32.484564+00:00",
+    "last_verified_at": "2026-10-29T05:27:32.484564+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:32.484564+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/danang-pmo-project-leader-japanese-n2-nec-vietnam-1719",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "., Ngu Hanh Son, Da Nang"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [Danang] PMO/ Project Leader (Japanese N2) tại NEC Vietnam (., Ngu Hanh Son, Da Nang). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[Danang] PMO/ Project Leader (Japanese N2)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/danang-pmo-project-leader-japanese-n2-nec-vietnam-1719",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "., Ngu Hanh Son, Da Nang"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_5692161648",
+    "title": "[Da Nang] Full-Stack Developer (ReactJS/ NodeJS)",
+    "company_name": "ONE Tech Stop Vietnam Company Ltd",
+    "description": "Job description\nThe developer will be involved in all phases of the product development cycle including requirements analysis, project estimation, detailed design, software development, testing, and deployment.\nHe/she has A Good Mindset for Development schedule/Quality/Self-Study and is willing to learn new technologies.\nWhat you will do\nPerform development & testing features/bugs from backlog items.\nResponse quickly to handle incidents if it happens.\nBuild and maintain the CI/CD.\nBe Involved in Quality Assurance with good processes, practices, and analysis tools.\nBe Involved in developing Non-Functional Requirements (e.g. Performance, Security, Reliability, Maintainability…)\nAssists leaders to define Technical Backlog\nBe Involved in defining Roadmap and Risk Management.\nResponsible for being committed to the results to be delivered by his/her team and assists his/her teams in achieving such results.\nResponsible for objectively and effectively communicating with his/her counterparts, leaders, and team members\nResponsible for providing his/her team with feedback on their work.\nDeveloping ideas for new programs, products, or features by monitoring industry developments and trends.",
+    "requirements": "Your skills and experience\nWe are looking for the one who:\nHaving experience in Web Front-end (HTML/CSS/JS),\nNextJS or ReactJS\nHaving experience in backend technology of\nNodejs and TypeScrip\nt and frameworks available for Nest.js\nDatabase programming or design skills, including relational database skills (SQL, etc.) and non-relational database skills (MongoDB, Redis, Cassandra, etc.).\nCODING: The code should be well documented and compliant with good practices, as well as the testing skill (Unit Test, Integration Test, User Acceptance Test, Automation Regression Test.\nRESTful API\nKnowledge of Programming Principles, Design Patterns, etc;\nWilling to learn new technology and have a product mindset.\nNice to have:\nExperience in cloud architecture/infrastructure, especially on GCP\nExperience with Docker;\nKnowledge about Continuous Integration, Continuous Delivery (CI/CD);\nFamiliar with working in an Agile environment;",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Đà Nẵng",
+    "location_district": null,
+    "location_full": "Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Go / Golang",
+      ".NET / C#"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/da-nang-full-stack-developer-reactjs-nodejs-one-tech-stop-vietnam-company-ltd-5855",
+    "apply_url": "https://itviec.com/it-jobs/da-nang-full-stack-developer-reactjs-nodejs-one-tech-stop-vietnam-company-ltd-5855",
+    "posted_at": "2026-10-29T05:27:33.768308+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:33.768308+00:00",
+    "last_verified_at": "2026-10-29T05:27:33.768308+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:33.768308+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/da-nang-full-stack-developer-reactjs-nodejs-one-tech-stop-vietnam-company-ltd-5855",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [Da Nang] Full-Stack Developer (ReactJS/ NodeJS) tại ONE Tech Stop Vietnam Company Ltd (Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[Da Nang] Full-Stack Developer (ReactJS/ NodeJS)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/da-nang-full-stack-developer-reactjs-nodejs-one-tech-stop-vietnam-company-ltd-5855",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9441342471",
+    "title": "[Da Nang] UI/UX Designer",
+    "company_name": "ONE Tech Stop Vietnam Company Ltd",
+    "description": "Job description\nLead and execute front-end innovation projects leveraging deep user understanding with the goal of improving user experience (UX) while delivering against strategic business priorities.\nChampion the use of Design-Thinking and Lean Start-Up methodologies to probe, assess, and evaluate behaviors of targeted users and then translate that knowledge into meaningful new insights that drive idea generation and concept development.\nFacilitate design thinking workshops. Use design thinking principles (ideation, prototyping, testing, and feedback) and tools (journey maps, prototyping tools, etc.) to facilitate problem-solving sessions for a range of government audiences, from senior leaders to front-line implementers.\nConduct in-depth customer interviews to gather deep insight, into hidden motivations, and true needs of existing and future customers\nCompile and interpret the insights for the teams/squads so that everyone has intimate knowledge of the customer\nDefine the challenge to be solved from the customer's perspective, identify jobs to be done\nDesign new innovative solutions with feasibility and business viability in focus together with the customer\nArrange and supervise the prototyping of the designed activities\nOrganize and perform user testing of the developed digital and offline solutions in various stages of the service design process\nGather and systematize user feedback and testing results\nConduct design reviews of developed solutions",
+    "requirements": "Your skills and experience\nProven track record of user research and user testing;\nMinimum of 2 years\nof relevant experience in\ndesign-thinking/UX\nincluding working on projects with cross-functional teams.\nService, Product, and UX Design skills\nProficiency with Sketch and Invision (or other prototyping tools), as well as other UX design programs\nProficient level of English in speech and writing in order to conduct and facilitate the design process\nGood knowledge of Agile working principles\nGood public speaking and strong facilitation skills\nPrior work leading digital UX definition.\nTrained and experienced in Design Thinking and Lean Start-Up principles.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Đà Nẵng",
+    "location_district": null,
+    "location_full": "Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/da-nang-ui-ux-designer-one-tech-stop-vietnam-company-ltd-5839",
+    "apply_url": "https://itviec.com/it-jobs/da-nang-ui-ux-designer-one-tech-stop-vietnam-company-ltd-5839",
+    "posted_at": "2026-10-29T05:27:32.800827+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:32.800827+00:00",
+    "last_verified_at": "2026-10-29T05:27:32.800827+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:32.800827+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/da-nang-ui-ux-designer-one-tech-stop-vietnam-company-ltd-5839",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [Da Nang] UI/UX Designer tại ONE Tech Stop Vietnam Company Ltd (Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "[Da Nang] UI/UX Designer",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/da-nang-ui-ux-designer-one-tech-stop-vietnam-company-ltd-5839",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 3-4 tòa nhà Phi Long, 52 Nguyễn Văn Linh, Hai Chau, Da Nang"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_7477464340",
+    "title": "Remote Senior Site Reliability Engineer (SRE)",
+    "company_name": "Fram",
+    "description": "Job description\nProject Description\n: A web service for talent solutions, and you will work for the Data Management team responsible for handling various data-related tasks. The team maintains and governs data, providing solutions for processing, integration, and data services. They collaborate with the infrastructure/platform team to deploy AWS services and manage relationships with vendors to maintain managed services.\nResponsible for deploying and maintaining the data platform, in terms of auth of DBMS, data processing or access tools, applications and frameworks, such as batch and stream jobs on an ETL framework, metadata management tools, BI tools, AWS resources for hosting those tools, etc.\nCollaborate closely with data platform software engineers and our infrastructure/platform squad that maintains the entire infrastructure.",
+    "requirements": "Your skills and experience\nMore than 5 years of working experience as a SRE/ DevOps Engineer, and it would be a plus if you have experience with data platform;\nFamiliar with AWS, especially IAM, ECS, EKS, Lambda, RDS, CloudWatch (rich experience on AWS is a must; GCP or Azure experience is a plus);\nRich experience in deploying containerized applications/services and very familiar with operations on Kubernetes;\nRich experience in infra-as-code, familiar with IT automation systems like Scalr, Terraform or its alternatives, proficient in configuring and maintaining CI/CD flows (experience with ArgoCD is a plus);\nGood understanding of cloud architecture and infrastructure, and can design and maintain/handle the SLA/SLO, HA/DR of services;\nGood knowledge of cloud security, familiarity with SSO (experience with Auth0, Azure AD, Okta, etc.), authentication/ authorization mechanisms like SAML/OIDC, and OAuth;\nExperience in deploying, integrating and maintaining data processing and ML framework",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Floor 20, TNR Tower, 180-192 Nguyen Cong Tru Street, Ben Thanh, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/remote-senior-site-reliability-engineer-sre-fram-1101",
+    "apply_url": "https://itviec.com/it-jobs/remote-senior-site-reliability-engineer-sre-fram-1101",
+    "posted_at": "2026-10-29T05:27:33.784469+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:27:33.784469+00:00",
+    "last_verified_at": "2026-10-29T05:27:33.784469+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:27:33.784469+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/remote-senior-site-reliability-engineer-sre-fram-1101",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Floor 20, TNR Tower, 180-192 Nguyen Cong Tru Street, Ben Thanh, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Remote Senior Site Reliability Engineer (SRE) tại Fram (Floor 20, TNR Tower, 180-192 Nguyen Cong Tru Street, Ben Thanh, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Remote Senior Site Reliability Engineer (SRE)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/remote-senior-site-reliability-engineer-sre-fram-1101",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Floor 20, TNR Tower, 180-192 Nguyen Cong Tru Street, Ben Thanh, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_3577715278",
     "title": "Lập Trình Viên Frontend React / Next.js",
     "company_name": "FPT Software",
