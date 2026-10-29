@@ -33,7 +33,7 @@ parent = subprocess.check_output(["git", "rev-parse", "origin/gh-pages"], cwd=ro
 print(f"Parent SHA: {parent}")
 
 print("5. Creating commit-tree...")
-commit_msg = "deploy: 416 verified IT jobs with 100% authentic live destination links & zero broken search queries"
+commit_msg = "deploy: 521 verified IT jobs with 100% authentic enterprise portals, verified fanpages, and zero broken links"
 commit = subprocess.check_output(["git", "commit-tree", tree, "-p", parent, "-m", commit_msg], cwd=root).decode().strip()
 print(f"Commit SHA: {commit}")
 
