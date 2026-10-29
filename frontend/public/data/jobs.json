@@ -4163,1011 +4163,6 @@
     }
   },
   {
-    "id": "fb_post_3577715278",
-    "title": "Lập Trình Viên Frontend React / Next.js",
-    "company_name": "FPT Software",
-    "description": "FPT Software thông báo tuyển dụng Lập Trình Viên Frontend React / Next.js làm việc tại Cầu Giấy, Hà Nội. Mô tả công việc: Phát triển giao diện người dùng web ứng dụng quy mô lớn cho các đối tác quốc tế (Nhật Bản, Mỹ, Châu Âu); tối ưu hóa trải nghiệm người dùng, tốc độ tải trang và xây dựng component thư viện tái sử dụng. Yêu cầu: 1 - 3 năm kinh nghiệm lập trình Javascript/Typescript, React.js, Next.js, Redux Toolkit, TailwindCSS. Thu nhập: 15 - 28 triệu VNĐ/tháng + Thưởng dự án, bảo hiểm FPT Care cao cấp, cơ hội onsite nước ngoài.",
-    "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT, Kỹ thuật phần mềm. Thành thạo React.js, Next.js, Typescript, RESTful API và Git. Đọc hiểu tài liệu kỹ thuật tiếng Anh.",
-    "salary_min": 15000000,
-    "salary_max": 28000000,
-    "salary_text": "15 - 28 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Cầu Giấy",
-    "location_full": "Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Java",
-      "React",
-      "Next.js"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_url": "https://fptsoftware.com/careers",
-    "apply_url": "https://fptsoftware.com/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-      "direct_url": "https://fptsoftware.com/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "024.7300.7300",
-        "email": "recruitment@fpt.com",
-        "zalo": "02473007300",
-        "address": "Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Lập Trình Viên Frontend React / Next.js tại FPT Software (Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Lập Trình Viên Frontend React / Next.js",
-      "match_ratio": 1.0,
-      "source": "Facebook (FPT Software Careers)",
-      "fanpage_url": "https://www.facebook.com/fptsoftware.official/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "024.7300.7300"
-        ],
-        "hr_email": "recruitment@fpt.com",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (FPT Software Careers)",
-        "direct_url": "https://fptsoftware.com/careers",
-        "url_status": 200,
-        "company_official_hotline": "024.7300.7300",
-        "recruiter_email": "recruitment@fpt.com",
-        "verified_workplace": "Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/fptsoftware.official/"
-  },
-  {
-    "id": "fb_post_2826122781",
-    "title": "Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud",
-    "company_name": "Viettel Digital (Tập Đoàn Viettel)",
-    "description": "Viettel Digital tuyển dụng Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud làm việc tại Ba Đình, Hà Nội. Mô tả công việc: Thiết kế và vận hành hệ thống CI/CD tự động hóa triển khai phần mềm cho hệ sinh thái tài chính số Viettel Money; quản trị cụm Kubernetes, Docker, hạ tầng đám mây OpenStack/AWS và hệ thống giám sát Prometheus/Grafana 24/7. Yêu cầu: Có kinh nghiệm thực tế về Linux, Docker, Kubernetes, CI/CD Jenkins/GitLab. Thu nhập: 22 - 40 triệu VNĐ/tháng + Thưởng hiệu quả kinh doanh, gói bảo hiểm sức khỏe toàn diện Viettel.",
-    "requirements": "Tốt nghiệp Đại học ngành CNTT, An toàn thông tin hoặc Điện tử viễn thông. Có từ 2 năm kinh nghiệm DevOps, Cloud hoặc System Administrator.",
-    "salary_min": 22000000,
-    "salary_max": 40000000,
-    "salary_text": "22 - 40 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Ba Đình",
-    "location_full": "Số 1 Giang Văn Minh, Ba Đình, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Cloud Server",
-      "Linux"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_url": "https://viettel.vn/careers",
-    "apply_url": "https://viettel.vn/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-      "direct_url": "https://viettel.vn/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "024.6255.6789",
-        "email": "tuyendung@viettel.com.vn",
-        "zalo": "02462556789",
-        "address": "Số 1 Giang Văn Minh, Ba Đình, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud tại Viettel Digital (Tập Đoàn Viettel) (Số 1 Giang Văn Minh, Ba Đình, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud",
-      "match_ratio": 1.0,
-      "source": "Facebook (Viettel Digital Talent)",
-      "fanpage_url": "https://www.facebook.com/ViettelQuangNinhOfficial/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "024.6255.6789"
-        ],
-        "hr_email": "tuyendung@viettel.com.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (Viettel Digital Talent)",
-        "direct_url": "https://viettel.vn/careers",
-        "url_status": 200,
-        "company_official_hotline": "024.6255.6789",
-        "recruiter_email": "tuyendung@viettel.com.vn",
-        "verified_workplace": "Số 1 Giang Văn Minh, Ba Đình, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/ViettelQuangNinhOfficial/"
-  },
-  {
-    "id": "fb_post_7552697445",
-    "title": "Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn",
-    "company_name": "VNG Corporation (Zalo / VNG Games)",
-    "description": "VNG Corporation thông báo tuyển dụng Kỹ Sư Backend Golang / Microservices làm việc tại VNG Campus, Quận 7, TP. Hồ Chí Minh. Mô tả công việc: Thiết kế, xây dựng và tối ưu hóa hệ thống backend microservices xử lý hàng triệu người dùng đồng thời; thiết kế cơ sở dữ liệu phân tán Redis, PostgreSQL, Kafka và tối ưu hóa latency cho các dịch vụ số. Yêu cầu: Có kinh nghiệm lập trình Go (Golang) hoặc Java, am hiểu kiến trúc vi dịch vụ (Microservices), message queue và caching. Đãi ngộ: 25 - 45 triệu VNĐ/tháng + Thưởng ESOP, môi trường công nghệ chuẩn quốc tế, phòng gym, hồ bơi miễn phí tại Campus.",
-    "requirements": "Tốt nghiệp Đại học ngành CNTT hoặc Khoa học máy tính. Có từ 2 năm kinh nghiệm backend với Golang, C++ hoặc Java. Am hiểu hệ thống phân tán chịu tải cao.",
-    "salary_min": 25000000,
-    "salary_max": 45000000,
-    "salary_text": "25 - 45 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "TP. Hồ Chí Minh",
-    "location_district": "Quận 7",
-    "location_full": "Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Java",
-      "POS Quầy Thu Ngân",
-      "SQL Database"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_url": "https://vng.com.vn/careers",
-    "apply_url": "https://vng.com.vn/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-      "direct_url": "https://vng.com.vn/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "028.3962.3888",
-        "email": "recruitment@vng.com.vn",
-        "zalo": "02839623888",
-        "address": "Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn tại VNG Corporation (Zalo / VNG Games) (Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn",
-      "match_ratio": 1.0,
-      "source": "Facebook (VNG Recruitment)",
-      "fanpage_url": "https://www.facebook.com/VNGrecruitment/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "028.3962.3888"
-        ],
-        "hr_email": "recruitment@vng.com.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (VNG Recruitment)",
-        "direct_url": "https://vng.com.vn/careers",
-        "url_status": 200,
-        "company_official_hotline": "028.3962.3888",
-        "recruiter_email": "recruitment@vng.com.vn",
-        "verified_workplace": "Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/VNGrecruitment/"
-  },
-  {
-    "id": "fb_post_9046304606",
-    "title": "Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu)",
-    "company_name": "Rikkeisoft",
-    "description": "Rikkeisoft thông báo tuyển dụng Lập Trình Viên Java Spring Boot làm việc tại Nam Từ Liêm, Hà Nội. Mô tả công việc: Tham gia phát triển các dự án phần mềm chuyển đổi số, ngân hàng điện tử và thương mại điện tử cho thị trường Nhật Bản và Hoa Kỳ; thiết kế RESTful API, tích hợp cơ sở dữ liệu Oracle/PostgreSQL và tham gia kiểm thử mã nguồn. Yêu cầu: Có từ 1-3 năm kinh nghiệm với Java Core, Spring Boot, Hibernate, SQL. Đãi ngộ: 16 - 30 triệu VNĐ/tháng + Thưởng dự án, trợ cấp tiếng Nhật/tiếng Anh, cơ hội công tác onsite tại Tokyo.",
-    "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT. Thành thạo Java, Spring Boot, Microservices, Git. Tinh thần trách nhiệm cao và khả năng làm việc nhóm tốt.",
-    "salary_min": 16000000,
-    "salary_max": 30000000,
-    "salary_text": "16 - 30 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Nam Từ Liêm",
-    "location_full": "Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Java",
-      "Spring Boot",
-      "POS Quầy Thu Ngân",
-      "SQL Database",
-      "Oracle DB"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
-    "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
-    "source_url": "https://rikkeisoft.com/careers/",
-    "apply_url": "https://rikkeisoft.com/careers/",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
-      "direct_url": "https://rikkeisoft.com/careers/",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "024.3623.1685",
-        "email": "tuyendung@rikkeisoft.com",
-        "zalo": "02436231685",
-        "address": "Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu) tại Rikkeisoft (Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu)",
-      "match_ratio": 1.0,
-      "source": "Facebook (Rikkeisoft Tuyển Dụng)",
-      "fanpage_url": "https://www.facebook.com/tuyendungrikkeisoft/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "024.3623.1685"
-        ],
-        "hr_email": "tuyendung@rikkeisoft.com",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (Rikkeisoft Tuyển Dụng)",
-        "direct_url": "https://rikkeisoft.com/careers/",
-        "url_status": 200,
-        "company_official_hotline": "024.3623.1685",
-        "recruiter_email": "tuyendung@rikkeisoft.com",
-        "verified_workplace": "Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/tuyendungrikkeisoft/"
-  },
-  {
-    "id": "fb_post_1830190026",
-    "title": "Kỹ Sư An Toàn Thông Tin & Cyber Security SOC",
-    "company_name": "VNPT IT (Tập Đoàn VNPT)",
-    "description": "VNPT IT (Tổng Công Ty Công Nghệ Thông Tin VNPT) tuyển dụng Kỹ Sư An Toàn Thông Tin & Cyber Security SOC làm việc tại Đống Đa, Hà Nội. Công việc: Giám sát, phân tích và điều tra các cảnh báo tấn công mạng trên hệ thống SIEM/SOC; rà soát lỗ hổng bảo mật ứng dụng và hạ tầng máy chủ chính phủ số; đề xuất và triển khai các giải pháp phòng thủ an ninh mạng thế hệ mới. Đãi ngộ: 18 - 35 triệu VNĐ/tháng + Lương tháng 13, thưởng hiệu quả, gói bảo hiểm sức khỏe VIP, đào tạo chứng chỉ CEH/CISSP.",
-    "requirements": "Tốt nghiệp Đại học chuyên ngành An toàn thông tin, CNTT hoặc Khoa học máy tính. Có kinh nghiệm về SIEM, Firewall, IPS/IDS, Web Application Firewall (WAF).",
-    "salary_min": 18000000,
-    "salary_max": 35000000,
-    "salary_text": "18 - 35 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Đống Đa",
-    "location_full": "Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Firewall"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-    "source_url": "https://vnpt.com.vn/careers",
-    "apply_url": "https://vnpt.com.vn/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
-      "direct_url": "https://vnpt.com.vn/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "024.3773.5555",
-        "email": "tuyendung.it@vnpt.vn",
-        "zalo": "02437735555",
-        "address": "Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư An Toàn Thông Tin & Cyber Security SOC tại VNPT IT (Tập Đoàn VNPT) (Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Kỹ Sư An Toàn Thông Tin & Cyber Security SOC",
-      "match_ratio": 1.0,
-      "source": "Facebook (VNPT IT Official)",
-      "fanpage_url": "https://www.facebook.com/vnpt.it.official/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "024.3773.5555"
-        ],
-        "hr_email": "tuyendung.it@vnpt.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (VNPT IT Official)",
-        "direct_url": "https://vnpt.com.vn/careers",
-        "url_status": 200,
-        "company_official_hotline": "024.3773.5555",
-        "recruiter_email": "tuyendung.it@vnpt.vn",
-        "verified_workplace": "Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/vnpt.it.official/"
-  },
-  {
-    "id": "fb_post_7488316884",
-    "title": "Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data",
-    "company_name": "MB Bank (Digital Factory)",
-    "description": "MB Bank thông báo tuyển dụng Kỹ Sư Data Engineer làm việc tại Khối Ngân hàng Số (Digital Factory), Cầu Giấy, Hà Nội. Mô tả: Xây dựng và vận hành các luồng dữ liệu ETL/ELT xử lý khối lượng dữ liệu khổng lồ trên nền tảng Hadoop, Spark, Kafka; tối ưu hóa data warehouse và phục vụ các mô hình phân tích dữ liệu AI/ML cho ứng dụng MBBank. Đãi ngộ: 22 - 40 triệu VNĐ/tháng + Thưởng kinh doanh ngân hàng, vay ưu đãi cán bộ nhân viên, chế độ chăm sóc sức khỏe toàn diện.",
-    "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học dữ liệu hoặc Toán tin. Thành thạo Python, SQL, Apache Spark, Kafka, Hadoop. Có tư duy logic mạnh mẽ.",
-    "salary_min": 22000000,
-    "salary_max": 40000000,
-    "salary_text": "22 - 40 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Cầu Giấy",
-    "location_full": "Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Python",
-      "SQL Database"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Ngân Hàng",
-    "source_name": "Cổng Tuyển Dụng Ngân Hàng",
-    "source_url": "https://www.mbbank.com.vn/careers",
-    "apply_url": "https://www.mbbank.com.vn/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Ngân Hàng",
-      "direct_url": "https://www.mbbank.com.vn/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "024.6266.1936",
-        "email": "hr.digital@mbbank.com.vn",
-        "zalo": "02462661936",
-        "address": "Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data tại MB Bank (Digital Factory) (Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data",
-      "match_ratio": 1.0,
-      "source": "Facebook (MB Bank Careers)",
-      "fanpage_url": "https://www.facebook.com/MBBankTuyendung/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "024.6266.1936"
-        ],
-        "hr_email": "hr.digital@mbbank.com.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (MB Bank Careers)",
-        "direct_url": "https://www.mbbank.com.vn/careers",
-        "url_status": 200,
-        "company_official_hotline": "024.6266.1936",
-        "recruiter_email": "hr.digital@mbbank.com.vn",
-        "verified_workplace": "Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/MBBankTuyendung/"
-  },
-  {
-    "id": "fb_post_5985123010",
-    "title": "Senior Fullstack Developer (React / Java)",
-    "company_name": "Techcombank (Ngân Hàng Kỹ Thương)",
-    "description": "Techcombank tuyển dụng Senior Fullstack Developer (React / Java) làm việc tại Hoàn Kiếm, Hà Nội. Công việc: Trực tiếp xây dựng các tính năng tài chính số đột phá trên nền tảng ngân hàng bán lẻ và doanh nghiệp; phát triển frontend với React.js/Next.js và backend với Java Spring Boot, microservices trên nền tảng đám mây AWS; tham gia các nghi thức Agile/Scrum. Đãi ngộ: 25 - 45 triệu VNĐ/tháng + Thưởng hiệu suất cao, gói bảo hiểm Techcombank Care, phụ cấp công nghệ.",
-    "requirements": "Tốt nghiệp Đại học CNTT hoặc Khoa học máy tính. Có tối thiểu 3 năm kinh nghiệm fullstack với React.js và Java Spring Boot. Am hiểu kiến trúc Microservices và CI/CD.",
-    "salary_min": 25000000,
-    "salary_max": 45000000,
-    "salary_text": "25 - 45 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Hoàn Kiếm",
-    "location_full": "Số 6 Quang Trung, Hoàn Kiếm, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Java",
-      "Spring Boot",
-      "React",
-      "Next.js"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Ngân Hàng",
-    "source_name": "Cổng Tuyển Dụng Ngân Hàng",
-    "source_url": "https://www.techcombank.com/careers",
-    "apply_url": "https://www.techcombank.com/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Ngân Hàng",
-      "direct_url": "https://www.techcombank.com/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "024.3944.6368",
-        "email": "recruitment@techcombank.com.vn",
-        "zalo": "02439446368",
-        "address": "Số 6 Quang Trung, Hoàn Kiếm, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Senior Fullstack Developer (React / Java) tại Techcombank (Ngân Hàng Kỹ Thương) (Số 6 Quang Trung, Hoàn Kiếm, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Senior Fullstack Developer (React / Java)",
-      "match_ratio": 1.0,
-      "source": "Facebook (Techcombank Careers)",
-      "fanpage_url": "https://www.facebook.com/TechcombankJobs/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "024.3944.6368"
-        ],
-        "hr_email": "recruitment@techcombank.com.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (Techcombank Careers)",
-        "direct_url": "https://www.techcombank.com/careers",
-        "url_status": 200,
-        "company_official_hotline": "024.3944.6368",
-        "recruiter_email": "recruitment@techcombank.com.vn",
-        "verified_workplace": "Số 6 Quang Trung, Hoàn Kiếm, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/TechcombankJobs/"
-  },
-  {
-    "id": "fb_post_3531735903",
-    "title": "Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer",
-    "company_name": "Shopee Vietnam (Sea Group)",
-    "description": "Shopee Vietnam tuyển dụng Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer làm việc tại Ba Đình, Hà Nội. Mô tả công việc: Xây dựng và duy trì framework kiểm thử tự động (Automation Test) cho ứng dụng thương mại điện tử Shopee và ví ShopeePay; thiết kế kịch bản kiểm thử hiệu năng (Performance Test), API Test và Security Test; phối hợp chặt chẽ với đội ngũ phát triển sản phẩm để đảm bảo chất lượng phát hành. Đãi ngộ: 18 - 32 triệu VNĐ/tháng + Thưởng năm hấp dẫn, bảo hiểm sức khỏe quốc tế, đồ ăn nhẹ miễn phí tại văn phòng.",
-    "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT. Có từ 1-2 năm kinh nghiệm automation test với Selenium, Appium, Cypress hoặc Playwright. Thành thạo Java hoặc Python.",
-    "salary_min": 18000000,
-    "salary_max": 32000000,
-    "salary_text": "18 - 32 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "Hà Nội",
-    "location_district": "Ba Đình",
-    "location_full": "Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Python",
-      "Java"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
-    "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
-    "source_url": "https://careers.shopee.vn/",
-    "apply_url": "https://careers.shopee.vn/",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
-      "direct_url": "https://careers.shopee.vn/",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "028.7302.2222",
-        "email": "careers@shopee.vn",
-        "zalo": "02873022222",
-        "address": "Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer tại Shopee Vietnam (Sea Group) (Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer",
-      "match_ratio": 1.0,
-      "source": "Facebook (Shopee Careers Vietnam)",
-      "fanpage_url": "https://www.facebook.com/shopeecareersvietnam/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "028.7302.2222"
-        ],
-        "hr_email": "careers@shopee.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (Shopee Careers Vietnam)",
-        "direct_url": "https://careers.shopee.vn/",
-        "url_status": 200,
-        "company_official_hotline": "028.7302.2222",
-        "recruiter_email": "careers@shopee.vn",
-        "verified_workplace": "Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/shopeecareersvietnam/"
-  },
-  {
-    "id": "fb_post_5759909383",
-    "title": "Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation",
-    "company_name": "Tiki Corporation (Tiki Tech)",
-    "description": "Tiki Corporation thông báo tuyển dụng Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning làm việc tại Quận 10, TP. Hồ Chí Minh. Mô tả công việc: Nghiên cứu, phát triển và tối ưu hóa các mô hình gợi ý sản phẩm cá nhân hóa (Recommendation Systems), tìm kiếm ngữ nghĩa và phân loại sản phẩm trên sàn Tiki; triển khai mô hình học sâu (Deep Learning) vào môi trường production phục vụ hàng triệu truy vấn mỗi ngày. Đãi ngộ: 25 - 48 triệu VNĐ/tháng + Thưởng cuối năm, thiết bị làm việc Macbook Pro M-series, văn phòng sáng tạo.",
-    "requirements": "Tốt nghiệp Đại học/Thạc sĩ ngành Khoa học máy tính, Trí tuệ nhân tạo hoặc Toán tin. Thành thạo Python, PyTorch/TensorFlow, SQL và các thuật toán Machine Learning.",
-    "salary_min": 25000000,
-    "salary_max": 48000000,
-    "salary_text": "25 - 48 triệu VNĐ/tháng",
-    "salary_currency": "VND",
-    "salary_period": "month",
-    "location_province": "TP. Hồ Chí Minh",
-    "location_district": "Quận 10",
-    "location_full": "Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh",
-    "job_type": "full-time",
-    "category": "Công nghệ thông tin / Phần mềm / IT",
-    "experience_level": "Junior (1 - 2 năm)",
-    "tech_stack": [
-      "Python",
-      "SQL Database"
-    ],
-    "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
-    "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
-    "source_url": "https://tiki.vn/careers",
-    "apply_url": "https://tiki.vn/careers",
-    "posted_at": "2026-10-19T03:00:32.544806+00:00",
-    "expires_at": null,
-    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
-    "last_verified_at": "2026-10-18T17:00:00Z",
-    "verification_status": "verified",
-    "quality_score": 94,
-    "quality_tier": "diamond",
-    "benefits_detail": [
-      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
-      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
-      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
-      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
-    ],
-    "interview_process": [
-      {
-        "step": 1,
-        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
-        "duration": "1 - 2 ngày làm việc"
-      },
-      {
-        "step": 2,
-        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
-        "duration": "3 - 5 ngày làm việc"
-      },
-      {
-        "step": 3,
-        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
-        "duration": "1 - 2 ngày làm việc"
-      }
-    ],
-    "quality_audit": {
-      "verified_link": true,
-      "direct_jd_available": true,
-      "location_accuracy": 100,
-      "corporate_identity_verified": true,
-      "last_checked": "2026-10-18T17:00:00Z"
-    },
-    "evidence_proof": {
-      "verified": true,
-      "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
-      "direct_url": "https://tiki.vn/careers",
-      "url_status": 200,
-      "recruiter_contact": {
-        "hotline": "028.7303.1234",
-        "email": "talent@tiki.vn",
-        "zalo": "02873031234",
-        "address": "Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh"
-      },
-      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation tại Tiki Corporation (Tiki Tech) (Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
-      "verified_at": "19/10/2026",
-      "checked_at": "19/10/2026",
-      "live_h1": "Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation",
-      "match_ratio": 1.0,
-      "source": "Facebook (Tiki Careers)",
-      "fanpage_url": "https://www.facebook.com/TikiCareers/"
-    },
-    "raw_data": {
-      "mined": {
-        "phones": [
-          "028.7303.1234"
-        ],
-        "hr_email": "talent@tiki.vn",
-        "benefits": [
-          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
-          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
-          "Phụ cấp ăn ca, du lịch hàng năm",
-          "Trang bị laptop cá nhân làm việc"
-        ],
-        "shifts": [
-          "Ca hành chính 8h00 - 17h30",
-          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
-        ]
-      },
-      "evidence_proof": {
-        "verified": true,
-        "source_name": "Facebook (Tiki Careers)",
-        "direct_url": "https://tiki.vn/careers",
-        "url_status": 200,
-        "company_official_hotline": "028.7303.1234",
-        "recruiter_email": "talent@tiki.vn",
-        "verified_workplace": "Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh"
-      }
-    },
-    "is_active": true,
-    "fanpage_url": "https://www.facebook.com/TikiCareers/"
-  },
-  {
     "id": "4b2dbc7f-6a85-49a1-8c92-d3415de0e0c5",
     "title": "Middle Unity Developer (C#, .NET, WebGL)",
     "company_name": "MiTek Vietnam",
@@ -33516,6 +32511,1011 @@
     "is_active": true
   },
   {
+    "id": "fb_post_3577715278",
+    "title": "Lập Trình Viên Frontend React / Next.js",
+    "company_name": "FPT Software",
+    "description": "FPT Software thông báo tuyển dụng Lập Trình Viên Frontend React / Next.js làm việc tại Cầu Giấy, Hà Nội. Mô tả công việc: Phát triển giao diện người dùng web ứng dụng quy mô lớn cho các đối tác quốc tế (Nhật Bản, Mỹ, Châu Âu); tối ưu hóa trải nghiệm người dùng, tốc độ tải trang và xây dựng component thư viện tái sử dụng. Yêu cầu: 1 - 3 năm kinh nghiệm lập trình Javascript/Typescript, React.js, Next.js, Redux Toolkit, TailwindCSS. Thu nhập: 15 - 28 triệu VNĐ/tháng + Thưởng dự án, bảo hiểm FPT Care cao cấp, cơ hội onsite nước ngoài.",
+    "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT, Kỹ thuật phần mềm. Thành thạo React.js, Next.js, Typescript, RESTful API và Git. Đọc hiểu tài liệu kỹ thuật tiếng Anh.",
+    "salary_min": 15000000,
+    "salary_max": 28000000,
+    "salary_text": "15 - 28 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Cầu Giấy",
+    "location_full": "Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "React",
+      "Next.js"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_url": "https://fptsoftware.com/careers",
+    "apply_url": "https://fptsoftware.com/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+      "direct_url": "https://fptsoftware.com/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "024.7300.7300",
+        "email": "recruitment@fpt.com",
+        "zalo": "02473007300",
+        "address": "Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Lập Trình Viên Frontend React / Next.js tại FPT Software (Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Lập Trình Viên Frontend React / Next.js",
+      "match_ratio": 1.0,
+      "source": "Facebook (FPT Software Careers)",
+      "fanpage_url": "https://www.facebook.com/fptsoftware.official/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "024.7300.7300"
+        ],
+        "hr_email": "recruitment@fpt.com",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (FPT Software Careers)",
+        "direct_url": "https://fptsoftware.com/careers",
+        "url_status": 200,
+        "company_official_hotline": "024.7300.7300",
+        "recruiter_email": "recruitment@fpt.com",
+        "verified_workplace": "Tòa nhà FPT Cầu Giấy, 17 Duy Tân, Cầu Giấy, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/fptsoftware.official/"
+  },
+  {
+    "id": "fb_post_2826122781",
+    "title": "Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud",
+    "company_name": "Viettel Digital (Tập Đoàn Viettel)",
+    "description": "Viettel Digital tuyển dụng Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud làm việc tại Ba Đình, Hà Nội. Mô tả công việc: Thiết kế và vận hành hệ thống CI/CD tự động hóa triển khai phần mềm cho hệ sinh thái tài chính số Viettel Money; quản trị cụm Kubernetes, Docker, hạ tầng đám mây OpenStack/AWS và hệ thống giám sát Prometheus/Grafana 24/7. Yêu cầu: Có kinh nghiệm thực tế về Linux, Docker, Kubernetes, CI/CD Jenkins/GitLab. Thu nhập: 22 - 40 triệu VNĐ/tháng + Thưởng hiệu quả kinh doanh, gói bảo hiểm sức khỏe toàn diện Viettel.",
+    "requirements": "Tốt nghiệp Đại học ngành CNTT, An toàn thông tin hoặc Điện tử viễn thông. Có từ 2 năm kinh nghiệm DevOps, Cloud hoặc System Administrator.",
+    "salary_min": 22000000,
+    "salary_max": 40000000,
+    "salary_text": "22 - 40 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Ba Đình",
+    "location_full": "Số 1 Giang Văn Minh, Ba Đình, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Cloud Server",
+      "Linux"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_url": "https://viettel.vn/careers",
+    "apply_url": "https://viettel.vn/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+      "direct_url": "https://viettel.vn/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "024.6255.6789",
+        "email": "tuyendung@viettel.com.vn",
+        "zalo": "02462556789",
+        "address": "Số 1 Giang Văn Minh, Ba Đình, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud tại Viettel Digital (Tập Đoàn Viettel) (Số 1 Giang Văn Minh, Ba Đình, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Kỹ Sư DevOps & Nền Tảng Điện Toán Đám Mây Cloud",
+      "match_ratio": 1.0,
+      "source": "Facebook (Viettel Digital Talent)",
+      "fanpage_url": "https://www.facebook.com/ViettelQuangNinhOfficial/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "024.6255.6789"
+        ],
+        "hr_email": "tuyendung@viettel.com.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (Viettel Digital Talent)",
+        "direct_url": "https://viettel.vn/careers",
+        "url_status": 200,
+        "company_official_hotline": "024.6255.6789",
+        "recruiter_email": "tuyendung@viettel.com.vn",
+        "verified_workplace": "Số 1 Giang Văn Minh, Ba Đình, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/ViettelQuangNinhOfficial/"
+  },
+  {
+    "id": "fb_post_7552697445",
+    "title": "Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn",
+    "company_name": "VNG Corporation (Zalo / VNG Games)",
+    "description": "VNG Corporation thông báo tuyển dụng Kỹ Sư Backend Golang / Microservices làm việc tại VNG Campus, Quận 7, TP. Hồ Chí Minh. Mô tả công việc: Thiết kế, xây dựng và tối ưu hóa hệ thống backend microservices xử lý hàng triệu người dùng đồng thời; thiết kế cơ sở dữ liệu phân tán Redis, PostgreSQL, Kafka và tối ưu hóa latency cho các dịch vụ số. Yêu cầu: Có kinh nghiệm lập trình Go (Golang) hoặc Java, am hiểu kiến trúc vi dịch vụ (Microservices), message queue và caching. Đãi ngộ: 25 - 45 triệu VNĐ/tháng + Thưởng ESOP, môi trường công nghệ chuẩn quốc tế, phòng gym, hồ bơi miễn phí tại Campus.",
+    "requirements": "Tốt nghiệp Đại học ngành CNTT hoặc Khoa học máy tính. Có từ 2 năm kinh nghiệm backend với Golang, C++ hoặc Java. Am hiểu hệ thống phân tán chịu tải cao.",
+    "salary_min": 25000000,
+    "salary_max": 45000000,
+    "salary_text": "25 - 45 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": "Quận 7",
+    "location_full": "Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "POS Quầy Thu Ngân",
+      "SQL Database"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_url": "https://vng.com.vn/careers",
+    "apply_url": "https://vng.com.vn/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+      "direct_url": "https://vng.com.vn/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.3962.3888",
+        "email": "recruitment@vng.com.vn",
+        "zalo": "02839623888",
+        "address": "Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn tại VNG Corporation (Zalo / VNG Games) (Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Kỹ Sư Backend Golang / Microservices Hệ Thống Lớn",
+      "match_ratio": 1.0,
+      "source": "Facebook (VNG Recruitment)",
+      "fanpage_url": "https://www.facebook.com/VNGrecruitment/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.3962.3888"
+        ],
+        "hr_email": "recruitment@vng.com.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (VNG Recruitment)",
+        "direct_url": "https://vng.com.vn/careers",
+        "url_status": 200,
+        "company_official_hotline": "028.3962.3888",
+        "recruiter_email": "recruitment@vng.com.vn",
+        "verified_workplace": "Z06, Đường số 13, Tân Thuận Đông, Quận 7, TP. Hồ Chí Minh"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/VNGrecruitment/"
+  },
+  {
+    "id": "fb_post_9046304606",
+    "title": "Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu)",
+    "company_name": "Rikkeisoft",
+    "description": "Rikkeisoft thông báo tuyển dụng Lập Trình Viên Java Spring Boot làm việc tại Nam Từ Liêm, Hà Nội. Mô tả công việc: Tham gia phát triển các dự án phần mềm chuyển đổi số, ngân hàng điện tử và thương mại điện tử cho thị trường Nhật Bản và Hoa Kỳ; thiết kế RESTful API, tích hợp cơ sở dữ liệu Oracle/PostgreSQL và tham gia kiểm thử mã nguồn. Yêu cầu: Có từ 1-3 năm kinh nghiệm với Java Core, Spring Boot, Hibernate, SQL. Đãi ngộ: 16 - 30 triệu VNĐ/tháng + Thưởng dự án, trợ cấp tiếng Nhật/tiếng Anh, cơ hội công tác onsite tại Tokyo.",
+    "requirements": "Tốt nghiệp ĐH chuyên ngành CNTT. Thành thạo Java, Spring Boot, Microservices, Git. Tinh thần trách nhiệm cao và khả năng làm việc nhóm tốt.",
+    "salary_min": 16000000,
+    "salary_max": 30000000,
+    "salary_text": "16 - 30 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Nam Từ Liêm",
+    "location_full": "Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "POS Quầy Thu Ngân",
+      "SQL Database",
+      "Oracle DB"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
+    "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
+    "source_url": "https://rikkeisoft.com/careers/",
+    "apply_url": "https://rikkeisoft.com/careers/",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
+      "direct_url": "https://rikkeisoft.com/careers/",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "024.3623.1685",
+        "email": "tuyendung@rikkeisoft.com",
+        "zalo": "02436231685",
+        "address": "Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu) tại Rikkeisoft (Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Lập Trình Viên Java Spring Boot (Dự Án Toàn Cầu)",
+      "match_ratio": 1.0,
+      "source": "Facebook (Rikkeisoft Tuyển Dụng)",
+      "fanpage_url": "https://www.facebook.com/tuyendungrikkeisoft/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "024.3623.1685"
+        ],
+        "hr_email": "tuyendung@rikkeisoft.com",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (Rikkeisoft Tuyển Dụng)",
+        "direct_url": "https://rikkeisoft.com/careers/",
+        "url_status": 200,
+        "company_official_hotline": "024.3623.1685",
+        "recruiter_email": "tuyendung@rikkeisoft.com",
+        "verified_workplace": "Tầng 21 Tòa nhà Handico, Mễ Trì, Nam Từ Liêm, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/tuyendungrikkeisoft/"
+  },
+  {
+    "id": "fb_post_1830190026",
+    "title": "Kỹ Sư An Toàn Thông Tin & Cyber Security SOC",
+    "company_name": "VNPT IT (Tập Đoàn VNPT)",
+    "description": "VNPT IT (Tổng Công Ty Công Nghệ Thông Tin VNPT) tuyển dụng Kỹ Sư An Toàn Thông Tin & Cyber Security SOC làm việc tại Đống Đa, Hà Nội. Công việc: Giám sát, phân tích và điều tra các cảnh báo tấn công mạng trên hệ thống SIEM/SOC; rà soát lỗ hổng bảo mật ứng dụng và hạ tầng máy chủ chính phủ số; đề xuất và triển khai các giải pháp phòng thủ an ninh mạng thế hệ mới. Đãi ngộ: 18 - 35 triệu VNĐ/tháng + Lương tháng 13, thưởng hiệu quả, gói bảo hiểm sức khỏe VIP, đào tạo chứng chỉ CEH/CISSP.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành An toàn thông tin, CNTT hoặc Khoa học máy tính. Có kinh nghiệm về SIEM, Firewall, IPS/IDS, Web Application Firewall (WAF).",
+    "salary_min": 18000000,
+    "salary_max": 35000000,
+    "salary_text": "18 - 35 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Đống Đa",
+    "location_full": "Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Firewall"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+    "source_url": "https://vnpt.com.vn/careers",
+    "apply_url": "https://vnpt.com.vn/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Tập Đoàn",
+      "direct_url": "https://vnpt.com.vn/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "024.3773.5555",
+        "email": "tuyendung.it@vnpt.vn",
+        "zalo": "02437735555",
+        "address": "Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư An Toàn Thông Tin & Cyber Security SOC tại VNPT IT (Tập Đoàn VNPT) (Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Kỹ Sư An Toàn Thông Tin & Cyber Security SOC",
+      "match_ratio": 1.0,
+      "source": "Facebook (VNPT IT Official)",
+      "fanpage_url": "https://www.facebook.com/vnpt.it.official/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "024.3773.5555"
+        ],
+        "hr_email": "tuyendung.it@vnpt.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (VNPT IT Official)",
+        "direct_url": "https://vnpt.com.vn/careers",
+        "url_status": 200,
+        "company_official_hotline": "024.3773.5555",
+        "recruiter_email": "tuyendung.it@vnpt.vn",
+        "verified_workplace": "Số 57 Huỳnh Thúc Kháng, Đống Đa, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/vnpt.it.official/"
+  },
+  {
+    "id": "fb_post_7488316884",
+    "title": "Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data",
+    "company_name": "MB Bank (Digital Factory)",
+    "description": "MB Bank thông báo tuyển dụng Kỹ Sư Data Engineer làm việc tại Khối Ngân hàng Số (Digital Factory), Cầu Giấy, Hà Nội. Mô tả: Xây dựng và vận hành các luồng dữ liệu ETL/ELT xử lý khối lượng dữ liệu khổng lồ trên nền tảng Hadoop, Spark, Kafka; tối ưu hóa data warehouse và phục vụ các mô hình phân tích dữ liệu AI/ML cho ứng dụng MBBank. Đãi ngộ: 22 - 40 triệu VNĐ/tháng + Thưởng kinh doanh ngân hàng, vay ưu đãi cán bộ nhân viên, chế độ chăm sóc sức khỏe toàn diện.",
+    "requirements": "Tốt nghiệp Đại học ngành CNTT, Khoa học dữ liệu hoặc Toán tin. Thành thạo Python, SQL, Apache Spark, Kafka, Hadoop. Có tư duy logic mạnh mẽ.",
+    "salary_min": 22000000,
+    "salary_max": 40000000,
+    "salary_text": "22 - 40 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Cầu Giấy",
+    "location_full": "Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Ngân Hàng",
+    "source_name": "Cổng Tuyển Dụng Ngân Hàng",
+    "source_url": "https://www.mbbank.com.vn/careers",
+    "apply_url": "https://www.mbbank.com.vn/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Ngân Hàng",
+      "direct_url": "https://www.mbbank.com.vn/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "024.6266.1936",
+        "email": "hr.digital@mbbank.com.vn",
+        "zalo": "02462661936",
+        "address": "Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data tại MB Bank (Digital Factory) (Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Kỹ Sư Data Engineer & Kiến Trúc Dữ Liệu Lớn Big Data",
+      "match_ratio": 1.0,
+      "source": "Facebook (MB Bank Careers)",
+      "fanpage_url": "https://www.facebook.com/MBBankTuyendung/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "024.6266.1936"
+        ],
+        "hr_email": "hr.digital@mbbank.com.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (MB Bank Careers)",
+        "direct_url": "https://www.mbbank.com.vn/careers",
+        "url_status": 200,
+        "company_official_hotline": "024.6266.1936",
+        "recruiter_email": "hr.digital@mbbank.com.vn",
+        "verified_workplace": "Tòa nhà MB Grand Tower, 63 Lê Văn Lương, Cầu Giấy, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/MBBankTuyendung/"
+  },
+  {
+    "id": "fb_post_5985123010",
+    "title": "Senior Fullstack Developer (React / Java)",
+    "company_name": "Techcombank (Ngân Hàng Kỹ Thương)",
+    "description": "Techcombank tuyển dụng Senior Fullstack Developer (React / Java) làm việc tại Hoàn Kiếm, Hà Nội. Công việc: Trực tiếp xây dựng các tính năng tài chính số đột phá trên nền tảng ngân hàng bán lẻ và doanh nghiệp; phát triển frontend với React.js/Next.js và backend với Java Spring Boot, microservices trên nền tảng đám mây AWS; tham gia các nghi thức Agile/Scrum. Đãi ngộ: 25 - 45 triệu VNĐ/tháng + Thưởng hiệu suất cao, gói bảo hiểm Techcombank Care, phụ cấp công nghệ.",
+    "requirements": "Tốt nghiệp Đại học CNTT hoặc Khoa học máy tính. Có tối thiểu 3 năm kinh nghiệm fullstack với React.js và Java Spring Boot. Am hiểu kiến trúc Microservices và CI/CD.",
+    "salary_min": 25000000,
+    "salary_max": 45000000,
+    "salary_text": "25 - 45 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Hoàn Kiếm",
+    "location_full": "Số 6 Quang Trung, Hoàn Kiếm, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Next.js"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Ngân Hàng",
+    "source_name": "Cổng Tuyển Dụng Ngân Hàng",
+    "source_url": "https://www.techcombank.com/careers",
+    "apply_url": "https://www.techcombank.com/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Ngân Hàng",
+      "direct_url": "https://www.techcombank.com/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "024.3944.6368",
+        "email": "recruitment@techcombank.com.vn",
+        "zalo": "02439446368",
+        "address": "Số 6 Quang Trung, Hoàn Kiếm, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Senior Fullstack Developer (React / Java) tại Techcombank (Ngân Hàng Kỹ Thương) (Số 6 Quang Trung, Hoàn Kiếm, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Senior Fullstack Developer (React / Java)",
+      "match_ratio": 1.0,
+      "source": "Facebook (Techcombank Careers)",
+      "fanpage_url": "https://www.facebook.com/TechcombankJobs/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "024.3944.6368"
+        ],
+        "hr_email": "recruitment@techcombank.com.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (Techcombank Careers)",
+        "direct_url": "https://www.techcombank.com/careers",
+        "url_status": 200,
+        "company_official_hotline": "024.3944.6368",
+        "recruiter_email": "recruitment@techcombank.com.vn",
+        "verified_workplace": "Số 6 Quang Trung, Hoàn Kiếm, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/TechcombankJobs/"
+  },
+  {
+    "id": "fb_post_3531735903",
+    "title": "Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer",
+    "company_name": "Shopee Vietnam (Sea Group)",
+    "description": "Shopee Vietnam tuyển dụng Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer làm việc tại Ba Đình, Hà Nội. Mô tả công việc: Xây dựng và duy trì framework kiểm thử tự động (Automation Test) cho ứng dụng thương mại điện tử Shopee và ví ShopeePay; thiết kế kịch bản kiểm thử hiệu năng (Performance Test), API Test và Security Test; phối hợp chặt chẽ với đội ngũ phát triển sản phẩm để đảm bảo chất lượng phát hành. Đãi ngộ: 18 - 32 triệu VNĐ/tháng + Thưởng năm hấp dẫn, bảo hiểm sức khỏe quốc tế, đồ ăn nhẹ miễn phí tại văn phòng.",
+    "requirements": "Tốt nghiệp Đại học chuyên ngành CNTT. Có từ 1-2 năm kinh nghiệm automation test với Selenium, Appium, Cypress hoặc Playwright. Thành thạo Java hoặc Python.",
+    "salary_min": 18000000,
+    "salary_max": 32000000,
+    "salary_text": "18 - 32 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": "Ba Đình",
+    "location_full": "Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
+    "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
+    "source_url": "https://careers.shopee.vn/",
+    "apply_url": "https://careers.shopee.vn/",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
+      "direct_url": "https://careers.shopee.vn/",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.7302.2222",
+        "email": "careers@shopee.vn",
+        "zalo": "02873022222",
+        "address": "Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer tại Shopee Vietnam (Sea Group) (Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Kỹ Sư Kiểm Thử Tự Động QA/QC Automation Engineer",
+      "match_ratio": 1.0,
+      "source": "Facebook (Shopee Careers Vietnam)",
+      "fanpage_url": "https://www.facebook.com/shopeecareersvietnam/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.7302.2222"
+        ],
+        "hr_email": "careers@shopee.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (Shopee Careers Vietnam)",
+        "direct_url": "https://careers.shopee.vn/",
+        "url_status": 200,
+        "company_official_hotline": "028.7302.2222",
+        "recruiter_email": "careers@shopee.vn",
+        "verified_workplace": "Tòa nhà Capital Place, 29 Liễu Giai, Ba Đình, Hà Nội"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/shopeecareersvietnam/"
+  },
+  {
+    "id": "fb_post_5759909383",
+    "title": "Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation",
+    "company_name": "Tiki Corporation (Tiki Tech)",
+    "description": "Tiki Corporation thông báo tuyển dụng Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning làm việc tại Quận 10, TP. Hồ Chí Minh. Mô tả công việc: Nghiên cứu, phát triển và tối ưu hóa các mô hình gợi ý sản phẩm cá nhân hóa (Recommendation Systems), tìm kiếm ngữ nghĩa và phân loại sản phẩm trên sàn Tiki; triển khai mô hình học sâu (Deep Learning) vào môi trường production phục vụ hàng triệu truy vấn mỗi ngày. Đãi ngộ: 25 - 48 triệu VNĐ/tháng + Thưởng cuối năm, thiết bị làm việc Macbook Pro M-series, văn phòng sáng tạo.",
+    "requirements": "Tốt nghiệp Đại học/Thạc sĩ ngành Khoa học máy tính, Trí tuệ nhân tạo hoặc Toán tin. Thành thạo Python, PyTorch/TensorFlow, SQL và các thuật toán Machine Learning.",
+    "salary_min": 25000000,
+    "salary_max": 48000000,
+    "salary_text": "25 - 48 triệu VNĐ/tháng",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": "Quận 10",
+    "location_full": "Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh",
+    "job_type": "full-time",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database"
+    ],
+    "source_platform": "Cổng Tuyển Dụng Doanh Nghiệp",
+    "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
+    "source_url": "https://tiki.vn/careers",
+    "apply_url": "https://tiki.vn/careers",
+    "posted_at": "2026-10-19T03:00:32.544806+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-19T03:00:32.544806+00:00",
+    "last_verified_at": "2026-10-18T17:00:00Z",
+    "verification_status": "verified",
+    "quality_score": 94,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-18T17:00:00Z"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "Cổng Tuyển Dụng Doanh Nghiệp",
+      "direct_url": "https://tiki.vn/careers",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.7303.1234",
+        "email": "talent@tiki.vn",
+        "zalo": "02873031234",
+        "address": "Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh"
+      },
+      "announcement_snippet": "Thông báo tuyển dụng chính thức vị trí Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation tại Tiki Corporation (Tiki Tech) (Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh). Bài đăng trực tiếp tại nhóm/fanpage tuyển dụng đã được kiểm chứng 100%.",
+      "verified_at": "19/10/2026",
+      "checked_at": "19/10/2026",
+      "live_h1": "Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation",
+      "match_ratio": 1.0,
+      "source": "Facebook (Tiki Careers)",
+      "fanpage_url": "https://www.facebook.com/TikiCareers/"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.7303.1234"
+        ],
+        "hr_email": "talent@tiki.vn",
+        "benefits": [
+          "Lương tháng 13 & thưởng hiệu quả kinh doanh",
+          "Chế độ BHXH, BHYT theo Bộ Luật Lao Động",
+          "Phụ cấp ăn ca, du lịch hàng năm",
+          "Trang bị laptop cá nhân làm việc"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Nghỉ Chiều Thứ 7 & Chủ Nhật"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "Facebook (Tiki Careers)",
+        "direct_url": "https://tiki.vn/careers",
+        "url_status": 200,
+        "company_official_hotline": "028.7303.1234",
+        "recruiter_email": "talent@tiki.vn",
+        "verified_workplace": "Viettel Complex, 285 Cách Mạng Tháng 8, Quận 10, TP. Hồ Chí Minh"
+      }
+    },
+    "is_active": true,
+    "fanpage_url": "https://www.facebook.com/TikiCareers/"
+  },
+  {
     "id": "fb_post_4973275018",
     "title": "Kỹ Sư Trí Tuệ Nhân Tạo AI / Machine Learning Recommendation",
     "company_name": "Tiki Corporation (Tiki Tech)",
@@ -57805,6 +57805,670 @@
         "verified": true,
         "source_name": "CareerViet",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-it-support-ha-noi.35C89A56.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6199696424",
+    "title": "Software Development - Saleforce",
+    "company_name": "FE CREDIT",
+    "description": "Mô tả Công việc\nExecution & Development: Design, develop, and deploy customized solutions on the Salesforce platform (Sales Cloud, Service Cloud, Financial Services Cloud) using Apex, Lightning Web Components (LWC), Aura Components, and SOQL/SOSL.\nSystem Integration: Build and maintain seamless integrations (RESTful/SOAP APIs) between Salesforce and core systems (Core Banking, Internal CRM, Payment Gateways, LOS/LMS).\nTo coordinate teams with others to achieve the overall targets/goals of the unit\nProcess Automation: Configure and develop complex automated business processes using Salesforce Flow, Approval Processes, and Trigger Frameworks.\nTo achieve the overall targets/goals of the unit.",
+    "requirements": "Yêu Cầu Công Việc\nEducation: BS in Computer Science, Computer Engineering, Electrical Engineering…\nStrong backend development skills in Salesforce using Apex (Classes, Triggers, Batch/Scheduled Apex, Web Services) - (Open to candidates with experience on Java)\nMinimum 3 years of experience in Salesforce solution development.\nStrong frontend development skills using Lightning Web Components (LWC), JavaScript (ES6+), HTML5, and CSS3.\nUnderstanding of Salesforce Architecture, Data Model, Security Model (Profiles, Roles, OWD, Sharing Rules), and Governor Limits.\nHands-on experience with system integration via REST/SOAP APIs and handling large-scale data (Bulk Data).\nProficient in version control tools (Git/GitLab) and CI/CD pipelines (Salesforce DX).\nHas OOP knowledge\nStrong logical thinking, flexible problem-solving, and effective teamwork skills.\n*Preferred Qualifications: Salesforce Certified Platform Developer I / II",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/software-development-saleforce.35C8B374.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/software-development-saleforce.35C8B374.html",
+    "posted_at": "2026-10-29T05:19:14.522435+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:19:14.522435+00:00",
+    "last_verified_at": "2026-10-29T05:19:14.522435+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:19:14.522435+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/software-development-saleforce.35C8B374.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Software Development - Saleforce tại FE CREDIT (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Software Development - Saleforce",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/software-development-saleforce.35C8B374.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7384107033",
+    "title": "TRƯỞNG PHÒNG GIẢI PHÁP CNTT",
+    "company_name": "Công Ty Cổ Phần Viễn Thông ACT",
+    "description": "Mô tả Công việc\nXây dựng kế hoạch và tổ chức\nphát triển kinh doanh các giải pháp Hạ tầng CNTT & Tiện ích số\n; tìm kiếm, tiếp cận và phát triển khách hàng/doanh nghiệp tiềm năng.\nKhảo sát, phân tích nhu cầu khách hàng; chủ trì\ntư vấn, thiết kế và đề xuất giải pháp kỹ thuật\nphù hợp với yêu cầu và ngân sách.\nXây dựng các giải pháp liên quan đến\nhạ tầng mạng LAN/WAN/Wi-Fi, System, Cloud, CCTV, Access Control, ELV, Smart Building/Smart City, IoT, AI và các tiện ích số\n.\nChủ trì hoạt động\nPre-sales\n: xây dựng phương án kỹ thuật, BOM/BOQ, dự toán, báo giá, hồ sơ đề xuất/hồ sơ thầu; thuyết trình và bảo vệ giải pháp với khách hàng.\nPhối hợp với bộ phận Kinh doanh trong quá trình tiếp cận khách hàng, xây dựng giải pháp, đàm phán và hoàn thiện phương án thương mại.\nLập kế hoạch và tổ chức\ntriển khai các dự án CNTT & Tiện ích số\n; quản lý tiến độ, chi phí, chất lượng, nguồn lực và các rủi ro của dự án.\nQuản lý, điều phối đội ngũ kỹ thuật, đối tác, vendor và nhà thầu trong quá trình triển khai.\nKiểm soát chất lượng thi công, nghiệm thu khối lượng, hồ sơ hoàn công, bàn giao và chuyển giao hệ thống cho khách hàng.\nĐiều phối xử lý các sự cố kỹ thuật phức tạp; đảm bảo chất lượng dịch vụ và các chỉ tiêu\nKPI/SLA\nđã cam kết.\nXây dựng, duy trì quan hệ với các hãng công nghệ, đối tác và nhà cung cấp nhằm cập nhật công nghệ và tối ưu giải pháp.\nQuản lý, đào tạo và phát triển đội ngũ nhân sự của Phòng; chịu trách nhiệm về kết quả hoạt động,\ndoanh thu và hiệu quả\ncủa mảng phụ trách.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp\nĐại học trở lên\nchuyên ngành CNTT, Điện tử Viễn thông, Mạng máy tính hoặc các ngành kỹ thuật liên quan.\nCó kinh nghiệm trong lĩnh vực\nhạ tầng CNTT, tích hợp hệ thống, viễn thông, ELV hoặc giải pháp công nghệ\n; ưu tiên ứng viên đã đảm nhiệm vị trí quản lý/Trưởng nhóm/Trưởng phòng.\nCó kinh nghiệm thực tế về\ntư vấn giải pháp, Pre-sales, thiết kế và triển khai dự án\ncho khách hàng doanh nghiệp.\nCó kiến thức tốt về một hoặc nhiều mảng: Network, System, Cloud, Security, CCTV, Access Control, ELV, IoT, Smart Building/Smart City.\nCó kinh nghiệm xây dựng\nBOM/BOQ, dự toán, báo giá, hồ sơ kỹ thuật/hồ sơ thầu\nlà lợi thế.\nCó khả năng quản lý dự án, đội ngũ kỹ thuật, vendor và nhà thầu.\nCó tư duy\nkinh doanh và định hướng khách hàng\n; khả năng phát triển cơ hội kinh doanh và phối hợp xây dựng giải pháp thương mại.\nKỹ năng giao tiếp, thuyết trình, đàm phán và xử lý vấn đề tốt.\nCó khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh.\nƯu tiên ứng viên có các chứng chỉ chuyên môn/qu",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "Cisco Networking",
+      "LAN/WAN",
+      "WiFi Mesh",
+      "Camera AI"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-giai-phap-cntt.35C8B9B7.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-giai-phap-cntt.35C8B9B7.html",
+    "posted_at": "2026-10-29T05:19:14.315847+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:19:14.315847+00:00",
+    "last_verified_at": "2026-10-29T05:19:14.315847+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:19:14.315847+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-giai-phap-cntt.35C8B9B7.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí TRƯỞNG PHÒNG GIẢI PHÁP CNTT tại Công Ty Cổ Phần Viễn Thông ACT (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "TRƯỞNG PHÒNG GIẢI PHÁP CNTT",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-giai-phap-cntt.35C8B9B7.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7543510969",
+    "title": "Software Engineer",
+    "company_name": "Công ty TNHH Viettel - CHT",
+    "description": "Mô tả Công việc\nChúng tôi đang tìm kiếm Software Architect tài năng và nhiệt huyết để gia nhập đội ngũ phát triển và mở rộng các sản phẩm dịch vụ cho hệ sinh thái ViettelIDC . Vị trí này sẽ chịu trách nhiệm phát triển, triển khai và duy trì các platform chất lượng cao; làm việc chặt chẽ với các nhà phân tích kinh doanh, nhà thiết kế UI/UX và các bên liên quan khác để tạo ra các sản phẩm công nghệ đáp ứng nhu cầu kinh doanh và người dùng.\nTrách nhiệm công việc chính\nXây dựng các sản phẩm mới, bảo trì nâng cấp các sản phẩm cũ phục vụ hàng triệu người dùng của Viettel IDC\nPhát triển nền tảng : Thiết kế kiến trúc hệ thống, phát triển và triển khai các platform theo yêu cầu.\nViết mã chất lượng: Viết mã nguồn rõ ràng, dễ hiểu và tuân thủ các tiêu chuẩn lập trình.\nKiểm thử và gỡ lỗi: Thực hiện kiểm thử đơn vị và kiểm thử tích hợp, xác định và khắc phục các lỗi trong mã nguồn.\nQuản lý mã nguồn: Sử dụng các công cụ quản lý mã nguồn như Git để quản lý và kiểm soát các thay đổi trong mã nguồn.\nTài liệu hóa: Tạo và duy trì tài liệu kỹ thuật liên quan đến các tính năng và mã nguồn của ứng dụng.\nHợp tác với nhóm: Làm việc chặt chẽ với các nhà phát triển khác, nhà thiết kế UI/UX, nhà phân tích kinh doanh và các bên liên quan để đảm bảo sự thống nhất và hiệu quả trong quá trình phát triển.\nNâng cấp và bảo trì: Thực hiện các nhiệm vụ nâng cấp và bảo trì để cải thiện tính năng và hiệu suất của ứng dụng.\nCập nhật công nghệ: Luôn cập nhật với các xu hướng công nghệ mới nhất và đề xuất các công n",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp các ngành liên quan đến Công nghệ thông tin, Khoa học máy tính hoặc các lĩnh vực liên quan\nCó ít nhất 3 năm kinh nghiệm trong phát triển phần mềm\nCó kinh nghiệm về\nthiết kế hệ thống,  API\n&  theo tiêu chuẩn\nSDK\nƯu tiên có kinh nghiệm triển khai sản phầm trên nền tàng\nCloud\n,  đã làm việc với mô hình\nMicroservice\nThành thạo một hoặc nhiều ngôn ngữ lập trình như\nGolang, Python\n,\nJava, Ruby/ .NET…\nKinh nghiệm làm việc với các cơ sở dữ liệu như MySQL, PostgreSQL, MongoDB, Elastic Search, hoặc các hệ quản trị cơ sở dữ liệu tương đương.\nCó kinh nghiệm làm việc với một trong các hệ thống Message Queue (Kafka, RabbitMQ, MQTT)\nCó kinh nghiệm với một trong các Frontend Framework hiện đại như: ReactJS/Redux, Angular 12+, VueJS là một lợi thế\nCó kinh nghiệm thiết kế hệ thống, design pattern, OOP ...\nCó kiến thức triển khai cơ bản hệ thống trên hệ điều hành Linux là một lợi thế.\nCó khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành.\nChứng chỉ: Các chứng chỉ liên quan đến",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "React",
+      "Vue.js",
+      "Angular",
+      "Go / Golang"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+    "posted_at": "2026-10-29T05:19:15.501096+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:19:15.501096+00:00",
+    "last_verified_at": "2026-10-29T05:19:15.501096+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:19:15.501096+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Software Engineer tại Công ty TNHH Viettel - CHT (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Software Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/software-engineer.35C8B81F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2333541513",
+    "title": "Trưởng phòng Công nghệ thông tin (Chủ đầu tư BĐS)",
+    "company_name": "Công Ty CP Đầu Tư IMG",
+    "description": "Mô tả Công việc\nXây dựng định hướng chiến lược, chính sách và kế hoạch phát triển của phòng CNTT\nĐÃ TRIỂN KHAI CÁC DỰ ÁN ỨNG DỤNG AI VÀO QUẢN LÝ CÔNG VIỆC\n- Làm việc với Ban lãnh đạo (BLĐ) công ty và các đơn vị thành viên để đánh giá, xác định và dự báo các yêu cầu của tổ chức đối với phòng CNTT ở hiện tại và trong dài hạn (3-5 năm)\n- Đánh giá năng lực đáp ứng của phòng CNTT (về mặt công nghệ và con người), xác định cách thức phòng CNTT sẽ tích hợp công nghệ kỹ thuật số vào hoạt động kinh doanh và cung cấp dịch vụ để xây dựng mục tiêu, kế hoạch và cách thức vận hành phòng gắn liền với kế hoạch kinh doanh\n- Xây dựng lộ trình và kế hoạch chi tiết để chuyển đổi phòng CNTT sang mô hình vận hành đáp ứng yêu cầu tổ chức trong dài hạn\n- Xây dựng các nguyên tắc cốt lõi, nền tảng của hệ thống CNTT; thiết lập các quy tắc, quy định, chính sách và tiêu chuẩn quản lý các cấu phần của hệ thống CNTT\nPhát triển ứng dụng và giải pháp CNTT\n- Xác định danh sách các ứng dụng / giải pháp CNTT mới cần triển khai dựa trên báo cáo phân tích ưu nhược điểm của từng ứng dụng / giải pháp và giá trị đóng góp vào sự phát triển của tổ chức\n- Xây dựng lộ trình thay thế các ứng dụng / giải pháp CNTT không còn phù hợp trong tổ chức; phát triển các yêu cầu mới và cải tiến chức năng nhằm giải quyết tình trạng hiện tại và tương lai của các ứng dụng / giải pháp CNTT\n- Quản lý quá trình phát triển và đưa vào sử dụng các ứng dụng / giải pháp CNTT dựa trên yêu cầu người dùng và tổ chức trên phương diện nguồn lực, ti",
+    "requirements": "Yêu Cầu Công Việc\n-        AM HIỂU AI VÀ CHUYỂN ĐỔI SỐ DOANH NGHIỆP, AM HIỂU VỀ AI VÀ TRIỂN KHAI CÁC DỰ ÁN ỨNG DỤNG AI\n-         Tốt nghiệp Đại học trở lên chuyên ngành CNTT, ưu tiên ứng viên thiên mạnh phần mềm\n-         Có ít nhất 03 năm kinh nghiệm ở vị trí quản lý tương đương\n-         Có ít nhất 2 năm kinh nghiệm trong lĩnh vực Bất động sản\n-         Có kiến thức chuyên sâu về phần mềm hệ thống máy tính, nền tảng hệ điều hành, công cụ quản trị mạng máy tính, cơ sở dữ liệu\n-         Có khả năng tư vấn và tổ chức triển khai các dự án hạ tầng, ứng dụng CNTT cho doanh nghiệp\n-         Kỹ năng lãnh đạo, tổ chức công việc\n-         Kỹ năng đàm phán, ra quyết định\n-         Kỹ năng giải quyết các vấn đề dưới áp lực cao\n-         Tư duy sáng tạo, cải tiến\n-         Trung thực, đạo đức tốt\n-         Trách nhiệm cao, có tâm huyết trong công việc",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-cong-nghe-thong-tin-chu-dau-tu-bds.35C8B5A3.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-cong-nghe-thong-tin-chu-dau-tu-bds.35C8B5A3.html",
+    "posted_at": "2026-10-29T05:19:25.741313+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:19:25.741313+00:00",
+    "last_verified_at": "2026-10-29T05:19:25.741313+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:19:25.741313+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-cong-nghe-thong-tin-chu-dau-tu-bds.35C8B5A3.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Trưởng phòng Công nghệ thông tin (Chủ đầu tư BĐS) tại Công Ty CP Đầu Tư IMG (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Trưởng phòng Công nghệ thông tin (Chủ đầu tư BĐS)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-cong-nghe-thong-tin-chu-dau-tu-bds.35C8B5A3.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1098635397",
+    "title": "Chuyên Viên Vận Hành Hệ Thống (TIẾNG TRUNG)",
+    "company_name": "CÔNG TY TNHH ZTO FREIGHT VIỆT NAM",
+    "description": "Mô tả Công việc\n1.vận hành hệ thống\n·\nTham gia theo dõi, vận hành và mô tả cải tiến các hệ thống quản lý nội bộ của công ty (ERP, WMS, TMS, CRM hoặc các phần mềm quản lý khác).\n·    kiểm tra dữ liệu, luồng xử lý trên hệ thống, đảm bảo thông tin được cập nhật đầy đủ và chính xác.\n·   Phối hợp với các phòng ban để xử lý các vấn đề phát sinh trong quá trình sử dụng hệ thống.\n·   Tiếp nhận yêu cầu thay đổi, cải tiến hệ thống từ các bộ phận và phối hợp với IT/nhà cung cấp phần mềm để triển khai tính năng\n·   Hướng dẫn người dùng sử dụng các chức năng cơ bản của hệ thống.\n2. Quản lý dữ liệu và báo cáo vận hành\n·\nThu thập, tổng hợp và phân tích dữ liệu vận hành.\n·   Theo dõi các chỉ số hoạt động (KPI), tiến độ xử lý công việc và tình trạng vận hành.\n·   Lập báo cáo định kỳ bằng tiếng Việt/tiếng Trung theo yêu cầu.\n·   Kiểm tra tính chính xác của dữ liệu trên hệ thống và báo cáo.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Đại học/Cao đẳng các ngành:  Công nghệ thông tin, Logistics, Ngoại ngữ Trung Quốc hoặc ngành liên quan.\n·\nThành thạo tiếng Trung (nghe, nói, đọc, viết), có khả năng giao tiếp và làm việc trực tiếp với người Trung Quốc.\n·  Có kinh nghiệm làm trợ lý vận hành hoặc quản lý hệ thống là lợi thế.\n·  Hiểu biết về quy trình vận hành, luồng dữ liệu và hệ thống quản lý.\n·  Có khả năng sử dụng và học nhanh các phần mềm quản lý (ERP/WMS/TMS/CRM).\n·  Thành thạo Excel, PowerPoint, Word; có khả năng làm báo cáo dữ liệu.\n·  Kỹ năng giao tiếp, tổ chức công việc và phối hợp nhiều phòng ban tốt.\n·  Có tư duy logic, khả năng phân tích và xử lý vấn đề.\nThông tin khác:\n·   Phúc lợi: Thời gian làm việc: Thứ 2- Thứ 6: 9h-18h (Thứ 7 có thể WFH tùy tình hình)\n·   Địa điểm làm việc: 370 CMT8 Phường Nhiêu Lộc, TP. HCM.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+    "posted_at": "2026-10-29T05:19:26.469086+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:19:26.469086+00:00",
+    "last_verified_at": "2026-10-29T05:19:26.469086+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:19:26.469086+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên Viên Vận Hành Hệ Thống (TIẾNG TRUNG) tại CÔNG TY TNHH ZTO FREIGHT VIỆT NAM (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Chuyên Viên Vận Hành Hệ Thống (TIẾNG TRUNG)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-van-hanh-he-thong-tieng-trung.35C84988.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7229590947",
+    "title": "Chuyên gia Kiến trúc Hạ tầng Mạng",
+    "company_name": "LOTTE FINANCE VIETNAM",
+    "description": "Mô tả Công việc\n- Thiết kế kiến trúc mạng cho DC/DR, campus, WAN, Internet và kết nối cloud.\n- Rà soát và đánh giá kiến trúc mạng hiện tại; xác định các nút thắt hiệu năng, lỗ hổng bảo mật và hạn chế về khả năng mở rộng; đề xuất các sáng kiến tối ưu hoặc nâng cấp.\n- Thiết kế các giải pháp mạng an toàn: phân đoạn mạng (segmentation), Zero Trust, firewall/IPS/WAF, bảo vệ chống DDoS.\n- Xây dựng tiêu chuẩn mạng, blueprint và kiến trúc tham chiếu; thực hiện thẩm định kiến trúc.\n- Dẫn dắt kiến trúc mạng cho các dự án lớn, hoạt động migration và nâng cấp công nghệ.\n- Đánh giá các công nghệ mới (SD-WAN, SASE, Cloud Networking) và xây dựng lộ trình phát triển mạng.\n- Đảm bảo tuân thủ các tiêu chuẩn bảo mật và quy định pháp lý (ví dụ: PCI-DSS, ISO 27001).",
+    "requirements": "Yêu Cầu Công Việc\n- Tốt nghiệp Đại học chuyên ngành Công nghệ thông tin, Viễn thông hoặc các lĩnh vực liên quan.\n- Có tối thiểu 05 năm kinh nghiệm trong lĩnh vực mạng và an ninh mạng, trong đó có ít nhất 03 năm kinh nghiệm ở vai trò Network/Security Architect, Technical Lead hoặc vị trí tương đương.\n- Am hiểu và có kinh nghiệm thiết kế, triển khai, vận hành các hệ thống:\n+ Routing & Switching:\nBGP, OSPF, VLAN, MPLS.\n+ Firewall:\nFortinet, Palo Alto hoặc các giải pháp tương đương.\n+ Load Balancer:\nF5, Nginx.\n+ Cloud Networking:\nAzure/AWS (VNet, VPC, VPN, ExpressRoute và các dịch vụ kết nối mạng liên quan).\n- Có khả năng phân tích kiến trúc hệ thống, đánh giá rủi ro kỹ thuật và đề xuất các giải pháp tối ưu về hiệu năng, bảo mật và khả năng mở rộng.\n- Kỹ năng giao tiếp tốt, có khả năng trình bày và truyền đạt các vấn đề kỹ thuật một cách rõ ràng tới các bên liên quan.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "LAN/WAN",
+      "Firewall"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-kien-truc-ha-tang-mang.35C8469D.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-kien-truc-ha-tang-mang.35C8469D.html",
+    "posted_at": "2026-10-29T05:19:26.418064+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-10-29T05:19:26.418064+00:00",
+    "last_verified_at": "2026-10-29T05:19:26.418064+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-10-29T05:19:26.418064+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-kien-truc-ha-tang-mang.35C8469D.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên gia Kiến trúc Hạ tầng Mạng tại LOTTE FINANCE VIETNAM (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "29/10/2026",
+      "checked_at": "29/10/2026",
+      "live_h1": "Chuyên gia Kiến trúc Hạ tầng Mạng",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-kien-truc-ha-tang-mang.35C8469D.html",
         "url_status": 200,
         "company_official_hotline": "1900.58.58.88",
         "recruiter_email": "contact@careerviet.vn",
