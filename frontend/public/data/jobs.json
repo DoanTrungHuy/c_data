@@ -64390,6 +64390,343 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7629305409",
+    "title": "DevSecOps Engineer - Khối Công nghệ thông tin (2025TD946)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nXây dựng và tối ưu hóa quy trình DevOps/DevSecOps, áp dụng nguyên tắc tự động hóa nhằm nâng cao hiệu quả triển khai ứng dụng công nghệ thông tin.\nTriển khai, vận hành và quản lý các giải pháp/công cụ CICD/IaC, công nghệ Containerization/Kubernetes như GitLab, Jenkins, Nexus, Docker, ISTIO, Ansible, Rancher, v.v.\nTriển khai (deploy), tối ưu hóa (optimizing), giám sát (monitoring), phân tích (analysis) sản phẩm.\nTham gia ngay từ giai đoạn phát triển sản phẩm, thiết kế các thành phần phi chức năng nhằm đảm bảo an ninh hệ thống và hỗ trợ trong quá trình vận hành, bao gồm:\n+ Thiết kế hệ thống tuân thủ các chính sách và quy định bảo mật.\n+ Chuẩn hóa logging, tracing và thông tin monitoring, sử dụng các công cụ như ELK, Prometheus, Grafana.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp đại học các chuyên ngành Công nghệ thông tin, Toán tin, Điện tử Viễn thông, hoặc lĩnh vực liên quan.\nVị trí mở với ứng viên fresher có mong muốn theo đuổi lĩnh vực DevOps, DevSecOps\nƯu tiên ứng viên có kinh nghiệm thực tế về DevOps hoặc DevSecOps tại công ty công nghệ hoặc tổ chức tài chính.\nCó kiến thức về  01 trong các hệ quản trị cơ sở dữ liệu: Oracle, SQL Server, PostgreSQL, MongoDB…\nƯu tiên ứng viên có kinh nghiệm xây dựng CI/CD Pipeline, sử dụng 01 trong số các công cụ sau: Jenkins, GitLab, Nexus, Harbor, Docker, Helm, Kubernetes, Prometheus, Grafana.\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\nVì sao Bạn nên đảm bảo đầy đủ thông tin khi ứng tuyển?\n- Hồ sơ của Bạn sẽ được đánh giá nhanh chóng.\n- Đối với các hồ sơ đáp ứng đầy đủ thông ti",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "SQL Database",
+      "Oracle DB",
+      "MongoDB"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/devsecops-engineer-khoi-cong-nghe-thong-tin-2025td946.35C8CFD2.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/devsecops-engineer-khoi-cong-nghe-thong-tin-2025td946.35C8CFD2.html",
+    "posted_at": "2026-11-04T09:47:21.836390+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-04T09:47:21.836390+00:00",
+    "last_verified_at": "2026-11-04T09:47:21.836390+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-04T09:47:21.836390+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/devsecops-engineer-khoi-cong-nghe-thong-tin-2025td946.35C8CFD2.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí DevSecOps Engineer - Khối Công nghệ thông tin (2025TD946) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "04/11/2026",
+      "checked_at": "04/11/2026",
+      "live_h1": "DevSecOps Engineer - Khối Công nghệ thông tin (2025TD946)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/devsecops-engineer-khoi-cong-nghe-thong-tin-2025td946.35C8CFD2.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1954296498",
+    "title": "DevOps Engineer - Khối Công nghệ thông tin (2025TD945)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\nXây dựng và tối ưu hóa quy trình DevOps hoặc DevSecOps, áp dụng nguyên tắc tự động hóa trong việc triển khai các ứng dụng công nghệ thông tin.\nTriển khai, vận hành quản trị các giải pháp hoặc công cụ tự động hóa CICD hoặc IaC, công nghệ Containerization hoặc Kubernetes. (Gitlab, Jenkins, Nexus, Docker, ISTIO, Ansible, Rancher, v.v)\nTham gia vào giai đoạn phát triển sản phẩm, thiết kế các thành phần phi chức năng đảm bảo an ninh và support trong quá trinh vận hành (thiết kế hệ thống theo các chính sách, quy định đảm bảo an ninh, chuẩn hóa logging, tracing và thông tin monitoring ELK, Prometheus, Grafana, v.v)\nPhụ trách deploy, optimizing, monitoring, analysis sản phẩm dịch vụ.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp các Trường Đại học các chuyên ngành đào tạo: Công nghệ thông tin, Toán tin, Điện tử Viễn thông...\nVị trí mở  với các bạn fresher có nguyện vọng theo đuổi lĩnh vực DevOps\nCó kiến thức nền tảng tốt về logic code, nắm được tiến trình của code\nƯu tiên các ứng viên có:\n+ Kinh nghiệm làm việc thực tế DevOps/DevSecOps tại các công ty công nghệ hoặc IT cho các tổ chức tài chính\n+ Kiến thức nền tảng tốt về 01 trong các loại database: Oracle, Sqlserver, PostgreSQL, Mongodb,…\n+ Có kinh nghiệm xây dựng CI/CD Pipeline, sử dụng 01 trong các công cụ công cụ Jenkins, Gitlab, Nexus, Harbor, Docker, Helm, Kubernetes, Prometheus, Grafana\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\nVì sao Bạn nên đảm bảo đầy đủ thông tin khi ứng tuyển?\n- Hồ sơ của Bạn sẽ được đá",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps",
+      "SQL Database",
+      "Oracle DB",
+      "MongoDB"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/devops-engineer-khoi-cong-nghe-thong-tin-2025td945.35C8CFCF.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/devops-engineer-khoi-cong-nghe-thong-tin-2025td945.35C8CFCF.html",
+    "posted_at": "2026-11-04T09:47:22.082823+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-04T09:47:22.082823+00:00",
+    "last_verified_at": "2026-11-04T09:47:22.082823+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-04T09:47:22.082823+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/devops-engineer-khoi-cong-nghe-thong-tin-2025td945.35C8CFCF.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí DevOps Engineer - Khối Công nghệ thông tin (2025TD945) tại Ngân Hàng TMCP Quân Đội (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "04/11/2026",
+      "checked_at": "04/11/2026",
+      "live_h1": "DevOps Engineer - Khối Công nghệ thông tin (2025TD945)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/devops-engineer-khoi-cong-nghe-thong-tin-2025td945.35C8CFCF.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2923234005",
+    "title": "Chuyên viên Tích hợp nền tảng dữ liệu",
+    "company_name": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK)",
+    "description": "Mô tả Công việc\nĐể đảm bảo hồ sơ được tiếp nhận xử lý, ứng viên cần nộp hồ sơ ứng tuyển trên website tuyển dụng chính thức của Vietcombank tại địa chỉ:\ntuyendung.vietcombank.com.vn\n[THNTDL]_Chuyên viên Tích hợp nền tảng dữ liệu\nSố lượng tuyển dung: 02\nThời gian nhận hồ sơ: Hết ngày16/11/2026\nNơi làm việc: Phòng Tích hợp nền tảng dữ liệu - Trụ sở chính VCB\nI. Mô tả công việc:\n1. Khai thác và phát triển hệ thống tích hợp dữ liệu và báo cáo\n- Thiết kế và xây dựng các hệ thống tích hợp, khai thác dữ liệu từ các hệ thống gốc đến kho dữ liệu, nền tảng dữ liệu, nhà máy dữ liệu và ngược lại.\n- Xây dựng và quản lý các mô hình dữ liệu của các hệ thống ứng dụng/báo cáo đã được đưa vào vận hành.\n-  Phát triển và triển khai các hệ thống tích hợp dữ liệu và ứng dụng khai thác dữ liệu.\n-  Thực hiện hỗ trợ kỹ thuật, xử lý sự cố liên quan đến các hệ thống tích hợp dữ liệu.\n2. Phối hợp xây dựng và đảm bảo tính liên tục của hệ thống tích hợp\n-  Phối hợp với các bộ phận liên quan để xây dựng giải pháp tích hợp dữ liệu phù hợp với yêu cầu nghiệp vụ.\n- Phối hợp để để phát triển giải pháp cung cấp dữ liệu dự phòng theo quy định, đảm bảo dữ liệu được cung cấp liên tục trong trường hợp nền tảng dữ liệu tập trung chính gặp sự cố.\n3. Thực hiện các nhiệm vụ khác do Lãnh đạo phòng giao.",
+    "requirements": "Yêu Cầu Công Việc\nII. Tiêu chuẩn:\n1. Trình độ:\n- Trình độ chuyên môn: Tốt nghiệp Đại học loại Khá trở lên chuyên ngành công nghệ thông tin, khoa học dữ liệu, khoa học máy tính, kỹ thuật máy tính, toán học, toán kinh tế, toán tin hoặc các chuyên ngành có liên quan đến CNTT tại các trường Đại học trong nước: Đại học Bách khoa Hà Nội/ TP. Hồ Chí Minh; Đại học Kinh tế quốc dân; Đại học Kinh tế TP. Hồ Chí Minh; Đại học Quốc Gia Hà Nội/TP. Hồ Chí Minh; Học viện Công nghệ Bưu chính viễn thông; Học viện Kỹ thuật mật mã; Học viện Kỹ thuật Quân sự; Học viện Ngân hàng; Đại học Giao thông vận tải; Đại học Khoa học tự nhiên trực thuộc khối Đại học Tổng hợp; Đại học Hà Nội; Đại học FPT; các Trường Đại học nước ngoài có uy tín.\n- Loại hình đào tạo: Đào tạo hệ chính quy tập trung dài hạn (không bao gồm đào tạo liên thông, văn bằng 2, tại chức, hoặc vừa học vừa làm; đào tạo Thạc sỹ chỉ là tiêu chí xem xét ưu tiên).\n- Trình độ ngoại ngữ:  Tiếng Anh trình độ B1 (hoặc tương đương) trở lên, sử dụng tốt tiế",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "AWS",
+      "Azure"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-tich-hop-nen-tang-du-lieu.35C8CB75.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-tich-hop-nen-tang-du-lieu.35C8CB75.html",
+    "posted_at": "2026-11-04T09:47:22.495651+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-04T09:47:22.495651+00:00",
+    "last_verified_at": "2026-11-04T09:47:22.495651+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-04T09:47:22.495651+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-tich-hop-nen-tang-du-lieu.35C8CB75.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên Tích hợp nền tảng dữ liệu tại NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK) (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "04/11/2026",
+      "checked_at": "04/11/2026",
+      "live_h1": "Chuyên viên Tích hợp nền tảng dữ liệu",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-tich-hop-nen-tang-du-lieu.35C8CB75.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
