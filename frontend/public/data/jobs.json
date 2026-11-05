@@ -64836,6 +64836,232 @@
     "is_active": true
   },
   {
+    "id": "cv_live_3470760712",
+    "title": "Full Stack Developer",
+    "company_name": "CÔNG TY CỔ PHẦN  CÔNG NGHỆ MỘT GIẢI PHÁP",
+    "description": "Mô tả Công việc\nMỤC TIÊU VỊ TRÍ\nFullstack Developer xây dựng và vận hành nền tảng dữ liệu địa không gian (GEO DB) cùng Map Server & API Server – nền móng dùng chung cho các ứng dụng của Công ty và hướng phát triển AI: từ thiết kế API, cơ sở dữ liệu không gian đến giao diện web hiển thị bản đồ, triển khai và giám sát hệ thống.\nSở hữu tính năng từ đầu đến cuối: nhận yêu cầu từ BA/PO, thiết kế, lập trình, viết test, triển khai, theo dõi sau phát hành; tự kiểm chứng kết quả bằng dữ liệu; giữ nguyên tắc và bảo mật trong toàn bộ quá trình làm việc.\nSản phẩm đang phát triển: nền tảng dữ liệu bản đồ & vị trí (tra cứu địa điểm, lô đất, tìm kiếm quanh vị trí, geocoding, chỉ đường) với dữ liệu ban đầu tại Hà Nội & TP. HCM; bộ API cho ứng dụng tiêu dùng hộ gia đình, nền tảng B2B bán lẻ – phân phối và các ứng dụng AI khai thác nền dữ liệu này.\nMÔ TẢ CÔNG VIỆC\n(i) Backend và API\nThiết kế, phát triển REST API (JSON/GeoJSON) cho các nghiệp vụ: geocoding, tìm kiếm địa điểm/POI quanh vị trí, chi tiết địa điểm, chỉ đường, quản lý cơ sở kinh doanh, sản phẩm, đơn hàng; viết tài liệu API (Open API/Swagger).\nXây dựng xác thực, phân quyền nhiều bên, API key, giới hạn tần suất gọi, logging; tối ưu hiệu năng truy vấn, cache, xử lý tải lớn.\nTích hợp hệ thống bên thứ ba: cổng thanh toán, SMS/ZNS, ERP, API sàn TMĐT, bản đồ ngoài khi cần.\n(ii) Cơ sở dữ liệu và dữ liệu không gian\nThiết kế schema PostgreSQL/PostGIS; viết truy vấn không gian (ST_Contains, ST_Intersects, ST_Distance…), đánh index không gian (",
+    "requirements": "Yêu Cầu Công Việc\nHọc vấn và kinh nghiệm:\nTốt nghiệp Đại học ngành CNTT, Khoa học máy tính, Kỹ thuật phần mềm, Hệ thống thông tin hoặc liên quan,\nÍt nhất 2 năm kinh nghiệm lập trình Fullstack (hoặc Backend có làm Frontend); đã tham gia ít nhất 1 sản phẩm đã ra mắt và có người dùng thật.\nChuyên môn (bắt buộc – có kiểm tra trong bài test):\nBackend: thành thạo ít nhất một trong Node.js (NestJS/Express) hoặc Python (Django/FastAPI); thiết kế REST API, xác thực JWT/OAuth2, xử lý lỗi, logging\nCơ sở dữ liệu: PostgreSQL vững (JOIN, index, tối ưu truy vấn, transaction); đã dùng hoặc sẵn sàng học nhanh PostGIS và dữ liệu không gian\nFrontend: JavaScript/TypeScript, HTML/CSS; React hoặc Vue; gọi API, quản lý state; từng làm việc với thư viện bản đồ (Leaflet, MapLibre/Mapbox GL hoặc Google Maps JS)\nDevOps cơ bản: Git, Docker, Linux, Nginx, CI/CD cơ bản; đọc log và tự xử lý sự cố ở mức ứng dụng\nNgôn ngữ và tài liệu: đọc hiểu tài liệu kỹ thuật, API docs bằng tiếng Anh; viết tài liệu kỹ thuật rõ ràng ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "React",
+      "Vue.js",
+      "Node.js",
+      "Docker",
+      "AWS"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8D0B5.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8D0B5.html",
+    "posted_at": "2026-11-05T10:25:55.091768+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-05T10:25:55.091768+00:00",
+    "last_verified_at": "2026-11-05T10:25:55.091768+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-05T10:25:55.091768+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8D0B5.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Full Stack Developer tại CÔNG TY CỔ PHẦN  CÔNG NGHỆ MỘT GIẢI PHÁP (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "05/11/2026",
+      "checked_at": "05/11/2026",
+      "live_h1": "Full Stack Developer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8D0B5.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7052350743",
+    "title": "Chuyên viên Cao cấp DevOps",
+    "company_name": "LOTTE FINANCE VIETNAM",
+    "description": "Mô tả Công việc\n1. Quản lý, vận hành, thiết kế và nâng cấp các nền tảng Container như OpenShift, EKS, K8S, Docker nhằm đảm bảo hệ thống hoạt động ổn định và hiệu quả.\n2. Quản lý và tối ưu hệ thống CI/CD pipelines sử dụng GitLab, Jenkins, ArgoCD, Vault, Helm.\n3. Hỗ trợ triển khai, cấu hình và giám sát các môi trường Container bao gồm Dev/SIT/UAT/PROD.\n4. Thiết kế và duy trì mô hình kết nối ứng dụng chạy trên nền tảng Container, đảm bảo tính sẵn sàng, bảo mật và khả năng mở rộng.\n5. Phối hợp với nhóm AppOps để mở rộng việc áp dụng quy trình CI/CD cho các hệ thống truyền thống (VM), bao gồm triển khai và rollback.\n6. Quản lý và vận hành các công cụ giám sát hệ thống như Prometheus, Grafana, Thanos, APM, Splunk nhằm phát hiện và xử lý sự cố kịp thời.\n7. Phối hợp chặt chẽ với AppOps, ITS và DevTeam trong việc xử lý các sự cố kỹ thuật, cập nhật bản vá và tối ưu hiệu năng hệ thống.\n8. Quản lý và vận hành hệ thống AWS, đảm bảo hạ tầng cloud hoạt động ổn định, an toàn và có tính mở rộng.\n9. Đề xuất và triển khai các giải pháp tự động hóa nhằm nâng cao hiệu quả công việc, giảm thiểu sai sót và rút ngắn thời gian triển khai.\n10. Tham gia xây dựng và cập nhật tài liệu vận hành, hướng dẫn kỹ thuật liên quan đến hạ tầng DevOps.\n11. Các nhiệm vụ khác: Theo phân công của Cán bộ quản lý",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ: Tốt nghiệp đại học trở lên chuyên ngành Công nghệ Thông tin, Khoa học Máy tính hoặc các ngành liên quan.\n2. Kinh nghiệm:\n- Tối thiểu 03 năm với vị trí DevOps Engineer\n-  Am hiểu quy trình triển khai luồng CI/CD\n- Có kinh nghiệm làm việc tại các tổ chức ngân hàng, tài chính là một lợi thế\n3. Kỹ năng và năng lực chuyên môn:\n- Có kiến thức về K8S / CICD / AWS (Basic) / LINUX\n- Có khả năng làm việc độc lập, cẩn thận\n- Có kiến thức về MongoDB là một lợi thế\n- Có kiến thức về bảo mật trong quy trình phát triển và triển khai ứng dụng là một lợi thế\n- Có kiến thức triển khai dịch vụ trên Multiple-Cluster K8S (DC-DR) là một lợi thế.\n- Có kiến thức về luồng Build Mobile App (Android / iOS) là một lợi thế",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD DevOps",
+      "Linux",
+      "MongoDB"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-devops.35C8D0F9.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-devops.35C8D0F9.html",
+    "posted_at": "2026-11-05T10:26:04.457407+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-05T10:26:04.457407+00:00",
+    "last_verified_at": "2026-11-05T10:26:04.457407+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-05T10:26:04.457407+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-devops.35C8D0F9.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên Cao cấp DevOps tại LOTTE FINANCE VIETNAM (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "05/11/2026",
+      "checked_at": "05/11/2026",
+      "live_h1": "Chuyên viên Cao cấp DevOps",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-devops.35C8D0F9.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
