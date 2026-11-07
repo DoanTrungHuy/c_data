@@ -65282,6 +65282,224 @@
     "is_active": true
   },
   {
+    "id": "cv_live_1987764769",
+    "title": "Nhân viên/Chuyên viên ERP (Kỹ thuật)",
+    "company_name": "Công ty Cổ phần Tập đoàn Hoa Sen",
+    "description": "Mô tả Công việc\nPhân tích, lập trình, tối ưu hóa các chức năng Báo cáo, Form, Java Mobile Apps theo yêu cầu nghiệp vụ trên hệ thống ERP - Oracle EBS;\nTham gia phát triển, triển khai và tối ưu hóa các sản phẩm, giải pháp phần mềm đáp ứng yêu cầu nghiệp vụ các đơn vị;\nHỗ trợ vận hành, giám sát hệ thống và xử lý sự cố kỹ thuật (đặc biệt các sự cố về máy chủ Oracle và Oracle Database);\nHỗ trợ cài đặt, cấu hình phần mềm Oracle EBS, BI Publisher, OBIEE, ORDS/APEX;\nTích hợp hệ thống với API, dịch vụ bên ngoài, cơ sở dữ liệu hoặc hệ thống nội bộ;\nKiểm tra giám sát và báo cáo hệ thống hằng ngày/định kỳ, ...\nNghiên cứu, áp dụng công nghệ mới (microservices, cloud, AI/ML, big data…) để cải tiến sản phẩm;\nHỗ trợ standby and golive theo dự án. Và các yêu cầu hỗ trợ khác có liên quan đến sản phẩm Oracle;\nThực hiện các công việc khác theo sự phân công của cấp trên.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp Đại học chuyên ngành Công nghệ thông tin, Hệ thống thông tin, Kỹ thuật phần mềm, Quản trị dữ liệu,... hoặc các chuyên ngành có liên quan;\nCó từ 01 - 03 năm kinh nghiệm làm việc ở vị trí tương đương, hoặc sẵn sàng đào tạo các sinh viên mới ra trường;\nỨng viên có chứng chỉ, kinh nghiệm về Oracle là một lợi thế;\nSử dụng thành thạo các ứng dụng: MS Office (Office 365), MS Project;\nTiếng anh: đọc hiểu tài liệu tiếng anh chuyên ngành;\nGiải quyết vấn đề nhanh, đảm bảo nguyên tắc bảo mật về số liệu;\nKhả năng làm việc độc lập và làm việc nhóm;\nTrung thực, cẩn thận, nhiệt tình với công việc, có tinh thần trách nhiệm, ham học hỏi.\nĐỊA ĐIỂM LÀM VIỆC\nVăn phòng Hoa Sen Home, 72 Nguyễn Cơ Thạch, Phường An Khánh, TP. Hồ Chí Minh.\nVăn phòng Đại diện, 183 Nguyễn Văn Trỗi, Phường Phú Nhuận, TP. Hồ Chí Minh\nThông tin liên hệ:\nPhòng Nhân sự Tập đoàn Hoa Sen\nĐịa chỉ: Số 183 Nguyễn Văn Trỗi, P. Phú Nhuận, TP. HCM\nHotline: 0332.116.161\nEmail:\nWebsite: hoasenjobs.com\nMọi thắc mắc Q",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Oracle DB",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-chuyen-vien-erp-ky-thuat.35C8D3E1.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-chuyen-vien-erp-ky-thuat.35C8D3E1.html",
+    "posted_at": "2026-11-07T23:54:43.580681+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-07T23:54:43.580681+00:00",
+    "last_verified_at": "2026-11-07T23:54:43.580681+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-07T23:54:43.580681+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-chuyen-vien-erp-ky-thuat.35C8D3E1.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân viên/Chuyên viên ERP (Kỹ thuật) tại Công ty Cổ phần Tập đoàn Hoa Sen (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "07/11/2026",
+      "checked_at": "07/11/2026",
+      "live_h1": "Nhân viên/Chuyên viên ERP (Kỹ thuật)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-chuyen-vien-erp-ky-thuat.35C8D3E1.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9364160930",
+    "title": "Postsale Network Engineer",
+    "company_name": "Công ty Cổ phần Đầu tư Kỹ thuật Số Việt (VDI)",
+    "description": "Mô tả Công việc\nPhối hợp triển khai các dự án cho khối khách hàng Telco Service Provider.\nNghiên cứu sản phẩm, giải pháp Mạng của các hãng như: Cisco, Juniper, Arista, Aruba, Extreme, H3C, Dell, …\nTiếp nhận thông tin để xử lý các sự cố nhanh chóng, kịp thời.\nHỗ trợ kỹ thuật trực tiếp cho các đội ngoài cũng như nội bộ về việc lắp đặt, sử dụng và bảo trì các thiết bị để đảm bảo sự hoạt động của hệ thống mạng theo đúng yêu cầu kỹ thuật.\nPhản hồi với đội giám sát hệ thống hoặc các đội ngoài về các thông tin liên quan đến mạng.\nPhối hợp các vendor, hãng để triển khai hoặc xử lý sự cố và tìm các root cause.\nPhân tích, viết tài liệu trình bày giải pháp cho khách hàng.\nCập nhật thông tin, phân tích các giải pháp, công nghệ, sản phẩm mới liên quan đến công việc được giao.\nChi tiết công việc sẽ trao đổi kỹ hơn khi phỏng vấn.",
+    "requirements": "Yêu Cầu Công Việc\n1. Kinh nghiệm:\nTừ 3 năm kinh nghiệm.\n2. Kiến thức chuyên môn:\nCó kiến thức chuyên sâu và làm chủ các công nghệ về Network: BGP, BGP EVPN, VxLAN, QoS, OSPF, IS-IS, MPLS, Unified MPLS, L2/L3VPN, SR, SRv6.\nCó hiểu biết sâu về các hệ thống của Network Service Provider.\nCó các chứng chỉ CCNP Service Provider, CCIE Service Provider,... là 1 lợi thế.\nƯu tiên có kinh nghiệm tư vấn hạ tầng Mạng cho các khách hàng khối Telco.\n3. Kỹ năng\nKỹ năng làm việc nhóm, làm việc độc lập\nKỹ năng thuyết trình, đào tạo.\nKỹ năng giải quyết vấn đề.\nKỹ năng viết tài liệu kỹ thuật\n4. Quyền lợi:\nMức lương upto 35M, có thể thỏa thuận cao hơn theo năng lực\nThưởng theo dự án, thưởng hiệu suất năm; thưởng Lễ/Tết/ghi nhận theo chính sách Công ty.\nReview lương định kỳ 1 năm/lần; lộ trình phát triển rõ ràng từ Junior → Senior → Lead theo năng lực và chứng chỉ.\nĐào tạo & chứng chỉ: Được tài trợ học & thi chứng chỉ theo lộ trình; tham gia các khóa nâng cao chuyên môn, kỹ năng\nĐược làm việc với dự án lớn,",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Cisco Networking"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/postsale-network-engineer.35C864B3.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/postsale-network-engineer.35C864B3.html",
+    "posted_at": "2026-11-07T23:54:44.121785+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-07T23:54:44.121785+00:00",
+    "last_verified_at": "2026-11-07T23:54:44.121785+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-07T23:54:44.121785+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/postsale-network-engineer.35C864B3.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Postsale Network Engineer tại Công ty Cổ phần Đầu tư Kỹ thuật Số Việt (VDI) (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "07/11/2026",
+      "checked_at": "07/11/2026",
+      "live_h1": "Postsale Network Engineer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/postsale-network-engineer.35C864B3.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
