@@ -1,0 +1,610 @@
+{
+  "generated_at": "2026-10-17T18:45:00+07:00",
+  "total_sources": 19,
+  "healthy_count": 6,
+  "degraded_count": 0,
+  "unhealthy_count": 0,
+  "unconfigured_count": 2,
+  "unknown_count": 11,
+  "total_discovered_jobs": 0,
+  "total_errors": 0,
+  "sources": [
+    {
+      "id": "careerviet",
+      "name": "Sàn tuyển dụng CareerViet (CareerBuilder VN)",
+      "category": "national_job_board",
+      "domain": "careerviet.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc",
+        "Quảng Ninh",
+        "Hà Nội",
+        "Hồ Chí Minh"
+      ],
+      "compliance_notes": "Tuân thủ giới hạn truy vấn, trích xuất chính xác liên kết gốc.",
+      "rate_limit": {
+        "requests_per_minute": 30,
+        "min_delay_seconds": 1.0
+      }
+    },
+    {
+      "id": "topcv",
+      "name": "Cổng thông tin tuyển dụng TopCV",
+      "category": "national_job_board",
+      "domain": "topcv.vn",
+      "access_method": "authorized_adapter",
+      "health_status": "unconfigured",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Chưa cấu hình API credentials hoặc access token cho môi trường này",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tuân thủ nghiêm ngặt điều khoản bản quyền TopCV. Không dùng scraper lách bảo vệ.",
+      "rate_limit": {
+        "requests_per_minute": 60,
+        "min_delay_seconds": 0.5
+      }
+    },
+    {
+      "id": "vietnamworks",
+      "name": "Cổng việc làm chuyên môn cao VietnamWorks",
+      "category": "national_job_board",
+      "domain": "vietnamworks.com",
+      "access_method": "authorized_adapter",
+      "health_status": "unconfigured",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Chưa cấu hình API credentials hoặc access token cho môi trường này",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Chỉ kích hoạt khi có hợp đồng đối tác chia sẻ dữ liệu hoặc API cấp phép.",
+      "rate_limit": {
+        "requests_per_minute": 60,
+        "min_delay_seconds": 0.5
+      }
+    },
+    {
+      "id": "itviec",
+      "name": "Cổng việc làm CNTT chuyên sâu ITviec",
+      "category": "specialized_local",
+      "domain": "itviec.com",
+      "access_method": "public_web",
+      "health_status": "healthy",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": null,
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Hà Nội",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tuân thủ rate limit máy chủ ITviec, không cào dữ liệu cá nhân.",
+      "rate_limit": {
+        "requests_per_minute": 20,
+        "min_delay_seconds": 2.0
+      }
+    },
+    {
+      "id": "linkedin_guest_api",
+      "name": "LinkedIn Public Guest Search (Không cần đăng nhập)",
+      "category": "social_public",
+      "domain": "linkedin.com",
+      "access_method": "public_web",
+      "health_status": "healthy",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": null,
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc",
+        "Quảng Ninh",
+        "Hà Nội"
+      ],
+      "compliance_notes": "Sử dụng endpoint khách công khai của LinkedIn, không vượt tường bảo vệ.",
+      "rate_limit": {
+        "requests_per_minute": 15,
+        "min_delay_seconds": 3.0
+      }
+    },
+    {
+      "id": "sun_group",
+      "name": "Tập đoàn Sun Group (Vùng Đông Bắc & Sun World)",
+      "category": "enterprise_direct",
+      "domain": "sungroup.com.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Đà Nẵng",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tuân thủ chính sách bảo mật của Sun Group, chỉ thu thập tin công khai.",
+      "rate_limit": {
+        "requests_per_minute": 20,
+        "min_delay_seconds": 2.0
+      }
+    },
+    {
+      "id": "vinpearl",
+      "name": "Vinpearl Resort & Khách sạn (Tập đoàn Vingroup)",
+      "category": "enterprise_direct",
+      "domain": "vinpearl.com",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Nha Trang",
+        "Phú Quốc",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tôn trọng robots.txt của vinpearl.com, không truy cập trang quản trị nội bộ.",
+      "rate_limit": {
+        "requests_per_minute": 20,
+        "min_delay_seconds": 2.0
+      }
+    },
+    {
+      "id": "fpt_telecom",
+      "name": "FPT Telecom & Khối Công nghệ FPT",
+      "category": "enterprise_direct",
+      "domain": "fpt.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Hà Nội",
+        "Hồ Chí Minh",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tôn trọng băng thông máy chủ FPT, không crawl dữ liệu ứng viên.",
+      "rate_limit": {
+        "requests_per_minute": 25,
+        "min_delay_seconds": 1.5
+      }
+    },
+    {
+      "id": "quang_ninh_job_center",
+      "name": "Trung tâm Dịch vụ Việc làm tỉnh Quảng Ninh",
+      "category": "specialized_local",
+      "domain": "quangninh.gov.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh"
+      ],
+      "compliance_notes": "Thu thập thông báo tuyển dụng chính thống của cơ quan quản lý lao động tỉnh.",
+      "rate_limit": {
+        "requests_per_minute": 15,
+        "min_delay_seconds": 3.0
+      }
+    },
+    {
+      "id": "viettel_group",
+      "name": "Tập đoàn Công nghiệp - Viễn thông Quân đội Viettel",
+      "category": "enterprise_direct",
+      "domain": "tuyendung.viettel.vn",
+      "access_method": "public_web",
+      "health_status": "healthy",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": null,
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Hà Nội",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tuân thủ chính sách robots.txt của tuyendung.viettel.vn.",
+      "rate_limit": {
+        "requests_per_minute": 20,
+        "min_delay_seconds": 2.0
+      }
+    },
+    {
+      "id": "jobsgo",
+      "name": "Sàn tuyển dụng JobsGO",
+      "category": "national_job_board",
+      "domain": "jobsgo.vn",
+      "access_method": "public_web",
+      "health_status": "healthy",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": null,
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Hà Nội",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tôn trọng robots.txt, chỉ thu thập tin công khai.",
+      "rate_limit": {
+        "requests_per_minute": 25,
+        "min_delay_seconds": 1.5
+      }
+    },
+    {
+      "id": "glints_vn",
+      "name": "Nền tảng việc làm trẻ Glints Vietnam",
+      "category": "national_job_board",
+      "domain": "glints.com",
+      "access_method": "public_web",
+      "health_status": "healthy",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": null,
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc",
+        "Quảng Ninh",
+        "Hà Nội"
+      ],
+      "compliance_notes": "Trích xuất chuẩn xác thông tin tuyển dụng mở.",
+      "rate_limit": {
+        "requests_per_minute": 25,
+        "min_delay_seconds": 1.5
+      }
+    },
+    {
+      "id": "ybox_fresher",
+      "name": "Kênh việc làm sinh viên & Fresher Ybox",
+      "category": "national_job_board",
+      "domain": "ybox.vn",
+      "access_method": "public_web",
+      "health_status": "healthy",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": null,
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc",
+        "Hà Nội",
+        "Quảng Ninh"
+      ],
+      "compliance_notes": "Phù hợp tối đa với bộ lọc Fresher/Junior/Intern của C_Data.",
+      "rate_limit": {
+        "requests_per_minute": 20,
+        "min_delay_seconds": 2.0
+      }
+    },
+    {
+      "id": "tkv_mining",
+      "name": "Tập đoàn Than - Khoáng sản Việt Nam (TKV Quảng Ninh)",
+      "category": "enterprise_direct",
+      "domain": "vinacomin.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Hà Nội"
+      ],
+      "compliance_notes": "Chỉ thu thập thông cáo báo chí và bản tin tuyển sinh/tuyển dụng công khai.",
+      "rate_limit": {
+        "requests_per_minute": 15,
+        "min_delay_seconds": 3.0
+      }
+    },
+    {
+      "id": "quang_ninh_industrial_zones",
+      "name": "Ban Quản lý Khu kinh tế & Khu công nghiệp Quảng Ninh",
+      "category": "specialized_local",
+      "domain": "bqlkkt.quangninh.gov.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh"
+      ],
+      "compliance_notes": "Dữ liệu cổng dịch vụ công địa phương.",
+      "rate_limit": {
+        "requests_per_minute": 10,
+        "min_delay_seconds": 4.0
+      }
+    },
+    {
+      "id": "government_national_labor_rss",
+      "name": "Cổng Thông tin Việc làm Quốc gia (Bộ LĐ-TB&XH Open RSS)",
+      "category": "authorized_api",
+      "domain": "vieclamvietnam.gov.vn",
+      "access_method": "rss",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Toàn quốc",
+        "Quảng Ninh"
+      ],
+      "compliance_notes": "Tuân thủ chuẩn RSS syndication mở, định kỳ nạp dữ liệu.",
+      "rate_limit": {
+        "requests_per_minute": 20,
+        "min_delay_seconds": 2.0
+      }
+    },
+    {
+      "id": "cict_cailan",
+      "name": "Công ty TNHH Cảng Container Quốc tế Cái Lân (CICT)",
+      "category": "enterprise_direct",
+      "domain": "cict.com.vn",
+      "access_method": "public_web",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Hải Phòng"
+      ],
+      "compliance_notes": "Trang tin tức tuyển dụng mở.",
+      "rate_limit": {
+        "requests_per_minute": 10,
+        "min_delay_seconds": 4.0
+      }
+    },
+    {
+      "id": "social_public_halong",
+      "name": "Kênh Thông báo Tuyển dụng Công khai Quảng Ninh (Mạng xã hội)",
+      "category": "social_public",
+      "domain": "facebook.com",
+      "access_method": "authorized_adapter",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh"
+      ],
+      "compliance_notes": "Vệ sinh toàn bộ URL (loại bỏ tham số theo dõi), không vi phạm quyền riêng tư tài khoản cá nhân.",
+      "rate_limit": {
+        "requests_per_minute": 15,
+        "min_delay_seconds": 3.0
+      }
+    },
+    {
+      "id": "threads_public",
+      "name": "Kênh Tuyển dụng Threads Meta (Tài khoản Sáng tạo & F&B)",
+      "category": "social_public",
+      "domain": "threads.net",
+      "access_method": "authorized_adapter",
+      "health_status": "unknown",
+      "health_evidence": "Đang sẵn sàng kết nối",
+      "last_health_check_at": "2026-10-17T18:30:00+07:00",
+      "last_successful_crawl": null,
+      "last_failed_crawl": null,
+      "last_error_message": null,
+      "failure_reason": "Nguồn công khai đang trong hàng đợi kích hoạt đợt quét định kỳ",
+      "metrics": {
+        "discovered_count": 0,
+        "new_count": 0,
+        "error_count": 0,
+        "total_runs": 0,
+        "last_crawl_duration_ms": 0.0
+      },
+      "is_enabled": true,
+      "target_provinces": [
+        "Quảng Ninh",
+        "Toàn quốc"
+      ],
+      "compliance_notes": "Tuân thủ điều khoản Threads API, loại bỏ tham số theo dõi URL.",
+      "rate_limit": {
+        "requests_per_minute": 15,
+        "min_delay_seconds": 3.0
+      }
+    }
+  ]
+}
