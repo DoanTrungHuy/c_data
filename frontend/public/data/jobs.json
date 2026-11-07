@@ -65062,6 +65062,116 @@
     "is_active": true
   },
   {
+    "id": "cv_live_6820385587",
+    "title": "DATA ANALYST (TABLEAU)",
+    "company_name": "HCI Group",
+    "description": "Mô tả Công việc\nTiếp nhận và phân tích yêu cầu báo cáo từ các phòng ban (Kinh doanh, Marketing, Vận hành, Tài chính, Nhân sự...) để xác định nhu cầu khai thác dữ liệu.\nThiết kế, xây dựng và phát triển Dashboard, Report trên\nTableau\nphục vụ theo dõi KPI, quản trị và hỗ trợ ra quyết định.\nViết và tối ưu câu lệnh\nSQL\nđể khai thác, xử lý, tổng hợp dữ liệu từ Data Warehouse, Data Lake hoặc các hệ thống nghiệp vụ.\nThực hiện kiểm tra, đối chiếu và xác thực dữ liệu nhằm đảm bảo tính chính xác, nhất quán và đầy đủ trước khi đưa lên Dashboard.\nPhân tích dữ liệu, phát hiện xu hướng, bất thường và đề xuất các insight giúp tối ưu hoạt động kinh doanh.\nPhối hợp với\nData Engineer\ntrong việc xây dựng nguồn dữ liệu, tối ưu hiệu năng truy vấn và xử lý các vấn đề liên quan đến dữ liệu.\nHỗ trợ người dùng trong quá trình sử dụng Dashboard; tiếp nhận phản hồi, chỉnh sửa và nâng cấp báo cáo theo nhu cầu thực tế.\nXây dựng tài liệu hướng dẫn, tài liệu mô tả Dashboard và quy trình khai thác dữ liệu khi cần.\nThực hiện các công việc khác theo phân công của Quản lý.",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu công việc\nTốt nghiệp Đại học chuyên ngành Công nghệ thông tin, Hệ thống thông tin, Khoa học dữ liệu, Toán tin hoặc các ngành liên quan.\nCó\ntừ 03 năm kinh nghiệm\nở vị trí Data Analyst hoặc BI Analyst.\nThành thạo\nSQL\n(JOIN, CTE, Window Function, Aggregate Function, tối ưu truy vấn...).\nThành thạo\nTableau\ntrong việc xây dựng Dashboard, biểu đồ và trực quan hóa dữ liệu.\nCó kiến thức về mô hình dữ liệu (Data Warehouse, Data Mart) là một lợi thế.\nCó khả năng phân tích số liệu, tư duy logic và giải quyết vấn đề tốt.\nChủ động trong công việc, có khả năng giao tiếp và làm việc với nhiều phòng ban.\nƯu tiên ứng viên đã từng làm việc với các hệ thống ERP, CRM, HIS hoặc các dự án dữ liệu doanh nghiệp.\nQuyền lợi\nThu nhập:\n20-25 triệu/tháng (thỏa thuận theo năng lực).\nTham gia đầy đủ\nBHXH, BHYT, BHTN\ntheo quy định của Nhà nước.\nThưởng lễ, Tết và các chế độ phúc lợi của Tập đoàn.\nĐược làm việc trong môi trường chuyên nghiệp, nhiều cơ hội học hỏi và phát triển về Data Analytic",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "HIS/PACS Y Tế",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/data-analyst-tableau.35C8D283.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/data-analyst-tableau.35C8D283.html",
+    "posted_at": "2026-11-07T03:10:14.993119+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-07T03:10:14.993119+00:00",
+    "last_verified_at": "2026-11-07T03:10:14.993119+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-07T03:10:14.993119+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/data-analyst-tableau.35C8D283.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí DATA ANALYST (TABLEAU) tại HCI Group (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "07/11/2026",
+      "checked_at": "07/11/2026",
+      "live_h1": "DATA ANALYST (TABLEAU)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/data-analyst-tableau.35C8D283.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
