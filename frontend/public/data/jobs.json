@@ -65172,6 +65172,116 @@
     "is_active": true
   },
   {
+    "id": "cv_live_4834608218",
+    "title": "Nhân Viên Tư Vấn Triển Khai Phần Mềm Website (Công Nghệ Thông Tin)",
+    "company_name": "CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM NASANI",
+    "description": "Mô tả Công việc\n- Tiếp nhận thông tin khách hàng\n- Tư vấn triển khai phần mềm Website cho khách hàng\n- Triển khai về bố cục, màu sắc, chức năng..Website\n- Lên ý tưởng, Demo Website cho khách hàng\n- Tương tác bộ phận kỹ thuật hỗ trợ giúp khách hàng có trang Website hoàn chỉnh\n- Kiểm tra Website trước khi bàn giao cho khách hàng\n- Hỗ trợ chăm sóc khách hàng\n- Các công việc khác theo sắp xếp của công ty",
+    "requirements": "Yêu Cầu Công Việc\n- Sẵn sàng đi làm\n- Vui vẻ, hòa đồng\n- Chịu khó học hỏi\n* Quyền lợi ứng viên:\n- Được hưởng đầy đủ chính sách của công ty\n- Được làm việc trong môi trường năng động\n- Được đào tạo khi vào làm việc\n- Cơ hội thăng tiến, phát triển\n- Được mở rộng kiến thức",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Hồ Chí Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-tu-van-trien-khai-phan-mem-website-cong-nghe-thong-tin.35C8CF08.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-tu-van-trien-khai-phan-mem-website-cong-nghe-thong-tin.35C8CF08.html",
+    "posted_at": "2026-11-07T16:29:02.905599+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-07T16:29:02.905599+00:00",
+    "last_verified_at": "2026-11-07T16:29:02.905599+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-07T16:29:02.905599+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-tu-van-trien-khai-phan-mem-website-cong-nghe-thong-tin.35C8CF08.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hồ Chí Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên Tư Vấn Triển Khai Phần Mềm Website (Công Nghệ Thông Tin) tại CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM NASANI (Hồ Chí Minh). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "07/11/2026",
+      "checked_at": "07/11/2026",
+      "live_h1": "Nhân Viên Tư Vấn Triển Khai Phần Mềm Website (Công Nghệ Thông Tin)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-tu-van-trien-khai-phan-mem-website-cong-nghe-thong-tin.35C8CF08.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hồ Chí Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
