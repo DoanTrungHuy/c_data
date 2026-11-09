@@ -65612,6 +65612,223 @@
     "is_active": true
   },
   {
+    "id": "cv_live_4535995069",
+    "title": "Quản trị Hệ thống & Hỗ trợ CNTT tại Hà Nội / IT Support & System Administrator",
+    "company_name": "Công ty TNHH Frontier Consulting Việt Nam",
+    "description": "Mô tả Công việc\nQuản lý thiết bị đầu cuối & Kitting (Vận hành MDM)\nThực hiện quy trình mua sắm, cài đặt ban đầu (kitting), bàn giao, theo dõi tài sản và thu hồi máy tính (Windows / Mac) cũng như thiết bị di động của công ty.\nThiết lập và áp dụng các chính sách bảo mật, quản lý hồ sơ cấu hình, kiểm soát cập nhật OS/phần mềm thông qua các công cụ MDM (Intune, Jamf, Kandji,...).\nQuản lý nhà cung cấp (Vendor Management) & Điều phối mua sắm\nLấy báo giá, đàm phán giá cả, theo dõi tiến độ giao hàng và hỗ trợ thủ tục hợp đồng khi mua sắm PC, thiết bị di động, thiết bị mạng,...\nLàm việc trực tiếp với các nhà mạng viễn thông (ISP), đơn vị bảo trì phần cứng, đại lý phần mềm SaaS (báo cáo và theo dõi sự cố đường truyền, điều chỉnh lịch giao hàng, làm rõ thông số kỹ thuật).\nQuản trị SaaS & Google Workspace (GWS)\nQuản trị Google Workspace Admin Console (cấp phát/hủy tài khoản, quản lý nhóm người dùng, phân quyền đơn vị tổ chức OU, cấu hình Shared Drive và thiết lập bảo mật).\nQuản lý quyền truy cập, thiết lập SSO và tối ưu hóa chi phí bản quyền (licenses) cho các công cụ SaaS nội bộ.\nQuản lý an toàn thông tin & Kiểm soát rủi ro\nThực thi nghiêm ngặt chính sách bảo mật IT nội bộ, kiểm soát quyền truy cập theo nguyên tắc đặc quyền tối thiểu (Least Privilege), quản lý chính sách mật khẩu.\nThực hiện quy trình thôi việc (offboarding) an toàn và triệt để (ngay lập tức vô hiệu hóa tài khoản, xóa dữ liệu thiết bị từ xa (remote wipe), sao lưu và bàn giao dữ liệu).\nHỗ trợ kỹ thuật & Xử lý sự cố (L1/L2",
+    "requirements": "Yêu Cầu Công Việc\nKinh nghiệm làm việc: Có từ 2 đến 5 năm kinh nghiệm thực tế ở vị trí IT Support, System Administrator hoặc Quản trị IT nội bộ.\nKỹ năng chuyên môn:\nCó kinh nghiệm thực tế trong việc cài đặt (kitting), quản lý tài sản máy tính Windows / Mac và vận hành công cụ MDM.\nCó kinh nghiệm thực tế trong việc quản trị Google Workspace (GWS) Admin Console.\nNắm vững kiến thức nền tảng và có kinh nghiệm thực thi an toàn thông tin nội bộ (quy trình offboarding, quản lý phân quyền, phòng chống rò rỉ dữ liệu).\nKhả năng tự chủ & Giải quyết vấn đề:\nTinh thần làm việc tự giác cao, chủ động nghiên cứu và tìm giải pháp xử lý công việc từ đầu đến cuối mà không cần hướng dẫn chi tiết từng bước.\nKỹ năng trao đổi, phối hợp và chia sẻ thông tin suôn sẻ với đội ngũ IT tại trụ sở Nhật Bản qua các công cụ trực tuyến (Google Chat, Google Meet, Zoom,...).\nTrình độ ngoại ngữ:\nTiếng Anh: Trình độ làm việc (Business level) trở lên (sử dụng thành thạo trong trao đổi qua tin nhắn, văn bản kỹ thuật và tự ti",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "WiFi Mesh",
+      "IT Support L1/L2"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/quan-tri-he-thong-ho-tro-cntt-tai-ha-noi-it-support-system-administrator.35C8D567.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/quan-tri-he-thong-ho-tro-cntt-tai-ha-noi-it-support-system-administrator.35C8D567.html",
+    "posted_at": "2026-11-09T17:33:41.174279+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-09T17:33:41.174279+00:00",
+    "last_verified_at": "2026-11-09T17:33:41.174279+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-09T17:33:41.174279+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/quan-tri-he-thong-ho-tro-cntt-tai-ha-noi-it-support-system-administrator.35C8D567.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Quản trị Hệ thống & Hỗ trợ CNTT tại Hà Nội / IT Support & System Administrator tại Công ty TNHH Frontier Consulting Việt Nam (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "09/11/2026",
+      "checked_at": "09/11/2026",
+      "live_h1": "Quản trị Hệ thống & Hỗ trợ CNTT tại Hà Nội / IT Support & System Administrator",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/quan-tri-he-thong-ho-tro-cntt-tai-ha-noi-it-support-system-administrator.35C8D567.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2656959085",
+    "title": "Chuyên viên Master Data",
+    "company_name": "HCI Group",
+    "description": "Mô tả Công việc\nQuản trị và đảm bảo tính chính xác, đầy đủ, nhất quán và toàn vẹn của Master Data trên toàn bộ hệ thống của Tập đoàn.\nXây dựng, duy trì và thực hiện các tiêu chuẩn, chính sách, quy trình quản trị dữ liệu.\nPhối hợp với các phòng ban nghiệp vụ và bộ phận CNTT để xác định yêu cầu, tiêu chuẩn và quy tắc quản lý dữ liệu.\nQuản lý các nhóm Master Data như:Sản phẩm/Dịch vụ (Product)\nKhách hàng (Customer)\nNhà cung cấp (Supplier)\nDữ liệu Tài chính – Kế toán (Financial Data)\nThực hiện Data Cleansing, chuẩn hóa và xử lý các vấn đề về chất lượng dữ liệu.\nPhát hiện, kiểm tra và xử lý dữ liệu trùng lặp (Duplicate Data), dữ liệu thiếu hoặc không hợp lệ.\nTheo dõi và đánh giá chất lượng dữ liệu theo các tiêu chí: Chính xác – Đầy đủ – Nhất quán – Kịp thời.\nPhối hợp với IT đảm bảo Master Data được tích hợp, đồng bộ và nhất quán giữa các hệ thống/nền tảng.\nHỗ trợ quy trình tạo mới, điều chỉnh, cập nhật và duy trì Master Data.\nPhân tích nguyên nhân các lỗi dữ liệu và đề xuất giải pháp cải thiện chất lượng dữ liệu.\nXây dựng báo cáo, theo dõi các chỉ số và tình trạng chất lượng Master Data.\nPhối hợp với các đơn vị nghiệp vụ để đào tạo, hướng dẫn người dùng về quy trình và nguyên tắc quản trị dữ liệu.\nTham gia cải tiến các công cụ, quy trình và mô hình Data Governance/Master Data Management của Tập đoàn.",
+    "requirements": "Yêu Cầu Công Việc\nTrình độ\nTốt nghiệp Đại học trở lên các chuyên ngành:\nQuản lý dữ liệu, Công nghệ thông tin, Hệ thống thông tin, Quản trị kinh doanh, Kinh tế\nhoặc các chuyên ngành liên quan.\nCó bằng Thạc sĩ là một lợi thế.\nKinh nghiệm\nCó tối thiểu\n03 năm kinh nghiệm\ntrong một hoặc nhiều lĩnh vực:\nMaster Data Management\nData Governance\nData Quality\nData Management\nƯu tiên ứng viên có kinh nghiệm trong\nlĩnh vực y tế, bệnh viện, dược phẩm hoặc chăm sóc sức khỏe\n.\nƯu tiên ứng viên đã từng làm việc với các hệ thống\nERP, CRM, HIS/EMR hoặc MDM\n.\nKiến thức & kỹ năng\nHiểu rõ các nguyên tắc, tiêu chuẩn và thực hành tốt về\nData Governance và Master Data Management\n.\nCó kinh nghiệm về\nData Cleansing, Data Quality và xử lý Duplicate Data\n.\nCó kiến thức về:\nData Integration\nData Modeling\nDatabase Management Systems\nData Reporting/BI Tools\nCó khả năng phân tích, kiểm tra và xử lý các vấn đề liên quan đến dữ liệu.\nCó khả năng làm việc với cả\nđơn vị nghiệp vụ và bộ phận CNTT\n.\nTư duy logic, cẩn thận, ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Hà Nội",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "HIS/PACS Y Tế"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-master-data.35C8D57F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-master-data.35C8D57F.html",
+    "posted_at": "2026-11-09T17:33:44.868747+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-09T17:33:44.868747+00:00",
+    "last_verified_at": "2026-11-09T17:33:44.868747+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-09T17:33:44.868747+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-master-data.35C8D57F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Hà Nội"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên Master Data tại HCI Group (Hà Nội). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "09/11/2026",
+      "checked_at": "09/11/2026",
+      "live_h1": "Chuyên viên Master Data",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-master-data.35C8D57F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Hà Nội"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
