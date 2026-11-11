@@ -66162,6 +66162,448 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7475007395",
+    "title": "Full-stack Developer",
+    "company_name": "Công ty Easia Travel",
+    "description": "Mô tả Công việc\nBuilding features on the hotel contract and availability engine: seasons, rates, allotments, promotions and cancel rules\nWriting and maintaining supplier connections (SOAP and REST) and the partner API\nBuilding screens in our React back office for DMCs and tour operators\nWriting functional tests for every change and every bug fix\nWatching production in Datadog and fixing what breaks, with the rest of the team\nReviewing merge requests, guiding design choices and keeping the code clean as the product grows\nProblems you'll work on:\nAI inside the platform. A key goal is to make Koob easier to use through AI. Our MCP server already lets AI agents search hotels, load contracts and book. Next come features such as RAG over our hotel and destination content, and assistants that help DMCs and tour operators get work done faster.\nFast availability across suppliers. Room searches fan out to several hotel suppliers and our own contracts. We keep them fast with a shared Redis cache and an Elasticsearch read model that must stay in sync with PostgreSQL.\nA pricing engine with real rules. Seasons, weekday rules, promotions, extra beds and cancel rules all combine into one price, rounded to 2 decimals and identical on every path.\nSupplier connections. SOAP and REST integrations where each supplier shapes its data a little differently. We clean and check it where it enters the system.\nA versioned partner API. Three live API versions that partners depend on.\nReliable background ",
+    "requirements": "Yêu Cầu Công Việc\nMust have:\nSoftware design skills: you shape data models, API contracts and module boundaries that still hold a year later\nUI/UX design skills: we have no dedicated designer, so you design clear, usable screens yourself, from a rough idea to a finished page\n5+ years building full stack web apps in production with TypeScript and Node.js or similar technologies\nStrong SQL\nHands-on React experience\nYou write tests without being asked\nGood written and spoken English: we work with international companies\nAble to work alone and ask for help early\nNice to have:\nExperience building LLM features: MCP servers, RAG, embeddings, prompt design and evaluation\nTravel industry experience (hotel contracts, bed banks, GDS, channel managers)\nNestJS, an ORM such as MikroORM or TypeORM\nElasticsearch knowledge\nGoogle Cloud, Terraform, Datadog",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "SQL Database",
+      "Redis",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8B3BB.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8B3BB.html",
+    "posted_at": "2026-11-11T16:19:18.125679+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-11T16:19:18.125679+00:00",
+    "last_verified_at": "2026-11-11T16:19:18.125679+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-11T16:19:18.125679+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8B3BB.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Full-stack Developer tại Công ty Easia Travel (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "11/11/2026",
+      "checked_at": "11/11/2026",
+      "live_h1": "Full-stack Developer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8B3BB.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9890162961",
+    "title": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên gia Kỹ thuật dữ liệu",
+    "company_name": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK)",
+    "description": "Mô tả Công việc\nĐể đảm bảo hồ sơ được tiếp nhận xử lý, ứng viên cần nộp hồ sơ ứng tuyển trên website tuyển dụng chính thức của Vietcombank tại địa chỉ:\ntuyendung.vietcombank.com.vn\n[HUB CÔNG NGHỆ TẠI HCM]_Chuyên gia Kỹ thuật dữ liệu\nSố lượng tuyển dung: 01\nĐịa điểm làm việc: TP Hồ Chí Minh\nThời gian nhận hồ sơ:\nHết ngày 24/11/2026\nNơi làm việc: Hub Công nghệ thuộc Trung tâm Kỹ thuật và khoa học dữ liệu, Trụ sở chính VCB\nLưu ý: Hub Công nghệ đồng thời tuyển dụng 02 vị trí Chuyên viên và 01 vị trí Chuyên gia. Ứng viên chỉ lựa chọn nộp hồ sơ DUY NHẤT 01 vị trí. Ứng viên vi phạm quy định sẽ bị xem xét hủy kết quả ứng tuyển.\nMô tả công việc:\n- Phụ trách thiết kế kiến trúc nền tảng dữ liệu đảm bảo phù hợp với mục tiêu kinh doanh của ngân hàng từng thời kỳ.\n- Thiết kế, xây dựng và kiểm thử nhằm đảm bảo khả năng mở rộng các luồng dữ liệu (data pipelines).\n- Nghiên cứu, đề xuất nhằm triển khai các thông lệ tốt nhất trong hoạt chuyển đổi, lưu trữ và xử lý dữ liệu.\n- Phối hợp với các bộ phận liên quan để đảm quản lý vận hành nền tảng dữ liệu, đảm bảo tuân thủ các tiêu chuẩn, quy định về quản trị dữ liệu, an toàn bảo mật dữ liệu.\n- Giám sát, khắc phục sự cố và tối ưu hóa hiệu suất và tính khả dụng của dữ liệu.\n- Phối hợp với các đơn vị trực thuộc Khối dữ liệu để xác định nhu cầu sử dụng dữ liệu (use case) và tư vấn giải pháp phù hợp nhằm đáp ứng nhu cầu của bộ phận nghiệp vụ.\n- Đề xuất và triển khai các kỹ thuật phù hợp đối với các nguồn dữ liệu khác nhau, bao gồm dữ liệu xử lý theo lô (",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ:\n- Trình độ chuyên môn: Tốt nghiệp Đại học trở lên, hệ đào tạo chính quy dài hạn thuộc các chuyên ngành: Khoa học dữ liệu, Khoa học máy tính, kỹ thuật dữ liệu, Toán, Toán tài chính, Toán kinh tế, Toán tin ứng dụng, Tài chính định lượng hoặc các chuyên ngành có liên quan khác thuộc các trường Đại học Quốc gia Hà Nội, Đại học Quốc gia TP HCM, trường Đại học Bách khoa Hà Nội, Đại học Bách khoa TP HCM, Đại học Kinh tế Quốc dân, Đại học Ngoại thương (cơ sở Hà Nội và cơ sở TP HCM), Học viện Tài chính, Học viện Ngân hàng, Học viện Bưu chính viễn thông, Học viện Kỹ thuật mật mã, Học viện Kỹ thuật quân sự và các trường Đại học có uy tín tại nước ngoài; hoặc là chuyên gia trong lĩnh vực kỹ thuật dữ liệu, khoa học dữ liệu, quản trị dữ liệu hoặc các chuyên ngành có liên quan\n(không nhận hồ sơ của thí sinh tốt nghiệp hệ liên kết, liên thông, văn bằng 2, tại chức, vừa học vừa làm)\n- Trình độ ngoại ngữ: Có khả năng giao tiếp và đọc hiểu tiếng Anh các tài liệu liên quan đ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-gia-ky-thuat-du-lieu.35C8D9A6.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-gia-ky-thuat-du-lieu.35C8D9A6.html",
+    "posted_at": "2026-11-11T16:19:19.402202+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-11T16:19:19.402202+00:00",
+    "last_verified_at": "2026-11-11T16:19:19.402202+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-11T16:19:19.402202+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-gia-ky-thuat-du-lieu.35C8D9A6.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [HUB CÔNG NGHỆ TẠI HCM]_Chuyên gia Kỹ thuật dữ liệu tại NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK) (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "11/11/2026",
+      "checked_at": "11/11/2026",
+      "live_h1": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên gia Kỹ thuật dữ liệu",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-gia-ky-thuat-du-lieu.35C8D9A6.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4575102543",
+    "title": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Kỹ thuật dữ liệu",
+    "company_name": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK)",
+    "description": "Mô tả Công việc\nĐể đảm bảo hồ sơ được tiếp nhận xử lý, ứng viên cần nộp hồ sơ ứng tuyển trên website tuyển dụng chính thức của Vietcombank tại địa chỉ:\ntuyendung.vietcombank.com.vn\n[HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Kỹ thuật dữ liệu\nSố lượng tuyển dung: 02\nĐịa điểm làm việc: TP Hồ Chí Minh\nThời gian nhận hồ sơ:\nHết ngày 24/11/2026\nNơi làm việc: Hub Công nghệ thuộc Trung tâm Kỹ thuật và khoa học dữ liệu, Trụ sở chính VCB\nLưu ý: Hub Công nghệ đồng thời tuyển dụng 02 vị trí Chuyên viên và 01 vị trí Chuyên gia. Ứng viên chỉ lựa chọn nộp hồ sơ DUY NHẤT 01 vị trí. Ứng viên vi phạm quy định sẽ bị xem xét hủy kết quả ứng tuyển.\nMô tả công việc:\n- Tham gia xây dựng sơ đồ thiết kế kiến trúc cho nền tảng dữ liệu.\n-  Phát triển, kiểm thử và duy trì các luồng dữ liệu (data pipelines) nhằm đảm bảo khả năng mở rộng của các luồng dữ liệu.\n- Triển khai các thông lệ tốt nhất trong hoạt  động chuyển đổi, lưu trữ và xử lý dữ liệu.\n- Phối hợp với các bộ phận liên quan để quản lý, vận hành nền tảng dữ liệu, đảm bảo tuân thủ các tiêu chuẩn, quy định về quản trị dữ liệu, an toàn bảo mật dữ liệu.\n- Giám sát, khắc phục sự cố và tối ưu hiệu suất và mức độ sẵn sàng của dữ liệu\n- Phối hợp với các bộ phận liên quan để xác định nhu cầu sử dụng dữ liệu (use case) và cung cấp giải pháp pháp phù hợp nhằm đáp ứng nhu cầu của bộ phận nghiệp vụ.\n- Xử lý theo lô (batch processing) và theo luồng (stream processing) với các công nghệ phù hợp.\n- Sử dụng nguyên tắc Agile để nghiên cứu, thiết kế và triển khai các giả",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ:\nTốt nghiệp Đại học loại Khá trở lên, hệ đào tạo chính quy dài hạn thuộc các chuyên ngành: Khoa học dữ liệu, Khoa học máy tính, kỹ thuật dữ liệu, Toán, Toán tài chính, Toán kinh tế, Toán tin ứng dụng, Tài chính định lượng hoặc các chuyên ngành có liên quan khác thuộc các trường Đại học Quốc gia Hà Nội, Đại học Quốc gia TP HCM, trường Đại học Bách khoa Hà Nội, Đại học Bách khoa TP HCM, Đại học Kinh tế Quốc dân, Đại học Ngoại thương (cơ sở Hà Nội và cơ sở TP HCM), Học viện Tài chính, Học viện Ngân hàng, Học viện Bưu chính viễn thông, Học viện Kỹ thuật mật mã, Học viện Kỹ thuật quân sự và các trường Đại học có uy tín tại nước ngoài.\n(không nhận hồ sơ của thí sinh tốt nghiệp hệ liên kết, liên thông, văn bằng 2, tại chức, vừa học vừa làm)\n- Trình độ ngoại ngữ: Có khả năng giao tiếp và đọc hiểu tiếng Anh các tài liệu liên quan đến công việc phụ trách.\n- Trình độ tin học: Thành thạo tin học văn phòng\nƯu tiên:\n- Ứng viên có trình độ thạc sĩ trở lên chuyên ngành Kh",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-ky-thuat-du-lieu.35C8D9A1.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-ky-thuat-du-lieu.35C8D9A1.html",
+    "posted_at": "2026-11-11T16:19:24.599882+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-11T16:19:24.599882+00:00",
+    "last_verified_at": "2026-11-11T16:19:24.599882+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-11T16:19:24.599882+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-ky-thuat-du-lieu.35C8D9A1.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Kỹ thuật dữ liệu tại NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK) (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "11/11/2026",
+      "checked_at": "11/11/2026",
+      "live_h1": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Kỹ thuật dữ liệu",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-ky-thuat-du-lieu.35C8D9A1.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8549705061",
+    "title": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Khoa học dữ liệu",
+    "company_name": "NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK)",
+    "description": "Mô tả Công việc\nĐể đảm bảo hồ sơ được tiếp nhận xử lý, ứng viên cần nộp hồ sơ ứng tuyển trên website tuyển dụng chính thức của Vietcombank tại địa chỉ:\ntuyendung.vietcombank.com.vn\n[HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Khoa học dữ liệu\nSố lượng tuyển dung: 02\nĐịa điểm làm việc: TP Hồ Chí Minh\nThời gian nhận hồ sơ:\nHết ngày 24/11/2026\nNơi làm việc: Hub Công nghệ thuộc Trung tâm Kỹ thuật và khoa học dữ liệu, Trụ sở chính VCB\nLưu ý: Hub Công nghệ đồng thời tuyển dụng 02 vị trí Chuyên viên và 01 vị trí Chuyên gia. Ứng viên chỉ lựa chọn nộp hồ sơ DUY NHẤT 01 vị trí. Ứng viên vi phạm quy định sẽ bị xem xét hủy kết quả ứng tuyển.\nMô tả công việc:\n- Dựa trên yêu cầu của bộ phận nghiệp vụ, thực hiện các phân tích hoặc xây dựng các mô hình học máy/trí tuệ nhân tạo cần thiết, hỗ trợ các sáng kiến kinh doanh.\n-  Hiểu ứng dụng của các mô hình, từ đó phối hợp với bộ phận nghiệp vụ để xác định cách thức triển khai hiệu quả.\n-  Thực hiện các CNNV khác của Phòng Khoa học dữ liệu theo quy định liên quan của pháp luật, quy định nội bộ của VCB.\n- Đề xuất nhu cầu đào tạo; phối hợp xây dựng và tham gia triển khai kế hoạch đào tạo.\n- Nhiệm vụ khác\na) Tham gia triển khai các dự án chuyển đổi, nâng cao năng lực của VCB\nb) Các công việc khác theo phân công của Lãnh đạo phòng/Trung tâm",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ:\n- Trình độ chuyên môn: Tốt nghiệp Đại học loại Khá trở lên, hệ đào tạo chính quy dài hạn thuộc các chuyên ngành: Khoa học dữ liệu, Toán học, Toán tin, Vật lý, Xác suất, Thống kê, Kinh tế, Tài chính ngân hàng hoặc các chuyên ngành có liên quan thuộc các trường Đại học Quốc gia Hà Nội, Đại học Quốc gia TP HCM, trường Đại học Bách khoa Hà Nội, Đại học Bách khoa TP HCM, Đại học Kinh tế Quốc dân, Đại học Ngoại thương (cơ sở Hà Nội và cơ sở TP HCM), Học viện Tài chính, Học viện Ngân hàng, Học viện Bưu chính viễn thông, Học viện Kỹ thuật mật mã, Học viện Kỹ thuật quân sự và các trường Đại học có uy tín tại nước ngoài.\n(Không nhận hồ sơ của thí sinh tốt nghiệp hệ liên kết, liên thông, văn bằng 2, tại chức, vừa học vừa làm)\n- Trình độ ngoại ngữ: Có khả năng giao tiếp và đọc hiểu tiếng Anh các tài liệu liên quan đến công việc phụ trách.\n- Trình độ tin học: Thành thạo tin học văn phòng\nƯu tiên:\n- Ứng viên đạt các giải thưởng tại các cuộc thi về Khoa học dữ liệu, xây",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-khoa-hoc-du-lieu.35C8D99F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-khoa-hoc-du-lieu.35C8D99F.html",
+    "posted_at": "2026-11-11T16:19:24.838122+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-11T16:19:24.838122+00:00",
+    "last_verified_at": "2026-11-11T16:19:24.838122+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-11T16:19:24.838122+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-khoa-hoc-du-lieu.35C8D99F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Khoa học dữ liệu tại NGÂN HÀNG TMCP NGOẠI THƯƠNG VIỆT NAM (VIETCOMBANK) (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "11/11/2026",
+      "checked_at": "11/11/2026",
+      "live_h1": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên viên Khoa học dữ liệu",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/hub-cong-nghe-tai-hcm-_chuyen-vien-khoa-hoc-du-lieu.35C8D99F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
