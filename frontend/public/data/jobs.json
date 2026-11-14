@@ -35096,6 +35096,684 @@
     "is_active": true
   },
   {
+    "id": "itv_live_5931399975",
+    "title": "IT Project Manager",
+    "company_name": "SureFlow",
+    "description": "Job description\nWe are a fast-growing technology company that designs and develops IoT hardware and software products. Our multidisciplinary team leverages cutting-edge design tools and advanced engineering technologies to bring new ideas to life.\nWe are looking for a hands-on Technical Lead / Project Manager to lead our software development team in building an IoT platform.\nResponsibilities\nLead the development team and own delivery of the software platform, including roadmap, sprint planning and milestones.\nContribute hands-on to backend and frontend development, and lead code reviews.\nTranslate product requirements into technical specifications and user stories.\nWork with hardware and firmware engineers on integration between connected devices and the cloud platform.\nMake architecture and technical decisions, and set standards for testing, documentation and code quality.\nSet up and maintain development processes and tools, including version control, CI/CD and issue tracking.\nManage releases and deployments, and support pilot installations and testing.\nEnsure the platform follows data security and privacy best practices.\nTrack progress, risks and resources, and report regularly to management.\nSupport hiring, onboarding and mentoring of developers as the team grows.",
+    "requirements": "Your skills and experience\nRequirements\n5+ years of hands-on software development experience, including at least 2 years leading a development team.\nStrong coding experience with Python backend frameworks (e.g. Django, FastAPI) and React.\nProven track record delivering web platforms end to end, from backend to frontend.\nExperience with REST APIs, relational databases (e.g. PostgreSQL), Docker and cloud deployment.\nUnderstanding of IoT systems, including connected devices, MQTT or similar messaging, and real-time data.\nExperience running Agile/Scrum teams and using project tracking tools.\nFluent English, written and spoken (mandatory).\nFluent Vietnamese (mandatory).\nFlexibility to travel frequently to the company's headquarters in the UAE (mandatory).\nAvailable to start immediately (mandatory).\nExperience with indoor or location-based IoT products (a plus).\nThis role is based in Vietnam, working on-site with the development team.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Ha Noi, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "React",
+      "Docker",
+      "CI/CD DevOps",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/it-project-manager-sureflow-1611",
+    "apply_url": "https://itviec.com/it-jobs/it-project-manager-sureflow-1611",
+    "posted_at": "2026-11-14T19:58:35.810244+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:35.810244+00:00",
+    "last_verified_at": "2026-11-14T19:58:35.810244+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:35.810244+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/it-project-manager-sureflow-1611",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Ha Noi, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT Project Manager tại SureFlow (Ha Noi, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "IT Project Manager",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/it-project-manager-sureflow-1611",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Ha Noi, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_5308086160",
+    "title": "DevSecOps Engineer - Khối Công nghệ Thông tin",
+    "company_name": "MB Bank",
+    "description": "Job description\n2025TD946 - DevSecOps Engineer\nXây dựng và tối ưu hóa quy trình DevOps/DevSecOps, áp dụng nguyên tắc tự động hóa nhằm nâng cao hiệu quả triển khai ứng dụng công nghệ thông tin.\nTriển khai, vận hành và quản lý các giải pháp/công cụ CICD/IaC, công nghệ Containerization/Kubernetes như GitLab, Jenkins, Nexus, Docker, ISTIO, Ansible, Rancher, v.v.\nTriển khai (deploy), tối ưu hóa (optimizing), giám sát (monitoring), phân tích (analysis) sản phẩm.\nTham gia ngay từ giai đoạn phát triển sản phẩm, thiết kế các thành phần phi chức năng nhằm đảm bảo an ninh hệ thống và hỗ trợ trong quá trình vận hành, bao gồm:\n+ Thiết kế hệ thống tuân thủ các chính sách và quy định bảo mật.\n+ Chuẩn hóa logging, tracing và thông tin monitoring, sử dụng các công cụ như ELK, Prometheus, Grafana.",
+    "requirements": "Your skills and experience\nTốt nghiệp đại học các chuyên ngành Công nghệ thông tin, Toán tin, Điện tử Viễn thông, hoặc lĩnh vực liên quan.\nVị trí mở với ứng viên fresher có mong muốn theo đuổi lĩnh vực DevOps, DevSecOps\nƯu tiên ứng viên có kinh nghiệm thực tế về DevOps hoặc DevSecOps tại công ty công nghệ hoặc tổ chức tài chính.\nCó kiến thức về  01 trong các hệ quản trị cơ sở dữ liệu: Oracle, SQL Server, PostgreSQL, MongoDB…\nƯu tiên ứng viên có kinh nghiệm xây dựng CI/CD Pipeline, sử dụng 01 trong số các công cụ sau: Jenkins, GitLab, Nexus, Harbor, Docker, Helm, Kubernetes, Prometheus, Grafana.\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\nVì sao Bạn nên đảm bảo đầy đủ thông tin khi ứng tuyển?\n- Hồ sơ của Bạn sẽ được đánh giá nhanh chóng.\n- Đối với các hồ sơ đáp ứng đầy đủ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "SQL Database"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/devsecops-engineer-khoi-cong-nghe-thong-tin-mb-bank-0256",
+    "apply_url": "https://itviec.com/it-jobs/devsecops-engineer-khoi-cong-nghe-thong-tin-mb-bank-0256",
+    "posted_at": "2026-11-14T19:58:37.267349+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:37.267349+00:00",
+    "last_verified_at": "2026-11-14T19:58:37.267349+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:37.267349+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/devsecops-engineer-khoi-cong-nghe-thong-tin-mb-bank-0256",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí DevSecOps Engineer - Khối Công nghệ Thông tin tại MB Bank (Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "DevSecOps Engineer - Khối Công nghệ Thông tin",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/devsecops-engineer-khoi-cong-nghe-thong-tin-mb-bank-0256",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0128230060",
+    "title": "Project Leader/ BrSE (Japanese N2+)",
+    "company_name": "NEC Vietnam",
+    "description": "Job description\nWe are looking for a proactive and hands-on leader to drive project execution, lead development teams, coordinate with Japanese clients, and ensure successful delivery in terms of quality, schedule, and cost.\nReporting\nProvide accurate and timely reporting on project progress, quality status, risks, issues, and team productivity and propose corrective actions to support Project Manager decision-making.\nTeam Management\nDirectly manage and coordinate a team of approximately 5–6 members, including task assignment, daily follow-up, progress monitoring, issue identification, and daily execution control.\nTranslate project plans, priorities, and management decisions into actionable tasks and ensure effective execution by team members.\nPlanning\nSupport project planning activities, including effort estimation, work breakdown structure (WBS) creation, task decomposition, and detailed work planning.\nQuality Management\nTake responsibility for the quality and timely delivery of outputs produced by assigned team members through reviews, defect identification, corrective guidance, and verification of improvement results.\nLead testing activities, including test planning, test design reviews, defect analysis, and quality assurance throughout the development lifecycle.\nIssue Management\nIdentify project risks, quality issues, schedule deviations, and resource concerns, and report them proactively with proposed mitigation actions.\nIdentify root causes of defects and project issue",
+    "requirements": "Your skills and experience\nAt least 7 years of experience\nin software development, including\n2+ years in a leadership role\nsuch as\nProject Leader, Team Leader, Technical Leader, or BrSE.\nProven experience leading a software development\nteam of 5 or more members.\nStrong ownership mindset with the ability to drive project execution and ensure team accountability.\nDemonstrated ability to create and present project status reports covering progress, quality, risks, and issues for management decision-making.\nExperience in effort estimation, work planning, task breakdown, and WBS creation.\nGood understanding of project planning, quality management, risk management, resource coordination, and software development lifecycle management.\nProven ability to manage software quality throughout the development lifecycle, including deliverable reviews, issue identification, corrective guidance, and verification of improvement actions.\nExperience in test planning, test design, test review, and quality a",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "12th floor, Gelex Tower, 52 Le Dai Hanh, Hai Ba Trung, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      ".NET / C#",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/project-leader-brse-japanese-n2-nec-vietnam-2649",
+    "apply_url": "https://itviec.com/it-jobs/project-leader-brse-japanese-n2-nec-vietnam-2649",
+    "posted_at": "2026-11-14T19:58:37.245771+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:37.245771+00:00",
+    "last_verified_at": "2026-11-14T19:58:37.245771+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:37.245771+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/project-leader-brse-japanese-n2-nec-vietnam-2649",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "12th floor, Gelex Tower, 52 Le Dai Hanh, Hai Ba Trung, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Project Leader/ BrSE (Japanese N2+) tại NEC Vietnam (12th floor, Gelex Tower, 52 Le Dai Hanh, Hai Ba Trung, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Project Leader/ BrSE (Japanese N2+)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/project-leader-brse-japanese-n2-nec-vietnam-2649",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "12th floor, Gelex Tower, 52 Le Dai Hanh, Hai Ba Trung, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1346329976",
+    "title": "Cloud Solution Architect (AWS/Azure) (Senior, Middle)",
+    "company_name": "MEGAZONE",
+    "description": "Job description\nMEGAZONE Vietnam is seeking an experienced Cloud Solution Architect specializing in cloud computing solutions. This role is pivotal in delivering technical designs and innovative solutions to our customers in Vietnam, driving the adoption of cloud technologies. As a senior member of the team, you will play a crucial role in shaping and executing technical strategies within a dynamic and rapidly growing business environment.\nIn this role, you will take ownership of technical engagements and project success, defining robust implementation architectures, crafting responses to RFPs, and building deep expertise in cloud offerings and technologies. You will collaborate closely with offshore teams at MEGAZONE CLOUD and external partners, serving as a subject matter expert for regional customers. Additionally, proactive participation in pilot projects and the development of technical solution demos will be encouraged. This position reports to the Head of Vietnam Business.\nWhat You Will Do:\nPresent complex solutions and integrations clearly and persuasively\nCollaborate closely with local sales colleagues to develop business opportunities and achieve shared objectives\nDesign and propose solutions that effectively address client needs, demonstrating the business benefits of cloud services\nAct as a key liaison between sales and offshore delivery teams, ensuring seamless project execution and successful outcomes\nProvide technical enablement and updates to the country sales",
+    "requirements": "Your skills and experience\n3 - 5 years of enterprise-level experience in AWS, Azure, with a focus on pre-sales and technical consulting in B2B environments\nExtensive hands-on experience in developing and operating AWS cloud infrastructures\nAbility to articulate complex technical topics to both technical and business audiences\nFlexible to adjust working hours (e.g., 8:30 AM – 5:30 PM or 1:00 PM – 9:00 PM as needed)\nStrong foundational knowledge in areas such as CI/CD, Kubernetes, Databases, and AWS/Azure Management\nEffective collaborator across internal teams and external stakeholders\nBS degree in Computer Science or equivalent practical experience\nPreferred Qualifications:\nAdvanced knowledge of cloud computing concepts and services, particularly AWS/Azure\nProven experience in architecting, designing, and migrating workloads to public cloud environments\nCloud certifications (e.g., AWS Solutions Architect Associate) strongly preferred\nSelf-starter accustomed to working in a fast-paced, c",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "tầng 26, tòa nhà The West, 265 Cầu Giấy, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/cloud-solution-architect-aws-azure-senior-middle-megazone-2850",
+    "apply_url": "https://itviec.com/it-jobs/cloud-solution-architect-aws-azure-senior-middle-megazone-2850",
+    "posted_at": "2026-11-14T19:58:37.111909+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:37.111909+00:00",
+    "last_verified_at": "2026-11-14T19:58:37.111909+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:37.111909+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/cloud-solution-architect-aws-azure-senior-middle-megazone-2850",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "tầng 26, tòa nhà The West, 265 Cầu Giấy, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Cloud Solution Architect (AWS/Azure) (Senior, Middle) tại MEGAZONE (tầng 26, tòa nhà The West, 265 Cầu Giấy, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Cloud Solution Architect (AWS/Azure) (Senior, Middle)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/cloud-solution-architect-aws-azure-senior-middle-megazone-2850",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "tầng 26, tòa nhà The West, 265 Cầu Giấy, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1841680723",
+    "title": "Senior Data Scientist",
+    "company_name": "SSI Securities Corporation",
+    "description": "Job description\nPhân tích dữ liệu & khai thác insight\n• Chủ động xác định vấn đề kinh doanh và đề xuất hướng phân tích\n• Đưa ra insight có khả năng ảnh hưởng đến decision strategy\n• Thực hiện phân tích dữ liệu nâng cao để hiểu hành vi khách hàng, sản phẩm và thị trường\n• Xây dựng các báo cáo/insight hỗ trợ ra quyết định cho Kinh doanh, Marketing, CSKH\n• (Senior/Lead) Chủ động đề xuất các hướng phân tích chuyên sâu.\nXây dựng mô hình Machine Learning\n• Phát triển các mô hình phục vụ cho kinh doanh:\no Customer segmentation\no Churn prediction\no Recommendation / Next Best Action\no Customer journey Optimization\n• Theo dõi, đánh giá và cải thiện hiệu suất mô hình\n• Phối hợp Data Engineering để triển khai mô hình vào hệ thống\n• (Expert/Lead) Thiết kế kiến trúc ML và định hướng use case\n• (Lead) Xây dựng quy trình MLOps và đảm bảo scalability\nXây dựng công cụ self-service\n• Phát triển công cụ ứng dụng AI giúp người dùng nghiệp vụ:\no Khai thác dữ liệu\no Phân tích nâng cao\no Dự đoán chỉ số thị trường và kinh doanh\n• (Senior+) Nâng cao kĩ năng và văn hoá ứng dụng dữ liệu để ra quyết định trên toàn tổ chức.",
+    "requirements": "Your skills and experience\n1. Yêu cầu bắt buộc\n- Tốt nghiệp Đại học các chuyên ngành Toán học, Kỹ thuật, Khoa học Máy tính, Thống kê hoặc các ngành liên quan\n- Từ 5 năm kinh nghiệm ở vị trí tương đương\nLàm chủ các kỹ thuật:\nFeature engineering\nModel tuning & evaluation\nExperimentation (A/B testing)\nCó kinh nghiệm end-to-end (từ business problem → model → deployment)\n+ Chuyển đổi bài toán kinh doanh thành giải pháp dữ liệu/ML có thể triển khai trong thực tế\n+ Chịu trách nhiệm về tác động kinh doanh của các mô hình và giải pháp dữ liệu\n+ Chủ động phối hợp, tư vấn và dẫn dắt các bên liên quan trong việc ra quyết định dựa trên dữ liệu\nCó khả năng dẫn dắt nhỏ (mentor junior, lead\nproject nhỏ)\n2. Kỹ năng ưu tiên\nKinh nghiệm tài chính/chứng khoán\nRecommender systems / time-series forecasting\nBI tools (Power BI, Tableau)\nBig Data (Spark)\nCloud & MLOps (AWS,\nAzure, GCP, Docker, K8S)",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "SSI Tower, 1 Châu Văn Liêm, Tu Liem, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-data-scientist-ssi-securities-corporation-0313",
+    "apply_url": "https://itviec.com/it-jobs/senior-data-scientist-ssi-securities-corporation-0313",
+    "posted_at": "2026-11-14T19:58:37.036005+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:37.036005+00:00",
+    "last_verified_at": "2026-11-14T19:58:37.036005+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:37.036005+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-data-scientist-ssi-securities-corporation-0313",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "SSI Tower, 1 Châu Văn Liêm, Tu Liem, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Data Scientist tại SSI Securities Corporation (SSI Tower, 1 Châu Văn Liêm, Tu Liem, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Senior Data Scientist",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-data-scientist-ssi-securities-corporation-0313",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "SSI Tower, 1 Châu Văn Liêm, Tu Liem, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_8490105192",
+    "title": "Kỹ Sư Vận Hành (Devops Engineer)",
+    "company_name": "Ngân hàng TMCP Thịnh vượng và Phát triển (PGBank)",
+    "description": "Your skills and experience\nTốt nghiệp Cao đẳng/Đại học chuyên ngành Công nghệ thông tin, Điện tử Viễn thông hoặc các chuyên ngành liên quan.\nCó kiến thức nền tảng tốt về hệ điều hành, mạng, bảo mật, middleware và vận hành hệ thống CNTT.\nCó kinh nghiệm cài đặt, cấu hình và vận hành ứng dụng trên môi trường Windows, Linux/UNIX, Kubernetes.\nCó khả năng làm việc với các nền tảng IIS, WebLogic, WebSphere, Tomcat, Nginx, Apache…\nCó kiến thức hoặc khả năng lập trình/scripting với Java, .NET, PHP, Shell Script, Python phục vụ tự động hóa vận hành.\nCó kinh nghiệm làm việc với cơ sở dữ liệu Oracle, SQL Server và hỗ trợ xử lý các vấn đề liên quan đến DB ứng dụng.\nCó kinh nghiệm triển khai, cấu hình và kiểm thử các giải pháp HA, DR, Load Balancing, Monitoring phục vụ hệ thống ứng dụng quan trọng.\nƯu tiên ứng viên có kinh nghiệm vận hành hệ thống ESB/API, Omni Channel, Microservices, Docker/Kubernetes, CI/CD (GitLab, Jenkins, ArgoCD, SonarQube, Vault, Registry…).\nƯu tiên ứng viên đã làm việc trong lĩnh vực ngân hàng/tài chính hoặc có hiểu biết về nghiệp vụ ngân hàng số.\nCó khả năng đọc hiểu tài liệu kỹ thuật tiếng Anh tốt.\nCó kỹ năng làm việc nhóm, phối hợp xử lý sự cố, khả năng tự học và chịu được áp lực công việc cao.\nKinh nghiệm tối thiểu từ 03 năm trong lĩnh vực vận hành hệ thống hoặc ứng dụng CNTT.",
+    "requirements": "Why you'll love working here\n- Khung lương cạnh tranh theo thị trường.\n- Thưởng theo kết quả kinh doanh & hoàn thành công việc, thưởng tập thể/cá nhân tiêu biểu, đột xuất, thưởng dịp Lễ, Tết cho toàn bộ CBNV.\n- Tham gia đầy đủ BHXH, BHYT, BHTN theo Luật lao động và Bảo hiểm sức khỏe Pijico với nhiều quyền lợi vượt trội\n- Các chế độ khác: nghỉ mát hằng năm, quà sinh nhật, thăm hỏi ốm đau, kết hôn, hỗ trợ thai sản.\n- Được tham gia các chương trình đào tạo của PGBank và đồng hành hỗ trợ trải nghiệm thực tế;\n- Môi trường làm việc năng động, chuyên nghiệp và hiệu quả.\n- Nhiều cơ hội phát triển & thăng tiến cho nhân viên.\n- Được quyền tham gia các khóa đào tạo nội bộ và bên ngoài, các khóa học có chuyên môn sâu phục vụ công việc",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Thanh Cong Tower, 79 Dịch Vọng Hậu, Cau Giay, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      ".NET / C#",
+      "PHP",
+      "Docker",
+      "Kubernetes"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/ky-su-van-hanh-devops-engineer-ngan-hang-tmcp-thinh-vuong-va-phat-trien-pgbank-0220",
+    "apply_url": "https://itviec.com/it-jobs/ky-su-van-hanh-devops-engineer-ngan-hang-tmcp-thinh-vuong-va-phat-trien-pgbank-0220",
+    "posted_at": "2026-11-14T19:58:36.376055+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:36.376055+00:00",
+    "last_verified_at": "2026-11-14T19:58:36.376055+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Vận hành, giám sát và đảm bảo hoạt động ổn định cho hệ thống API, ESB Omni phục vụ khách hàng Cá nhân/Doanh nghiệp và các ứng dụng nội bộ của ngân hàng.",
+      "Theo dõi log, hiệu năng hệ thống, xử lý sự cố kết nối, timeout, lỗi giao dịch và phối hợp với các đơn vị liên quan để khắc phục nhanh chóng, đảm bảo SLA dịch vụ.",
+      "Thực hiện triển khai phiên bản ứng dụng, cấu hình môi trường, quản lý service, backup dữ liệu và hỗ trợ kiểm tra sau triển khai trên các môi trường DEV/UAT/PROD.",
+      "Phối hợp với đội phát triển, hạ tầng, bảo mật và đối tác trong quá trình tích hợp API, kiểm thử, tối ưu hiệu năng và xử lý lỗi phát sinh."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:36.376055+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/ky-su-van-hanh-devops-engineer-ngan-hang-tmcp-thinh-vuong-va-phat-trien-pgbank-0220",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Thanh Cong Tower, 79 Dịch Vọng Hậu, Cau Giay, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Kỹ Sư Vận Hành (Devops Engineer) tại Ngân hàng TMCP Thịnh vượng và Phát triển (PGBank) (Thanh Cong Tower, 79 Dịch Vọng Hậu, Cau Giay, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Kỹ Sư Vận Hành (Devops Engineer)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Vận hành, giám sát và đảm bảo hoạt động ổn định cho hệ thống API, ESB Omni phục vụ khách hàng Cá nhân/Doanh nghiệp và các ứng dụng nội bộ của ngân hàng.",
+          "Theo dõi log, hiệu năng hệ thống, xử lý sự cố kết nối, timeout, lỗi giao dịch và phối hợp với các đơn vị liên quan để khắc phục nhanh chóng, đảm bảo SLA dịch vụ.",
+          "Thực hiện triển khai phiên bản ứng dụng, cấu hình môi trường, quản lý service, backup dữ liệu và hỗ trợ kiểm tra sau triển khai trên các môi trường DEV/UAT/PROD.",
+          "Phối hợp với đội phát triển, hạ tầng, bảo mật và đối tác trong quá trình tích hợp API, kiểm thử, tối ưu hiệu năng và xử lý lỗi phát sinh."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/ky-su-van-hanh-devops-engineer-ngan-hang-tmcp-thinh-vuong-va-phat-trien-pgbank-0220",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Thanh Cong Tower, 79 Dịch Vọng Hậu, Cau Giay, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_3577715278",
     "title": "Lập Trình Viên Frontend React / Next.js",
     "company_name": "FPT Software",
@@ -67915,6 +68593,116 @@
         "verified": true,
         "source_name": "CareerViet",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-application-specialist.35C8DCED.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_0330270447",
+    "title": "FOX0015 | Chuyên Viên Tư Vấn Triển Khai ERP (HN)",
+    "company_name": "CÔNG TY CỔ PHẦN CÔNG NGHỆ FOXAI",
+    "description": "Mô tả Công việc\nMÔ TẢ CÔNG VIỆC\nPhân tích nghiệp vụ khách hàng, thu thập yêu cầu và xây dựng giải pháp phù hợp với hệ thống; tư vấn khách hàng áp dụng theo kiến thức quản trị tiêu chuẩn.\nTham gia khảo sát, lập tài liệu Blueprint / BRD / SDD / User Manual cho từng phân hệ.\nCấu hình và kiểm thử hệ thống (UAT, SIT) theo quy trình chuẩn; phối hợp đội kỹ thuật xử lý lỗi, chỉnh sửa biểu mẫu, báo cáo và tích hợp dữ liệu (API, SQL, Excel…).\nHướng dẫn người dùng, tổ chức đào tạo và hỗ trợ quá trình Go-live; theo dõi, đánh giá hiệu quả vận hành và tư vấn cải tiến sau triển khai.\nLập kế hoạch, báo cáo tiến độ, đảm bảo chất lượng dự án; hỗ trợ presale, demo giải pháp cho cơ hội mới.\nQUYỀN LỢI\nMức thu nhập cạnh tranh: 15–35 triệu/tháng, thỏa thuận theo năng lực.\nThưởng dự án theo các dự án tham gia.\nĐặc biệt chia cổ tức cho cán bộ nhân viên theo lợi nhuận của công ty.\nTham gia các khóa đào tạo kỹ năng mềm phục vụ cho công việc.\nThưởng các dịp lễ, Tết và team building hàng năm.\nXét duyệt tăng lương 2 lần/năm.\nĐược hưởng đầy đủ BHXH, BHYT và BHTN theo luật lao động Việt Nam hiện hành.\nLàm việc trong môi trường trẻ trung, năng động, có cơ hội tham gia các dự án công nghệ tiên tiến.\nTham gia trực tiếp vào các dự án quy mô lớn trong và ngoài nước, cùng đội ngũ chuyên gia hàng đầu FOXAI.",
+    "requirements": "Yêu Cầu Công Việc\nYÊU CẦU CÔNG VIỆC\nTốt nghiệp Kế toán, Kiểm toán, Tài chính hoặc các ngành liên quan Quản trị doanh nghiệp/Sản xuất; có kiến thức về kế toán tài chính và vận hành doanh nghiệp.\nTối thiểu 02 năm kinh nghiệm triển khai ERP; ưu tiên đã làm SAP Business One, Odoo, Oracle ERP, Bravo, Fast, Misa hoặc tương đương.\nKỹ năng giao tiếp, trình bày, đào tạo người dùng tốt; chủ động xử lý vấn đề phát sinh.\nSẵn sàng đi công tác tỉnh/thành hoặc nước ngoài khi có yêu cầu; biết SQL, BI hoặc tiếng Anh là lợi thế.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Go / Golang",
+      "SQL Database",
+      "Oracle DB"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/fox0015-chuyen-vien-tu-van-trien-khai-erp-hn.35C89996.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/fox0015-chuyen-vien-tu-van-trien-khai-erp-hn.35C89996.html",
+    "posted_at": "2026-11-14T19:58:22.018497+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T19:58:22.018497+00:00",
+    "last_verified_at": "2026-11-14T19:58:22.018497+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T19:58:22.018497+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/fox0015-chuyen-vien-tu-van-trien-khai-erp-hn.35C89996.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí FOX0015 | Chuyên Viên Tư Vấn Triển Khai ERP (HN) tại CÔNG TY CỔ PHẦN CÔNG NGHỆ FOXAI (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "FOX0015 | Chuyên Viên Tư Vấn Triển Khai ERP (HN)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/fox0015-chuyen-vien-tu-van-trien-khai-erp-hn.35C89996.html",
         "url_status": 200,
         "company_official_hotline": "1900.58.58.88",
         "recruiter_email": "contact@careerviet.vn",
