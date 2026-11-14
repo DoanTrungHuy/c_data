@@ -67266,6 +67266,224 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7980780734",
+    "title": "Cloud Engineer (Storage)",
+    "company_name": "Công ty TNHH Viettel - CHT",
+    "description": "Mô tả Công việc\nGia nhập đội ngũ tiên phong dẫn dắt sự thay đổi cùng Viettel IDC\nHơn cả một công việc, Viettel IDC mang đến cho bạn cơ hội phụng sự, kiến tạo và dẫn dắt hạ tầng chuyển đổi số quốc gia.\nCác nhiệm vụ chính:\nTham gia nghiên cứu các giải pháp công nghệ, thiết kế, triển khai hệ thống cho các sản phẩm, nhóm dịch vụ liên quan đến mảng Storage.\nXây dựng các tài liệu Datasheet; Quy trình vận hành hệ thống Cloud Storage; Hướng dẫn quản trị, vận hành hệ thống, đào tạo cho đội ngũ hỗ trợ Kỹ thuật và Quản trị hệ thống. Hỗ trợ kỹ thuật dịch vụ lớp 3 cho Khách hàng và xử lý sự cố mức CORE của giải pháp.\nTham gia hỗ trợ tư vấn giải pháp và triển khai các dự án cho Khách hàng khi cần;\nỨng dụng các công cụ, giải pháp mã nguồn mở phổ biến trên thế giới hiện nay: Ceph, OpenStack, Read hat Virtualization, Container (Docker, Kubernetes) phục vụ quá trình nghiên cứu phát triển và triển khai đóng gói sản phẩm",
+    "requirements": "Yêu Cầu Công Việc\nI. Yêu cầu:\nTốt nghiệp Đại học chuyên ngành Công nghệ Thông tin (CNTT), Khoa học Máy tính (KHMT), Điện tử Viễn thông (ĐTVT) hoặc tương đương;\nCó kiến thức và hiểu biết về một trong các các hệ thống lưu trữ dữ liệu dạng\nObject Storage\nnhư\nCeph\n, Swift, Elastic Cloud Storage, Storage Grid WebScale, Hyper Store, …;\nCó hiểu biết về một trong các nền tảng ảo hóa như OpenStack, Red hat, KVM, Vmarre,...\nĐam mê nghiên cứu phát triển công nghệ mới, Ham học hỏi, tìm tòi khám phá và là chủ công nghệ mới.\nƯu tiên nếu:\nĐã có kinh nghiệm 2 năm trở lên về triển khai, vận hành, quản trị hệ thống S3 Storage mã nguồn mở;\nCó kiến thức và hiểu biết sâu về nền tảng ảo hóa mã nguồn mở Openstack,Red hat;\nCó các chứng chỉ CNTT liên quan đến các giải pháp lưu trữ CNTT\nII. Chính sách:\n1. Hưởng mức thu nhập hấp dẫn thuộc top các công ty hàng đầu trong lĩnh vực CNTT tại Việt Nam.\n2. Cơ hội đảm nhiệm các vị trí quản lý hoặc chuyên gia cho các dự án lớn với sứ mệnh:\n- Là nhà cung cấp dịch vụ trung",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-engineer-storage.35C87B34.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-engineer-storage.35C87B34.html",
+    "posted_at": "2026-11-14T01:43:43.814058+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T01:43:43.814058+00:00",
+    "last_verified_at": "2026-11-14T01:43:43.814058+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T01:43:43.814058+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-engineer-storage.35C87B34.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Cloud Engineer (Storage) tại Công ty TNHH Viettel - CHT (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Cloud Engineer (Storage)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cloud-engineer-storage.35C87B34.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_7954537726",
+    "title": "Kỹ Sư Thiết Kế, Lập Trình PLC Và Đấu Nối Điện",
+    "company_name": "Công Ty TNHH Harada Industries Việt Nam",
+    "description": "Mô tả Công việc\n1. Thiết kế sơ đồ điện điều khiển, lựa chọn PLC, HMI, cảm biến, servo, biến tần và thiết bị điện cho máy tự động.\n2. Lập trình PLC/HMI, đấu nối tủ điện và dây điện máy; kiểm tra I/O, liên động an toàn, chạy thử và tối ưu chu trình.\n3. Phân tích lỗi, chỉnh sửa chương trình, lập tài liệu kỹ thuật và phối hợp nghiệm thu thiết bị.\n4. biết lập trình ngôn ngữ c++ hoặc python . dùng trong các ứng dụng camera công nghiệp\n5. biết sử dụng thành thạo các chuần giao thức chuyền thông công nghiệp như: Profinet,\nEtherNet/IP, EtherCAT, MODBUS TCP/IP…vv",
+    "requirements": "Yêu Cầu Công Việc\n1. Số lượng: 2 người; độ tuổi theo đề xuất: 25–40.\n2. Có ít nhất 2 năm kinh nghiệm thiết kế điện, lập trình PLC và/hoặc đấu nối máy tự động.\n3. Đọc, thiết kế sơ đồ điện; sử dụng phần mềm lập trình PLC và công cụ thiết kế điện phù hợp; không giới hạn hãng PLC (Mitsubishi, Omron, Panasonic, Inovance hoặc tương đương).\n4. Hiểu cảm biến, khí nén, servo, HMI, biến tần; có khả năng kiểm tra I/O và xử lý sự cố điện điều khiển.\n5. Biết tiêu chuẩn an toàn điện, E-stop và kiểm tra trước khi vận hành; ưu tiên ứng viên có khả năng giao tiếp hoặc đọc tài liệu kỹ thuật bằng tiếng Anh hoặc tiếng Nhật.\nMức lương\n: Thỏa thuận\nPhụ cấp\n: Theo tiêu chuẩn công ty (sẽ thảo luận khi phỏng vấn)",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Camera AI"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-thiet-ke-lap-trinh-plc-va-dau-noi-dien.35C8DAC7.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-thiet-ke-lap-trinh-plc-va-dau-noi-dien.35C8DAC7.html",
+    "posted_at": "2026-11-14T01:43:50.804799+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T01:43:50.804799+00:00",
+    "last_verified_at": "2026-11-14T01:43:50.804799+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T01:43:50.804799+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-thiet-ke-lap-trinh-plc-va-dau-noi-dien.35C8DAC7.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Kỹ Sư Thiết Kế, Lập Trình PLC Và Đấu Nối Điện tại Công Ty TNHH Harada Industries Việt Nam (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Kỹ Sư Thiết Kế, Lập Trình PLC Và Đấu Nối Điện",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-thiet-ke-lap-trinh-plc-va-dau-noi-dien.35C8DAC7.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
