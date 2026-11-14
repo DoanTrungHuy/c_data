@@ -67593,6 +67593,337 @@
     "is_active": true
   },
   {
+    "id": "cv_live_6384585603",
+    "title": "Senior IT Support",
+    "company_name": "CÔNG TY TNHH KOI CAFÉ VIỆT NAM",
+    "description": "Mô tả Công việc\nLắp đặt và cài đặt phần mềm máy tính PC, máy server. Cài đặt và cấu hình máy in, máy scan.\nBảo trì và đảm bảo hệ thống mạng, các thiết bị mạng trong văn phòng và cửa hàng vận hành ổn định.\nGiải quyết các vấn đề về mật khẩu, các lỗi phần cứng và phần mềm máy tính, hỗ trợ vấn đề người dùng gặp phải, xử lý các sự cố phát sinh.\nGiám sát lắp đặt và bảo trì camera, hệ thống máy bán hàng cho cửa hàng.\nHỗ trợ trong việc xây dựng và xử lý sự cố của cửa hàng (máy in bill, thiết bị giám sát, máy POS, máy chấm công... cho cửa hàng)\nHường dẫn cửa hàng thao tác cơ bản khi gặp sự cố thông thường.\nCấp thiết bị điện tử theo quy trình quản lý tài sản, quản lý và cập nhật sự thay đổi.\nPhối hợp với nhà cung cấp và các phòng ban.\nCác công việc khác liên quan đến triển khai dự án công nghệ thông tin cho công ty.",
+    "requirements": "Yêu Cầu Công Việc\nTối thiểu 3 năm kinh nghiệm ở vị trí IT support / System & Network Support hoặc tương đương.\nCó kinh nghiệm triển khai, cấu hình và xử lý sự cố các thiết bị: router, switch, AP, camera, NVR, máy chấm công, POS, máy in bill.\nCó kinh nghiệm làm việc với nhà cung cấp phần mềm.\nƯu tiên ứng viên từng hỗ trợ hệ tống IT cho chuối cửa hàng, FnB, retail hoặc mô hình nhiều điểm bán.\nSẵn sàng đi cửa hàng, công tác, tăng ca để lắp đặt, bảo trì và kiểm tra định kỳ, xử lý sự cố onsite.\nCó tinh thần chủ động, trách nhiệm, làm việc độc lập, học hỏi và phối hợp nhóm tốt\nThành thạo các công cụ hỗ trợ công việc IT.\nAm hiểu Windows , macOS; biết Linux là một lợi thế.\nĐọc hiểu tài liệu và giao tiếp tiếng anh khá.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Linux",
+      "Camera AI",
+      "IT Support L1/L2"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-it-support.35C8DCF2.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-it-support.35C8DCF2.html",
+    "posted_at": "2026-11-14T15:19:11.302391+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T15:19:11.302391+00:00",
+    "last_verified_at": "2026-11-14T15:19:11.302391+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T15:19:11.302391+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-it-support.35C8DCF2.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior IT Support tại CÔNG TY TNHH KOI CAFÉ VIỆT NAM (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Senior IT Support",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-it-support.35C8DCF2.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5505660376",
+    "title": "IT SUPERVISOR",
+    "company_name": "Action Composites Hightech Industries",
+    "description": "Mô tả Công việc\nJOB PURPOSE\nTo support the IT Section Manager in managing, operating, and continuously improving the company’s IT infrastructure, network, IT security, Microsoft 365, server, virtualization, and IT application environments.\nEnsure that IT systems are stable, secure, available, and aligned with business and production requirements.\nEnsure IT operations comply with ISO 27001, TISAX, and internal company policies and standards.\nProactively identify risks, analyze incidents, and implement preventive measures to minimize downtime and security risks.\nAct as a senior technical resource for the IT team and a bridge between IT, business departments, production, and management.\nSupport assessment, design, and implementation of infrastructure, network, security, and application projects.\nKEY RESPONSIBILITIES\nManage servers, VMware virtualization, storage, backup and infrastructure services. - Monitor system performance, capacity and availability. - Plan infrastructure upgrades and lifecycle replacement. - Maintain infrastructure documentation and diagrams.\nManage LAN/WAN, VLAN, DHCP, DNS, routing, switching, VPN and Ruckus Wi-Fi; troubleshoot and support network expansion.\nManage Sophos Firewall/Endpoint; review security alerts; vulnerability management; hardening and security incident response.\nMaintain IT policies, procedures, risk assessments and evidence; support audits and corrective actions.\nManage users, groups, licenses, Exchange Online, Teams, SharePoint/OneDriv",
+    "requirements": "Yêu Cầu Công Việc\nBachelor’s degree or equivalent in IT, Computer Science, Information Systems, Network Engineering, Cybersecurity or related field.\n5–8 years of IT experience; preferably as Senior IT Engineer, IT Supervisor or IT Infrastructure Engineer..\nHands-on experience with VMware vSphere/ESXi/vCenter, Windows Server, AD, networking and enterprise Wi-Fi\nExperience with Sophos Firewall/Endpoint, Microsoft 365 and Ruckus/SmartZone.\nPractical ISO 27001 or TISAX experience; understanding of risk assessment, controls, audit evidence and corrective actions.\nStrong RCA, problem-solving, reporting, project coordination and vendor management skills.\nKnowledge of SAP Business One, MES, WMS, SQL Server, APIs and software development is an advantage.\nAbility to communicate in English in technical and management environments.\nStrong ownership and continuous-improvement mindset; able to work in a 24/7 manufacturing environment.\nIT Supervisor shall be capable of independently leading IT operat",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "LAN/WAN",
+      "WiFi Mesh",
+      "Active Directory",
+      "Firewall"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor.35C8DC2F.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor.35C8DC2F.html",
+    "posted_at": "2026-11-14T15:19:11.377082+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T15:19:11.377082+00:00",
+    "last_verified_at": "2026-11-14T15:19:11.377082+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T15:19:11.377082+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor.35C8DC2F.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT SUPERVISOR tại Action Composites Hightech Industries (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "IT SUPERVISOR",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-supervisor.35C8DC2F.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1743820067",
+    "title": "IT Application Specialist",
+    "company_name": "Zuellig Pharma Viet Nam",
+    "description": "Mô tả Công việc\nAbout the Role\nWe are seeking an\nApplication Specialist\nto manage, optimize, and drive adoption of core business applications that support our commercial and digital transformation initiatives. This role is the vital bridge between our business operations, technology teams, and external vendors. You will ensure the stability and reliability of our daily applications, gather business requirements to design workflow enhancements, and lead digital initiatives (such as e-Commerce, e-Signature, and automated compliance tracking) to streamline operations and elevate user experience.\nKey Responsibilities\nApplication Ownership:\nAct as the primary technical owner for assigned business applications, ensuring smooth, secure, and reliable daily operations.\nIncident & Change Management:\nMonitor application performance, triage user issues, and coordinate incident resolution and system change requests in a timely manner.\nRoot Cause Analysis:\nTroubleshoot application behavior and integration issues. Conduct root cause analysis for recurring problems and recommend long-term corrective actions.\nBusiness Requirement Gathering:\nCollaborate closely with business users across departments to understand their pain points, translate requirements into technical specifications, and design smart system enhancements.\nSystem Testing & Validation:\nSupport user acceptance testing (UAT), release management, software upgrades, and deployment activities to guarantee zero disruption to business-",
+    "requirements": "Yêu Cầu Công Việc\no\nEducation:\nBachelor’s degree in Computer Science, Information Technology, Business Information Systems, or a related field.\no\nExperience:\n3–5 years of experience in Application Support, Business Systems Analysis, or IT Application Management (experience in healthcare, pharma, or distribution is highly valued).\no\nTechnical & System Skills:\nFamiliarity with Enterprise Systems: ERP (SAP), e-Signature/e-Contract, CRM, or document management platforms.\nHands-on experience with modern productivity and automation tools like\nMicrosoft Power Platform\n(Power Apps, Power Automate, Power BI).\nPractical ability to troubleshoot applications using SQL queries, APIs, and system logs to diagnose system discrepancies.\no\nMethodologies:\nSolid understanding of Software Development Life Cycle (SDLC) and ITIL service management frameworks.\no\nSoft Skills:\nStrong analytical, logical thinking, and problem-solving skills.\nExcellent stakeholder management and communication skills to interact e",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-application-specialist.35C8DCED.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-application-specialist.35C8DCED.html",
+    "posted_at": "2026-11-14T15:19:11.806482+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T15:19:11.806482+00:00",
+    "last_verified_at": "2026-11-14T15:19:11.806482+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T15:19:11.806482+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-application-specialist.35C8DCED.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT Application Specialist tại Zuellig Pharma Viet Nam (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "IT Application Specialist",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-application-specialist.35C8DCED.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
