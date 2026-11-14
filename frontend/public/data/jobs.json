@@ -67484,6 +67484,115 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7387218176",
+    "title": "Kỹ sư phát triển phần mềm (MES & IOT)",
+    "company_name": "EuP Group",
+    "description": "Mô tả Công việc\n● Phát triển tính năng mới, tùy biến các hệ thống ERP, MES, BI,… sử dụng HTML, JS, Python, cơ sở dữ liệu MySQL, MariaDB.\n● Xây dựng bản in, báo cáo, dashboard sử dụng HTML, Jinja, Python, SQL theo yêu cầu nghiệp vụ.\n● Fix lỗi, tối ưu và cải tiến hệ thống ERP, MES, BI.\n● Tham gia làm rõ yêu cầu, triển khai, đào tạo và hỗ trợ người dùng theo kế hoạch dự án.\n*Mức lương và chế độ:\n• Lương từ 15 - 20 Triệu; lương tháng thứ 13+\n• Làm việc trong môi trường năng động, trẻ trung và thân thiện.\n• Hưởng các chế độ phúc lợi của Công ty như nghỉ mát, khám sức khỏe và các ngày nghỉ lễ có thưởng 30/4-1/5, 2/9, phụ cấp điện thoại, ăn trưa và các quyền lợi khác theo quy định Bộ luật Lao động (BHXH, BHYT...).\n• Thời gian làm việc giờ hành chính từ Thứ Hai đến sáng Thứ Bảy.",
+    "requirements": "Yêu Cầu Công Việc\n●       Bằng cấp tối thiểu: Cao đẳng ngành CNTT, tự động hóa hoặc các ngành liên quan.\n●       Có nền tảng và kinh nghiệm lập trình Python, JS và các ngôn ngữ dùng cho hệ thống nhúng.\n●       Ưu tiên ứng viên có kinh nghiệm phát triển và triển khai hệ thống MES, IOT.\n●       Tiếng Anh: đọc hiểu tài liệu kỹ thuật.\n●       Kinh nghiệm: Từ 1 năm trở lên phát triển phần mềm hoặc giải pháp tự động hóa, IOT.\n●       Sẵn sàng đi công tác",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-phat-trien-phan-mem-mes-iot.35C8DD60.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-phat-trien-phan-mem-mes-iot.35C8DD60.html",
+    "posted_at": "2026-11-14T08:21:09.763622+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-14T08:21:09.763622+00:00",
+    "last_verified_at": "2026-11-14T08:21:09.763622+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-14T08:21:09.763622+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-phat-trien-phan-mem-mes-iot.35C8DD60.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Kỹ sư phát triển phần mềm (MES & IOT) tại EuP Group (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "14/11/2026",
+      "checked_at": "14/11/2026",
+      "live_h1": "Kỹ sư phát triển phần mềm (MES & IOT)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-phat-trien-phan-mem-mes-iot.35C8DD60.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
