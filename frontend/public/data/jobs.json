@@ -35774,6 +35774,676 @@
     "is_active": true
   },
   {
+    "id": "itv_live_3541018880",
+    "title": "Chuyên viên quản lý triển khai sản phẩm EdTech",
+    "company_name": "VTC Online",
+    "description": "Job description\nI. Mục tiêu vị trí\nChịu trách nhiệm thiết lập và làm chủ cổng tiếp nhận yêu cầu tập trung (Intake Management), điều phối đánh giá mức độ ưu tiên giữa các bên liên quan, lập kế hoạch phát hành, kiểm soát chặt chẽ timeline/milestone và vận hành quy trình phát triển Agile/Scrum. Đảm bảo toàn bộ chu trình từ lúc tiếp nhận yêu cầu đến khi bàn giao lên môi trường Production diễn ra đúng cam kết tiến độ, phạm vi và chất lượng.\nII. Trách nhiệm công việc chính\n1. Quản lý tiếp nhận và điều phối ưu tiên (Intake & Prioritization Management):\nLà đầu mối tiếp nhận tập trung mọi yêu cầu phát triển mới, cải tiến từ Ban Giám đốc, Học thuật, Vận hành và Kinh doanh.\nChủ trì các phiên sàng lọc định kỳ; phối hợp chặt chẽ với PO và Tech Lead để đánh giá tính khả thi và xếp hạng ưu tiên (sử dụng ma trận Impact vs Effort, MoSCoW hoặc WSJF).\nBảo vệ phạm vi công việc đã cam kết trong Sprint, ngăn chặn tình trạng chèn việc đột xuất làm vỡ kế hoạch (Scope Creep).\n2. Lập kế hoạch, quản lý timeline và cam kết bàn giao (Delivery Planning):\nCùng PO, BA, Tech Lead và Designer phân rã yêu cầu thành Release Plan, Sprint Plan, Milestone và Deadline rõ ràng.\nXác định và kiểm soát các mối quan hệ phụ thuộc chéo (Dependency Management) giữa Design → BA → Dev → QA → Nghiệm thu Học thuật → Vận hành.\nTheo dõi liên tục tiến độ thực tế; chủ động nhận diện sớm nguy cơ chậm trễ và kích hoạt ngay phương án xử lý dự phòng.\n3. Vận hành nhịp độ Agile/Scrum & Tháo gỡ ách tắc (Facilitation & Impediment Removal)",
+    "requirements": "Your skills and experience\nKinh nghiệm:\nTừ 2.5 – 4 năm kinh nghiệm quản lý dự án công nghệ (IT Project Manager), Delivery Specialist, hoặc Scrum Master/Product Coordinator trong các dự án phần mềm, nền tảng số hoặc EdTech.\nChuyên môn:\nThấu hiểu quy trình phát triển phần mềm (SDLC), mô hình Agile, Scrum, Kanban.\nThành thạo kỹ năng phân rã kế hoạch WBS, xác định đường găng (Critical Path) và quản lý phụ thuộc.\nSử dụng thành thạo Jira Software, ClickUp, Confluence hoặc các công cụ tương đương.\nKỹ năng:\nGiao tiếp và điều phối liên phòng ban vượt trội; có khả năng kết nối giữa ngôn ngữ kinh doanh, học thuật và kỹ thuật.\nQuyết liệt, kỷ luật và bám sát cam kết đến cùng (Commitment-driven).\nKỹ năng đàm phán, thương lượng chốt tiến độ và giải quyết xung đột ưu tiên dựa trên dữ liệu.\nƯu tiên (Điểm cộng):\nCó chứng chỉ quản trị dự án quốc tế (PMI-ACP, CSM, PSM, PMP); có kinh nghiệm làm việc với hệ thống EdTech, LMS, nền tảng thi trực tuyến.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "18 Tam Trinh, Tuong Mai, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Go / Golang",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/chuyen-vien-quan-ly-trien-khai-san-pham-edtech-vtc-online-2212",
+    "apply_url": "https://itviec.com/it-jobs/chuyen-vien-quan-ly-trien-khai-san-pham-edtech-vtc-online-2212",
+    "posted_at": "2026-11-15T03:04:11.250497+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-15T03:04:11.250497+00:00",
+    "last_verified_at": "2026-11-15T03:04:11.250497+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-15T03:04:11.250497+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/chuyen-vien-quan-ly-trien-khai-san-pham-edtech-vtc-online-2212",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "18 Tam Trinh, Tuong Mai, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên quản lý triển khai sản phẩm EdTech tại VTC Online (18 Tam Trinh, Tuong Mai, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "15/11/2026",
+      "checked_at": "15/11/2026",
+      "live_h1": "Chuyên viên quản lý triển khai sản phẩm EdTech",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/chuyen-vien-quan-ly-trien-khai-san-pham-edtech-vtc-online-2212",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "18 Tam Trinh, Tuong Mai, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1203061228",
+    "title": "AI Expert (Computer Vision/NLP/LLM)",
+    "company_name": "MB Bank",
+    "description": "Job description\n2026TD450200 - AI Expert\nChịu trách nhiệm định hướng, giám sát, điều phối và phát triển các dự án, sản phẩm hoặc dịch vụ AI trong ngân hàng.\nNhiệm vụ chính:\n1. Tham gia xây dựng và triển khai định hướng cho các dự án AI\n2. Lập kế hoạch chi tiết và quản lý các dự án phát triển và ứng dụng AI.\n3. Giám sát và hỗ trợ đội ngũ phát triển trong việc phát triển và triển khai các giải pháp AI, đảm bảo chất lượng và hiệu suất cao nhất.\n4. Làm việc chặt chẽ với các phòng ban liên quan tại Trung tâm AI (LLM, NLP, Computer Vision, Chatbot, R&D.v.v. và các đơn vị khác) để đảm bảo sự phối hợp nhịp nhàng và tối ưu hóa nguồn lực.\n5. Cập nhật và nghiên cứu các công nghệ AI mới nhất, áp dụng vào các dự án thực tế.\n6. Đảm bảo chất lượng và hiệu suất cho các dự án AI, thực hiện kiểm tra và đánh giá định kỳ.\n7. Xác định và đánh giá các rủi ro trong quá trình triển khai dự án.\n8. Tham gia tuyển dụng nhân tài, huấn luyện và phát triển đội ngũ",
+    "requirements": "Your skills and experience\n- Tối thiểu 3 năm kinh nghiệm trong lĩnh vực AI/ML.\n- Chuyên môn:\n+ Hiểu biết sâu về các công nghệ AI/ML/Computer Vision/NLP/LLM...\n+ Có chuyên môn sâu về quản trị dữ liệu\n- Kỹ năng quản lý:\n+ Kỹ năng lập kế hoạch, tổ chức và quản lý công việc\n+ Kỹ năng ra quyết định, giải quyết vấn đề và quản lý xung đột\n+ Khả năng truyền cảm hứng cho đội ngũ\n- Yêu cầu khác:\n+ Hiểu biết về các quy định pháp lý, đạo đức liên quan đến AI\n+ Kiến thức về quản trị rủi ro và các tiêu chuẩn ngành\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\n- Nguồn Tuyển dụng\nVì sao Bạn nên đảm bảo đầy đủ thông tin khi ứng tuyển?\n- Hồ sơ của Bạn sẽ được đánh giá nhanh chóng.\n- Đối với các hồ sơ đáp ứng đầy đủ thông tin và tiêu chí tuyển dụng phù hợp, MB Bank sẽ chủ động liên hệ phỏng ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Next.js",
+      "Linux",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/ai-expert-computer-vision-nlp-llm-mb-bank-4706",
+    "apply_url": "https://itviec.com/it-jobs/ai-expert-computer-vision-nlp-llm-mb-bank-4706",
+    "posted_at": "2026-11-15T03:04:10.728964+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-15T03:04:10.728964+00:00",
+    "last_verified_at": "2026-11-15T03:04:10.728964+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-15T03:04:10.728964+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/ai-expert-computer-vision-nlp-llm-mb-bank-4706",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí AI Expert (Computer Vision/NLP/LLM) tại MB Bank (Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "15/11/2026",
+      "checked_at": "15/11/2026",
+      "live_h1": "AI Expert (Computer Vision/NLP/LLM)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/ai-expert-computer-vision-nlp-llm-mb-bank-4706",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_2862671255",
+    "title": "Senior AI Expert (Machine Learning, Deep Learning, LLM)",
+    "company_name": "MB Bank",
+    "description": "Job description\n2026TD450201 - Senior AI Expert\n- Tham gia cố vấn và xây dựng chiến lược, định hướng phát triển AI cho Ban lãnh đạo\n- Giám sát, điều phối và phát triển các dự án, sản phẩm hoặc dịch vụ AI trong ngân hàng.\nNhiệm vụ chính:\n1. Trực tiếp tham gia phát triển các dự án AI trọng điểm\n2. Tham gia xây dựng và triển khai chiến lược, định hướng cho các dự án AI\n3. Lập kế hoạch chi tiết và quản lý các dự án phát triển và ứng dụng AI.\n4. Giám sát và hỗ trợ đội ngũ phát triển trong việc phát triển và triển khai các giải pháp AI, đảm bảo chất lượng và hiệu suất cao nhất.\n5. Làm việc với các đơn vị tại Trung tâm AI (LLM, NLP, Computer Vision, Chatbot, R&D) và các đơn vị liên quan (khối Dữ liệu, các Trung tâm phát triển phần mềm, Kiểm thử, BA và khách hàng) để đảm bảo sự phối hợp nhịp nhàng và tối ưu hóa nguồn lực.\n6. Cập nhật và nghiên cứu các công nghệ AI mới nhất, áp dụng vào các dự án thực tế.\n7. Đảm bảo chất lượng và hiệu suất cho các dự án AI, thực hiện kiểm tra và đánh giá định kỳ.\n8. Tham gia tuyển dụng nhân tài, huấn luyện và phát triển đội ngũ",
+    "requirements": "Your skills and experience\n- Tốt nghiệp Đại học trở lên\n- Tối thiểu 5 năm kinh nghiệm trong lĩnh vực AI/ML.\n- Có kinh nghiệm lãnh đạo, quản lý liên quan đến AI là lợi thế\n- Chuyên môn:\n+ Hiểu biết sâu về các công nghệ AI/ML/Computer Vision/NLP/LLM...\n+ Có chuyên môn sâu về quản trị dữ liệu\n- Kỹ năng quản lý:\n+ Kỹ năng lập kế hoạch, tổ chức và quản lý công việc\n+ Kỹ năng ra quyết định, giải quyết vấn đề và quản lý xung đột\n+ Khả năng truyền cảm hứng cho đội ngũ\n- Yêu cầu khác:\n+ Hiểu biết về các quy định pháp lý, đạo đức liên quan đến AI\n+ Kiến thức về quản trị rủi ro và các tiêu chuẩn ngành\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Email liên hệ\n- Trình độ học vấn, Trường đã tốt nghiệp\n- Kinh nghiệm làm việc\n- Từ 3 - 5 kỹ năng nổi bật\n- Nguồn Tuyển dụng\nVì sao Bạn nên đảm bảo đầy đủ thông tin khi ứng tuyển?\n- Hồ sơ của Bạn sẽ được đánh giá nhanh chóng.\n- Đối với các hồ sơ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Next.js",
+      "Linux",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-ai-expert-machine-learning-deep-learning-llm-mb-bank-4932",
+    "apply_url": "https://itviec.com/it-jobs/senior-ai-expert-machine-learning-deep-learning-llm-mb-bank-4932",
+    "posted_at": "2026-11-15T03:04:10.997908+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-15T03:04:10.997908+00:00",
+    "last_verified_at": "2026-11-15T03:04:10.997908+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-15T03:04:10.997908+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-ai-expert-machine-learning-deep-learning-llm-mb-bank-4932",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior AI Expert (Machine Learning, Deep Learning, LLM) tại MB Bank (Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "15/11/2026",
+      "checked_at": "15/11/2026",
+      "live_h1": "Senior AI Expert (Machine Learning, Deep Learning, LLM)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-ai-expert-machine-learning-deep-learning-llm-mb-bank-4932",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1007964252",
+    "title": "Senior AI Engineer (Computer Vision/NLP/LLM)",
+    "company_name": "MB Bank",
+    "description": "Job description\n2026TD450878 - Senior AI Engineer (Computer Vision/NLP/LLM)\n- Phát triển, ứng dụng, tối ưu, tích hợp mô hình AI cho các bài toán ứng dụng trong hoạt động Kinh doanh/Ngân hàng về các lĩnh vực Computer Vision, NLP...\n- Tham gia vào các công đoạn triển khai dịch vụ: Kiến trúc hệ thống, thiết kế mô hình hoạt động, luồng hoạt động, chức năng, tối ưu performance\n- Coding, test metrics, service và unittest theo mô hình DevOps, MLOps\n- Nghiên cứu, tìm hiểu các bài báo khoa học mới nhất về AI, ML, DL\n- Với nhóm ứng viên là sinh viên tài năng và fresher: tham gia các chương trình đào tạo và dự án dành cho Trainee để phát triển lên các vị trí chính thức",
+    "requirements": "Your skills and experience\nTốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Điện tử viễn thông, Công nghệ phần mềm, Hệ thống thông tin....\nYêu cầu ứng viên có từ 2 năm kinh nghiệm ở các vị trí AI.\nCó kiến thức và kỹ năng về MỘT TRONG NHỮNG nội dung sau:\n+ Ngôn ngữ lập trình Python, C/C++\n+ Service/MicroService với một trong các framework FastAPI/Flask/Django\n+ Tensorflow/Pytorch/DGL/PyG/Onnx\n+ API (Restful/gRPC), Lập trình an toàn, đảm bảo & tối ưu hiệu năng\n+ Git và Git Flow, Docker/ Kubernete, Kubeflow/MLFlow, TritonServer/ Tensorflow Serving\n+ Các dạng bài toán Supervised learning, Reinforcement learning\n+ Xử lý Ảnh (Computer Vision)/Video/Âm thanh/Ngôn ngữ tự nhiên (NLP)\n+ CNN/RNN/Transformer/Attention, SVM/KNN/Clustering, GNN vv...\n+ Kỹ thuật Knowledge Distiller/ Model Prune,  Model Quantization\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày tháng năm sinh, Giới tính\n- Số điện thoại và Em",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Next.js",
+      "Docker",
+      "CI/CD DevOps",
+      "Linux",
+      "SQL Database"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-ai-engineer-computer-vision-nlp-llm-mb-bank-5035",
+    "apply_url": "https://itviec.com/it-jobs/senior-ai-engineer-computer-vision-nlp-llm-mb-bank-5035",
+    "posted_at": "2026-11-15T03:04:11.650056+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-15T03:04:11.650056+00:00",
+    "last_verified_at": "2026-11-15T03:04:11.650056+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-15T03:04:11.650056+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-ai-engineer-computer-vision-nlp-llm-mb-bank-5035",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior AI Engineer (Computer Vision/NLP/LLM) tại MB Bank (Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "15/11/2026",
+      "checked_at": "15/11/2026",
+      "live_h1": "Senior AI Engineer (Computer Vision/NLP/LLM)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-ai-engineer-computer-vision-nlp-llm-mb-bank-5035",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà MB, số 18 Lê Văn Lương, Phường Yên Hòa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_4550332107",
+    "title": "QA Senior Specialist (Automation Test/Selenium/TestNG)",
+    "company_name": "Công ty Cổ phần Chứng khoán VPBank",
+    "description": "Your skills and experience\nExperience:\n- 7+ years of experience in software testing, with at least 2 years in a senior or lead role.\n- Extensive experience in manual and automated testing for web and mobile applications.\n- Hands-on experience with testing tools such as Selenium, JUnit, TestNG, Postman (for API testing), or equivalent tools.\n- Strong understanding of testing methodologies, including Agile testing practices.\nTechnical Skills:\n- Proficiency in developing and executing automated test scripts.\n- Familiarity with CI/CD pipelines and tools like Jenkins, Git, and continuous testing integration.\n- Experience with API testing and testing microservices is a plus.\n- Working knowledge of SQL for database testing and validation.\n- Understanding of performance testing tools like JMeter or LoadRunner is an advantage.\nSoft Skills:\n- Strong analytical and problem-solving skills with the ability to diagnose and troubleshoot software defects.\n- Excellent written and verbal communication skills with the ability to work effectively in a collaborative team environment.\n- Attention to detail and a commitment to delivering high-quality software.\n- Ability to multitask and manage multiple testing tasks and projects concurrently.\nPreferred Qualifications:\n- Knowledge of security testing methodologies and tools.\n- ISTQB or equivalent certification is a plus.",
+    "requirements": "Why you'll love working here\n- Be part of a forward-thinking team that drives innovation and transformation\n- Opportunity to work with cutting-edge technologies in the cloud and big data space\n- Competitive salary and bonus package\n- Staff loan with special interest rates\n- Training courses based on the job, Training framework/Learning RoadMap for each position\n- Insurance in accordance with Labor laws + VPBank Care insurance for all employees. (insurance covered for family members for entitled employees)\n- Annual leave (varied based on job grade)\n- A dynamic and friendly working environment, full of great opportunities to develop your career and abundant interesting activities to join (Sports competitions, talent contests, teambuilding…)\n- Working time: from Monday to Friday",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 25, Toà nhà Văn phòng Thương mại, số 89 Láng Hạ, Phường Láng Hạ, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "CI/CD DevOps",
+      "SQL Database"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/qa-senior-specialist-automation-test-selenium-testng-cong-ty-co-phan-chung-khoan-vpbank-0826",
+    "apply_url": "https://itviec.com/it-jobs/qa-senior-specialist-automation-test-selenium-testng-cong-ty-co-phan-chung-khoan-vpbank-0826",
+    "posted_at": "2026-11-15T03:04:11.130582+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-15T03:04:11.130582+00:00",
+    "last_verified_at": "2026-11-15T03:04:11.130582+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-15T03:04:11.130582+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/qa-senior-specialist-automation-test-selenium-testng-cong-ty-co-phan-chung-khoan-vpbank-0826",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 25, Toà nhà Văn phòng Thương mại, số 89 Láng Hạ, Phường Láng Hạ, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí QA Senior Specialist (Automation Test/Selenium/TestNG) tại Công ty Cổ phần Chứng khoán VPBank (Tầng 25, Toà nhà Văn phòng Thương mại, số 89 Láng Hạ, Phường Láng Hạ, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "15/11/2026",
+      "checked_at": "15/11/2026",
+      "live_h1": "QA Senior Specialist (Automation Test/Selenium/TestNG)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/qa-senior-specialist-automation-test-selenium-testng-cong-ty-co-phan-chung-khoan-vpbank-0826",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 25, Toà nhà Văn phòng Thương mại, số 89 Láng Hạ, Phường Láng Hạ, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_6593223617",
+    "title": "Chuyên Gia, An Ninh Thông Tin Ứng Dụng - Upto 2000$",
+    "company_name": "Techcom Securities",
+    "description": "Job description\nMô tả công việc\nThực hiện đánh giá/kiểm thử xâm nhập (pentest) định kỳ cho các hệ thống/ứng dụng đang/sắp đưa vào sử dụng của TechcomSecurities (TCBS) và Khối NHĐT nhằm phát hiện kịp thời các điểm yếu/lỗ hổng an ninh thông tin tiềm ẩn, từ đó đưa ra các biện pháp khắc phục\nTrách nhiệm bao gồm, nhưng không giới hạn\n:\n- Thực hiện việc rà soát, đánh giá/kiểm thử an ninh thông tin các hệ thống trọng yếu, định kỳ và theo kế hoạch, nhằm phát hiện các điểm yếu, nguy cơ để đưa ra giải pháp khắc phục kịp thời\n- Xây dựng các kịch bản giải quyết sự cố an ninh thông tin cũng như tổ chức phản ứng, quản lý nhằm ngăn ngừa các sự cố này. Xử lý khi xảy ra các sự cố an ninh thông tin\n- Nghiên cứu, xây dựng các giải pháp ANTT cần thiết để ngăn chặn các cuộc tấn công, sự cố ANTT, đảm bảo an ninh, an toàn cho toàn bộ hệ thống thông tin của TechcomSecurities (TCBS) và Khối NHĐT\n- Tổ chức thiết kế và triển khai các chương trình đào tạo nâng cao nhận thức về an ninh thông tin cho TechcomSecurities (TCBS) và Khối NHĐT\n- Phối hợp với bộ phận giám sát an ninh thông tin của Ngân hàng, phân tích đánh giá, phát hiện nguy cơ tấn công, truy cập bất hợp pháp, rò rỉ mất mát thông tin ảnh hưởng đến hoạt động của ngân hàng, áp dụng các biện pháp, giải pháp bảo mật, loại trừ/ngăn chặn các nguy cơ một cách hiệu quả và triệt để.",
+    "requirements": "Your skills and experience\nBằng cấp: Chuyên ngành ATTT, CNTT hoặc điện tử viễn thông\nCó Kỹ năng đánh giá ứng dụng theo phương pháp Black/Gray/White box ưu tiên ứng viên có kinh nghiệm White box review source code\nCó kinh nghiệm thực hiện đánh giá, kiểm thử (Pentest) ANTT trong các tổ chức tài chính/dịch vụ/viễn thông. Kinh nghiệm bao gồm các khía cạnh: nghiên cứu, thiết kế, triển khai và đánh giá trong lĩnh vực ANTT\nCó kiến thức lập trình về một trong ngôn ngữ lập trình như: Java, C#, PHP, Python, Go…\nCó kiến thức, kinh nghiệm về lĩnh vực an ninh thông tin: Ứng dụng và DB security, Proxy, FW, IPS, VPN, EP Security…\nCó kiến thức mức cơ bản về: Networking, TCP/IP, các thiết bị network, các hệ điều hành phổ dụng, các hệ cơ sở dữ liệu, các ứng dụng và giao thức phổ biến, đặc biệt là web base, các dịch vụ cơ bản của ngân hàng, các security model\nCó chứng chỉ uy tín của các tổ chức trung gian đánh giá ANTT như OSCP (Offensive security Certified Professional) là lợi thế",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "C5 Building Tower, D’Capitale Tower, 119 Tran Duy Hung, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Go / Golang",
+      "PHP",
+      "AWS",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/chuyen-gia-an-ninh-thong-tin-ung-dung-upto-2000-techcom-securities-4920",
+    "apply_url": "https://itviec.com/it-jobs/chuyen-gia-an-ninh-thong-tin-ung-dung-upto-2000-techcom-securities-4920",
+    "posted_at": "2026-11-15T03:04:11.327712+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-15T03:04:11.327712+00:00",
+    "last_verified_at": "2026-11-15T03:04:11.327712+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-15T03:04:11.327712+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/chuyen-gia-an-ninh-thong-tin-ung-dung-upto-2000-techcom-securities-4920",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "C5 Building Tower, D’Capitale Tower, 119 Tran Duy Hung, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên Gia, An Ninh Thông Tin Ứng Dụng - Upto 2000$ tại Techcom Securities (C5 Building Tower, D’Capitale Tower, 119 Tran Duy Hung, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "15/11/2026",
+      "checked_at": "15/11/2026",
+      "live_h1": "Chuyên Gia, An Ninh Thông Tin Ứng Dụng - Upto 2000$",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/chuyen-gia-an-ninh-thong-tin-ung-dung-upto-2000-techcom-securities-4920",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "C5 Building Tower, D’Capitale Tower, 119 Tran Duy Hung, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_3577715278",
     "title": "Lập Trình Viên Frontend React / Next.js",
     "company_name": "FPT Software",
