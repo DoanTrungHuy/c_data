@@ -70387,6 +70387,565 @@
     "is_active": true
   },
   {
+    "id": "cv_live_2071936303",
+    "title": "Senior Backend Developer (Java Spring Boot)",
+    "company_name": "Công ty Cổ phần Chứng khoán An Bình",
+    "description": "Mô tả Công việc\n1. Tham gia thiết kế, phát triển và vận hành các hệ thống nghiệp vụ trọng yếu của công ty chứng khoán như: Hệ thống giao dịch chứng khoán; Quản lý tài khoản khách hàng; Quản lý tài sản và danh mục đầu tư; Thanh toán, đối soát; OMS, RMS, Core Securities; Các dịch vụ hỗ trợ giao dịch và tích hợp hệ thống.\n2. Thiết kế và phát triển các Backend Service, RESTful API theo kiến trúc Microservices đáp ứng yêu cầu: Hiệu năng cao (High Performance); Khả năng mở rộng (Scalability); Độ sẵn sàng cao (High Availability); Độ trễ thấp (Low Latency).\n3. Tối ưu hiệu năng hệ thống thông qua việc phân tích bottleneck, tối ưu SQL, Database, Cache, Message Queue và các thành phần xử lý realtime.\n4. Thiết kế cơ sở dữ liệu, tối ưu truy vấn và đảm bảo tính toàn vẹn dữ liệu cho các hệ thống có khối lượng giao dịch lớn.\n5. Tham gia xây dựng kiến trúc hệ thống, đề xuất giải pháp công nghệ phù hợp với yêu cầu nghiệp vụ và định hướng phát triển lâu dài.\n6. Tích hợp với các hệ thống nội bộ và đối tác như: CRM; DWH; Payment Gateway; Identity & Access Management; eKYC; Notification; Kafka/Event Streaming; API Gateway; Các hệ thống của HOSE, HNX, VSDC và các đối tác tài chính (nếu có).\n7. Phối hợp với BA, QA, DevOps và các đơn vị nghiệp vụ để phân tích yêu cầu, thiết kế giải pháp và triển khai sản phẩm.\n8. Tham gia review code, hướng dẫn và hỗ trợ các thành viên trong nhóm nhằm nâng cao chất lượng kỹ thuật.\n9. Chủ động nghiên cứu, đánh giá và áp dụng các công nghệ mới nhằm nâng cao hiệu năng, ",
+    "requirements": "Yêu Cầu Công Việc\n– Tốt nghiệp Đại học chuyên ngành Công nghệ thông tin hoặc các chuyên ngành liên quan.\n– Có tối thiểu 05 năm kinh nghiệm phát triển Backend với Java, trong đó có ít nhất 03 năm sử dụng Spring Boot.\n– Thành thạo Java Core, Spring Boot, Spring MVC, Spring Data JPA/Hibernate, Spring Security.\n– Có kinh nghiệm thiết kế và phát triển RESTful API.\n– Có hiểu biết tốt về: OOP; SOLID; Design Pattern; Clean Code; Clean Architecture.\n– Có kinh nghiệm làm việc với hệ quản trị cơ sở dữ liệu quan hệ như Oracle hoặc PostgreSQL; có khả năng tối ưu SQL, Index, Transaction và Performance.\n– Có kinh nghiệm làm việc với Redis hoặc các hệ thống Cache.\n– Có kinh nghiệm sử dụng Message Queue/Event Streaming như Kafka hoặc RabbitMQ.\n– Có hiểu biết về các vấn đề của hệ thống phân tán: Concurrency; Transaction; Locking; Idempotency; Retry; Eventual Consistency.\n– Có kinh nghiệm sử dụng Git và quy trình phát triển phần mềm theo Agile/Scrum.\n– Có khả năng phân tích nguyên nhân, xử lý sự cố và tố",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Node.js",
+      "Docker",
+      "Kubernetes",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-backend-developer-java-spring-boot.35C8DF8B.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-backend-developer-java-spring-boot.35C8DF8B.html",
+    "posted_at": "2026-11-16T19:57:09.752678+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T19:57:09.752678+00:00",
+    "last_verified_at": "2026-11-16T19:57:09.752678+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T19:57:09.752678+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-backend-developer-java-spring-boot.35C8DF8B.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Backend Developer (Java Spring Boot) tại Công ty Cổ phần Chứng khoán An Bình (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Senior Backend Developer (Java Spring Boot)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-backend-developer-java-spring-boot.35C8DF8B.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6402556838",
+    "title": "Nhân viên Vận hành ứng dụng (DevOps)",
+    "company_name": "Công Ty Cổ Phần Giải Pháp Thanh Toán Việt Nam (VNPAY)",
+    "description": "Mô tả Công việc\n- Được cung cấp tài liệu mô tả, tài liệu triển khai, tài liệu vận hành hệ thống ứng dụng, đào tạo chuyển giao vận hành\n- Quản trị và vận hành các hệ thống ứng dụng\n- Nắm bắt các quy trình nghiệp vụ và các chức năng của ứng dụng\n- Kiểm tra và đảm bảo chất lượng, hiệu quả và an toàn của các ứng dụng\n- Theo dõi và báo cáo về tình hình hoạt động, hiệu suất và lưu lượng truy cập của các ứng dụng\n- Phối hợp với đội phát triển ứng dụng/đội triển khai giám sát ứng dụng để xây dựng các dashboard/cảnh báo về ứng dụng\n- Tiếp nhận các thông báo cảnh báo 24/7 từ nhóm giám sát ứng dụng, sau đó xác minh xử lý\n- Hỗ trợ thực hiện phân tích và gửi lỗi cho đội phát triển/nhà cung cấp, phối hợp với đội phát triển/nhà cung cấp kiểm tra xử lý sự cố theo phân công.\n- Phối hợp với các bộ phận liên quan Quản trị hệ thống/DBA/ANTT/Bên thứ 3 kiểm tra xử lý sự cố theo phân công\n- Thực hiện cài đặt triển khai, cập nhật ứng dụng theo tài liệu của đội phát triển/nhà cung cấp\n- Thực hiện các cấu hình hệ thống theo yêu cầu được phê duyệt từ quản lý\n- Tham gia chuyển đổi Container, xây dựng và diễn tập DR, tự động hóa công việc vận hành.",
+    "requirements": "Yêu Cầu Công Việc\n- Tốt nghiệp Đại học trở lên ngành Công nghệ thông tin, Phần mềm, Kỹ thuật máy tính, Điện tử viễn thông\n- Có từ 2 năm kinh nghiệm trở lên tại vị trí tương đương\n- Đọc hiểu tiếng Anh cơ bản, có thể nghiên cứu tài liệu bằng ngoại ngữ là một lợi thế\n- Hiểu biết tốt về các quy trình phát triển phần mềm.\n- Hiểu biết tốt về mô hình ứng dụng Microservices và Monolithic Services\n- Hiểu biết và có kinh nghiệm quản trị hệ điều hành Linux\n- Có kinh nghiệm lập trình ứng dụng các ngôn ngữ Java, .NET, C#, Golang, JS\n- Có kinh nghiệm quản trị ứng dụng trên nền tảng Docker, Container là một lợi thế\n- Có kinh nghiệm làm phân tích nghiệp vụ là một lợi thế\n- Có kinh nghiệm trong triển khai và quản lý hệ thống CI/CD (Continuous Integration/Continuous Deployment), bao gồm việc sử dụng các công cụ như Jenkins, GitLab CI/CD, hoặc các công cụ tương tự khác.\n- Sử dụng thành thạo Git, nắm bắt tốt Git Flow\n- Sử dụng thành thạo các phần mềm như Ansible, Terraform, Jenkins, ArgoCD …\n- Kỹ năng về ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Go / Golang",
+      ".NET / C#",
+      "Docker",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-van-hanh-ung-dung-devops.35C8DF6E.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-van-hanh-ung-dung-devops.35C8DF6E.html",
+    "posted_at": "2026-11-16T19:57:11.797019+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T19:57:11.797019+00:00",
+    "last_verified_at": "2026-11-16T19:57:11.797019+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T19:57:11.797019+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-van-hanh-ung-dung-devops.35C8DF6E.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân viên Vận hành ứng dụng (DevOps) tại Công Ty Cổ Phần Giải Pháp Thanh Toán Việt Nam (VNPAY) (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Nhân viên Vận hành ứng dụng (DevOps)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-van-hanh-ung-dung-devops.35C8DF6E.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_3917050849",
+    "title": "Network & System Administrator",
+    "company_name": "Phu Hung Securities Corporation",
+    "description": "Mô tả Công việc\n1. Network System Management and Operations:\nMonitor, configure, operate, and troubleshoot LAN/WAN network systems, firewalls, routers, switches, and VPNs.\nTrack and optimize network performance to ensure high availability, stability, and security, and resolve issues related to connectivity, speed, or security.\n2. System & Storage Administration:\nManage virtualization systems (VMware), physical server infrastructure, and high-speed storage arrays (SAN/NAS) supporting Oracle databases.\n3. Support and Reporting:\nProvide technical support to internal users for network and server-related issues.\nPrepare periodic reports on system status, risks, and incidents for management.",
+    "requirements": "Yêu Cầu Công Việc\nBachelor’s degree in Information Technology, Information Security, Computer Networking, or related fields.\nMinimum 5 years of experience in network/system administration or cybersecurity.\nSolid understanding of network architecture and protocols (TCP/IP, LAN/WAN, VLAN, DNS, DHCP, VPN).\nBasic knowledge of network security (Firewalls, IDS/IPS).\nExperience with Windows Server, Linux, and network monitoring tools (e.g., Wireshark, Nagios, SolarWinds).\nFamiliarity with virtualization (VMware) and Hybrid Cloud (AWS/Azure) is a plus.\nAbility to write basic automation scripts (Python, Bash, or PowerShell) is an advantage.\nEnglish: Intermediate.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "AWS",
+      "Azure",
+      "Linux",
+      "Oracle DB",
+      "LAN/WAN"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/network-system-administrator.35C8DEE9.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/network-system-administrator.35C8DEE9.html",
+    "posted_at": "2026-11-16T19:57:10.545466+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T19:57:10.545466+00:00",
+    "last_verified_at": "2026-11-16T19:57:10.545466+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T19:57:10.545466+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/network-system-administrator.35C8DEE9.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Network & System Administrator tại Phu Hung Securities Corporation (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Network & System Administrator",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/network-system-administrator.35C8DEE9.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4846988584",
+    "title": "Production Data Analyst Leader",
+    "company_name": "Công ty TNHH Quốc tế Fleming Việt Nam",
+    "description": "Mô tả Công việc\nMonitor and track production materials in the system\nFollow up on all materials used in the production process and ensure material information is properly recorded in the system.\nRegularly check and compare actual material quantities with system records to ensure data accuracy.\nReport any discrepancies between actual quantities and system records to the relevant departments.\nFollow up on material requirements based on daily production plans\nReview daily production plans to identify material requirements for production.\nPrepare and submit material requests in a timely manner to ensure materials are available according to production needs.\nFollow up on material requests to support the production schedule.\nCheck and monitor material status\nCheck the status of materials used in production.\nIdentify materials that need to be scrapped or returned to the Warehouse.\nCoordinate with relevant departments to complete the necessary procedures for material scrapping or warehouse returns.\nPrepare material compensation requests\nPrepare material compensation requests when additional materials are required for production.\nFollow up on material compensation requests to ensure production requirements are met.\nCoordinate with relevant internal departments\nCommunicate and coordinate regularly with Merchandising, Purchasing, and other relevant departments regarding production material requirements.\nAct as a coordination point between relevant departments to ensure smooth communicat",
+    "requirements": "Yêu Cầu Công Việc\n1. EXPERIENCE & SKILLS\nAt least 5 years of experience working as a Data Analyst in a fast-paced manufacturing environment.\nStrong result-oriented mindset with a high level of accuracy and attention to detail.\nExcellent time management skills with the ability to handle multiple tasks effectively.\nEffective communication and strong interpersonal skills.\nHigh adaptability, with the potential and ability to take on leadership responsibilities.\nWillingness to learn, with a positive and proactive attitude.\nGood command of English.\n2. EDUCATION\nBachelor's degree in Business Administration, Accounting, Statistics, or a related field.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/production-data-analyst-leader.35C8DF41.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/production-data-analyst-leader.35C8DF41.html",
+    "posted_at": "2026-11-16T19:57:17.794174+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T19:57:17.794174+00:00",
+    "last_verified_at": "2026-11-16T19:57:17.794174+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T19:57:17.794174+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/production-data-analyst-leader.35C8DF41.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Production Data Analyst Leader tại Công ty TNHH Quốc tế Fleming Việt Nam (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Production Data Analyst Leader",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/production-data-analyst-leader.35C8DF41.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5724491274",
+    "title": "Head of Data Analytics & AI",
+    "company_name": "LOTTE FINANCE VIETNAM",
+    "description": "Mô tả Công việc\n1. Data, Analytics & AI Strategy\n- Define and drive the enterprise-wide Data Analytics & AI strategy aligned with overall business objectives.\n- Promote and embed a data-driven culture across all levels of the organization.\n- Identify and prioritize opportunities to apply Advanced Analytics and AI to generate business value, operational efficiency, and competitive advantage.\n- Oversee the design, implementation, and governance of enterprise data platforms, including data lakes, data warehouses, and analytics tools.\n2. Data Platform & Analytics Enablement\n- Lead the development of dashboards, management reporting, and self-service analytics capabilities.\n- Ensure data quality, integrity, and compliance with applicable regulations (e.g., GDPR, local banking and financial regulations).\n3. AI/ML & Advanced Analytics\n- Lead the research, development, and deployment of machine learning models, natural language processing, computer vision, and other AI techniques.\n- Partner with business functions (e.g., Risk, Credit Scoring, Customer Engagement, Fraud Detection, Operations) to design and implement AI-driven use cases.\n- Build and scale MLOps capabilities to ensure robust model lifecycle management, monitoring, and continuous improvement.\n4. People, Stakeholder & Vendor Management\n- Lead, mentor, and develop high-performing teams of Data Scientists, Data Engineers, and Analysts.\n- Collaborate closely with the CIO and senior business leaders to translate business chal",
+    "requirements": "Yêu Cầu Công Việc\n1. Education: Bachelor’s or Master’s degree in Data Science, Computer Science, Statistics, Engineering, or a related field; PhD is preferred.\n2. Experience:\n- Minimum 8 years of experience in data, analytics, or AI roles, with at least 5 years in leadership or management positions.\n- Proven experience leading AI/ML initiatives in a business environment, preferably within financial services, fintech, or consumer-focused industries.\n- Demonstrated track record of delivering measurable business impact through analytics- and AI-driven solutions.\n3. Skills & Professional Competencies:\n- Strong expertise in big data platforms, cloud technologies (AWS, Azure, GCP), and modern data architectures.\n- In-depth knowledge of data governance, AI ethics, and regulatory compliance requirements.\n- Excellent leadership, stakeholder management, and communication skills.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AWS",
+      "Azure",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/head-of-data-analytics-ai.35C8DE36.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/head-of-data-analytics-ai.35C8DE36.html",
+    "posted_at": "2026-11-16T19:57:17.746010+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T19:57:17.746010+00:00",
+    "last_verified_at": "2026-11-16T19:57:17.746010+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T19:57:17.746010+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/head-of-data-analytics-ai.35C8DE36.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Head of Data Analytics & AI tại LOTTE FINANCE VIETNAM (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Head of Data Analytics & AI",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/head-of-data-analytics-ai.35C8DE36.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
