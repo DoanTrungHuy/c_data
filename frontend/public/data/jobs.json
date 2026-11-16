@@ -36444,6 +36444,791 @@
     "is_active": true
   },
   {
+    "id": "itv_live_8176218847",
+    "title": "Project Management (Hospitality Domain Experience)",
+    "company_name": "VinSmart Future",
+    "description": "Job description\nTake ownership of IT setup projects for newly opening hotels, managing projects throughout their entire lifecycle.\nAct as the key point of contact coordinating among Hotel Management Companies, Business, IT teams, hotel operators, Vendors, and external partners.\nWork closely with hotel management partners and major international hotel brands to align system requirements, standards, project scope, and implementation plans.\nDefine project scope, requirements, and implementation plans; develop project timelines and monitor key milestones.\nCoordinate cross-functional resources, including PO/BA, Developers, QC, Infrastructure, Information Security, and Vendors, to ensure timely project execution.\nOversee system analysis, development/configuration, integration, testing, and acceptance processes.\nProactively manage project progress, budget, costs, scope, resources, risks, issues, and change requests; promptly address or escalate any matters affecting project delivery.\nCoordinate with Business teams and external partners on UAT, training, data preparation, and Go-live readiness.\nManage Go-live activities, monitor initial operations, and ensure a smooth handover to the relevant business and operational teams.\nMonitor Vendor performance and delivery quality, ensuring that all deliverables and acceptance documentation meet project requirements.\nConsolidate and report project status, highlighting key issues and recommending appropriate solutions for decision-making.",
+    "requirements": "Your skills and experience\nBachelor's degree in Information Technology, Economics, Business Administration, or a related field.\nAt least 5 years of working experience, including a minimum of 3 years in IT project management or implementation.\nExperience working with hotel operators, management companies, and major international hotel brands, particularly in the Hospitality/Multi-property environment, is required.\nProven experience in system implementation, integration, or rollout across multiple sites or properties.\nStrong ability to coordinate with Business, IT, Vendors, and external partners, managing multiple stakeholders and workstreams simultaneously.\nStrong project management skills, with the ability to monitor project progress, manage timelines, and resolve issues effectively.\nGood command of English, with the ability to communicate effectively in meetings, discuss requirements, and work with documentation and international partners.\nWillingness to travel as required by project ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Go / Golang",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/project-management-hospitality-domain-experience-vinsmart-future-1053",
+    "apply_url": "https://itviec.com/it-jobs/project-management-hospitality-domain-experience-vinsmart-future-1053",
+    "posted_at": "2026-11-16T09:49:51.019607+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:51.019607+00:00",
+    "last_verified_at": "2026-11-16T09:49:51.019607+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:51.019607+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/project-management-hospitality-domain-experience-vinsmart-future-1053",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Project Management (Hospitality Domain Experience) tại VinSmart Future (Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Project Management (Hospitality Domain Experience)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/project-management-hospitality-domain-experience-vinsmart-future-1053",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_2768266023",
+    "title": "Network Security (24/7 Team)",
+    "company_name": "Công ty Cổ phần Thanh toán số MobiFone",
+    "description": "Job description\nNetwork Security thuộc đội ngũ Incident Response vận hành 24/7, chịu trách nhiệm giám sát, vận hành, xử lý sự cố và đảm bảo an toàn cho lớp hạ tầng mạng và an ninh thông tin của hệ thống Data Center và Hybrid Cloud.\nJob Purpose:\nVai trò tập trung vào việc đảm bảo tính sẵn sàng, ổn định và an toàn 24/7 cho hạ tầng kết nối, ứng dụng và dữ liệu quan trọng của tổ chức; đồng thời tham gia xử lý các sự cố mạng, bảo mật theo SLA và quy trình vận hành. Phạm vi công việc bao gồm:\nThiết kế, triển khai và duy trì hệ thống bảo mật mạng đa tầng.\nQuản trị, vận hành hạ tầng Data Center và Hybrid Cloud.\nĐảm bảo an toàn kết nối và ứng dụng.\nThực hiện các tiêu chuẩn bảo mật đối với tổ chức trung gian thanh toán.\nGiám sát, tiếp nhận, xử lý và phối hợp khắc phục các sự cố mạng, bảo mật theo mô hình vận hành 24/7.\nResponsibilities\n1. Network & Infrastructure Security\nQuản trị và tối ưu hóa chính sách trên các thiết bị tường lửa thế hệ mới (NGFW - Palo Alto/Fortinet/Checkpoint) và hệ thống Cloudflare (WAF, DDoS Protection).\nQuản trị, vận hành và đảm bảo an toàn cho hạ tầng mạng tại Data Center và Hybrid Cloud.\nThiết kế và đảm bảo an ninh cho các kết nối giữa Data Center và Cloud (VPN S2S, Interconnect/Direct Connect).\nRà soát định kỳ network rules, phân tích log, thực hiện troubleshooting và các biện pháp hardening cho thiết bị mạng.\n2. Application & Data Security\nVận hành chuyên sâu các thiết bị F5 (LTM cho cân bằng tải, ASM/AWAF cho bảo mật ứng dụng web).\nQuản trị hệ thống Databa",
+    "requirements": "Your skills and experience\nKinh nghiệm & Kỹ năng\nTối thiểu 3 năm kinh nghiệm chuyên sâu về Network Security trong môi trường Enterprise hoặc Data Center.\nKiến thức mạng vững chắc: hiểu sâu về TCP/IP, Routing/Switching (OSPF, BGP) và các giao thức mạng.\nThành thạo cấu hình và troubleshooting NGFW, ưu tiên Palo Alto hoặc Fortinet.\nCó kinh nghiệm vận hành F5 Big-IP (Module LTM, ASM/AWAF) và Cloudflare.\nCó kinh nghiệm triển khai hoặc vận hành CyberArk và các giải pháp Database Firewall (Imperva/IBM Guardium/DataSunrise...).\nCó kinh nghiệm xử lý sự cố mạng và bảo mật trong môi trường yêu cầu cao về tính sẵn sàng là lợi thế.\nCó khả năng làm việc theo mô hình 24/7, bao gồm trực ca và/hoặc trực on-call theo phân công.\nNăng lực chuyên môn & Chứng chỉ\nCó tư duy hiện đại về Network Segmentation và Zero Trust.\nCó khả năng phân tích sự cố, troubleshooting và đưa ra phương án xử lý trong môi trường vận hành liên tục.\nCác chứng chỉ quốc tế như CCNP Security, PCNSE (Palo Alto), F5-CTS hoặc tương đương",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 30 - Tòa tháp C5 D’Capital, 119 Trần Duy Hưng, Phường Yên Hoà, Thành phố , Hà Nội, Việt Nam, Yen Hoa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "AWS",
+      "CI/CD DevOps",
+      "Cisco Networking",
+      "Firewall",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/network-security-24-7-team-cong-ty-co-phan-thanh-toan-so-mobifone-0204",
+    "apply_url": "https://itviec.com/it-jobs/network-security-24-7-team-cong-ty-co-phan-thanh-toan-so-mobifone-0204",
+    "posted_at": "2026-11-16T09:49:50.944918+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:50.944918+00:00",
+    "last_verified_at": "2026-11-16T09:49:50.944918+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:50.944918+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/network-security-24-7-team-cong-ty-co-phan-thanh-toan-so-mobifone-0204",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 30 - Tòa tháp C5 D’Capital, 119 Trần Duy Hưng, Phường Yên Hoà, Thành phố , Hà Nội, Việt Nam, Yen Hoa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Network Security (24/7 Team) tại Công ty Cổ phần Thanh toán số MobiFone (Tầng 30 - Tòa tháp C5 D’Capital, 119 Trần Duy Hưng, Phường Yên Hoà, Thành phố , Hà Nội, Việt Nam, Yen Hoa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Network Security (24/7 Team)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/network-security-24-7-team-cong-ty-co-phan-thanh-toan-so-mobifone-0204",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 30 - Tòa tháp C5 D’Capital, 119 Trần Duy Hưng, Phường Yên Hoà, Thành phố , Hà Nội, Việt Nam, Yen Hoa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9754198007",
+    "title": "Application Security (AppSec, Python, Security, DevOps)",
+    "company_name": "Bolt Tech",
+    "description": "Job description\n1. Mục đích công việc\nĐịnh hướng chiến lược và kiến trúc bảo mật ứng dụng của Công ty; thiết kế chương trình AppSec, tiêu chuẩn kỹ thuật và lộ trình DevSecOps; là đầu mối chuyên môn cao nhất về bảo mật ứng dụng.\n2. Chức năng - nhiệm vụ chính\nChức năng\nQuy trình phát triển an toàn (SSDLC)\nNhiệm vụ chính\nChủ trì xây dựng quy trình SSDLC và tiêu chí security gate trước khi phát hành; thực hiện threat modeling cho tính năng rủi ro cao (đặt lệnh, nạp/rút tiền, eKYC, xác thực).\nThiết kế kiến trúc tham chiếu bảo mật ứng dụng (xác thực, phân quyền, mã hóa, quản lý bí mật); review kiến trúc các hệ thống mới, phần mềm mua ngoài.\nKết quả đầu ra\nQuy trình SSDLC, tiêu chí security gate; báo cáo threat model.\nKiến trúc tham chiếu bảo mật; biên bản review kiến trúc.\nChức năng\nKiểm thử bảo mật ứng dụng\nNhiệm vụ chính\nLập kế hoạch kiểm thử bảo mật hằng năm; quản lý, nghiệm thu đơn vị pentest thuê ngoài; kiểm soát chất lượng báo cáo kiểm thử.\nKết quả đầu ra\nKế hoạch kiểm thử năm; biên bản nghiệm thu dịch vụ pentest.\nChức năng\nDevSecOps và công cụ\nNhiệm vụ chính\nChủ trì tích hợp kiểm tra bảo mật vào CI/CD, tinh chỉnh quy tắc, giảm cảnh báo sai, đặt quy tắc chặn build theo mức độ nghiêm trọng.\nĐánh giá, lựa chọn công cụ AppSec và lộ trình DevSecOps phù hợp với năng lực đội phát triển.\nKết quả đầu ra\nTỷ lệ repo ứng dụng trọng yếu có quét bảo mật; tài liệu cấu hình, quy tắc chặn build.\nĐề xuất giải pháp, lộ trình DevSecOps được phê duyệt.\nChức năng\nQuản lý lỗ hổng ứng dụng\nNhiệm vụ",
+    "requirements": "Your skills and experience\nYêu cầu về trình độ, kiến thức, kỹ năng,… cần có\nTrình độ\nTốt nghiệp Đại học trở lên; ưu tiên Thạc sĩ chuyên ngành liên quan.\nChuyên ngành\nCông nghệ thông tin, An toàn thông tin, Khoa học máy tính, Kỹ thuật phần mềm hoặc chuyên ngành tương đương.\nKiến thức chuyên môn\nChuyên sâu về kiến trúc bảo mật ứng dụng, mật mã ứng dụng, xác thực/phân quyền phân tán, microservices.\nAm hiểu DevSecOps, supply chain security (SBOM, SLSA), bảo mật cloud-native.\nHiểu quy định ngành chứng khoán về giao dịch điện tử và bảo vệ dữ liệu khách hàng.\nKinh nghiệm\nTối thiểu 8 năm trong lĩnh vực bảo mật ứng dụng/kiến trúc bảo mật, đã dẫn dắt chương trình AppSec ở tổ chức quy mô lớn.\nSử dụng phần mềm/AI/…\nBurp Suite, OWASP ZAP, Postman; công cụ kiểm thử mobile (MobSF, Frida, Objection).\nCông cụ SAST/SCA (SonarQube, Semgrep, Checkmarx, Snyk hoặc tương đương); Git, CI/CD (GitLab CI, Jenkins).\nViết script tự động hóa (Python, Bash); sử dụng công cụ AI hỗ trợ review mã nguồn, tuân thủ quy đị",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 8, Tòa nhà Hapro Building, 11B Cát Linh, O Cho Dua, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Kubernetes",
+      "AWS",
+      "CI/CD DevOps",
+      "Linux",
+      "Firewall"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/application-security-appsec-python-security-devops-bolt-tech-4817",
+    "apply_url": "https://itviec.com/it-jobs/application-security-appsec-python-security-devops-bolt-tech-4817",
+    "posted_at": "2026-11-16T09:49:50.797202+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:50.797202+00:00",
+    "last_verified_at": "2026-11-16T09:49:50.797202+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:50.797202+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/application-security-appsec-python-security-devops-bolt-tech-4817",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 8, Tòa nhà Hapro Building, 11B Cát Linh, O Cho Dua, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Application Security (AppSec, Python, Security, DevOps) tại Bolt Tech (Tầng 8, Tòa nhà Hapro Building, 11B Cát Linh, O Cho Dua, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Application Security (AppSec, Python, Security, DevOps)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/application-security-appsec-python-security-devops-bolt-tech-4817",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 8, Tòa nhà Hapro Building, 11B Cát Linh, O Cho Dua, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_5340026497",
+    "title": "Senior DBA/ Database Administrator (MySQL, MongoDB)",
+    "company_name": "CTCP SÀN GIAO DỊCH TÀI SẢN MÃ HÓA VIỆT NAM THỊNH VƯỢNG (CAEX)",
+    "description": "Job description\nThiết kế, triển khai và vận hành toàn bộ hệ thống cơ sở dữ liệu MySQL và MongoDB cho sàn giao dịch crypto, đảm bảo hệ thống hoạt động ổn định 24/7 với uptime tối thiểu 99.9%.\nThiết kế schema và data model cho các nghiệp vụ trading engine, order book, wallet management và KYC/AML; triển khai, quản lý MySQL Cluster (InnoDB Cluster, Group Replication, ProxySQL) và MongoDB Cluster (Replica Sets, Sharded Clusters), đảm bảo high availability, automatic failover và khả năng xử lý tải cao.\nTối ưu hiệu năng truy vấn thông qua query optimization, index tuning và execution plan analysis, đảm bảo latency thấp cho matching engine và order processing.\nXây dựng và duy trì chiến lược backup/restore, point-in-time recovery cho MySQL và MongoDB, đảm bảo các chỉ số RPO/RTO theo yêu cầu của sàn giao dịch.\nTriển khai các biện pháp bảo mật database gồm encryption at rest/in transit, access control, audit logging và data masking cho dữ liệu nhạy cảm như PII và thông tin tài chính.\nThiết kế và triển khai phương án Disaster Recovery, bao gồm cross-region replication và automated failover; thiết lập hệ thống giám sát và cảnh báo chủ động qua PMM, Grafana, custom dashboards; tham gia on-call rotation để xử lý sự cố database 24/7.\nPhối hợp với team Development để review, tối ưu database queries và tư vấn thiết kế data model cho các tính năng mới; xây dựng quy trình schema/data migration đảm bảo zero-downtime deployment; cung cấp tài liệu về kiến trúc database, quy trình vận hành và troub",
+    "requirements": "Your skills and experience\nCó từ 4 năm kinh nghiệm quản trị cơ sở dữ liệu (DBA) trong môi trường production, ưu tiên kinh nghiệm trong lĩnh vực fintech hoặc sàn giao dịch\nThành thạo MySQL/MariaDB: InnoDB internals, replication (async, semi-sync, group replication), InnoDB Cluster, ProxySQL, query optimization, partitioning\nThành thạo MongoDB: Replica Sets, Sharded Clusters, aggregation pipeline, WiredTiger storage engine, change streams\nKinh nghiệm thiết kế và triển khai giải pháp high availability, disaster recovery cho database systems\nKinh nghiệm với database performance tuning, capacity planning và troubleshooting trong môi trường high-traffic, low-latency\nKiến thức về database security: encryption, access control, audit, compliance (PCI-DSS là lợi thế)\nKinh nghiệm với automation tools cho database operations: Ansible, Terraform, scripting (Bash, Python)\nKinh nghiệm với containerized databases (Docker, Kubernetes Operators cho MySQL/MongoDB) là lợi thế\nTiếng Anh đọc hiểu tài liệu k",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 04, Tòa nhà số 5 Điện Biên Phủ, Ba Dinh, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Next.js",
+      "Go / Golang",
+      "Docker"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-dba-database-administrator-mysql-mongodb-ctcp-san-giao-dich-tai-san-ma-hoa-viet-nam-thinh-vuong-caex-4805",
+    "apply_url": "https://itviec.com/it-jobs/senior-dba-database-administrator-mysql-mongodb-ctcp-san-giao-dich-tai-san-ma-hoa-viet-nam-thinh-vuong-caex-4805",
+    "posted_at": "2026-11-16T09:49:51.249225+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:51.249225+00:00",
+    "last_verified_at": "2026-11-16T09:49:51.249225+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:51.249225+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-dba-database-administrator-mysql-mongodb-ctcp-san-giao-dich-tai-san-ma-hoa-viet-nam-thinh-vuong-caex-4805",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 04, Tòa nhà số 5 Điện Biên Phủ, Ba Dinh, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior DBA/ Database Administrator (MySQL, MongoDB) tại CTCP SÀN GIAO DỊCH TÀI SẢN MÃ HÓA VIỆT NAM THỊNH VƯỢNG (CAEX) (Tầng 04, Tòa nhà số 5 Điện Biên Phủ, Ba Dinh, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Senior DBA/ Database Administrator (MySQL, MongoDB)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-dba-database-administrator-mysql-mongodb-ctcp-san-giao-dich-tai-san-ma-hoa-viet-nam-thinh-vuong-caex-4805",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 04, Tòa nhà số 5 Điện Biên Phủ, Ba Dinh, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_7956104604",
+    "title": "Lead Penetration Tester (Pentester)",
+    "company_name": "ITviec Recruitment Consulting",
+    "description": "Job description\nITviec's client\nis an AI-centric global digital transformation company. We design advanced data and AI transformation solutions, modernize technology architectures and develop next-generation core systems for industry leaders in Banking, Insurance, Manufacturing and Robotics. Partnering closely with our clients, we push boundaries to unlock their full potential.\nAs a Lead Penetration Tester, you will be responsible for leading and performing authorized security testing activities across applications, digital platforms, APIs, infrastructure, cloud environments, and related systems. This role is designed as a hands-on technical leadership position, with approximately 70% focus on penetration testing execution and 30% focus on leading, guiding, reviewing, and coordinating security testing activities.\nThe role focuses on identifying security vulnerabilities, validating risks, supporting remediation, and ensuring that systems meet security, regulatory, and industry requirements. You will be expected to act as a senior technical expert, providing direction on testing approach, reviewing findings, mentoring team members, and ensuring high-quality penetration testing deliverables.\nYou will work closely with security teams, application teams, infrastructure teams, DevOps, architects, business stakeholders, and compliance teams to plan and perform penetration testing across web, mobile, API, cloud, and network environments. The role requires strong hands-on technical se",
+    "requirements": "Your skills and experience\nRequired Skills\nStrong hands-on experience in penetration testing, vulnerability assessment, ethical hacking, and security testing across application, API, mobile, network, and cloud environments.\nProven experience leading or coordinating penetration testing activities, including test planning, execution tracking, finding review, stakeholder communication, and retesting coordination.\nStrong knowledge of web and API security vulnerabilities, including OWASP Top 10, API authentication, authorization, token handling, insecure direct object references, injection, broken access control, and business logic flaws.\nExperience testing iOS and Android applications, including mobile application security controls, local storage, certificate pinning, authentication, session handling, and secure communication.\nExperience in assessing network services, servers, operating systems, misconfigurations, access controls, and common infrastructure vulnerabilities.\nFamiliarity with",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "City, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/lead-penetration-tester-pentester-itviec-recruitment-consulting-2038",
+    "apply_url": "https://itviec.com/it-jobs/lead-penetration-tester-pentester-itviec-recruitment-consulting-2038",
+    "posted_at": "2026-11-16T09:49:51.230223+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:51.230223+00:00",
+    "last_verified_at": "2026-11-16T09:49:51.230223+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:51.230223+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/lead-penetration-tester-pentester-itviec-recruitment-consulting-2038",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "City, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Lead Penetration Tester (Pentester) tại ITviec Recruitment Consulting (City, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Lead Penetration Tester (Pentester)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/lead-penetration-tester-pentester-itviec-recruitment-consulting-2038",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "City, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1696700243",
+    "title": "Mid / Senior Business Analyst (ERP/ Odoo)",
+    "company_name": "CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ CÔNG NGHỆ THG",
+    "description": "Your skills and experience\n2. Yêu cầu\nTốt nghiệp Đại học các chuyên ngành: Công nghệ thông tin, Hệ thống thông tin quản lý, Kinh tế, Quản trị kinh doanh hoặc các ngành liên quan.\nTối thiểu 3 - 5 năm kinh nghiệm trở lên\nở vị trí Business Analyst, trong đó có kinh nghiệm BA cho ERP hoặc ứng dụng quản trị doanh nghiệp.\nHiểu sâu nghiệp vụ ít nhất một vài phân hệ: HRM, MES/Sản xuất, Kho/WMS, Kế toán – Tài chính, Mua hàng, Bán hàng/CRM.\nƯu tiên ứng viên đã từng làm BA cho Odoo\n(hoặc ERP tương đương: SAP, Oracle, Microsoft Dynamics, Bravo, MISA AMIS…).\nThành thạo công cụ mô hình hóa và quản lý tài liệu: BPMN/UML, Figma/draw.io, Jira/Confluence hoặc tương đương.\nBiết viết user story và tiêu chí nghiệm thu (acceptance criteria); quen làm việc theo Agile/Scrum là lợi thế.\nKỹ năng phân tích, giao tiếp, thuyết trình và quản lý yêu cầu (requirement management) tốt; chủ động, cẩn thận, định hướng khách hàng.\nĐọc hiểu tốt tài liệu kỹ thuật tiếng Anh.\nƯu tiên có chứng chỉ liên quan: IIBA (ECBA/CCBA/CBAP), Odoo Functional Certification hoặc tương đương.",
+    "requirements": "Why you'll love working here\n3. Quyền lợi\nMức lương : thỏa thuận theo năng lực và kinh nghiệm; xét tăng lương định kỳ.\nThưởng lễ Tết, lương tháng 13.\nThưởng theo hiệu quả dự án và mức độ đóng góp.\nĐóng BHXH, BHYT, BHTN đầy đủ theo quy định.\nTham gia xây dựng quy trình phát triển phần mềm ERP ứng dụng AI\n– môi trường công nghệ hiện đại, làm việc trực tiếp với khách hàng doanh nghiệp.\nLộ trình phát triển rõ ràng: Senior BA / BA Lead / Solution Consultant; được đào tạo chuyên môn và nghiệp vụ ERP.\nCác chế độ phúc lợi khác theo quy định công ty (du lịch, team building, nghỉ phép…).\n4. Thông tin ứng tuyển\nTiêu đề email:\n[Họ tên] – Ứng tuyển BA ERP/Odoo\nThời gian làm việc:\nThứ 2 – Thứ 6, sáng 8h30 – 12h00, chiều 13h00 – 17h30\nĐịa chỉ:\nLô B12/D21 KĐT mới Cầu Giấy, ngõ 100 phố Dịch Vọng Hậu, phường Cầu Giấy, TP Hà Nội.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Lô B12/D21 KĐT mới Cầu Giấy, ngõ 100 phố Dịch Vọng Hậu, phường Cầu Giấy, TP , Hà Nội., Cau Giay, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "PHP",
+      "SQL Database",
+      "Oracle DB"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/mid-senior-business-analyst-erp-odoo-cong-ty-co-phan-dau-tu-va-cong-nghe-thg-0303",
+    "apply_url": "https://itviec.com/it-jobs/mid-senior-business-analyst-erp-odoo-cong-ty-co-phan-dau-tu-va-cong-nghe-thg-0303",
+    "posted_at": "2026-11-16T09:49:51.100907+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:51.100907+00:00",
+    "last_verified_at": "2026-11-16T09:49:51.100907+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Khảo sát, tiếp nhận và làm rõ yêu cầu của khách hàng cho các dự án ERP/Odoo và ứng dụng quản trị doanh nghiệp.",
+      "Phân tích, mô hình hóa quy trình nghiệp vụ hiện tại (As-is) và thiết kế quy trình mục tiêu (To-be); đề xuất giải pháp tối ưu trên Odoo.",
+      "Biên soạn tài liệu phân tích: đặc tả yêu cầu (SRS/FRS), user story, use case, sơ đồ quy trình (BPMN/UML), prototype/wireframe.",
+      "Làm đầu mối trao đổi giữa khách hàng và đội Dev/Test/Designer; làm rõ yêu cầu, kiểm soát và xử lý thay đổi (change request) trong suốt vòng đời dự án."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:51.100907+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/mid-senior-business-analyst-erp-odoo-cong-ty-co-phan-dau-tu-va-cong-nghe-thg-0303",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Lô B12/D21 KĐT mới Cầu Giấy, ngõ 100 phố Dịch Vọng Hậu, phường Cầu Giấy, TP , Hà Nội., Cau Giay, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Mid / Senior Business Analyst (ERP/ Odoo) tại CÔNG TY CỔ PHẦN ĐẦU TƯ VÀ CÔNG NGHỆ THG (Lô B12/D21 KĐT mới Cầu Giấy, ngõ 100 phố Dịch Vọng Hậu, phường Cầu Giấy, TP , Hà Nội., Cau Giay, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "Mid / Senior Business Analyst (ERP/ Odoo)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Khảo sát, tiếp nhận và làm rõ yêu cầu của khách hàng cho các dự án ERP/Odoo và ứng dụng quản trị doanh nghiệp.",
+          "Phân tích, mô hình hóa quy trình nghiệp vụ hiện tại (As-is) và thiết kế quy trình mục tiêu (To-be); đề xuất giải pháp tối ưu trên Odoo.",
+          "Biên soạn tài liệu phân tích: đặc tả yêu cầu (SRS/FRS), user story, use case, sơ đồ quy trình (BPMN/UML), prototype/wireframe.",
+          "Làm đầu mối trao đổi giữa khách hàng và đội Dev/Test/Designer; làm rõ yêu cầu, kiểm soát và xử lý thay đổi (change request) trong suốt vòng đời dự án."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/mid-senior-business-analyst-erp-odoo-cong-ty-co-phan-dau-tu-va-cong-nghe-thg-0303",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Lô B12/D21 KĐT mới Cầu Giấy, ngõ 100 phố Dịch Vọng Hậu, phường Cầu Giấy, TP , Hà Nội., Cau Giay, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_7542609928",
+    "title": "SAP ABAP Cloud/ RAP Technical Consultant",
+    "company_name": "LG CNS Việt Nam",
+    "description": "Job description\nDesign, develop, and maintain SAP ABAP programs using Classic ABAP (procedural & OO).\nDevelop and enhance CDS Views and RAP-based applications for SAP S/4HANA.\nPerform development using both SAP GUI (SE80) and Eclipse (ADT).\nBuild SAP UI components including ALV, Module Pool, and SmartForms.\nDevelop ERP module-related features and integrate systems using RFC, IDoc, BDC.\nImplement and manage SAP enhancements: BAdI, User Exit, Enhancement Framework, ensuring system consistency and data integrity.\nSupport S/4HANA conversion projects, including code adaptation and performance tuning.\nAnalyze and optimize program performance using efficient SQL, CDS, and HANA optimized techniques.\nAdhere strictly to Clean ABAP standards and internal development guidelines.\nCollaborate with functional consultants, project managers, and global stakeholders to deliver high-quality solutions.",
+    "requirements": "Your skills and experience\n[Required]\nBachelor's degree in computer science, Software Engineering, or a related field.\n3 years of hands-on SAP ABAP development experience.\nStrong skills in Classic ABAP (procedural & object-oriented).\nSolid understanding of SQL and ABAP Dictionary.\nPractical experience with RAP and CDS View development.\nGood experience working with SAP GUI (SE80).\nHands-on experience with ALV, Module Pool, SmartForms.\nExperience in ERP module development and system integration (RFC, IDoc, BDC).\nStrong experience implementing SAP enhancements (BAdI, User Exit).\nAbility to work in secure, confidential environments following strict data protection rules.\nWillingness to travel or work in Korea for short-term or long-term assignments if required.\n[Preferred]\nExperience with HANA SQL Script (AMDP).\nExperience using Eclipse (ADT) for ABAP development.\nExperience with S/4HANA conversion, code remediation, and performance improvement.\nKnowledge of OZ Report.\nStrong adherence to ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 15, tòa Keangnam Landmark 72, Mễ Trì, Yen Hoa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Oracle DB"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/sap-abap-cloud-rap-technical-consultant-lg-cns-viet-nam-2539",
+    "apply_url": "https://itviec.com/it-jobs/sap-abap-cloud-rap-technical-consultant-lg-cns-viet-nam-2539",
+    "posted_at": "2026-11-16T09:49:51.336400+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:51.336400+00:00",
+    "last_verified_at": "2026-11-16T09:49:51.336400+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:51.336400+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/sap-abap-cloud-rap-technical-consultant-lg-cns-viet-nam-2539",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 15, tòa Keangnam Landmark 72, Mễ Trì, Yen Hoa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí SAP ABAP Cloud/ RAP Technical Consultant tại LG CNS Việt Nam (Tầng 15, tòa Keangnam Landmark 72, Mễ Trì, Yen Hoa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "SAP ABAP Cloud/ RAP Technical Consultant",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/sap-abap-cloud-rap-technical-consultant-lg-cns-viet-nam-2539",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 15, tòa Keangnam Landmark 72, Mễ Trì, Yen Hoa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_3577715278",
     "title": "Lập Trình Viên Frontend React / Next.js",
     "company_name": "FPT Software",
@@ -69483,6 +70268,116 @@
         "verified": true,
         "source_name": "CareerViet",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-kiem-soat-dau-thau-va-mua-sam-cntt.35C8DD19.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5282407664",
+    "title": "CVCC Vận hành Hệ thống (POS & Thẻ) – ID11210",
+    "company_name": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
+    "description": "Mô tả Công việc\nTham gia công tác triển khai máy POS\nTham gia công tác vận hành máy POS và hỗ trợ các đơn vị chấp nhận thẻ\nHỗ trợ các công tác quản lý hợp đồng giám sát công việc bảo trì/dịch vụ của các nhà cung cấp máy POS, hóa đơn,...\nKiểm soát chất lượng dịch vụ POS\nTham gia xây dựng các văn bản quy trình, quy định liên quan đến dịch vụ máy POS",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp ĐH chuyên ngành CNTT/Điện tử\nCó ít nhất 3 năm kinh nghiệm trong công tác vận hành hệ thống POS/Hệ thống tin học ngân hàng\nCó kiến thức về hoạt động của máy POS\nCó kiến thức cơ bản và am hiểu về tình hình kinh tế, thị trường, các hoạt động kinh doanh, đối thủ cạnh tranh tại địa bàn...\nKhả năng làm việc nhóm, làm việc độc lập với cường độ cao\nKhả năng đàm phán, giao tiếp, thuyết trình tốt",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/cvcc-van-hanh-he-thong-pos-the-id11210.35C8DE59.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/cvcc-van-hanh-he-thong-pos-the-id11210.35C8DE59.html",
+    "posted_at": "2026-11-16T09:49:25.640785+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-16T09:49:25.640785+00:00",
+    "last_verified_at": "2026-11-16T09:49:25.640785+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-16T09:49:25.640785+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cvcc-van-hanh-he-thong-pos-the-id11210.35C8DE59.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí CVCC Vận hành Hệ thống (POS & Thẻ) – ID11210 tại Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "16/11/2026",
+      "checked_at": "16/11/2026",
+      "live_h1": "CVCC Vận hành Hệ thống (POS & Thẻ) – ID11210",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/cvcc-van-hanh-he-thong-pos-the-id11210.35C8DE59.html",
         "url_status": 200,
         "company_official_hotline": "1900.58.58.88",
         "recruiter_email": "contact@careerviet.vn",
