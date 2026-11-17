@@ -37229,6 +37229,902 @@
     "is_active": true
   },
   {
+    "id": "itv_live_5798990145",
+    "title": "Manual Quality Assurance (Senior/Lead)",
+    "company_name": "VinSmart Future",
+    "description": "Job description\nPhân tích tài liệu yêu cầu nghiệp vụ (BRD, SRS, User Story) để hiểu rõ chức năng và yêu cầu của hệ thống.\nThiết kế Test Scenario, Test Case và Test Checklist dựa trên yêu cầu dự án.\nThực hiện kiểm thử chức năng (Functional Testing), kiểm thử tích hợp (Integration Testing), kiểm thử hồi quy (Regression Testing) và kiểm thử giao diện (UI/UX Testing).\nPhát hiện, ghi nhận, theo dõi và xác minh lỗi trên các hệ thống quản lý lỗi như Jira, Redmine, Azure DevOps hoặc các công cụ tương đương.\nPhối hợp với BA, Developer và các bên liên quan để làm rõ yêu cầu, hỗ trợ phân tích và xử lý lỗi.\nThực hiện kiểm thử trên nền tảng Web, Mobile App hoặc các nền tảng khác theo phân công.\nBáo cáo kết quả kiểm thử, tiến độ công việc và đánh giá chất lượng sản phẩm.\nTham gia review tài liệu yêu cầu, tài liệu kiểm thử và đề xuất cải tiến quy trình kiểm thử.\nĐảm bảo sản phẩm đáp ứng các yêu cầu về chất lượng trước khi triển khai.",
+    "requirements": "Your skills and experience\nTốt nghiệp Đại học khối ngành Công nghệ thông tin hoặc các ngành liên quan.\nĐối với vị trí Senior (Hà Nội): Tối thiểu 05 năm kinh nghiệm kiểm thử phần mềm thủ công (Manual Testing).\nĐối với vị trí Leader (TP. Hồ Chí Minh): Tối thiểu 05 năm kinh nghiệm kiểm thử phần mềm thủ công (Manual Testing), trong đó có kinh nghiệm dẫn dắt và quản lý đội nhóm.\nCó kinh nghiệm kiểm thử Web Application hoặc Mobile Application.\nHiểu rõ quy trình kiểm thử phần mềm (Software Testing Life Cycle – STLC).\nThành thạo các kỹ thuật thiết kế Test Case: Equivalence Partitioning, Boundary Value Analysis, Decision Table Testing và State Transition Testing.\nCó khả năng đọc hiểu tài liệu yêu cầu và phân tích nghiệp vụ.\nSử dụng thành thạo các công cụ quản lý lỗi và công việc như Jira, Trello, Azure DevOps hoặc các công cụ tương đương.\nCó kiến thức cơ bản về SQL để kiểm tra dữ liệu.\nCó kỹ năng giao tiếp, làm việc nhóm và giải quyết vấn đề tốt.\nCẩn thận, tỉ mỉ và có tư duy chất lượng.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Tầng 20A, Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, phường Bến Nghé, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Azure",
+      "CI/CD DevOps",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/manual-quality-assurance-senior-lead-vinsmart-future-4125",
+    "apply_url": "https://itviec.com/it-jobs/manual-quality-assurance-senior-lead-vinsmart-future-4125",
+    "posted_at": "2026-11-17T11:22:39.943010+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:39.943010+00:00",
+    "last_verified_at": "2026-11-17T11:22:39.943010+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:39.943010+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/manual-quality-assurance-senior-lead-vinsmart-future-4125",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 20A, Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, phường Bến Nghé, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Manual Quality Assurance (Senior/Lead) tại VinSmart Future (Tầng 20A, Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, phường Bến Nghé, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Manual Quality Assurance (Senior/Lead)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/manual-quality-assurance-senior-lead-vinsmart-future-4125",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 20A, Vincom Center Đồng Khởi, 72 Lê Thánh Tôn, phường Bến Nghé, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_2043702579",
+    "title": "Senior Application Operations Engineer (SysOps)",
+    "company_name": "Ngân hàng TMCP Tiên Phong | TPBank",
+    "description": "Job description\nVận hành một trong các hệ thống ứng dụng ngân hàng/corebanking/ebank và các hệ thống phần mềm khác nhằm đảm bảo các ứng dụng hoạt động liên tục.\nGiám sát các hệ thống máy chủ ứng dụng và hoạt động của các ứng dụng để phát hiện ra các vấn đề bất thường để từ đó đưa ra các giải pháp và thực hiện nhằm đảm bảo các phần mềm ứng dụng hoạt động liên tục;\nHỗ trợ cấp 2 đối với người dùng và bộ phận nghiệp vụ.\nTiếp nhận thông tin lỗi/vướng mắc của người sử dụng phần mềm, của các bộ phận nghiệp vụ.\nHỗ trợ người dùng và bộ phận nghiệp vụ tìm hiểu lý do của các lỗi/vướng mắc, giải thích và khắc phục các lỗi/vướng mắc đó;\nTiếp nhận bàn giao, triển khai, cài đặt, cấu hình các phần mềm ứng dụng\nRà soát, xây dựng các tài liệu chi tiết phục vụ cho công tác Vận hành ứng dụng. Bao gồm: Tài liệu vận hành, Tài liệu hướng dẫn\nThực hiện các công việc/nhiệm vụ khác theo yêu cầu.",
+    "requirements": "Your skills and experience\nTốt nghiệp đại học chuyên ngành Công nghệ thông tin\nKinh nghiệm 3-5 năm trong lĩnh vực Công nghệ thông tin của ngân hàng/các công ty tài chính, có kinh nghiệm làm vận hành ứng dụng back office hoặc sử dụng các tools, máy chủ ứng dụng\nCó kinh nghiệm vận hành các hệ thống trên nền tảng tomcat, websphere, các hệ thống triển khai trên nền tảng container (okd, openshift) các công cụ hỗ trợ hận hành ELK stack\nCó thể giao tiếp, trao đổi, email, đọc các tài liệu bằng tiếng Anh cơ bản trong lĩnh vực chuyên môn.\nCẩn thận, tiếp thu nhanh các giải pháp công nghệ mới và vận dụng vào trong công việc\nChịu được áp lực công việc cao",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "57  Lý Thường Kiệt, Cua Nam, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-application-operations-engineer-sysops-ngan-hang-tmcp-tien-phong-tpbank-3549",
+    "apply_url": "https://itviec.com/it-jobs/senior-application-operations-engineer-sysops-ngan-hang-tmcp-tien-phong-tpbank-3549",
+    "posted_at": "2026-11-17T11:22:39.873627+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:39.873627+00:00",
+    "last_verified_at": "2026-11-17T11:22:39.873627+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:39.873627+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-application-operations-engineer-sysops-ngan-hang-tmcp-tien-phong-tpbank-3549",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "57  Lý Thường Kiệt, Cua Nam, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Application Operations Engineer (SysOps) tại Ngân hàng TMCP Tiên Phong | TPBank (57  Lý Thường Kiệt, Cua Nam, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Senior Application Operations Engineer (SysOps)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-application-operations-engineer-sysops-ngan-hang-tmcp-tien-phong-tpbank-3549",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "57  Lý Thường Kiệt, Cua Nam, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_6248875989",
+    "title": "Fullstack Developer (Java, VueJS, PostgreSQL, SQL)",
+    "company_name": "Usol Vietnam",
+    "description": "Job description\nTham gia các dự án phát triển mới, cải tiến và bảo trì hệ thống cho khách hàng Nhật Bản lâu năm của công ty.\nLĩnh vực dự án chủ yếu liên quan đến hệ thống nghiệp vụ, quản lý dịch vụ công cộng, quản lý dữ liệu và các hệ thống doanh nghiệp hàng không, đường sắt, ngân hàng…\nTham gia các giai đoạn phát triển phần mềm như: phân tích yêu cầu, thiết kế cơ bản, thiết kế chi tiết, coding, code review, unit test, fix bug và cải tiến chất lượng.\nPhối hợp với team Việt Nam và phía khách hàng Nhật để làm rõ yêu cầu, xử lý issue và đảm bảo tiến độ/chất lượng.\nCó cơ hội sử dụng các công cụ AI để hỗ trợ coding, review source code, tạo unit test, phân tích lỗi và nâng cao năng suất phát triển.\nNội dung công việc chi tiết sẽ được trao đổi thêm trong quá trình phỏng vấn.",
+    "requirements": "Your skills and experience\nCó từ 02 năm kinh nghiệm phát triển phần mềm với Java.\nCó kinh nghiệm với Spring, Spring Boot hoặc các framework Java tương đương.\nCó kinh nghiệm VueJS/NuxtJS, JavaScript, HTML, CSS hoặc các công nghệ frontend liên quan.\nNắm vững lập trình hướng đối tượng, clean code, xử lý lỗi và tư duy thiết kế chương trình.\nCó kinh nghiệm làm việc với cơ sở dữ liệu như PostgreSQL, Oracle, SQL Server.\nCó kinh nghiệm viết SQL, phân tích dữ liệu và xử lý logic nghiệp vụ.\nCó kinh nghiệm sử dụng Git, SVN hoặc các công cụ quản lý source code.\nCó kinh nghiệm làm việc với các công cụ quản lý task/issue như Redmine, Jira hoặc tương đương.\nCó hiểu biết về quy trình phát triển phần mềm, unit test, code review và quản lý chất lượng.\nCó khả năng đọc hiểu tài liệu kỹ thuật, chủ động trao đổi khi có điểm chưa rõ.\nCó tinh thần trách nhiệm, ham học hỏi, làm việc nhóm tốt và sẵn sàng tiếp nhận thử thách mới.\nYêu cầu khác\nCác năng lực, kinh nghiệm dưới đây là lợi thế lớn.\nCó kinh nghiệm tham",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 20, Tháp Hòa Bình, 106 Hoàng Quốc Việt, Nghia Do, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Vue.js",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/fullstack-developer-javascripts-sping-postgresql-usol-vietnam-4634",
+    "apply_url": "https://itviec.com/it-jobs/fullstack-developer-javascripts-sping-postgresql-usol-vietnam-4634",
+    "posted_at": "2026-11-17T11:22:40.509865+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:40.509865+00:00",
+    "last_verified_at": "2026-11-17T11:22:40.509865+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:40.509865+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/fullstack-developer-javascripts-sping-postgresql-usol-vietnam-4634",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 20, Tháp Hòa Bình, 106 Hoàng Quốc Việt, Nghia Do, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Fullstack Developer (Java, VueJS, PostgreSQL, SQL) tại Usol Vietnam (Tầng 20, Tháp Hòa Bình, 106 Hoàng Quốc Việt, Nghia Do, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Fullstack Developer (Java, VueJS, PostgreSQL, SQL)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/fullstack-developer-javascripts-sping-postgresql-usol-vietnam-4634",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 20, Tháp Hòa Bình, 106 Hoàng Quốc Việt, Nghia Do, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_8647310927",
+    "title": "Middle/Senior Backend Engineer (Java)",
+    "company_name": "VinSmart Future",
+    "description": "Job description\nĐảm nhiệm xây dựng, phát triển và triển khai các hệ thống phần mềm cho công ty với khả năng đảm bảo hiệu suất cao, dữ liệu tin cậy và có khả năng mở rộng.\nĐánh giá, thiết kế, xây dựng và vận hành các hệ thống cơ sở dữ liệu thích hợp để đáp ứng các yêu cầu khác nhau của ứng dụng và mô hình kinh doanh.\nTham gia thiết kế và xây dựng các API để tương tác với ứng dụng Mobile và Web.\nHỗ trợ triển khai và theo dõi hoạt động của các hệ thống để đảm bảo hoạt động ổn định cũng như phát hiện và xử lý vấn đề xảy ra sớm nhất có thể.\nTham gia đánh giá và tối ưu các ứng dụng đã triển khai để tăng khả năng chịu tải nhằm đáp ứng số lượng người dùng và dữ liệu lớn.\nTìm hiểu, phát triển, thử nghiệm và áp dụng các công nghệ mới vào hệ thống để nâng cấp sản phẩm trở nên tốt và hiện đại hơn.\nTham gia cùng đội ngũ để đánh giá và chủ động đề xuất các phương pháp kỹ thuật nhằm giúp giải quyết các vấn đề mà team và sản phẩm đang gặp phải.",
+    "requirements": "Your skills and experience\nTốt nghiệp đại học chuyên ngành về công nghệ thông tin.\nCó ít nhất 5 năm kinh nghiệm cho Senior làm việc liên quan đến chuyên môn Backend sử dụng ngôn ngữ lập trình Java.\nNắm vững system design và architectural patterns: microservices, event sourcing, saga pattern, circuit breaker, outbox pattern, distributed tracing, metrics (Prometheus/Grafana), structured logging, alerting, ...\nCó kinh nghiệm làm việc với một số cơ sở dữ liệu như MySQL, PostgreSQL, ElasticSearch, ClickHouse, Redis, MongoDB, KVRocks, Message Queue (Kafka, ...)\nCó kiến thức về application security và secure coding practices (OWASP Top 10, secrets management, mã hóa dữ liệu).\nNắm vững kiến thức về cấu trúc dữ liệu và giải thuật, Authen & Author, OOP, API Restful, Thrift/gRPC, UnitTest, ...\nCó tinh thần chủ động, làm việc độc lập, kĩ năng giải quyết vấn đề.\nCó kinh nghiệm xây dựng ứng dụng chịu tải cao, lưu trữ dữ liệu phân tán, xử lý dữ liệu giao dịch và xử lý bất đồng bộ.\nCó kinh nghiệm sử d",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/middle-senior-backend-engineer-java-vinsmart-future-0047",
+    "apply_url": "https://itviec.com/it-jobs/middle-senior-backend-engineer-java-vinsmart-future-0047",
+    "posted_at": "2026-11-17T11:22:40.304064+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:40.304064+00:00",
+    "last_verified_at": "2026-11-17T11:22:40.304064+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:40.304064+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/middle-senior-backend-engineer-java-vinsmart-future-0047",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Middle/Senior Backend Engineer (Java) tại VinSmart Future (Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Middle/Senior Backend Engineer (Java)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/middle-senior-backend-engineer-java-vinsmart-future-0047",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0117079372",
+    "title": "Bridge Software Engineer (N2 JLPT)",
+    "company_name": "ITviec Recruitment Consulting",
+    "description": "Job description\nBridge Engineer (BrSE) is the person who acts as a connection between each of project teams in our client’s Fintech Group companies. By using communication skills and technical skills, we expect to help the communication process between the customers and the project team smoothly.\nKey Responsibilities:\nWorking with Japanese customers on related projects about requirements, specifications, working process, etc.\nManage projects or work closely with Project Manager/Leader to monitor and control project\nAnalyze and transfer various requests to project team members during the whole development process\nWe expect to expand your responsibilities not only Bridge for project in Japanese, but also project management",
+    "requirements": "Your skills and experience\nMust Have\nJapanese N2+ with strong communication skills.\n2+ years of BrSE experience.\nGood understanding of software development and technical processes.\nCandidates with Automation Testing / QA experience are highly preferred.\nNice to have\nWorking experience as a Project Manager\nHave experience living and working in Japan",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "City, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/bridge-software-engineer-n2-jlpt-itviec-recruitment-consulting-5139",
+    "apply_url": "https://itviec.com/it-jobs/bridge-software-engineer-n2-jlpt-itviec-recruitment-consulting-5139",
+    "posted_at": "2026-11-17T11:22:40.199262+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:40.199262+00:00",
+    "last_verified_at": "2026-11-17T11:22:40.199262+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:40.199262+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/bridge-software-engineer-n2-jlpt-itviec-recruitment-consulting-5139",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "City, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Bridge Software Engineer (N2 JLPT) tại ITviec Recruitment Consulting (City, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Bridge Software Engineer (N2 JLPT)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/bridge-software-engineer-n2-jlpt-itviec-recruitment-consulting-5139",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "City, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9205633722",
+    "title": "Bridge Engineer (Japanese N2) | Up to 60M+1 month bonus",
+    "company_name": "Hybrid One",
+    "description": "Job description\nTham gia phát triển dự án Website & hệ thống tiếng Nhật, kết nối giữa khách hàng Nhật Bản và team kỹ thuật tại Việt Nam\nHỗ trợ phân tích yêu cầu, làm rõ kì vọng và trao đổi với khách hàng\nTham gia viết/cập nhật tài liệu thiết kế, đề án cho khách hàng\nChuyển giao task cho team Dev, và quản lý tiến độ\nĐiều phối dự án, và xử lý phát sinh\nKiểm tra giám sát chất lượng và đảm bảo output cuối cùng đến tay khách hàng.",
+    "requirements": "Your skills and experience\nTrình độ\ntiếng Nhật từ N2 trở lên\n, có khả năng giao tiếp và làm việc trực tiếp với khách hàng Nhật\nCó ít nhất\n3 năm kinh nghiệm làm Kỹ sư cầu nối\nCó kinh nghiệm phát triển phần mềm hoặc nền tảng kỹ thuật tốt ở một trong các công nghệ: PHP/ Java/ Ruby on Rails (RoR)/ C# (ưu tiên PHP)\nCó khả năng đọc hiểu và cập nhật tài liệu kỹ thuật (tài liệu thiết kế Basic Design) theo thông số hệ thống hiện tại.\nỨng dụng AI tích lũy kiến thức\n(Knowledge Management): Có kinh nghiệm hoặc khả năng sử dụng AI để tổng hợp, tích lũy kiến thức từ source code (đọc và phân tích code thực tế).\nCó\nkinh nghiệm Code Review\n.\nThành thạo Git trong quá trình phát triển phần mềm.\nCó kinh nghiệm làm việc với mô hình Agile/Scrum.\nKhả năng làm việc nhóm và tinh thần trách nhiệm cao\nÝ thức chất lượng và tinh thần phục vụ khách hàng\nĐam mê và có khả năng học hỏi cái mới nhanh",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Center Point, Tower C, 219 Trung Kinh, Yen Hoa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      ".NET / C#",
+      "PHP",
+      "SQL Database",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/bridge-engineer-japanese-n2-up-to-60m-1-month-bonus-hybrid-one-0528",
+    "apply_url": "https://itviec.com/it-jobs/bridge-engineer-japanese-n2-up-to-60m-1-month-bonus-hybrid-one-0528",
+    "posted_at": "2026-11-17T11:22:40.128394+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:40.128394+00:00",
+    "last_verified_at": "2026-11-17T11:22:40.128394+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:40.128394+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/bridge-engineer-japanese-n2-up-to-60m-1-month-bonus-hybrid-one-0528",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Center Point, Tower C, 219 Trung Kinh, Yen Hoa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Bridge Engineer (Japanese N2) | Up to 60M+1 month bonus tại Hybrid One (Center Point, Tower C, 219 Trung Kinh, Yen Hoa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Bridge Engineer (Japanese N2) | Up to 60M+1 month bonus",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/bridge-engineer-japanese-n2-up-to-60m-1-month-bonus-hybrid-one-0528",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Center Point, Tower C, 219 Trung Kinh, Yen Hoa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0021084031",
+    "title": "IT Comtor (Korean Speaker)-Urgent",
+    "company_name": "Ewoosoft Vietnam",
+    "description": "Job description\nJOB PURPOSE\nWe are looking for a\nKorean-speaking IT Comtor\n. You will be the main bridge between our internal production team PM and Korean stakeholders. You will manage communications, translate project documents, and help track project progress.\nMAIN RESPONSIBILITIES\n1. Communication & Translation\nTranslate documents, requirements, and emails between Korean and Vietnamese.\nInterpret during online and offline meetings with Korean stakeholders.\nEnsure clear communication and prevent misunderstandings\n2. Project Support\nWork with the PM to clarify requirements from Korean clients.\nTake meeting minutes and follow up on action items.\nAssist the PM with project planning and schedules.\n3. Stakeholder Management\nBuild and keep a good working relationship with Korean clients.\nReceive feedback, collect change requests, and update the PM.",
+    "requirements": "Your skills and experience\nUniversity\nof Korean language or IT graduated\nKorean:\nFluent\n(TOPIK 5–6 or equivalent)\n- Good at business listening and speaking.\nExperience:\nat least 01 years worked as an IT Comtor & working with Korean clients.\nIT Knowledge:\nBasic understanding of software development and IT field\nSoft Skills:\nGood communication, problem-solving, and time management skills.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "19 Duy Tan, Cau Giay, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/it-comtor-korean-speaker-urgent-ewoosoft-vietnam-4957",
+    "apply_url": "https://itviec.com/it-jobs/it-comtor-korean-speaker-urgent-ewoosoft-vietnam-4957",
+    "posted_at": "2026-11-17T11:22:40.434085+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:40.434085+00:00",
+    "last_verified_at": "2026-11-17T11:22:40.434085+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:40.434085+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/it-comtor-korean-speaker-urgent-ewoosoft-vietnam-4957",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "19 Duy Tan, Cau Giay, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT Comtor (Korean Speaker)-Urgent tại Ewoosoft Vietnam (19 Duy Tan, Cau Giay, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "IT Comtor (Korean Speaker)-Urgent",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/it-comtor-korean-speaker-urgent-ewoosoft-vietnam-4957",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "19 Duy Tan, Cau Giay, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_9593973150",
+    "title": "02 Business Analyst (Digital Transformation)",
+    "company_name": "CÔNG TY TNHH ĐẦU TƯ TMDV TRÀNG AN",
+    "description": "Your skills and experience\nHọc vấn: Tốt nghiệp Đại học chuyên ngành CNTT, Quản trị kinh doanh, Hệ thống thông tin hoặc các ngành liên quan.\nKinh nghiệm: Tối thiểu 1 - 3 năm kinh nghiệm ở vị trí tương đương hoặc các vị trí BA (Phân tích nghiệp vụ), Triển khai phần mềm.\nKiến thức: Có hiểu biết về kiến trúc hệ thống doanh nghiệp (ERP, CRM, Kho dữ liệu) và các phương pháp quản trị dự án (Agile, Scrum). Hiểu biết về các hệ thống trong ngành du lịch - lữ hành, bán lẻ là điểm cộng.\nKỹ năng mềm: Tư duy logic nhạy bén, tư duy dịch vụ tốt, kỹ năng giao tiếp tốt, linh hoạt để chuyển đổi ngôn ngữ kỹ thuật sang ngôn ngữ kinh doanh và ngược lại, có khả năng thuyết phục nhân sự các phòng ban thay đổi thói quen làm việc cũ.",
+    "requirements": "Why you'll love working here\n.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "36 Trung Kính, Cau Giay, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database",
+      "Oracle DB",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/02-business-analyst-digital-transformation-cong-ty-tnhh-dau-tu-tmdv-trang-an-0632",
+    "apply_url": "https://itviec.com/it-jobs/02-business-analyst-digital-transformation-cong-ty-tnhh-dau-tu-tmdv-trang-an-0632",
+    "posted_at": "2026-11-17T11:22:40.587317+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:40.587317+00:00",
+    "last_verified_at": "2026-11-17T11:22:40.587317+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Mục tiêu công việc:",
+      "Khảo sát, đánh giá và cải tiến quy trình vận hành hiện tại của công ty.",
+      "Phối hợp triển khai, vận hành các giải pháp công nghệ (ERP, CRM, HRM, PMS, POS,…).",
+      "Thúc đẩy tư duy số và tối ưu hóa hiệu suất làm việc của các phòng ban."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:40.587317+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/02-business-analyst-digital-transformation-cong-ty-tnhh-dau-tu-tmdv-trang-an-0632",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "36 Trung Kính, Cau Giay, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí 02 Business Analyst (Digital Transformation) tại CÔNG TY TNHH ĐẦU TƯ TMDV TRÀNG AN (36 Trung Kính, Cau Giay, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "02 Business Analyst (Digital Transformation)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Mục tiêu công việc:",
+          "Khảo sát, đánh giá và cải tiến quy trình vận hành hiện tại của công ty.",
+          "Phối hợp triển khai, vận hành các giải pháp công nghệ (ERP, CRM, HRM, PMS, POS,…).",
+          "Thúc đẩy tư duy số và tối ưu hóa hiệu suất làm việc của các phòng ban."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/02-business-analyst-digital-transformation-cong-ty-tnhh-dau-tu-tmdv-trang-an-0632",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "36 Trung Kính, Cau Giay, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_3577715278",
     "title": "Lập Trình Viên Frontend React / Next.js",
     "company_name": "FPT Software",
@@ -71158,6 +72054,226 @@
         "verified": true,
         "source_name": "CareerViet",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-it-helpdesk.35C8DE8A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_2605718654",
+    "title": "Senior Data Analyst (Analytics Engineering)",
+    "company_name": "CÔNG TY CỔ PHẦN DƯỢC PHẨM FPT LONG CHÂU",
+    "description": "Mô tả Công việc\nExtract, process, and analyze large-scale datasets from core business systems (Sales, Marketing, Customer Care, etc.) to generate actionable insights and support business decisions.\nBuild and optimize data transformation workflows, ETL/ELT processes, and analytical datasets to ensure data quality, consistency, and accessibility.\nDevelop and maintain data models and data pipelines to support business reporting, analytics, and downstream data consumption.\nQuery, process, and optimize large datasets using platforms such as Databricks (Spark SQL, Delta Lake, Unity Catalog) or Google BigQuery.\nApply Python or PySpark for data processing, transformation, automation, and analytical tasks.\nBuild and optimize operational dashboards and analytical reports using Power BI (DAX) and/or Superset.\nConduct in-depth analysis on customer segmentation, cohort, funnel, retention, and campaign effectiveness. Experience in healthcare, pharmacy retail, or clinical services is preferred.\nIdentify trends, anomalies, and business opportunities, translating data findings into actionable recommendations.\nWork closely with Business stakeholders, Data Engineers, and other Analysts to understand requirements, improve data workflows, and ensure reliable and well-documented data assets.",
+    "requirements": "Yêu Cầu Công Việc\nAt least 3 years of experience in Data Analytics, Business Intelligence, Analytics Engineering, or related data roles.\nStrong SQL skills, including CTEs, Window Functions, query optimization, and data transformation.\nHands-on experience with at least one large-scale data platform, preferably Databricks or Google BigQuery.\nExperience working with large datasets (500K+ records); experience handling millions of records or large-scale data systems is highly preferred.\nProficiency in Python or PySpark for data processing, transformation, and automation.\nUnderstanding of ETL/ELT workflows, data pipelines, and data modeling; hands-on experience building or maintaining data pipelines is a strong plus.\nExperience developing dashboards and reports using Power BI (Advanced DAX) and/or Superset.\nStrong analytical thinking and experience with descriptive statistics, customer segmentation, cohort, funnel, and retention analysis.\nExperience in healthcare, pharmaceutical, retail phar",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-analyst-analytics-engineering.35C8E063.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-analyst-analytics-engineering.35C8E063.html",
+    "posted_at": "2026-11-17T11:22:15.966658+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:15.966658+00:00",
+    "last_verified_at": "2026-11-17T11:22:15.966658+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:15.966658+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-analyst-analytics-engineering.35C8E063.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Data Analyst (Analytics Engineering) tại CÔNG TY CỔ PHẦN DƯỢC PHẨM FPT LONG CHÂU (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Senior Data Analyst (Analytics Engineering)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/senior-data-analyst-analytics-engineering.35C8E063.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6479749887",
+    "title": "Quality Engineer (Mobile App Testing)",
+    "company_name": "Công Ty CP Chứng Khoán VNDIRECT",
+    "description": "Mô tả Công việc\nMỤC TIÊU VỊ TRÍ\nVị trí Quality Engineer (QE) mang tư duy của người kiến tạo, đóng vai trò cầu nối quan trọng trong việc chuyển đổi từ kiểm thử truyền thống sang quản trị chất lượng. Trong vai trò này, trọng tâm của bạn là các sản phẩm và ứng dụng Mobile. Bạn sẽ kết hợp giữa việc trực tiếp tham gia kiểm thử đối với các tính năng phức tạp để đảm bảo trải nghiệm người dùng, đồng thời từng bước xây dựng chiến lược tự động hóa và định nghĩa các tiêu chuẩn chất lượng cho toàn bộ nền tảng di động của tổ chức.\nĐặc biệt, trong xu hướng AI-Native 2026, bạn sẽ là người tiên phong xây dựng chiến lược kiểm thử chất lượng (AI quality strategy) cho các sản phẩm ứng dụng LLM.\nMÔ TẢ CÔNG VIỆC\nLập kế hoạch & Thực thi Kiểm thử: Phát triển, ghi chép và thực thi kế hoạch kiểm thử và kịch bản kiểm thử cho các tính năng mới và hiện có. Trực tiếp thực hiện kiểm thử chức năng, hồi quy, tích hợp, hiệu năng và kiểm thử khám phá cho các ứng dụng Di động.\nVận hành CI/CD & Phân tích Lỗi: Kích hoạt và theo dõi các tác vụ và chuỗi quy trình tự động hóa hiện tại; thu thập và đọc hiểu báo cáo kiểm thử, nhật ký hệ thống để phân tích kết quả đạt/không đạt. Đọc mã lệnh kiểm thử để khoanh vùng lỗi, phân biệt rõ lỗi sản phẩm với lỗi kịch bản hoặc lỗi môi trường.\nChiến lược & Tiêu chuẩn chất lượng: Thiết lập định nghĩa hoàn thành (tiêu chuẩn nghiệm thu), xây dựng phương pháp kiểm thử dựa trên rủi ro và theo dõi các chỉ số chất lượng để xác định xu hướng và cơ hội cải tiến hệ thống.\nPhối hợp & Agile/",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ học vấn:\nTốt nghiệp Đại học trở lên chuyên ngành CNTT, Hệ thống thông tin, Kỹ thuật phần mềm hoặc tương đương.\n2. Kinh nghiệm:\nHơn 4 năm kinh nghiệm trong lĩnh vực kiểm thử phần mềm, với chuyên môn sâu về kiểm thử ứng dụng Di động (hệ điều hành iOS và Android).\nKhả năng làm việc độc lập, tự quản lý thời gian và ưu tiên công việc tốt.\n3. Kiến thức & Kỹ năng chuyên môn:\nAutomation & Framwork: Hiểu sâu ít nhất 2–3 bộ khung kiểm thử thuộc các tầng khác nhau (Giao diện người dùng / Giao diện lập trình (API) / Hợp đồng dữ liệu / Hiệu năng), ví dụ Playwright, Cypress, JUnit, pytest, Pact, k6...\nChỉ số Đo lường Chất lượng: Biết áp dụng các chỉ số đo lường về chất lượng hệ thống (các chỉ số DORA, chỉ số độ tin cậy kiểm thử…).\nTriển khai Liên tục (CI/CD) & Xử lý Sự cố: Quen thuộc với việc sử dụng các công cụ Tích hợp/Phân phối liên tục ở cấp độ người dùng (Jenkins, GitHub Actions, Azure DevOps). Nắm vững cấu hình và khắc phục sự cố mạng cơ bản (Tường lửa, biên dịch ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Azure",
+      "CI/CD DevOps",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/quality-engineer-mobile-app-testing.35C8E049.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/quality-engineer-mobile-app-testing.35C8E049.html",
+    "posted_at": "2026-11-17T11:22:26.833624+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-17T11:22:26.833624+00:00",
+    "last_verified_at": "2026-11-17T11:22:26.833624+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-17T11:22:26.833624+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/quality-engineer-mobile-app-testing.35C8E049.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Quality Engineer (Mobile App Testing) tại Công Ty CP Chứng Khoán VNDIRECT (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "17/11/2026",
+      "checked_at": "17/11/2026",
+      "live_h1": "Quality Engineer (Mobile App Testing)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/quality-engineer-mobile-app-testing.35C8E049.html",
         "url_status": 200,
         "company_official_hotline": "1900.58.58.88",
         "recruiter_email": "contact@careerviet.vn",
