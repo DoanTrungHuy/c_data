@@ -74059,6 +74059,116 @@
     "is_active": true
   },
   {
+    "id": "cv_live_2931470302",
+    "title": "Viettel Asset - KỸ SƯ CNTT - HỆ THỐNG QUẢN LÝ TÀI SẢN",
+    "company_name": "CÔNG TY QUẢN LÝ TÀI SẢN VIETTEL",
+    "description": "Mô tả Công việc\nVề vị trí\nBạn là người phụ trách hệ thống quản lý tài sản tập trung của VAM (system owner), từ khâu làm sạch, số hóa dữ liệu, lựa chọn và triển khai phần mềm đến dashboard quản trị và cảnh báo tự động. Công việc thiên về phân tích nghiệp vụ và dữ liệu. Phần lập trình chuyên sâu sẽ do nhà cung cấp hoặc đơn vị phát triển phần mềm thực hiện, bạn là đầu mối đặt yêu cầu và nghiệm thu.\nMô tả công việc\n1. Chuẩn hóa và số hóa dữ liệu tài sản (25%)\nRà soát dữ liệu tài sản hiện có (file Excel, hồ sơ giấy, số liệu kế toán); đánh giá mức độ đầy đủ, chính xác.\nXây dựng cấu trúc dữ liệu, bộ mã tài sản và quy tắc nhập liệu; tổ chức làm sạch, số hóa và kiểm soát chất lượng dữ liệu.\n2. Nghiên cứu, đề xuất và triển khai hệ thống quản lý tài sản (30%)\nKhảo sát nghiệp vụ của các phòng ban liên quan; viết tài liệu yêu cầu nghiệp vụ (BRD/URD), mô hình hóa quy trình.\nNghiên cứu, so sánh các phương án (phần mềm CMMS/EAM, phân hệ ERP, tự phát triển); đề xuất giải pháp phù hợp kèm chi phí và lộ trình.\nLàm đầu mối với nhà cung cấp trong cấu hình, kiểm thử (UAT), đào tạo người dùng và đưa hệ thống vào vận hành.\n3. Dashboard và báo cáo quản trị (20%)\nXây dựng dashboard, báo cáo về số lượng, giá trị, hiện trạng, tình trạng khai thác và chi phí bảo trì tài sản phục vụ Ban Giám đốc.\nPhối hợp đơn vị CNTT kết nối dữ liệu với các hệ thống hiện có (kế toán, ERP, văn phòng điện tử…).\n4. Công cụ theo dõi và cảnh báo tự động (15%)\nPhối hợp Kỹ sư Cơ điện – Quản lý kỹ thuật tài sản và bộ phận pháp lý",
+    "requirements": "Yêu Cầu Công Việc\nYêu cầu\nHọc vấn\nTốt nghiệp Đại học một trong các ngành: Hệ thống thông tin, Hệ thống thông tin quản lý, Công nghệ thông tin, Khoa học máy tính, Kỹ thuật phần mềm, Khoa học dữ liệu.\nƯu tiên tốt nghiệp các trường: Đại học Bách khoa Hà Nội, Trường Đại học Công nghệ – ĐHQG Hà Nội, Học viện Công nghệ Bưu chính Viễn thông, Học viện Kỹ thuật Quân sự, Đại học Kinh tế Quốc dân (ngành Hệ thống thông tin quản lý) hoặc các trường tương đương.\nKinh nghiệm\nTối thiểu 03 năm kinh nghiệm ở một trong các vai trò: Business Analyst, chuyên viên triển khai ERP/CMMS/EAM, chuyên viên phân tích dữ liệu.\nĐã tham gia ít nhất 01 dự án triển khai phần mềm quản lý trọn vòng, từ khảo sát đến đưa vào vận hành.\nKỹ năng chuyên môn\nSQL: truy vấn, làm sạch và đối soát dữ liệu.\nPower BI (hoặc Tableau): xây dựng mô hình dữ liệu và dashboard.\nExcel nâng cao, Power Query.\nViết tài liệu yêu cầu (BRD, user story), vẽ quy trình (BPMN, flowchart).\nHiểu cơ bản về tích hợp hệ thống (API, đồng bộ dữ liệu) và an t",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/viettel-asset-ky-su-cntt-he-thong-quan-ly-tai-san.35C8E28A.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/viettel-asset-ky-su-cntt-he-thong-quan-ly-tai-san.35C8E28A.html",
+    "posted_at": "2026-11-19T23:46:31.818611+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T23:46:31.818611+00:00",
+    "last_verified_at": "2026-11-19T23:46:31.818611+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T23:46:31.818611+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/viettel-asset-ky-su-cntt-he-thong-quan-ly-tai-san.35C8E28A.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Viettel Asset - KỸ SƯ CNTT - HỆ THỐNG QUẢN LÝ TÀI SẢN tại CÔNG TY QUẢN LÝ TÀI SẢN VIETTEL (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Viettel Asset - KỸ SƯ CNTT - HỆ THỐNG QUẢN LÝ TÀI SẢN",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/viettel-asset-ky-su-cntt-he-thong-quan-ly-tai-san.35C8E28A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
