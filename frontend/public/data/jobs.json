@@ -38125,6 +38125,683 @@
     "is_active": true
   },
   {
+    "id": "itv_live_3648382650",
+    "title": "Technical Leader (Java, Spring Boot, API)",
+    "company_name": "PVcomBank",
+    "description": "Job description\nVề team\nTeam xây dựng các nền tảng Access Management, Customer Identity & Access Management (CIAM) và Workload Identity dùng chung cho khách hàng, đối tác, ứng dụng, API và workload, hỗ trợ ngân hàng số, Open Banking và hệ sinh thái đối tác\nCông việc chính\nChịu trách nhiệm kỹ thuật đầu cuối và dẫn dắt kiến trúc cho các yêu cầu liên quan đến đăng ký, identity proofing, bảo mật tài khoản, tích hợp eKYC.\nXây dựng technical roadmap, quản lý dependency, technical debt, kế hoạch nâng cấp và yêu cầu chất lượng.\nChủ trì nội dung kỹ thuật khi đánh giá giải pháp, PoC và nhà cung cấp, review sản phẩm bàn giao và hỗ trợ nghiệm thu kỹ thuật.\nDẫn dắt chuyên môn, review thiết kế/mã nguồn, mentor đội ngũ và hỗ trợ vận hành khi có sự cố nghiêm trọng",
+    "requirements": "Your skills and experience\nYêu cầu bắt buộc\nKinh nghiệm:\nTối thiểu 5 năm kinh nghiệm CNTT, trong đó ít nhất 3 năm về Identity/IAM hoặc Security Platform và 1 năm dẫn dắt kỹ thuật.\nĐã giữ vai trò Technical Lead, Solution Architect hoặc tương đương\nCó kinh nghiệm backend và tích hợp hệ thống, có khả năng xây dựng PoC, API, connector hoặc component dùng chung. Ưu tiên Java, Spring Boot và Spring Security.\nKỹ thuật:\nNắm vững OAuth 2.0, OpenID Connect, JWT và federation, hiểu FIDO2/WebAuthn, passkey, PKCE, mTLS, DPoP và replay protection.\nCó kinh nghiệm tích hợp chữ ký số, eKYC, biometric\nCó kinh nghiệm với microservices, API-first, distributed systems, Docker, Kubernetes/OpenShift, CI/CD và observability.\nCó khả năng đọc, viết tài liệu và trao đổi kỹ thuật bằng tiếng Anh.\nNăng lực dẫn dắt:\nCó tư duy hệ thống, khả năng ra quyết định kỹ thuật và cân bằng bảo mật, trải nghiệm người dùng, hiệu năng, chi phí và tiến độ.\nCó khả năng mentor, review, chủ trì workshop/design review, quản lý depende",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "22 Ngo Quyen, Cua Nam, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "Vue.js",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/technical-leader-java-spring-boot-ci-cd-pvcombank-4240",
+    "apply_url": "https://itviec.com/it-jobs/technical-leader-java-spring-boot-ci-cd-pvcombank-4240",
+    "posted_at": "2026-11-19T17:24:48.782587+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:48.782587+00:00",
+    "last_verified_at": "2026-11-19T17:24:48.782587+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:48.782587+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/technical-leader-java-spring-boot-ci-cd-pvcombank-4240",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "22 Ngo Quyen, Cua Nam, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Technical Leader (Java, Spring Boot, API) tại PVcomBank (22 Ngo Quyen, Cua Nam, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Technical Leader (Java, Spring Boot, API)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/technical-leader-java-spring-boot-ci-cd-pvcombank-4240",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "22 Ngo Quyen, Cua Nam, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0467231171",
+    "title": "Chief Information Security Officer",
+    "company_name": "MONEY FORWARD VIETNAM CO.,LTD",
+    "description": "Job description\nBackground\nThe Money Forward Group is expanding into the financial and banking sectors, including digital banking. Rigorous risk management and quality standards across the Group are a top management priority.\nMoney Forward Vietnam (MFV) is the Group’s development hub, with approximately 470 employees across two offices in Ho Chi Minh City and Hanoi, working on more than 50 products across 21 divisions. The Group’s security assessments have reaffirmed that MFV’s local governance and execution capabilities are directly linked to trust, business continuity, and delivery across the Group.\nTo date, a small local team has supported MFV’s security under the direction of the Group CISO Office in Japan. Going forward, MFV is expected not only to embed Group standards locally, but also to lead risk decisions that reflect Vietnam’s language, culture, and laws; respond swiftly to incidents on the ground; and implement financial-sector-level controls, including physical security.\nWe are therefore establishing a dedicated security team at MFV and seeking an MFV CISO to lead it and take full responsibility for MFV’s security. As a member of the leadership team, you will help build the foundation for MFV’s evolution from a development hub into a Value Co-Creation Hub.\nKey Responsibilities\nAs the leader responsible for information security at MFV, you will oversee everything from strategy, controls, and operations to incident response and team building.\nSecurity Strategy and ",
+    "requirements": "Your skills and experience\nRequired Skills and Experience\nApproximately 10 or more years of practical experience in information security.\nApproximately 5 or more years of experience leading or managing a security organization at a software development company or development hub, including hiring, developing, and evaluating team members.\nExperience developing a security strategy and roadmap and presenting them to senior leadership to build alignment.\nHands-on experience understanding the high standards of customers or headquarters in Japan or comparable countries, including security reviews and audits, and adapting operations to the local development environment and culture.\nExperience designing and embedding security-related behavioral change across an organization of several hundred people.\nExperience building and operating security controls based on frameworks such as ISO/IEC 27001, NIST CSF, and CIS Controls.\nExperience leading responses to major incidents, from initial response and",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "TP. Hồ Chí Minh",
+    "location_district": null,
+    "location_full": "Tòa nhà E.Town Central, Số 11 Đoàn Văn Bơ, Xom Chieu, Ho Chi Minh",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "AWS",
+      "CI/CD DevOps",
+      "Firewall",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/chief-information-security-officer-money-forward-vietnam-co-ltd-3837",
+    "apply_url": "https://itviec.com/it-jobs/chief-information-security-officer-money-forward-vietnam-co-ltd-3837",
+    "posted_at": "2026-11-19T17:24:49.182714+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:49.182714+00:00",
+    "last_verified_at": "2026-11-19T17:24:49.182714+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:49.182714+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/chief-information-security-officer-money-forward-vietnam-co-ltd-3837",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà E.Town Central, Số 11 Đoàn Văn Bơ, Xom Chieu, Ho Chi Minh"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chief Information Security Officer tại MONEY FORWARD VIETNAM CO.,LTD (Tòa nhà E.Town Central, Số 11 Đoàn Văn Bơ, Xom Chieu, Ho Chi Minh). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Chief Information Security Officer",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/chief-information-security-officer-money-forward-vietnam-co-ltd-3837",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà E.Town Central, Số 11 Đoàn Văn Bơ, Xom Chieu, Ho Chi Minh"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_3558438440",
+    "title": "Managed Service Leader (Project Manager, Cloud)",
+    "company_name": "NTQ Solution",
+    "description": "Job description\nBáo cáo trực tiếp: Giám đốc Đơn vị (DU8 Lead) & Ban Điều hành (COO) | Quy hoạch phát triển: BU Manager | Địa điểm: Hà Nội\nMỤC TIÊU VỊ TRÍ & LỘ TRÌNH PHÁT TRIỂN\nManaged Service Leader\nchịu trách nhiệm xây dựng, chuẩn hóa và trực tiếp điều hành mảng dịch vụ Managed Service tại DU8 (NTQ Solution). Vị trí này đóng vai trò hạt nhân: vừa làm chủ chất lượng vận hành dịch vụ (đảm bảo SLA/SLO) cho các khách hàng hiện hữu và dự án mới; vừa là Chuyên gia tư vấn giải pháp (SME) đồng hành cùng khối Kinh doanh (Sales/BD) để thắng thầu và mở rộng portfolio khách hàng quốc tế (Nhật Bản, APAC, US/EU).\nĐây là vị trí lãnh đạo mang tính kiến tạo (builder role) với lộ trình phát triển chiến lược rõ ràng: Trong giai đoạn đầu, Leader tập trung xây dựng nền móng vận hành và đội ngũ vững chắc tại DU8. Khi quy mô tài khoản (accounts) và số lượng kỹ sư tăng trưởng đạt ngưỡng kỳ vọng, vị trí này được quy hoạch chiến lược để phát triển lên vai trò BU Lead / BU Manager, dẫn dắt tách mảng Managed Service thành một Business Unit / Trung tâm dịch vụ độc lập của NTQ.\nMÔ TẢ CÔNG VIỆC — 3 TRỤ CỘT TRÁCH NHIỆM\nI. PRESALE & TƯ VẤN GIẢI PHÁP MANAGED SERVICE (35%)\nChuyên gia giải pháp (SME): Khảo sát hiện trạng (As-is Assessment), thiết kế mô hình dịch vụ (Service Scope L1/L2/L3, RACI matrix, Service Catalog) cho các cơ hội thầu Managed Service quốc tế (Nhật Bản, APAC, US/EU).\nThiết kế mô hình chi phí (Pricing): Xây dựng mô hình định giá và cấu trúc chi phí dịch vụ linh hoạt (ticket-based, capacity/s",
+    "requirements": "Your skills and experience\n1/ Must have\nKinh nghiệm & Năng lực Lãnh đạo: Tối thiểu 5 năm làm việc trong lĩnh vực\nManaged Service / AMS / SRE / IT Operations\n, trong đó có tối thiểu 2 năm ở vai trò Lead, Service Manager hoặc Operations Lead có trách nhiệm sở hữu kết quả vận hành (SLA/Delivery).\nTiềm năng Quản trị & Tư duy Builder: Có tư duy xây dựng tổ chức từ nền tảng, có khát vọng và tiềm năng phát triển lên vai trò Quản lý Đơn vị (BU Manager); không chỉ dừng lại ở vai trò kỹ thuật viên vận hành đơn thuần.\nThiết kế & Cam kết SLA: Đã từng trực tiếp thiết kế, đàm phán và cam kết chỉ số SLA/SLO trực tiếp với khách hàng nước ngoài (không chỉ thực thi ticket trên SLA có sẵn).\nService Transition: Từng trực tiếp chủ trì hoặc đóng vai trò nòng cốt trong ít nhất 1–2 dự án transition/takeover hệ thống (từ vendor thứ ba hoặc từ đội in-house của khách hàng).\nNăng lực Giải pháp (Solutioning): Đã từng trực tiếp tham gia presale: khảo sát bài toán khách hàng, thiết kế mô hình dịch vụ (L1/L2/L3) và v",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà Sông Đà, Đ. Phạm Hùng, Mỹ Đình, Nam Từ Liêm,  Hà Nội, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "CI/CD DevOps",
+      "Linux"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/managed-service-leader-project-manager-cloud-ntq-solution-3530",
+    "apply_url": "https://itviec.com/it-jobs/managed-service-leader-project-manager-cloud-ntq-solution-3530",
+    "posted_at": "2026-11-19T17:24:50.145940+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:50.145940+00:00",
+    "last_verified_at": "2026-11-19T17:24:50.145940+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:50.145940+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/managed-service-leader-project-manager-cloud-ntq-solution-3530",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà Sông Đà, Đ. Phạm Hùng, Mỹ Đình, Nam Từ Liêm,  Hà Nội, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Managed Service Leader (Project Manager, Cloud) tại NTQ Solution (Tòa nhà Sông Đà, Đ. Phạm Hùng, Mỹ Đình, Nam Từ Liêm,  Hà Nội, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Managed Service Leader (Project Manager, Cloud)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/managed-service-leader-project-manager-cloud-ntq-solution-3530",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà Sông Đà, Đ. Phạm Hùng, Mỹ Đình, Nam Từ Liêm,  Hà Nội, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_1327032163",
+    "title": "Chief Developer/Technical Lead - Onsite Hanoi",
+    "company_name": "Synergix Technologies",
+    "description": "Job description\nTechnical Direction & Architecture\nDefine, evaluate, and review technical solutions using Java EE, Hibernate/JPA, JSF, PrimeFaces, and PostgreSQL.\nPropose and present architectural decisions and technology strategies to leadership.\nResearch and implement emerging technologies to improve product quality and developer productivity.\nTeam Management & Development Leadership:\nCollaborate within a team of Senior Developers to guide and support junior and mid-level engineers on complex development tasks.\nLead code reviews and establish development standards that promote code quality and maintainability.\nSupport teams in scoping and creating technical proposals for new modules and project features.\nProvide technical coaching and guidance, share constructive feedback to support team members’ professional development.\nManage the Hanoi Business Analyst team\nProduction Support & Problem-Solving\nInvestigate and resolve critical production issues related to debugging, performance optimization, workload management, and security.\nCommunicate directly with third-party vendors and integration partners on technical matters.\nCross-functional Collaboration\nWork closely with Business Analysts and the Singapore HQ to clarify requirements and ensure technical feasibility.\nCollaborate with the Hanoi Business Analyst team on requirement analysis, solution design and technical feasibility.\nContribute to pre-sales and proposal activities by providing technical input on solution scope and",
+    "requirements": "Your skills and experience\nProven experience as a Chief Developer, Senior Developer or in a technical leadership role, preferably within an ERP or enterprise software company.\n7+ years of Java (JSF, CDI/EJB or Spring, JPA/JDBC), with the ability to separate business logic from view logic in legacy code.\n3+ years leading a development team, with experience mentoring developers\nProven experience designing and shipping REST APIs (OpenAPI, versioning, error contracts).\nStrong knowledge of authentication and authorization (OAuth2/OIDC, JWT) and multi-tenant data isolation.\nHands-on experience with Next.js, React and TypeScript, enough to set architecture and review work.\nExperience migrating a legacy monolith to an API plus modern front end incrementally.\nStrong PostgreSQL skills (functions, triggers, query tuning).\nExcellent communication and interpersonal skills with business-level English proficiency.\nHigh integrity and a genuine passion for code quality, knowledge sharing, and building ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tầng 25, tháp C, tòa Central Point, 219 Trung Kính, Yên Hòa, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "Next.js",
+      "Vue.js",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/chief-developer-technical-lead-onsite-hanoi-synergix-technologies-5044",
+    "apply_url": "https://itviec.com/it-jobs/chief-developer-technical-lead-onsite-hanoi-synergix-technologies-5044",
+    "posted_at": "2026-11-19T17:24:48.976970+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:48.976970+00:00",
+    "last_verified_at": "2026-11-19T17:24:48.976970+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:48.976970+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/chief-developer-technical-lead-onsite-hanoi-synergix-technologies-5044",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tầng 25, tháp C, tòa Central Point, 219 Trung Kính, Yên Hòa, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chief Developer/Technical Lead - Onsite Hanoi tại Synergix Technologies (Tầng 25, tháp C, tòa Central Point, 219 Trung Kính, Yên Hòa, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Chief Developer/Technical Lead - Onsite Hanoi",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/chief-developer-technical-lead-onsite-hanoi-synergix-technologies-5044",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tầng 25, tháp C, tòa Central Point, 219 Trung Kính, Yên Hòa, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_5098844104",
+    "title": "Senior Software Developer (Java/Python)",
+    "company_name": "VinSmart Future",
+    "description": "Job description\nKey Responsibilities\nDesign, develop, and operate backend services for event processing, workflow orchestration, and task lifecycle management.\nBuild internal and external APIs with well-defined data contracts, ensuring scalability, extensibility, and long-term maintainability.\nDevelop data ingestion pipelines, asynchronous processing services, message queues, retry mechanisms, and fault-tolerant error-handling workflows.\nImplement core business logic for routing, prioritization, task assignment, workflow execution, status tracking, and escalation management.\nCollaborate with Data Engineering teams to consume standardized datasets and event streams while distributing processed outputs to downstream systems.\nIntegrate workflow engines, automation services, push notification platforms, webhook services, and third-party systems to support operational business processes.\nDesign and implement logging, audit trails, distributed tracing, monitoring, and alerting capabilities for production services.\nOptimize backend performance, latency, throughput, scalability, and service reliability for high-volume production environments.\nDesign and manage appropriate data models, database schemas, caching strategies, message brokers, persistence layers, and transaction management.\nParticipate in production incident response, root cause analysis (RCA), post-incident reviews, and continuous service improvement initiatives.\nApply security best practices including authentication, au",
+    "requirements": "Your skills and experience\nBachelor's degree or higher in Computer Science, Software Engineering, Information Systems, or a related technical discipline.\nAt least 4 years of experience developing backend or platform software for production environments.\nStrong proficiency in at least one programming language such as Java, Python, or equivalent.\nHands-on experience designing and developing RESTful APIs, backend integration services, and asynchronous processing systems.\nExperience working with message brokers or streaming platforms such as Kafka, RabbitMQ, or equivalent technologies.\nStrong knowledge of relational databases and experience with at least one NoSQL database or distributed caching technology.\nSolid understanding of microservices architecture, distributed systems, API integration, concurrency, and production system design.\nExperience using Docker, CI/CD pipelines, logging, monitoring, and automated deployment practices.\nStrong troubleshooting, debugging, performance optimizat",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Python",
+      "Java",
+      "Spring Boot",
+      "React",
+      "Vue.js",
+      "Node.js"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/senior-software-developer-java-python-vinsmart-future-2527",
+    "apply_url": "https://itviec.com/it-jobs/senior-software-developer-java-python-vinsmart-future-2527",
+    "posted_at": "2026-11-19T17:24:50.075821+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:50.075821+00:00",
+    "last_verified_at": "2026-11-19T17:24:50.075821+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:50.075821+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/senior-software-developer-java-python-vinsmart-future-2527",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Senior Software Developer (Java/Python) tại VinSmart Future (Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Senior Software Developer (Java/Python)",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/senior-software-developer-java-python-vinsmart-future-2527",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà TechnoPark, Oceanpark, Đa Tốn, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "itv_live_0630739135",
+    "title": "Kỹ sư Thiết kế - Triển khai Hạ tầng CNTT",
+    "company_name": "Viettel Group",
+    "description": "Job description\n- Nghiên cứu xu hướng hạ tầng CNTT (IT Infrastructure), GPU, cloud trên thế giới, đưa ra chiến lược 1 năm, 5 năm.\n- Quy hoạch và thiết kế hệ thống, triển khai hạ tầng CNTT, hạ tầng số, máy chủ, thiết bị lưu trữ, thiết bị mạng, hệ thống siêu máy tính (GPU training, GPU inference, ...) cho toàn bộ mạng lưới Viettel.\n- Giám sát thông minh và phân tích dữ liệu vận hành: Xây dựng và triển khai các giải pháp giám sát thông minh, phân tích dữ liệu để phát hiện các bất thường và tối ưu hóa hoạt động hệ thống.\n- Ứng dụng AI/ML trong hạ tầng: Ứng dụng các công nghệ AI/ML để dự đoán sự cố, tối ưu tài nguyên và triển khai cơ chế tự động khắc phục lỗi trong hệ thống.\n- Cải tiến hạ tầng và tối ưu hóa vận hành: Đề xuất và triển khai các giải pháp cải tiến hạ tầng CNTT nhằm nâng cao hiệu suất, độ tin cậy và giảm chi phí vận hành.\n- Nghiên cứu xu thế, xây dựng tiêu chuẩn platform và thẩm định cấp phát tài nguyên triển khai hệ thống: Kubernetes, docker, Elasticsearch, N8n,...",
+    "requirements": "Your skills and experience\n1. Tốt nghiệp Đại học loại Giỏi trở lên chuyên ngành ĐTVT/CNTT hoặc tương đương (Chấp nhận sinh viên năm cuối, mới ra trường).\n2. Kỹ năng cơ bản:\n- Có khả năng làm việc với hệ điều hành Linux.\n- Có khả năng đọc hiểu các tài liệu Tiếng Anh. TOEIC > 650.\n3. Kỹ năng nâng cao (không bắt buộc):\n- Có khả năng làm việc với hệ thống máy chủ, thiết bị lưu trữ.\n- Có khả năng viết script bash, shell, python, ansible...\n- Sở hữu chứng chỉ quốc tế: LPI, AWS Certified Solutions Architect, Azure Administrator, Kubernetes CKA là một lợi thế.\n4. Yêu cầu khác:\n- Khả năng làm việc độc lập, làm việc nhóm.\n- Hòa đồng, thân thiện với đồng nghiệp.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận theo năng lực",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Hà Nội",
+    "location_district": null,
+    "location_full": "Tòa nhà Thái Bình - Ngõ 19 Duy Tân, Ha Noi",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "Next.js",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Azure"
+    ],
+    "source_platform": "ITviec",
+    "source_name": "Sàn Tuyển Dụng ITViec (Chuyên Ngành IT)",
+    "source_url": "https://itviec.com/it-jobs/ky-su-thiet-ke-trien-khai-ha-tang-cntt-viettel-group-3752",
+    "apply_url": "https://itviec.com/it-jobs/ky-su-thiet-ke-trien-khai-ha-tang-cntt-viettel-group-3752",
+    "posted_at": "2026-11-19T17:24:49.416320+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:49.416320+00:00",
+    "last_verified_at": "2026-11-19T17:24:49.416320+00:00",
+    "verification_status": "verified",
+    "quality_score": 95,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+      "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:49.416320+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "ITviec (Nền Tảng Việc Làm IT)",
+      "direct_url": "https://itviec.com/it-jobs/ky-su-thiet-ke-trien-khai-ha-tang-cntt-viettel-group-3752",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "028.6681.1397",
+        "email": "contact@itviec.com",
+        "zalo": "02866811397",
+        "address": "Tòa nhà Thái Bình - Ngõ 19 Duy Tân, Ha Noi"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Kỹ sư Thiết kế - Triển khai Hạ tầng CNTT tại Viettel Group (Tòa nhà Thái Bình - Ngõ 19 Duy Tân, Ha Noi). Tuyển dụng trực tiếp qua sàn ITviec được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Kỹ sư Thiết kế - Triển khai Hạ tầng CNTT",
+      "match_ratio": 1.0,
+      "source": "ITviec"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "028.6681.1397"
+        ],
+        "hr_email": "contact@itviec.com",
+        "benefits": [
+          "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+          "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+          "Trang bị máy tính làm việc / Macbook cá nhân, phụ cấp ăn trưa, du lịch thường niên.",
+          "Môi trường công nghệ hiện đại, đào tạo chứng chỉ chuyên môn quốc tế."
+        ],
+        "shifts": [
+          "Ca hành chính 8h30 - 18h00",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "ITviec",
+        "direct_url": "https://itviec.com/it-jobs/ky-su-thiet-ke-trien-khai-ha-tang-cntt-viettel-group-3752",
+        "url_status": 200,
+        "company_official_hotline": "028.6681.1397",
+        "recruiter_email": "contact@itviec.com",
+        "verified_workplace": "Tòa nhà Thái Bình - Ngõ 19 Duy Tân, Ha Noi"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_3577715278",
     "title": "Lập Trình Viên Frontend React / Next.js",
     "company_name": "FPT Software",
@@ -72822,6 +73499,557 @@
         "verified": true,
         "source_name": "CareerViet",
         "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-it-quan-tri-mang.35C8E37A.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_8797776573",
+    "title": "Full-stack Developer",
+    "company_name": "Công ty Easia Travel",
+    "description": "Mô tả Công việc\nBuilding features on the hotel contract and availability engine: seasons, rates, allotments, promotions and cancel rules\nWriting and maintaining supplier connections (SOAP and REST) and the partner API\nBuilding screens in our React back office for DMCs and tour operators\nWriting functional tests for every change and every bug fix\nWatching production in Datadog and fixing what breaks, with the rest of the team\nReviewing merge requests, guiding design choices and keeping the code clean as the product grows\nProblems you'll work on:\nAI inside the platform. A key goal is to make Koob easier to use through AI. Our MCP server already lets AI agents search hotels, load contracts and book. Next come features such as RAG over our hotel and destination content, and assistants that help DMCs and tour operators get work done faster.\nFast availability across suppliers. Room searches fan out to several hotel suppliers and our own contracts. We keep them fast with a shared Redis cache and an Elasticsearch read model that must stay in sync with PostgreSQL.\nA pricing engine with real rules. Seasons, weekday rules, promotions, extra beds and cancel rules all combine into one price, rounded to 2 decimals and identical on every path.\nSupplier connections. SOAP and REST integrations where each supplier shapes its data a little differently. We clean and check it where it enters the system.\nA versioned partner API. Three live API versions that partners depend on.\nReliable background ",
+    "requirements": "Yêu Cầu Công Việc\nMust have:\nSoftware design skills: you shape data models, API contracts and module boundaries that still hold a year later\nUI/UX design skills: we have no dedicated designer, so you design clear, usable screens yourself, from a rough idea to a finished page\n2+ years building full stack web apps in production with TypeScript and Node.js or similar technologies\nStrong SQL\nHands-on React experience\nYou write tests without being asked\nGood written and spoken English: we work with international companies\nAble to work alone and ask for help early\nNice to have:\nExperience building LLM features: MCP servers, RAG, embeddings, prompt design and evaluation\nTravel industry experience (hotel contracts, bed banks, GDS, channel managers)\nNestJS, an ORM such as MikroORM or TypeORM\nElasticsearch knowledge\nGoogle Cloud, Terraform, Datadog",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "React",
+      "Node.js",
+      "SQL Database",
+      "Redis",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8E357.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8E357.html",
+    "posted_at": "2026-11-19T17:24:36.776267+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:36.776267+00:00",
+    "last_verified_at": "2026-11-19T17:24:36.776267+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:36.776267+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8E357.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Full-stack Developer tại Công ty Easia Travel (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Full-stack Developer",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/full-stack-developer.35C8E357.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_5461528086",
+    "title": "IT Specialist - Support Centralized",
+    "company_name": "Ben Line Vietnam",
+    "description": "Mô tả Công việc\nPurpose\nIT Specialist - Support Centralized provides centralized first-line IT support for users across the Ben Line office network. The role is responsible for receiving, triaging, resolving, and coordinating incidents and service requests, ensuring timely, consistent, and professional IT support through ITSM tool.\nResponsibilities\n1.\nFirst-Line IT Support\nProvide centralized first-line IT support for end users, including user accounts, Microsoft 365 basic support, applications, email, endpoint devices, and common technical issues.\nReceive, log, triage, prioritize, troubleshoot, and resolve incidents and service requests through ITSM tool in accordance with Group standards, ITSM processes, SLA, and escalation procedures.\nMaintain clear communication with users, provide timely updates, confirm issue resolution, and escalate unresolved or specialized issues to the appropriate support teams.\nMaintain support documentation and contribute to the IT knowledge base.\nIdentify recurring issues and recommend improvements to enhance service quality and user experience.\n2.\nCoordination with Group Tech\nCoordinate with Group Tech teams to investigate, resolve, and follow up on incidents and service requests.\nShare user feedback, recurring issues, and improvement opportunities to support continuous service improvement.\nSupport operational activities and service improvements when required.\n3.\nService Operations\nMonitor and manage assigned tickets to ensure timely response, r",
+    "requirements": "Yêu Cầu Công Việc\nQualifications:\nDiploma or Bachelor's degree in Information Technology, Computer Engineering, or a related field.\nITIL Foundation certification is an advantage.\nSkills\nStrong customer service, communication, and remote troubleshooting skills.\nGood problem-solving skills in troubleshooting Windows, Microsoft 365, web-based business applications, endpoint devices, and common hardware and software issues.\nAbility to use AI tools effectively to support troubleshooting, problem-solving, and daily IT support tasks.\nAbility to understand user needs and communicate effectively in English.\nExperience\n3+ years of experience in IT Service Desk, Helpdesk, or remote support.\nExperience working in a ticket-based and SLA-driven environment.\nExperience supporting multi-location or international users is an advantage.\nBehaviour\nService-oriented, reliable, and responsive.\nAble to work independently while collaborating effectively with Group Tech teams.\nDetail-oriented with good documen",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "IT Support L1/L2",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-specialist-support-centralized.35C8CC76.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-specialist-support-centralized.35C8CC76.html",
+    "posted_at": "2026-11-19T17:24:37.861502+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:37.861502+00:00",
+    "last_verified_at": "2026-11-19T17:24:37.861502+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:37.861502+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-specialist-support-centralized.35C8CC76.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT Specialist - Support Centralized tại Ben Line Vietnam (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "IT Specialist - Support Centralized",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-specialist-support-centralized.35C8CC76.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4722761446",
+    "title": "[Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối TT&QTTC",
+    "company_name": "Ngân hàng TMCP Lộc Phát Việt Nam (LPBank)",
+    "description": "Mô tả Công việc\nXây dựng và duy trì các nguyên tắc quản trị dữ liệu tài chính:\n- Quản lý danh mục dữ liệu, từ điển dữ liệu tài chính và hệ thống datamart đảm bảo phục vụ Quản trị Tài chính.\n- Đề xuất và triển khai các chiến lược quản trị dữ liệu phù hợp với yêu cầu phát triển của ngân hàng.\nPhát triển hệ thống thông tin báo cáo quản trị:\n- Đầu mối làm việc với nhà thầu, Khối CNTT về xây dựng và nâng cấp hệ thống thông tin dữ liệu báo cáo.\n- Tổ chức xây dựng yêu cầu chi tiết (BRD), thực hiện kiểm thử (UAT), và kiểm soát chất lượng hệ thống thông tin báo cáo quản trị.\nQuản lý, vận hành và kiểm soát kho dữ liệu datamart:\nVận hành, kiểm soát, tự động hóa và cập nhật kho dữ liệu datamart.\nPhát hiện và xử lý kịp thời các lỗi dữ liệu, đảm bảo hệ thống hoạt động hiệu quả.\nPhát triển và tối ưu hóa báo cáo:\nTối ưu các báo cáo hiện có và phát triển báo cáo mới đáp ứng nhu cầu nghiệp vụ và quản trị.\nThực hiện đánh giá chất lượng báo cáo và đề xuất giải pháp nâng cao chất lượng.\nXây dựng các quy trình, quy định liên quan đến quản trị dữ liệu tài chính:\nĐề xuất và triển khai các quy trình, quy định và hướng dẫn sử dụng hệ thống dữ liệu báo cáo.\nPhát triển năng lực đội ngũ:\nĐào tạo, hướng dẫn, phát triển năng lực đội ngũ chuyên viên trong phòng.\nNâng cao kỹ năng phân tích và chất lượng chuyên môn của nhân sự.\nTham gia các dự án liên quan đến dữ liệu và báo cáo:\nĐảm bảo các dự án liên quan đến dữ liệu và báo cáo tài chính được phân tích, thực thi đúng tiến độ và chất lượng.\nThực hiện các nhi",
+    "requirements": "Yêu Cầu Công Việc\n1. Bằng cấp:\nBằng cấp: Tốt nghiệp đại học trở lên\nHệ tốt nghiệp: Chính quy\nChuyên ngành: ưu tiên chuyên ngành Hệ thống thông tin quản lý, Ngân hàng, Tài chính, Kế toán, Kiểm toán, Kinh tế\n2. Kinh nghiệm chuyên môn:\nHiểu biết về hoạt động của lĩnh vực Ngân hàng\nƯu tiên có từ 07 năm kinh nghiệm quản trị dữ liệu, phân tích tài chính hoặc ngân hàng.\nCó kỹ năng phân tích, đánh giá, tổng hợp dữ liệu lớn.\nƯu tiên ứng viên sử dụng thành thạo MS Office (Word, Excel, PowerPoint). Kỹ năng về cơ sở dữ liệu: Excel ở mức nâng cao. Thành thạo Excel, SQL, Python, và các phần mềm BI (Power BI, Tableau), các phần mềm nghiệp vụ liên quan\nƯu tiên ứng viên có kỹ năng tự động hóa và xây dựng báo cáo sử dụng excel, VBA, SQL, PowerBI",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Python",
+      "SQL Database",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-chuyen-gia-quan-ly-du-lieu-tai-chinh-mis-khoi-tt-qttc.35C8E4BD.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-chuyen-gia-quan-ly-du-lieu-tai-chinh-mis-khoi-tt-qttc.35C8E4BD.html",
+    "posted_at": "2026-11-19T17:24:37.934535+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:37.934535+00:00",
+    "last_verified_at": "2026-11-19T17:24:37.934535+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:37.934535+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-chuyen-gia-quan-ly-du-lieu-tai-chinh-mis-khoi-tt-qttc.35C8E4BD.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí [Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối TT&QTTC tại Ngân hàng TMCP Lộc Phát Việt Nam (LPBank) (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "[Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối TT&QTTC",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ha-noi-chuyen-gia-quan-ly-du-lieu-tai-chinh-mis-khoi-tt-qttc.35C8E4BD.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4441012819",
+    "title": "Nhân viên trực vận hành hệ thống 24/7",
+    "company_name": "CÔNG TY CỔ PHẦN THIẾT BỊ CÔNG NGHIỆP GEIC",
+    "description": "Mô tả Công việc\n-  Trực hệ thống phần mềm Trung tâm dịch vụ khách hàng 24/7.\n-  Trực tổng đài chăm sóc khách hàng, tổ chức và triển khai xây dựng các kênh thông tin để khách hàng có thể tiếp cận dễ dàng các thông tin về công ty, chủng loại sản phẩm, tính năng, thông số kỹ thuật của sản phẩm, giá bán,... Nhanh chóng, kịp thời tiếp nhận và xử lý thông tin, ý kiến khiếu nại của khách hàng; đồng thời, tổ chức phân tích nguyên nhân, hành động khắc phục phòng ngừa sự cố cho khách hàng.\n-  Định kỳ hàng tháng báo cáo và gửi các đơn vị liên quan trong Công ty báo cáo tổng hợp, hệ thống hóa các thông tin khiếu nại nhận được từ khách hàng nhằm nâng cao chất lượng sản phẩm, dịch vụ của Công ty.\n-  Các nhiệm vụ khác liên quan đến công tác chăm sóc khách hàng và các quy định quản trị của Công ty.\n-  Quản lý, tổ chức thực hiện các hoạt động hỗ trợ, giải đáp, tư vấn, khảo sát, khắc phục, sửa chữa, đánh giá sự hài lòng của khách hàng về các sản phẩm và dịch vụ do GEIC cung cấp\n-  Tham mưu đề xuất lãnh đạo kịp thời các vấn đề liên quan đến chất lượng sản phẩm, dịch vụ.",
+    "requirements": "Yêu Cầu Công Việc\nĐiện – Điện tử,Tự động hóa, Điện tử viễn thông, Cơ điện tử, Công nghệ thông tin… hoặc liên quan\nCó ít nhất 01 năm kinh nghiệm trong lĩnh vực chăm sóc khách hàng.\nThành thạo Excel, PowerPoint, phân tích số liệu tốt.\nĐọc hiểu tài liệu tiếng anh\nGiao tiếp tiếng Anh cơ bản",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-truc-van-hanh-he-thong-24-7.35C8E1FA.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-truc-van-hanh-he-thong-24-7.35C8E1FA.html",
+    "posted_at": "2026-11-19T17:24:40.506546+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:40.506546+00:00",
+    "last_verified_at": "2026-11-19T17:24:40.506546+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:40.506546+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-truc-van-hanh-he-thong-24-7.35C8E1FA.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân viên trực vận hành hệ thống 24/7 tại CÔNG TY CỔ PHẦN THIẾT BỊ CÔNG NGHIỆP GEIC (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Nhân viên trực vận hành hệ thống 24/7",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-truc-van-hanh-he-thong-24-7.35C8E1FA.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_6722232511",
+    "title": "Trưởng ca trực vận hành hệ thống 24/7",
+    "company_name": "CÔNG TY CỔ PHẦN THIẾT BỊ CÔNG NGHIỆP GEIC",
+    "description": "Mô tả Công việc\n1. Quản lý đầu ca và tiếp nhận bàn giao\nĐiểm danh 100% điện thoại viên (ĐTV), kiểm tra vị trí, trang phục, tác phong và tình trạng sẵn sàng của tai nghe trước khi vào ca.\n· Kiểm tra màn hình giám sát, Internet, tổng đài IP/Autocall, máy tính ĐTV và đồng bộ NTP; hoàn thành kiểm tra hạ tầng trước ca.\n· Tiếp nhận toàn bộ nội dung bàn giao, rà soát case dở dang, mã ID case, trạng thái và mốc SLA phải gọi hoặc chuyển cấp; xác nhận bàn giao qua email theo quy định.\n2. Giám sát SLA, chất lượng đàm thoại và điều phối trong ca\nTheo dõi 100% case, kiểm soát thời gian xác minh SLA ≤ 90 giây; bảo đảm ĐTV thực hiện Click-call từ giây 20, thời gian đổ chuông tối thiểu 20 giây và tối đa 40 giây.\n· Khi phát sinh nút SOS vật lý, xác minh ngay việc truyền tin sang TTCH PC07 và nhắn nhóm, tag quản lý trực tiếp.\n· Khi hàng đợi có trên 10 tin chưa tiếp nhận hoặc quá 15 giây chưa Click-call, điều động ngay ĐTV dự phòng để chống nghẽn.\n· Nghe kiểm tra ngẫu nhiên tối thiểu 05 cuộc/ca; bảo đảm ĐTV xử lý đúng quy trình, đủ thông tin và đủ số lần gọi.\n· Khi có lỗi mạng, mất điện hoặc lỗi tổng đài, báo cáo ngay quản lý và phối hợp nhóm IT để xử lý theo phương án BCP.\n3. Rà soát, báo cáo và bàn giao cuối ca: kiểm tra 100% case; bảo đảm case đã đóng có đủ ghi âm, log ứng dụng và log thời gian; lập biên bản đủ 06 trường thông tin, ký xác nhận 03 bên qua email và gửi báo cáo nhanh ca trực.\n4. Thực hiện nhiệm vụ đặc thù theo ca: Ca 1 rà soát sự cố đêm chưa xử lý dứt điểm; Ca 2 giám sát cao đi",
+    "requirements": "Yêu Cầu Công Việc\nCác ngành kỹ thuật, công nghệ hoặc các chuyên ngành có liên quan tới mô tả công việc.\nKiến thức về quy trình tiếp nhận, xác minh và xử lý tin báo cháy; SLA đàm thoại; quản lý case, bàn giao ca; vận hành hệ thống TTDVKH, tổng đài IP/Autocall, thiết bị truyền tin, App GSafePro và phương án BCP.\nKỹ năng tổ chức, phân công và điều phối nhân sự theo ca\nKỹ năng giám sát SLA, chất lượng đàm thoại và xử lý tình huống khẩn cấp\nKỹ năng phối hợp, chuyển cấp và xử lý sự cố\nKỹ năng kiểm tra, tổng hợp, lập biên bản và báo cáo ca trực",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "Công Nghệ Thông Tin",
+      "Hệ Thống",
+      "Hạ Tầng Mạng"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/truong-ca-truc-van-hanh-he-thong-24-7.35C8E1F4.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/truong-ca-truc-van-hanh-he-thong-24-7.35C8E1F4.html",
+    "posted_at": "2026-11-19T17:24:40.600040+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-19T17:24:40.600040+00:00",
+    "last_verified_at": "2026-11-19T17:24:40.600040+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-19T17:24:40.600040+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-ca-truc-van-hanh-he-thong-24-7.35C8E1F4.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Trưởng ca trực vận hành hệ thống 24/7 tại CÔNG TY CỔ PHẦN THIẾT BỊ CÔNG NGHIỆP GEIC (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "19/11/2026",
+      "checked_at": "19/11/2026",
+      "live_h1": "Trưởng ca trực vận hành hệ thống 24/7",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-ca-truc-van-hanh-he-thong-24-7.35C8E1F4.html",
         "url_status": 200,
         "company_official_hotline": "1900.58.58.88",
         "recruiter_email": "contact@careerviet.vn",
