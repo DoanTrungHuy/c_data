@@ -74169,6 +74169,224 @@
     "is_active": true
   },
   {
+    "id": "cv_live_6683937695",
+    "title": "Chuyên gia Dữ liệu và Giải pháp",
+    "company_name": "BIM Group",
+    "description": "Mô tả Công việc\n- Quản trị, duy trì và chuẩn hóa hệ thống dữ liệu danh mục (Master Data) trên SAP ERP.\n- Xây dựng, hoàn thiện các tiêu chuẩn, quy tắc và quy trình quản trị dữ liệu.\n- Kiểm soát chất lượng, tính đầy đủ, nhất quán của dữ liệu giữa SAP ERP và các hệ thống phần mềm liên quan.\n- Khảo sát, phân tích nhu cầu nghiệp vụ, nghiên cứu và đề xuất các giải pháp cải tiến, mở rộng hệ thống SAP ERP.\n- Nghiên cứu, đánh giá khả năng ứng dụng các chức năng, phân hệ và giải pháp mới trên nền tảng SAP.\n- Xây dựng tài liệu yêu cầu nghiệp vụ, đặc tả chức năng và phương án triển khai giải pháp.\n- Trực tiếp thực hiện hoặc phối hợp cấu hình, phát triển, kiểm thử, nghiệm thu và triển khai các giải pháp SAP.\n- Tư vấn cho các đơn vị nghiệp vụ nhằm nâng cao hiệu quả khai thác hệ thống ERP.\n- Tham gia hỗ trợ người dùng, phân tích và xử lý các sự cố nghiệp vụ SAP khi cần thiết.",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ chuyên môn:\nTốt nghiệp đại học trở lên chuyên ngành Công nghệ thông tin, Hệ thống thông tin quản lý, Tài chính - Kế toán, Quản trị doanh nghiệp hoặc các chuyên ngành liên quan.\n2. Kinh nghiệm:\nCó tối thiểu 05 năm kinh nghiệm trong lĩnh vực ERP, trong đó ít nhất 03 năm làm việc với hệ thống SAP.\nCó kinh nghiệm quản trị Master Data, phân tích nghiệp vụ và thiết kế giải pháp ERP.\nƯu tiên ứng viên có kinh nghiệm triển khai, mở rộng các phân hệ SAP S/4HANA Cloud Public Edition.\n3. Kỹ năng:\nPhân tích nghiệp vụ, thiết kế giải pháp và mô hình hóa quy trình.\nQuản trị, chuẩn hóa, phân tích và kiểm soát chất lượng dữ liệu.\nPhân tích, xử lý vấn đề và đánh giá giải pháp công nghệ.\nXây dựng tài liệu nghiệp vụ, thuyết trình và phối hợp triển khai.\n4. Trình độ ngoại ngữ:\nTiếng Anh tốt, có khả năng đọc hiểu tài liệu chuyên ngành, trao đổi nghiệp vụ và làm việc với chuyên gia, đối tác nước ngoài.\n5. Trình độ tin học:\nThành thạo Microsoft Office, Microsoft 365; sử dụng thành",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Power BI / Tableau"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-du-lieu-va-giai-phap.35C8E717.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-du-lieu-va-giai-phap.35C8E717.html",
+    "posted_at": "2026-11-20T13:51:54.742101+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-20T13:51:54.742101+00:00",
+    "last_verified_at": "2026-11-20T13:51:54.742101+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-20T13:51:54.742101+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-du-lieu-va-giai-phap.35C8E717.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên gia Dữ liệu và Giải pháp tại BIM Group (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "20/11/2026",
+      "checked_at": "20/11/2026",
+      "live_h1": "Chuyên gia Dữ liệu và Giải pháp",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-du-lieu-va-giai-phap.35C8E717.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_1695004674",
+    "title": "Chuyên viên Cao cấp Tích hợp hệ thống",
+    "company_name": "BIM Group",
+    "description": "Mô tả Công việc\n- Quản trị kỹ thuật và giám sát hoạt động của hệ thống SAP ERP.\n- Quản lý cấu hình kỹ thuật, tài khoản, phân quyền và các kết nối của hệ thống SAP ERP theo quy trình được phê duyệt.\n- Thiết kế, phát triển, duy trì và nâng cấp các API, luồng tích hợp dữ liệu giữa SAP ERP với các hệ thống phần mềm của Tập đoàn.\n- Giám sát quá trình đồng bộ dữ liệu, phát hiện, phân tích và xử lý các lỗi tích hợp hệ thống.\n- Xây dựng, cải tiến các công cụ giám sát, cảnh báo, truy vết và đối soát dữ liệu tự động.\n- Nghiên cứu, phát triển và triển khai các ứng dụng, giải pháp mở rộng trên nền tảng SAP Business Technology Platform (SAP BTP).\n- Phối hợp với Phòng Phần mềm, Phòng Hệ thống & ATTT và các đối tác trong việc triển khai, tích hợp và đảm bảo an toàn hệ thống.\n- Tham gia kiểm thử kỹ thuật, đánh giá tính tương thích trong các đợt nâng cấp SAP ERP.\n- Xây dựng, cập nhật tài liệu kỹ thuật, tài liệu tích hợp và quy trình vận hành hệ thống.",
+    "requirements": "Yêu Cầu Công Việc\n1. Trình độ chuyên môn:\nTốt nghiệp đại học chuyên ngành Công nghệ thông tin, Kỹ thuật phần mềm, Khoa học máy tính, Hệ thống thông tin hoặc các chuyên ngành liên quan.\n2. Kinh nghiệm:\nCó tối thiểu 03 năm kinh nghiệm phát triển phần mềm hoặc tích hợp hệ thống, trong đó ít nhất 01 năm kinh nghiệm tích hợp với hệ thống SAP.\nCó kinh nghiệm phát triển, quản trị API và đồng bộ dữ liệu giữa các hệ thống phần mềm.\nƯu tiên ứng viên có kinh nghiệm với SAP S/4HANA Cloud, SAP BTP và SAP Integration Suite.\n3. Kỹ năng:\nThiết kế, phát triển, triển khai và vận hành các giải pháp tích hợp hệ thống.\nLập trình, phân tích dữ liệu, truy vết và xử lý lỗi hệ thống.\nPhân tích, thiết kế kiến trúc phần mềm và luồng trao đổi dữ liệu.\nXây dựng tài liệu kỹ thuật và phối hợp triển khai giải pháp.\n4. Trình độ ngoại ngữ:\nTiếng Anh khá, có khả năng đọc hiểu tài liệu kỹ thuật, nghiên cứu công nghệ và trao đổi chuyên môn với các đối tác nước ngoài.\n5. Trình độ tin học:\nThành thạo ít nhất một ngôn ngữ lậ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "SQL Database"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-tich-hop-he-thong.35C8E6F0.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-tich-hop-he-thong.35C8E6F0.html",
+    "posted_at": "2026-11-20T13:51:55.593951+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-20T13:51:55.593951+00:00",
+    "last_verified_at": "2026-11-20T13:51:55.593951+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-20T13:51:55.593951+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-tich-hop-he-thong.35C8E6F0.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên Cao cấp Tích hợp hệ thống tại BIM Group (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "20/11/2026",
+      "checked_at": "20/11/2026",
+      "live_h1": "Chuyên viên Cao cấp Tích hợp hệ thống",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-tich-hop-he-thong.35C8E6F0.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
