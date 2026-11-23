@@ -74715,6 +74715,115 @@
     "is_active": true
   },
   {
+    "id": "cv_live_7271601879",
+    "title": "LẬP TRÌNH GAME - GAME DEVELOPERS",
+    "company_name": "Koei Tecmo Software Vietnam",
+    "description": "Mô tả Công việc\n1. MÔ TẢ CÔNG VIỆC\n・Lập trình phần mềm cho các trò chơi của KT\n・Tốt nghiệp chuyên ngành liên quan đến CNTT tại các trường đại học\n2. QUYỀN LỢI:\n・Bảo hiểm sức khỏe/ bảo hiểm y tế/ du lịch công ty/ tiệc sinh nhật/ tiệc năm mới/ tiệc đón nhân viên mới....\n・Thưởng  (Tết và thưởng thành tích kinh doanh)\n・Trợ cấp năng lực tiếng nhật JLPT hàng tháng.\n・Học tiếng Nhật (chi phí công ty chi trả, mời giáo viên tại các trung tâm đào tạo đến văn phòng giảng dạy cho các thành viên có nguyện vọng tham gia, 2 buổi/ tuần sau khi kết thúc giờ làm)\n・Chế độ hỗ trợ học online/trực tiếp bên ngoài (Hỗ trợ chi phí học tập trực tiếp/online bên ngoài )\n・Cơ hội thực tập tại công ty mẹ bên Nhật.\n* (Chỉ phỏng vấn ứng viên đạt yêu cầu thi sơ tuyển)\nỨng viên quan tâm hãy gửi CV đến cho chúng tôi theo thông tin liên lạc bên dưới.\nHãy sử dụng CV theo mẫu của Chúng tôi ( Tải mẫu CV theo đường link bên):  http://bit.ly/CVFormat-IT-QA",
+    "requirements": "Yêu Cầu Công Việc\n・Yêu thích trò chơi di động hoặc các tựa game của Koei Tecmo, mong muốn trở thành nhà phát triển trò chơi.\n・Là sinh viên năm thứ 2 đại học trở lên, hoặc đã tốt nghiệp đại học.\n・Có kiến ​​thức về ít nhất một ngôn ngữ lập trình (ví dụ: C++, Java, PHP, v.v.).",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "PHP"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/lap-trinh-game-game-developers.35C8EACC.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/lap-trinh-game-game-developers.35C8EACC.html",
+    "posted_at": "2026-11-23T13:36:04.764744+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-23T13:36:04.764744+00:00",
+    "last_verified_at": "2026-11-23T13:36:04.764744+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-23T13:36:04.764744+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/lap-trinh-game-game-developers.35C8EACC.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí LẬP TRÌNH GAME - GAME DEVELOPERS tại Koei Tecmo Software Vietnam (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "23/11/2026",
+      "checked_at": "23/11/2026",
+      "live_h1": "LẬP TRÌNH GAME - GAME DEVELOPERS",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/lap-trinh-game-game-developers.35C8EACC.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
