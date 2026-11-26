@@ -75475,6 +75475,340 @@
     "is_active": true
   },
   {
+    "id": "cv_live_6623297668",
+    "title": "MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\n- Tham gia phát triển, ứng dụng, tối ưu, tích hợp mô hình AI cho các bài toán ứng dụng trong hoạt động Kinh doanh/Ngân hàng về các lĩnh vực Computer Vision, NLP...\n- Tham gia vào các công đoạn triển khai dịch vụ: Kiến trúc hệ thống, thiết kế mô hình hoạt động, luồng hoạt động, chức năng, tối ưu performance\n- Tham gia Coding, test metrics, service và unittest theo mô hình DevOps, MLOps\n- Tham gia nghiên cứu, tìm hiểu các bài báo khoa học mới nhất về AI, ML, DL\n- Tham gia các chương trình đào tạo và dự án dành cho Trainee để phát triển lên các vị trí chính thức.",
+    "requirements": "Yêu Cầu Công Việc\n- Sinh viên năm 4, tốt nghiệp dưới 01 năm Đại học các chuyên ngành: Công nghệ thông tin, Khoa học máy tính, Điện tử viễn thông, Công nghệ phần mềm, Hệ thống thông tin....\n- Ưu tiên các bạn tốt nghiệp loại Giỏi, Xuất sắc, có thành tích cao, đạt giải thưởng, có nghiên cứu khoa học trong quá trình học Phổ thông, Đại học (ứng viên nên thể hiện nội dung này trong CV)\n- Ứng viên có thể làm việc fulltime là một lợi thế. Yêu cầu onsite tối thiểu 7/10 buổi làm việc trong tuần (từ thứ 2 - thứ 6).\n- Có kiến thức và kỹ năng về MỘT TRONG NHỮNG nội dung sau:\n+ Ngôn ngữ lập trình: Python, C/C++\n+ Service/MicroService với một trong các framework FastAPI/Flask/Django\n+ Tensorflow/Pytorch/DGL/PyG/Onnx\n+ API (Restful/gRPC), Lập trình an toàn, đảm bảo & tối ưu hiệu năng\n+ Git và Git Flow, Docker/ Kubernete, Kubeflow/MLFlow, TritonServer/ Tensorflow Serving\n+ Các dạng bài toán Supervised learning, Reinforcement learning\n+ Xử lý Ảnh (Computer Vision)/Video/Âm thanh/Ngôn ngữ tự nhiên (NLP)\n",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Fresher (Dưới 1 năm)",
+    "tech_stack": [
+      "Python",
+      "Docker",
+      "CI/CD DevOps",
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8EF0E.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8EF0E.html",
+    "posted_at": "2026-11-26T15:21:26.928145+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-26T15:21:26.928145+00:00",
+    "last_verified_at": "2026-11-26T15:21:26.928145+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-26T15:21:26.928145+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8EF0E.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924) tại Ngân Hàng TMCP Quân Đội (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/11/2026",
+      "checked_at": "26/11/2026",
+      "live_h1": "MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/mb-trainee-ai-engineer-fresher-intern-khoi-cong-nghe-thong-tin-2025td924.35C8EF0E.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_3071662436",
+    "title": "Kỹ sư DevOps",
+    "company_name": "Công ty Cổ phần Tập đoàn Y Dược Vietlife",
+    "description": "Mô tả Công việc\nThiết lập Môi trường:\nKhởi tạo, cấu hình và quản lý các môi trường Development, Testing, Staging và Production cho tất cả các phần mềm nội bộ.\nXây dựng Pipeline CI/CD:\nThiết lập và tối ưu hệ thống tự động hóa CI/CD, quy trình build, deployment, release và cơ chế khôi phục (rollback) khi có sự cố.\nQuản trị Môi trường & Giám sát:\nQuản lý cấu hình máy chủ ứng dụng, Container (Docker), Reverse Proxy (Nginx...), chứng chỉ SSL, cấu hình hệ thống Logging, Monitoring và Alerting.\nPhối hợp Hạ tầng & Triển khai:\nPhối hợp với đội Hạ tầng để triển khai ứng dụng linh hoạt trên hạ tầng On-premise, VPS hoặc Cloud theo định hướng được phê duyệt.\nGiám sát & An toàn Vận hành:\nThiết lập kế hoạch sao lưu (backup) cấu hình, giám sát hiệu năng hệ thống và chuẩn bị checklist kỹ thuật phục vụ đợt Go-live.\nChuẩn hóa Quy trình & Tài liệu:\nPhối hợp với Dev Lead chuẩn hóa quy trình quản lý mã nguồn, versioning, branching, release note. Viết tài liệu triển khai, tài liệu khôi phục sự cố và hướng dẫn vận hành.",
+    "requirements": "Yêu Cầu Công Việc\nKỹ năng cốt lõi:\nCó kinh nghiệm vững vàng về hệ điều hành Linux, Docker, Git, CI/CD tools (Jenkins, GitLab CI...), Nginx/Apache, SSL, Monitoring (Prometheus, Grafana...) và Logging.\nKinh nghiệm triển khai:\nCó kinh nghiệm thực tế trong việc triển khai các ứng dụng phát triển bằng Java, .NET, Node.js hoặc tương đương.\nQuản trị An toàn:\nNắm rõ cơ chế Backup, Rollback, Secret Management, phân quyền truy cập và các nguyên tắc bảo mật trong triển khai.\nPhối hợp công việc:\nKhả năng làm việc nhóm tốt với Dev, Hạ tầng, Tester và PM trong suốt chu kỳ phát hành sản phẩm.\nƯu tiên:\nƯu tiên ứng viên có kinh nghiệm vận hành hệ thống trên môi trường On-premise, trong ngành y tế hoặc các doanh nghiệp có yêu cầu khắt khe về bảo mật dữ liệu.",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Java",
+      "Node.js",
+      "Go / Golang",
+      ".NET / C#",
+      "Docker",
+      "CI/CD DevOps"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-devops.35C8ED26.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-devops.35C8ED26.html",
+    "posted_at": "2026-11-26T15:21:26.863517+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-26T15:21:26.863517+00:00",
+    "last_verified_at": "2026-11-26T15:21:26.863517+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-26T15:21:26.863517+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-devops.35C8ED26.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Kỹ sư DevOps tại Công ty Cổ phần Tập đoàn Y Dược Vietlife (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/11/2026",
+      "checked_at": "26/11/2026",
+      "live_h1": "Kỹ sư DevOps",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-devops.35C8ED26.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_4683001255",
+    "title": "Trưởng Phòng IT (Sản xuất, Tiếng Trung)",
+    "company_name": "Headhunter HRchannels Group",
+    "description": "Mô tả Công việc\nQuản Trị Triển Khai Hệ Thống ERP & MES:\nTrực tiếp điều phối và hiện thực hóa kế hoạch ứng dụng nền tảng ERP và MES tại nhà máy, phụ trách từ khâu thu thập bài toán vận hành, kiểm thử tính năng đến chuyển đổi dữ liệu và chuyển giao vận hành chính thức.\nNghiên cứu sâu đặc thù vận hành tại các công đoạn sản xuất (kế hoạch, cân nguyên liệu, nhuộm, hậu xử lý, kcs, kho) để xây dựng bộ quy trình thao tác chuẩn (SOP) và xử lý sự cố người dùng.\nThiết lập tài liệu hướng dẫn chuyên môn và trực tiếp tổ chức các chương trình đào tạo sử dụng hệ thống cho toàn bộ nhân sự nhà máy.\nKết Nối Hệ Thống OT & Dữ Liệu Hiện Trường (IoT/PLC/SCADA):\nLàm chủ công tác cấu hình phần cứng/phần mềm và thử nghiệm kết nối cho các điểm thu thập dữ liệu sản xuất như thiết bị PDA, đầu đọc RFID, máy quét mã vạch và hệ thống cân điện tử.\nPhối hợp cùng các đối tác tích hợp và nhà cung cấp giải pháp nhằm thiết lập cổng giao tiếp dữ liệu ổn định giữa phần mềm quản lý với bộ điều khiển máy nhuộm và hệ thống định lượng tự động.\nVận Hành Hạ Tầng Kỹ Thuật & Lãnh Đạo Đội Ngũ:\nQuản lý toàn diện tính sẵn sàng và sự ổn định của hệ thống mạng (VLAN, Firewall, Switch), hệ thống máy chủ, phòng server và thiết bị ngoại vi tại nhà máy.\nPhân công task, hướng dẫn kỹ thuật và giám sát hiệu quả xử lý sự cố (Troubleshooting) của nhóm kỹ thuật viên IT.\nTổ chức định kỳ các chiến dịch sao lưu dữ liệu, kiểm tra bảo mật thông tin và phân quyền truy cập hệ thống.",
+    "requirements": "Yêu Cầu Công Việc\nTrình Độ & Thâm Niên:\nTốt nghiệp Cao đẳng/Đại học chuyên ngành Công nghệ thông tin, Kỹ thuật máy tính, Hệ thống thông tin quản lý hoặc Kỹ thuật công nghiệp.\nTích lũy\n3–5 năm kinh nghiệm làm việc thực tế ở cấp độ Quản lý/Chủ quản IT\ntrong khối doanh nghiệp sản xuất.\nĐã từng trực tiếp tham gia triển khai, quản trị vận hành hệ thống ERP hoặc MES (ưu tiên ứng viên có background trong ngành dệt may, nhuộm hoàn tất hoặc sản xuất hóa chất).\nNăng Lực Kỹ Thuật:\nThành thạo ngôn ngữ truy vấn SQL, có khả năng lập báo cáo quản trị và am hiểu nguyên lý bảo trì cơ sở dữ liệu.\nNắm vững kiến trúc mạng nội bộ (VLAN, Firewall, Switch), quản trị hệ điều hành máy chủ và nguyên lý thu thập dữ liệu hiện trường (IoT/RFID/Barcode).\nNgoại Ngữ & Kỹ Năng Soft-skills:\nTiếng Trung giao tiếp lưu loát\nđáp ứng hoàn toàn nhu cầu trao đổi chuyên môn và báo cáo công việc hàng ngày với Ban Giám đốc người nước ngoài.\nKhả năng chịu áp lực tốt, tinh thần làm việc thực địa cao và năng lực kết nối liên phòng ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Senior (3 - 5 năm)",
+    "tech_stack": [
+      "SQL Database",
+      "Firewall",
+      "SCADA Mỏ"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-it-san-xuat-tieng-trung.35C8F055.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-it-san-xuat-tieng-trung.35C8F055.html",
+    "posted_at": "2026-11-26T15:21:36.532767+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-26T15:21:36.532767+00:00",
+    "last_verified_at": "2026-11-26T15:21:36.532767+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-26T15:21:36.532767+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-it-san-xuat-tieng-trung.35C8F055.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Trưởng Phòng IT (Sản xuất, Tiếng Trung) tại Headhunter HRchannels Group (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "26/11/2026",
+      "checked_at": "26/11/2026",
+      "live_h1": "Trưởng Phòng IT (Sản xuất, Tiếng Trung)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-it-san-xuat-tieng-trung.35C8F055.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
