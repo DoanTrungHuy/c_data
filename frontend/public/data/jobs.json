@@ -76484,6 +76484,222 @@
     "is_active": true
   },
   {
+    "id": "cv_live_6655852741",
+    "title": "Front PM/BrSE IT",
+    "company_name": "CÔNG TY TNHH JOB HOUSE",
+    "description": "Mô tả Công việc\nChi tiết công việc\nPhân tích yêu cầu nghiệp vụ, thực hiện định nghĩa yêu cầu (要件定義) và thiết kế cơ bản (基本設計) cùng khách hàng Nhật\nXây dựng lòng tin với khách hàng, tư vấn giải pháp phù hợp với nghiệp vụ, đặc biệt trong lĩnh vực xây dựng/hạ tầng\nSử dụng công cụ công ty cấp (bao gồm license AI) để tạo tài liệu thiết kế, prototype, giúp khách hàng xác nhận yêu cầu sớm\nRà soát, kiểm định chất lượng các tài liệu và output do AI tạo ra trước khi chuyển cho khách hàng hoặc team phát triển\nLàm cầu nối giữa khách hàng và team phát triển: truyền đạt yêu cầu, giải đáp Q&A, quản lý thay đổi yêu cầu\nHỗ trợ quản lý tiến độ, kiểm thử nghiệm thu (受入テスト) và báo cáo cho khách hàng\nCó thể đi công tác Nhật Bản ngắn hạn theo dự án\nQuyền lợi được hưởng\nMức lương: 35,000,000 ~ 80,000,000 VNĐ (trao đổi cụ thể khi phỏng vấn)\nĐược cấp license AI và đào tạo ứng dụng AI vào quy trình Front PM/BrSE IT\nLộ trình chuyển đổi rõ ràng cho ứng viên từ ngành Xây dựng sang IT\nCơ hội onsite Nhật Bản\nNgày nghỉ lễ theo quy định của Việt Nam và 4 ngày nghỉ hè của công ty\nThời gian làm việc 8:00 đến 17:00 từ thứ 2 đến thứ 6\nThưởng dự án\nTham gia bảo hiểm xã hội đầy đủ cho nhân viên trên tổng lương. Ngoài ra có thêm gói bảo hiểm sức khỏe mở rộng và hỗ trợ gói tập sức khỏe cho nhân viên\nHỗ trợ học phí cho các khóa học phục vụ cho công việc (khóa học tiếng Nhật, khóa học kỹ thuật, khóa học phần mềm…)\nReview lương: 1 lần/ năm, thưởng hè + thưởng Tết…\nDu lịch công ty, teambuilding, tiệc sinh nhật hàng thán",
+    "requirements": "Yêu Cầu Công Việc\nTừ\n5 năm kinh nghiệm\ntrong ngành IT hoặc Xây dựng/hạ tầng, trong đó có kinh nghiệm làm việc trực tiếp với khách hàng Nhật (ứng viên 3–4 năm có thế mạnh về domain xây dựng vẫn có thể ứng tuyển)\nTiếng Nhật N2 trở lên, giao tiếp tốt\nChào đón ứng viên ngành Xây dựng muốn chuyển sang làm nghiệp vụ Front PM/BRSE IT\nCó kiến thức nghiệp vụ xây dựng/hạ tầng (thi công, dự toán, quản lý công trình, BIM/CAD…)\nĐã sử dụng các công cụ AI (ChatGPT, Claude, Copilot…) trong công việc\nCó kinh nghiệm PM/PL hoặc làm việc với team offshore",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/front-pm-brse-it.35C8F166.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/front-pm-brse-it.35C8F166.html",
+    "posted_at": "2026-11-27T07:07:59.069362+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-27T07:07:59.069362+00:00",
+    "last_verified_at": "2026-11-27T07:07:59.069362+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-27T07:07:59.069362+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/front-pm-brse-it.35C8F166.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Front PM/BrSE IT tại CÔNG TY TNHH JOB HOUSE (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "27/11/2026",
+      "checked_at": "27/11/2026",
+      "live_h1": "Front PM/BrSE IT",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/front-pm-brse-it.35C8F166.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9402884033",
+    "title": "IT STAFF (internships)",
+    "company_name": "Linfox Logistics Vietnam",
+    "description": "Mô tả Công việc\nQuản lý, bảo trì hệ thống máy tính, mạng nội bộ và thiết bị văn phòng.\nHỗ trợ nhân viên xử lý sự cố kỹ thuật hằng ngày.\nTham gia triển khai, nâng cấp phần mềm và hệ thống.\nĐảm bảo an toàn thông tin, dữ liệu của công ty.",
+    "requirements": "Yêu Cầu Công Việc\nTốt nghiệp chuyên ngành\nCông nghệ Thông tin\nhoặc\nliên quan\n.\nKiến thức cơ bản về mạng, phần cứng, phần mềm văn phòng.\nKỹ năng giao tiếp và xử lý tình huống tốt.\nƯu tiên ứng viên có kinh nghiệm IT Helpdesk/Support.\nSinh viên năm 3 hoặc năm 4 có cơ hội thực tập tại môi trường Công ty Logistics nước ngoài chuyên nghiệp",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "IT Support L1/L2"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/it-staff-internships.35C8F131.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/it-staff-internships.35C8F131.html",
+    "posted_at": "2026-11-27T07:08:04.931821+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-27T07:08:04.931821+00:00",
+    "last_verified_at": "2026-11-27T07:08:04.931821+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-27T07:08:04.931821+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-staff-internships.35C8F131.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí IT STAFF (internships) tại Linfox Logistics Vietnam (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "27/11/2026",
+      "checked_at": "27/11/2026",
+      "live_h1": "IT STAFF (internships)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/it-staff-internships.35C8F131.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
