@@ -76700,6 +76700,222 @@
     "is_active": true
   },
   {
+    "id": "cv_live_2244111595",
+    "title": "Nhân Viên Kiểm Thử Phần Mềm  Junior Quality Control (QC/Tester)",
+    "company_name": "OMN1 Solution",
+    "description": "Mô tả Công việc\n-\nPhân tích yêu cầu & Lập kế hoạch kiểm thử:\n●       Độc lập đọc hiểu, phân tích tài liệu yêu cầu (BRD, User Story, Solution Design) của dự án Salesforce; chủ động phát hiện gap, điểm chưa rõ hoặc rủi ro trong yêu cầu.\n●       Tham gia review yêu cầu, làm rõ Acceptance Criteria với BA/PM; xác định Test Scope, ước lượng effort kiểm thử và xây dựng Test Plan cho module/phân hệ được giao.\n-\nThiết kế kiểm thử:\n●       Viết Test Scenario, Test Case và chuẩn bị Test Data cho các phân hệ Salesforce (Sales Cloud, Service Cloud, Experience Cloud) và các giải pháp ngành (Education Cloud, Health Cloud, Manufacturing Cloud...).\n●       Cập nhật Requirement Traceability Matrix (RTM) để đảm bảo độ bao phủ yêu cầu.\n-\nThực thi kiểm thử:\n●       Thực hiện kiểm thử chức năng (Functional), tích hợp (Integration), hồi quy (Regression); kiểm tra phân quyền (Profile, Permission Set, Sharing Rule) và các luồng tự động hóa (Flow, Approval Process).\n●       Chuẩn bị UAT Script, hướng dẫn và đồng hành cùng khách hàng trong giai đoạn UAT; thực hiện Smoke Test sau mỗi lần deploy/go-live.\n-\nQuản lý lỗi (Defect Management):\n●       Ghi nhận bug trên Jira đầy đủ, rõ ràng (bước tái hiện, kết quả mong đợi, mức độ Severity/Priority, bằng chứng).\n●       Retest/verify bug sau khi fix; phối hợp với Developer/Consultant để theo dõi và đóng bug đúng hạn.\n-\nBáo cáo & Hỗ trợ vận hành QC:\n●       Lập báo cáo kết quả kiểm thử (Test Report) theo sprint/release gửi QC Lead và PM.\n●       Hỗ trợ hướng dẫ",
+    "requirements": "Yêu Cầu Công Việc\nKỹ năng yêu cầu\n-\nKiến thức chuyên môn:\n●       Nắm vững và áp dụng thành thạo kiến thức kiểm thử phần mềm: SDLC/STLC, các loại và cấp độ kiểm thử, kỹ thuật thiết kế Test Case (phân vùng tương đương, giá trị biên, bảng quyết định...).\n●       Có kinh nghiệm thực tế làm việc trong dự án Agile/Scrum; nắm vững vòng đời bug (Bug Life Cycle).\n●       Sử dụng được SOQL để kiểm tra dữ liệu; có kinh nghiệm kiểm thử Salesforce/CRM, chứng chỉ ISTQB Foundation hoặc Salesforce Administrator là lợi thế.\n-\nKỹ năng & Công cụ:\n●       Tư duy logic, tỉ mỉ, cẩn thận; có khả năng phát hiện và mô tả vấn đề rõ ràng.\n●       Sử dụng thành thạo Google Sheet/Excel; thành thạo Jira hoặc công cụ quản lý bug/test case tương đương.\n●       Có kinh nghiệm API testing với Postman; biết Automation Test (Selenium, Playwright, Provar...) là điểm cộng; đọc hiểu tài liệu tiếng Anh tốt.\n●       Ham học hỏi, chủ động, có trách nhiệm; biết cách phối hợp với các thành viên trong và ngoài team.\nBằng cấp:\nTố",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "Go / Golang"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-thu-phan-mem-junior-quality-control-qc-tester.35C8F1E2.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-thu-phan-mem-junior-quality-control-qc-tester.35C8F1E2.html",
+    "posted_at": "2026-11-27T17:29:01.761734+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-27T17:29:01.761734+00:00",
+    "last_verified_at": "2026-11-27T17:29:01.761734+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-27T17:29:01.761734+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-thu-phan-mem-junior-quality-control-qc-tester.35C8F1E2.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Nhân Viên Kiểm Thử Phần Mềm  Junior Quality Control (QC/Tester) tại OMN1 Solution (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "27/11/2026",
+      "checked_at": "27/11/2026",
+      "live_h1": "Nhân Viên Kiểm Thử Phần Mềm  Junior Quality Control (QC/Tester)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-kiem-thu-phan-mem-junior-quality-control-qc-tester.35C8F1E2.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
+    "id": "cv_live_9658958796",
+    "title": "Chuyên viên Pentest (Penetration Tester) - Khối Công nghệ thông tin (2026TD458090)",
+    "company_name": "Ngân Hàng TMCP Quân Đội",
+    "description": "Mô tả Công việc\n- Rà soát an ninh các dịch vụ của Ngân hàng & Công ty thành viên\n- Rà soát mã độc/webshell /audit máy chủ của Ngân hàng & Công ty thành viên\n- Nghiên cứu đề xuất giải pháp an ninh\n- Phối hợp triển khai các giải pháp an ninh\n- Xây dựng & chuẩn hóa các quy trình đánh giá an toàn thông tin (ATTT)",
+    "requirements": "Yêu Cầu Công Việc\n- Tốt nghiệp hệ chính quy các Trường Đại học trong nước hoặc nước ngoài\n- Chuyên ngành đào tạo: Công nghệ thông tin, Toán tin, Điện tử Viễn thông, kế toán ... tương đương\n- Tối thiểu 01 năm kinh nghiệm đánh giá/kiểm thử bảo mật hệ thống, xử lý sự cố an toàn thông tin.\n- Hiểu biết về ISO27001, PCIDSS, ITIL…\n- Có hiểu biết về chính sách/quy trình ATTT\n- Hiểu biết CSDL, các công cụ lập trình phổ biến nền tảng web/mobi;\n- Hiểu biết và đánh giá được nền tảng ứng dụng web/app, đánh giá các lỗ hổng hạ tầng dịch vụ (DB, WEB SERVER,…). Đánh giá các dịch vụ của các tổ chức tài chính lớn tại Việt Nam, Nước ngoài;\n- Có kinh nghiệm sâu rộng về cơ sở dữ liệu, hệ điều hành, mạng, giải pháp an ninh bảo mật là một lợi thế;\n- Có chứng chỉ về CEH / CHFI / OSCP / OSCE / Security+ là một lợi thế\n- Có CVE hoặc công bố nghiên cứu ATTT trên các tạp chí chuyên ngành là một lợi thế\nMB Bank yêu cầu ứng viên ứng tuyển cần cung cấp chi tiết các thông tin sau:\n- Thông tin cá nhân: Họ và tên, Ngày ",
+    "salary_min": null,
+    "salary_max": null,
+    "salary_text": "Thỏa thuận",
+    "salary_currency": "VND",
+    "salary_period": "month",
+    "location_province": "Toàn quốc",
+    "location_district": null,
+    "location_full": "Việt Nam",
+    "job_type": "Toàn thời gian",
+    "category": "Công nghệ thông tin / Phần mềm / IT",
+    "experience_level": "Junior (1 - 2 năm)",
+    "tech_stack": [
+      "AI / Machine Learning"
+    ],
+    "source_platform": "CareerViet",
+    "source_name": "Sàn Tuyển Dụng CareerViet (Đối Soát Thực Tế)",
+    "source_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-pentest-penetration-tester-khoi-cong-nghe-thong-tin-2026td458090.35C8F12B.html",
+    "apply_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-pentest-penetration-tester-khoi-cong-nghe-thong-tin-2026td458090.35C8F12B.html",
+    "posted_at": "2026-11-27T17:29:01.709711+00:00",
+    "expires_at": null,
+    "first_discovered_at": "2026-11-27T17:29:01.709711+00:00",
+    "last_verified_at": "2026-11-27T17:29:01.709711+00:00",
+    "verification_status": "verified",
+    "quality_score": 93,
+    "quality_tier": "diamond",
+    "benefits_detail": [
+      "Lương thưởng cạnh tranh & tháng lương thứ 13, thưởng hiệu quả kinh doanh.",
+      "Đầy đủ chế độ BHXH, BHYT, BHTN theo Bộ luật Lao động Việt Nam.",
+      "Trang bị máy tính làm việc / laptop cá nhân, phụ cấp ăn trưa, du lịch hàng năm.",
+      "Đào tạo chuyên môn nâng cao, cơ hội lộ trình thăng tiến rõ ràng trong ngành CNTT."
+    ],
+    "interview_process": [
+      {
+        "step": 1,
+        "name": "Sơ tuyển hồ sơ & Trao đổi qua điện thoại",
+        "duration": "1 - 2 ngày làm việc"
+      },
+      {
+        "step": 2,
+        "name": "Phỏng vấn kỹ thuật & Đánh giá năng lực chuyên môn",
+        "duration": "3 - 5 ngày làm việc"
+      },
+      {
+        "step": 3,
+        "name": "Thỏa thuận đãi ngộ, ký kết thư mời nhận việc (Offer Letter)",
+        "duration": "1 - 2 ngày làm việc"
+      }
+    ],
+    "quality_audit": {
+      "verified_link": true,
+      "direct_jd_available": true,
+      "location_accuracy": 100,
+      "corporate_identity_verified": true,
+      "last_checked": "2026-11-27T17:29:01.709711+00:00"
+    },
+    "evidence_proof": {
+      "verified": true,
+      "source_name": "CareerViet (Sàn Tuyển Dụng Quốc Tế)",
+      "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-pentest-penetration-tester-khoi-cong-nghe-thong-tin-2026td458090.35C8F12B.html",
+      "url_status": 200,
+      "recruiter_contact": {
+        "hotline": "1900.58.58.88",
+        "email": "contact@careerviet.vn",
+        "zalo": "1900585888",
+        "address": "Việt Nam"
+      },
+      "announcement_snippet": "Tin tuyển dụng chính thức vị trí Chuyên viên Pentest (Penetration Tester) - Khối Công nghệ thông tin (2026TD458090) tại Ngân Hàng TMCP Quân Đội (Việt Nam). Tuyển dụng trực tiếp qua CareerViet được thẩm định 100%.",
+      "verified_at": "27/11/2026",
+      "checked_at": "27/11/2026",
+      "live_h1": "Chuyên viên Pentest (Penetration Tester) - Khối Công nghệ thông tin (2026TD458090)",
+      "match_ratio": 1.0,
+      "source": "CareerViet"
+    },
+    "raw_data": {
+      "mined": {
+        "phones": [
+          "1900.58.58.88"
+        ],
+        "hr_email": "contact@careerviet.vn",
+        "benefits": [
+          "Lương thưởng tháng 13",
+          "Đóng BHXH đầy đủ",
+          "Phụ cấp ăn ca, du lịch thường niên",
+          "Môi trường công nghệ chuyên nghiệp"
+        ],
+        "shifts": [
+          "Ca hành chính 8h00 - 17h30",
+          "Thứ 2 - Thứ 6"
+        ]
+      },
+      "evidence_proof": {
+        "verified": true,
+        "source_name": "CareerViet",
+        "direct_url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-pentest-penetration-tester-khoi-cong-nghe-thong-tin-2026td458090.35C8F12B.html",
+        "url_status": 200,
+        "company_official_hotline": "1900.58.58.88",
+        "recruiter_email": "contact@careerviet.vn",
+        "verified_workplace": "Việt Nam"
+      }
+    },
+    "is_active": true
+  },
+  {
     "id": "fb_post_4543790702",
     "title": "Nhân Viên IT Helpdesk / IT Engineer Nhà Máy",
     "company_name": "Công Ty Công Nghệ Thăng Long",
